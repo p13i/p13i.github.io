@@ -11,7 +11,7 @@ categories:
 
 ---
 
-**Completed project**: [![GitHub](https://github.com/p13i/pytouch/tree/v0.0.1)
+**Completed project**: [![GitHub](https://github.com/favicon.ico)](https://github.com/p13i/pytouch/tree/v0.0.1)
 
 Unix has a command `touch` which is commonly used to create files. Let's create a Python program with similar functionality that can be called as if it were a built-in Unix command.
 

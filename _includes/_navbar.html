@@ -1,0 +1,22 @@
+<nav class="navbar navbar-toggleable-sm fixed-top navbar-light bg-faded">
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="container">
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link {% if page.url == "/" %}active{% endif %}" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% if page.url contains "/posts/" %}active{% endif %}" href="/posts/">Posts</a>
+                </li>
+            </ul>
+            <span class="navbar-text">
+                {{ page.subtitle }}
+            </span>
+        </div>
+    </div>
+</nav>

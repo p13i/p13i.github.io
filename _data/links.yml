@@ -1,0 +1,11 @@
+-   name: LinkedIn
+    url: https://www.linkedin.com/in/pramodkotipalli
+    logo_url: /static/images/linkedin.png
+
+-   name: GitHub
+    url: https://github.com/k-pramod
+    logo_url: /static/images/github.png
+
+-   name: Resume
+    url: /static/resumes/Pramod_Kotipalli_resume.pdf
+    logo_url: /static/images/pdf.png

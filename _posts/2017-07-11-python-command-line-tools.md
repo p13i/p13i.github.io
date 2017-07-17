@@ -140,4 +140,4 @@ Run `pip uninstall pytouch` and our tool is removed.
 
 # Further Steps
 
-In a soon to come future post, we'll dive into testing tools that will ensure our project can work with any version of Python.
+In a soon to come future post, we'll dive into testing tools that will ensure our project can work with any version of Python. **2017/07/16 Edit**: See [Testing Python Packages]({% post_url 2017-07-16-testing-python-packages %}).

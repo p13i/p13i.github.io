@@ -181,7 +181,7 @@ install: pip install tox-travis
 script: tox
 ```
 
-Commit your changes and upload to your own git repository (or simply [fork](https://github.com/p13i/pytouch/fork) the existing one). After setting up your repository with Travis, you'll [see all our tests running](https://travis-ci.org/p13i/pytouch) on all six of these interpreters.
+Commit your changes and upload to your own git repository (or simply [fork](https://github.com/p13i/pytouch/fork) the existing one). After setting up your repository with Travis, you'll [see all our tests running](https://travis-ci.org/p13i/pytouch) on all six of these interpreters. From Travis, you can also get a status badge that will help our users know that our tool works properly: [![Build Status](https://travis-ci.org/p13i/pytouch.svg?branch=master)](https://travis-ci.org/p13i/pytouch)
 
 Best of luck writing your own Python-based command line tools!
 

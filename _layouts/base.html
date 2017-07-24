@@ -44,7 +44,11 @@
 {% include _navbar.html %}
 
 <div class="container">
-    {{ content }}
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
+            {{ content }}
+        </div>
+    </div>
 </div>
 
 {% include _footer.html %}

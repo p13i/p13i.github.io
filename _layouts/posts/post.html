@@ -2,29 +2,29 @@
 layout: base
 ---
 
-        <h1>{{ page.title }}</h1>
+<h1>{{ page.title }}</h1>
 
-        <p>
-            {{ page.author }}
-            <span class="text-muted font-italic">{{ page.date | date_to_string }}</span>
-        </p>
+<p>
+    {{ page.author }}
+    <span class="text-muted font-italic">{{ page.date | date_to_string }}</span>
+</p>
 
-        <hr/>
+<hr/>
 
-        {% for category in page.categories %}
-        <span class="badge badge-pill badge-primary">{{ category }}</span>
-        {% endfor %}
+{% for category in page.categories %}
+<span class="badge badge-pill badge-primary">{{ category }}</span>
+{% endfor %}
 
-        <hr/>
+<hr/>
 
-        {{ content }}
+{{ content }}
 
-        <hr/>
+<hr/>
 
-        ###
+###
 
-        <br/>
+<br/>
 
-        <hr/>
+<hr/>
 
-        <p>See an issue or do you think this post can be improved? Please submit an <a href="https://github.com/p13i/p13i.github.io/issues/new/" target="_blank">Issue</a> or <a href="https://github.com/p13i/p13i.github.io/pulls" target="_blank">Pull Request</a> and I'll be sure to cite your contribution.</p>
+<p>See an issue or do you think this post can be improved? Please submit an <a href="https://github.com/p13i/p13i.github.io/issues/new/" target="_blank">Issue</a> or <a href="https://github.com/p13i/p13i.github.io/pulls" target="_blank">Pull Request</a> and I'll be sure to cite your contribution.</p>

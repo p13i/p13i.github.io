@@ -11,6 +11,9 @@
                     <a class="nav-link {% if page.url == "/" %}active{% endif %}" href="/">Home</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link {% if page.url contains "/resume/" %}active{% endif %}" href="/resume/">Resume</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link {% if page.url contains "/portfolio/" %}active{% endif %}" href="/portfolio/">Portfolio</a>
                 </li>
                 <li class="nav-item">

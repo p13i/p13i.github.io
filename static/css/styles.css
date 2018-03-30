@@ -1,0 +1,11 @@
+body {
+    padding: 70px 0 70px 0;
+}
+
+.icons img {
+    padding: 0.5em;
+}
+
+.icons a {
+    text-decoration: none;
+}

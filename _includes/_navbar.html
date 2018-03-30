@@ -1,27 +1,36 @@
-<nav class="navbar navbar-toggleable-sm fixed-top navbar-light bg-faded">
-    <button class="navbar-toggler" type="button" data-toggle="collapse"
-            data-target="#navbar">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="/">Pramod Kotipalli</a>
+        <button class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="collapse navbar-collapse" id="navbar">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link {% if page.url == "/" %}active{% endif %}" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/static/resumes/Pramod_Kotipalli_resume.pdf" target="_blank">Resume</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/static/portfolio/Pramod_Kotipalli_portfolio.pdf" target="_blank">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link {% if page.url contains "/posts/" %}active{% endif %}" href="/posts/">Posts</a>
-            </li>
-        </ul>
-        <span class="navbar-text">
-            {{ page.subtitle }}
-        </span>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/static/resumes/Pramod_Kotipalli_resume.pdf" target="_blank">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/static/portfolio/Pramod_Kotipalli_portfolio.pdf" target="_blank">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {% if page.url contains '/posts/' %}active{% endif %}" href="/posts/">Posts</a>
+                </li>
+            </ul>
+
+            <span class="navbar-text">
+                {{ page.subtitle }}
+            </span>
+
+        </div>
     </div>
-
 </nav>

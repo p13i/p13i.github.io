@@ -3,7 +3,7 @@
 
 # Basic information
 title: Pramod Kotipalli
-subtitle: Engineer, Researcher, CS student
+subtitle: Engineer, Researcher, CS Student
 
 # This is the style used by Jekyll for blug post URLs
 permalink: "/posts/:year/:month/:title/"

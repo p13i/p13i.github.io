@@ -1,11 +1,37 @@
+
 body {
-    padding: 70px 0 70px 0;
+    margin: 1em auto;
+    max-width: 350px;
+    line-height: 1.6;
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.icons img {
-    padding: 0.5em;
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
 }
 
-.icons a {
+li {
+    display: inline;
+    text-transform: uppercase;
+    color: gray;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    font-style: italic;
+    font-size: 16px;
+}
+
+li a {
     text-decoration: none;
+}
+
+li a:link, li a:visited {
+    color: black;
+}
+
+li a:hover {
+    color: gray;
 }

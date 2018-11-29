@@ -1,7 +1,8 @@
 
 body {
-    margin: 1em auto;
-    max-width: 350px;
+    margin: 40px auto;
+    max-width: 600px;
+    padding: 0 10px;
     line-height: 1.6;
     font-size: 18px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;

@@ -1,4 +1,4 @@
 # p13i.github.io
 Personal website and technical blog
 
-[http://pramodk.net/](http://pramodk.net/)
+[http://p13i.io/](http://p13i.io/)

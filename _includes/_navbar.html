@@ -1,0 +1,15 @@
+<div class="navbar">
+
+    <ul class="brand">
+        <li><a href="/">{% if page.url != "/" %}Pramod Kotipalli{% endif %}</a></li>
+    </ul>
+    
+    <ul class="links">
+
+        {% for link in site.data.navbar %}
+            <li><a href="{{ link.href }}" target="{{ link.target }}">{{ link.display }}</a></li>
+        {% endfor %}
+
+    </ul>
+
+</div>

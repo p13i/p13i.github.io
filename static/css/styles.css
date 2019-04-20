@@ -1,4 +1,3 @@
-
 body {
     margin: 40px auto;
     max-width: 600px;
@@ -8,14 +7,17 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-ul {
+.navbar {
+    overflow: hidden;
+}
+
+.navbar ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    float: right;
 }
 
-li {
+.navbar ul li {
     display: inline;
     text-transform: uppercase;
     color: gray;
@@ -25,14 +27,29 @@ li {
     font-size: 16px;
 }
 
-li a {
+.navbar ul li a {
     text-decoration: none;
 }
 
-li a:link, li a:visited {
+.navbar ul li a:link, .navbar ul li a:visited {
     color: black;
 }
 
-li a:hover {
+.navbar ul li a:hover {
     color: gray;
+}
+
+.navbar ul.brand {
+    float: left;
+}
+
+.navbar ul.links {
+    float: right;
+}
+
+.categories span.pill {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 0.1em .6em;
+    border-radius: 10rem;
 }

@@ -1,0 +1,15 @@
+- href: /static/cv/Pramod_Kotipalli_cv.pdf
+  target: _blank
+  display: CV
+
+- href: /static/resume/Pramod_Kotipalli_resume.pdf
+  target: _blank
+  display: Resume
+
+- href: /static/portfolio/Pramod_Kotipalli_portfolio.pdf
+  target: _blank
+  display: Portfolio
+
+- href: /posts/
+  target: _self
+  display: posts

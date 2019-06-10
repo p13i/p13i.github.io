@@ -15,7 +15,20 @@ layout: base
 <hr/>
 
 <div class="row post">
-    <div class="col-10">
+    <div class="col-12 col-lg-3">
+
+        <p class="subtitle">{{ page.subtitle }}</p>
+
+        <hr/>
+
+        <p class="date">{{ page.date | date_to_string }}</p>
+
+        <hr/>
+
+        {% include _post_tags.html post=page %}
+    </div>
+
+    <div class="col-12 col-lg-9">
 
         <div class="post">
 
@@ -33,18 +46,5 @@ layout: base
 
         </div>
 
-    </div>
-
-    <div class="col-2">
-
-        <p class="subtitle">{{ page.subtitle }}</p>
-
-        <hr/>
-
-        <p class="date">{{ page.date | date_to_string }}</p>
-
-        <hr/>
-
-        {% include _post_tags.html post=page %}
     </div>
 </div>

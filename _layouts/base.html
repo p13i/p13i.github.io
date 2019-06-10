@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    {% if page.title and page.subtitle %}
+    <title>{{ page.title }} | {{ page.subtitle }}</title>
+    {% elsif page.title %}
+    <title>{{ page.title }}</title>
+    {% else %}
+    <title>Pramod Kotipalli</title>
+    {% endif %}
+
+    <link rel="stylesheet" href="/static/css/highlights.css"/>
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/static/css/styles.css"/>
+    <link rel="stylesheet" href="/static/css/fontawesome.all.min.css"/>
+
+</head>
+<body>
+
+{% include _navbar.html %}
+
+<div class="container content">
+    {{ content }}
+</div>
+
+{% include _google_analytics.html %}
+
+</body>
+</html>

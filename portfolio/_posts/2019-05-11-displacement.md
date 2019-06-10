@@ -2,7 +2,7 @@
 layout: posts/post
 author: Pramod Kotipalli
 title:  Displacement
-subtitle: Learninga about displacement textures in Octane Render
+subtitle: Learning about displacement textures in Octane Render
 tags:
     - cinema-4d
     - octane-render

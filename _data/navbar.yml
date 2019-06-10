@@ -1,15 +1,23 @@
-- href: /static/cv/Pramod_Kotipalli_cv.pdf
-  target: _blank
-  display: CV
-
-- href: /static/resume/Pramod_Kotipalli_resume.pdf
-  target: _blank
-  display: Resume
-
-- href: /static/portfolio/Pramod_Kotipalli_portfolio.pdf
-  target: _blank
+- href: /portfolio/
+  target: _self
   display: Portfolio
 
 - href: /posts/
   target: _self
-  display: posts
+  display: Posts
+
+#- href: /tags/
+#  target: _self
+#  display: Tags
+
+- href: /static/cv/Pramod_Kotipalli_cv.pdf
+  target: _blank
+  display: CV (PDF)
+
+- href: /static/resume/Pramod_Kotipalli_resume.pdf
+  target: _blank
+  display: Resume (PDF)
+
+- href: /static/portfolio/Pramod_Kotipalli_portfolio.pdf
+  target: _blank
+  display: Portfolio (PDF)

@@ -1,0 +1,10 @@
+
+{% if include.post.categories %}
+{% for category in include.post.categories %}
+<a href="/{{ category }}/" class="badge badge-dark">{{ category | upcase }}</a>
+{% endfor %}
+{% endif %}
+
+{% for tag in include.post.tags %}
+<a href="/tags/#{{ tag }}" class="badge badge-light">{{ tag | replace: '-', ' ' | upcase }}</a>
+{% endfor %}

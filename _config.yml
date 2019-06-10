@@ -15,6 +15,7 @@ markdown: kramdown
 gems:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-redirect-from
 
 # Only allow the static folder to be accessed when the site is running
 include:

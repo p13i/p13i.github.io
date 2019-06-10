@@ -1,0 +1,24 @@
+---
+layout: base
+---
+
+<div class="row">
+    <div class="col-12">
+        <h1>Portfolio</h1>
+
+        <div class="row">
+
+            {% for post in site.posts %}
+
+            {% if post.categories contains 'portfolio' %}
+
+            <div class="col-4">
+                <img src="{{ post.thumbnail_url }}" alt="..." class="img-thumbnail">
+            </div>
+
+            {% endif %}
+
+            {% endfor %}
+        </div>
+    </div>
+</div>

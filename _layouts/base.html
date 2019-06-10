@@ -8,10 +8,12 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
-    {% if page.title %}
+    {% if page.title and page.subtitle %}
     <title>{{ page.title }} | {{ page.subtitle }}</title>
+    {% elsif page.title %}
+    <title>{{ page.title }}</title>
     {% else %}
-    <title>{{ site.title }} | {{ site.subtitle }}</title>
+    <title>Pramod Kotipalli</title>
     {% endif %}
 
     <link rel="stylesheet" href="/static/css/highlights.css"/>

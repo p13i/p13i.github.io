@@ -1,10 +1,12 @@
 - href: /portfolio/
+  category: portfolio
   target: _self
   display: Portfolio
 
-- href: /posts/
+- href: /technical-writing/
+  category: technical-writing
   target: _self
-  display: Posts
+  display: Technical Writing
 
 #- href: /tags/
 #  target: _self

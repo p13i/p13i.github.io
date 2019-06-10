@@ -1,59 +1,30 @@
 ---
-layout:   base
-title:    Tags
+layout: base
+title: Tags
 ---
 
-{% comment %}
-BASED ON: https://github.com/codinfox/codinfox-lanyon/blob/master/blog/tag.html
-{% endcomment %}
-
-{% comment%}
-Here we generate all the tags.
-{% endcomment%}
-
-{% assign rawtags = "" %}
-{% for post in site.posts %}
-{% assign ttags = post.tags | join:'|' | append:'|' %}
-{% assign rawtags = rawtags | append:ttags %}
-{% endfor %}
-
-{% assign rawtags = rawtags | split:'|' | sort %}
-
-{% assign tags = "" %}
-
-{% for tag in rawtags %}
-{% if tag != "" %}
-
-{% if tags == "" %}
-{% assign tags = tag | split:'|' %}
-{% endif %}
-
-{% unless tags contains tag %}
-{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
-{% endunless %}
-{% endif %}
-{% endfor %}
-
+{% include _get_all_tags.html %}
 
 <div class="row">
-    <div class="col-2"></div>
-    <div class="col-8">
+    <div class="col-12">
 
         <div class="tags">
 
+            <hr/>
+
             <h1>{{ page.title }}</h1>
 
-            <br/>
+            <hr/>
 
-            <p>
-                {% for tag in tags %}
-                <a href="#{{ tag | slugify }}" class="badge badge-light"> {{ tag | replace: '-', ' ' | upcase }} </a>
-                {% endfor %}
+            {% for tag in tags %}
+            <a href="#{{ tag | slugify }}" class="badge badge-light"> {{ tag | replace: '-', ' ' | upcase }} </a>
+            {% endfor %}
 
+            <hr/>
                 {% for tag in tags %}
             <h2 id="{{ tag | slugify }}">
                 <span class="tag-title-badge badge-light">{{ tag | replace: '-', ' ' | upcase }}</span>
-                <small><a href="#{{ tag | slugify }}"><i class="fas fa-link"></i></a></small>
+                <small><a href="/tags/#{{ tag | slugify }}"><i class="fas fa-link"></i></a></small>
             </h2>
             <ul class="list-group list-group-flush">
                 {% for post in site.posts %}
@@ -76,6 +47,5 @@ Here we generate all the tags.
             {% endfor %}
 
         </div>
-        <div class="col-2"></div>
     </div>
 </div>

@@ -2,10 +2,20 @@
 layout: base
 ---
 
-<div class="row">
-    <div class="col-2">
-    </div>
-    <div class="col-8">
+<hr/>
+
+{% for category in page.categories %}
+<h1 class="title">
+    <a href="/{{ category }}/" class="no-color">
+        {{ category|replace: '-', ' ' }}
+    </a>
+</h1>
+{% endfor %}
+
+<hr/>
+
+<div class="row post">
+    <div class="col-10">
 
         <div class="post">
 

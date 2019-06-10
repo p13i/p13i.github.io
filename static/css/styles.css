@@ -1,38 +1,118 @@
-
 body {
-    margin: 40px auto;
-    max-width: 600px;
-    padding: 0 10px;
-    line-height: 1.6;
-    font-size: 18px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
 }
 
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    float: right;
-}
-
-li {
-    display: inline;
+/* Space between navbar and content */
+.navbar {
     text-transform: uppercase;
-    color: gray;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
+}
+
+.navbar .navbar-brand {
+    letter-spacing: 0.1em;
+}
+
+.post .default-image-fullwidth img {
+    width: 100%;
+    height: auto;
+}
+
+.post .title {
+    text-transform: uppercase;
+    font-weight: 900;
+    /*letter-spacing: 0.5em;*/
+}
+
+.post h1, h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.post .subtitle {
+    text-transform: lowercase;
     font-style: italic;
-    font-size: 16px;
 }
 
-li a {
-    text-decoration: none;
+.post .date {
+    text-transform: lowercase;
+    font-weight: 300;
 }
 
-li a:link, li a:visited {
+.tags .tag-title-badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    line-height: 1;
+    /*font-size: 75%;*/
+    /*font-weight: 700;*/
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.list-group-item {
+    width:100%;
+}
+
+.list-group-item p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.list-group-item .title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.list-group-item .subtitle {
+    text-transform: lowercase;
+}
+
+.list-group-item .date {
+    font-style: italic;
+}
+
+.portfolio .img-thumbnail {
+    border: none;
+}
+
+.portfolio .thumbnail {
+    padding: 15px;
+    position: relative;
+}
+
+.portfolio .thumbnail .title {
+    position: absolute;
+    left: 30px;
+    bottom: 15px;
+    padding: 1em;
+    z-index: 1100;
+    opacity: 1.0;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    /*transition: visibility 0s, opacity 0.1s ease-in-out;*/
+}
+
+/*.portfolio .thumbnail:hover .title {*/
+/*    opacity: 1;*/
+/*}*/
+
+.portfolio .thumbnail .title a {
+    color: white !important;
+}
+
+.portfolio .thumbnail .thumbnail-link:hover .title {
+    animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0.8;
+    }
+}
+
+a.no-color {
     color: black;
-}
-
-li a:hover {
-    color: gray;
 }

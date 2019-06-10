@@ -1,0 +1,40 @@
+---
+layout: base
+title: Portfolio
+---
+
+{% include _get_all_tags.html for_posts_with_category='portfolio' %}
+
+<div class="row portfolio">
+    <div class="col-12">
+        <hr/>
+
+        <h1>Portfolio</h1>
+
+        <hr/>
+
+        {% for tag in tags %}
+        <a href="/tags/#{{ tag | slugify }}" class="badge badge-light"> {{ tag | replace: '-', ' ' | upcase }} </a>
+        {% endfor %}
+
+        <hr/>
+
+        <div class="row">
+
+            {% for post in site.posts %}
+
+            {% if post.categories contains 'portfolio' %}
+
+            <div class="col-sm-6 col-md-4 thumbnail">
+                <a href="{{ post.url }}" class="thumbnail-link">
+                <img src="{{ post.thumbnail_url }}" alt="..." class="img-thumbnail">
+                <p class="title">{{ post.title }}&nbsp;<i class="fas fa-angle-double-right"></i></p>
+                </a>
+            </div>
+
+            {% endif %}
+
+            {% endfor %}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+        <a class="navbar-brand" href="/">Pramod Kotipalli</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                {% for navbar_link in site.data.navbar %}
+                    <li class="nav-item {% if page.url contains navbar_link.href or page.categories contains navbar_link.category %}active{% endif %}">
+                        <a class="nav-link" href="{{ navbar_link.href }}" target="{{ navbar_link.target }}">
+                            {{ navbar_link.display }}
+                            {% if navbar_link.target == '_blank' %}
+                            <i class="fas fa-sm fa-external-link-alt"></i>
+                            {% endif %}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</nav>

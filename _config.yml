@@ -1,0 +1,34 @@
+# Site-wide configuration variables
+# Accessed with {{ site.FIELD }} in a template
+
+# Basic information
+title: Pramod Kotipalli
+subtitle:
+
+# This is the style used by Jekyll for blug post URLs
+permalink: "/posts/:year/:month/:title/"
+
+# Ruby library for parsing and converting markdown-style markup
+markdown: kramdown
+
+# Gems that help this site run
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-redirect-from
+
+# Only allow the static folder to be accessed when the site is running
+include:
+  - static
+
+# Display future posts?
+future: true
+
+# The number of posts per paginated page
+paginate: 5
+# The path used to create paginated pages
+paginate_path: "/posts/page/:num/"
+
+sass:
+  sass_dir: _scss
+  style: :compressed

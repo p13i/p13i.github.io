@@ -9,20 +9,24 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
     {% if page.title %}
-        <title>{{ page.title }} | {{ page.subtitle }}</title>
+    <title>{{ page.title }} | {{ page.subtitle }}</title>
     {% else %}
-        <title>{{ site.title }} | {{ site.subtitle }}</title>
+    <title>{{ site.title }} | {{ site.subtitle }}</title>
     {% endif %}
 
-    <link rel="stylesheet" href="/static/css/highlights.css" />
+    <link rel="stylesheet" href="/static/css/highlights.css"/>
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/static/css/styles.css"/>
+    <link rel="stylesheet" href="/static/css/fontawesome.all.min.css"/>
 
 </head>
 <body>
 
 {% include _navbar.html %}
 
-{{ content }}
+<div class="container content">
+    {{ content }}
+</div>
 
 {% include _google_analytics.html %}
 

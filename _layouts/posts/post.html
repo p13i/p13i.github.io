@@ -2,26 +2,39 @@
 layout: base
 ---
 
-<h1>{{ page.title }}</h1>
+<div class="row">
+    <div class="col-2">
+    </div>
+    <div class="col-8">
 
-<p>
-    {{ page.date | date_to_string }}
-</p>
+        <div class="post">
 
-<hr/>
+            <h1 class="title">{{ page.title }}</h1>
 
-<div class="categories">
+            <hr/>
 
-{% for category in page.categories %}
-<span class="pill">{{ category }}</span>
-{% endfor %}
+            <div class="{% if page.default_image_fullwidth %}default-image-fullwidth{% endif %}">
 
+                {{ content }}
+
+            </div>
+
+            <hr/>
+
+        </div>
+
+    </div>
+
+    <div class="col-2">
+
+        <p class="subtitle">{{ page.subtitle }}</p>
+
+        <hr/>
+
+        <p class="date">{{ page.date | date_to_string }}</p>
+
+        <hr/>
+
+        {% include _post_tags.html post=page %}
+    </div>
 </div>
-
-<hr/>
-
-{{ content }}
-
-<hr/>
-
-<p>See an issue or do you think this post can be improved? Please submit an <a href="https://github.com/p13i/p13i.github.io/issues/new/" target="_blank">Issue</a> or <a href="https://github.com/p13i/p13i.github.io/pulls" target="_blank">Pull Request</a> and I'll be sure to cite your contribution.</p>

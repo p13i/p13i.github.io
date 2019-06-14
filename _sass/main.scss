@@ -12,33 +12,28 @@ body {
     letter-spacing: 0.1em;
 }
 
-.post .default-image-fullwidth img {
-    width: 100%;
-    height: auto;
-}
-
-.post .title {
-    text-transform: uppercase;
-    font-weight: 900;
-    /*letter-spacing: 0.5em;*/
-}
-
-h1, h2, h3, h4, h5, h6 {
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-}
-
-.post .subtitle {
-    text-transform: lowercase;
-    font-style: italic;
-}
-
-.post .date {
-    text-transform: lowercase;
-    font-weight: 300;
-}
-
 .post {
+    .default-image-fullwidth img {
+        width: 100%;
+        height: auto;
+    }
+
+    .title {
+        text-transform: uppercase;
+        font-weight: 900;
+        /*letter-spacing: 0.5em;*/
+    }
+
+    .subtitle {
+        text-transform: lowercase;
+        font-style: italic;
+    }
+
+    .date {
+        text-transform: lowercase;
+        font-weight: 300;
+    }
+
     /* https://www.h3xed.com/web-development/how-to-make-a-responsive-100-width-youtube-iframe-embed */
     .embed-container-full-width {
         position: relative;
@@ -55,6 +50,11 @@ h1, h2, h3, h4, h5, h6 {
             height: 100%;
         }
     }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
 }
 
 .tags .tag-title-badge {

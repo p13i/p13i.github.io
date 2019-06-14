@@ -12,11 +12,11 @@ tags:
     - adobe-illustrator
     - adobe-after-effects
 downloads:
-    - name: 📱 iPhone X (2436-by-1125)
+    - name: 📱 iPhone X (2436-by-1125 - 2.5 MB)
       url: /static/images/2019/06/09/jellyfish/downloads/jellyfish-iphone-x.jpg
-    - name: 🖥️ Desktop (2560-by-1600)
+    - name: 🖥️ Desktop (2560-by-1600 - 3.7 MB)
       url: /static/images/2019/06/09/jellyfish/downloads/jellyfish-desktop.jpg
-    - name: 🖼️ Full (4096-by-4096, 4k)
+    - name: 🖼️ Full (4096-by-4096, 4k - 18.2 MB)
       url: /static/images/2019/06/09/jellyfish/downloads/jellyfish-full.jpg
 thumbnail_url: /static/images/2019/06/09/jellyfish/jellyfish-thumbnail.png
 redirect_from: "/portfolio/jellyfish/"

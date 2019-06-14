@@ -20,6 +20,7 @@ gems:
 # Only allow the static folder to be accessed when the site is running
 include:
   - static
+  - js
 
 # Display future posts?
 future: true
@@ -30,5 +31,5 @@ paginate: 5
 paginate_path: "/posts/page/:num/"
 
 sass:
-  sass_dir: _scss
+  sass_dir: ./_sass
   style: :compressed

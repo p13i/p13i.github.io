@@ -11,7 +11,7 @@ tags:
     - continuous-integration
     - tox
     - travis-ci
-redirect_from: "/py-test/"
+redirect_from: "/writing/py-test/"
 ---
 
 **Completed project**: [![GitHub](https://github.com/favicon.ico)](https://github.com/p13i/pytouch/tree/v0.0.2) [![Travis CI](https://cdn.travis-ci.org/images/favicon.png)](https://travis-ci.org/p13i/pytouch)

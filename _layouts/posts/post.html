@@ -7,7 +7,7 @@ layout: base
 {% for category in page.categories %}
 <h1 class="title">
     <a href="/{{ category }}/" class="no-color">
-        {{ category|replace: '-', ' ' }}
+        {{ category|replace: '-', ' ' }}&nbsp;&#187;
     </a>
 </h1>
 {% endfor %}
@@ -15,7 +15,15 @@ layout: base
 <hr/>
 
 <div class="row post">
-    <div class="col-12 col-lg-3">
+    <div class="col-12">
+
+        <h1 class="title">{{ page.title }}</h1>
+
+        <hr/>
+
+    </div>
+
+    <div class="col-12 col-lg-3 order-lg-last">
 
         <p class="subtitle">{{ page.subtitle }}</p>
 
@@ -26,15 +34,28 @@ layout: base
         <hr/>
 
         {% include _post_tags.html post=page %}
+
+        <hr/>
+
+        {% if page.downloads %}
+
+        <div class="list-group">
+
+        {% for download in page.downloads %}
+            <a class="list-group-item list-group-item-action" href="{{ download.url }}" target="_blank">{{ download.name }}&nbsp;&#187;</a>
+        {% endfor %}
+
+        </div>
+
+        <hr/>
+
+        {% endif %}
+
     </div>
 
     <div class="col-12 col-lg-9">
 
         <div class="post">
-
-            <h1 class="title">{{ page.title }}</h1>
-
-            <hr/>
 
             <div class="{% if page.default_image_fullwidth %}default-image-fullwidth{% endif %}">
 

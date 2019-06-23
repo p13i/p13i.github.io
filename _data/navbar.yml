@@ -8,9 +8,9 @@
   target: _self
   display: Technical Writing
 
-#- href: /tags/
-#  target: _self
-#  display: Tags
+- href: /contact/
+  target: _self
+  display: Contact
 
 - href: /static/cv/Pramod_Kotipalli_cv.pdf
   target: _blank

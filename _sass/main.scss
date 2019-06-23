@@ -12,6 +12,21 @@ body {
     letter-spacing: 0.1em;
 }
 
+.contact {
+    .contact-table {
+        text-align: center;
+
+        td {
+            padding-bottom: 0 !important;
+        }
+
+        svg {
+            width: 1.18em;
+            height: auto;
+        }
+    }
+}
+
 .post {
     .default-image-fullwidth img {
         width: 100%;

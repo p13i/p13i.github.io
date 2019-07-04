@@ -21,30 +21,26 @@ title: Tags
             {% endfor %}
 
             <hr/>
-                {% for tag in tags %}
-            <h2 id="{{ tag | slugify }}">
-                <span class="tag-title-badge badge-light">{{ tag | replace: '-', ' ' | upcase }}</span>
-                <small><a href="/tags/#{{ tag | slugify }}"><i class="fas fa-link"></i></a></small>
-            </h2>
+
             <ul class="list-group list-group-flush">
-                {% for post in site.posts %}
-                {% if post.tags contains tag %}
-                <li class="list-group-item">
-                    <h3>
-                        <a href="{{ post.url }}">{{ post.title }}</a>&nbsp;<small>{{ post.date | date_to_string }}
-                    </small>
-                    </h3>
-
-                    {% include _post_tags.html post=post %}
-
+                {% for tag in tags %}
+            <li class="list-group-item">
+                <p id="{{ tag | slugify }}">
+                    <span class="tag-title-badge badge-light">{{ tag | replace: '-', ' ' | upcase }}</span>
+                    <small><a href="/tags/#{{ tag | slugify }}"><i class="fas fa-link"></i></a></small>
                     <br/>
-                </li>
-                {% endif %}
+                </p>
+                <ul class="list-group list-group-flush">
+                    {% for post in site.posts %}
+                    {% if post.tags contains tag %}
+                    <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a>&nbsp;<small>{{ post.date | date_to_string }}</small></li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+
+            </li>
                 {% endfor %}
             </ul>
-
-            <br/>
-            {% endfor %}
 
         </div>
     </div>

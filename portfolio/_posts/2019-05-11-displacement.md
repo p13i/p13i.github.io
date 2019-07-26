@@ -12,4 +12,4 @@ redirect_from: "/portfolio/displacement/"
 default_image_fullwidth: True
 ---
 
-![](/static/images/2019/05/11/displacement/displacement-thumbnail.png)
+![]({{ page.thumbnail_url }})

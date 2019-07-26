@@ -17,4 +17,4 @@ redirect_from: "/portfolio/abduction/"
 default_image_fullwidth: True
 ---
 
-![](/static/images/2019/06/30/abduction/abduction-thumbnail.png)
+![]({{ page.thumbnail_url }})

@@ -12,4 +12,4 @@ redirect_from: "/portfolio/abstract-hall/"
 default_image_fullwidth: True
 ---
 
-![](/static/images/2019/05/12/abstract-hall/abstract-hall-thumbnail.png)
+![]({{ page.thumbnail_url }})

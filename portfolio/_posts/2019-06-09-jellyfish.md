@@ -23,7 +23,7 @@ redirect_from: "/portfolio/jellyfish/"
 default_image_fullwidth: True
 ---
 
-![](/static/images/2019/06/09/jellyfish/jellyfish-thumbnail.png)
+![]({{ page.thumbnail_url }})
 
 This is definitely my best render to date. I learned a ton about modeling, C4D procedural deformers, and hair simulation, and texturing.
 

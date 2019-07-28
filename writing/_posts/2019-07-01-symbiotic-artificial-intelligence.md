@@ -7,6 +7,7 @@ tags:
     - artificial-intelligence
     - textbook
     - research
+categories: writing
 redirect_from: "/symbiotic-ai/"
 ---
 

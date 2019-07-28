@@ -7,7 +7,7 @@ tags:
     - programming
     - python
     - tools
-categories: technical-writing
+categories: writing
 ---
 
 **Completed project**: [![GitHub](https://github.com/favicon.ico)](https://github.com/p13i/pytouch/tree/v0.0.1)

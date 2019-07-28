@@ -1,15 +1,15 @@
 ---
 layout: base
-title: Technical Writing
+title: Writing
 ---
 
-{% include _get_all_tags.html for_posts_with_category='technical-writing' %}
+{% include _get_all_tags.html for_posts_with_category='writing' %}
 
 <div class="row">
     <div class="col-12">
         <hr/>
 
-        <h1>Technical Writing</h1>
+        <h1>Writing</h1>
 
         <hr/>
 
@@ -22,7 +22,7 @@ title: Technical Writing
         <div class="row">
             {% for post in site.posts %}
 
-            {% if post.categories contains 'technical-writing' %}
+            {% if post.categories contains 'writing' %}
 
             {% include _post_list_item.html post=post %}
 

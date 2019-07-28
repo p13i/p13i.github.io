@@ -11,6 +11,7 @@ tags:
     - continuous-integration
     - tox
     - travis-ci
+categories: writing
 redirect_from: "/writing/py-test/"
 ---
 

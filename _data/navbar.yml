@@ -3,10 +3,10 @@
   target: _self
   display: Portfolio
 
-- href: /technical-writing/
-  category: technical-writing
+- href: /writing/
+  category: writing
   target: _self
-  display: Technical Writing
+  display: Writing
 
 - href: /contact/
   target: _self

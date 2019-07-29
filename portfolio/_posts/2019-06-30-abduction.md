@@ -9,6 +9,7 @@ tags:
     - graphic-design
     - aliens
     - adobe-photoshop
+    - 3d-modeling
 downloads:
     - name: 🖼️ Full (4096-by-4096, 4k - 22.5 MB)
       url: /static/images/2019/06/30/abduction/downloads/abduction-full.png

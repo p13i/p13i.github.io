@@ -8,6 +8,7 @@ tags:
     - octane-render
     - graphic-design
     - apple
+    - 3d-modeling
 downloads:
 thumbnail_url: /static/images/2019/07/10/macbook-pro/macbook-pro-thumbnail.png
 redirect_from: "/portfolio/macbook-pro/"

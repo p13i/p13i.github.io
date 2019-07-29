@@ -11,6 +11,7 @@ tags:
     - apple-watch
     - wearable-computing
     - wireframe
+    - 3d-modeling
 downloads:
     - name: 💾 Full-res renders
       url: https://drive.google.com/open?id=1XXZSmgxVWZKHemYtRqa1tuoNuFTTQryj

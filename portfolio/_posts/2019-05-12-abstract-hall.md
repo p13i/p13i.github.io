@@ -7,6 +7,7 @@ tags:
     - cinema-4d
     - octane-render
     - graphic-design
+    - 3d-modeling
 thumbnail_url: /static/images/2019/05/12/abstract-hall/abstract-hall-thumbnail.png
 redirect_from: "/portfolio/abstract-hall/"
 default_image_fullwidth: True

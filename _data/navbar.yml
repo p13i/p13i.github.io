@@ -16,10 +16,6 @@
   target: _blank
   display: CV (PDF)
 
-- href: /static/resume/Pramod_Kotipalli_resume.pdf
-  target: _blank
-  display: Resume (PDF)
-
 - href: /static/portfolio/Pramod_Kotipalli_portfolio.pdf
   target: _blank
   display: Portfolio (PDF)

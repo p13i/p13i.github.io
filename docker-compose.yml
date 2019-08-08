@@ -13,4 +13,4 @@ services:
       - ./:/www
 
     # Run this command after the container starts
-    command: bundle exec jekyll serve --host=0.0.0.0 --watch --force_polling --trace
+    command: bundle exec jekyll serve --host=0.0.0.0 --watch --force_polling --trace --incremental

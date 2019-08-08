@@ -5,6 +5,7 @@ title:  Symbiotic Artificial Intelligence
 subtitle: experiments in writing a (short) textbook
 tags:
     - artificial-intelligence
+    - symbiotic-artificial-intelligence
     - textbook
     - research
 categories: writing

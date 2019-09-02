@@ -17,6 +17,7 @@ gems:
   - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-github-metadata
 
 # Only allow the static folder to be accessed when the site is running
 include:

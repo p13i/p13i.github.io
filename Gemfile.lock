@@ -4,6 +4,8 @@ GEM
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
     colorator (1.1.0)
+    faraday (0.15.4)
+      multipart-post (>= 1.2, < 3)
     ffi (1.9.17)
     forwardable-extended (2.6.0)
     jekyll (3.4.0)
@@ -19,6 +21,9 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-feed (0.9.1)
       jekyll (~> 3.3)
+    jekyll-github-metadata (2.12.1)
+      jekyll (~> 3.4)
+      octokit (~> 4.0, != 4.4.0)
     jekyll-paginate (1.1.0)
     jekyll-redirect-from (0.15.0)
       jekyll (>= 3.3, < 5.0)
@@ -34,6 +39,9 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
+    multipart-post (2.1.1)
+    octokit (4.14.0)
+      sawyer (~> 0.8.0, >= 0.5.3)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
@@ -43,6 +51,9 @@ GEM
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.23)
+    sawyer (0.8.2)
+      addressable (>= 2.3.5)
+      faraday (> 0.8, < 2.0)
 
 PLATFORMS
   ruby
@@ -50,6 +61,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (= 3.4.0)
   jekyll-feed (~> 0.6)
+  jekyll-github-metadata
   jekyll-paginate
   jekyll-redirect-from
   jekyll-sitemap

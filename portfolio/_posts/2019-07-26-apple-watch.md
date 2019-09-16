@@ -16,7 +16,7 @@ downloads:
     - name: 💾 Full-res renders
       url: https://drive.google.com/open?id=1XXZSmgxVWZKHemYtRqa1tuoNuFTTQryj
     - name: 🎥 c4d/Octane project files
-      url: https://drive.google.com/open?id=1qbDprJcDhyGxU-aiZtLXZRg3h2eZRnVv
+      url: https://drive.google.com/open?id=1NzQf6RymvsWfNV3OqxXfTqkz4irlqpVg
 thumbnail_url: /static/images/2019-07-26-apple-watch/apple-watch-thumbnail.png
 redirect_from: "/portfolio/apple-watch/"
 default_image_fullwidth: True

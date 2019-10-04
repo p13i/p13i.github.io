@@ -28,9 +28,7 @@ regenerate: true
 
                 {% if post.categories contains 'portfolio' %}
 
-                    {% capture modulo %}{{ i | mod:5 }}{% endcapture %}
-
-                    <div class="col-sm-6 {% if modulo == '0' or modulo == '1' %}col-md-6{% else %}col-md-4{% endif %} thumbnail {{ modulo }}">
+                    <div class="col-sm-6 col-md-4 thumbnail">
                         <a href="{{ post.url }}" class="thumbnail-link">
                             <img src="{{ post.thumbnail_url }}" alt="..." class="img-thumbnail">
                             <p class="title">{{ post.title }}&nbsp;&#187;</p>

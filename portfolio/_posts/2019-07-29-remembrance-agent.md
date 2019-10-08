@@ -19,8 +19,6 @@ redirect_from: "/portfolio/ra/"
 default_image_fullwidth: True
 ---
 
-![]({{ page.thumbnail_url }})
-
 # Remembrance Agents
 
 The concept of a Remembrance Agent (RA) was first outlined by [Rhodes and Starner][rhodes-1997]{:target="_blank"} in 1997 as a system that would automatically present contextually-relevant notes, documents, and contacts.
@@ -29,11 +27,13 @@ In 1997, it became more evident that the perfect memory of computers could augme
 
 Rhodes and Starner focused their work on wearable RAs, systems that could live with you and help you live a more productive and information-rich life.
 
+![]({{ page.thumbnail_url }})
+
 # A Desktop RA
 
 In this project, I implemented Rhodes' RA for use on any desktop computer.
 
-As I do not wear head-worn displays consistently, I developed an RA features as it would be useful to me when I typically do use my computer, sitting at a desk working on emails or notes for class. I required integration with Google Drive and Gmail as it was where I took and saved most of my notes.
+As I do not wear head-worn displays consistently<sup>[Sep. 2019 correction: I do wear Glass consistently now]</sup>, I developed an RA features as it would be useful to me when I typically do use my computer, sitting at a desk working on emails or notes for class. I required integration with Google Drive and Gmail as it was where I took and saved most of my notes.
 
 I didn't want to develop an API in the middle to minimize the risk of data breaches and unneeded complexity. Instead, I implemented a local-disk caching method that downloaded plain-text emails and documents that would then be indexed and stored locally. As an additional feature, I implemented a keylogger whose keystrokes would be recorded to a local file for later processing and use (this keylogger only logs keystrokes while the RA is active).
 
@@ -77,9 +77,19 @@ Usage and installation should be easy. As such, I made the process as simple as 
 Further instructions can be found on the [GitHub README][readme].
 
 
+## Architecture
+
+I closely followed the algorithms and data structures outlined in Rhodes' paper.
+
+I separated the Remembrance Agent backend functionality from the presentation functionality. This resulted in two repositories:
+1. [`remembrance-agent`][ra-repo]: This is a pure-Java (version 7) package with no dependencies that implements the "engine" of the RA. It provides an easy-to-use [interface][ra-interface] for setting up and querying an RA. It comes with a few standard databases implemented, including one that will index a choosen directory of your local disk.
+2. [`remembrance-agent-desktop`][ra-desktop]: This package uses the `remembrance-agent` package as a dependency. It provides a Java Swing-based GUI for the RA. It implements a Google Drive- and Gmail-based document database as well as usage of our keystrokes or speech as input to the RA.
 
 [rhodes-1997]:http://alumni.media.mit.edu/~rhodes/Papers/wear-ra-personaltech/
 [ra-query-period]:https://github.com/remembrance-agent/remembrance-agent/blob/v1.2.1/src/main/java/io/p13i/ra/RemembranceAgentClient.java#L332-L337
 [ra-engine-github]:https://github.com/remembrance-agent/remembrance-agent/blob/v1.2.1/src/main/java/io/p13i/ra/engine/RemembranceAgentSuggestionCalculator.java
 [tfidf-github]:https://github.com/remembrance-agent/remembrance-agent/blob/v1.2.1/src/main/java/io/p13i/ra/utils/TFIDFCalculator.java
 [readme]:https://github.com/remembrance-agent/remembrance-agent/blob/master/README.md
+[ra-repo]:https://github.com/remembrance-agent/remembrance-agent
+[ra-interface]:https://github.com/remembrance-agent/remembrance-agent/blob/f061e14770e2aa8c0e79dcefb654b9d28c6325e3/src/main/java/io/p13i/ra/engine/IRemembranceAgentEngine.java#L17-L38
+[ra-desktop]:https://github.com/remembrance-agent/remembrance-agent-desktop

@@ -30,7 +30,10 @@ regenerate: true
 
                     <div class="col-sm-6 col-md-4 thumbnail">
                         <a href="{{ post.url }}" class="thumbnail-link">
-                            <img src="{{ post.thumbnail_url }}" alt="..." class="img-thumbnail">
+                            <img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                                data-src="{{ post.thumbnail_url }}" 
+                                alt="{{ post.title }}" 
+                                class="img-thumbnail lazyload">
                             <p class="title">{{ post.title }}&nbsp;&#187;</p>
                         </a>
                     </div>

@@ -8,7 +8,7 @@ tags:
     - octane-render
     - graphic-design
     - 3d-modeling
-thumbnail_url: /static/images/2019/05/11/displacement/displacement-thumbnail.png
+thumbnail_url: /static/images/2019-05-11-displacement/displacement-thumbnail.png
 redirect_from: "/portfolio/displacement/"
 default_image_fullwidth: True
 ---

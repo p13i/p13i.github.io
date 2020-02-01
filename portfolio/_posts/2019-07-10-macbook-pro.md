@@ -10,7 +10,7 @@ tags:
     - apple
     - 3d-modeling
 downloads:
-thumbnail_url: /static/images/2019/07/10/macbook-pro/macbook-pro-thumbnail.png
+thumbnail_url: /static/images/2019-07-10-macbook-pro/macbook-pro-thumbnail.png
 redirect_from: "/portfolio/macbook-pro/"
 default_image_fullwidth: True
 ---

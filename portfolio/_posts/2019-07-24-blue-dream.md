@@ -9,7 +9,7 @@ tags:
     - graphic-design
     - 3d-modeling
 downloads:
-thumbnail_url: /static/images/2019/07/24/blue-dream/blue-dream-thumbnail.png
+thumbnail_url: /static/images/2019-07-24-blue-dream/blue-dream-thumbnail.png
 redirect_from: "/portfolio/blue-dream/"
 default_image_fullwidth: True
 ---

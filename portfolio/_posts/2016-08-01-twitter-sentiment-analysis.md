@@ -9,7 +9,7 @@ tags:
     - artifical-intelligence
     - ibm-watson-api
 thumbnail_url: /static/images/2016-08-01-twitter-sentiment-analysis/twitter-sentiment-analysis-thumbnail.png
-redirect_from: "/portfolio/twitter-sentiment-analysis/"
+redirect_from: "/portfolio/twitter/"
 default_image_fullwidth: True
 ---
 

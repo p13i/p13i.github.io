@@ -12,6 +12,10 @@
   target: _self
   display: Contact
 
+- href: /downloads/
+  target: _self
+  display: Downloads
+
 - href: /static/cv/Pramod_Kotipalli_cv.pdf
   target: _blank
   display: CV (PDF)

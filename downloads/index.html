@@ -24,7 +24,9 @@ title: Downloads
             {% if post.downloads %}
             
             <div class="card">
-                <img class="card-img-top" src="{{ post.thumbnail_url }}" alt="Card image cap">
+                <img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                    data-src="{{ post.thumbnail_url }}"
+                    class="card-img-top lazyload">
                 <div class="card-body">
                   <h5 class="card-title">{{ post.title }}</h5>
                   <p class="card-text">{{ post.subtitle }}</p>

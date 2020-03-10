@@ -21,11 +21,11 @@ default_image_fullwidth: True
 
 # Remembrance Agents
 
-The concept of a Remembrance Agent (RA) was first outlined by [Rhodes and Starner][rhodes-1997]{:target="_blank"} in 1997 as a system that would automatically present contextually-relevant notes, documents, and contacts.
+The concept of a Remembrance Agent (RA) was first outlined by [Rhodes][rhodes-1997]{:target="_blank"} in 1997 as a system that would automatically present contextually-relevant notes, documents, and contacts.
 
 In 1997, it became more evident that the perfect memory of computers could augment the evolutionarily-honed intuition of humans. Computers began to take more and more of a role in note-taking, planning, and managing contacts. However, all this information was typically not indexed in a way is useful to people; documents would need to be rememembered by file name and needed to be scanned through file structures when required. Rhodes sought to bridge this gap by conceptualizing and developing a wearable RA.
 
-Rhodes and Starner focused their work on wearable RAs, systems that could live with you and help you live a more productive and information-rich life.
+Rhodes focused their work on wearable RAs, systems that could live with you and help you live a more productive and information-rich life.
 
 ![]({{ page.thumbnail_url }})
 
@@ -65,6 +65,12 @@ In addition, a maximum number of Gmail emails to index can be specified. All aut
 ## Caching
 
 Querying Google's Gmail and Drive APIs upon every restart would be computationally, network-wise, and time-wise extremely expensive. As such, upon requesting that the caches are invalidated, emails and documents are downloaded from Google and stored as plain text documents on disk. Reading from disk upon restarts is much faster than reading from online. Metadata about each file is also stored in a special `~metadata.json` file in the specified cache directory. I opted that this directory (and the one containing the `keylogger.log`) be synced to Google Drive through Google's Backup and Sync utility.
+
+## Performance considerations
+
+When architecting and implementing the library package `remembrance-agent`, I wanted to ensure that it would be memory and CPU efficent so it could be run on hardware like Google Glass. On such a small wearable platform, CPU clock speeds are measured in the hundreds of megahertz and RAM sizes are measured in the low single-digit gigabytes. Further, over-heating is a constant concern on such platforms.  
+
+As such, used performance analysis tools like 
 
 ## Installation & Running
 

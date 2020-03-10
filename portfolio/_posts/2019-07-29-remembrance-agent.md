@@ -17,6 +17,11 @@ tags:
 thumbnail_url: /static/images/2019-07-29-remembrance-agent/remembrance-agent-logo.png
 redirect_from: "/portfolio/ra/"
 default_image_fullwidth: True
+downloads:
+    - name: 💻 GitHub (Remembrance Agent Java Gradle project)
+      url: https://github.com/remembrance-agent/remembrance-agent.git
+    - name: 💻 GitHub (Remembrance Agent Desktop GUI)
+      url: https://github.com/remembrance-agent/remembrance-agent-desktop.git
 ---
 
 # Remembrance Agents

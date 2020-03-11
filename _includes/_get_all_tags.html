@@ -8,14 +8,13 @@ Here we generate all the tags.
 {% endcomment%}
 
 {% assign rawtags = "" %}
+
+{% assign category = include.category %}
+{% assign subcategory = include.subcategory %}
+
 {% for post in site.posts %}
 
-{% if include.for_posts_with_category and post.categories contains include.for_posts_with_category %}
-
-{% assign ttags = post.tags | join:'|' | append:'|' %}
-{% assign rawtags = rawtags | append:ttags %}
-
-{% elsif include.for_posts_with_category == nil %}
+{% if (post.categories contains category and post.subcategories contains subcategory) or (post.categories contains category and subcategory == nil) or (category == nil) %}
 
 {% assign ttags = post.tags | join:'|' | append:'|' %}
 {% assign rawtags = rawtags | append:ttags %}

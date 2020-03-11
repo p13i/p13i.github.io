@@ -11,6 +11,8 @@ tags:
     - apple-watch
     - wearable-computing
     - 3d-modeling
+subcategories:
+    - design
 downloads:
     - name: 💾 Full-res renders
       url: https://drive.google.com/open?id=1NWcqJooej6B791La-9ZsZ6O4ar9v4Bvm

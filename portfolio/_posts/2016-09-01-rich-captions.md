@@ -9,6 +9,8 @@ tags:
 thumbnail_url: /static/images/2016-09-01-rich-captions/rich-captions-thumbnail.png
 redirect_from: "/portfolio/rich-captions/"
 default_image_fullwidth: True
+subcategories:
+    - engineering
 ---
 
 ![]({{ page.thumbnail_url }})

@@ -1,0 +1,47 @@
+
+<hr/>
+
+<h1>Portfolio&nbsp;{% if include.subcategory %}<small>{{ include.subcategory }}</small>{% endif %}</h1>
+
+<hr/>
+
+{% include _get_all_tags.html category='portfolio' subcategory=include.subcategory %}
+
+
+{% for tag in tags %}
+<a href="/tags/#{{ tag | slugify }}" class="badge badge-light"> {{ tag | replace: '-', ' ' | upcase }} </a>
+{% endfor %}
+
+<hr/>
+
+<div class="row">
+
+    {% assign i = 0 %}
+
+    {% for post in site.posts %}
+
+        {% if post.categories contains 'portfolio' %}
+
+            {% if include.subcategory == nil or post.subcategories contains include.subcategory %}
+
+            <div class="col-sm-6 col-md-4 thumbnail">
+                <a href="{{ post.url }}" class="thumbnail-link">
+                    <img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                        data-src="{{ post.thumbnail_url }}" 
+                        alt="{{ post.title }}"
+                        class="img-thumbnail lazyload">
+                    <p class="title">{{ post.title }}&nbsp;&#187;</p>
+                </a>
+            </div>
+
+            {% endif %}
+            
+            {% assign i = i | plus:1 %}
+
+        {% endif %}
+
+    {% endfor %}
+
+</div>
+
+{% include _copyright.html %}

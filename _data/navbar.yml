@@ -1,25 +1,56 @@
-- href: /portfolio/
-  category: portfolio
-  target: _self
+- category: portfolio
   display: Portfolio
+  submenu:
+    - href: /portfolio/
+      target: _blank
+      display: Full Online Portfolio
+    
+    - divider: True
+
+    - href: /portfolio/engineering/
+      target: _blank
+      display: Engineering
+    
+    - href: /portfolio/design/
+      target: _blank
+      display: Design
+    
+    - href: /portfolio/research/
+      target: _blank
+      display: Research
+    
+    - href: /portfolio/photography/
+      display: Photography
+      target: _blank
+    
+    - divider: True
+    
+    - href: https://instagram.com/p13i.io
+      display: Instagram
+      target: _blank
 
 - href: /writing/
   category: writing
   target: _self
   display: Writing
 
+- category: downloads
+  display: Downloads
+  submenu:
+    - href: /downloads/
+      display: 2D/3D Assets, Source Code/Files
+      target: _blank
+    
+    - divider: True
+
+    - href: /static/cv/Pramod_Kotipalli_cv.pdf
+      target: _blank
+      display: CV (PDF)
+
+    - href: /static/portfolio/Pramod_Kotipalli_portfolio.pdf
+      target: _blank
+      display: Portfolio (PDF)
+
 - href: /contact/
   target: _self
   display: Contact
-
-- href: /downloads/
-  target: _self
-  display: Downloads
-
-- href: /static/cv/Pramod_Kotipalli_cv.pdf
-  target: _blank
-  display: CV (PDF)
-
-- href: /static/portfolio/Pramod_Kotipalli_portfolio.pdf
-  target: _blank
-  display: Portfolio (PDF)

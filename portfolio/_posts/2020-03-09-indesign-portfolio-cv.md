@@ -8,6 +8,8 @@ tags:
 thumbnail_url: /static/images/2020-03-09-indesign-portfolio-cv/indesign-portfolio-cv-thumbnail.png
 redirect_from: "/portfolio/indesign-portfolio-cv/"
 default_image_fullwidth: True
+subcategories:
+    - design
 downloads:
     - name: 💾 Portfolio (.git, GitHub)
       url: https://github.com/p13i/portfolio

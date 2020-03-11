@@ -24,7 +24,17 @@
 
             {% if include.subcategory == nil or post.subcategories contains include.subcategory %}
 
-            <div class="col-sm-6 col-md-4 thumbnail">
+            {% if post.columns %}
+
+            {% assign col_md_val = post.columns | times: 4 %}
+
+            {% else %}
+
+            {% assign col_md_val = 4 %}
+
+            {% endif %}
+
+            <div class="col-sm-6 col-md-{{ col_md_val }} thumbnail">
                 <a href="{{ post.url }}" class="thumbnail-link">
                     <img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
                         data-src="{{ post.thumbnail_url }}" 

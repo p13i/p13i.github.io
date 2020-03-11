@@ -21,14 +21,17 @@ downloads:
       url: /static/images/2019-06-09-jellyfish/downloads/jellyfish-desktop.jpg
     - name: 🖼️ Full (4096-by-4096, 4k - 18.2 MB)
       url: /static/images/2019-06-09-jellyfish/downloads/jellyfish-full.jpg
-thumbnail_url: /static/images/2019-06-09-jellyfish/jellyfish-thumbnail.png
+columns: 3
+thumbnail_url: /static/images/2019-06-09-jellyfish/jellyfish-tryptch-thumbnail.jpg
 redirect_from: "/portfolio/jellyfish/"
 default_image_fullwidth: True
 ---
 
-![]({{ page.thumbnail_url }})
+![](/static/images/2019-06-09-jellyfish/jellyfish-thumbnail.png)
 
 This is definitely my best render to date. I learned a ton about modeling, C4D procedural deformers, and hair simulation, and texturing.
+
+![]({{ page.thumbnail_url }})
 
 # Modeling
 

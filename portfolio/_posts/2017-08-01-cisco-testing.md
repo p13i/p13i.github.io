@@ -34,6 +34,8 @@ tags:
 thumbnail_url: /static/images/2017-08-01-cisco-testing/cisco-testing-logo.png
 redirect_from: "/portfolio/cisco-testing/"
 default_image_fullwidth: True
+subcategories:
+    - engineering
 ---
 
 ![]({{ page.thumbnail_url }})

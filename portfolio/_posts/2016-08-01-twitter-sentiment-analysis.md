@@ -11,6 +11,8 @@ tags:
 thumbnail_url: /static/images/2016-08-01-twitter-sentiment-analysis/twitter-sentiment-analysis-thumbnail.png
 redirect_from: "/portfolio/twitter/"
 default_image_fullwidth: True
+subcategories:
+    - engineering
 ---
 
 ![]({{ page.thumbnail_url }})

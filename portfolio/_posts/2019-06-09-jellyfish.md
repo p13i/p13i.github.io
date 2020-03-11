@@ -12,6 +12,8 @@ tags:
     - adobe-illustrator
     - adobe-after-effects
     - 3d-modeling
+subcategories:
+    - design
 downloads:
     - name: 📱 iPhone X (2436-by-1125 - 2.5 MB)
       url: /static/images/2019-06-09-jellyfish/downloads/jellyfish-iphone-x.jpg

@@ -14,6 +14,10 @@ tags:
 thumbnail_url: /static/images/2019-07-11-glass-notes/glass-notes-logo.png
 redirect_from: "/portfolio/glass-notes/"
 default_image_fullwidth: True
+subcategories:
+    - design
+    - engineering
+    - research
 downloads:
     - name: 💾 Android source code (.git, GitHub)
       url: https://github.com/glass-notes/glass-notes-app

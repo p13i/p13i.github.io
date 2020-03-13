@@ -1,7 +1,15 @@
 
 <hr/>
 
-<h1>Portfolio&nbsp;{% if include.subcategory %}<small>{{ include.subcategory }}</small>{% endif %}</h1>
+<h1>Portfolio</h1>
+
+{% if include.subcategory %}
+
+<hr/>
+
+<h2>{{ include.subcategory }}</h2>
+
+{% endif %}
 
 <hr/>
 

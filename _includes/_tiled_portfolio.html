@@ -44,7 +44,7 @@
 
             <div class="col-sm-6 col-md-{{ col_md_val }} thumbnail">
                 <a href="{{ post.url }}" class="thumbnail-link">
-                    <img src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                    <img src="{% include _loading.html %}"
                         data-src="{{ post.thumbnail_url }}" 
                         alt="{{ post.title }}"
                         class="img-thumbnail lazyload">

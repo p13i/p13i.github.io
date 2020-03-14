@@ -9,7 +9,7 @@ tags:
     - octane-render
     - procedural
     - 3d-modeling
-thumbnail_url: /static/images/2020-03-14-thanksgiving-chapel/2020-03-14-thanksgiving-chapel-thumbnail.png
+thumbnail_url: /static/images/2020-03-14-thanksgiving-chapel/thanksgiving-chapel-thumbnail.png
 redirect_from: "/portfolio/thanksgiving-chapel/"
 default_image_fullwidth: True
 subcategories:

@@ -2,26 +2,26 @@
   display: Portfolio
   submenu:
     - href: /portfolio/
-      target: _blank
+      target: _self
       display: Full Online Portfolio
     
     - divider: True
 
     - href: /portfolio/engineering/
-      target: _blank
+      target: _self
       display: Engineering
     
     - href: /portfolio/design/
-      target: _blank
+      target: _self
       display: Design
     
     - href: /portfolio/research/
-      target: _blank
+      target: _self
       display: Research
     
     - href: /portfolio/photography/
       display: Photography
-      target: _blank
+      target: _self
     
     - divider: True
     
@@ -39,7 +39,7 @@
   submenu:
     - href: /downloads/
       display: 2D/3D Assets, Source Code/Files
-      target: _blank
+      target: _self
     
     - divider: True
 

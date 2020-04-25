@@ -94,7 +94,7 @@ Human-machine symbiosis can take many forms:
 2. a student using a Remembrance Agent [[Rhodes 1997]](https://www.google.com/url?q=https://paperpile.com/c/mpEskP/0nl3&amp;sa=D&amp;ust=1586417454230000) to automatically pull up meeting notes with every person he's ever met, or
 3. a "Borg" like creature (see Star Trek: Voyager) merging human and metal into one being inseparable from each other.
 
-![](image4.png)
+![](/static/images/2019-06-22-symbiotic-ai/image4.png)
 
 Seven of Nine from Star Trek: Voyager [[Fleenor 2019]](https://www.google.com/url?q=https://paperpile.com/c/mpEskP/cNpY&amp;sa=D&amp;ust=1586417454233000)
 
@@ -196,7 +196,7 @@ PsyhicVR: Uses EEG headband to notice brain activity in combination of VR: as lo
 
 Augmented reality refers to any augmentation of our natural senses[[2]](#ftnt2). Augmented reality encompases traditional experiences like those provided in smartphones today[[3]](#ftnt3). It also includes experiences delivered in fully-immersive Virtual Reality experiences. We can represent AR on a spectrum from the real world to that of the virtual:
 
-![](image7.png)
+![](/static/images/2019-06-22-symbiotic-ai/image7.png)
 
 Figure: [[Milgram et al. 1995]](https://www.google.com/url?q=https://paperpile.com/c/mpEskP/ZNyK&amp;sa=D&amp;ust=1586417454247000)
 
@@ -240,7 +240,7 @@ This form of AR involves placing virtual computer artifacts into the real world 
 1. displaying such graphics through a traditional display (i.e. an iPhone running ARKit), or
 2. displaying such graphics through a holographic display (i.e. a HoloLens).
 
-![](image1.png)
+![](/static/images/2019-06-22-symbiotic-ai/image1.png)
 
 A holographic display placing registered graphics into the real world. Figure: [[Buntz]](https://www.google.com/url?q=https://paperpile.com/c/mpEskP/L36u&amp;sa=D&amp;ust=1586417454251000)
 
@@ -252,7 +252,7 @@ Depending on the use case, static graphics may be more applicable. This form inv
 
 Virtual reality (VR) involves complete immersion in a virtual environment with little or none of the real environment available to the user.
 
-![](image2.png)
+![](/static/images/2019-06-22-symbiotic-ai/image2.png)
 
 Figure: [[[CSL STYLE ERROR: reference with no printed form.]]](https://www.google.com/url?q=https://paperpile.com/c/mpEskP/KjLj&amp;sa=D&amp;ust=1586417454253000)
 ---
@@ -263,7 +263,7 @@ This spectrum exists on a different axis from the Reality-Virtuality Spectrum an
 
 ### Controlled Matter
 
-![](image5.png)
+![](/static/images/2019-06-22-symbiotic-ai/image5.png)
 
 Figure: [[Zambetta 2017]](https://www.google.com/url?q=https://paperpile.com/c/mpEskP/KEbv&amp;sa=D&amp;ust=1586417454254000)
 
@@ -271,7 +271,7 @@ Think The HoloDeck from Star Trek: matter is created and destroyed, or at the mi
 
 Another, more tangible[[5]](#ftnt5), example is the [inFORM project](https://www.google.com/url?q=https://tangible.media.mit.edu/project/inform/&amp;sa=D&amp;ust=1586417454255000) from MIT Media Lab:
 
-![](image6.png)
+![](/static/images/2019-06-22-symbiotic-ai/image6.png)
 
 Figure: [[2013]](https://www.google.com/url?q=https://paperpile.com/c/mpEskP/HJKN&amp;sa=D&amp;ust=1586417454256000)
 

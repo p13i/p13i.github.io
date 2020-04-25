@@ -5,7 +5,7 @@
 title: Pramod Kotipalli
 subtitle:
 
-# This is the style used by Jekyll for blug post URLs
+# This is the style used by Jekyll for blog post URLs
 permalink: "/posts/:year/:month/:title/"
 
 # Ruby library for parsing and converting markdown-style markup

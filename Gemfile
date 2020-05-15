@@ -9,4 +9,5 @@ group :jekyll_plugins do
    gem 'jekyll-paginate'
    gem 'jekyll-redirect-from'
    gem 'jekyll-github-metadata'
+   gem 'jekyll-seo-tag'
 end

@@ -18,6 +18,7 @@ gems:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-github-metadata
+  - jekyll-seo-tag
 
 # Only allow the static folder to be accessed when the site is running
 include:

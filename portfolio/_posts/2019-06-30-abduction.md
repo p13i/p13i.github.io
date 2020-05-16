@@ -2,7 +2,7 @@
 layout: posts/post
 author: Pramod Kotipalli
 title:  Abduction
-subtitle: Modeling and texturing an alien abduction scene
+description: Modeling and texturing an alien abduction scene
 tags:
     - cinema-4d
     - octane-render

@@ -2,7 +2,7 @@
 layout: posts/post
 author: Pramod Kotipalli
 title:  Symbiotic Artificial Intelligence
-subtitle: currently a brain dump of learnings
+description: currently a brain dump of learnings
 tags:
     - artifical-intelligence
     - human-computer-interaction

@@ -2,7 +2,7 @@
 layout: posts/post
 author: Pramod Kotipalli
 title:  Testing Python Packages
-subtitle: Integration with tox and Travis CI
+description: Integration with tox and Travis CI
 tags:
     - programming
     - python

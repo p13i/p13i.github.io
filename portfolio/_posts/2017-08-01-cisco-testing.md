@@ -2,7 +2,7 @@
 layout: posts/post
 author: Pramod Kotipalli
 title:  Cisco Testing-as-a-Service
-subtitle: Easy-to-use high-scale testing orchestration software
+description: Easy-to-use high-scale testing orchestration software
 tags:
     - software-engineering
     - python

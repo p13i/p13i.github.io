@@ -2,7 +2,7 @@
 layout: posts/post
 author: Pramod Kotipalli
 title:  Twitter Sentiment Analysis
-subtitle: Understanding user sentiment to aid mental health diagnosis
+description: Understanding user sentiment to aid mental health diagnosis
 tags:
     - twitter-api
     - machine-learning

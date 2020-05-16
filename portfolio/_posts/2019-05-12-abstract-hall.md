@@ -2,7 +2,7 @@
 layout: posts/post
 author: Pramod Kotipalli
 title:  Abstract Hall
-subtitle: Heavenly settings
+description: Heavenly settings
 tags:
     - cinema-4d
     - octane-render

@@ -1,3 +1,12 @@
+"""
+Custom script to convert a Google Doc to a Markdown file for publishing to a
+Jekyll post. I download and unzip an HTML file of my Google Doc and feed the 
+path into the arguments of this script. The script converts the given HTML file
+from Google Docs into a single-file HTML document with images embedded as 
+base64 encoded images. The script also changes some of the HTML DOM to aid with
+formatting of the post. Very custom!
+"""
+
 from bs4 import BeautifulSoup
 from os.path import basename, splitext
 import sys

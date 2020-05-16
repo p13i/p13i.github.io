@@ -15,9 +15,9 @@ subcategories:
 downloads:
     - name: 🖼️ Full (4096-by-4096, 4k - 22.5 MB)
       url: /static/images/2019-06-30-abduction/downloads/abduction-full.png
-thumbnail_url: /static/images/2019-06-30-abduction/abduction-thumbnail.png
+image: /static/images/2019-06-30-abduction/abduction-thumbnail.png
 redirect_from: "/portfolio/abduction/"
 default_image_fullwidth: True
 ---
 
-![]({{ page.thumbnail_url }})
+![]({{ page.image }})

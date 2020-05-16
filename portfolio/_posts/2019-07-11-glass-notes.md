@@ -2,7 +2,7 @@
 layout: posts/post
 author: Pramod Kotipalli
 title:  Glass Notes
-subtitle: Take notes on Google Glass!
+description: Take notes on Google Glass!
 tags:
     - google-glass
     - note-taking

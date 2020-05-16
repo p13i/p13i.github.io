@@ -2,7 +2,7 @@
 layout: posts/post
 author: Pramod Kotipalli
 title:  Crystal City
-subtitle: Modeling, randomizing, texturing crystals
+description: Modeling, randomizing, texturing crystals
 tags:
     - cinema-4d
     - octane-render

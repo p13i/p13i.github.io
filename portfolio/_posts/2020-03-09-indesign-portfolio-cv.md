@@ -2,7 +2,7 @@
 layout: posts/post
 author: Pramod Kotipalli
 title:  Portfolio and CV in Adobe InDesign
-subtitle: Source files for professional documents in InDesign
+description: Source files for professional documents in InDesign
 tags:
     - adobe-indesign
 image: /static/images/2020-03-09-indesign-portfolio-cv/indesign-portfolio-cv-thumbnail.png

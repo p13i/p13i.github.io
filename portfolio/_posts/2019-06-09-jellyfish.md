@@ -2,7 +2,7 @@
 layout: posts/post
 author: Pramod Kotipalli
 title:  Jellyfish
-subtitle: Modeling, rigging, and animating a bioluminescent jellyfish
+description: Modeling, rigging, and animating a bioluminescent jellyfish
 tags:
     - cinema-4d
     - octane-render

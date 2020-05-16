@@ -2,7 +2,7 @@
 layout: posts/post
 author: Pramod Kotipalli
 title:  MacBook Pro
-subtitle: Modeling and texturing a MacBook Pro
+description: Modeling and texturing a MacBook Pro
 tags:
     - cinema-4d
     - octane-render

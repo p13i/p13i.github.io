@@ -2,7 +2,7 @@
 layout: posts/post
 author: Pramod Kotipalli
 title:   Watch
-subtitle: Modeling, texturing, rendering my favorite product
+description: Modeling, texturing, rendering my favorite product
 tags:
     - cinema-4d
     - octane-render

@@ -2,7 +2,7 @@
 layout: posts/post
 author: Pramod Kotipalli
 title:  Remembrance Agent
-subtitle: Never forget anything
+description: Never forget anything
 tags:
     - note-taking
     - remembrance-agent

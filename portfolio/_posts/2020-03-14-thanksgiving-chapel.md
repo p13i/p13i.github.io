@@ -2,7 +2,7 @@
 layout: posts/post
 author: Pramod Kotipalli
 title:  Thanksgiving Chapel
-subtitle: Render based on Thanksgiving Chapel in Dallas, Texas
+description: Render based on Thanksgiving Chapel in Dallas, Texas
 tags:
     - graphic-design
     - cinema-4d

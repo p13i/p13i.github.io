@@ -2,7 +2,7 @@
 layout: posts/post
 author: Pramod Kotipalli
 title:  Blue Dream
-subtitle: Scene from a dream
+description: Scene from a dream
 tags:
     - cinema-4d
     - octane-render

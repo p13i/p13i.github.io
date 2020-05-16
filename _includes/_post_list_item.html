@@ -1,6 +1,6 @@
 <div class="list-group-item">
     <p class="title"><a href="{{ include.post.url }}">{{ include.post.title }}</a></p>
     <p class="date">{{ include.post.date | date_to_string }}</p>
-    <p class="subtitle">{{ include.post.subtitle }}</p>
+    <p class="description">{{ include.post.description }}</p>
     <p>{% include _post_tags.html post=include.post %}</p>
 </div>

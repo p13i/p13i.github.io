@@ -2,7 +2,7 @@
 layout: posts/post
 author: Pramod Kotipalli
 title:  Rich Captions
-subtitle: LaTeX-enchanced captioning for academic videos
+description: LaTeX-enchanced captioning for academic videos
 tags:
     - youtube-api
     - latex

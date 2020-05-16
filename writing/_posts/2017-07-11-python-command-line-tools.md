@@ -2,7 +2,7 @@
 layout: posts/post
 author: Pramod Kotipalli
 title:  Building Command Line Tools with Python
-subtitle: Python Makes CLIs Easier!
+description: Python Makes CLIs Easier!
 tags:
     - programming
     - python

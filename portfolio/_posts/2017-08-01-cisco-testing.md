@@ -31,14 +31,14 @@ tags:
     - shell
     - linux
     - networking
-thumbnail_url: /static/images/2017-08-01-cisco-testing/cisco-testing-logo.png
+image: /static/images/2017-08-01-cisco-testing/cisco-testing-logo.png
 redirect_from: "/portfolio/cisco-testing/"
 default_image_fullwidth: True
 subcategories:
     - engineering
 ---
 
-![]({{ page.thumbnail_url }})
+![]({{ page.image }})
 
 During my internship at Cisco, I led two full-time employees where we created a highly-scalable distributed HTTP load testing framework. We built a simple-to-use RESTful API that would manage and orchestrate thousands of Docker containers. An easy-to-use front-end, written with AngularJS, would allow QA Engineers to select a JMeter configuration file to run across hundreds of worker Docker containers running JMeter. Log files were collected and analyzed on an Elasticsearch-Logstash-Kibana (ELK) stack.
 

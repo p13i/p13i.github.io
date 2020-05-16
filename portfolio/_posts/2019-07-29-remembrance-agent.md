@@ -18,7 +18,7 @@ subcategories:
     - design
     - engineering
     - research
-thumbnail_url: /static/images/2019-07-29-remembrance-agent/remembrance-agent-logo.png
+image: /static/images/2019-07-29-remembrance-agent/remembrance-agent-logo.png
 redirect_from: "/portfolio/ra/"
 default_image_fullwidth: True
 downloads:
@@ -40,7 +40,7 @@ In 1997, it became more evident that the perfect memory of computers could augme
 
 Rhodes focused their work on wearable RAs, systems that could live with you and help you live a more productive and information-rich life.
 
-![]({{ page.thumbnail_url }})
+![]({{ page.image }})
 
 # A Desktop RA
 

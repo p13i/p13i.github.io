@@ -8,14 +8,14 @@ tags:
     - machine-learning
     - artifical-intelligence
     - ibm-watson-api
-thumbnail_url: /static/images/2016-08-01-twitter-sentiment-analysis/twitter-sentiment-analysis-thumbnail.png
+image: /static/images/2016-08-01-twitter-sentiment-analysis/twitter-sentiment-analysis-thumbnail.png
 redirect_from: "/portfolio/twitter/"
 default_image_fullwidth: True
 subcategories:
     - engineering
 ---
 
-![]({{ page.thumbnail_url }})
+![]({{ page.image }})
 
 # Motivation
 - The United States, in particular, features extremely high costs for healthcare

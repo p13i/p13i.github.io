@@ -9,11 +9,11 @@ tags:
     - graphic-design
     - 3d-modeling
 downloads:
-thumbnail_url: /static/images/2019-07-24-crystal-city/crystal-city-thumbnail.png
+image: /static/images/2019-07-24-crystal-city/crystal-city-thumbnail.png
 redirect_from: "/portfolio/crystal-city/"
 subcategories:
     - design
 default_image_fullwidth: True
 ---
 
-![]({{ page.thumbnail_url }})
+![]({{ page.image }})

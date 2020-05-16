@@ -12,7 +12,7 @@ tags:
 subcategories:
     - design
 downloads:
-thumbnail_url: /static/images/2019-07-10-macbook-pro/macbook-pro-thumbnail.png
+image: /static/images/2019-07-10-macbook-pro/macbook-pro-thumbnail.png
 redirect_from: "/portfolio/macbook-pro/"
 default_image_fullwidth: True
 downloads:
@@ -24,4 +24,4 @@ downloads:
       url: https://drive.google.com/open?id=1lQCea9KoEB8jrvtw4lUrWceBacbOPaOt
 ---
 
-![]({{ page.thumbnail_url }})
+![]({{ page.image }})

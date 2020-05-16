@@ -11,7 +11,7 @@ tags:
     - wearable-computing
     - performance-optimization
     - symbiotic-artificial-intelligence
-thumbnail_url: /static/images/2019-07-11-glass-notes/glass-notes-logo.png
+image: /static/images/2019-07-11-glass-notes/glass-notes-logo.png
 redirect_from: "/portfolio/glass-notes/"
 default_image_fullwidth: True
 subcategories:
@@ -23,4 +23,4 @@ downloads:
       url: https://github.com/glass-notes/glass-notes-app
 ---
 
-![]({{ page.thumbnail_url }})
+![]({{ page.image }})

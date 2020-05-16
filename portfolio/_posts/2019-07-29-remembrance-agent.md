@@ -26,6 +26,10 @@ downloads:
       url: https://github.com/remembrance-agent/remembrance-agent.git
     - name: 💻 GitHub (Remembrance Agent Desktop GUI)
       url: https://github.com/remembrance-agent/remembrance-agent-desktop.git
+    - name: 💻 macOS .dmg desktop application (v1.0.1)
+      url: https://github.com/remembrance-agent/remembrance-agent-desktop/releases/download/v1.0.1/ra-desktop-v1.0.1-macos-dmg.zip
+    - name: 💻 Windows .exe desktop application (v1.0.1)
+      url: https://github.com/remembrance-agent/remembrance-agent-desktop/releases/download/v1.0.1/ra-desktop-v1.0.1-windows-exe.zip
 ---
 
 # Remembrance Agents

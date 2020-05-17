@@ -20,15 +20,17 @@ title: Writing
         <hr/>
 
         <div class="row">
-            {% for post in site.posts %}
+            <div class="card-columns">
+                {% for post in site.posts %}
 
-            {% if post.categories contains 'writing' %}
+                {% if post.categories contains 'writing' %}
 
-            {% include _post_list_item.html post=post %}
+                {% include _post_list_item.html post=post %}
 
-            {% endif %}
+                {% endif %}
 
-            {% endfor %}
+                {% endfor %}
+            </div>
         </div>
     </div>
 </div>

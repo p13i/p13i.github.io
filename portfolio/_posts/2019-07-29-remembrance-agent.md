@@ -2,7 +2,13 @@
 layout: posts/post
 author: Pramod Kotipalli
 title:  Remembrance Agent
-description: Never forget anything
+description: Java-based implementations of a remembrance agent, a continuously
+  running automated information retrieval system, based on work by Bradley
+  Rhodes of MIT Media Lab (1997). Available as a standalone, no-dependency
+  Java/Gradle project and as a desktop graphical user interface (GUI) featuring 
+  integrations with Google Cloud Speech APIs, Gmail, Google Drive, and 
+  locally-stored plain text (.txt) or Markdown (.md) files. Open-source and 
+  freely-available under the MIT License. Under active development.
 tags:
     - note-taking
     - remembrance-agent

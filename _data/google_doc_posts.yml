@@ -1,0 +1,19 @@
+- source:
+    id: 1Yu3d4vItEQF6VwSqwJJH2ywfZr91ZJTdvAc0-CN5_qo
+  output:
+    markdown:
+      file_path: ./writing/_posts/2020-05-15-living-with-remembrance-agent.md
+      options:
+        TECHNICAL_AUDIENCE: true
+    images:
+      server_path: /static/images/2020-05-15-living-with-remembrance-agent
+  front_matter:
+    layout: posts/post
+    author: Pramod Kotipalli
+    title: Living with a Remembrance Agent
+    description: My experiences developing a wearable and desktop-based remembrance agent. I also examine the impact of living with an intelligent agent such as this has had on my cognition, memory recall, and how I organize my digital information.
+    tags:
+      - artificial-intelligence
+      - human-computer-interaction
+      - remembrance-agents
+      - java

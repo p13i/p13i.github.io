@@ -77,7 +77,12 @@ body {
     }
 
     h1, h2, h3, h4, h5, h6, p {
+        text-transform: initial;
         margin-bottom: 1em !important;
+    }
+
+    img {
+        width: 100%;
     }
 }
 

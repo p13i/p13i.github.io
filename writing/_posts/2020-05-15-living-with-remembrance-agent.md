@@ -1,8 +1,6 @@
 ---
 author: Pramod Kotipalli
-description: My experiences developing a wearable and desktop-based remembrance agent.
-  I also examine the impact of living with an intelligent agent such as this has had
-  on my cognition, memory recall, and how I organize my digital information.
+description: My experiences developing a wearable and desktop-based remembrance agent. I also examine the impact of living with an intelligent agent such as this has had on my cognition, memory recall, and how I organize my digital information.
 layout: posts/post
 tags:
 - artificial-intelligence
@@ -37,7 +35,7 @@ For a remembrance agent to be useful to me, documents need to be indexed and syn
 
 ## Development
 
-I settled on Java for this project because of its use in developing Android applications and its strong cross-platform support for graphical user interfaces (GUIs) through [Java Swing](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Swing_\(Java\)&sa=D&ust=1589749996043000) and [JavaFX](https://www.google.com/url?q=https://en.wikipedia.org/wiki/JavaFX&sa=D&ust=1589749996044000).
+I settled on Java for this project because of its use in developing Android applications and its strong cross-platform support for graphical user interfaces (GUIs) through [Java Swing](https://www.google.com/url?q=https://en.wikipedia.org/wiki/Swing_\(Java\)&sa=D&ust=1590440791056000) and [JavaFX](https://www.google.com/url?q=https://en.wikipedia.org/wiki/JavaFX&sa=D&ust=1590440791057000).
 
 I created a no-dependency, pure-Java, Gradle-based project that encapsulates the core functionality of the remembrance agent. Following [Rhodes 1997], I sketched out a simple interface for the “Remembrance Agent Engine” (i.e. the core of the project). Conceptually, there are three functions required to setup and interact with a remembrance agent
 
@@ -47,44 +45,60 @@ I created a no-dependency, pure-Java, Gradle-based project that encapsulates the
 
 
 
-These three functions map clearly to the [`IRemembranceAgentEngine`](https://www.google.com/url?q=https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/engine/IRemembranceAgentEngine.java&sa=D&ust=1589749996045000) interface resting at the core of this project. The [implementation](https://www.google.com/url?q=https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/engine/RemembranceAgentEngine.java&sa=D&ust=1589749996045000) of this interface closely follows that of [Rhodes 1997]. 
+These three functions map clearly to the [`IRemembranceAgentEngine`](https://www.google.com/url?q=https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/engine/IRemembranceAgentEngine.java&sa=D&ust=1590440791058000) interface resting at the core of this project. The [implementation](https://www.google.com/url?q=https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/engine/RemembranceAgentEngine.java&sa=D&ust=1590440791059000) of this interface closely follows that of [Rhodes 1997]. 
 
 
 ### Data models
 
-An [`AbstractDocument`](https://www.google.com/url?q=https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/models/AbstractDocument.java&sa=D&ust=1589749996046000) is the base class for every type of document that can be ingested by the `RemembranceAgentEngine`. It holds the text of a document as well as contextual information about the document. The various contextual factors of each document are encapsulated in a [`Context`](https://www.google.com/url?q=https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/models/Context.java&sa=D&ust=1589749996047000). These factors include:
+An [`AbstractDocument`](https://www.google.com/url?q=https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/models/AbstractDocument.java&sa=D&ust=1590440791060000) is the base class for every type of document that can be ingested by the `RemembranceAgentEngine`. It holds the text of a document as well as contextual information about the document. The various contextual factors of each document are encapsulated in a [`Context`](https://www.google.com/url?q=https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/models/Context.java&sa=D&ust=1590440791060000). These factors include:
 
   1. the location of the user,
-  2. the name of the user (i.e. the [`person`](https://www.google.com/url?q=https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/models/Context.java%23L13&sa=D&ust=1589749996047000)),
+  2. the name of the user (i.e. the [`person`](https://www.google.com/url?q=https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/models/Context.java%23L13&sa=D&ust=1590440791061000)),
   3. a short description of the subject of the query, and
   4. the date this query.
 
 
 
-There are numerous concrete subclasses of `AbstractDocument` which lend to numerous integrations like those for Gmail and Google Drive. A collection of `AbstractDocument`s is stored in an implementation of [`IDocumentDatabase`](https://www.google.com/url?q=https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/databases/IDocumentDatabase.java%23L6&sa=D&ust=1589749996048000).
+There are numerous concrete subclasses of `AbstractDocument` which lend to numerous integrations like those for Gmail and Google Drive. A collection of `AbstractDocument`s is stored in an implementation of [`IDocumentDatabase`](https://www.google.com/url?q=https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/databases/IDocumentDatabase.java%23L6&sa=D&ust=1590440791061000).
 
-A [`Query`](https://www.google.com/url?q=https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/models/Query.java&sa=D&ust=1589749996049000) tells the `RemembranceAgentEngine`’s `determineSuggestions` method about the context of a query and provides a query string used to search for relevant documents based on their contents. A query has an associated `Context` which is compared with each document’s own `Context` to determine if the document is relevant to the query.
+A [`Query`](https://www.google.com/url?q=https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/models/Query.java&sa=D&ust=1590440791062000) tells the `RemembranceAgentEngine`’s `determineSuggestions` method about the context of a query and provides a query string used to search for relevant documents based on their contents. A query has an associated `Context` which is compared with each document’s own `Context` to determine if the document is relevant to the query.
 
 ### Determining suggestions
 
-The implementation of `determineSuggestions` is [quite involved](https://www.google.com/url?q=https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/engine/RemembranceAgentEngine.java%23L38-L100&sa=D&ust=1589749996050000). At a high-level, each document’s text is [windowed](https://www.google.com/url?q=https://github.com/remembrance-agent/remembrance-agent/blob/03a7280872bfb1d6e6188d33836fa6fd1f45c6fe/src/main/java/io/p13i/ra/utils/WordVector.java%23L29&sa=D&ust=1589749996050000) into smaller strings before comparison with a query. (Currently, each window is simply a single line of the document’s content as delimited by newlines.) Windowing allows for TFiDF to match a query string against smaller selections of text within large documents.
+The implementation of `determineSuggestions` is [quite involved](https://www.google.com/url?q=https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/engine/RemembranceAgentEngine.java%23L38-L100&sa=D&ust=1590440791063000). At a high-level, each document’s text is [windowed](https://www.google.com/url?q=https://github.com/remembrance-agent/remembrance-agent/blob/03a7280872bfb1d6e6188d33836fa6fd1f45c6fe/src/main/java/io/p13i/ra/utils/WordVector.java%23L29&sa=D&ust=1590440791063000) into smaller strings before comparison with a query. (Currently, each window is simply a single line of the document’s content as delimited by newlines.) Windowing allows for TFiDF to match a query string against smaller selections of text within large documents.
 
 The content similarity score for an entire document is calculated by summing up the TFiDF similarity score between each window of the document against the query string. This cumulative score is weighted against the similarity scores for the contextual factors (location, date, etc.) to form the similarity index for each document relative to the given query. The scored documents are sorted descending and the top `Query::numSuggestions` are returned from `determineSuggestions`.
 
 
 ## Deployment
 
-I sought to use the remembrance agent on my desktop and on Google Glass. As such I enclosed the core remembrance agent functionality in a no-dependency Gradle [`remembrance-agent`](https://www.google.com/url?q=https://github.com/remembrance-agent/remembrange-agent&sa=D&ust=1589749996051000)[ project](https://www.google.com/url?q=https://github.com/remembrance-agent/remembrange-agent&sa=D&ust=1589749996052000) that can easily be imported into other Java runtime projects.
+I sought to use the remembrance agent on my desktop and on Google Glass. As such I enclosed the core remembrance agent functionality in a no-dependency Gradle [`remembrance-agent`](https://www.google.com/url?q=https://github.com/remembrance-agent/remembrange-agent&sa=D&ust=1590440791065000)[ project](https://www.google.com/url?q=https://github.com/remembrance-agent/remembrange-agent&sa=D&ust=1590440791065000) that can easily be imported into other Java runtime projects.
 
 ### Glass Notes integration
 
-During my first quarter of graduate school I took lecture notes and meeting notes on Google Glass. I integrated the `remembrance-agent` package into this Glass Notes application to pull up contextually-relevant notes for my meetings and lectures. (The [diff](https://www.google.com/url?q=https://github.com/glass-notes/glass-notes-app/commit/09eb5c01fff2b5fcab9700dddced27824f8a5310&sa=D&ust=1589749996052000) for this integration is useful for those interested in their own such integrations for other Java applications.)
+During my first quarter of graduate school I took lecture notes and meeting notes on Google Glass. I integrated the `remembrance-agent` package into this Glass Notes application to pull up contextually-relevant notes for my meetings and lectures. (The [diff](https://www.google.com/url?q=https://github.com/glass-notes/glass-notes-app/commit/09eb5c01fff2b5fcab9700dddced27824f8a5310&sa=D&ust=1590440791066000) for this integration is useful for those interested in their own such integrations for other Java applications.)
 
 ### Remembrance Agent Desktop GUI
 
 My primary interface to the remembrance agent has been through a desktop GUI. 
 
-![](/static/images/2020-05-15-living-with-remembrance-agent/image1.png)[a]
+![](/static/images/2020-05-15-living-with-remembrance-agent/image1.png)
+
+As I go about my normal typing tasks, my keystrokes are recorded into the “Keylogger Buffer” at the bottom of the window. Every `5` seconds, the contents of the keyboard buffer is sent as part of a query to the remembrance agent engine. This ‘engine’ returns the top `4` documents ranking by their relevance score (displayed on the left of each document).
+
+## Findings
+
+After using remembrance agents for a year, I’ve noticed some subtle changes in the way I relate to my digital footprint.
+
+### Forgotten documents
+
+There were numerous times when I was composing an email or taking notes in a meeting where the remembrance agent would pull up emails or documents from years ago that I had completely forgotten about.
+
+When writing an email to a colleague about “wearable computers,” my remembrance agent pulled up my meeting notes on a conversation I had with a brilliant wearable computing researcher from years ago. With these notes at hand, I was able to augment the content of my email to reflect knowledge I had gained from the past.
+
+I also found the remembrance agent useful when composing reports, articles, or papers where various tidbits of wisdom improve the content at hand.
+
+### Connection to 
 
 ---
 [^ftnt1]:  By “passive” I simply mean that he was not putting in a conscious effort.

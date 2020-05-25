@@ -6,28 +6,74 @@ from Google Docs into a single-file HTML document with images embedded as
 base64 encoded images. The script also changes some of the HTML DOM to aid with
 formatting of the post. Very custom!
 """
-import io
 
+#region IMPORTS
+
+import pickle
+import re
+from zipfile import ZipFile
+import io
+import os
+import yaml
+import sys
+from typing import Dict, List
 import html2text as html2text
 from bs4 import BeautifulSoup, Tag
-from zipfile import ZipFile
-import sys
-import base64
-import os
-import re
-import yaml
-import pickle
-from googleapiclient.discovery import build
-from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
-
-# If modifying these scopes, delete the file token.pickle.
+from google_auth_oauthlib.flow import InstalledAppFlow
+from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseDownload
 
+#endregion IMPORTS
+
+#region CONSTANTS
+
 GOOGLE_APIS_SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
-
 _DATA_GOOGLE_DOC_POSTS_YML = os.path.join('_data', 'google_doc_posts.yml')
+CREDENTIALS_JSON = 'credentials.json'
 
+#endregion CONSTANTS
+
+#region MODELS
+
+
+class MarkdownDocument:
+    def __init__(self, front_matter: dict, lines: List[str], images: Dict[str, bytes], footnotes: Dict[str, str]):
+        self.front_matter = front_matter
+        self.lines = lines
+        self.images = images
+        self.footnotes = footnotes
+
+    def __str__(self):
+        # Set the markdown body
+        markdown_contents = "\n".join(self.lines)
+
+        # Join the footnotes into a string
+        footnotes_str = '---\n' + '\n'.join(f'[^{id_}]: {text}' for id_, text in self.footnotes.items())
+
+        # Prepend the jekyll front matter
+        markdown_contents = f'---\n{yaml.dump(self.front_matter, width=sys.maxsize)}\n---\n{markdown_contents}\n{footnotes_str}'
+
+        return markdown_contents
+
+    def write(self, markdown_file_path, images_folder_path):
+        # Write to the output markdown file
+        with open(markdown_file_path, mode='wb+') as f:
+            f.write(str(self).encode())
+
+        # Write all the images
+        for image_file_name, image_data in self.images.items():
+            new_image_path = f'{images_folder_path}/{image_file_name}'
+
+            # Create the directories if they don't exist
+            if not os.path.exists(os.path.dirname(new_image_path)):
+                os.makedirs(os.path.dirname(new_image_path), exist_ok=True)
+
+            # Write to the file as binary
+            with open(new_image_path, mode='wb') as f:
+                f.write(image_data)
+
+#endregion MODELS
 
 def get_drive_service():
     creds = None
@@ -43,7 +89,7 @@ def get_drive_service():
             creds.refresh(Request())
         else:
             flow = InstalledAppFlow.from_client_secrets_file(
-                'credentials.json', GOOGLE_APIS_SCOPES)
+                CREDENTIALS_JSON, GOOGLE_APIS_SCOPES)
             creds = flow.run_local_server(port=0)
         # Save the credentials for the next run
         with open('token.pickle', 'wb') as token:
@@ -71,38 +117,88 @@ def read_jekyll_content(markdown_contents, options):
     lines = markdown_contents.splitlines()
 
     jekyll_lines = []
+    title = None
+    author = None
+    description = None
+    jekyll_tags = []
 
     in_front_matter = False
     in_body = False
     reading_body = False
 
-    for line in lines:
+    def get_context(line_index, lines_up=3, lines_down=3):
+        context_lines = []
+        for i in range(line_index - lines_down, line_index + lines_up + 1):
+            if 0 <= i < len(lines):
+                s = lines[i]
+                if i == line_index:
+                    s += " <-- UNEXPECTED DIRECTIVE"
+                context_lines.append(s)
+        return '\n'.join(context_lines)
+
+    for i, line in enumerate(lines):
         directive = line.strip()
 
-        if directive == '~':
+        if i == 0 and directive.startswith('# '):
+            title = directive[len('# '):]
+            continue
+
+        elif directive == '~':
             if in_front_matter:
                 in_front_matter = False
                 reading_body = in_body = True
+                continue
+
             elif in_body:
-                reading_body = in_body = False
+                reading_body = in_body = read = False
+                continue
+
             elif not in_front_matter and not in_body:
                 in_front_matter = True
+                continue
 
         elif directive.startswith('~'):
             if directive.startswith('~if'):
                 option_name = directive[len('~if '):].strip()
                 # Set the reading mode
                 reading_body = options[option_name] if option_name in options else reading_body
+                continue
+
             elif directive.startswith('~endif'):
                 reading_body = in_body
+                continue
+
+        elif directive.startswith('#') and in_front_matter:
+            tag = directive[1:]
+            jekyll_tags.append(tag)
+            continue
+
+        elif directive.startswith('Author: '):
+            if in_front_matter:
+                author = directive[len('Author: '):]
+                continue
+
+        elif directive.startswith('Description: '):
+            if in_front_matter:
+                description = directive[len('Description: '):]
+                continue
 
         elif reading_body:
             jekyll_lines.append(line)
+            continue
+
+        elif directive == '':
+            continue
+
+        elif directive == '* * *' and not in_body:
+            break
+
+        raise Exception(f'line {i}: unexpected directive: \n{get_context(i)}')
 
     if in_front_matter or in_body or reading_body:
         raise Exception('file does not contain an ending ~ or ~endif directive for jekyll. parsing failure. aborting.')
 
-    return '\n'.join(jekyll_lines)
+    return title, author, description, jekyll_lines, jekyll_tags
 
 
 def html_to_markdown(html, output_images_server_path):
@@ -110,12 +206,12 @@ def html_to_markdown(html, output_images_server_path):
 
     # Pre-process the HTMl file
 
-    soup = BeautifulSoup(html)
+    soup = BeautifulSoup(html, features='html.parser')
 
     # Convert span blocks with "Courier New" in the style tag to code blocks
     for span in soup.find_all('span'):  # type: Tag
         if 'style' in span.attrs \
-                and 'Courier New' in span.attrs['style']\
+                and 'Courier New' in span.attrs['style'] \
                 and len(span.get_text().strip()) > 0:
 
             a = span.find('a')
@@ -144,7 +240,6 @@ def html_to_markdown(html, output_images_server_path):
     footnotes = {}
     for a in soup.find_all('a'):  # type: Tag
         if 'href' in a.attrs and FOOTNOTE_REGEX.search(a.attrs['href']):
-
             # Get the footnote id from the href (removing the starting # character)
             footnote_id = a.attrs['href'][1:]
 
@@ -162,154 +257,73 @@ def html_to_markdown(html, output_images_server_path):
     return markdown, footnotes
 
 
-def pull_from_google_docs():
+def to_markdown(google_doc_id: str, output_images_site_path: str, options: {}) -> MarkdownDocument:
+    front_matter = {}
+
+    # Read the zip file from Google Drive
+    zip_fh = get_google_doc_html_zipped(google_doc_id)
+    zip_file = ZipFile(zip_fh)
+
+    # Read the HTML file into memory
+    html_file_name = next(name for name in zip_file.namelist() if name.endswith('.html'))
+    with zip_file.open(html_file_name, mode='r') as html_file:
+        html_file_contents = html_file.read()
+
+    # Read each image into memory
+    image_file_names = [name for name in zip_file.namelist() if name.startswith('images')]
+    images = {}
+    for image_file_name in image_file_names:
+        with zip_file.open(image_file_name, mode='r') as image_file:
+            image_file_name = image_file_name[len('images/'):]
+            images[image_file_name] = image_file.read()
+
+    # Convert the HTML to Markdown
+    markdown_contents, footnotes = html_to_markdown(
+        html=html_file_contents.decode('utf-8'),
+        output_images_server_path=output_images_site_path,
+    )
+
+    # Only read the markdown we specified
+    title, author, description, jekyll_lines, jekyll_tags = read_jekyll_content(
+        markdown_contents=markdown_contents,
+        options=options,
+    )
+
+    # Add to front matter
+    front_matter['title'] = title
+    front_matter['author'] = author
+    front_matter['description'] = description
+    front_matter['tags'] = jekyll_tags
+    front_matter['layout'] = 'posts/post'
+
+    return MarkdownDocument(
+        front_matter=front_matter,
+        lines=jekyll_lines,
+        images=images,
+        footnotes=footnotes,
+    )
+
+def main():
+    if len(sys.argv) != 1:
+        return print(help('sync'))
+
     with open(_DATA_GOOGLE_DOC_POSTS_YML, mode='r') as f:
-        posts = yaml.load(f)
+        posts = yaml.load(f, Loader=yaml.FullLoader)
 
     for post in posts:
         # Read parameters
         google_doc_id = post['source']['id']
         output_markdown_file_path = post['output']['markdown']['file_path']
-        output_markdown_options = post['output']['markdown']['options']
-        output_images_server_path = post['output']['images']['server_path']
-        front_matter = post['front_matter']
+        output_markdown_options = post['output']['markdown']['options'] if 'options' in post['output'][
+            'markdown'] else {}
+        output_images_site_path = post['output']['images']['site_path']
 
-        # Read the zip file from Google Drive
-        zip_fh = get_google_doc_html_zipped(google_doc_id)
-        zip_file = ZipFile(zip_fh)
+        markdown: MarkdownDocument = to_markdown(google_doc_id, output_images_site_path, options=output_markdown_options)
 
-        # Read the HTML file into memory
-        html_file_name = next(name for name in zip_file.namelist() if name.endswith('.html'))
-        with zip_file.open(html_file_name, mode='r') as html_file:
-            html_file_contents = html_file.read()
-
-        # Read each image into memory
-        image_file_names = [name for name in zip_file.namelist() if name.startswith('images')]
-        images = {}
-        for image_file_name in image_file_names:
-            with zip_file.open(image_file_name, mode='r') as image_file:
-                image_file_name = image_file_name[len('images/'):]
-                images[image_file_name] = image_file.read()
-
-        # Convert the HTML to Markdown
-        markdown_contents, footnotes = html_to_markdown(html_file_contents.decode('utf-8'), output_images_server_path)
-
-        # Only read the markdown we specified
-        markdown_contents = read_jekyll_content(markdown_contents, options=output_markdown_options)
-
-        # Join the footnotes into a string
-        footnotes_str = '---\n' + '\n'.join(f'[^{id_}]: {text}' for id_, text in footnotes.items())
-
-        # Prepend the jekyll front matter
-        markdown_contents = f'---\n{yaml.dump(front_matter)}\n---\n{markdown_contents}\n{footnotes_str}'
-
-        # Write to the output markdown file
-        with open(output_markdown_file_path, mode='wb+') as f:
-            f.write(markdown_contents.encode())
-
-        for image_file_name, image_data in images.items():
-            new_image_path = f'{output_images_server_path}/{image_file_name}'
-
-            if not os.path.exists(os.path.dirname(new_image_path)):
-                os.makedirs(os.path.dirname(new_image_path), exist_ok=True)
-
-            with open(new_image_path, mode='wb') as f:
-                f.write(image_data)
-
-def main():
-    pull_from_google_docs()
-
-
-def main2():
-    if len(sys.argv) != 3:
-        print(help())
-        return
-
-    _, html_path, markdown_path = sys.argv
-
-    enclosing_folder = os.path.dirname(html_path)
-
-    with open(html_path, mode='r') as html_file:
-        html = html_file.read()
-
-    soup = BeautifulSoup(html, features='html.parser')
-
-    for img in soup.findAll('img'):
-        local_img_path = os.path.join(enclosing_folder, img['src'])
-
-        _, img_extension = os.path.splitext(local_img_path)
-        img_extension = img_extension[1:]  # remove dot (".")
-
-        with open(local_img_path, mode='rb') as img_file:
-            encoded_string = base64.b64encode(img_file.read()).decode('utf-8')
-
-        img_data = f'data:image/{img_extension};base64,{encoded_string}'
-
-        img['src'] = img_data
-
-    # Remove classes from the <body> tag as it interferes with existing styling
-    soup.body['class'] = ''
-
-    # Add float-right class to tags in Table of Contents
-    for a in soup.findAll('a'):
-        if 'href' in a.attrs \
-                and re.search(r'#h\.[a-z0-9]+', a['href']) \
-                and re.search(r'[0-9]+', a.text):
-            parent = a.find_parent()
-            if 'class' in parent.attrs:
-                parent.attrs['class'].append('float-right')
-
-    # Include content after this indicator
-    jekyll_start = list(soup(text='!jekyll::start'))
-
-    if not jekyll_start:
-        print('html file must have text literal !jekyll::start')
-        return
-
-    start_tag = jekyll_start[0]
-    while start_tag.name != 'p':
-        start_tag = start_tag.parent
-
-    body_after_start = start_tag.find_next_siblings()
-    body_after_start_html_str = ''.join(tag.prettify() for tag in body_after_start if tag)
-
-    inline_img_html_string = soup.head.prettify() + '\n' + body_after_start_html_str
-
-    markdown_front_matter = get_front_matter(markdown_path)
-
-    if not markdown_front_matter:
-        print('no matches in markdown front matter')
-        return
-
-    with open(markdown_path, mode='w+') as markdown_file:
-        markdown_file.write(markdown_front_matter + '\n' + inline_img_html_string)
-
-
-def get_front_matter(markdown_path):
-    in_front_matter = False
-    front_matter_lines = []
-    with open(markdown_path, mode='r') as markdown_file:
-        for line in markdown_file:
-            triple_dash_found = line.find('---') > -1
-
-            if not in_front_matter and triple_dash_found:
-                in_front_matter = True
-
-            elif in_front_matter and triple_dash_found:
-                break
-
-            elif in_front_matter:
-                front_matter_lines.append(line)
-
-    return '---\n' + ''.join(front_matter_lines) + '---\n'
-
-
-def help():
-    return """
-    python3 gdoc2markdown.py <input html file> <output markdown file>
-        input html file: path to the HTML file in the unzipped Google Doc
-        output markdown file: path to write markdown contents to
-    """
+        markdown.write(
+            markdown_file_path=output_markdown_file_path,
+            images_folder_path=output_images_site_path
+        )
 
 
 if __name__ == "__main__":

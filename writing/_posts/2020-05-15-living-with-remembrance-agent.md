@@ -18,7 +18,7 @@ As I dove deeper into the literature of intelligence augmentation, one MIT Media
 
 In the past few years, I’ve also had the opportunity to talk with folks who have been using such systems for decades. These conversations gave me great insight into how such memory augmentation systems can improve the way our brains structure information and how we take notes to make the best use of a hybrid human-computer information system.
 
-One such individual, who has been wearing a head-worn display continuously for almost 25 years, shared with me the profound impact that wearable “always-on” computer systems had on his memory functions. He doesn’t have executive memory; he needs an artificially-imposed structure for memory to remember what most of us can recall with ease. After a few years of taking and recalling notes through an HWD, his mind passively[^kix.3mj6yq5xeepg] learned how to develop memory maps allowing him to learn naturally in the physical world even when not using a HWD.
+One such individual, who has been wearing a head-worn display continuously for almost 25 years, shared with me the profound impact that wearable “always-on” computer systems had on his memory functions. He doesn’t have executive memory; he needs an artificially-imposed structure for memory to remember what most of us can recall with ease. After a few years of taking and recalling notes through an HWD, his mind passively[^footnote-1] learned how to develop memory maps allowing him to learn naturally in the physical world even when not using a HWD.
 
 Following the spirit instilled in me by research colleagues. I decided to run a long-term experiment on myself: I wanted to understand first-hand how living and working with a memory augmentation tool for a year could improve the way I relate to the knowledge in my brain and in my computer.
 
@@ -97,4 +97,4 @@ I also found the remembrance agent useful when composing reports, articles, or p
 
 ---
 
-[^kix.3mj6yq5xeepg]:  By “passive” I simply mean that he was not putting in a conscious effort.
+[^footnote-1]:  By “passive” I simply mean that he was not putting in a conscious effort.

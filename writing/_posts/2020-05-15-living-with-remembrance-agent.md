@@ -94,6 +94,14 @@ When writing an email to a colleague about “wearable computers,” my remembra
 
 I also found the remembrance agent useful when composing reports, articles, or papers where various tidbits of wisdom improve the content at hand.
 
+### Extended memory map
+
+The remembrance agent’s constant search for relevant documents reinforces connections between my current context and past documents. I’ve noticed that I have a strong and faster mental recall of older documents.
+
+(More such findings will be added here with time.)
+
+
+
 
 ---
 

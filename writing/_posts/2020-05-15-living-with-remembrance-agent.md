@@ -77,7 +77,7 @@ During my first quarter of graduate school I took lecture notes and meeting note
 
 My primary interface to the remembrance agent has been through a desktop GUI. 
 
-![None](https://lh5.googleusercontent.com/31YOyySXGIdsSXn5CNQTgpoGkYLEhTAOrWG94NBEsKyiGLeHTCO3cGDYTYDfxjGFMcZtwUmadb1GiJHNZdBn-sgM48krUQoBUkw43qVDO7b51d3M14TCSwRclknJaUGuEpZ9JlQg-nG0z2HTIQ)
+![None](/static/images/2020-05-15-living-with-remembrance-agent/image0.png)
 
 
 As I go about my normal typing tasks, my keystrokes are recorded into the “Keylogger Buffer” at the bottom of the window. Every `5` seconds, the contents of the keyboard buffer is sent as part of a query to the remembrance agent engine. This ‘engine’ returns the top `4` documents ranking by their relevance score (displayed on the left of each document).

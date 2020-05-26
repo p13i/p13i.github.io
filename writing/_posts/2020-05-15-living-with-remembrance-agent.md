@@ -44,20 +44,20 @@ I created a no-dependency, pure-Java, Gradle-based project that encapsulates the
 * `void indexDocuments()` which will perform all the preprocessing required to efficiently produce contextually-useful document suggestions, and
 * `List<ScoredDocuments> determineSuggestions(Query)` which will take in a contextually-aware query and return a list of documents and their relevance scores.
 
-These three functions map clearly to the `[IRemembranceAgentEngine](https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/engine/IRemembranceAgentEngine.java)` interface resting at the core of this project. The [implementation](https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/engine/RemembranceAgentEngine.java) of this interface closely follows that of [Rhodes 1997]. 
+These three functions map clearly to the [`IRemembranceAgentEngine`](https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/engine/IRemembranceAgentEngine.java) interface resting at the core of this project. The [implementation](https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/engine/RemembranceAgentEngine.java) of this interface closely follows that of [Rhodes 1997]. 
 
 ### Data models
 
-An `[AbstractDocument](https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/models/AbstractDocument.java)` is the base class for every type of document that can be ingested by the `RemembranceAgentEngine`. It holds the text of a document as well as contextual information about the document. The various contextual factors of each document are encapsulated in a `[Context](https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/models/Context.java)`. These factors include:
+An [`AbstractDocument`](https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/models/AbstractDocument.java) is the base class for every type of document that can be ingested by the `RemembranceAgentEngine`. It holds the text of a document as well as contextual information about the document. The various contextual factors of each document are encapsulated in a [`Context`](https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/models/Context.java). These factors include:
 
 * the location of the user,
-* the name of the user (i.e. the `[person](https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/models/Context.java#L13)`),
+* the name of the user (i.e. the [`person`](https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/models/Context.java#L13)),
 * a short description of the subject of the query, and
 * the date this query.
 
-There are numerous concrete subclasses of `AbstractDocument` which lend to numerous integrations like those for Gmail and Google Drive. A collection of `AbstractDocument`s is stored in an implementation of `[IDocumentDatabase](https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/databases/IDocumentDatabase.java#L6)`.
+There are numerous concrete subclasses of `AbstractDocument` which lend to numerous integrations like those for Gmail and Google Drive. A collection of `AbstractDocument`s is stored in an implementation of [`IDocumentDatabase`](https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/databases/IDocumentDatabase.java#L6).
 
-A `[Query](https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/models/Query.java)` tells the `RemembranceAgentEngine`’s `determineSuggestions` method about the context of a query and provides a query string used to search for relevant documents based on their contents. A query has an associated `Context` which is compared with each document’s own `Context` to determine if the document is relevant to the query.
+A [`Query`](https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/models/Query.java) tells the `RemembranceAgentEngine`’s `determineSuggestions` method about the context of a query and provides a query string used to search for relevant documents based on their contents. A query has an associated `Context` which is compared with each document’s own `Context` to determine if the document is relevant to the query.
 
 ### Determining suggestions
 
@@ -67,7 +67,7 @@ The content similarity score for an entire document is calculated by summing up 
 
 ## Deployment
 
-I sought to use the remembrance agent on my desktop and on Google Glass. As such I enclosed the core remembrance agent functionality in a no-dependency Gradle `[remembrance-agent](https://github.com/remembrance-agent/remembrange-agent)`[ project](https://github.com/remembrance-agent/remembrange-agent) that can easily be imported into other Java runtime projects.
+I sought to use the remembrance agent on my desktop and on Google Glass. As such I enclosed the core remembrance agent functionality in a no-dependency Gradle [`remembrance-agent`](https://github.com/remembrance-agent/remembrange-agent)[ project](https://github.com/remembrance-agent/remembrange-agent) that can easily be imported into other Java runtime projects.
 
 ### Glass Notes integration
 
@@ -77,7 +77,7 @@ During my first quarter of graduate school I took lecture notes and meeting note
 
 My primary interface to the remembrance agent has been through a desktop GUI. 
 
-![None](https://lh5.googleusercontent.com/ZL_lVZV7aDb2WuVsCSmZSS2JW0zFLwN3feMp0LCU-gGplXgAKFqjLpJM06XggXwFIhYhamxWcYHkDc1mjLWPTVjU_dIa_BEGgwFQMg2_B0eMYTIHu93e34QS9okBCyYsE3gbUJozhyfkOZ1EQQ)
+![None](https://lh5.googleusercontent.com/31YOyySXGIdsSXn5CNQTgpoGkYLEhTAOrWG94NBEsKyiGLeHTCO3cGDYTYDfxjGFMcZtwUmadb1GiJHNZdBn-sgM48krUQoBUkw43qVDO7b51d3M14TCSwRclknJaUGuEpZ9JlQg-nG0z2HTIQ)
 
 
 As I go about my normal typing tasks, my keystrokes are recorded into the “Keylogger Buffer” at the bottom of the window. Every `5` seconds, the contents of the keyboard buffer is sent as part of a query to the remembrance agent engine. This ‘engine’ returns the top `4` documents ranking by their relevance score (displayed on the left of each document).

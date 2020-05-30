@@ -5,3 +5,12 @@
       file_path: ./writing/_posts/2020-05-15-living-with-remembrance-agent.md
     images:
       site_path: /static/images/2020-05-15-living-with-remembrance-agent
+
+- source:
+    name: 2018-2020 | Symbiotic Artificial Intelligence
+    id: 1fO_zcPeouZhdzRMn-Hv43rH0QfuuKAgRS4QJbe9NODc
+  output:
+    markdown:
+      file_path: ./writing/_posts/2019-06-22-symbiotic-ai.md
+    images:
+      site_path: /static/images/2019-06-22-symbiotic-ai

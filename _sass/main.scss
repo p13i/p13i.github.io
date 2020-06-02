@@ -1,6 +1,49 @@
+// Helvetica Neue from a google file...
+/* latin */
+@font-face {
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Calibri'), url(https://fonts.gstatic.com/l/font?kit=J7afnpV-BGlaFfdAhLEY67FIEjg&skey=a1029226f80653a8&v=v10) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+/* latin-ext */
+@font-face {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Helvetica Neue'), local('HelveticaNeue'), url(https://fonts.gstatic.com/l/font?kit=jAnfgHBgCsv4eNLTaMECf8DQsNS1exC-fGAj&skey=4ad46dd97873f7d7&v=v9) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Helvetica Neue'), local('HelveticaNeue'), url(https://fonts.gstatic.com/l/font?kit=jAnfgHBgCsv4eNLTaMECf8DQsNS7exC-fGAj&skey=4ad46dd97873f7d7&v=v9) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Helvetica Neue Bold'), local('HelveticaNeue-Bold'), url(https://fonts.gstatic.com/l/font?kit=jAncgHBgCsv4eNLTaMECf8DQsNwAXgWdXm0Jmmw5&skey=ba59c4fdb0ab3b35&v=v9) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Helvetica Neue Bold'), local('HelveticaNeue-Bold'), url(https://fonts.gstatic.com/l/font?kit=jAncgHBgCsv4eNLTaMECf8DQsNwAXgWTXm0Jmmw5&skey=ba59c4fdb0ab3b35&v=v9) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 body {
     font-weight: 300;
     padding-bottom: 2em;
+    font-family: 'Helvetica Neue';
 }
 
 /* Space between navbar and content */
@@ -14,8 +57,6 @@ body {
 
 .contact {
     .contact-table {
-        text-align: center;
-
         td {
             padding-bottom: 0 !important;
         }
@@ -23,6 +64,10 @@ body {
         svg {
             width: 1.18em;
             height: auto;
+        }
+        td, th {
+            padding: .25rem;
+            border: none !important;
         }
     }
 }

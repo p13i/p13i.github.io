@@ -6,7 +6,7 @@ title: Pramod Kotipalli
 subtitle:
 
 # For Netlify
-repository: "https://github.com/p13i/p13i.github.io"
+repository: "p13i/p13i.github.io"
 
 # This is the style used by Jekyll for blog post URLs
 permalink: "/posts/:year/:month/:title/"

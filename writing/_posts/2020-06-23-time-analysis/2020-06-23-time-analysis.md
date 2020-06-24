@@ -13,7 +13,7 @@ First, let me define what I mean by work: I track meetings, lectures, heads-down
 
 I worked an average of 5.34 hours per day with a standard deviation of 3.29. My minimum hours of work per day was 0.35 hours with a maximum of 15.33 hours. I worked a total of 374 hours over the course of 70 days. Assuming a per-entry error of +/- 5 minutes and given 608 time-tracking entries through [this app](https://memory.ai/timely/features/automatic-time-tracking) given an approximate error to the total account of +/- ~50.7 hours. Accordingly, I can approximate the daily error in logged time to be about +/- 13.5%. Given the way I logged my hours (using Timely’s open-window tracker and logging entries at the end of the day), this error rate seems reasonable. The underestimates and overestimates inherent in each of my time tracking entries lead me to believe that 374 hours of work over the quarter is an accurate figure.
 
-![Work distribution by day](chart.png)
+![Work distribution by day](chart.jpg)
 
 
 This chart presents the distribution of work by "client" for each day throughout the quarter. A "client" is an academic course, employer, research, or personal projects. The notable trends here are:

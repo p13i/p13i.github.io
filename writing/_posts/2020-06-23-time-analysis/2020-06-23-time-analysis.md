@@ -7,7 +7,7 @@ tags:
 - time-tracking
 ---
 
-I just completed an analysis of all my working hours this past quarter starting on March 23rd through June 12th when the academic quarter ended. My commitments throughout the quarter included two [pass/fail classes](https://www.stanforddaily.com/2020/03/26/spring-classes-to-be-graded-on-satisfactory-no-credit-scale-faculty-senate-decides/), work for the (School of Medicine’s COVID-19 response)[https://innovations.stanford.edu/wearables], academic research with Stanford’s SHAPE lab, and a few personal projects here and there. Quite a few commitments! And I’ll get to what that meant for my actual performance later.
+I just completed an analysis of all my working hours this past quarter starting on March 23rd through June 12th when the academic quarter ended. My commitments throughout the quarter included two [pass/fail classes](https://www.stanforddaily.com/2020/03/26/spring-classes-to-be-graded-on-satisfactory-no-credit-scale-faculty-senate-decides/), work for the [School of Medicine's COVID-19 response](https://innovations.stanford.edu/wearables), academic research with Stanford’s SHAPE lab, and a few personal projects here and there. Quite a few commitments! And I’ll get to what that meant for my actual performance later.
 
 First, let me define what I mean by work: I track meetings, lectures, heads-down studying/programming, and reading as work. I don’t count emails, networking, and various house chores in these figures. Onwards to the stats!
 
@@ -19,9 +19,12 @@ I worked an average of 5.34 hours per day with a standard deviation of 3.29. My 
 This chart presents the distribution of work by "client" for each day throughout the quarter. A "client" is an academic course, employer, research, or personal projects. The notable trends here are:
   1. My hourly expenditure on the Personal Health Dashboard decreased significantly as my Computer Graphics class and Smart Products class took on more of my mental bandwidth later on.
   2. I tend to procrastinate work on academic assignments until the few days before they are due. There are a few peaks that support this claim:
-    * Sun. 05/03 - Mon 05/04 for Smart Products which were the two days before my first assignment was due in the class. There was almost no other work done during that time.
-    * Thu. 05/07 - Mon. 05/11 for my Remembrance Agent project that a corporate client wanted a demo of. I spent three straight days on this project working about 10 hours per day to get this project to completion.
-    * Mon. 05/18 - Fri. 05/22 for my Computer Graphics class.
+
+      * Sun. 05/03 - Mon 05/04 for Smart Products which were the two days before my first assignment was due in the class. There was almost no other work done during that time.
+
+      * Thu. 05/07 - Mon. 05/11 for my Remembrance Agent project that a corporate client wanted a demo of. I spent three straight days on this project working about 10 hours per day to get this project to completion.
+
+      * Mon. 05/18 - Fri. 05/22 for my Computer Graphics class.
   3. The second half of the quarter was increasing dominated by Computer Graphics work as I struggled to complete the challenging assignments at hand.
 
 Some conclusions:

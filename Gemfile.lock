@@ -25,6 +25,7 @@ GEM
       jekyll (~> 3.4)
       octokit (~> 4.0, != 4.4.0)
     jekyll-paginate (1.1.0)
+    jekyll-postfiles (2.1.1)
     jekyll-redirect-from (0.15.0)
       jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (1.5.0)
@@ -65,12 +66,13 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-github-metadata
   jekyll-paginate
+  jekyll-postfiles
   jekyll-redirect-from
   jekyll-seo-tag
   jekyll-sitemap
 
 RUBY VERSION
-   ruby 2.4.9p362
+   ruby 2.4.6p354
 
 BUNDLED WITH
    2.1.4

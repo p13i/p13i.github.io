@@ -34,6 +34,7 @@ exclude:
   - writing/_posts/**/*.png
   - portfolio/_posts/**/*.jpg
   - portfolio/_posts/**/*.png
+  - portfolio/_posts/**/*.pdf
 
 # Display future posts?
 future: true

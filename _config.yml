@@ -30,8 +30,10 @@ include:
 
 # https://github.com/nhoizey/jekyll-postfiles/issues/1#issuecomment-244355430
 exclude:
-  - **/_posts/**/*.jpg
-  - **/_posts/**/*.png
+  - writing/_posts/**/*.jpg
+  - writing/_posts/**/*.png
+  - portfolio/_posts/**/*.jpg
+  - portfolio/_posts/**/*.png
 
 # Display future posts?
 future: true

@@ -1,6 +1,5 @@
 ---
-title: Error Correcting Codes
-date: 2015-12-11 00:00:00 Z
+title: Error-Correcting Codes
 categories:
 - writing
 tags:
@@ -101,7 +100,7 @@ codeword, transmitted across a noisy channel, and then decoded and
 corrected by the recipient.
 
 \[NoisyCommunication\] ![Error correction across noisy channels
-@ECCAndFF](images/outline.jpg "fig:")
+@ECCAndFF](/static/images/2015-12-11-error-correcting-codes/noisy-channel.png)
 
 In this paper, I hope to effectively outline the use of
 **Bose-Chaudhuri-Hocquenghem (BCH) codes** which form a class of cyclic
@@ -276,8 +275,7 @@ based on the primitive, generator polynomial $x^4 + x^3 + 1$ (Figure
 \[mult\]).
 
 ![Multiplication over the finite field GF(16)\[mult\]
-@ECCAndFF](images/GF16.jpg)
-
+@ECCAndFF](/static/images/2015-12-11-error-correcting-codes/gf16-multiplication.png)
 Primitive elements in **GF**(16)
 --------------------------------
 
@@ -702,7 +700,7 @@ Power/Vector table
 ------------------
 
 ![The Power/Vector table referred to throughout the paper.
-@LAandMatricies](images/PowerVector.jpg)
+@LAandMatricies](/static/images/2015-12-11-error-correcting-codes/power-vector-table.png)
 
 References
 ==========

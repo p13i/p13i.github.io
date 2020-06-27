@@ -1,6 +1,6 @@
 ---
 title: Symbiotic Artificial Intelligence
-date: {}
+date: 2020-06-22T00:00:00.000Z
 categories:
   - writing
 tags:

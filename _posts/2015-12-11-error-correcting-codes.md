@@ -117,19 +117,15 @@ Code words and Hamming distances
 
 Let’s first define some key words and concepts:
 
-If $A$ is an alphabet
+If $A$ is an alphabet (containing $q$ symbols), then an *A-word* with length $n$ is
+denoted as $A^n$ meaning that it contains $n$ elements from $A$. For
+example, in the set of alphabetic characters
+$A = \{a, b, \cdots, z\}$, the *A-word* $\verb|"hello"|$ is denoted
+as $A^5$.
 
-:   (containing $q$ symbols), then an *A-word* with length $n$ is
-    denoted as $A^n$ meaning that it contains $n$ elements from $A$. For
-    example, in the set of alphabetic characters
-    $A = \{a, b, \cdots, z\}$, the *A-word* $\verb|"hello"|$ is denoted
-    as $A^5$.
-
-An *$(n, m)$-block code $C$*
-
-:   over the alphabet $A$ of size $q$ contains exactly $q^m$ *code
-    words* in $A^n$. The set of $q^m$ elements in $A^n$ consists of all
-    the *code words* for a message of length $n$ in the alphabet $A$.
+An *$(n, m)$-block code $C$* over the alphabet $A$ of size $q$ contains exactly $q^m$ *code
+words* in $A^n$. The set of $q^m$ elements in $A^n$ consists of all
+the *code words* for a message of length $n$ in the alphabet $A$.
 
 We will see that the field of code words defined in finite fields have
 special properties that would allow us to recover a corrupted message

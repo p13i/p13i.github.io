@@ -24,6 +24,11 @@ Here we generate all the tags.
 {% assign ttags = post.tags | join:'|' | append:'|' %}
 {% assign rawtags = rawtags | append:ttags %}
 
+{% elsif category == nil and subcategory == nil %}
+
+{% assign ttags = post.tags | join:'|' | append:'|' %}
+{% assign rawtags = rawtags | append:ttags %}
+
 {% endif %}
 
 {% endfor %}

@@ -1,12 +1,14 @@
 ---
 title: Error Correcting Codes
+date: 2015-12-11 00:00:00 Z
 categories:
 - writing
 tags:
 - error-correcting-codes
 layout: posts/post
 author: Pramod Kotipalli
-description: Final project writeup from Georgia Tech's Math 2803 (honors) class with Professor Matt Baker
+description: Final project writeup from Georgia Tech's Math 2803 (honors) class with
+  Professor Matt Baker
 redirect_from: "/writing/ecc/"
 ---
 

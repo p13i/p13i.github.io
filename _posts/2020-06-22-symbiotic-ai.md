@@ -1,17 +1,15 @@
 ---
 title: Symbiotic Artificial Intelligence
-date: 2020-06-22T00:00:00.000Z
+date: 2020-06-22 00:00:00 Z
 categories:
-  - writing
+- writing
 tags:
-  - artificial-intelligence
-  - human-computer-interaction
+- artificial-intelligence
+- human-computer-interaction
 author: Pramod Kotipalli
-description: >-
-  An evolving catalog of what I’ve learned in the fields of artificial
+description: An evolving catalog of what I’ve learned in the fields of artificial
   intelligence and human-computer interaction.
 layout: posts/post
-published: true
 ---
 
 # Introduction

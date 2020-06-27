@@ -3,9 +3,9 @@
 BASED ON: https://github.com/codinfox/codinfox-lanyon/blob/master/blog/tag.html
 {% endcomment %}
 
-{% comment%}
+{% comment %}
 Here we generate all the tags.
-{% endcomment%}
+{% endcomment %}
 
 {% assign rawtags = "" %}
 
@@ -14,7 +14,12 @@ Here we generate all the tags.
 
 {% for post in site.posts %}
 
-{% if (post.categories contains category and post.subcategories contains subcategory) or (post.categories contains category and subcategory == nil) or (category == nil) %}
+{% if post.categories contains category and post.subcategories contains subcategory %}
+
+{% assign ttags = post.tags | join:'|' | append:'|' %}
+{% assign rawtags = rawtags | append:ttags %}
+
+{% elsif post.categories contains category and subcategory == nil %}
 
 {% assign ttags = post.tags | join:'|' | append:'|' %}
 {% assign rawtags = rawtags | append:ttags %}

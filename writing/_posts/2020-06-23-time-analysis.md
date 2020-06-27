@@ -5,6 +5,7 @@ author: Pramod Kotipalli
 layout: posts/post
 tags:
 - time-tracking
+image: /static/images/2020-06-23-time-analysis/chart.jpg
 ---
 
 I just completed an analysis of all my working hours this past quarter starting on March 23rd through June 12th when the academic quarter ended. My commitments throughout the quarter included two [pass/fail classes](https://www.stanforddaily.com/2020/03/26/spring-classes-to-be-graded-on-satisfactory-no-credit-scale-faculty-senate-decides/), work for the [School of Medicine's COVID-19 response](https://innovations.stanford.edu/wearables), academic research with Stanford's SHAPE lab, and a few personal projects here and there. Quite a few commitments! And I'll get to what that meant for my actual performance later.

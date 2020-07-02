@@ -7,8 +7,11 @@ tags:
 layout: posts/post
 author: Pramod Kotipalli
 description: all in my head
+image: /static/images/2020-05-25-lovebirds/lovebirds.jpg
 redirect_from: "/writing/lovebirds/"
 ---
+
+![]({{ page.image }})
 
 i saw two love birds today  
 perched on a hill among the rolling greens of our shire  

@@ -40,10 +40,19 @@ layout: compress
 
 </head>
 <body>
-<div class="container-fluid" style="
-    height: 1em;
-    background: url('/static/images/header.jpg') no-repeat center top"></div>
+
+    {% if jekyll.environment == "stanford" %}
     
+<div class="container-fluid" style="height: 1.5em;background: url('/static/images/header-stanford.jpg') no-repeat top;background-size: cover;width: 100%;"></div>
+
+    {% else %}
+    
+<div class="container-fluid" style="
+height: 1em;
+background: url('/static/images/header.jpg') no-repeat center top"></div>
+
+    {% endif %}
+
 {% include _navbar.html %}
 
 <div class="container content">

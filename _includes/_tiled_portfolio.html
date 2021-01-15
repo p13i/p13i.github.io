@@ -7,13 +7,13 @@
 
 <hr/>
 
-<h2>{{ include.subcategory }}</h2>
+<h2>{{ include.subcategory }} {% if include.tag %}#{{ include.tag }}{% endif %}</h2>
 
 {% endif %}
 
 <hr/>
 
-{% include _get_all_tags.html category='portfolio' subcategory=include.subcategory %}
+{% include _get_all_tags.html category=include.category subcategory=include.subcategory %}
 
 
 {% for tag in tags %}
@@ -28,7 +28,7 @@
 
     {% for post in site.posts %}
 
-        {% if post.categories contains 'portfolio' %}
+        {% if post.categories contains include.category or post.tags contains include.tag %}
 
             {% if include.subcategory == nil or post.subcategories contains include.subcategory %}
 

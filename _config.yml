@@ -18,6 +18,7 @@ gems:
 - jekyll-sitemap
 - jekyll-github-metadata
 - jekyll-seo-tag
+- jekyll-paginate
 include:
 - static
 - js

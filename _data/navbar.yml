@@ -19,14 +19,6 @@
       target: _self
       display: Research
     
-    - href: /portfolio/photography/
-      display: Photography
-      target: _self
-    
-    - href: /portfolio/everyday/
-      display: Everydays
-      target: _self
-    
     - divider: True
     
     - href: https://instagram.com/p13i.io

@@ -44,3 +44,8 @@ stop	:
 # Shortcut
 up		:
 	docker-compose up
+
+commit-all	:
+	git add .
+	git commit -m msg
+	git push

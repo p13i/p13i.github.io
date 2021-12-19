@@ -1,6 +1,5 @@
 ---
 title: "Copilot AI: intelligent agents for industrial processes"
-date: 2019-09-27
 categories:
 - portfolio
 tags:
@@ -10,7 +9,7 @@ tags:
 layout: posts/post
 author: Pramod Kotipalli
 description: An adventure into the venture formation world
-image: "/static/images/2019-09-27-copilot-ai/copilot-ai-thumbnail.png"
+image: https://user-images.githubusercontent.com/13140065/146668055-5ad9ab93-0334-440d-a1fe-c3c99a78ec8f.png
 redirect_from: "/portfolio/copilot-ai/"
 subcategories:
 - research
@@ -18,7 +17,7 @@ default_image_fullwidth: true
 columns: 3
 downloads:
 - name: "&#128442; PDF executive summary"
-  url: /static/images/2019-09-27-copilot-ai/copilot-ai-executive-summary.pdf
+  url: https://github.com/p13i/p13i.github.io/files/7740473/copilot-ai-executive-summary.pdf
 ---
 
 ![]({{ page.image }})
@@ -26,8 +25,6 @@ downloads:
 ---
 
 This was a business I pursued (mostly independently) from 2018 through 2019.
-
-This work was based on our ISWC 2018 paper.
 
 I wrote out a pretty complete 25-30 page business plan. The executive summary
 is available as a PDF in the downloads section of this page.
@@ -45,3 +42,5 @@ applications, would return only about $110 per month of cost-savings.
 That's about 7-10 hours **per month** of time saved, a very minimal amount. 
 Plus robotics is getting pretty dang good and workers are increasingly 
 demanding better working conditions (both of which are great!).
+
+This work was based on our [ISWC 2018 paper](/portfolio/rf-pick).

@@ -1,38 +1,32 @@
-- category: portfolio
-  display: Portfolio
-  submenu:
-    - href: /portfolio/
-      target: _self
-      display: Full Online Portfolio
-    
-    - divider: True
+# At the top level, we have:
+#   display, cateory, href, target, and submenu
+#   display is the printed text
+#   category is IDK
+#   href is where to link out to
+#   target is set to _self or _blank as in HTML's <a target
 
-    - href: /portfolio/engineering/
-      target: _self
-      display: Engineering
-    
-    - href: /portfolio/design/
-      target: _self
-      display: Design
-    
-    - href: /portfolio/research/
-      target: _self
-      display: Research
-    
-    - divider: True
-    
-    - href: https://instagram.com/p13i.io
-      display: Instagram
-      target: _blank
-
-- href: /writing/
-  category: writing
+- display: Research
+  href: /portfolio/research/
   target: _self
-  display: Writing
 
-- category: downloads
-  display: Downloads
+- display: Engineering
+  href: /portfolio/engineering/
+  target: _self
+
+- display: Design
+  href: /portfolio/design/
+  target: _self
+
+- display: Random
+  href: /writing/
+  target: _self
+
+# a simple horizontal divider
+- display: "&nbsp;|&nbsp;"
+
+- display: Downloads
   submenu:
+
     - href: /downloads/
       display: 2D/3D Assets, Source Code/Files
       target: _self
@@ -46,3 +40,10 @@
     - href: /static/portfolio/Pramod_Kotipalli_portfolio.pdf
       target: _blank
       display: Portfolio (PDF)
+
+# a simple horizontal divider
+- display: "&nbsp;|&nbsp;"
+
+- href: https://instagram.com/p13i.io
+  display: 📸 Instagram
+  target: _blank

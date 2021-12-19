@@ -28,4 +28,5 @@ default_image_fullwidth: true
 
 ![]({{ page.image }})
 
-I loved creating this one. It looks a lot like what Apple publishes on their own websites.
+I loved creating this one. It looks a lot like what Apple
+publishes on their own websites.

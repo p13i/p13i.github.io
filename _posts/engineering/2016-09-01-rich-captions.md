@@ -1,6 +1,6 @@
 ---
 title: Rich Captions
-date: 2016-09-01 00:00:00 Z
+date: "2016-09-01"
 categories:
 - portfolio
 tags:

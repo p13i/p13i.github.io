@@ -1,7 +1,6 @@
 ---
 title: Research Portfolio
 layout: base
-regenerate: true
 categories:
 - portfolio
 ---
@@ -9,7 +8,7 @@ categories:
 <div class="row portfolio">
     <div class="col-12">
 
-        {% include _tiled_portfolio.html category='portfolio' subcategory='research' %}
+        {% include _tiled_portfolio.html category='research' %}
 
     </div>
 </div>

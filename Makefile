@@ -45,7 +45,7 @@ stop	:
 up		:
 	docker-compose up
 
-commit-all	:
+publish	:
 	git add .
 	git commit -m msg
 	git push

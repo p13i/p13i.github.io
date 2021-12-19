@@ -1,15 +1,10 @@
-
-<hr/>
-
-<h1>Portfolio</h1>
-
 <hr/>
 
 {% include _get_all_tags.html category=include.category %}
 
 
 {% for tag in tags %}
-{% include _tag.html tag=tag %}
+    {% include _tag.html tag=tag %}
 {% endfor %}
 
 <hr/>

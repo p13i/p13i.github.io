@@ -10,6 +10,10 @@ categories:
 
         <hr/>
 
+        <h1>{{ page.title }}</h1>
+
+        <hr/>
+
         <h1>Research portfolio</h1>
 
         {% include _tiled_portfolio.html category='research' %}

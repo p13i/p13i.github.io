@@ -11,9 +11,9 @@ categories:
 
         <hr/>
 
-        <h1>{{ post.title }}</h1>
+        <h1>{{ page.title }}</h1>
 
-        {% include _tiled_portfolio.html category='portfolio' subcategory='engineering' %}
+        {% include _tiled_portfolio.html category='engineering' %}
 
     </div>
 </div>

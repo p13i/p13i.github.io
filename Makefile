@@ -19,7 +19,7 @@ build	:
 	docker-compose run www bash -c "bundle exec jekyll build"
 
 # Bring the app online
-online	:	
+online	:
 	# docker-compose up
 	python3 -m http.server --directory "_site" 1337
 
@@ -31,3 +31,6 @@ bashin	:
 stop	:
 	docker-compose down
 
+# Shortcut
+up		:
+	docker-compose up

@@ -1,7 +1,7 @@
 ---
 title: Remembrance Agent for Java
-date: "2019-07-29"
 categories:
+- writing
 - research
 tags:
 - note-taking
@@ -26,10 +26,6 @@ description: Java-based implementations of a remembrance
   text (.txt) or Markdown (.md) files. Open-source and
   freely-available under the MIT License. Under active
   development.
-subcategories:
-- design
-- engineering
-- research
 image: "/static/images/2019-07-29-remembrance-agent/remembrance-agent-logo.png"
 redirect_from: "/portfolio/ra/"
 default_image_fullwidth: true

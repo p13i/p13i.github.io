@@ -46,7 +46,3 @@
     - href: /static/portfolio/Pramod_Kotipalli_portfolio.pdf
       target: _blank
       display: Portfolio (PDF)
-
-- href: /contact/
-  target: _self
-  display: Contact

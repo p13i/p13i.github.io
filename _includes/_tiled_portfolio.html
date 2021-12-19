@@ -3,21 +3,13 @@
 
 <h1>Portfolio</h1>
 
-{% if include.subcategory %}
-
-<hr/>
-
-<h2>{{ include.subcategory }} {% if include.tag %}#{{ include.tag }}{% endif %}</h2>
-
-{% endif %}
-
 <hr/>
 
 {% include _get_all_tags.html category=include.category %}
 
 
 {% for tag in tags %}
-<a href="/tags/#{{ tag | slugify }}" class="badge badge-light"> {{ tag | replace: '-', ' ' | upcase }} </a>
+{% include _tag.html tag=tag %}
 {% endfor %}
 
 <hr/>

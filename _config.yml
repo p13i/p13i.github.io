@@ -1,13 +1,6 @@
 ---
 title: Pramod Kotipalli
 timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
 subtitle: 
 permalink: "/posts/:year/:month/:title/"
 markdown: kramdown

@@ -14,6 +14,7 @@ description: My experiences developing a wearable and
   of living with an intelligent agent such as this has had
   on my cognition, memory recall, and how I organize my
   digital information.
+image: https://user-images.githubusercontent.com/13140065/146688349-93d418a5-c04a-41f1-b445-cf527923c6bc.png
 layout: posts/post
 ---
 

@@ -1,8 +1,9 @@
 ---
 title: Glass Notes
-date: 2019-07-11 00:00:00 Z
+date: "2019-07-11"
 categories:
-- portfolio
+- research
+- engineering
 tags:
 - google-glass
 - note-taking

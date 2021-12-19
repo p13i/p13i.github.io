@@ -1,6 +1,6 @@
 ---
 title: Cisco Testing-as-a-Service
-date: 2017-08-01 00:00:00 Z
+date: "2017-08-01"
 categories:
 - portfolio
 tags:
@@ -43,8 +43,19 @@ subcategories:
 
 ![]({{ page.image }})
 
-During my internship at Cisco, I led two full-time employees where we created a highly-scalable distributed HTTP load testing framework. We built a simple-to-use RESTful API that would manage and orchestrate thousands of Docker containers. An easy-to-use front-end, written with AngularJS, would allow QA Engineers to select a JMeter configuration file to run across hundreds of worker Docker containers running JMeter. Log files were collected and analyzed on an Elasticsearch-Logstash-Kibana (ELK) stack.
+During my internship at Cisco, I led two full-time employees
+where we created a highly-scalable distributed HTTP load
+testing framework. We built a simple-to-use RESTful API that
+would manage and orchestrate thousands of Docker containers.
+An easy-to-use front-end, written with AngularJS, would
+allow QA Engineers to select a JMeter configuration file to
+run across hundreds of worker Docker containers running
+JMeter. Log files were collected and analyzed on an
+Elasticsearch-Logstash-Kibana (ELK) stack.
 
-This project required 3.5k lines of clean well-documented Python, a complete AngularJS front-end involving 1.1k lines of TypeScript, and 0.5k lines of HTML.
+This project required 3.5k lines of clean well-documented
+Python, a complete AngularJS front-end involving 1.1k lines
+of TypeScript, and 0.5k lines of HTML.
 
-Our solution was deployed to customers like AT&T and Comcast to the scale of 100k+ users.
+Our solution was deployed to customers like AT&T and Comcast
+to the scale of 100k+ users.

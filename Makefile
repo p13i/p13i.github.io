@@ -13,15 +13,25 @@ clean	:
 	rm -rf .jekyll-metadata
 	docker-compose rm --force
 
-# Build without using caches
-build	:
-	docker-compose build --no-cache
+build-site	:
 	docker-compose run www bash -c "bundle exec jekyll build"
 
-# Bring the app online
+build	:
+	docker-compose build
+	make build-site
+
+# Build without using caches
+build-from-scratch	:
+	docker-compose build --no-cache
+	make build-site
+
+# Bring the app online after building from scratch
 online	:
-	# docker-compose up
 	python3 -m http.server --directory "_site" 1337
+
+# https://stackoverflow.com/a/18346041
+watch	:
+	while inotifywait -qqre modify,create,delete,move ./;do make;done
 
 # Get CLI access
 bashin	:

@@ -33,14 +33,24 @@ This was a very fun project!
 
 ![](/static/images/2019-07-26-apple-watch/apple-watch-A-wireframe.png)
 
-I'm also getting very comfortable with creating wire frames. I recently learned how to work with Cinema 4D's render settings to more easily save commonly-used rending settings for later. Very useful.
+I'm also getting very comfortable with creating wire frames.
+I recently learned how to work with Cinema 4D's render
+settings to more easily save commonly-used rending settings
+for later. Very useful.
 
-I learned how to use the Loft object which creates a 3D polygon mesh from a series of 2D shapes. It was the strategy I used to model the wrist straps which puzzled for quite a while. 🤔
+I learned how to use the Loft object which creates a 3D
+polygon mesh from a series of 2D shapes. It was the strategy
+I used to model the wrist straps which puzzled for quite a
+while. 🤔
 
 ![](/static/images/2019-07-26-apple-watch/apple-watch-sensor-plate-collage.png)
 
-My favorite part was modeling the text around the electrical sensors. It was very, very difficult to get the Wrap deformers for the text and straps just right, but the result was worth it!
+My favorite part was modeling the text around the electrical
+sensors. It was very, very difficult to get the Wrap
+deformers for the text and straps just right, but the result
+was worth it!
 
 ![](/static/images/2019-07-26-apple-watch/apple-watch-D.png)
 
-Of course, this perspective is pretty cool (don't mind the polygons!).
+Of course, this perspective is pretty cool (don't mind the
+polygons!).

@@ -1,6 +1,6 @@
 ---
 title: Testing Python Packages
-date: 2017-07-16 00:00:00 Z
+date: "2017-07-16"
 categories:
 - writing
 tags:

@@ -1,6 +1,5 @@
 ---
 title: "Copilot AI: intelligent agents for industrial processes"
-date: "2019-09-27"
 categories:
 - research
 tags:
@@ -12,10 +11,6 @@ author: Pramod Kotipalli
 description: An adventure into the venture formation world
 image: "/static/images/2019-09-27-copilot-ai/copilot-ai-thumbnail.png"
 redirect_from: "/portfolio/copilot-ai/"
-subcategories:
-- research
-default_image_fullwidth: true
-columns: 3
 downloads:
 - name: "&#128442; PDF executive summary"
   url: /static/images/2019-09-27-copilot-ai/copilot-ai-executive-summary.pdf

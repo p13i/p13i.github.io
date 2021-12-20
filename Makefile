@@ -1,29 +1,37 @@
-# Makefile for GNU Make
+########################################
+# Makefile for GNU Make projects 
+#
+# Usage:
+#   make
+#   make clean
+#   make run
+#   make stop
+#   make publish
+########################################
 
-# Call: make
+# Default when make is called w/o args
 default	:
 	make clean
 	make run
 
 # Deletes all the generated files
-clean	:
+clean:
 	make stop
-	rm -rf _site/
-	rm -rf .sass-cache/
-	rm -rf .jekyll-metadata
+    # In order: generated HTML, 2 caches
+	rm -rf _site/ .sass-cache/ .jekyll-metadata
 	docker-compose rm --force
 
 # Serves the website on localhost:4000
-run		:
+run:
 	docker-compose up
 
 # Stop serving the website
-stop	:
+stop:
 	docker-compose down
 
 # Adds all files, commits an empty
 # message to git, and pushes to GitHub
-publish	:
+publish:
 	git add .
 	git commit --allow-empty-message -m ''
 	git push

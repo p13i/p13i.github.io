@@ -14,7 +14,7 @@ tags:
 - desktop
 - gui
 - google-cloud-speech-api
-layout: posts/post
+layout: post
 author: Pramod Kotipalli
 description: Java-based implementations of a remembrance
   agent, a continuously running automated information

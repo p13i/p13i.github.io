@@ -7,7 +7,7 @@ categories:
 tags:
 - photography
 - everyday
-layout: posts/post
+layout: post
 author: Pramod Kotipalli
 image: "/static/instagram/@story.of.an.artist/2021-01-14-ADVENTURE-x0.25.jpg"
 subcategories:

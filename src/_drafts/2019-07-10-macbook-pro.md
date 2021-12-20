@@ -9,7 +9,7 @@ tags:
 - graphic-design
 - apple
 - 3d-modeling
-layout: posts/post
+layout: post
 author: Pramod Kotipalli
 description: Modeling and texturing a MacBook Pro
 subcategories:

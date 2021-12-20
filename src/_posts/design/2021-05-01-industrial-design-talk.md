@@ -5,7 +5,7 @@ categories:
 - portfolio
 tags:
 - industrial-design
-layout: posts/post
+layout: post
 author: Pramod Kotipalli
 description: A talk given to high school students through CLOUD Rainstorm
     (a Splash program run by Learning Unlimited)

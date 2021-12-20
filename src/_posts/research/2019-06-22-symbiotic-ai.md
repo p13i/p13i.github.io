@@ -10,7 +10,7 @@ author: Pramod Kotipalli
 description: An evolving catalog of what I’ve learned in
   the fields of artificial intelligence and human-computer
   interaction.
-layout: posts/post
+layout: post
 ---
 
 # Introduction

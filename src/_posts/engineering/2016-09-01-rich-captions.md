@@ -6,7 +6,7 @@ categories:
 tags:
 - youtube-api
 - latex
-layout: posts/post
+layout: post
 author: Pramod Kotipalli
 description: LaTeX-enchanced captioning for academic videos
 image: "/static/images/2016-09-01-rich-captions/rich-captions-thumbnail.png"

@@ -4,7 +4,7 @@ categories:
 - writing
 tags:
 - error-correcting-codes
-layout: posts/post
+layout: post
 author: Pramod Kotipalli
 description: Final project writeup from Georgia Tech's Math 2803 (honors) 
     class with  Professor Matt Baker

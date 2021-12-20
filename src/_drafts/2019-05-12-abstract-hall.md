@@ -8,7 +8,7 @@ tags:
 - octane-render
 - graphic-design
 - 3d-modeling
-layout: posts/post
+layout: post
 author: Pramod Kotipalli
 description: Heavenly settings
 image: "/static/images/2019-05-12-abstract-hall/abstract-hall-thumbnail.png"

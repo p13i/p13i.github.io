@@ -8,7 +8,7 @@ tags:
 description: A time-tracking experiment with Memory.ai’s Timely app and a post-hoc
   analysis of my Spring quarter at Stanford.
 author: Pramod Kotipalli
-layout: posts/post
+layout: post
 image: "/static/images/2020-06-23-time-analysis/chart.jpg"
 ---
 

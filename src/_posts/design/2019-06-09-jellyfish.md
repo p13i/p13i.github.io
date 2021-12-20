@@ -12,7 +12,7 @@ tags:
 - adobe-illustrator
 - adobe-after-effects
 - 3d-modeling
-layout: posts/post
+layout: post
 author: Pramod Kotipalli
 description: Modeling, rigging, and animating a bioluminescent jellyfish
 subcategories:

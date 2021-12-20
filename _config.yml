@@ -1,9 +1,19 @@
----
 title: Pramod Kotipalli
+subtitle: Masters candidate, Stanford CS
+
+# Site configurations
 timezone: UTC
-subtitle: 
 permalink: "/posts/:year/:month/:title/"
 markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: :compressed
+repository: p13i/p13i.github.io
+source: src
+include:
+- static
+
+# Dependencies
 gems:
 - jekyll-feed
 - jekyll-paginate
@@ -11,14 +21,3 @@ gems:
 - jekyll-sitemap
 - jekyll-github-metadata
 - jekyll-seo-tag
-include:
-- static
-- js
-future: true
-paginate: 5
-paginate_path: "/posts/page/:num/"
-sass:
-  sass_dir: _sass
-  style: :compressed
-repository: p13i/p13i.github.io
-source: src

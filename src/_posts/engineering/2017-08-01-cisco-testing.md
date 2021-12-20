@@ -31,7 +31,7 @@ tags:
 - shell
 - linux
 - networking
-layout: posts/post
+layout: post
 author: Pramod Kotipalli
 description: Easy-to-use high-scale testing orchestration software
 image: "/static/images/2017-08-01-cisco-testing/cisco-testing-logo.png"

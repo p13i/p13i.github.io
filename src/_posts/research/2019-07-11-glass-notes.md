@@ -12,7 +12,7 @@ tags:
 - wearable-computing
 - performance-optimization
 - symbiotic-artificial-intelligence
-layout: posts/post
+layout: post
 author: Pramod Kotipalli
 description: Take notes on Google Glass!
 image: "/static/images/2019-07-11-glass-notes/glass-notes-logo.png"

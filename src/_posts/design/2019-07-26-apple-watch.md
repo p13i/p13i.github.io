@@ -12,7 +12,7 @@ tags:
 - wearable-computing
 - wireframe
 - 3d-modeling
-layout: posts/post
+layout: post
 author: Pramod Kotipalli
 description: Modeling, texturing, rendering my favorite product
 subcategories:

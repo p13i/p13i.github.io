@@ -10,7 +10,7 @@ tags:
 - aliens
 - adobe-photoshop
 - 3d-modeling
-layout: posts/post
+layout: post
 author: Pramod Kotipalli
 description: Modeling and texturing an alien abduction scene
 subcategories:

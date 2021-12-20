@@ -8,7 +8,7 @@ tags:
 - octane-render
 - graphic-design
 - 3d-modeling
-layout: posts/post
+layout: post
 author: Pramod Kotipalli
 description: Learning about displacement textures in Octane Render
 image: "/static/images/2019-05-11-displacement/displacement-thumbnail.png"

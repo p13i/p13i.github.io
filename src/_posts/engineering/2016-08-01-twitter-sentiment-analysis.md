@@ -8,7 +8,7 @@ tags:
 - machine-learning
 - artifical-intelligence
 - ibm-watson-api
-layout: posts/post
+layout: post
 author: Pramod Kotipalli
 description: Understanding user sentiment to aid mental health diagnosis
 image: "/static/images/2016-08-01-twitter-sentiment-analysis/twitter-sentiment-analysis-thumbnail.png"

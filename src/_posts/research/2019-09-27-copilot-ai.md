@@ -6,7 +6,7 @@ tags:
 - head-worn-displays
 - wearable-computing
 - entrepreneurship
-layout: posts/post
+layout: post
 author: Pramod Kotipalli
 description: An adventure into the venture formation world
 image: "/static/images/2019-09-27-copilot-ai/copilot-ai-thumbnail.png"

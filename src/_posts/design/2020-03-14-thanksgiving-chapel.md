@@ -9,7 +9,7 @@ tags:
 - octane-render
 - procedural
 - 3d-modeling
-layout: posts/post
+layout: post
 author: Pramod Kotipalli
 description: Render based on Thanksgiving Chapel in Dallas, Texas
 image: "/static/images/2020-03-14-thanksgiving-chapel/thanksgiving-chapel-thumbnail.png"

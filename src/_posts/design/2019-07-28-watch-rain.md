@@ -11,7 +11,7 @@ tags:
 - apple-watch
 - wearable-computing
 - 3d-modeling
-layout: posts/post
+layout: post
 author: Pramod Kotipalli
 description: It's raining watches!
 subcategories:

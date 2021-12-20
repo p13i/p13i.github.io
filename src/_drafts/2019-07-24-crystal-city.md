@@ -8,7 +8,7 @@ tags:
 - octane-render
 - graphic-design
 - 3d-modeling
-layout: posts/post
+layout: post
 author: Pramod Kotipalli
 description: Modeling, randomizing, texturing crystals
 downloads: 

@@ -1,19 +1,16 @@
 ---
-layout: base
+layout: index
 ---
 
+I'm Pramod! I'm a Masters student of 
+*Computer Science* at [Stanford University](https://cs.stanford.edu/)
+in California.
 
-<div class="row">
-    <div class="col-12">
-        <hr/>
-    </div>
-</div>
-<div class="row index">
-    <div class="col-lg-3">
-    
-        {% include contact_column.html %}
-    
-    </div>
-    <div class="col-lg-6">
-    <div>
-</div>
+I study topics in human-computer
+interaction (HCI), mechanical
+engineering, & industrial design.
+
+My research interests: AR, affective
+computing, physical interfaces, AI,
+perception, wearable computers, &
+robotics.

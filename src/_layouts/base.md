@@ -27,17 +27,9 @@ regenerate: true
 </head>
 <body>
 
-    {% if jekyll.environment == "stanford" %}
-    
-<div class="container-fluid" style="height: 1.5em;background: url('/static/images/header-stanford.jpg') no-repeat top;background-size: cover;width: 100%;"></div>
-
-    {% else %}
-    
 <div class="container-fluid" style="
 height: 1em;
-background: url('/static/images/header.jpg') no-repeat center top"></div>
-
-    {% endif %}
+background: url('https://user-images.githubusercontent.com/13140065/146843822-cd8dd013-15b5-461c-a45d-db01aa000451.jpg') no-repeat center top"></div>
 
 {% include _navbar.html %}
 

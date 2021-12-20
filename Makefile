@@ -1,7 +1,13 @@
 # Makefile for GNU Make
 
+# Call: make
+default	:
+	make clean
+	make run
+
 # Deletes all the generated files
 clean	:
+	make stop
 	rm -rf _site/
 	rm -rf .sass-cache/
 	rm -rf .jekyll-metadata
@@ -15,7 +21,9 @@ run		:
 stop	:
 	docker-compose down
 
+# Adds all files, commits an empty
+# message to git, and pushes to GitHub
 publish	:
 	git add .
-	git commit -m msg
+	git commit --allow-empty-message -m ''
 	git push

@@ -1,5 +1,6 @@
 ---
 layout: compress
+regenerate: true
 ---
 
 <!DOCTYPE html>
@@ -12,8 +13,7 @@ layout: compress
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
-    {% assign title_str = page.title | append: ' - ' %}
-    <title>{{ title_str }}</title>
+    <title>Pramod Kotipalli</title>
 
     <style>
         {% capture inline_css %}

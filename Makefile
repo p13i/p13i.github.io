@@ -16,7 +16,7 @@ default	:
 
 # Deletes all the generated files
 clean	:
-	make stop
+	make down
     # In order: generated HTML, 2 caches
 	rm -rf _site/ .sass-cache/ .jekyll-metadata
 	docker-compose rm --force

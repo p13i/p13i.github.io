@@ -3,18 +3,23 @@ layout: base
 ---
 
 <div class="row index">
-  <div class="col-sm-6 col-12">
+  <div class="col-12 col-md-6 col-lg-4">
     <hr />
 
-    <h3 class="hey">Hey there! 😁</h3>
+    <h3 class="hey">hey there! 😁</h3>
 
     <hr />
 
     {{ content }}
 
     <hr />
-  </div>
-  <div class="col-sm-6 col-12">
+
     <img src="{{ site.data.images.headshot.src }}" width="100%" />
+
+    <hr />
+
+    {% include _my_links.html %}
+
+    <hr />
   </div>
 </div>

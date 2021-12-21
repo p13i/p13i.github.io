@@ -9,7 +9,6 @@ sass:
   sass_dir: _sass
   style: :compressed
 repository: p13i/p13i.github.io
-source: src
 include:
 - static
 

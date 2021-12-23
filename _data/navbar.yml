@@ -6,18 +6,18 @@
 #   target is set to _self or _blank as in HTML's <a target
 
 - display: Research
-  href: /portfolio/research/
+  href: /research/
   target: _self
 
 - display: Engineering
-  href: /portfolio/engineering/
+  href: /engineering/
   target: _self
 
 - display: Design
-  href: /portfolio/design/
+  href: /design/
   target: _self
 
-- display: Random
+- display: Writing
   href: /writing/
   target: _self
 

@@ -31,7 +31,7 @@
 
             <div class="col-sm-6 col-md-{{ col_md_val }} thumbnail">
                 <a href="{{ post.url }}" class="thumbnail-link">
-                    <img src="{% include _loading.html %}"
+                    <img src="{{ site.data.images.loading.src }}"
                         data-src="{{ post.image }}" 
                         alt="{{ post.title }}"
                         class="img-thumbnail lazyload">

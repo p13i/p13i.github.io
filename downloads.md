@@ -27,7 +27,7 @@ categories:
             {% if post.downloads %}
             
             <div class="card">
-                <img src="{% include _loading.html %}"
+                <img src="{{ site.data.images.loading.src }}"
                     data-src="{{ post.image }}"
                     class="card-img-top lazyload">
                 <div class="card-body">

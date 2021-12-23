@@ -23,7 +23,7 @@ clean	:
 
 # Serves the website on localhost:4000
 up	:
-	docker-compose up
+	docker-compose up --build
 
 # Stop serving the website
 down	:

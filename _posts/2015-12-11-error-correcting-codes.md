@@ -32,18 +32,18 @@ In communications over noisy channels, like radio communications or the
 reading of a CD[^1], the data is often not received as intended.
 
 Suppose that I intend to send the following message to a friend through
-a noisy channel: `Hi!` [^2] This string is equivalent to the bits:
-
-<p class="center">
-    $010010000110100100100001$
-</p>
+a noisy channel: `Hi!` [^2] This string is equivalent to the bits: 
+`010010000110100100100001`
 
 However, my friend may receive this message as corrupted as (flipped bits are 
 marked in $\textcolor{red}{\verb!red!}$):
 
-$$\textcolor{red}{1}10010\textcolor{red}{1}00110100\textcolor{red}{1}001
-\textcolor{red}{1}0001 \longleftrightarrow \verb!Ei1!$$
+<p class="center">
 
+$\textcolor{red}{1}10010\textcolor{red}{1}00110100\textcolor{red}{1}001
+\textcolor{red}{1}0001 \longleftrightarrow \verb!Ei1!$
+
+</p>
 
 Converting this transmitted message back to a string doesn’t even
 resemble a word! Over noisy mediums, error rates, like one-in-six ratio as in

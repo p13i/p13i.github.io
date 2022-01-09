@@ -11,7 +11,7 @@ tags:
 layout: post
 author: Pramod Kotipalli
 description: Heavenly settings
-image: "/static/images/2019-05-12-abstract-hall/abstract-hall-thumbnail.png"
+image: "/assets/images/2019-05-12-abstract-hall/abstract-hall-thumbnail.png"
 redirect_from: "/portfolio/abstract-hall/"
 subcategories:
 - design

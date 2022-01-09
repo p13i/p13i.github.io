@@ -153,7 +153,7 @@ recipient.
 
 \[NoisyCommunication\] ![Error
 correction across noisy channels
-@ECCAndFF](/static/images/2015-12-11-error-correcting-codes/noisy-channel.png)
+@ECCAndFF](/assets/images/2015-12-11-error-correcting-codes/noisy-channel.png)
 
 In this paper, I hope to effectively
 outline the use of
@@ -330,7 +330,7 @@ based on the primitive, generator polynomial $$x^4 + x^3 + 1$$ (Figure
 \[mult\]).
 
 ![Multiplication over the finite field GF(16)\[mult\]
-@ECCAndFF](/static/images/2015-12-11-error-correcting-codes/gf16-multiplication.png)
+@ECCAndFF](/assets/images/2015-12-11-error-correcting-codes/gf16-multiplication.png)
 Primitive elements in **GF**(16)
 --------------------------------
 
@@ -546,10 +546,13 @@ $$\left( \begin{array}{c}
                 \vdots \\
                 \sigma_{1} \end{array} \right)$$
 
-Solving this matrix for the $$\sigma$$ vector will give us the
-coefficients in the *error locater polynomial* $$\sigma(x)$$. This matrix
-is also referred to as the *key equation*. There are multiple algorithms
-to solve for the $$\sigma$$ vector:
+Solving this matrix for the $$\sigma$$
+vector will give us the coefficients in
+the *error locater polynomial*
+$$\sigma(x)$$. This matrix is also
+referred to as the *key equation*. There
+are multiple algorithms to solve for the
+$$\sigma$$ vector:
 
 <span>a</span><span> </span>
 
@@ -755,7 +758,7 @@ Power/Vector table
 ------------------
 
 ![The Power/Vector table referred to throughout the paper.
-@LAandMatricies](/static/images/2015-12-11-error-correcting-codes/power-vector-table.png)
+@LAandMatricies](/assets/images/2015-12-11-error-correcting-codes/power-vector-table.png)
 
 References
 ==========

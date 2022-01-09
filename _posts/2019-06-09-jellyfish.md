@@ -19,18 +19,18 @@ subcategories:
 - design
 downloads:
 - name: "\U0001F4F1 iPhone X (2436-by-1125 - 2.5 MB)"
-  url: "/static/images/2019-06-09-jellyfish/downloads/jellyfish-iphone-x.jpg"
+  url: "/assets/images/2019-06-09-jellyfish/downloads/jellyfish-iphone-x.jpg"
 - name: "\U0001F5A5️ Desktop (2560-by-1600 - 3.7 MB)"
-  url: "/static/images/2019-06-09-jellyfish/downloads/jellyfish-desktop.jpg"
+  url: "/assets/images/2019-06-09-jellyfish/downloads/jellyfish-desktop.jpg"
 - name: "\U0001F5BC️ Full (4096-by-4096, 4k - 18.2 MB)"
-  url: "/static/images/2019-06-09-jellyfish/downloads/jellyfish-full.jpg"
+  url: "/assets/images/2019-06-09-jellyfish/downloads/jellyfish-full.jpg"
 columns: 3
-image: "/static/images/2019-06-09-jellyfish/jellyfish-tryptch-thumbnail.jpg"
+image: "/assets/images/2019-06-09-jellyfish/jellyfish-tryptch-thumbnail.jpg"
 redirect_from: "/portfolio/jellyfish/"
 default_image_fullwidth: true
 ---
 
-![](/static/images/2019-06-09-jellyfish/jellyfish-thumbnail.png)
+![](/assets/images/2019-06-09-jellyfish/jellyfish-thumbnail.png)
 
 This is definitely my best render to date. I learned a ton
 about modeling, C4D procedural deformers, and hair
@@ -79,7 +79,7 @@ jellyfish moves into the middle of the spline with
 realistic-looking hair. The final model appears as this in
 Cinema 4D:
 
-![](/static/images/2019-06-09-jellyfish/jellyfish-model.png)
+![](/assets/images/2019-06-09-jellyfish/jellyfish-model.png)
 
 # Texturing
 
@@ -88,7 +88,7 @@ create some of the cool patterns found on real jellyfish. I
 created this simple texture in Illustrator using mirroring
 across the two axes.
 
-![](/static/images/2019-06-09-jellyfish/jellyfish-pattern.png)
+![](/assets/images/2019-06-09-jellyfish/jellyfish-pattern.png)
 
 Kinda looks like something from Avatar!
 
@@ -104,7 +104,7 @@ I applied this texture to the base model under the Emission
 channel and added a camera bloom effect to emphasize the
 glow of the jellyfish:
 
-![](/static/images/2019-06-09-jellyfish/jellyfish-textured-simple.png)
+![](/assets/images/2019-06-09-jellyfish/jellyfish-textured-simple.png)
 
 # Final touches
 
@@ -114,4 +114,4 @@ surface in real life. I also added some small green spheres
 to look like little bioluminescent sea creatures:
 
 
-![](/static/images/2019-06-09-jellyfish/jellyfish-light-ray-rig-and-sealife.png)
+![](/assets/images/2019-06-09-jellyfish/jellyfish-light-ray-rig-and-sealife.png)

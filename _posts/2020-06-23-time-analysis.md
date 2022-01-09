@@ -9,7 +9,7 @@ description: A time-tracking experiment with Memory.ai’s Timely app and a post
   analysis of my Spring quarter at Stanford.
 author: Pramod Kotipalli
 layout: post
-image: "/static/images/2020-06-23-time-analysis/chart.jpg"
+image: "/assets/images/2020-06-23-time-analysis/chart.jpg"
 ---
 
 I just completed an analysis of all my working hours this
@@ -46,7 +46,7 @@ each of my time tracking entries lead me to believe that 374
 hours of work over the quarter is an accurate figure.
 
 ![Work distribution by
-day](/static/images/2020-06-23-time-analysis/chart.jpg)
+day](/assets/images/2020-06-23-time-analysis/chart.jpg)
 
 
 This chart presents the distribution of work by "client" for

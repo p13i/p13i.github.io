@@ -17,8 +17,8 @@ subcategories:
 - design
 downloads:
 - name: "\U0001F5BC️ Full (4096-by-4096, 4k - 22.5 MB)"
-  url: "/static/images/2019-06-30-abduction/downloads/abduction-full.png"
-image: "/static/images/2019-06-30-abduction/abduction-thumbnail.png"
+  url: "/assets/images/2019-06-30-abduction/downloads/abduction-full.png"
+image: "/assets/images/2019-06-30-abduction/abduction-thumbnail.png"
 redirect_from: "/portfolio/abduction/"
 default_image_fullwidth: true
 ---

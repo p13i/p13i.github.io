@@ -34,7 +34,7 @@ tags:
 layout: post
 author: Pramod Kotipalli
 description: Easy-to-use high-scale testing orchestration software
-image: "/static/images/2017-08-01-cisco-testing/cisco-testing-logo.png"
+image: "/assets/images/2017-08-01-cisco-testing/cisco-testing-logo.png"
 redirect_from: "/portfolio/cisco-testing/"
 default_image_fullwidth: true
 subcategories:

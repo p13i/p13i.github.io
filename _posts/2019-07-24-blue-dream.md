@@ -12,7 +12,7 @@ layout: post
 author: Pramod Kotipalli
 description: Scene from a dream
 downloads: 
-image: "/static/images/2019-07-24-blue-dream/blue-dream-thumbnail.png"
+image: "/assets/images/2019-07-24-blue-dream/blue-dream-thumbnail.png"
 redirect_from: "/portfolio/blue-dream/"
 subcategories:
 - design

@@ -206,7 +206,7 @@ own such integrations for other Java applications.)
 My primary interface to the remembrance agent has been
 through a desktop GUI. 
 
-![None](/static/images/2020-05-15-living-with-remembrance-agent/image0.png)
+![None](/assets/images/2020-05-15-living-with-remembrance-agent/image0.png)
 
 
 As I go about my normal typing tasks, my keystrokes are

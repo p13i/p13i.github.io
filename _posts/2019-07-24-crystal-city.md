@@ -12,7 +12,7 @@ layout: post
 author: Pramod Kotipalli
 description: Modeling, randomizing, texturing crystals
 downloads: 
-image: "/static/images/2019-07-24-crystal-city/crystal-city-thumbnail.png"
+image: "/assets/images/2019-07-24-crystal-city/crystal-city-thumbnail.png"
 redirect_from: "/portfolio/crystal-city/"
 subcategories:
 - design

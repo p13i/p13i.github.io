@@ -7,7 +7,7 @@ tags:
 layout: post
 author: Pramod Kotipalli
 description: all in my head
-image: /static/images/2020-05-25-lovebirds/lovebirds.jpg
+image: /assets/images/2020-05-25-lovebirds/lovebirds.jpg
 redirect_from: "/writing/lovebirds/"
 ---
 

@@ -11,6 +11,7 @@ sass:
 repository: p13i/p13i.github.io
 include:
 - static
+- assets
 
 # Dependencies
 gems:

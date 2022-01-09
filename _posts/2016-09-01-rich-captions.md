@@ -9,7 +9,7 @@ tags:
 layout: post
 author: Pramod Kotipalli
 description: LaTeX-enchanced captioning for academic videos
-image: "/static/images/2016-09-01-rich-captions/rich-captions-thumbnail.png"
+image: "/assets/images/2016-09-01-rich-captions/rich-captions-thumbnail.png"
 redirect_from: "/portfolio/rich-captions/"
 default_image_fullwidth: true
 subcategories:
@@ -27,7 +27,7 @@ subcategories:
 - Create web application where content creators can easily caption their videos in LaTeX
 - Allows anyone on the internet to watch these captioned videos without cost
 
-![](/static/images/2016-09-01-rich-captions/rich-captions-screenshot.png)
+![](/assets/images/2016-09-01-rich-captions/rich-captions-screenshot.png)
 
 # Design paradigms & technologies used
 - REST API design and docs with Django REST framework

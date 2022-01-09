@@ -26,7 +26,7 @@ description: Java-based implementations of a remembrance
   text (.txt) or Markdown (.md) files. Open-source and
   freely-available under the MIT License. Under active
   development.
-image: "/static/images/2019-07-29-remembrance-agent/remembrance-agent-logo.png"
+image: "/assets/images/2019-07-29-remembrance-agent/remembrance-agent-logo.png"
 redirect_from: "/portfolio/ra/"
 default_image_fullwidth: true
 downloads:
@@ -92,7 +92,7 @@ of programming of editing of config files is required. A
 simple GUI presents all the features and settings you'd need
 to use:
 
-![](/static/images/2019-07-29-remembrance-agent/client-with-suggestion.png)
+![](/assets/images/2019-07-29-remembrance-agent/client-with-suggestion.png)
 
 As you type, [every five
 seconds][ra-query-period]{:target="_blank"} the prior 60
@@ -115,7 +115,7 @@ Upon clicking the first button (my meeting notes with
 Professor Abowd at Georgia Tech), the RA client will open
 the corresponding Google Doc in Chrome:
 
-![](/static/images/2019-07-29-remembrance-agent/chrome-opened-suggestion.png)
+![](/assets/images/2019-07-29-remembrance-agent/chrome-opened-suggestion.png)
 
 
 ## Integrations
@@ -131,7 +131,7 @@ internet.
 As such, a target Google Drive folder ID can be specified in
 the GUI of the RA client:
 
-![](/static/images/2019-07-29-remembrance-agent/client-menu-open.png)
+![](/assets/images/2019-07-29-remembrance-agent/client-menu-open.png)
 
 In addition, a maximum number of Gmail emails to index can
 be specified. All authentication is taken care of

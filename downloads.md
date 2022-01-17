@@ -1,8 +1,6 @@
 ---
-title: Downloads
+title: Downloads for you!
 layout: base
-categories:
-- downloads
 ---
 
 <div class="row">

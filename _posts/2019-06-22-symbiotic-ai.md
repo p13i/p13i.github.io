@@ -11,6 +11,7 @@ description: An evolving catalog of what I’ve learned in
   the fields of artificial intelligence and human-computer
   interaction.
 layout: post
+image: "/assets/images/2019-06-22-symbiotic-ai/thumbnail.jpg"
 ---
 
 # Introduction

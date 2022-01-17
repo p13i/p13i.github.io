@@ -3,6 +3,7 @@ title: Testing Python Packages
 date: "2017-07-16"
 categories:
 - writing
+- engineering
 tags:
 - programming
 - python

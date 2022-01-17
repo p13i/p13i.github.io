@@ -1,5 +1,5 @@
 ---
-title: "Copilot AI: intelligent agents for industrial processes"
+title: "Intelligent agents for industrial workers"
 categories:
 - research
 tags:

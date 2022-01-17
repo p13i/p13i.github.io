@@ -3,6 +3,7 @@ title: Building Command Line Tools with Python
 date: "2017-07-11"
 categories:
 - writing
+- engineering
 tags:
 - programming
 - python

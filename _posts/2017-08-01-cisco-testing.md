@@ -2,7 +2,7 @@
 title: Cisco Testing-as-a-Service
 date: "2017-08-01"
 categories:
-- portfolio
+- engineering
 tags:
 - software-engineering
 - python

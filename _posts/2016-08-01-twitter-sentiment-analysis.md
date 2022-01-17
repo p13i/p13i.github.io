@@ -2,7 +2,7 @@
 title: Twitter Sentiment Analysis
 date: "2016-08-01"
 categories:
-- portfolio
+- engineering
 tags:
 - twitter-api
 - machine-learning

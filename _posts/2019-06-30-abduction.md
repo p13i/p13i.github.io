@@ -2,7 +2,7 @@
 title: Abduction
 date: 2019-06-30 00:00:00 Z
 categories:
-- portfolio
+- design
 tags:
 - cinema-4d
 - octane-render

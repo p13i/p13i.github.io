@@ -1,8 +1,8 @@
 ---
 title: Watch Rain
-date: 2019-07-28 00:00:00 Z
+date: "2019-07-28"
 categories:
-- portfolio
+- design
 tags:
 - cinema-4d
 - octane-render

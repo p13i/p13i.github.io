@@ -1,8 +1,8 @@
 ---
 title: Crystal City
-date: 2019-07-24 00:00:00 Z
+date: "2019-07-24"
 categories:
-- portfolio
+- design
 tags:
 - cinema-4d
 - octane-render

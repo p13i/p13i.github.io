@@ -2,7 +2,7 @@
 title: Rich Captions
 date: "2016-09-01"
 categories:
-- portfolio
+- engineering
 tags:
 - youtube-api
 - latex

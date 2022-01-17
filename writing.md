@@ -1,5 +1,5 @@
 ---
-title: Writing
+title: Some of my writing
 layout: base
 ---
 

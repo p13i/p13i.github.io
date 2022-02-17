@@ -79,7 +79,6 @@ body {
     }
 
     .title {
-        text-transform: uppercase;
         font-weight: 900;
         /*letter-spacing: 0.5em;*/
     }
@@ -113,7 +112,10 @@ body {
 
     blockquote {
         margin-bottom:1rem;
-        font-size:1.25rem
+        border-left-width: initial;
+        border-left-style: outset;
+        border-left-color: rgb(173, 173, 173);
+        padding-left: 0.75em;
     }
 
     .highlight {

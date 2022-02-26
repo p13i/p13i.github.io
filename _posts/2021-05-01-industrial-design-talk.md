@@ -7,17 +7,16 @@ tags:
 - industrial-design
 layout: post
 author: Pramod Kotipalli
-description: A talk given to high school students through CLOUD Rainstorm
-    (a Splash program run by Learning Unlimited)
-image: "/assets/images/2021-05-17-industrial-design-talk/id-talk-thumbnail.png"
-redirect_from: "/portfolio/id-talk/"
+description: A talk given to high school students through CLOUD Rainstorm (a Splash program run by Learning Unlimited)
+image: "https://user-images.githubusercontent.com/13140065/155825832-2c4552b8-ebd3-425c-99f1-88cff4765e7a.png"
+redirect_from: "/id-talk/"
 subcategories:
 - design
 default_image_fullwidth: true
 columns: 3
 downloads:
 - name: "&#128442; PDF slides"
-  url: /assets/images/2021-05-17-industrial-design-talk/id-talk-slides.pdf
+  url: "https://github.com/p13i/p13i.github.io/files/8145727/id-talk-slides.pdf"
 ---
 
 ![]({{ page.image }})

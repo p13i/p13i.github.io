@@ -1,18 +1,13 @@
 ---
 title: Adventure
-date: 2021-01-14
+date: "2021-01-14"
 description: Exploring the world
 categories:
-- portfolio
-tags:
-- photography
-- everyday
+- photos
+- writing
 layout: post
 author: Pramod Kotipalli
-image: "/static/instagram/@story.of.an.artist/2021-01-14-ADVENTURE-x0.25.jpg"
-subcategories:
-- photography
-redirect_from: /portfolio/photography/everyday/adventure/
+image: "https://user-images.githubusercontent.com/13140065/155815967-0968cbf1-2d06-470a-9fc2-7d3b88493cd9.jpg"
 downloads:
 - name: "\U0001F4F8 Instagram"
   url: https://www.instagram.com/p/CKDZJJdFPFO/

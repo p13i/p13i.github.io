@@ -22,7 +22,7 @@ clean	:
 	docker-compose rm --force
 
 # Serves the website on localhost:4000
-up	:
+up		:
 	docker-compose up --build
 
 # Stop serving the website

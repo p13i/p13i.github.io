@@ -9,11 +9,11 @@ tags:
 layout: post
 author: Pramod Kotipalli
 description: An adventure into the venture formation world
-image: "/assets/images/2019-09-27-copilot-ai/copilot-ai-thumbnail.png"
-redirect_from: "/portfolio/copilot-ai/"
+image: "https://user-images.githubusercontent.com/13140065/155861077-bdc74ebc-bd51-441f-9745-f20fd783d2fb.png"
+redirect_from: "/copilot/"
 downloads:
 - name: "&#128442; PDF executive summary"
-  url: /assets/images/2019-09-27-copilot-ai/copilot-ai-executive-summary.pdf
+  url: "https://github.com/p13i/p13i.github.io/files/8147621/copilot-ai-executive-summary.pdf"
 ---
 
 ![]({{ page.image }})

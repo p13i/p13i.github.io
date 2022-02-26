@@ -1,13 +1,16 @@
 <hr/>
 
-{% include _get_all_tags.html category=include.category %}
+{% if include.render_tags %}
 
+{% include _get_all_tags.html category=include.category %}
 
 {% for tag in tags %}
     {% include _tag.html tag=tag %}
 {% endfor %}
 
 <hr/>
+
+{% endif %}
 
 <div class="row">
 

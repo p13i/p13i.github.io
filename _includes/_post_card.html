@@ -1,0 +1,22 @@
+<div class="card mb-3">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="{{ site.data.images.loading.src }}"
+                data-src="{{ post.image }}" 
+                alt="{{ post.title }}"
+                class="lazyload img-fluid rounded-start">  
+        </div>
+        <div class="col-md-8">
+        <div class="card-body">
+            <h5 class="card-title">{{ post.title }}</h5>
+            <p class="card-text">{{ post.description | truncate: 120 }}</p>
+            <p class="card-text">
+            <small class="text-muted">{{ post.date | date_to_string }}</small>
+            <a href="{{ post.url }}" class="btn btn-outline-dark btn-sm float-right">
+                <small class="text-muted">More »</small>
+            </a>
+            </p>
+        </div>
+        </div>
+    </div>
+</div>

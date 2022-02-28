@@ -17,9 +17,9 @@
   href: /design/
   target: _self
 
-- display: Photos
-  href: /photos/
-  target: _self
+# - display: Photos
+#   href: /photos/
+#   target: _self
 
 - display: Writing
   href: /writing/

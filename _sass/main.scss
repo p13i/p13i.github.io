@@ -46,15 +46,6 @@ body {
     font-family: 'Helvetica Neue';
 }
 
-/* Space between navbar and content */
-.navbar {
-    // text-transform: uppercase;
-}
-
-.navbar .navbar-brand {
-    // letter-spacing: 0.1em;
-}
-
 .contact {
     .contact-table {
         td {
@@ -196,12 +187,7 @@ body {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     padding: 1rem;
-    /*transition: visibility 0s, opacity 0.1s ease-in-out;*/
 }
-
-/*.portfolio .thumbnail:hover .title {*/
-/*    opacity: 1;*/
-/*}*/
 
 .portfolio .thumbnail .title a {
     color: white !important;
@@ -209,12 +195,6 @@ body {
 
 .portfolio .thumbnail .thumbnail-link:hover .title {
     animation: blinker 2s linear infinite;
-}
-
-@keyframes blinker {
-    50% {
-        opacity: 0.8;
-    }
 }
 
 a.no-color {

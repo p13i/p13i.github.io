@@ -1,10 +1,3 @@
-# At the top level, we have:
-#   display, cateory, href, target, and submenu
-#   display is the printed text
-#   category is IDK
-#   href is where to link out to
-#   target is set to _self or _blank as in HTML's <a target
-
 - display: Research
   href: /research/
   target: _self
@@ -17,36 +10,13 @@
   href: /design/
   target: _self
 
-# - display: Photos
-#   href: /photos/
-#   target: _self
-
 - display: Writing
   href: /writing/
   target: _self
 
-# a simple horizontal divider
-- display: "&nbsp;|&nbsp;"
-
 - display: Downloads
-  submenu:
-
-    - href: /downloads/
-      display: 2D/3D Assets, Source Code/Files
-      target: _self
-    
-    - divider: True
-
-    - href: /static/cv/Pramod_Kotipalli_cv.pdf
-      target: _blank
-      display: CV (PDF)
-
-    - href: /static/portfolio/Pramod_Kotipalli_portfolio.pdf
-      target: _blank
-      display: Portfolio (PDF)
-
-# a simple horizontal divider
-- display: "&nbsp;|&nbsp;"
+  href: /downloads/
+  target: _self
 
 - href: https://instagram.com/p13i.io
   display: 📸 Instagram

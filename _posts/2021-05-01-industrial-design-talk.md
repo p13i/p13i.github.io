@@ -3,6 +3,7 @@ title: "The products we live with: a brief history of modern industrial design"
 date: 2021-05-17
 categories:
 - portfolio
+- design
 tags:
 - industrial-design
 layout: post
@@ -10,8 +11,6 @@ author: Pramod Kotipalli
 description: A talk given to high school students through CLOUD Rainstorm (a Splash program run by Learning Unlimited)
 image: "https://user-images.githubusercontent.com/13140065/155825832-2c4552b8-ebd3-425c-99f1-88cff4765e7a.png"
 redirect_from: "/id-talk/"
-subcategories:
-- design
 default_image_fullwidth: true
 columns: 3
 downloads:

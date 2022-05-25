@@ -21,7 +21,7 @@ downloads:
 - name: "\U0001F4F1 iPhone X (2436-by-1125 - 2.5 MB)"
   url: "/assets/images/2019-06-09-jellyfish/downloads/jellyfish-iphone-x.jpg"
 - name: "\U0001F5A5️ Desktop (2560-by-1600 - 3.7 MB)"
-  url: "/assets/images/2019-06-09-jellyfish/downloads/jellyfish-desktop.jpg"
+  url: "https://drive.google.com/open?id=1Q_7Pam_uwsWqCJdrubYEKhIw_GUajxqD"
 - name: "\U0001F5BC️ Full (4096-by-4096, 4k - 18.2 MB)"
   url: "/assets/images/2019-06-09-jellyfish/downloads/jellyfish-full.jpg"
 columns: 3

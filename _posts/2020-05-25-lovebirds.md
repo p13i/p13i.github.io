@@ -7,7 +7,7 @@ tags:
 layout: post
 author: Pramod Kotipalli
 description: all in my head
-image: /assets/images/2020-05-25-lovebirds/lovebirds.jpg
+image: https://user-images.githubusercontent.com/13140065/178388949-46cc23bd-60e0-421c-8d94-5c33198caacd.jpg
 redirect_from: "/writing/lovebirds/"
 ---
 

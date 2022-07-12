@@ -17,26 +17,30 @@ Introduction to Coding Theory
 A practical example of error correction
 ---------------------------------------
 
-How is it that a CD with so many scratches on it can still be played
-continuously with few audible errors? Why is it that a QR-code read
-incorrectly can still reveal the right information?
+How is it that a CD with so many scratches on it can still
+be played continuously with few audible errors? Why is it
+that a QR-code read incorrectly can still reveal the right
+information?
 
-In other words, how can a CD-player or QR-code reader take a data stream
-with so many errors and correct most of them? This is where error
-correcting codes (a topic within Coding Theory) come into play.
+In other words, how can a CD-player or QR-code reader take a
+data stream with so many errors and correct most of them?
+This is where error correcting codes (a topic within Coding
+Theory) come into play.
 
 Overview of error detection
 ---------------------------
 
-In communications over noisy channels, like radio communications or the
-reading of a CD[^1], the data is often not received as intended.
+In communications over noisy channels, like radio
+communications or the reading of a CD[^1], the data is often
+not received as intended.
 
-Suppose that I intend to send the following message to a friend through
-a noisy channel: `Hi!` [^2] This string is equivalent to the bits: 
-`010010000110100100100001`
+Suppose that I intend to send the following message to a
+friend through a noisy channel: `Hi!` [^2] This string is
+equivalent to the bits: `010010000110100100100001`
 
-However, my friend may receive this message as corrupted as (flipped bits are 
-marked in $$\textcolor{red}{\verb!red!}$$):
+However, my friend may receive this message as corrupted as
+(flipped bits are marked in
+$$\textcolor{red}{\verb!red!}$$):
 
 <p class="center">
 
@@ -46,15 +50,15 @@ $\textcolor{red}{1}10010\textcolor{red}{1}00110100\textcolor{red}{1}001
 </p>
 
 
-Converting this transmitted message back to a string doesn’t even
-resemble a word! Over noisy mediums, error rates, like one-in-six ratio as in
-the example, are very common. Using check bits, however, we can devise
-of a simple way to detect an error (but not correct it).
+Converting this transmitted message back to a string doesn’t
+even resemble a word! Over noisy mediums, error rates, like
+one-in-six ratio as in the example, are very common. Using
+check bits, however, we can devise of a simple way to detect
+an error (but not correct it).
 
-Suppose that I send a message composed of three bits and a *parity bit*
-which is calculated by adding all the previous bits in the binary field
-$$\textbf{B} = \{0, 1\}$$: 
-;
+Suppose that I send a message composed of three bits and a
+*parity bit* which is calculated by adding all the previous
+bits in the binary field $$\textbf{B} = \{0, 1\}$$: 
 
 <p class="center">
     $$\verb|Message:| 011$$
@@ -153,7 +157,7 @@ recipient.
 
 \[NoisyCommunication\] ![Error
 correction across noisy channels
-@ECCAndFF](/assets/images/2015-12-11-error-correcting-codes/noisy-channel.png)
+@ECCAndFF](https://user-images.githubusercontent.com/13140065/178387208-ba2db1a7-815e-4066-8a96-fce0b2bec29a.png)
 
 In this paper, I hope to effectively
 outline the use of
@@ -330,7 +334,7 @@ based on the primitive, generator polynomial $$x^4 + x^3 + 1$$ (Figure
 \[mult\]).
 
 ![Multiplication over the finite field GF(16)\[mult\]
-@ECCAndFF](/assets/images/2015-12-11-error-correcting-codes/gf16-multiplication.png)
+@ECCAndFF](https://user-images.githubusercontent.com/13140065/178387291-8f63b0ec-241e-4ee5-9ebe-c8472b4c5b3b.png)
 Primitive elements in **GF**(16)
 --------------------------------
 
@@ -758,7 +762,7 @@ Power/Vector table
 ------------------
 
 ![The Power/Vector table referred to throughout the paper.
-@LAandMatricies](/assets/images/2015-12-11-error-correcting-codes/power-vector-table.png)
+@LAandMatricies](https://user-images.githubusercontent.com/13140065/178387347-44db0237-4df5-4a73-9750-7f2a3ef92f58.png)
 
 References
 ==========

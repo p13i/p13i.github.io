@@ -12,7 +12,7 @@ tags:
 layout: post
 author: Pramod Kotipalli
 description: Render based on Thanksgiving Chapel in Dallas, Texas
-image: "/assets/images/2020-03-14-thanksgiving-chapel/thanksgiving-chapel-thumbnail.png"
+image: "https://user-images.githubusercontent.com/13140065/178388967-1987a708-8db0-4b92-b1d3-528e20615c84.png"
 redirect_from: "/portfolio/thanksgiving-chapel/"
 default_image_fullwidth: true
 subcategories:

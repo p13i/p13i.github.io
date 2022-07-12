@@ -11,7 +11,6 @@ tags:
 layout: post
 author: Pramod Kotipalli
 description: Python Makes CLIs Easier!
-redirect_from: "/writing/pytouch/"
 ---
 
 **Completed project**:

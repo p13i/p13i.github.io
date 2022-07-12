@@ -15,7 +15,6 @@ tags:
 layout: post
 author: Pramod Kotipalli
 description: Integration with tox and Travis CI
-redirect_from: "/writing/py-test/"
 ---
 
 **Completed project**:

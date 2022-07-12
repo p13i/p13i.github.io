@@ -12,7 +12,6 @@ layout: post
 author: Pramod Kotipalli
 description: Learning about displacement textures in Octane Render
 image: "https://user-images.githubusercontent.com/13140065/178388623-cc44629d-1f90-40f9-9269-bdeafb1ee82f.png"
-redirect_from: "/portfolio/displacement/"
 subcategories:
 - design
 default_image_fullwidth: true

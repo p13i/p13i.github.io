@@ -22,7 +22,6 @@ downloads:
 - name: "\U0001F3A5 c4d/Octane project files (4.5 MB)"
   url: https://drive.google.com/open?id=1YjM-4iCtDISGmfGYkAinB3xCHavzP3rm
 image: "https://user-images.githubusercontent.com/13140065/178388971-50bdeb48-58f7-488a-a534-a31f1218d3f1.png"
-redirect_from: "/portfolio/watch-rain/"
 default_image_fullwidth: true
 ---
 

@@ -23,7 +23,6 @@ downloads:
 - name: "\U0001F3A5 c4d/Octane project files"
   url: https://drive.google.com/open?id=1NzQf6RymvsWfNV3OqxXfTqkz4irlqpVg
 image: "https://user-images.githubusercontent.com/13140065/178388867-bc635ef3-542e-4c34-92d1-37889a75f902.png"
-redirect_from: "/portfolio/apple-watch/"
 default_image_fullwidth: true
 ---
 

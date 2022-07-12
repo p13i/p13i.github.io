@@ -11,7 +11,7 @@ tags:
 layout: post
 author: Pramod Kotipalli
 description: Understanding user sentiment to aid mental health diagnosis
-image: "/assets/images/2016-08-01-twitter-sentiment-analysis/twitter-sentiment-analysis-thumbnail.png"
+image: "https://user-images.githubusercontent.com/13140065/178387533-dd7c868a-b32d-4995-a9c4-99503e06d02c.png"
 redirect_from: "/portfolio/twitter/"
 default_image_fullwidth: true
 subcategories:
@@ -62,8 +62,8 @@ subcategories:
 - scikit-learn & IBM Watson intelligence APIs
 - chart.js & Material Bootstrap
 
-![](/assets/images/2016-08-01-twitter-sentiment-analysis/twitter-sentiment-analysis-a.png)
+![](https://user-images.githubusercontent.com/13140065/178387561-66615bea-d78d-4430-a965-78020ee4259c.png)
 
-![](/assets/images/2016-08-01-twitter-sentiment-analysis/twitter-sentiment-analysis-b.png)
+![](https://user-images.githubusercontent.com/13140065/178387590-9f140371-4925-44b5-aa57-57cdb600e1c6.png)
 
-![](/assets/images/2016-08-01-twitter-sentiment-analysis/twitter-sentiment-analysis-c.png)
+![](https://user-images.githubusercontent.com/13140065/178387621-18441b40-cfb1-42ac-bc36-282095ac2e56.png)

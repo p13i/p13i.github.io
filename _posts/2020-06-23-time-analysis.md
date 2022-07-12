@@ -46,7 +46,7 @@ each of my time tracking entries lead me to believe that 374
 hours of work over the quarter is an accurate figure.
 
 ![Work distribution by
-day](/assets/images/2020-06-23-time-analysis/chart.jpg)
+day](https://user-images.githubusercontent.com/13140065/178388885-a747072e-6d1f-46a6-bc69-ff34a0a1e4d1.jpg)
 
 
 This chart presents the distribution of work by "client" for

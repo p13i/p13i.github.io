@@ -25,12 +25,10 @@ downloads:
 - name: "\U0001F5BC️ Full (4096-by-4096, 4k - 18.2 MB)"
   url: "/assets/images/2019-06-09-jellyfish/downloads/jellyfish-full.jpg"
 columns: 3
-image: "/assets/images/2019-06-09-jellyfish/jellyfish-tryptch-thumbnail.jpg"
+image: "https://user-images.githubusercontent.com/13140065/178388947-a59bbe42-bdf5-4b21-b1e8-0ccaef3cab1b.png"
 redirect_from: "/portfolio/jellyfish/"
 default_image_fullwidth: true
 ---
-
-![](/assets/images/2019-06-09-jellyfish/jellyfish-thumbnail.png)
 
 This is definitely my best render to date. I learned a ton
 about modeling, C4D procedural deformers, and hair
@@ -79,7 +77,7 @@ jellyfish moves into the middle of the spline with
 realistic-looking hair. The final model appears as this in
 Cinema 4D:
 
-![](/assets/images/2019-06-09-jellyfish/jellyfish-model.png)
+![](https://user-images.githubusercontent.com/13140065/178388942-32cf2853-46db-4fa8-a9d5-82c1efe4e467.png)
 
 # Texturing
 
@@ -88,7 +86,7 @@ create some of the cool patterns found on real jellyfish. I
 created this simple texture in Illustrator using mirroring
 across the two axes.
 
-![](/assets/images/2019-06-09-jellyfish/jellyfish-pattern.png)
+![](https://user-images.githubusercontent.com/13140065/178388944-8d09f25a-d382-4dfe-bffc-5c9a2861b852.png)
 
 Kinda looks like something from Avatar!
 
@@ -104,7 +102,7 @@ I applied this texture to the base model under the Emission
 channel and added a camera bloom effect to emphasize the
 glow of the jellyfish:
 
-![](/assets/images/2019-06-09-jellyfish/jellyfish-textured-simple.png)
+![](https://user-images.githubusercontent.com/13140065/178388945-66a01509-78ca-4a7a-8dec-f8c5b4c57c48.png)
 
 # Final touches
 
@@ -114,4 +112,4 @@ surface in real life. I also added some small green spheres
 to look like little bioluminescent sea creatures:
 
 
-![](/assets/images/2019-06-09-jellyfish/jellyfish-light-ray-rig-and-sealife.png)
+![](https://user-images.githubusercontent.com/13140065/178388937-7948216c-c465-494e-81bf-71c593f9e484.png)

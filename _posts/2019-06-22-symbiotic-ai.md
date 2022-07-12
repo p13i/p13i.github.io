@@ -11,7 +11,7 @@ description: An evolving catalog of what I’ve learned in
   the fields of artificial intelligence and human-computer
   interaction.
 layout: post
-image: "/assets/images/2019-06-22-symbiotic-ai/thumbnail.jpg"
+image: "https://user-images.githubusercontent.com/13140065/178389106-b692c4f3-e02b-4af1-9a11-ad2df40b65a1.jpg"
 ---
 
 # Introduction
@@ -166,7 +166,7 @@ in fully-immersive Virtual Reality experiences. We can
 represent AR on a spectrum from the real world to that of
 the virtual:
 
-![None](/assets/images/2019-06-22-symbiotic-ai/image0.png)
+![None](https://user-images.githubusercontent.com/13140065/178389104-bd61f640-9cd7-41b0-85be-4236a031d02f.png)
 Figure: [[Milgram et al.
 1995]](https://paperpile.com/c/mpEskP/ZNyK)
 
@@ -228,7 +228,7 @@ into the real world by either:
 * displaying such graphics through a holographic display
   (i.e. a HoloLens).
 
-![None](/assets/images/2019-06-22-symbiotic-ai/image1.png) A
+![None](https://user-images.githubusercontent.com/13140065/178388916-56955326-3181-4ec1-9d11-a13d829b1804.png) A
 holographic display placing registered graphics into the
 real world. Figure:
 [[Buntz]](https://paperpile.com/c/mpEskP/L36u)
@@ -245,7 +245,7 @@ the real environment.
 Virtual reality (VR) involves complete immersion in a
 virtual environment with little or none of the real
 environment available to the user.
-![None](/assets/images/2019-06-22-symbiotic-ai/image2.png)
+![None](https://user-images.githubusercontent.com/13140065/178388918-3a4fc5a2-8aea-4fdf-a337-5e16a20b369e.png)
 
 Figure: [[[CSL STYLE ERROR: reference with no printed
 form.]]](https://paperpile.com/c/mpEskP/KjLj)
@@ -258,7 +258,7 @@ mechanisms with which reality can be manipulated.
 
 ### Controlled Matter
 
-![None](/assets/images/2019-06-22-symbiotic-ai/image3.png)
+![None](https://user-images.githubusercontent.com/13140065/178388920-4d438b56-364f-4b4f-ac31-4e8ff6560e2b.png)
 Figure: [[Zambetta
 2017]](https://paperpile.com/c/mpEskP/KEbv)
 
@@ -270,7 +270,7 @@ interactions.
 Another, more tangible[^footnote-4], example is the [inFORM
 project](https://tangible.media.mit.edu/project/inform/)
 from MIT Media Lab:
-![None](/assets/images/2019-06-22-symbiotic-ai/image4.png)
+![None](https://user-images.githubusercontent.com/13140065/178388922-f1c3d862-04e7-4128-8dce-bff70bba5413.png)
 Figure: [[2013]](https://paperpile.com/c/mpEskP/HJKN)
 
 [[Sandor et al. 2015]](https://paperpile.com/c/mpEskP/8tj6)

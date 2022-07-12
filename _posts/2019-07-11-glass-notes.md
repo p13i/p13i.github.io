@@ -15,7 +15,7 @@ tags:
 layout: post
 author: Pramod Kotipalli
 description: Take notes on Google Glass!
-image: "/assets/images/2019-07-11-glass-notes/glass-notes-logo.png"
+image: "https://user-images.githubusercontent.com/13140065/178388903-bc05d5a4-9f00-4e23-bcf6-134ac1daf3b5.png"
 redirect_from: "/portfolio/glass-notes/"
 default_image_fullwidth: true
 subcategories:

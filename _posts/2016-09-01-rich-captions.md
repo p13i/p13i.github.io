@@ -10,7 +10,6 @@ layout: post
 author: Pramod Kotipalli
 description: LaTeX-enchanced captioning for academic videos
 image: "https://user-images.githubusercontent.com/13140065/178387663-3e9ba24a-e4d9-4c67-bc58-f17af2dc43a0.png"
-redirect_from: "/portfolio/rich-captions/"
 default_image_fullwidth: true
 subcategories:
 - engineering

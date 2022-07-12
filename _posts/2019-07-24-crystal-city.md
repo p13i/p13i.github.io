@@ -13,7 +13,6 @@ author: Pramod Kotipalli
 description: Modeling, randomizing, texturing crystals
 downloads: 
 image: "https://user-images.githubusercontent.com/13140065/178388899-618824b9-b588-4141-acd1-d29b2237cddc.png"
-redirect_from: "/portfolio/crystal-city/"
 subcategories:
 - design
 default_image_fullwidth: true

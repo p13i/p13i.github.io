@@ -27,7 +27,6 @@ description: Java-based implementations of a remembrance
   freely-available under the MIT License. Under active
   development.
 image: "https://user-images.githubusercontent.com/13140065/178388966-481931be-96f3-4820-88e8-141e16a5ff7c.png"
-redirect_from: "/portfolio/ra/"
 default_image_fullwidth: true
 downloads:
 - name: "\U0001F4BB GitHub (Remembrance Agent Java Gradle project)"

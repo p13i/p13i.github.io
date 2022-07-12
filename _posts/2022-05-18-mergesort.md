@@ -5,7 +5,6 @@ categories:
 - engineering
 layout: post
 description: "A cute implementation of mergesort in C"
-redirect_from: "/mergesort/"
 image: "https://user-images.githubusercontent.com/13140065/169116098-56d65621-69f3-4507-82e4-aaefe55986c9.png"
 downloads:
 - name: "GitHub source"

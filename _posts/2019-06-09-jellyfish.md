@@ -26,7 +26,6 @@ downloads:
   url: "/assets/images/2019-06-09-jellyfish/downloads/jellyfish-full.jpg"
 columns: 3
 image: "https://user-images.githubusercontent.com/13140065/178388947-a59bbe42-bdf5-4b21-b1e8-0ccaef3cab1b.png"
-redirect_from: "/portfolio/jellyfish/"
 default_image_fullwidth: true
 ---
 

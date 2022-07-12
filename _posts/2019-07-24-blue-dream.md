@@ -13,7 +13,6 @@ author: Pramod Kotipalli
 description: Scene from a dream
 downloads: 
 image: "https://user-images.githubusercontent.com/13140065/178388879-b8602f6f-830a-4856-9be4-22cf4098b6c3.png"
-redirect_from: "/portfolio/blue-dream/"
 subcategories:
 - design
 default_image_fullwidth: true

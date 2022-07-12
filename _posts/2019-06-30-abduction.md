@@ -19,7 +19,6 @@ downloads:
 - name: "\U0001F5BC️ Full (4096-by-4096, 4k - 22.5 MB)"
   url: "/assets/images/2019-06-30-abduction/downloads/abduction-full.png"
 image: "https://user-images.githubusercontent.com/13140065/178388852-1bd32f4d-020e-42a7-93df-c97d115b757f.png"
-redirect_from: "/portfolio/abduction/"
 default_image_fullwidth: true
 ---
 

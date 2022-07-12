@@ -12,7 +12,6 @@ layout: post
 author: Pramod Kotipalli
 description: Understanding user sentiment to aid mental health diagnosis
 image: "https://user-images.githubusercontent.com/13140065/178387533-dd7c868a-b32d-4995-a9c4-99503e06d02c.png"
-redirect_from: "/portfolio/twitter/"
 default_image_fullwidth: true
 subcategories:
 - engineering

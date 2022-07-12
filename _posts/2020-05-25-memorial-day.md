@@ -8,7 +8,6 @@ tags:
 layout: post
 author: Pramod Kotipalli
 image: "https://user-images.githubusercontent.com/13140065/178388952-80242664-7c58-4e02-8007-98c8a71aec77.png"
-redirect_from: "/portfolio/photography/memorial-day/"
 subcategories:
 - photography
 columns: 3

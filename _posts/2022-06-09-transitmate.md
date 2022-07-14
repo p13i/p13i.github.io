@@ -5,7 +5,7 @@ categories:
 - engineering
 - design
 layout: post
-image: "https://user-images.githubusercontent.com/13140065/179044635-b3fe8481-c5b3-49ce-8362-7a2c0b8df6aa.png"
+image: "https://user-images.githubusercontent.com/13140065/179047999-df4c84f4-3ead-4e02-a1cb-be0c0513127f.png"
 description: "Safer transportation via checkpoint-based route notifications for friends and family"
 downloads:
 - name: "\U0001F4DC Final Report (20.4 MB)"

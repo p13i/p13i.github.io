@@ -1,6 +1,5 @@
 ---
 title: TransitMate
-date: "2022-06-09"
 categories:
 - engineering
 - design

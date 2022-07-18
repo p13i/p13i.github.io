@@ -42,7 +42,7 @@ layout: base
         <div class="list-group">
 
         {% for download in page.downloads %}
-            <a class="list-group-item list-group-item-action" href="{{ download.url }}" target="_blank">{{ download.name }}&nbsp;&#187;</a>
+            {% include _download_btn.html url=download.url name=download.name %}
         {% endfor %}
 
         </div>

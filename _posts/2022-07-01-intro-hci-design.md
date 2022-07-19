@@ -3,6 +3,8 @@ title: "Course Notes: Intro to HCI & Design Thinking
 (Stanford CS 147)"
 categories:
 - writing
+tags:
+- human-computer-interaction
 layout: post
 description: "CS 147 is a course on Human-Computer 
 Interaction (HCI) and Design Thinking offered at Stanford 
@@ -70,16 +72,7 @@ ten week Stanford quarter.
 
 Let's get into it!
 
----
-
-***Introduction to Human-Computer Interaction and Design
-Thinking***
-
-*Stanford CS 147*
-
----
-
-# 1A: Introduction to HCI and a Techno-Realist Vision
+# Lecture 1A: Introduction to HCI and a Techno-Realist Vision
 
 ## Pre-Lecture Readings
 

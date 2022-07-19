@@ -20,8 +20,7 @@ layout: base
         <hr/>
 
         <div class="row">
-            <div class="col-3"></div>
-            <div class="col-6">
+            <div class="col-12">
                 {% for post in site.posts %}
 
                 {% if post.categories contains 'writing' %}

@@ -4,8 +4,8 @@
         <h5 class="card-subtitle mb-2 text-muted" 
             style="text-size-adjust: 80%; text-transform:lowercase; letter-spacing: normal !important;">
                 {{ include.post.date | date_to_string }}</h5>
-        <p class="card-text">{{ include.post.description }}</p>
+        <p class="card-text">{{ include.post.description | truncate: 240, "..." }}</p>
         <p>{% include _post_tags.html post=include.post %}</p>
-        <a href="{{ include.post.url }}" class="btn btn-outline-primary">Read more...</a>
+        <a href="{{ include.post.url }}" class="btn btn-outline-primary float-right">Read more&nbsp;&#187;</a>
     </div>
 </div>

@@ -113,3 +113,83 @@ To empower people, reduce reinforcing existing societal
 biases, and improve the condition of others, technologies
 need to expand their scope of professional responsibility,
 as a *digital urban planner* of sorts.
+
+## Lecture on 2022-01-03
+
+### AI & User experience design
+
+Tesla’s
+autopilot feature requires UX design. The touchscreen
+requires your full attention to operate it, a mode ripe for
+multi-modal interactions involving more than one interaction
+mode (e.g., voice with a screen output, gestures to a voice
+output). Smart speakers use a voice UI but do not provide a
+natural interaction with context and knowledge about the
+user. In general, what should we show to a user? Who are
+other stakeholders and what should they see from an AI
+system. Are there design patterns to support smart UIs?
+
+### Balancing design thinking & technology
+
+A balance between human-centered approaches and technical
+approaches in CS/engineering. Design involves: Humans: the
+end users, cognition, vision, perception, motor abilities,
+etc. Tasks & Activities we want to support for the people we
+are designing for Technology: what users already have or new
+tech we might bring to them. This synthesis takes context in
+organizational and societal issues.
+
+### Design discovery and exploring ideas 
+
+The Design Thinking process is outlined to the right. Beyond
+a seemingly-linear process, there are loops or steps back in
+this process. 
+
+User experience goals include: 
+
+1. Learnable: faster the second time 
+2. Memorable: from session to session 
+3. Flexible: multiple ways to do tasks
+4. Efficient: perform tasks quickly 
+5. Robust: minimal error rates, good feedback so user can
+recover
+6. Discoverable: learn new features over time 
+7. Pleasing: high user satisfaction 
+8. Fun
+
+User-centered design involves:
+1. Cognitive abilities: perception, physical manipulation,
+memory
+2. Organizational/education job abilities 
+3. Keeping users involved throughout: developers working
+with target customers, think of the world in the users’
+terms 
+
+Accessible design involves catering to:
+1. Different abilities: vision, hearing, cognitive, mobility
+(e.g., blind users with screen readers)
+2. Moral and ethical purpose: inclusive design benefits
+everyone (e.g., sidewalk curb cuts)
+3. Legal guidance: Americans with Disabilities Act (ADA)
+which includes websites and apps per the Department of
+Justice
+
+Needfinding involves observing existing practices for
+inspiration making sure that key questions are answered
+including ethical questions in design with underserved
+communities. Needfinding transforms into sketching and
+storyboarding. Concept videos illustrate the context of the
+user rather than the specific UI, a relatively quick and
+inexpensive process that forces us to think about how the
+user will actually use the app.
+
+### Rapid prototyping & evaluation 
+
+Rapid prototypes allow us to build a mock-up of a design so
+it can be tested, typically taking the form of paper
+sketches or interactive tools like HTML, Balsamiq, Axure,
+proto.io, Sketch, Marvel, Modao, etc. UI builders include
+Expression Blend with Visual Studio, Xcode’s Interface
+Builder, etc. Test with real customers (“participants”) with
+an interactive prototype. Low-cost techniques involve expert
+evaluation (heuristic evaluation).

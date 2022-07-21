@@ -118,25 +118,33 @@ as a *digital urban planner* of sorts.
 
 ### AI & User experience design
 
-Tesla’s
-autopilot feature requires UX design. The touchscreen
-requires your full attention to operate it, a mode ripe for
-multi-modal interactions involving more than one interaction
-mode (e.g., voice with a screen output, gestures to a voice
-output). Smart speakers use a voice UI but do not provide a
-natural interaction with context and knowledge about the
-user. In general, what should we show to a user? Who are
-other stakeholders and what should they see from an AI
-system. Are there design patterns to support smart UIs?
+Tesla’s autopilot feature requires UX design. The
+touchscreen requires your full attention to operate it, a
+mode ripe for multi-modal interactions involving more than
+one interaction mode (e.g., voice with a screen output,
+gestures to a voice output).
+
+![Tesla Autopilot](https://user-images.githubusercontent.com/13140065/180309680-ac8c1250-c611-4c16-9f0e-e31c61ae37c4.jpg)
+
+(Image: [Roberto Nickson, Unsplash](https://unsplash.com/photos/Ddjl0Cicdr4))
+
+Smart speakers use a voice UI but do not provide a natural
+interaction with context and knowledge about the user. In
+general, what should we show to a user? Who are other
+stakeholders and what should they see from an AI system. Are
+there design patterns to support smart UIs?
 
 ### Balancing design thinking & technology
 
 A balance between human-centered approaches and technical
-approaches in CS/engineering. Design involves: Humans: the
-end users, cognition, vision, perception, motor abilities,
-etc. Tasks & Activities we want to support for the people we
-are designing for Technology: what users already have or new
-tech we might bring to them. This synthesis takes context in
+approaches in CS/engineering. Design involves:
+
+1. **Humans**: the end users, cognition, vision, perception,
+motor abilities, etc. 
+2. **Tasks & Activities** we want to support for the people
+we are designing for 
+3. **Technology**: what users already have or new tech we
+might bring to them. This synthesis takes context in
 organizational and societal issues.
 
 ### Design discovery and exploring ideas 

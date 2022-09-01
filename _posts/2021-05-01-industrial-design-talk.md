@@ -17,8 +17,6 @@ downloads:
   url: "https://github.com/p13i/p13i.github.io/files/8145727/id-talk-slides.pdf"
 ---
 
-![]({{ page.image }})
-
 **Talk description**:
 
 The products that surround us, particularly those that have real utility and 

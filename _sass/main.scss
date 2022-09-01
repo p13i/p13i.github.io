@@ -80,7 +80,6 @@ body {
     }
 
     .date {
-        text-transform: lowercase;
         font-weight: 300;
     }
 
@@ -211,4 +210,9 @@ a.no-color {
 
 p.center {
     text-align: center;
+}
+
+.active {
+    text-decoration: underline;
+    text-underline-offset: 0.4rem;
 }

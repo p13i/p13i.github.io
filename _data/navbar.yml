@@ -1,22 +1,27 @@
 - display: Research
   href: /research/
   target: _self
+  category: research
 
 - display: Engineering
   href: /engineering/
   target: _self
+  category: engineering
 
 - display: Design
   href: /design/
   target: _self
+  category: design
 
 - display: Writing
   href: /writing/
   target: _self
+  category: writing
 
 - display: Downloads
   href: /downloads/
   target: _self
+  category: downloads
 
 - href: https://instagram.com/p13i.io
   display: 📸 Instagram

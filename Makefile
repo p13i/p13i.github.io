@@ -23,7 +23,7 @@ clean	:
 
 # Serves the website on localhost:4000
 up		:
-	docker-compose up --build
+	docker-compose up --force-recreate --always-recreate-deps --build
 
 # Stop serving the website
 down	:

@@ -13,32 +13,15 @@ layout: compress
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
     <title>Pramod Kotipalli</title>
 
-    <style>
-        {% comment %}
-            Load the scss file using
-            the capture command
-        {% endcomment %}
-        {% capture inline_css %}
-            {% include inline.scss %}
-        {% endcapture %}
-
-        {% comment %}
-            Render the captured variable
-            through the SCSS compiler
-        {% endcomment %}
-        {{ inline_css | scssify }}
-    </style>
-
-
     {% include _stylesheets.html %}
-
 
     {% seo %}
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target="#toc">
     <div
       class="container-fluid"
       style="

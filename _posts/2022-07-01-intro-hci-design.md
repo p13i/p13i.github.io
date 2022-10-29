@@ -149,9 +149,11 @@ organizational and societal issues.
 
 ### Design discovery and exploring ideas 
 
-The Design Thinking process is outlined to the right. Beyond
-a seemingly-linear process, there are loops or steps back in
-this process. 
+The **Design Thinking** process is outlined to the right.
+Beyond a seemingly-linear process, there are loops or steps
+back in this process. 
+
+![Five stage design thinking process](https://user-images.githubusercontent.com/13140065/198849919-f4e708f5-cdd1-4ae1-aa84-c2fd17f1da9f.png)
 
 User experience goals include: 
 
@@ -201,3 +203,115 @@ Expression Blend with Visual Studio, Xcode’s Interface
 Builder, etc. Test with real customers (“participants”) with
 an interactive prototype. Low-cost techniques involve expert
 evaluation (heuristic evaluation).
+
+# Design Discovery
+
+## Pre-Lecture Readings
+
+### Adams 2013, 4 Steps to Successful Brainstorming
+
+{% include _single_download.html 
+    name="📜 PDF from Medium.com (355 KB)" 
+    url="https://github.com/p13i/p13i.github.io/files/9894489/Adams.2013.4.Steps.to.Successful.Brainstorming.pdf"%}
+
+Adams found that most corporate executives put the cart
+before the horse: “Instead of parsing the objectives they
+hope to achieve, they direct their energy at coming up with
+solutions to broadly-stated problems.” Keeney argues that
+before brainstorming, it is important to analyze and focus
+on the objectives of the group. Keeney’s four steps to
+effective brainstorming are:
+
+1. Lay out the problem you want to solve. Identify the
+objectives, evaluate the alternatives (pushing until five
+such alternatives are found), and select the best option.
+2. Identify the objectives of a possible solution. Going
+into details about the requirements and not potential
+solutions makes the forthcoming brainstorming sessions more
+successful.
+3. Try to generate solutions individually. Before heading to
+the group, brainstorm solutions individually to avoid
+‘anchoring’ to a particular solution/objective to the
+exclusion of other goals for the team.
+4. After the prior steps, work as a group. Use the
+objectives, problem statements, and individual solutions to
+facilitate a more productive brainstorming session.
+
+### Beyer, *Contextual Design - Defining Customer-Centered Systems*
+
+{% include _single_download.html 
+    name="📜 PDF on my Google Drive" 
+    url="https://drive.google.com/open?id=1bif2O_v-Q2MoPpNenZ7zosDeh52LLGE7"%}
+
+Contextual inquiry is all about going to where the customer
+(i.e., “user” or “participant”) is, observing them, and
+talking to them about their work. A relationship model
+suggests that the appropriate behavior will manifest from
+the right mindset applied to an interaction with a customer.
+Different relationship models bring with them different
+attitudes and behaviors taken to the customer. “As long as
+you play your role, you will pull the customer into playing
+theirs.”
+
+The Master-Apprentice Model is an effective way to collect
+data on another. In this case, the design team wants to
+learn about the customer’s work from its customers. The
+customer (like a master) teaches by doing work and talking
+about it while doing the work, making learning easy. We can
+have customers explaining their work as they do it, but
+customers may not be aware of everything they do or why they
+do it. By having the customer talk through their process, we
+avoid the “human propensity to talk in generalizations that
+omit the detail designers need.” By observing how multiple
+such customers work, the design can begin to conceptualize a
+system that supports those tasks. Taking notes and asking
+about the artifacts in a customer’s environment helps the
+designer gain more understanding.
+
+Four principles guide contextual inquiry:
+
+1. **Context** tells us to get as close to being physically
+   present in the customer’s environment, allowing us to
+   capture concrete data over an ongoing experience (in
+   contrast to abstract data from a summary experience).
+   Concrete data can be focused on by pulling the customer
+   back to the real experience whenever the conversation
+   veers off track. Grounding such questions in artifacts
+   helps (e.g., “can I see that email you mentioned?”) which
+   also serves to stimulate the customer’s memory.. Also,
+   ask questions to fill in gaps in understanding.
+
+2. **Partnership** is about making the customer and design
+   feel like they are collaborating in understanding the
+   customer’s work. In this process, the designer alternates
+   between watching a customer and probing into their
+   behaviors and environment. Such probes can also guide the
+   customer to provide details themselves as the interview
+   experience continues. Assumptions or potential design
+   solutions can be proposed to the customer to clarify
+   assumptions. Be a “partner in inquiry.”
+
+3. **Interpretation** is the “chain of reasoning that turns
+   a fat into an action relevant to the designer’s intent.”
+   Interpretation drives design decisions. The
+   interpretation is grounded in facts, moves to a
+   hypothesis which has an implication realized as a design
+   idea. The apprentice can clarify their understanding of a
+   task or structure by asking the customer directly to
+   clarify. This approach helps the designer mitigate their
+   own assumptions.
+
+4. **Focus** helps keep the conversation focused on what
+   work is relevant to the design without fully taking
+   control from the customer. If the designer thinks some
+   behavior is happening for no reason, then the designer
+   doesn’t yet understand the point of view from which that
+   behavior does make sense. Admit your ignorance, and
+   always assume there is more to be learned.
+
+> If you think it’s for no reason, you don’t yet understand
+> the point of view from which it makes sense. [Beyer,
+> Contextual Design, p. 63]
+
+Beyer outlines a structure for contextual interviews that
+Landay discusses in detail in lecture.

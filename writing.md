@@ -6,7 +6,8 @@ layout: base
 {% include _get_all_tags.html category='writing' %}
 
 <div class="row">
-    <div class="col-12">
+    <div class="col-3"></div>
+    <div class="col-6">
         <hr/>
 
         <h1>Writing</h1>

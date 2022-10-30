@@ -23,3 +23,34 @@
   rel="stylesheet"
   href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"
 />
+
+<style>
+    nav[data-toggle="toc"] {
+        top: 42px;
+    }
+
+    nav[data-toggle=toc] .nav>li>a {
+        font-size: 14pt;
+    }
+
+    /* small screens */
+    @media (max-width: 768px) {
+    /* override stickyness so that the navigation does not follow scrolling */
+    nav[data-toggle="toc"] {
+        margin-bottom: 42px;
+        position: static;
+    }
+
+    /* PICK ONE */
+    /* don't expand nested items, which pushes down the rest of the page when navigating */
+    nav[data-toggle="toc"] .nav .active .nav {
+        display: none;
+    }
+    /* alternatively, if you *do* want the second-level navigation to be shown (as seen on this page on mobile), use this */
+    /*
+    nav[data-toggle='toc'] .nav .nav {
+        display: block;
+    }
+    */
+    }
+</style>

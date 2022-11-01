@@ -6,7 +6,7 @@ layout: base
 
 <div class="row post">
     <div class="col-12">
-        <h1 class="title">{{ page.title }}</h1>
+        <h1 class="title" data-toc-skip>{{ page.title }}</h1>
         <hr/>
     </div>
     <div class="col-12 col-lg-4">

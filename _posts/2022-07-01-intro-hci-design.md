@@ -215,9 +215,10 @@ evaluation (heuristic evaluation).
 
 ### Adams 2013, 4 Steps to Successful Brainstorming
 
-{% include _single_download.html name="📜 PDF from
-    Medium.com (355 KB)"
-    url="https://github.com/p13i/p13i.github.io/files/9894489/Adams.2013.4.Steps.to.Successful.Brainstorming.pdf"%}
+{% include _single_download.html
+  name="📜 PDF from Medium.com (355 KB)"
+  url="https://github.com/p13i/p13i.github.io/files/9894489/Adams.2013.4.Steps.to.Successful.Brainstorming.pdf"
+%}
 
 Adams found that most corporate executives put the cart
 before the horse: “Instead of parsing the objectives they
@@ -244,9 +245,9 @@ facilitate a more productive brainstorming session.
 
 ### Beyer, *Contextual Design - Defining Customer-Centered Systems*
 
-{% include _single_download.html name="📜 PDF on my Google
-    Drive"
-    url="https://drive.google.com/open?id=1bif2O_v-Q2MoPpNenZ7zosDeh52LLGE7"%}
+{% include _single_download.html
+  name="📜 PDF on my Google Drive"
+  url="https://drive.google.com/open?id=1bif2O_v-Q2MoPpNenZ7zosDeh52LLGE7"%}
 
 Contextual inquiry is all about going to where the customer
 (i.e., “user” or “participant”) is, observing them, and
@@ -323,9 +324,10 @@ Landay discusses in detail in lecture.
 
 ### Stanford d.school, *Empathy Fieldguide*
 
-{% include _single_download.html name="📜 PDF on my Google
-    Drive"
-    url="https://drive.google.com/open?id=11hAc2-WbbzkHQ6upZel1MtLnEhqwWFuU"%}
+{% include _single_download.html
+  name="📜 PDF on my Google Drive"
+  url="https://drive.google.com/open?id=11hAc2-WbbzkHQ6upZel1MtLnEhqwWFuU"
+%}
 
 ---
 ---
@@ -335,104 +337,17 @@ Landay discusses in detail in lecture.
 
 # WIP
 
-<!-----
-
-You have some errors, warnings, or alerts. If you are using reckless mode, turn it off to see inline alerts.
-* ERRORs: 3
-* WARNINGs: 0
-* ALERTS: 32
-
-Conversion time: 15.272 seconds.
-
-
-Using this Markdown file:
-
-1. Paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β33
-* Sun Oct 30 2022 00:59:24 GMT-0700 (PDT)
-* Source doc: CS 147 - HCI Design
-* This is a partial selection. Check to make sure intra-doc links work.
-* Tables are currently converted to HTML tables.
-
-ERROR:
-undefined internal link to this URL: "#heading=h.udv2sgs34ck9".link text: Ideate
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.5f0scbfwd3k8".link text: Selecting good problems & solutions
-?Did you generate a TOC?
-
-
-ERROR:
-undefined internal link to this URL: "#heading=h.yqrtvv7eyt04".link text: Listing: Examples of values in design
-?Did you generate a TOC?
-
-* This document has images: check for >>>>>  gd2md-html alert:  inline image link in generated source and store images to your server. NOTE: Images in exported zip file from Google Docs may not appear in  the same order as they do in your doc. Please check the images!
-
-
-WARNING:
-You have 15 H1 headings. You may want to use the "H1 -> H2" option to demote all headings by one level.
-
------>
-
-<!--
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 3; WARNINGs: 1; ALERTS: 32.</p>
-<ul style="color: red; font-weight: bold">* See top comment block for details on ERRORs and WARNINGs. * In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
-<a href="#gdcalert2">alert2</a>
-<a href="#gdcalert3">alert3</a>
-<a href="#gdcalert4">alert4</a>
-<a href="#gdcalert5">alert5</a>
-<a href="#gdcalert6">alert6</a>
-<a href="#gdcalert7">alert7</a>
-<a href="#gdcalert8">alert8</a>
-<a href="#gdcalert9">alert9</a>
-<a href="#gdcalert10">alert10</a>
-<a href="#gdcalert11">alert11</a>
-<a href="#gdcalert12">alert12</a>
-<a href="#gdcalert13">alert13</a>
-<a href="#gdcalert14">alert14</a>
-<a href="#gdcalert15">alert15</a>
-<a href="#gdcalert16">alert16</a>
-<a href="#gdcalert17">alert17</a>
-<a href="#gdcalert18">alert18</a>
-<a href="#gdcalert19">alert19</a>
-<a href="#gdcalert20">alert20</a>
-<a href="#gdcalert21">alert21</a>
-<a href="#gdcalert22">alert22</a>
-<a href="#gdcalert23">alert23</a>
-<a href="#gdcalert24">alert24</a>
-<a href="#gdcalert25">alert25</a>
-<a href="#gdcalert26">alert26</a>
-<a href="#gdcalert27">alert27</a>
-<a href="#gdcalert28">alert28</a>
-<a href="#gdcalert29">alert29</a>
-<a href="#gdcalert30">alert30</a>
-<a href="#gdcalert31">alert31</a>
-<a href="#gdcalert32">alert32</a>
-
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
--->
-
-
-
 ## Lecture on 
 
-See [Designing for People, Dreyfuss 1955, Google
-Books](https://www.google.com/books/edition/Designing_for_People/mdKxAAAAIAAJ?hl=en).
+{% include _single_download.html
+  name="📖 Designing for People, Dreyfuss 1955, Google Books"
+  url="https://drive.google.com/open?id=11hAc2-WbbzkHQ6upZel1MtLnEhqwWFuU"
+%}
 
 The design process consists of four stages: discovery,
 design exploration, design refinement, and production.
-**Design Thinking_ _**encompasses the first two stages of
-that process: discovery and design exploration.
+**Design Thinking** encompasses the first two stages of that
+process: discovery and design exploration.
 
 In the first stage of this process, discovery, we aim to
 understand our customers, their needs, and what they need to
@@ -446,14 +361,13 @@ users.
 The Design Thinking process consists of five steps, core to
 the first half of these course notes:
 
-
-#### Empathize, Define, Ideate, Prototype, and Test
+{% include _callout.html
+    line="Empathize, Define, Ideate, Prototype, and Test" %}
 
 In the design process, we constantly find ourselves going
 forward, skipping backwards, and in cycles of two or three.
 In other words, the design process is messy and feeling lost
 is a part of the journey. Let’s start with empathy.
-
 
 ## Empathy
 
@@ -502,8 +416,8 @@ observing actions to inferring (and confirming!) the users’
 feelings, i.e., empathizing.
 
 
-#### <p style="text-align: right">
-Engage users in their environment!</p>
+{% include _callout.html
+    line="Engage users in their environment!" %}
 
 
 Imagine you are trying to better understand the eating
@@ -546,20 +460,19 @@ similar structure as it progresses from closed-ended
 questions to open-ended questions over time. Keep an eye and
 ear out for emotion and pull further on those threads that
 will evoke stories that bring out emotion in the interview
-participant. (We prefer to use the word **participant **over
+participant. (We prefer to use the word **participant** over
 the term **subject** when working with humans.)
 
-
 Image: The structure of an interview closely follows that of
-a story told in prose, film, etc. <img
-src="images/image1.png" width="" alt="alt_text"
-title="image_tooltip">
+a story told in prose, film, etc.
+
+<img src="images/image1.png" width="" alt="alt_text" title="image_tooltip">
 
 An introduction of the researcher as well as background
 information about the interview and study are important to
 ease nerves and help the participant feel _comfortable_
 sharing more about themselves and their lives. Interview
-questions in this **background **phase can take on many
+questions in this **background** phase can take on many
 forms:
 
 * Background: “Tell me about what you do here.”
@@ -600,7 +513,7 @@ flexible:
 #### Always be ready to follow up and pull on a thread.
 
 During the denouement, shortly before the wrap-up to the
-interview, **reflect **on salient patterns and interesting
+interview, **reflect** on salient patterns and interesting
 findings, assumptions, or contractions that came up for you
 during the interview process. A few guiding questions:
 
@@ -711,7 +624,7 @@ A four sentence structure:
    challenge for your team, not a reason or the need! Not a
    solution)
 
-###### Example: Point-of-View for jeans user</h6>
+###### Example: Point-of-View for jeans user
 
 *  **We met** Chuck, a young millennial living in an
    apartment in SoCal. 
@@ -858,15 +771,15 @@ competitors’ offerings, and developing user personas.
 
 ###### Example: Really good POV statement. [Brackets] are my notes.
 
-* **We met... **a young female [demographics] truck owner
+* **We met...** a young female [demographics] truck owner
   [characteristic], with an ME background [education], who
   loves owning her truck and learning about it [her
   passions].
-* **We were surprised to notice... **she sometimes blindly
+* **We were surprised to notice...** she sometimes blindly
   trusts [say/do, surprise against ME background] whatever
   the mechanics say [behavior] so as not to reveal how
   little she knows about her vehicle [why that behavior].
-* **We wonder if this means... **she is trying to protect
+* **We wonder if this means...** she is trying to protect
   [inference] her persona and confidence [feelings] as a
   truck owner.
 * **It would be game changing to...** provide a detailed and
@@ -1000,7 +913,7 @@ which allows for comparison of different design alternatives
 example of a task is actually a task flow (a particular way
 of achieving a goal with a particular interface): 
 
-###### Example: A task flow, i.e. a <strong>bad task**
+###### Example: A task flow, i.e. a <strong>bad task</strong>
 
 ###### “Tony clicks on the Charing Cross Pub icon and selects “directions to” as he walks down the street.”
 
@@ -1011,7 +924,7 @@ should describe a complete goal which forces us to think
 about how features work together to support the tasks (e.g.,
 phone-in bank functions).
 
-###### Example: A task<strong>Task title**: Let my friends know where I am
+###### Example: A task<strong>Task title</strong>: Let my friends know where I am
 
 **Task description**: Manny is in the city at a club that he
 wasn’t planning to go to and would like to let his
@@ -1025,7 +938,7 @@ _frequency, density, and pain_ (see
 [Selecting good problems &
 solutions](#heading=h.5f0scbfwd3k8)).
 
-###### Example: Tasks for Lyft<strong>Simple**: Signaling for a ride
+###### Example: Tasks for Lyft<strong>Simple</strong>: Signaling for a ride
 
 **Moderate**: Contacting drive to pick up a forgotten item
 **Complex**: Become a driver for Lyft
@@ -1033,7 +946,7 @@ solutions](#heading=h.5f0scbfwd3k8)).
 Token (a former project in CS 147), laid out their
 _representative tasks_ as: 
 
-###### Example: Good tasks for Token<strong>Personal memories**: Create and share personal photos and videos.
+###### Example: Good tasks for Token<strong>Personal memorie</strong>s: Create and share personal photos and videos.
 
 **Shared experiences**: View content shared by your friends.
 **Location discovery**: Engage with a location through
@@ -1649,7 +1562,7 @@ title="image_tooltip">
 <img src="images/image17.png" width="" alt="alt_text"
 title="image_tooltip">
 
-# Conceptual Models and Interface Metaphors**
+# Conceptual Models and Interface Metaphors
 
 ## Lecture on 
 

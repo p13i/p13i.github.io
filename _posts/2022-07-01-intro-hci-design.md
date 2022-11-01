@@ -72,7 +72,7 @@ ten week Stanford quarter.
 
 Let's get into it!
 
-# Lecture 1A: Introduction to HCI and a Techno-Realist Vision
+# Introduction to HCI and a Techno-Realist Vision
 
 ## Pre-Lecture Readings
 
@@ -114,7 +114,7 @@ biases, and improve the condition of others, technologies
 need to expand their scope of professional responsibility,
 as a *digital urban planner* of sorts.
 
-## Lecture on 2022-01-03
+## Lecture 1A on 2022-01-03
 
 ### AI & User experience design
 
@@ -127,8 +127,10 @@ gestures to a voice output).
 ![Tesla
 Autopilot](https://user-images.githubusercontent.com/13140065/180309680-ac8c1250-c611-4c16-9f0e-e31c61ae37c4.jpg)
 
+<center>
 (Image: [Roberto Nickson,
 Unsplash](https://unsplash.com/photos/Ddjl0Cicdr4))
+</center>
 
 Smart speakers use a voice UI but do not provide a natural
 interaction with context and knowledge about the user. In
@@ -382,7 +384,7 @@ You have 15 H1 headings. You may want to use the "H1 -> H2" option to demote all
 
 <!--
 <p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 3; WARNINGs: 1; ALERTS: 32.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
+<ul style="color: red; font-weight: bold">* See top comment block for details on ERRORs and WARNINGs. * In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
 
 <p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
 <a href="#gdcalert2">alert2</a>
@@ -548,27 +550,10 @@ participant. (We prefer to use the word **participant **over
 the term **subject** when working with humans.)
 
 
-<table>
-  <tr>
-   <td>
-<h6>Image: The structure of an interview closely follows that of a story told in prose, film, etc.</h6>
-
-
-   </td>
-  </tr>
-  <tr>
-   <td>
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/image1.png" width="" alt="alt_text"
+Image: The structure of an interview closely follows that of
+a story told in prose, film, etc. <img
+src="images/image1.png" width="" alt="alt_text"
 title="image_tooltip">
-
-   </td>
-  </tr>
-</table>
-
 
 An introduction of the researcher as well as background
 information about the interview and study are important to
@@ -576,8 +561,6 @@ ease nerves and help the participant feel _comfortable_
 sharing more about themselves and their lives. Interview
 questions in this **background **phase can take on many
 forms:
-
-
 
 * Background: “Tell me about what you do here.”
 * Sequence: “Walk me through your day yesterday... then what
@@ -593,8 +576,6 @@ forms:
 
 After setting the scene, it’s important to still **build
 rapport** with a user. Questions can take the form of:
-
-
 
 * Naive outsider perspective: “I’m not from LA, how does the
   housing market work here?”
@@ -616,15 +597,12 @@ questions in the vernacular and language that your
 participants use and understand. Ask for examples. Be
 flexible:
 
-
 #### Always be ready to follow up and pull on a thread.
 
 During the denouement, shortly before the wrap-up to the
 interview, **reflect **on salient patterns and interesting
 findings, assumptions, or contractions that came up for you
 during the interview process. A few guiding questions:
-
-
 
 * Point to their reaction: “Why do you roll your eyes when
   you say that?”
@@ -637,7 +615,6 @@ during the interview process. A few guiding questions:
 
 During the wrap-up, keep recording because some gems usually
 do come out in this period.
-
 
 #### People make sense to themselves. The job of a designer is to explain how things make sense to those people.
 
@@ -664,8 +641,6 @@ evident to the designer.
 
 Inclusion involves accommodation:
 
-
-
 1. meeting interviewees where they are,
 2. making people feel comfortable and safe leads to the best
    interviews and insights,
@@ -689,7 +664,6 @@ technologies accurately. As designers, our role is to design
 and build systems that customers will want, not what systems
 customers say they want.
 
-
 #### “A lot of times, people don’t know what they want until you show it to them.” [Jobs]
 
 With the design thinking process, we can get stuck observing
@@ -698,9 +672,7 @@ rapid prototyping, evaluation, and iteration are key to
 moving a design project into a usable product for the end
 users.
 
-
 # Define
-
 
 ## Lecture on 
 
@@ -717,8 +689,6 @@ reframe the problem and find opportunities.
 
 Observations lead to inferences which lead to insights:
 
-
-
 1. **Observations**: “I notice...”
 2. **Inferences**: “I wonder if this means...”
 3. **Insights**: Actionable learnings about people.
@@ -732,8 +702,6 @@ insights, and emotions.
 
 A four sentence structure:
 
-
-
 1. **We met...** (person you are inspired by)
 2. **We were surprised to notice...** (tension,
    contradiction, or surprise)
@@ -743,61 +711,31 @@ A four sentence structure:
    challenge for your team, not a reason or the need! Not a
    solution)
 
-<table>
-  <tr>
-   <td>
+###### Example: Point-of-View for jeans user</h6>
 
-<h6>Example: Point-of-View for jeans user</h6>
-
-
-   </td>
-  </tr>
-  <tr>
-   <td>
-<ol>
-
-<li><strong>We met</strong> Chuck, a young millennial living in an apartment in SoCal. 
-
-<li><strong>We were surprised to notice</strong> that he says he cares about his jeans, but he doesn’t wash them often. 
-
-<li><strong>We wonder if this means</strong> that he believes the best way to protect his jeans is to not wash them. 
-
-<li><strong>It would be game-changing to</strong> help him care for his clothes while keeping them clean.
-</li>
-</ol>
-   </td>
-  </tr>
-</table>
-
+*  **We met** Chuck, a young millennial living in an
+   apartment in SoCal. 
+*  **We were surprised to notice** that he says he cares
+   about his jeans, but he doesn’t wash them often. 
+*  **We wonder if this means** that he believes the best way
+   to protect his jeans is to not wash them. 
+*  **It would be game-changing to** help him care for his
+   clothes while keeping them clean.
 
 A second example of a good POV:
 
+###### Example: Joel and art collection
 
-<table>
-  <tr>
-   <td>
-<h6>Example: Joel and art collection</h6>
-
-
-   </td>
-  </tr>
-  <tr>
-   <td>
-<ol>
-
-<li><strong>We met</strong> Joel, a guy in his 20s with a good job and a new apartment.
-
-<li><strong>We were surprised to notice </strong>that he worried his taste was unrefined when the pieces he liked didn’t align with the more expensive prices.
-
-<li><strong>We wonder if this means </strong>that Joel views art as fashion on the wall: it’s about what his friends are going to think about his taste.
-
-<li><strong>It would be game-changing to</strong> help buyers to cut through the paralysis of doubt.
-</li>
-</ol>
-   </td>
-  </tr>
-</table>
-
+* **We met** Joel, a guy in his 20s with a good job and a
+  new apartment.
+* **We were surprised to notice **that he worried his taste
+  was unrefined when the pieces he liked didn’t align with
+  the more expensive prices.
+* **We wonder if this means **that Joel views art as fashion
+  on the wall: it’s about what his friends are going to
+  think about his taste.
+* **It would be game-changing to** help buyers to cut
+  through the paralysis of doubt.
 
 Affinity diagramming helps find important information by
 finding relations between groups. Post-Its on large surfaces
@@ -806,39 +744,17 @@ work well. Empathy maps are another technique.
 The “yes and...” technique from improv helps generate new
 ideas without judgment. (See 
 
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Ideate"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
 [Ideate](#heading=h.udv2sgs34ck9).) At this stage of
 **_Define_** we are still not focused on one solution. 
 
-
-<table>
-  <tr>
-   <td>
-<h6>Image: Empathy maps include observations from what participants say and do, and move to inferences of what participants think or feel.</h6>
-
-
-   </td>
-  </tr>
-  <tr>
-   <td>
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
+###### Image: Empathy maps include observations from what participants say and do, and move to inferences of what participants think or feel.
 
 <img src="images/image2.png" width="" alt="alt_text"
 title="image_tooltip">
 
-   </td>
-  </tr>
-</table>
-
-
 Point of views are synthesized from user attributes,
 surprises, needs, and insights. A good POV has a few
 characteristics:
-
-
 
 1. It provides focus and frames the problem.
 2. It inspires our team.
@@ -853,8 +769,6 @@ characteristics:
 
 Evaluating a POV is done on four dimensions:
 
-
-
 1. Does your POV start by (1) focusing on one specific
    person and (2) sharing relevant context?
 2. Does your POV present a truly surprising observation or
@@ -863,68 +777,17 @@ Evaluating a POV is done on four dimensions:
    emotional and flows logically from what you learned?
 4. Does your POV help you generate many ideas immediately?
 
-<table>
-  <tr>
-   <td>
-
-<h6>Image: Evaluating POV statements’ quality. Various quality of POV statements.</h6>
-
-
-   </td>
-  </tr>
-  <tr>
-   <td>
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
+###### Image: Evaluating POV statements’ quality. Various quality of POV statements.
 <img src="images/image3.png" width="" alt="alt_text"
-title="image_tooltip">
-
-   </td>
-  </tr>
-  <tr>
-   <td>
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/image4.png" width="" alt="alt_text"
-title="image_tooltip">
-
-   </td>
-  </tr>
-  <tr>
-   <td>
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/image5.png" width="" alt="alt_text"
-title="image_tooltip">
-
-   </td>
-  </tr>
-  <tr>
-   <td>
-
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-<img src="images/image6.png" width="" alt="alt_text"
-title="image_tooltip">
-
-   </td>
-  </tr>
-</table>
-
-
+      title="image_tooltip"> <img src="images/image4.png"
+width="" alt="alt_text" title="image_tooltip"> <img
+         src="images/image5.png" width="" alt="alt_text"
+         title="image_tooltip"> <img src="images/image6.png"
+         width="" alt="alt_text" title="image_tooltip">
 
 # Ideate
 
-
 ## Pre-lecture readings
-
 
 ### 
 
@@ -937,8 +800,6 @@ process, and ensuring the market is big enough to warrant
 development.
 
 [Stok] discusses a few forms of unmet customer needs:
-
-
 
 1. Improvement opportunity: how far is the optimal solution
    from current solutions in performance?
@@ -962,8 +823,6 @@ Hypotheses of a customer’s problem take the format of **“I
 believe [customer segment] experience [problem] when [doing
 task] and/or because [of constraint].”** A validated
 hypothesis has characteristics such as (for blatant needs):
-
-
 
 1. The customer confirms there is a problem,
 2. The customer has already invested in trying to solve the
@@ -993,39 +852,28 @@ Stok discusses survey structures (p. 27),
 comparative/competitive analysis, user testing of
 competitors’ offerings, and developing user personas.
 
-
 ## Lecture on : Ideation
-
 
 ### Review on unpacking data into POV statements
 
+###### Example: Really good POV statement. [Brackets] are my notes.
 
-<table>
-  <tr>
-   <td>
-<h6>Example: Really good POV statement. [Brackets] are my notes.</h6>
-
-
-   </td>
-  </tr>
-  <tr>
-   <td>
-<ul>
-
-<li><strong>We met... </strong>a young female [demographics] truck owner [characteristic], with an ME background [education], who loves owning her truck and learning about it [her passions].
-
-<li><strong>We were surprised to notice... </strong>she sometimes blindly trusts [say/do, surprise against ME background] whatever the mechanics say [behavior] so as not to reveal how little she knows about her vehicle [why that behavior].
-
-<li><strong>We wonder if this means... </strong>she is trying to protect [inference] her persona and confidence [feelings] as a truck owner.
-
-<li><strong>It would be game changing to...</strong> provide a detailed and accessible way [solution space, but not specific] for her to learn about truck mechanics in a style that doesn’t make her feel self-conscious [counters negative feeling from above].
-</li>
-</ul>
-   </td>
-  </tr>
-</table>
-
-
+* **We met... **a young female [demographics] truck owner
+  [characteristic], with an ME background [education], who
+  loves owning her truck and learning about it [her
+  passions].
+* **We were surprised to notice... **she sometimes blindly
+  trusts [say/do, surprise against ME background] whatever
+  the mechanics say [behavior] so as not to reveal how
+  little she knows about her vehicle [why that behavior].
+* **We wonder if this means... **she is trying to protect
+  [inference] her persona and confidence [feelings] as a
+  truck owner.
+* **It would be game changing to...** provide a detailed and
+  accessible way [solution space, but not specific] for her
+  to learn about truck mechanics in a style that doesn’t
+  make her feel self-conscious [counters negative feeling
+  from above].
 
 ### Ideate
 
@@ -1034,113 +882,54 @@ brainstorming. We separate the idea generation process from
 the evaluation process because pre-maturely judging ideas
 can limit the creativity in a brainstorming session.
 
-
 ### How Might We...?
 
 Versus “can we” or “should we” we start with judgment,
 instead of an open exploration.
 
+###### Example: A good POV: Janice with kids at the airport. [Brackets] are my notes.
 
-<table>
-  <tr>
-   <td>
-<h6>Example: A good POV: Janice with kids at the airport. [Brackets] are my notes.</h6>
+* **We met** Janie, a harried mother of 3, [persona] rushing
+  through the airport only to wait hours [pain point] at the
+  gate.
 
+* **We were surprised** to notice that she makes up many
+  games to entertain her children [observation on
+  do/behavior].
 
-   </td>
-  </tr>
-  <tr>
-   <td>
-<ul>
+* **We wonder if** she is stressed [inference on feeling]
+  that the kids will irritate fellow passengers if she’s
+  unable to distract them [pain point].
 
-<li><strong>We met</strong> Janie, a harried mother of 3, [persona] rushing through the airport only to wait hours [pain point] at the gate.
-
-<li><strong>We were surprised</strong> to notice that she makes up many games to entertain her children [observation on do/behavior].
-
-<li><strong>We wonder if</strong> she is stressed [inference on feeling] that the kids will irritate fellow passengers if she’s unable to distract them [pain point].
-
-<li><strong>It would be game changing to</strong> bring other passengers and airport facilities [broad enough audience] into helping families [broad audience] have a better travel experience [broad enough goal for ideation]. 
-</li>
-</ul>
-   </td>
-  </tr>
-</table>
+* **It would be game changing to** bring other passengers
+  and airport facilities [broad enough audience] into
+  helping families [broad audience] have a better travel
+  experience [broad enough goal for ideation]. 
 
 
 “How might we” (HMW) statements for this POV can include
 (see , p. 29), inspired by **_generators_**: 
 
+###### Example: Generators and example HMWs for Janice
 
-<table>
-  <tr>
-   <td>
-<h6>Example: Generators and example HMWs for Janice</h6>
-
-
-   </td>
-  </tr>
-  <tr>
-   <td>
-<ol>
-
-<li><em>Breaking the POV into pieces:</em> 
-<ol>
- 
-<li>HMW entertain kids? HMW slow a mom down?
-</li> 
-</ol>
-
-<li><em>Amp up the good or remove the bad:</em> 
-<ol>
- 
-<li>HMW separate kids from fellow passengers?
-</li> 
-</ol>
-
-<li><em>Explore the opposite</em> 
-<ol>
- 
-<li>HMW make the wait the most exciting part of the trip?
-</li> 
-</ol>
-
-<li><em>Go after adjectives</em> 
-<ol>
- 
-<li>HMW we make the rush refreshing instead of harrying?
-</li> 
-</ol>
-
-<li><em>Identify unexpected resources</em> 
-<ol>
- 
-<li>HMW leverage free time of fellow passengers to share the load?
-</li> 
-</ol>
-
-<li><em>Create an analogy from need or context</em> 
-<ol>
- 
-<li>HMW make the airport like a spa?
-</li> 
-</ol>
-
-<li><em>Change a status quo</em> 
-<ol>
- 
-<li>HMW make playful, loud kids less annoying?
-</li> 
-</ol>
-</li> 
-</ol>
-   </td>
-  </tr>
-</table>
-
+* _Breaking the POV into pieces:_ 
+    - HMW entertain kids? HMW slow a mom down?
+* _Amp up the good or remove the bad:_ 
+    - HMW separate kids from fellow passengers?
+* _Explore the opposite_ 
+    - HMW make the wait the most exciting part of the trip?
+* _Go after adjectives_ 
+    - HMW we make the rush refreshing instead of harrying?
+* _Identify unexpected resources_ 
+    - HMW leverage free time of fellow passengers to share
+      the load?
+* _Create an analogy from need or context_ 
+    - HMW make the airport like a spa?
+* _Change a status quo_ 
+    - HMW make playful, loud kids less annoying? 
 
 A strong HMW question involves at least three of: who, what,
 when, where, or why.
-
 
 ### Brainstorming solutions
 
@@ -1153,7 +942,6 @@ Having rules makes the brainstorming session more
 productive: adding constraints to a session can improve idea
 generation quantity.
 
-
 ### Selecting good problems & solutions
 
 HMW statements generate ideas. Good solutions have frequency
@@ -1165,7 +953,6 @@ ethical impact is also an important filter.
 Voting techniques to down-select ideas include heat map
 voting (two phase process), category voting, or picking
 three favorites.
-
 
 ### Experience prototyping
 
@@ -1184,26 +971,20 @@ best/converged solutions. These prototypes should test a
 part of an idea rather than an entire solution. It is still
 a needfinding technique to test one assumption.
 
-
 # Concept Videos
 
-
 ## Pre-lecture materials
-
 
 ### [Levin, Design critiques at Figma, Figma.com](https://www.figma.com/blog/design-critiques-at-figma/)
 
 Good content. No notes taken.
 
-
 ## Lecture on 
-
 
 ### Tasks
 
 Tasks are about what a user wants to do, not how; they are
 goal-directed statements.
-
 
 #### A task is a structured set of activities or high-level actions required to achieve a high-level user goal.
 
@@ -1219,24 +1000,9 @@ which allows for comparison of different design alternatives
 example of a task is actually a task flow (a particular way
 of achieving a goal with a particular interface): 
 
+###### Example: A task flow, i.e. a <strong>bad task**
 
-<table>
-  <tr>
-   <td>
-<h6>Example: A task flow, i.e. a <strong>bad task</strong></h6>
-
-
-   </td>
-  </tr>
-  <tr>
-   <td>
-<h6>“Tony clicks on the Charing Cross Pub icon and selects “directions to” as he walks down the street.”</h6>
-
-
-   </td>
-  </tr>
-</table>
-
+###### “Tony clicks on the Charing Cross Pub icon and selects “directions to” as he walks down the street.”
 
 Tasks should be specific. These stories should be rooted in
 facts, stating the customers (from POVs) and their
@@ -1245,75 +1011,33 @@ should describe a complete goal which forces us to think
 about how features work together to support the tasks (e.g.,
 phone-in bank functions).
 
+###### Example: A task<strong>Task title**: Let my friends know where I am
 
-<table>
-  <tr>
-   <td>
-<h6>Example: A task</h6>
-
-
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Task title</strong>: Let my friends know where I am
-<p>
-<strong>Task description</strong>: Manny is in the city at a club that he wasn’t planning to go to and would like to let his girlfriend, Sherry, know where he is and be notified when she is about to get to the club.
-   </td>
-  </tr>
-</table>
-
+**Task description**: Manny is in the city at a club that he
+wasn’t planning to go to and would like to let his
+girlfriend, Sherry, know where he is and be notified when
+she is about to get to the club.
 
 Tasks are described as **users and their goals**, not
 details of the system. From simple to complex, the
 _frequency, density, and pain_ (see 
 
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Selecting good problems & solutions"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
 [Selecting good problems &
 solutions](#heading=h.5f0scbfwd3k8)).
 
+###### Example: Tasks for Lyft<strong>Simple**: Signaling for a ride
 
-<table>
-  <tr>
-   <td>
-<h6>Example: Tasks for Lyft</h6>
-
-
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Simple</strong>: Signaling for a ride
-<p>
-<strong>Moderate</strong>: Contacting drive to pick up a forgotten item
-<p>
-<strong>Complex</strong>: Become a driver for Lyft
-   </td>
-  </tr>
-</table>
-
+**Moderate**: Contacting drive to pick up a forgotten item
+**Complex**: Become a driver for Lyft
 
 Token (a former project in CS 147), laid out their
 _representative tasks_ as: 
 
+###### Example: Good tasks for Token<strong>Personal memories**: Create and share personal photos and videos.
 
-<table>
-  <tr>
-   <td>
-<h6>Example: Good tasks for Token</h6>
-
-
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Personal memories</strong>: Create and share personal photos and videos.
-<p>
-<strong>Shared experiences</strong>: View content shared by your friends.
-<p>
-<strong>Location discovery</strong>: Engage with a location through public content.
-   </td>
-  </tr>
-</table>
-
+**Shared experiences**: View content shared by your friends.
+**Location discovery**: Engage with a location through
+public content.
 
 Such tasks help us sketch out an interface design. In the
 process, we can remove or add UI elements that specifically
@@ -1334,7 +1058,6 @@ concrete artifacts helps designers settle competing
 ideas/conflicts and converge to better task definitions and
 UIs. 
 
-
 ## Video prototypes
 
 Video prototypes _illustrate_ how users will interact with a
@@ -1343,19 +1066,15 @@ them and how designers should fill out required details for
 tasks/interactions. Video prototypes represent tasks (what)
 and concept videos represent task flows (how).
 
-
 ## Concept videos
 
 Like with experience prototypes, concept videos feature
 roles (people involved), scenes (context of use), and props
 (including the solution).
 
-
 # Design Exploration
 
-
 ## Pre-lecture readings
-
 
 ### 
 
@@ -1365,29 +1084,10 @@ these topics are covered in lecture materials or repeated
 from other materials so I will not provide more detailed
 notes here.
 
-
-<table>
-  <tr>
-   <td>
-<h6>Image: Buxton’s definition of design</h6>
-
-
-   </td>
-  </tr>
-  <tr>
-   <td>
-
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
+###### Image: Buxton’s definition of design
 
 <img src="images/image7.png" width="" alt="alt_text"
 title="image_tooltip">
-
-   </td>
-  </tr>
-</table>
-
-
 
 ## Lecture on 
 
@@ -1395,8 +1095,6 @@ Exploring the design space of solutions following the
 concept video. Such exploration takes the form of
 brainstorming, sketching, storyboarding, and prototyping.
 Elements of design sketches include:
-
-
 
 1. ​​Quick and timely
 2. Inexpensive and disposable
@@ -1419,13 +1117,11 @@ required to render the intended purpose or concept. More so
 than eliminating details, we focus on specific details to
 amplify those features that are most important.
 
-
 #### “Focusing is about saying no.” [Jobs]
 
 Some parts of this lecture on design sketching borrow from
 Buxton’s reading. Notes on this material will not be taken
 again here.
-
 
 ## Values in Design: Talk by Dr. Diana Acosta-Navas
 
@@ -1440,46 +1136,19 @@ regardless of our intention. Our design decisions embed
 values in the product and are expressive of what we care
 about, including:
 
+###### Listing: Examples of values in design
 
-<table>
-  <tr>
-   <td>
-<h6>Listing: Examples of values in design</h6>
-
-
-   </td>
-  </tr>
-  <tr>
-   <td>
-<ol>
-
-<li>Efficiency
-
-<li>Privacy
-
-<li>Beauty
-
-<li>Truth
-
-<li>Justice
-
-<li>Equity
-
-<li>Safety
-
-<li>Transparency
-
-<li>Accountability
-
-<li>Inclusion
-
-<li>Sustainability
-</li>
-</ol>
-   </td>
-  </tr>
-</table>
-
+* Efficiency
+* Privacy
+* Beauty
+* Truth
+* Justice
+* Equity
+* Safety
+* Transparency
+* Accountability
+* Inclusion
+* Sustainability
 
 These values emerge from the designer’s understanding of a
 situation starting with definitions and specifications for
@@ -1533,24 +1202,19 @@ historical injustices and power relationships, but provides
 a starting point for tackling these challenges. Other
 complementary frameworks exist in HCI to aid in these goals.
 
-
 # Early Stage Prototyping
 
-
 ## Pre-lecture readings
-
 
 ### 
 
 Discusses many of the topics covered in lecture. Notes will
 not be provided here.
 
-
 ## Lecture on 
 
 Storyboards start to tell the story of the system but still
 describe the design of the system.
-
 
 #### A prototype is a working representation of a final artifact [CS 147]
 
@@ -1558,19 +1222,14 @@ Further notes will not be taken. [Duyne 2006] describes much
 of the material of this lecture, and Pramod knows this stuff
 already :)
 
-
 # Visual Information Design
 
-
 ## Pre-lecture readings
-
 
 ### Scott Klemmer lectures on visual design
 
 Whitespace allows us to chunk information. Goals for visual
 design are:
-
-
 
 1. Guide people,
 2. Orient people, and
@@ -1594,59 +1253,21 @@ Leading is the space under a line of text. It should
 generally be 20%.
 [[https://youtu.be/82gp_2vqLTc?t=162](https://youtu.be/82gp_2vqLTc?t=162)]
 
-
 ## Lecture on 
 
-
-<table>
-  <tr>
-   <td>
-<h6>Image: Hanging Chad problem on the Florida 2000 ballot. It’s redesign:</h6>
-
-
-   </td>
-  </tr>
-  <tr>
-   <td>
-
-<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
+###### Image: Hanging Chad problem on the Florida 2000 ballot. It’s redesign:
 
 <img src="images/image8.png" width="" alt="alt_text"
 title="image_tooltip">
 
-   </td>
-  </tr>
-</table>
-
-
 Further reading: Lidwell, Universal Principles of Design
-
 
 ### Good Form: visual hierarchy, layout, proximity, small multiples & space
 
-
-<table>
-  <tr>
-   <td>
-<h6>Images: Elements of visual design</h6>
-
-
-   </td>
-  </tr>
-  <tr>
-   <td>
-
-<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image9.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
+###### Images: Elements of visual design
 
 <img src="images/image9.png" width="" alt="alt_text"
 title="image_tooltip">
-
-   </td>
-  </tr>
-</table>
-
 
 Prioritize the most important information. Strong visual
 hierarchies can guide users into logical progressions by
@@ -1655,28 +1276,11 @@ showing what’s important.
 The _Gestalt Principles of Perception_ help us understand
 how to group information.
 
-
-<table>
-  <tr>
-   <td>
-<h6>Image: Common Gestalt principles in web design.</h6>
-
-
-   </td>
-  </tr>
-  <tr>
-   <td>
-
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image10.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+###### Image: Common Gestalt principles in web design.
 
 
 <img src="images/image10.png" width="" alt="alt_text"
 title="image_tooltip">
-
-   </td>
-  </tr>
-</table>
-
 
 The first read is informed by size, color, layout, spacing,
 and style.
@@ -1684,46 +1288,22 @@ and style.
 Related information should be grouped together in closer
 distance.
 
-
 #### Only make things different if you are trying to call attention to the difference!
 
 Small multiples of the same object can vary in one dimension
 (say color) to highlight differences. 
 
-
-<table>
-  <tr>
-   <td>
-<h6>Images: Use of visual changes in small multiples to highlight differences</h6>
-
-
-   </td>
-  </tr>
-  <tr>
-   <td>
-
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image11.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
+###### Images: Use of visual changes in small multiples to highlight differences
 
 <img src="images/image11.png" width="" alt="alt_text"
 title="image_tooltip">
 
-
-<p id="gdcalert14" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image12.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert15">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 <img src="images/image12.png" width="" alt="alt_text"
 title="image_tooltip">
-
-   </td>
-  </tr>
-</table>
-
 
 Whitespace should be treated as an object. More whitespace
 around a group implies that it is more important/valuable
 information for the user.
-
 
 ### Good form: grids, type, graphic icons
 
@@ -1731,7 +1311,6 @@ Asymmetrical typography can make sites easier to read.
 
 Grid systems can implement rationality, modernism, and
 asymmetry without centering elements.
-
 
 ### Color
 
@@ -1746,28 +1325,10 @@ Color harmonies are pleasing arrangements of colors.
 
 Minimize the number of colors used.
 
-
-<table>
-  <tr>
-   <td>
-<h6>Image: Color harmonies</h6>
-
-
-   </td>
-  </tr>
-  <tr>
-   <td>
-
-<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image13.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
+###### Image: Color harmonies
 
 <img src="images/image13.png" width="" alt="alt_text"
 title="image_tooltip">
-
-   </td>
-  </tr>
-</table>
-
 
 Complimentary colors provide extreme contrast and can be
 quite jarring and are bad for text. Analogous colors are
@@ -1778,7 +1339,6 @@ be used to provide an isolation effect. Using three
 actionable colors is a good choice. First design in
 greyscale to scale and layout important information.
 
-
 ### Interesting design
 
 Deviations should be intentional and point out important
@@ -1788,8 +1348,6 @@ information.
 
 Other tidbits:
 
-
-
 * Art of Balance: Promotion & demotion of important objects
 * First Question for any design: what are the most important
   things?
@@ -1798,22 +1356,15 @@ Other tidbits:
 * Visual hierarchy: guides people to look how they want in
   their own hierarchy.
 
-
 # Designing the Future: Early and Future Visions of HCI
 
-
 ## Lecture on 
-
-
 
 * The first read, above the fold 
 * Grouping from color gradients, and font sizes, on virgin
   america website
 
-<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image14.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image14.png "image_tooltip")
+![alt_text](images/image14.png)
 
 * Buttons for plus and minus are small compared to the size
   of the box => Fitt’s Law about how fast you can hit
@@ -1846,10 +1397,7 @@ Other tidbits:
         * Simple icons
         * whitespace shows what is important
 
-
 ## Lecture
-
-
 
 * Why should I care?
     * We should know the history of the field and what’s
@@ -1977,12 +1525,9 @@ Other tidbits:
 * Bauhaus Typography at 100: A Letterform Archive Exhibition
   until April 27 in San Francisco.
 
-
 # Human Abilities**
 
-
 # Heuristic Evaluation
-
 
 ## Lecture on 
 
@@ -2061,53 +1606,23 @@ values should not emerge when the user interacts with the
 product. Encoded values should match users’ values in a
 broad set of contexts. (See 
 
-<p id="gdcalert17" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Listing: Examples of values in design"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert18">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
 [Listing: Examples of values in
 design](#heading=h.yqrtvv7eyt04))
-
-
-<table>
-  <tr>
-   <td>
-
-<p id="gdcalert18" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image15.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert19">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 <img src="images/image15.png" width="" alt="alt_text"
 title="image_tooltip">
 
-   </td>
-  </tr>
-  <tr>
-   <td>
-<ol>
-
-<li>In consistent colors for text (red vs. black)
-
-<li>In consistent or extra spacing
-
-<li>Price vs. total doesn’t make sense
-
-<li>“h” value is accepted into the input
-
-<li>yes and no are both checkboxes
-
-<li>inconsistent highlighting of table rows
-
-<li>black on blue text
-
-<li>red font means different things
-</li>
-</ol>
-   </td>
-  </tr>
-</table>
-
+* In consistent colors for text (red vs. black)
+* In consistent or extra spacing
+* Price vs. total doesn’t make sense
+* “h” value is accepted into the input
+* yes and no are both checkboxes
+* inconsistent highlighting of table rows
+* black on blue text
+* red font means different things
 
 Summary:
-
-
 
 1. Have evaluators go through the UI twice
 2. Ask them to see if it complies with the heuristics, not
@@ -2118,64 +1633,25 @@ Summary:
 
 Exercise:
 
-
-<table>
-  <tr>
-   <td>
-
-<p id="gdcalert19" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image16.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert20">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 <img src="images/image16.png" width="" alt="alt_text"
 title="image_tooltip">
 
-   </td>
-  </tr>
-  <tr>
-   <td>
-<ol>
-
-<li>inconsistent colors
-
-<li>bad color contrasts
-
-<li>null, unsable
-
-<li>inconsistent fonts
-
-<li>no back button
-
-<li>no system status
-
-<li>Create message vs. send text - technical language
-
-<li>Bad font choice: I looks like J
-
-<li>recognition vs. recall for sending who you are texting
-</li>
-</ol>
-   </td>
-  </tr>
-  <tr>
-   <td>
-
-<p id="gdcalert20" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image17.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert21">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
+* inconsistent colors
+* bad color contrasts
+* null, unsable
+* inconsistent fonts
+* no back button
+* no system status
+* Create message vs. send text - technical language
+* Bad font choice: I looks like J
+* recognition vs. recall for sending who you are texting
 
 <img src="images/image17.png" width="" alt="alt_text"
 title="image_tooltip">
 
-   </td>
-  </tr>
-</table>
-
-
-
 # Conceptual Models and Interface Metaphors**
 
-
 ## Lecture on 
-
 
 ### Design of Everyday Things
 
@@ -2190,11 +1666,9 @@ designers of systems. It explains conceptual models using
 examples of doors, washing machines, digital watches,
 phones, etc. The book includes design guidelines.
 
-
 ### Conceptual Models
 
 This is also called a mental model. 
-
 
 #### A mental representation of how an artifact works & how the interface controls affect it. 
 
@@ -2219,25 +1693,9 @@ Poorly-designed objects have no clues, weak clues, or
 misleading clues. Signs are indications that a UI isn’t
 communicating how to operate the interface.
 
-
-<table>
-  <tr>
-   <td>In Hipstamatic, adding a rectangle angle and contrast improves the usability significantly.
-   </td>
-  </tr>
-  <tr>
-   <td>
-
-<p id="gdcalert21" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image18.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert22">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
+###### In Hipstamatic, adding a rectangle angle and contrast improves the usability significantly.
 <img src="images/image18.png" width="" alt="alt_text"
 title="image_tooltip">
-
-   </td>
-  </tr>
-</table>
-
 
 Refrigerator example: solutions can be to (1) make the
 controls map to the customer’s model or (2) make controls
@@ -2250,8 +1708,6 @@ the new through the system image. Mismatches between the
 designer and customer’s models cause frustration, bad
 operation, lower performance, etc.
 
-
-
 * CS 194H will be running 1:30pm to 3:30pm on Tue/Fri.
   Continue the project or join another one to get it to app
   store quality. Practice design principles individually w/
@@ -2259,10 +1715,7 @@ operation, lower performance, etc.
   assignment: 1.5 weeks instead of 1 week. Small size with
   feedback from Landay and a very experienced TA.
 
-
 ### Design guides for conceptual models
-
-
 
 1. Provide good conceptual model: customer wants to
    understand how controls affect object
@@ -2276,68 +1729,26 @@ Making things more visible. If it’s not visible, people may
 get into a “mode error” (on a watch) or may not see all the
 functionality. 
 
-
-<table>
-  <tr>
-   <td>In older car radios, the number of controls equals the number of functions. Controls are labeled(?) and grouped together. In the Tesla, we get no haptic feedback (and some voice feedback) mostly requiring us to look at the screen while driving.
-   </td>
-  </tr>
-  <tr>
-   <td>
-
-<p id="gdcalert22" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image19.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert23">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
+###### In older car radios, the number of controls equals the number of functions. Controls are labeled(?) and grouped together. In the Tesla, we get no haptic feedback (and some voice feedback) mostly requiring us to look at the screen while driving.
 
 <img src="images/image19.png" width="" alt="alt_text"
 title="image_tooltip">
 
-   </td>
-  </tr>
-  <tr>
-   <td>
-
-<p id="gdcalert23" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image20.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert24">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 <img src="images/image20.png" width="" alt="alt_text"
 title="image_tooltip">
-
-   </td>
-  </tr>
-  <tr>
-   <td>
-
-<p id="gdcalert24" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image21.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert25">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
 
 <img src="images/image21.png" width="" alt="alt_text"
 title="image_tooltip">
 
-   </td>
-  </tr>
-  <tr>
-   <td>
-
-<p id="gdcalert25" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image22.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert26">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 <img src="images/image22.png" width="" alt="alt_text"
 title="image_tooltip">
-
-   </td>
-  </tr>
-</table>
-
 
 Map interface controls to the customer’s model. Controls
 should mirror the real-world.
 
-
 ```
 
 ```
-
-
 
 ### Interface metaphors
 
@@ -2354,32 +1765,12 @@ an attempt to simulate a real desktop but a way to explain
 why some windows overlapped. It leverages knowledge about
 files, folders, and trash.
 
-
-<table>
-  <tr>
-   <td>
-<h6>Image: From Englebart to Xerox PARC.</h6>
-
-
-   </td>
-  </tr>
-  <tr>
-   <td>
-
-<p id="gdcalert26" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image23.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert27">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
+###### Image: From Englebart to Xerox PARC.
 
 <img src="images/image23.png" width="" alt="alt_text"
 title="image_tooltip">
 
-   </td>
-  </tr>
-</table>
-
-
 Example of metaphors include:
-
-
 
 1. Global metaphors: personal assistant, wallet, clothing,
    cards
@@ -2394,25 +1785,10 @@ Avoid a metaphor for metaphor’s sake. Skeuomorphism is
 physical ornament or design on an object made to resemble
 another material or technique.
 
-
-<table>
-  <tr>
-   <td>Apple iBooks2 looked like a wood bookshelf with books inside.
-   </td>
-  </tr>
-  <tr>
-   <td>
-
-<p id="gdcalert27" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image24.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert28">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
+###### Apple iBooks2 looked like a wood bookshelf with books inside.
 
 <img src="images/image24.png" width="" alt="alt_text"
 title="image_tooltip">
-
-   </td>
-  </tr>
-</table>
-
 
 The iPhone’s click-photo is an audio skeuomorphism.
 
@@ -2423,40 +1799,14 @@ skeuomorphisms until they are learned by the users.
 
 However, metaphors can become dated.
 
-
-<table>
-  <tr>
-   <td>
-<h6>Image: The iPhone's phone icon resembles an older-style phone. The iPad Podcasts app included the tape metaphor most people didn’t understand.</h6>
-
-
-   </td>
-  </tr>
-  <tr>
-   <td>
-
-<p id="gdcalert28" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image25.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert29">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+###### Image: The iPhone's phone icon resembles an older-style phone. The iPad Podcasts app included the tape metaphor most people didn’t understand.
 
 
 <img src="images/image25.png" width="" alt="alt_text"
 title="image_tooltip">
 
-   </td>
-  </tr>
-  <tr>
-   <td>
-
-<p id="gdcalert29" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image26.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert30">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 <img src="images/image26.png" width="" alt="alt_text"
 title="image_tooltip">
-
-   </td>
-  </tr>
-</table>
-
-
 
 ## UI consistency
 
@@ -2465,8 +1815,6 @@ example the ubiquitous use of the same keys for
 cut/copy/paste. They should not be arbitrary choices. 
 
 Types of consistency include:
-
-
 
 1. Internal consistency: same terminology and layout
    throughout the app
@@ -2480,10 +1828,7 @@ same place, better choices were reflected in the Palm UIs.
 Making for mobile may need more breaks from consistency.
 Consistency helps people learn the interface.
 
-
 # Midterm Review
-
-
 
 1. Review all lectures and readings
 2. Watch midterm prep video (one hour recording)
@@ -2492,17 +1837,9 @@ Consistency helps people learn the interface.
 4. Review Slack channel for hints as to content.
 5. Review my 2019 midterm.
 
-
-
-<p id="gdcalert30" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image27.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert31">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/image27.png "image_tooltip")
 
-
-
 # Usability Testing
-
 
 ## Why do usability testing?
 
@@ -2511,7 +1848,6 @@ it. Using heuristic evaluations with expert reviewers may
 not be representative of the target user, i.e. they know too
 much or not know enough about the target domain.
 Additionally, it’s hard to predict what real users will do.
-
 
 ## Choosing participants
 
@@ -2537,7 +1873,6 @@ individual (which is why we say “participant” and not
 “subject”), and collecting information anonymously. In the
 context of a university or a medical community, we need to
 get human subjects approval (IRB).
-
 
 ## Designing & conducting the test
 
@@ -2567,8 +1902,6 @@ are thinking, not just what they are doing (starting with
 work from Herb Simon and Alan Newell: cognitive science and
 AI at CMU). Prompts include:
 
-
-
 1. Tell us what you are thinking.
 2. Tell us what you are trying to do.
 3. Tell us questions that arise as you work.
@@ -2587,7 +1920,6 @@ that we have pre-decided, keeping track of what people want
 help on. We also want to record everything and take detailed
 notes.
 
-
 ## Using the results
 
 We want to summarize the data from a usability test by
@@ -2605,7 +1937,6 @@ experience?
 We rate these CIs and the ease of fixing those CIs so we can
 fix severe problems and also make easy fixes.
 
-
 ## Experimental options & details
 
 Situations where numbers are useful include time
@@ -2621,21 +1952,9 @@ Combining thinking-aloud with quantitative measurements can
 slow down the interactions.
 
 Between groups, within groups.
-
-
-
  - apple hci guidelines
 
-
-
-<p id="gdcalert31" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image28.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert32">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![alt_text](images/image28.png "image_tooltip")
-
-
-
-
 
 # Appendix: Experience Prototyping on  by Kristina
 
@@ -2643,35 +1962,16 @@ We want to focus on assumptions that are unknown to be true
 and are vital for the user experience. These are the
 critical assumptions to actually test with participants.
 
-
-<table>
-  <tr>
-   <td>
-<h6>Image: Two dimensions of choosing assumptions to test with experience prototypes</h6>
-
-
-   </td>
-  </tr>
-  <tr>
-   <td>
-
-<p id="gdcalert32" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image29.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert33">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
+###### Image: Two dimensions of choosing assumptions to test with experience prototypes
 
 <img src="images/image29.png" width="" alt="alt_text"
 title="image_tooltip">
-
-   </td>
-  </tr>
-</table>
-
 
 Experience prototypes are made to test assumptions to guide
 future development. These tools are like running a
 controlled study where one variable may be manipulated for
 the participant. Future development is guided by insights
 from experience prototypes.
-
 
 # Appendix: Accessibility Workshop on  by Jianna
 
@@ -2685,8 +1985,6 @@ Goal: collective empowerment and liberation is the goal.
 
 Inclusive design practices:
 
-
-
 1. assistive or ability based design for a specific task or
    ability
 2. accessible/universal design, usable by most number of
@@ -2698,8 +1996,6 @@ WCAG 2.1, A to AAA, ADA compliance. Netflix was suited for
 captioning of songs:
 
 POUR: Perceivable, Operable, Understandable, Robust
-
-
 
 1. Perceivable: design for small screen size, use space as
    an element, account for zoom/magnification (lens under
@@ -2719,8 +2015,6 @@ POUR: Perceivable, Operable, Understandable, Robust
 
 VoiceOver design principles:
 
-
-
 1.  ALL elements are reachable and labeled
 2. Elements have a coherent swipe order
 3. Label heading text with “headings” to help users easily
@@ -2729,10 +2023,7 @@ VoiceOver design principles:
 5. Add accessibility “hints” to clarify and describe
    element’s role
 
-
 # Appendix: Notes on Landay’s Pedagogy
-
-
 
 * Landay morphs students’ answers into the point he is
   trying to make

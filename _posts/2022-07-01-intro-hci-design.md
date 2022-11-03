@@ -114,7 +114,7 @@ biases, and improve the condition of others, technologies
 need to expand their scope of professional responsibility,
 as a *digital urban planner* of sorts.
 
-## Lecture 1A on 2022-01-03
+## Lecture 1A
 
 ### AI & User experience design
 
@@ -329,15 +329,7 @@ Landay discusses in detail in lecture.
   url="https://drive.google.com/open?id=11hAc2-WbbzkHQ6upZel1MtLnEhqwWFuU"
 %}
 
----
----
----
----
----
-
-# WIP
-
-## Lecture on 
+## Lecture
 
 {% include _single_download.html
   name="📖 Designing for People, Dreyfuss 1955, Google Books"

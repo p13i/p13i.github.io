@@ -11,10 +11,6 @@ downloads:
   url: "https://p13i-p13i-github-io-5v7rq664c7r7v-4000.githubpreview.dev/posts/2022/02/mergesort/"
 ---
 
-![]({{ page.image }})
-
----
-
 In preparation for technical interviews, I implemented
 mergesort in C. The [source on Github](https://github.com/p13i/mergesort-c/blob/main/main.c#L27)
 has an extensive set of tests. I like how 'cute' the code

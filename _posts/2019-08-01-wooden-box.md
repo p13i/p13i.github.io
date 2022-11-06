@@ -7,7 +7,7 @@ categories:
 tags:
 - laser-cutting
 layout: post
-image: https://user-images.githubusercontent.com/13140065/200154339-680cb4ad-d111-425c-8171-c0c8355ca23f.jpg
+image: https://user-images.githubusercontent.com/13140065/200147912-d8bc3930-cfce-4f4f-81e5-aa7fae3b7008.jpeg
 ---
 
 I started out with a 12 inch by 24 inch board and placed it

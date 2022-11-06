@@ -1,5 +1,5 @@
 ---
-title: "The products we live with: a brief history of modern industrial design"
+title: "review of modern industrial design"
 date: 2021-05-17
 categories:
 - portfolio

@@ -13,7 +13,6 @@ image: https://user-images.githubusercontent.com/13140065/199618773-50dda33c-a4c
 I started out with a 12 inch by 24 inch board and placed it
 into the wood. The Epilog laser raster cut an image onto the
 
-
 ![IMG_4427](https://user-images.githubusercontent.com/13140065/199618768-d58a4b0a-0ba8-4742-9c4c-4418e6078518.JPG)
 
 I then cut out the box-forming edge pattern for the box
@@ -23,6 +22,8 @@ these components need to cut through the wood completely for
 clean edges. The intention of the engraved signature is be
 able to glow a name outwards when light is shown inside the
 box.
+
+![epilog laser cutting out name in cursive](https://user-images.githubusercontent.com/13140065/200149460-b9b7e818-5d29-427f-accd-17f5255267a2.gif)
 
 ![IMG_4429](https://user-images.githubusercontent.com/13140065/199618770-7e37b77c-0fda-4bea-8ee6-9f55f7a03aae.JPG)
 
@@ -38,3 +39,4 @@ And with the light shining through! ✨
 
 This project was made in the Georgia Tech "The Hive"
 Makerspace in the Van Leer building.
+

@@ -34,8 +34,6 @@ This is definitely my best render to date. I learned a ton
 about modeling, C4D procedural deformers, and hair
 simulation, and texturing.
 
-![]({{ page.image }})
-
 # Modeling
 
 The first phase was modeling. I followed Motion Viking's

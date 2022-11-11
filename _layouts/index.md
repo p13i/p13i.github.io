@@ -25,7 +25,7 @@ layout: base
   </div>
   <div class="col-12 col-md-8 col-lg-9">
     {% for post in site.posts %}
-        {% if post.categories contains "research" or page.categories.contains 'writing' %}
+        {% if post.featured %}
             {% include _post_card.html post=post %}
         {% endif %}
     {% endfor %}

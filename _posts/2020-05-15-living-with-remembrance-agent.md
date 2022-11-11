@@ -16,6 +16,7 @@ description: My experiences developing a wearable and
   digital information.
 image: https://user-images.githubusercontent.com/13140065/146688349-93d418a5-c04a-41f1-b445-cf527923c6bc.png
 layout: post
+featured: true
 ---
 
 During my undergraduate studies, I had the privilege of

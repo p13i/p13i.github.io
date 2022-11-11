@@ -351,7 +351,7 @@ The Design Thinking process consists of five steps, core to
 the first half of these course notes:
 
 {% include _callout.html
-    line="Empathize, Define, Ideate, Prototype, and Test" %}
+    text="Empathize, Define, Ideate, Prototype, and Test" %}
 
 In the design process, we constantly find ourselves going
 forward, skipping backwards, and in cycles of two or three.
@@ -384,7 +384,7 @@ to the mindset amongst its practitioners to **_discover
 what’s interesting_** without bringing in agendas,
 objectives, or (worse) solutions to a user. Therefore:
 
-{% include _callout.html line="Needfinding is discovering
+{% include _callout.html text="Needfinding is discovering
     opportunities by recognizing gaps or needs with a
     system." %}
 
@@ -405,7 +405,7 @@ they are doing. Further, we want to move from cataloging
 observing actions to inferring (and confirming!) the users’
 feelings, i.e., empathizing.
 
-{% include _callout.html line="Engage users in their
+{% include _callout.html text="Engage users in their
 environment!" %}
 
 Imagine you are trying to better understand the eating
@@ -436,7 +436,7 @@ environment. Video calls, phone calls, text conversations,
 and surveys are progressively impersonal ways to interview
 individuals.
 
-{% include _callout.html line="Follow the emotion!" %}
+{% include _callout.html text="Follow the emotion!" %}
 
 It is advisable to see an interview as sharing the same
 basic structure as a story. Namely that there is an
@@ -496,7 +496,7 @@ questions in the vernacular and language that your
 participants use and understand. Ask for examples. Be
 flexible:
 
-{% include _callout.html line="Always be ready to follow up
+{% include _callout.html text="Always be ready to follow up
     and pull on a thread." %}
 
 During the denouement, shortly before the wrap-up to the
@@ -516,7 +516,7 @@ during the interview process. A few guiding questions:
 During the wrap-up, keep recording because some gems usually
 do come out in this period.
 
-{% include _callout.html line="People make sense to
+{% include _callout.html text="People make sense to
     themselves. The job of a designer is to explain how
     things make sense to those people." %}
 
@@ -566,7 +566,7 @@ technologies accurately. As designers, our role is to design
 and build systems that customers will want, not what systems
 customers say they want.
 
-{% include _callout.html line="Steve Jobs: A lot of times,
+{% include _callout.html text="Steve Jobs: A lot of times,
     people don’t know what they want until you show it to
     them." %}
 
@@ -899,7 +899,7 @@ Good content. No notes taken.
 Tasks are about what a user wants to do, not how; they are
 goal-directed statements.
 
-{% include _callout.html line="A task is a structured set of
+{% include _callout.html text="A task is a structured set of
     activities or high-level actions required to achieve a
     high-level user goal." %}
 
@@ -1032,7 +1032,7 @@ required to render the intended purpose or concept. More so
 than eliminating details, we focus on specific details to
 amplify those features that are most important.
 
-{% include _callout.html line="Jobs: Focusing is about
+{% include _callout.html text="Jobs: Focusing is about
       saying no." %}
 
 Some parts of this lecture on design sketching borrow from
@@ -1132,7 +1132,7 @@ not be provided here.
 Storyboards start to tell the story of the system but still
 describe the design of the system.
 
-{% include _callout.html line="A prototype is a working
+{% include _callout.html text="A prototype is a working
 representation of a final artifact [CS 147]" %}
 
 Further notes will not be taken. [Duyne 2006] describes much
@@ -1205,7 +1205,7 @@ and style.
 Related information should be grouped together in closer
 distance.
 
-{% include _callout.html line="Only make things different if
+{% include _callout.html text="Only make things different if
 you are trying to call attention to the difference!" %}
 
 Small multiples of the same object can vary in one dimension
@@ -1587,7 +1587,7 @@ phones, etc. The book includes design guidelines.
 
 This is also called a mental model. 
 
-{% include _callout.html line="A mental representation of
+{% include _callout.html text="A mental representation of
 how an artifact works & how the interface controls affect
 it." %}
 

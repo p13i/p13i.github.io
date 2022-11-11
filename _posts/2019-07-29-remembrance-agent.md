@@ -37,6 +37,7 @@ downloads:
   url: https://github.com/remembrance-agent/remembrance-agent-desktop/releases/download/v1.0.1/ra-desktop-v1.0.1-macos-dmg.zip
 - name: "\U0001F4BB Windows .exe desktop application (v1.0.1)"
   url: https://github.com/remembrance-agent/remembrance-agent-desktop/releases/download/v1.0.1/ra-desktop-v1.0.1-windows-exe.zip
+featured: true
 ---
 
 # Remembrance Agents

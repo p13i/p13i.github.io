@@ -12,6 +12,7 @@ description: An evolving catalog of what I’ve learned in
   interaction.
 layout: post
 image: "https://user-images.githubusercontent.com/13140065/178389106-b692c4f3-e02b-4af1-9a11-ad2df40b65a1.jpg"
+featured: true
 ---
 
 # Introduction

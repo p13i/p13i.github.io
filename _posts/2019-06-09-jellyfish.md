@@ -27,6 +27,7 @@ downloads:
 columns: 3
 image: "https://user-images.githubusercontent.com/13140065/178388947-a59bbe42-bdf5-4b21-b1e8-0ccaef3cab1b.png"
 default_image_fullwidth: true
+featured: true
 ---
 
 This is definitely my best render to date. I learned a ton

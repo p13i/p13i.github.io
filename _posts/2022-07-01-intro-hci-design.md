@@ -215,10 +215,10 @@ evaluation (heuristic evaluation).
 
 ### Adams 2013, 4 Steps to Successful Brainstorming
 
-{% include _single_download.html
-  name="📜 PDF from Medium.com (355 KB)"
+{% include _single_download.html name="📜 PDF from
+  Medium.com (355 KB)"
   url="https://github.com/p13i/p13i.github.io/files/9894489/Adams.2013.4.Steps.to.Successful.Brainstorming.pdf"
-%}
+  %}
 
 Adams found that most corporate executives put the cart
 before the horse: “Instead of parsing the objectives they
@@ -329,7 +329,7 @@ Landay discusses in detail in lecture.
   url="https://drive.google.com/open?id=11hAc2-WbbzkHQ6upZel1MtLnEhqwWFuU"
 %}
 
-## Lecture
+## Lecture 1B on Jan 5th, 2022 - *design discovery*
 
 {% include _single_download.html
   name="📖 Designing for People, Dreyfuss 1955, Google Books"
@@ -387,8 +387,9 @@ to the mindset amongst its practitioners to **_discover
 what’s interesting_** without bringing in agendas,
 objectives, or (worse) solutions to a user. Therefore:
 
-
-#### Needfinding is discovering opportunities by recognizing gaps or needs with a system. 
+{% include _callout.html line="Needfinding is discovering
+    opportunities by recognizing gaps or needs with a
+    system." %}
 
 [Universal Principles of Design, p. 76] describes such a gap
 or need as a ‘desire line,’ or _“traces of use or wear that
@@ -407,16 +408,13 @@ they are doing. Further, we want to move from cataloging
 observing actions to inferring (and confirming!) the users’
 feelings, i.e., empathizing.
 
-
-{% include _callout.html
-    line="Engage users in their environment!" %}
-
+{% include _callout.html line="Engage users in their
+environment!" %}
 
 Imagine you are trying to better understand the eating
 habits of a family. In addition to speaking with family
 members, ask to get into their cupboard, ask to see grocery
 receipts. Get nosy!
-
 
 ### Needfinding Interviews
 
@@ -441,8 +439,7 @@ environment. Video calls, phone calls, text conversations,
 and surveys are progressively impersonal ways to interview
 individuals.
 
-
-#### Follow the emotion!
+{% include _callout.html line="Follow the emotion!" %}
 
 It is advisable to see an interview as sharing the same
 basic structure as a story. Namely that there is an
@@ -455,8 +452,8 @@ will evoke stories that bring out emotion in the interview
 participant. (We prefer to use the word **participant** over
 the term **subject** when working with humans.)
 
-Image: The structure of an interview closely follows that of
-a story told in prose, film, etc.
+*Image: The structure of an interview closely follows that
+of a story told in prose, film, etc.*
 
 <img src="images/image1.png" width="" alt="alt_text" title="image_tooltip">
 
@@ -502,7 +499,8 @@ questions in the vernacular and language that your
 participants use and understand. Ask for examples. Be
 flexible:
 
-#### Always be ready to follow up and pull on a thread.
+{% include _callout.html line="Always be ready to follow up
+    and pull on a thread." %}
 
 During the denouement, shortly before the wrap-up to the
 interview, **reflect** on salient patterns and interesting
@@ -521,7 +519,9 @@ during the interview process. A few guiding questions:
 During the wrap-up, keep recording because some gems usually
 do come out in this period.
 
-#### People make sense to themselves. The job of a designer is to explain how things make sense to those people.
+{% include _callout.html line="People make sense to
+    themselves. The job of a designer is to explain how
+    things make sense to those people." %}
 
 When choosing participants, we want to be representative of
 target users. We also want to interview people on both sides
@@ -569,7 +569,9 @@ technologies accurately. As designers, our role is to design
 and build systems that customers will want, not what systems
 customers say they want.
 
-#### “A lot of times, people don’t know what they want until you show it to them.” [Jobs]
+{% include _callout.html line="Steve Jobs: A lot of times,
+    people don’t know what they want until you show it to
+    them." %}
 
 With the design thinking process, we can get stuck observing
 our target community forever without prototyping. As such,
@@ -579,7 +581,7 @@ users.
 
 # Define
 
-## Lecture on 
+## Lecture 2A on Jan 10th, 2022
 
 Items “above the fold” are immediately visible to the user
 on a website and should highlight the most important
@@ -633,12 +635,12 @@ A second example of a good POV:
 
 * **We met** Joel, a guy in his 20s with a good job and a
   new apartment.
-* **We were surprised to notice **that he worried his taste
+* **We were surprised to notice** that he worried his taste
   was unrefined when the pieces he liked didn’t align with
   the more expensive prices.
-* **We wonder if this means **that Joel views art as fashion
-  on the wall: it’s about what his friends are going to
-  think about his taste.
+* **We wonder** if this means **that Joel views art as
+  fashion on the wall: it’s about what his friends are going
+  to think about his taste.
 * **It would be game-changing to** help buyers to cut
   through the paralysis of doubt.
 
@@ -652,7 +654,9 @@ ideas without judgment. (See
 [Ideate](#heading=h.udv2sgs34ck9).) At this stage of
 **_Define_** we are still not focused on one solution. 
 
-###### Image: Empathy maps include observations from what participants say and do, and move to inferences of what participants think or feel.
+*Image: Empathy maps include observations from what
+participants say and do, and move to inferences of what
+participants think or feel.*
 
 <img src="images/image2.png" width="" alt="alt_text"
 title="image_tooltip">
@@ -682,7 +686,9 @@ Evaluating a POV is done on four dimensions:
    emotional and flows logically from what you learned?
 4. Does your POV help you generate many ideas immediately?
 
-###### Image: Evaluating POV statements’ quality. Various quality of POV statements.
+*Image: Evaluating POV statements’ quality. Various quality
+of POV statements.*
+
 <img src="images/image3.png" width="" alt="alt_text"
       title="image_tooltip"> <img src="images/image4.png"
 width="" alt="alt_text" title="image_tooltip"> <img
@@ -694,7 +700,11 @@ width="" alt="alt_text" title="image_tooltip"> <img
 
 ## Pre-lecture readings
 
-### 
+### Eisenmann, Early Customer Research
+
+{% include _single_download.html name="📄 Eisenmann, Early
+    Customer Research.pdf (555 kb)"
+    url="https://github.com/p13i/p13i.github.io/files/9986563/Eisenmann.Early.Customer.Research.pdf"%}
 
 The goal of early customer research is to confirm that we
 have found a problem worth solving before investing the
@@ -752,12 +762,13 @@ Note: There’s a lot more content in this presentation PDF
 about how to develop interview questions, different forms of
 quantitative vs. qualitative research methods, how to
 conduct an interview, etc. Many of the themes are similar to
-but Stok’s presentation has a lot more detail and examples.
-Stok discusses survey structures (p. 27),
-comparative/competitive analysis, user testing of
+*Beyer, Contextual Design - Defining Customer-Centered
+Systems.pk.pdf* but Stok’s presentation has a lot more
+detail and examples. Stok discusses survey structures (p.
+27), comparative/competitive analysis, user testing of
 competitors’ offerings, and developing user personas.
 
-## Lecture on : Ideation
+## Lecture 2B on Jan 12th - *Ideation*
 
 ### Review on unpacking data into POV statements
 
@@ -891,7 +902,9 @@ Good content. No notes taken.
 Tasks are about what a user wants to do, not how; they are
 goal-directed statements.
 
-#### A task is a structured set of activities or high-level actions required to achieve a high-level user goal.
+{% include _callout.html line="A task is a structured set of
+    activities or high-level actions required to achieve a
+    high-level user goal." %}
 
 Task-based design focuses on real tasks customers have faced
 or will face that support the problem we are trying to
@@ -1022,7 +1035,8 @@ required to render the intended purpose or concept. More so
 than eliminating details, we focus on specific details to
 amplify those features that are most important.
 
-#### “Focusing is about saying no.” [Jobs]
+{% include _callout.html line="Jobs: Focusing is about
+      saying no." %}
 
 Some parts of this lecture on design sketching borrow from
 Buxton’s reading. Notes on this material will not be taken
@@ -1121,7 +1135,8 @@ not be provided here.
 Storyboards start to tell the story of the system but still
 describe the design of the system.
 
-#### A prototype is a working representation of a final artifact [CS 147]
+{% include _callout.html line="A prototype is a working
+representation of a final artifact [CS 147]" %}
 
 Further notes will not be taken. [Duyne 2006] describes much
 of the material of this lecture, and Pramod knows this stuff
@@ -1193,7 +1208,8 @@ and style.
 Related information should be grouped together in closer
 distance.
 
-#### Only make things different if you are trying to call attention to the difference!
+{% include _callout.html line="Only make things different if
+you are trying to call attention to the difference!" %}
 
 Small multiples of the same object can vary in one dimension
 (say color) to highlight differences. 
@@ -1430,7 +1446,7 @@ Other tidbits:
 * Bauhaus Typography at 100: A Letterform Archive Exhibition
   until April 27 in San Francisco.
 
-# Human Abilities**
+# Human Abilities
 
 # Heuristic Evaluation
 
@@ -1514,7 +1530,6 @@ broad set of contexts. (See
 [Listing: Examples of values in
 design](#heading=h.yqrtvv7eyt04))
 
-
 <img src="images/image15.png" width="" alt="alt_text"
 title="image_tooltip">
 
@@ -1575,7 +1590,9 @@ phones, etc. The book includes design guidelines.
 
 This is also called a mental model. 
 
-#### A mental representation of how an artifact works & how the interface controls affect it. 
+{% include _callout.html line="A mental representation of
+how an artifact works & how the interface controls affect
+it." %}
 
 People may have preconceived models that are hard to change.
 E.g. “(4 + 5)” vs. “(4 5 +)”, dragging items to the trash,
@@ -1598,7 +1615,9 @@ Poorly-designed objects have no clues, weak clues, or
 misleading clues. Signs are indications that a UI isn’t
 communicating how to operate the interface.
 
-###### In Hipstamatic, adding a rectangle angle and contrast improves the usability significantly.
+
+###### Image: In Hipstamatic, adding a rectangle angle and contrast improves the usability significantly.
+
 <img src="images/image18.png" width="" alt="alt_text"
 title="image_tooltip">
 
@@ -1690,7 +1709,7 @@ Avoid a metaphor for metaphor’s sake. Skeuomorphism is
 physical ornament or design on an object made to resemble
 another material or technique.
 
-###### Apple iBooks2 looked like a wood bookshelf with books inside.
+###### Image: Apple iBooks2 looked like a wood bookshelf with books inside.
 
 <img src="images/image24.png" width="" alt="alt_text"
 title="image_tooltip">
@@ -1705,7 +1724,6 @@ skeuomorphisms until they are learned by the users.
 However, metaphors can become dated.
 
 ###### Image: The iPhone's phone icon resembles an older-style phone. The iPad Podcasts app included the tape metaphor most people didn’t understand.
-
 
 <img src="images/image25.png" width="" alt="alt_text"
 title="image_tooltip">
@@ -1861,7 +1879,7 @@ Between groups, within groups.
 
 ![alt_text](images/image28.png "image_tooltip")
 
-# Appendix: Experience Prototyping on  by Kristina
+# Appendix: Experience Prototyping by Kristina
 
 We want to focus on assumptions that are unknown to be true
 and are vital for the user experience. These are the
@@ -1878,9 +1896,9 @@ controlled study where one variable may be manipulated for
 the participant. Future development is guided by insights
 from experience prototypes.
 
-# Appendix: Accessibility Workshop on  by Jianna
+# Appendix: Accessibility Workshop by Jianna
 
-Social Model of Disability
+*Social Model of Disability*
 
 Ableism is a system of oppression that favors being
 able-bodies/able-minded, frequently at the expense of people

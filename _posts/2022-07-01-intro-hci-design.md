@@ -124,13 +124,9 @@ mode ripe for multi-modal interactions involving more than
 one interaction mode (e.g., voice with a screen output,
 gestures to a voice output).
 
-![Tesla
-Autopilot](https://user-images.githubusercontent.com/13140065/180309680-ac8c1250-c611-4c16-9f0e-e31c61ae37c4.jpg)
-
-<center>
-(Image: [Roberto Nickson,
-Unsplash](https://unsplash.com/photos/Ddjl0Cicdr4))
-</center>
+{% include _post_image.html 
+  src="https://user-images.githubusercontent.com/13140065/180309680-ac8c1250-c611-4c16-9f0e-e31c61ae37c4.jpg" 
+  text="Image: [Roberto Nickson, Unsplash](https://unsplash.com/photos/Ddjl0Cicdr4)" %}
 
 Smart speakers use a voice UI but do not provide a natural
 interaction with context and knowledge about the user. In
@@ -157,8 +153,9 @@ The **Design Thinking** process is outlined to the right.
 Beyond a seemingly-linear process, there are loops or steps
 back in this process. 
 
-![Five stage design thinking
-process](https://user-images.githubusercontent.com/13140065/198849919-f4e708f5-cdd1-4ae1-aa84-c2fd17f1da9f.png)
+{% include _post_image.html
+  src="https://user-images.githubusercontent.com/13140065/198849919-f4e708f5-cdd1-4ae1-aa84-c2fd17f1da9f.png"
+  text="Five stage design thinking process" %}
 
 User experience goals include: 
 
@@ -315,9 +312,9 @@ Four principles guide contextual inquiry:
    behavior does make sense. Admit your ignorance, and
    always assume there is more to be learned.
 
-> If you think it’s for no reason, you don’t yet understand
-> the point of view from which it makes sense. [Beyer,
-> Contextual Design, p. 63]
+{% include _callout.html text="If you think it’s for no
+reason, you don’t yet understand the point of view from
+which it makes sense. [Beyer, Contextual Design, p. 63]"%}
 
 Beyer outlines a structure for contextual interviews that
 Landay discusses in detail in lecture.

@@ -13,8 +13,9 @@ layout: compress
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-
-    <title>Pramod Kotipalli</title>
+    <title>
+      {% if page.title %} {{ page.title }}&nbsp;|&nbsp;{% endif %}Pramod Kotipalli
+    </title>
 
     {% include _stylesheets.html %}
 
@@ -27,17 +28,11 @@ layout: compress
       style="
         height: 1em;
         background: url('{{ site.data.images.header.src }}')
-          no-repeat center top;
-      "
-    ></div>
-
+          no-repeat center top;"></div>
     {% include _navbar.html %}
-
     <div class="container content">
       {{ content }}
     </div>
-
     {% include _javascripts.html %}
-
   </body>
 </html>

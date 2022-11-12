@@ -47,8 +47,8 @@ assistants.
 The PDF screen-grab of the syllabus for this course is
 available here: 
 
-{% include _single_download.html name="🗓 CS 147 (Winter
-    2022) Calendar (3.1 MB)"
+{% include _single_download.html 
+    name="🗓 CS 147 (Winter 2022) Calendar (3.1 MB)"
     url="https://github.com/p13i/p13i.github.io/files/9128690/cs147-2022-wi-calendar.pdf"%}
 
 These course notes will consist of `10` major sections based
@@ -653,12 +653,9 @@ ideas without judgment. (See
 [Ideate](#heading=h.udv2sgs34ck9).) At this stage of
 **_Define_** we are still not focused on one solution. 
 
-*Image: Empathy maps include observations from what
+<!-- *Image: Empathy maps include observations from what
 participants say and do, and move to inferences of what
-participants think or feel.*
-
-<img src="images/image2.png" width="" alt="alt_text"
-title="image_tooltip">
+participants think or feel.* -->
 
 Point of views are synthesized from user attributes,
 surprises, needs, and insights. A good POV has a few
@@ -685,15 +682,14 @@ Evaluating a POV is done on four dimensions:
    emotional and flows logically from what you learned?
 4. Does your POV help you generate many ideas immediately?
 
-*Image: Evaluating POV statements’ quality. Various quality
-of POV statements.*
-
+<!-- TODO *Image: Evaluating POV statements’ quality. 
+Various quality of POV statements.*
 <img src="images/image3.png" width="" alt="alt_text"
       title="image_tooltip"> <img src="images/image4.png"
 width="" alt="alt_text" title="image_tooltip"> <img
          src="images/image5.png" width="" alt="alt_text"
          title="image_tooltip"> <img src="images/image6.png"
-         width="" alt="alt_text" title="image_tooltip">
+         width="" alt="alt_text" title="image_tooltip"> -->
 
 # Ideate
 
@@ -701,8 +697,8 @@ width="" alt="alt_text" title="image_tooltip"> <img
 
 ### Eisenmann, Early Customer Research
 
-{% include _single_download.html name="📄 Eisenmann, Early
-    Customer Research.pdf (555 kb)"
+{% include _single_download.html 
+    name="📄 Eisenmann, Early Customer Research.pdf (555 kb)"
     url="https://github.com/p13i/p13i.github.io/files/9986563/Eisenmann.Early.Customer.Research.pdf"%}
 
 The goal of early customer research is to confirm that we
@@ -821,7 +817,6 @@ instead of an open exploration.
   helping families [broad audience] have a better travel
   experience [broad enough goal for ideation]. 
 
-
 “How might we” (HMW) statements for this POV can include
 (see , p. 29), inspired by **_generators_**: 
 
@@ -890,11 +885,14 @@ a needfinding technique to test one assumption.
 
 ## Pre-lecture materials
 
-### [Levin, Design critiques at Figma, Figma.com](https://www.figma.com/blog/design-critiques-at-figma/)
+{% include _single_download.html
+  name="🌐 Levin, Design critiques at Figma, Figma.com"
+  url="https://www.figma.com/blog/design-critiques-at-figma/"
+%}
 
 Good content. No notes taken.
 
-## Lecture on 
+## Lecture 3B on Jan 19, 2022
 
 ### Tasks
 
@@ -993,7 +991,9 @@ roles (people involved), scenes (context of use), and props
 
 ## Pre-lecture readings
 
-### 
+{% include _single_download.html
+  name="📄 Buxton, Sketching the User Experience on my Google Drive"
+  url="https://drive.google.com/file/d/1G9BDQ3-LbLBlBE7ERDXug2idpGPxoqLZ/view" %}
 
 Most of Buxton’s discussion is about the iterative,
 convergent/divergent nature of the design process. Many of
@@ -1003,10 +1003,10 @@ notes here.
 
 ###### Image: Buxton’s definition of design
 
-<img src="images/image7.png" width="" alt="alt_text"
-title="image_tooltip">
+<!-- TODO <img src="images/image7.png" width="" alt="alt_text"
+title="image_tooltip"> -->
 
-## Lecture on 
+## Lecture 4A on Jan 24, 2022
 
 Exploring the design space of solutions following the
 concept video. Such exploration takes the form of
@@ -1034,8 +1034,8 @@ required to render the intended purpose or concept. More so
 than eliminating details, we focus on specific details to
 amplify those features that are most important.
 
-{% include _callout.html text="Jobs: Focusing is about
-      saying no." %}
+{% include _callout.html 
+    text="Jobs: Focusing is about saying no." %}
 
 Some parts of this lecture on design sketching borrow from
 Buxton’s reading. Notes on this material will not be taken
@@ -1124,12 +1124,14 @@ complementary frameworks exist in HCI to aid in these goals.
 
 ## Pre-lecture readings
 
-### 
+{% include _single_download.html 
+    name="📄 Duyne 2006, Involving Customers in Iterative Design.pdf on my Google Drive"
+    url="https://drive.google.com/file/d/1GPwYBLkxsKWYIeUdfa0uEUo0Jwqf1NiE/view"%}
 
 Discusses many of the topics covered in lecture. Notes will
 not be provided here.
 
-## Lecture on 
+## Lecture 4B on Jan 26, 2022
 
 Storyboards start to tell the story of the system but still
 describe the design of the system.
@@ -1170,23 +1172,25 @@ Expectation plays an important role in reading.
 
 Leading is the space under a line of text. It should
 generally be 20%.
+
 [[https://youtu.be/82gp_2vqLTc?t=162](https://youtu.be/82gp_2vqLTc?t=162)]
 
-## Lecture on 
+## Lecture 5B on Feb 2, 2022
 
+<!-- TODO 
 ###### Image: Hanging Chad problem on the Florida 2000 ballot. It’s redesign:
-
 <img src="images/image8.png" width="" alt="alt_text"
-title="image_tooltip">
+title="image_tooltip"> -->
 
 Further reading: Lidwell, Universal Principles of Design
 
 ### Good Form: visual hierarchy, layout, proximity, small multiples & space
 
+<!-- TODO
 ###### Images: Elements of visual design
 
 <img src="images/image9.png" width="" alt="alt_text"
-title="image_tooltip">
+title="image_tooltip"> -->
 
 Prioritize the most important information. Strong visual
 hierarchies can guide users into logical progressions by
@@ -1195,11 +1199,10 @@ showing what’s important.
 The _Gestalt Principles of Perception_ help us understand
 how to group information.
 
+<!-- TODO
 ###### Image: Common Gestalt principles in web design.
-
-
 <img src="images/image10.png" width="" alt="alt_text"
-title="image_tooltip">
+title="image_tooltip"> -->
 
 The first read is informed by size, color, layout, spacing,
 and style.
@@ -1213,13 +1216,14 @@ you are trying to call attention to the difference!" %}
 Small multiples of the same object can vary in one dimension
 (say color) to highlight differences. 
 
+<!-- TODO
 ###### Images: Use of visual changes in small multiples to highlight differences
 
 <img src="images/image11.png" width="" alt="alt_text"
 title="image_tooltip">
 
 <img src="images/image12.png" width="" alt="alt_text"
-title="image_tooltip">
+title="image_tooltip"> -->
 
 Whitespace should be treated as an object. More whitespace
 around a group implies that it is more important/valuable
@@ -1245,10 +1249,9 @@ Color harmonies are pleasing arrangements of colors.
 
 Minimize the number of colors used.
 
-###### Image: Color harmonies
-
+<!-- TODO ###### Image: Color harmonies
 <img src="images/image13.png" width="" alt="alt_text"
-title="image_tooltip">
+title="image_tooltip"> -->
 
 Complimentary colors provide extreme contrast and can be
 quite jarring and are bad for text. Analogous colors are
@@ -1278,14 +1281,12 @@ Other tidbits:
 
 # Designing the Future: Early and Future Visions of HCI
 
-## Lecture on 
+## Lecture 6A on Feb 7, 2022
 
 * The first read, above the fold 
 * Grouping from color gradients, and font sizes, on virgin
   america website
-
-![alt_text](images/image14.png)
-
+<!-- TODO ![alt_text](images/image14.png) -->
 * Buttons for plus and minus are small compared to the size
   of the box => Fitt’s Law about how fast you can hit
   targets on a UI
@@ -1316,8 +1317,6 @@ Other tidbits:
         * Photography and food aesthetic is good
         * Simple icons
         * whitespace shows what is important
-
-## Lecture
 
 * Why should I care?
     * We should know the history of the field and what’s
@@ -1449,7 +1448,7 @@ Other tidbits:
 
 # Heuristic Evaluation
 
-## Lecture on 
+## Lecture 7A on Feb 14, 2022
 
 Big Basket UI evaluation: hall of shame due to large ads and
 bad colors schemes
@@ -1484,7 +1483,7 @@ H1: Visibility of system status.
 H2: Match between system and the real world, use real world
 language and metaphors people will understand
 
-H3: ?
+H3: User control and freedom.
 
 H4: Consistency and standards, helped by design systems. Why
 mac was more usable than DOS
@@ -1494,7 +1493,7 @@ H5: Error prevention
 H6: Recognition rather than recall, e.g. parse it as you
 type it in
 
-H7: ?
+H7: Flexibility and efficiency of use
 
 H8: Aesthetic and minimalist design
 
@@ -1526,11 +1525,10 @@ values should not emerge when the user interacts with the
 product. Encoded values should match users’ values in a
 broad set of contexts. (See 
 
-[Listing: Examples of values in
-design](#heading=h.yqrtvv7eyt04))
+Listing: Examples of values in design
 
-<img src="images/image15.png" width="" alt="alt_text"
-title="image_tooltip">
+<!-- TODO <img src="images/image15.png" width="" alt="alt_text"
+title="image_tooltip"> -->
 
 * In consistent colors for text (red vs. black)
 * In consistent or extra spacing
@@ -1552,8 +1550,8 @@ Summary:
 
 Exercise:
 
-<img src="images/image16.png" width="" alt="alt_text"
-title="image_tooltip">
+<!-- <img src="images/image16.png" width="" alt="alt_text"
+title="image_tooltip"> -->
 
 * inconsistent colors
 * bad color contrasts
@@ -1565,14 +1563,14 @@ title="image_tooltip">
 * Bad font choice: I looks like J
 * recognition vs. recall for sending who you are texting
 
-<img src="images/image17.png" width="" alt="alt_text"
-title="image_tooltip">
+<!-- <img src="images/image17.png" width="" alt="alt_text"
+title="image_tooltip"> -->
 
 # Conceptual Models and Interface Metaphors
 
-## Lecture on 
+## Lecture 7B on Feb 16, 2022
 
-### Design of Everyday Things
+### *Design of Everyday Things*
 
 Don Norman is one of the most famous HCI people. Started the
 cognitive science group at UCSD. He worked at Apple, HP,
@@ -1615,10 +1613,10 @@ misleading clues. Signs are indications that a UI isn’t
 communicating how to operate the interface.
 
 
-###### Image: In Hipstamatic, adding a rectangle angle and contrast improves the usability significantly.
+<!-- ###### Image: In Hipstamatic, adding a rectangle angle and contrast improves the usability significantly.
 
 <img src="images/image18.png" width="" alt="alt_text"
-title="image_tooltip">
+title="image_tooltip"> -->
 
 Refrigerator example: solutions can be to (1) make the
 controls map to the customer’s model or (2) make controls
@@ -1652,7 +1650,7 @@ Making things more visible. If it’s not visible, people may
 get into a “mode error” (on a watch) or may not see all the
 functionality. 
 
-###### In older car radios, the number of controls equals the number of functions. Controls are labeled(?) and grouped together. In the Tesla, we get no haptic feedback (and some voice feedback) mostly requiring us to look at the screen while driving.
+<!-- ###### In older car radios, the number of controls equals the number of functions. Controls are labeled(?) and grouped together. In the Tesla, we get no haptic feedback (and some voice feedback) mostly requiring us to look at the screen while driving.
 
 <img src="images/image19.png" width="" alt="alt_text"
 title="image_tooltip">
@@ -1664,14 +1662,10 @@ title="image_tooltip">
 title="image_tooltip">
 
 <img src="images/image22.png" width="" alt="alt_text"
-title="image_tooltip">
+title="image_tooltip"> -->
 
 Map interface controls to the customer’s model. Controls
 should mirror the real-world.
-
-```
-
-```
 
 ### Interface metaphors
 
@@ -1688,10 +1682,9 @@ an attempt to simulate a real desktop but a way to explain
 why some windows overlapped. It leverages knowledge about
 files, folders, and trash.
 
-###### Image: From Englebart to Xerox PARC.
-
+<!-- ###### Image: From Englebart to Xerox PARC.
 <img src="images/image23.png" width="" alt="alt_text"
-title="image_tooltip">
+title="image_tooltip"> -->
 
 Example of metaphors include:
 
@@ -1708,10 +1701,10 @@ Avoid a metaphor for metaphor’s sake. Skeuomorphism is
 physical ornament or design on an object made to resemble
 another material or technique.
 
-###### Image: Apple iBooks2 looked like a wood bookshelf with books inside.
+<!-- ###### Image: Apple iBooks2 looked like a wood bookshelf with books inside.
 
 <img src="images/image24.png" width="" alt="alt_text"
-title="image_tooltip">
+title="image_tooltip"> -->
 
 The iPhone’s click-photo is an audio skeuomorphism.
 
@@ -1722,13 +1715,13 @@ skeuomorphisms until they are learned by the users.
 
 However, metaphors can become dated.
 
-###### Image: The iPhone's phone icon resembles an older-style phone. The iPad Podcasts app included the tape metaphor most people didn’t understand.
+<!-- ###### Image: The iPhone's phone icon resembles an older-style phone. The iPad Podcasts app included the tape metaphor most people didn’t understand.
 
 <img src="images/image25.png" width="" alt="alt_text"
 title="image_tooltip">
 
 <img src="images/image26.png" width="" alt="alt_text"
-title="image_tooltip">
+title="image_tooltip"> -->
 
 ## UI consistency
 
@@ -1750,16 +1743,7 @@ same place, better choices were reflected in the Palm UIs.
 Making for mobile may need more breaks from consistency.
 Consistency helps people learn the interface.
 
-# Midterm Review
-
-1. Review all lectures and readings
-2. Watch midterm prep video (one hour recording)
-3. Review all assignments, our submissions, and feedback
-   (important)
-4. Review Slack channel for hints as to content.
-5. Review my 2019 midterm.
-
-![alt_text](images/image27.png "image_tooltip")
+<!-- ![alt_text](images/image27.png "image_tooltip") -->
 
 # Usability Testing
 
@@ -1876,7 +1860,7 @@ slow down the interactions.
 Between groups, within groups.
  - apple hci guidelines
 
-![alt_text](images/image28.png "image_tooltip")
+<!-- ![alt_text](images/image28.png "image_tooltip") -->
 
 # Appendix: Experience Prototyping by Kristina
 
@@ -1884,10 +1868,10 @@ We want to focus on assumptions that are unknown to be true
 and are vital for the user experience. These are the
 critical assumptions to actually test with participants.
 
-###### Image: Two dimensions of choosing assumptions to test with experience prototypes
+<!-- ###### Image: Two dimensions of choosing assumptions to test with experience prototypes
 
 <img src="images/image29.png" width="" alt="alt_text"
-title="image_tooltip">
+title="image_tooltip"> -->
 
 Experience prototypes are made to test assumptions to guide
 future development. These tools are like running a

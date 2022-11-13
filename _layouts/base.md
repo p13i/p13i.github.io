@@ -14,7 +14,7 @@ layout: compress
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <title>
-      {% if page.title %} {{ page.title }}&nbsp;|&nbsp;{% endif %}Pramod Kotipalli
+      {% if page.title %}{{ page.title }}&nbsp;|&nbsp;{% endif %}Pramod Kotipalli
     </title>
 
     {% include _stylesheets.html %}

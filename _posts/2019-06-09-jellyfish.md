@@ -24,7 +24,6 @@ downloads:
   url: "https://drive.google.com/open?id=1Q_7Pam_uwsWqCJdrubYEKhIw_GUajxqD"
 - name: "\U0001F5BC️ Full (4096-by-4096, 4k - 18.2 MB)"
   url: "/assets/images/2019-06-09-jellyfish/downloads/jellyfish-full.jpg"
-columns: 3
 image: "https://user-images.githubusercontent.com/13140065/178388947-a59bbe42-bdf5-4b21-b1e8-0ccaef3cab1b.png"
 default_image_fullwidth: true
 featured: true

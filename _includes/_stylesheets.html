@@ -1,20 +1,6 @@
 <!-- Site-wide styles-->
 
-<style>
-    {% comment %}
-        Load the scss file using
-        the capture command
-    {% endcomment %}
-    {% capture inline_css %}
-        {% include inline.scss %}
-    {% endcapture %}
-
-    {% comment %}
-        Render the captured variable
-        through the SCSS compiler
-    {% endcomment %}
-    {{ inline_css | scssify }}
-</style>
+<link rel="stylesheet" href="/static/css/index.css">
 
 <!-- KaTeX: LaTeX typesetting for the web by Khan Academy -->
 <link rel="stylesheet" href="/static/katex-v0.11.1/katex.css">

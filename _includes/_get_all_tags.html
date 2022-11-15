@@ -12,18 +12,13 @@ Here we generate all the tags.
 {% assign category = include.category %}
 
 {% for post in site.posts %}
-
-    {% if post.categories contains category %}
-
+    {% if post.categories contains category or category == nil %}
         {% comment %}
         Append the tags from this post
         {% endcomment %}
-        
         {% assign ttags = post.tags | join:'|' | append:'|' %}
         {% assign rawtags = rawtags | append:ttags %}
-
     {% endif %}
-
 {% endfor %}
 
 {% assign rawtags = rawtags | split:'|' | sort %}
@@ -31,17 +26,12 @@ Here we generate all the tags.
 
 {% for tag in rawtags %}
     {% if tags == "" %}
-    
         {% assign tags = tag %}
-
     {% else %}
-
         {% unless tags contains tag %}
             {% assign tags = tags | append:'|' | append:tag %}
         {% endunless %}
-    
     {% endif %}
-    
 {% endfor %}
 
 {% assign tags = tags | split:'|' %}

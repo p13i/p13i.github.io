@@ -1,5 +1,5 @@
 ---
-title: "Course Notes: Intro to HCI & Design Thinking 
+title: "Course Notes: Intro HCI & Design Thinking 
 (Stanford CS 147)"
 categories:
 - writing
@@ -1928,8 +1928,3 @@ VoiceOver design principles:
 4. Implement actions on interactable elements
 5. Add accessibility “hints” to clarify and describe
    element’s role
-
-# Appendix: Notes on Landay’s Pedagogy
-
-* Landay morphs students’ answers into the point he is
-  trying to make

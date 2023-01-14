@@ -10,11 +10,11 @@ layout: base
   </div>
   <div class="col-12 col-md-4 col-lg-3">
     <div class="row">
-      <div class="col-12">
+      <div class="col-md-12 col-sm-4 col-4">
         <img src="{{ site.data.images.headshot.src }}" width="100%" />
       </div>
-      <div class="col-12">
-        <hr />
+      <div class="col-md-12 col-sm-8 col-8">
+        <div class="d-sm-none d-none d-md-inline"><hr /></div>
         {{ content }}
       </div>
       <div class="col-12">

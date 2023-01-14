@@ -1,12 +1,13 @@
 <div class="card mb-3">
     <div class="row g-0">
-        <div class="col-12 col-md-4 col-lg-3">
+        <div class="col-3">
             <img src="{{ site.data.images.loading.src }}"
                 data-src="{{ post.image }}" 
                 alt="{{ post.title }}"
-                class="lazyload img-fluid rounded-start">  
+                class="lazyload img-fluid rounded-start ml-3 mr-3 mt-3 mb-3"
+                width="100%">  
         </div>
-        <div class="col-12 col-md-8 col-lg-9">
+        <div class="col-9">
         <div class="card-body">
             <h5 class="card-title">{{ post.title }}</h5>
             <p class="card-text">{{ post.description | truncate: 120 }}</p>

@@ -1,6 +1,6 @@
 FROM ruby:2.4
 
-RUN gem install bundler
+RUN gem install bundler -v 2.3.26
 
 WORKDIR /www
 

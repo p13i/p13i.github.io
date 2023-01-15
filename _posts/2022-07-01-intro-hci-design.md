@@ -913,11 +913,16 @@ Focus on what a customer wants to do, but not how to do it,
 which allows for comparison of different design alternatives
 (i.e., different implementations to support the task). A bad
 example of a task is actually a task flow (a particular way
-of achieving a goal with a particular interface): 
+of achieving a goal with a particular interface).
 
-###### Example: A task flow, i.e. a <strong>bad task</strong>
-
-###### “Tony clicks on the Charing Cross Pub icon and selects “directions to” as he walks down the street.”
+<div class="card mb-3">
+  <div class="card-header">
+    Example of a task flow, i.e. a <strong>bad task</strong>
+  </div>
+  <div class="card-body">
+    <p class="card-text">Tony clicks on the Charing Cross Pub icon and selects “directions to” as he walks down the street.</p>
+  </div>
+</div>
 
 Tasks should be specific. These stories should be rooted in
 facts, stating the customers (from POVs) and their
@@ -926,33 +931,64 @@ should describe a complete goal which forces us to think
 about how features work together to support the tasks (e.g.,
 phone-in bank functions).
 
-###### Example: A task<strong>Task title</strong>: Let my friends know where I am
-
-**Task description**: Manny is in the city at a club that he
-wasn’t planning to go to and would like to let his
-girlfriend, Sherry, know where he is and be notified when
-she is about to get to the club.
+<div class="card mb-3">
+  <div class="card-header">
+Example of a strong task
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Let my friends know where I am</h5>
+    <p class="card-text">
+Manny is in the city at a club that he wasn’t planning to go
+to and would like to let his girlfriend, Sherry, know where
+he is and be notified when she is about to get to the club.
+    </p>
+  </div>
+</div>
 
 Tasks are described as **users and their goals**, not
 details of the system. From simple to complex, the
-_frequency, density, and pain_ (see 
+_frequency, density, and pain_ (see [Selecting good problems
+& solutions](#heading=h.5f0scbfwd3k8)).
 
-[Selecting good problems &
-solutions](#heading=h.5f0scbfwd3k8)).
-
-###### Example: Tasks for Lyft<strong>Simple</strong>: Signaling for a ride
-
-**Moderate**: Contacting drive to pick up a forgotten item
-**Complex**: Become a driver for Lyft
+<div class="card mb-3">
+  <div class="card-header">
+Example tasks for Lyft
+  </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">
+<em>Simple</em>: Signaling for a ride
+      </li>
+      <li class="list-group-item">
+<em>Moderate</em>: Contacting drive to pick up a forgotten item
+      </li>
+      <li class="list-group-item">
+<em>Complex</em>: Become a driver for Lyft
+      </li>
+    </ul>
+</div>
 
 Token (a former project in CS 147), laid out their
-_representative tasks_ as: 
+_representative tasks_ as:
 
-###### Example: Good tasks for Token<strong>Personal memorie</strong>s: Create and share personal photos and videos.
-
-**Shared experiences**: View content shared by your friends.
-**Location discovery**: Engage with a location through
+<div class="card mb-3">
+  <div class="card-header">
+Good tasks for Token
+  </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">
+<em>Personal memories</em>: Create and share personal photos
+and videos.
+      </li>
+      <li class="list-group-item">
+<em>Shared experiences</em>: View content shared by your
+friends.
+      </li>
+      <li class="list-group-item">
+<em>Location discovery</em>: Engage with a location through
 public content.
+      </li>
+    </ul>
+</div>
 
 Such tasks help us sketch out an interface design. In the
 process, we can remove or add UI elements that specifically

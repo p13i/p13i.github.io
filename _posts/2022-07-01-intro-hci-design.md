@@ -454,6 +454,10 @@ the term **subject** when working with humans.)
 *Image: The structure of an interview closely follows that
 of a story told in prose, film, etc.*
 
+{% include _post_image.html
+  src="https://user-images.githubusercontent.com/13140065/221075420-f1ebcb0a-8a1a-4362-8ac6-aa32790da0ea.png"
+  text="Structure of a story as well as needfinding interviews" %}
+  
 <img src="images/image1.png" width="" alt="alt_text" title="image_tooltip">
 
 An introduction of the researcher as well as background

@@ -7,8 +7,8 @@ layout: post
 description: "A cute implementation of mergesort in C"
 image: "https://user-images.githubusercontent.com/13140065/169116098-56d65621-69f3-4507-82e4-aaefe55986c9.png"
 downloads:
-- name: "GitHub source"
-  url: "https://p13i-p13i-github-io-5v7rq664c7r7v-4000.githubpreview.dev/posts/2022/02/mergesort/"
+- name: "💻 GitHub source"
+  url: https://github.com/p13i/mergesort-c/blob/main/main.c#L27
 ---
 
 In preparation for technical interviews, I implemented

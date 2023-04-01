@@ -15,10 +15,6 @@ downloads:
   url: "https://github.com/p13i/p13i.github.io/files/8147621/copilot-ai-executive-summary.pdf"
 ---
 
-![]({{ page.image }})
-
----
-
 This was a business I pursued (mostly independently) from
 2018 through 2019.
 
@@ -43,4 +39,4 @@ amount. Plus robotics is getting pretty dang good and
 workers are increasingly demanding better working conditions
 (both of which are great!).
 
-This work was based on our ISWC 2018 paper.
+This work was based, in part, on our [ISWC 2018 paper](/portfolio/rf-pick).

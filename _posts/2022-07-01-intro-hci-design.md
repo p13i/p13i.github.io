@@ -74,13 +74,14 @@ ten week Stanford quarter.
 
 Let's get into it!
 
-# Introduction to HCI and a Techno-Realist Vision
+# Intro to HCI & a Techno-Realist Vision
 
-## Pre-Lecture Readings
+## What it means to innovate responsibly
 
-### [Stewart 2021] *From techno-optimism to techno-realism: What it means to innovate responsibly*
+Based on Margaret Gould Stewart's "*From techno-optimism to
+techno-realism: What it means to innovate responsibly*".
 
-{% include _single_download.html name="📜 PDF from
+{% include _single_download.html name="📜 [Stewart 2021] PDF from
     Medium.com (363 KB)"
     url="https://github.com/p13i/p13i.github.io/files/9128997/Stewart.2021.From.techno-optimism.to.techno-realism.-.what.it.means.to.innovate.responsibly.pdf"%}
 
@@ -116,9 +117,7 @@ biases, and improve the condition of others, technologies
 need to expand their scope of professional responsibility,
 as a *digital urban planner* of sorts.
 
-## Lecture 1A
-
-### AI & User experience design
+## AI & User experience design
 
 Tesla’s autopilot feature requires UX design. The
 touchscreen requires your full attention to operate it, a
@@ -136,7 +135,7 @@ general, what should we show to a user? Who are other
 stakeholders and what should they see from an AI system. Are
 there design patterns to support smart UIs?
 
-### Balancing design thinking & technology
+## Balancing design thinking & technology
 
 A balance between human-centered approaches and technical
 approaches in CS/engineering. Design involves:
@@ -149,7 +148,7 @@ motor abilities, etc.
 might bring to them. This synthesis takes context in
 organizational and societal issues.
 
-### Design discovery and exploring ideas 
+## Design discovery and exploring ideas 
 
 The **Design Thinking** process is outlined to the right.
 Beyond a seemingly-linear process, there are loops or steps
@@ -210,12 +209,13 @@ evaluation (heuristic evaluation).
 
 # Design Discovery
 
-## Pre-Lecture Readings
+## Successful Brainstorming
 
-### Adams 2013, 4 Steps to Successful Brainstorming
+Based on Susan Adams's "*4 Steps to Successful
+Brainstorming*" [Adams 2013].
 
-{% include _single_download.html name="📜 PDF from
-  Medium.com (355 KB)"
+{% include _single_download.html name="📜 [Adams 2013] PDF
+  from Medium.com (355 KB)"
   url="https://github.com/p13i/p13i.github.io/files/9894489/Adams.2013.4.Steps.to.Successful.Brainstorming.pdf"
   %}
 
@@ -242,10 +242,12 @@ exclusion of other goals for the team.
 objectives, problem statements, and individual solutions to
 facilitate a more productive brainstorming session.
 
-### Beyer, *Contextual Design - Defining Customer-Centered Systems*
+## Beyer, *Contextual Design - Defining Customer-Centered Systems*
 
-{% include _single_download.html
-  name="📜 PDF on my Google Drive"
+Based on Hugh Beyer and Karen Holtzblatt's *Contextual Design - Defining Customer-Centered Systems*.
+
+{% include _single_download.html name="📜 [Beyer and
+  Holtzblatt] PDF on my Google Drive (request access)"
   url="https://drive.google.com/open?id=1bif2O_v-Q2MoPpNenZ7zosDeh52LLGE7"%}
 
 Contextual inquiry is all about going to where the customer
@@ -321,14 +323,18 @@ which it makes sense. [Beyer, Contextual Design, p. 63]"%}
 Beyer outlines a structure for contextual interviews that
 Landay discusses in detail in lecture.
 
-### Stanford d.school, *Empathy Fieldguide*
+## Stanford d.school's *Empathy Fieldguide*
 
-{% include _single_download.html
-  name="📜 PDF on my Google Drive"
+This PDF is a comprehensive book detailing how to get out
+there and talk to people to ground product development and
+design.
+
+{% include _single_download.html name="📜 [Stanford] - PDF
+  on my Google Drive (request access)"
   url="https://drive.google.com/open?id=11hAc2-WbbzkHQ6upZel1MtLnEhqwWFuU"
 %}
 
-## Lecture 1B on Jan 5th, 2022 - *design discovery*
+## Design Discovery
 
 {% include _single_download.html
   name="📖 Designing for People, Dreyfuss 1955, Google Books"
@@ -455,10 +461,9 @@ the term **subject** when working with humans.)
 of a story told in prose, film, etc.*
 
 {% include _post_image.html
-  src="https://user-images.githubusercontent.com/13140065/221075420-f1ebcb0a-8a1a-4362-8ac6-aa32790da0ea.png"
-  text="Structure of a story as well as needfinding interviews" %}
-  
-<img src="images/image1.png" width="" alt="alt_text" title="image_tooltip">
+  src="https://user-images.githubusercontent.com/13140065/229276025-9eda8502-324e-4c70-b870-47bef2ce4468.png"
+  text="Structure of a story as well as needfinding
+  interviews" %}
 
 An introduction of the researcher as well as background
 information about the interview and study are important to
@@ -584,8 +589,6 @@ users.
 
 # Define
 
-## Lecture 2A on Jan 10th, 2022
-
 Items “above the fold” are immediately visible to the user
 on a website and should highlight the most important
 information for the “first read.” Alignment and white space
@@ -652,10 +655,9 @@ finding relations between groups. Post-Its on large surfaces
 work well. Empathy maps are another technique.
 
 The “yes and...” technique from improv helps generate new
-ideas without judgment. (See 
-
-[Ideate](#heading=h.udv2sgs34ck9).) At this stage of
-**_Define_** we are still not focused on one solution. 
+ideas without judgment. (See [Ideate](#ideate).) At this
+stage of **_Define_** we are still not focused on one
+solution. 
 
 <!-- *Image: Empathy maps include observations from what
 participants say and do, and move to inferences of what
@@ -697,9 +699,7 @@ width="" alt="alt_text" title="image_tooltip"> <img
 
 # Ideate
 
-## Pre-lecture readings
-
-### Eisenmann, Early Customer Research
+## Eisenmann, Early Customer Research
 
 {% include _single_download.html 
     name="📄 Eisenmann, Early Customer Research.pdf (555 kb)"
@@ -767,9 +767,8 @@ detail and examples. Stok discusses survey structures (p.
 27), comparative/competitive analysis, user testing of
 competitors’ offerings, and developing user personas.
 
-## Lecture 2B on Jan 12th - *Ideation*
 
-### Review on unpacking data into POV statements
+## Review on unpacking data into POV statements
 
 ###### Example: Really good POV statement. [Brackets] are my notes.
 
@@ -790,14 +789,14 @@ competitors’ offerings, and developing user personas.
   make her feel self-conscious [counters negative feeling
   from above].
 
-### Ideate
+## Ideate
 
 Ideation is about building innovation potential via
 brainstorming. We separate the idea generation process from
 the evaluation process because pre-maturely judging ideas
 can limit the creativity in a brainstorming session.
 
-### How Might We...?
+## How Might We...?
 
 Versus “can we” or “should we” we start with judgment,
 instead of an open exploration.
@@ -845,7 +844,7 @@ instead of an open exploration.
 A strong HMW question involves at least three of: who, what,
 when, where, or why.
 
-### Brainstorming solutions
+## Brainstorming solutions
 
 It’s important to: go for quantity, not quality, when
 brainstorming, to build upon the ideas of others (“yes
@@ -856,7 +855,7 @@ Having rules makes the brainstorming session more
 productive: adding constraints to a session can improve idea
 generation quantity.
 
-### Selecting good problems & solutions
+## Selecting good problems & solutions
 
 HMW statements generate ideas. Good solutions have frequency
 (a common occurrence), density (many people experience
@@ -868,7 +867,7 @@ Voting techniques to down-select ideas include heat map
 voting (two phase process), category voting, or picking
 three favorites.
 
-### Experience prototyping
+## Experience prototyping
 
 We prototype to think and learn by **_testing
 assumptions_**: we see how users see and feel the prototypes
@@ -887,7 +886,7 @@ a needfinding technique to test one assumption.
 
 # Concept Videos
 
-## Pre-lecture materials
+## Levin, Design critiques at Figma
 
 {% include _single_download.html
   name="🌐 Levin, Design critiques at Figma, Figma.com"
@@ -896,9 +895,7 @@ a needfinding technique to test one assumption.
 
 Good content. No notes taken.
 
-## Lecture 3B on Jan 19, 2022
-
-### Tasks
+## Tasks
 
 Tasks are about what a user wants to do, not how; they are
 goal-directed statements.
@@ -1029,11 +1026,12 @@ roles (people involved), scenes (context of use), and props
 
 # Design Exploration
 
-## Pre-lecture readings
+## Buxton, *Sketching the User Experience*
 
-{% include _single_download.html
-  name="📄 Buxton, Sketching the User Experience on my Google Drive"
-  url="https://drive.google.com/file/d/1G9BDQ3-LbLBlBE7ERDXug2idpGPxoqLZ/view" %}
+{% include _single_download.html name="📄 Buxton, Sketching
+  the User Experience on my Google Drive (request access)"
+  url="https://drive.google.com/file/d/1G9BDQ3-LbLBlBE7ERDXug2idpGPxoqLZ/view"
+  %}
 
 Most of Buxton’s discussion is about the iterative,
 convergent/divergent nature of the design process. Many of
@@ -1046,7 +1044,7 @@ notes here.
 <!-- TODO <img src="images/image7.png" width="" alt="alt_text"
 title="image_tooltip"> -->
 
-## Lecture 4A on Jan 24, 2022
+## Lecture
 
 Exploring the design space of solutions following the
 concept video. Such exploration takes the form of
@@ -1171,7 +1169,7 @@ complementary frameworks exist in HCI to aid in these goals.
 Discusses many of the topics covered in lecture. Notes will
 not be provided here.
 
-## Lecture 4B on Jan 26, 2022
+## Lecture
 
 Storyboards start to tell the story of the system but still
 describe the design of the system.
@@ -1185,9 +1183,7 @@ already :)
 
 # Visual Information Design
 
-## Pre-lecture readings
-
-### Scott Klemmer lectures on visual design
+## Scott Klemmer lectures on visual design
 
 Whitespace allows us to chunk information. Goals for visual
 design are:
@@ -1213,9 +1209,9 @@ Expectation plays an important role in reading.
 Leading is the space under a line of text. It should
 generally be 20%.
 
-[[https://youtu.be/82gp_2vqLTc?t=162](https://youtu.be/82gp_2vqLTc?t=162)]
+[https://youtu.be/82gp_2vqLTc?t=162](https://youtu.be/82gp_2vqLTc?t=162)
 
-## Lecture 5B on Feb 2, 2022
+## Lecture
 
 <!-- TODO 
 ###### Image: Hanging Chad problem on the Florida 2000 ballot. It’s redesign:
@@ -1276,7 +1272,7 @@ Asymmetrical typography can make sites easier to read.
 Grid systems can implement rationality, modernism, and
 asymmetry without centering elements.
 
-### Color
+## Color
 
 Information should not be ordered with hue because don’t
 process colors in that way. **_Ordering by luminance is
@@ -1302,7 +1298,7 @@ be used to provide an isolation effect. Using three
 actionable colors is a good choice. First design in
 greyscale to scale and layout important information.
 
-### Interesting design
+## Interesting design
 
 Deviations should be intentional and point out important
 information.
@@ -1321,7 +1317,7 @@ Other tidbits:
 
 # Designing the Future: Early and Future Visions of HCI
 
-## Lecture 6A on Feb 7, 2022
+## Lecture
 
 * The first read, above the fold 
 * Grouping from color gradients, and font sizes, on virgin
@@ -1488,7 +1484,7 @@ Other tidbits:
 
 # Heuristic Evaluation
 
-## Lecture 7A on Feb 14, 2022
+## Lecture
 
 Big Basket UI evaluation: hall of shame due to large ads and
 bad colors schemes
@@ -1608,9 +1604,7 @@ title="image_tooltip"> -->
 
 # Conceptual Models and Interface Metaphors
 
-## Lecture 7B on Feb 16, 2022
-
-### *Design of Everyday Things*
+## *Design of Everyday Things*
 
 Don Norman is one of the most famous HCI people. Started the
 cognitive science group at UCSD. He worked at Apple, HP,
@@ -1623,7 +1617,7 @@ designers of systems. It explains conceptual models using
 examples of doors, washing machines, digital watches,
 phones, etc. The book includes design guidelines.
 
-### Conceptual Models
+## Conceptual Models
 
 This is also called a mental model. 
 
@@ -1652,7 +1646,6 @@ Poorly-designed objects have no clues, weak clues, or
 misleading clues. Signs are indications that a UI isn’t
 communicating how to operate the interface.
 
-
 <!-- ###### Image: In Hipstamatic, adding a rectangle angle and contrast improves the usability significantly.
 
 <img src="images/image18.png" width="" alt="alt_text"
@@ -1676,7 +1669,7 @@ operation, lower performance, etc.
   assignment: 1.5 weeks instead of 1 week. Small size with
   feedback from Landay and a very experienced TA.
 
-### Design guides for conceptual models
+## Design guides for conceptual models
 
 1. Provide good conceptual model: customer wants to
    understand how controls affect object
@@ -1707,7 +1700,7 @@ title="image_tooltip"> -->
 Map interface controls to the customer’s model. Controls
 should mirror the real-world.
 
-### Interface metaphors
+## Interface metaphors
 
 A metaphor is the transference of the relation between one
 set of objects to another set for the purpose of brief

@@ -16,8 +16,6 @@ layout: base
       <div class="col-md-12 col-sm-8 col-8">
         <div class="d-sm-none d-none d-md-inline"><hr /></div>
         {{ content }}
-      </div>
-      <div class="col-12">
         <hr />
         {% include _my_links.html %}
       </div>

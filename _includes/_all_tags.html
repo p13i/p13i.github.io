@@ -1,0 +1,6 @@
+<hr/>
+{% for tag in tags %}
+    <a href="/tags/#{{ tag | slugify }}" class="badge
+    badge-light"> {{ tag | replace: '-', ' ' | upcase }}
+    </a>
+{% endfor %}

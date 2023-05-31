@@ -10,8 +10,6 @@ description: all in my head
 image: https://user-images.githubusercontent.com/13140065/178388949-46cc23bd-60e0-421c-8d94-5c33198caacd.jpg
 ---
 
-![]({{ page.image }})
-
 i saw two love birds today  
 perched on a hill among the rolling greens of our shire  
 

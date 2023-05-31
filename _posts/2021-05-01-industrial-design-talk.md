@@ -1,5 +1,5 @@
 ---
-title: "review of modern industrial design"
+title: "Review of modern industrial design"
 date: 2021-05-17
 categories:
 - portfolio

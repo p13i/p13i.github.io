@@ -1,6 +1,5 @@
 ---
 title: Design factors for database query domain-specific languages (DSLs) in object-oriented languages
-date: "2022-05-18"
 categories:
 - engineering
 layout: post

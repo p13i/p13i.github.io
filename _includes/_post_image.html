@@ -1,5 +1,6 @@
 <div class="card mt-2 mb-2">
-    <img class="card-img-top" src="{{ include.src }}" alt="Card image cap">
+    <img src="{{ site.data.images.loading.src }}" data-src="{{ include.src }}" alt="{{ include.alt }}"
+        class="img-thumbnail lazyload card-img-top">
     {% if include.text %}
     <div class="card-body">
         <p class="card-text"><em>{{ include.text |

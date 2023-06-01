@@ -8,4 +8,13 @@ image: "https://github.com/p13i/p13i.github.io/assets/13140065/7bbaea7b-892e-4a2
 downloads:
 - name: "📜 Report PDF"
   url: https://github.com/p13i/p13i.github.io/files/11621390/AA222_project_final_report.pdf
+pages_images:
+- https://github.com/p13i/p13i.github.io/assets/13140065/10d8f49c-73af-41fb-9efd-0231a439d218
+- https://github.com/p13i/p13i.github.io/assets/13140065/b03ceb32-0af6-4f01-9fa8-39a501787ef7
+- https://github.com/p13i/p13i.github.io/assets/13140065/58ce9bd9-61c2-4c03-906c-f4fd17b22931
+- https://github.com/p13i/p13i.github.io/assets/13140065/01322cc0-54e4-4879-9e05-4070fc971690
 ---
+
+{% for img in page.pages_images %}
+{% include _post_image.html src=img %}
+{% endfor %}

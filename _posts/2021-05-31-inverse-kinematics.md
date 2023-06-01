@@ -1,5 +1,5 @@
 ---
-title: Gradient optimization for robot inverse kinematics
+title: Gradient optimization for inverse kinematics
 categories:
 - engineering
 layout: post

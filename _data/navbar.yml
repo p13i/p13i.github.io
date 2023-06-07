@@ -18,6 +18,11 @@
   target: _self
   category: writing
 
+- display: "\"Tweets\""
+  href: /tweets/
+  target: _self
+  category: tweet
+
 - display: Downloads
   href: /downloads/
   target: _self

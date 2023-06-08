@@ -9,10 +9,12 @@ layout: base
         <hr/>
         <h1>{{ page.title }}</h1>
         <hr/>
+        <p>Hehe, only for me: {% github_edit_link "edit" %}</p>
+        <hr/>
         <div class="row">
             <div class="col-12">
                 {% for tweet in site.data.tweets %}
-                {% include _tweet.html tweet=tweet %}
+                    {% include _tweet.html tweet=tweet %}
                 {% endfor %}
             </div>
         </div>

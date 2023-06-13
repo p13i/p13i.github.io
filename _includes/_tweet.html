@@ -1,11 +1,11 @@
 <div class="card mb-3">
     <div class="card-body">
         <p class="card-text">{{ include.tweet.text }}</p>
-        <p class="card-text">
-            <small class="text-muted">{{ include.tweet.date | date_to_string }}</small>
-        </p>
         {% if include.tweet.image %}
         {% include _post_image.html src=include.tweet.image.src alt=include.tweet.image.alt text=include.tweet.image.alt %}
         {% endif %}
+        <p class="card-text">
+            <small class="text-muted">{{ include.tweet.date | date_to_string }}</small>
+        </p>
     </div>
 </div>

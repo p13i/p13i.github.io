@@ -2,6 +2,10 @@
 
 # Automation:
 
+- text: "I love automating some things in my life, like posting Tweets to 
+this custom Twitter-like micro-blogging page on my website!!"
+  date: 2023-06-12
+
 - text: "This is my new favorite emoji:"
   date: 2023-06-12
   image:

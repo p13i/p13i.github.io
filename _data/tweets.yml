@@ -2,6 +2,10 @@
 
 # Automation:
 
+- text: "I've picked up a new skill with sewing thanks to a coworker at the Googles! I love making things!"
+  date: 2023-06-14
+  id: ce48
+
 - text: I created a Google Apps Script script (lol) to write "Tweets" to my website! Sue me, Elon hehe
   date: 2023-06-14
   id: 4a15

@@ -5,6 +5,8 @@
 - text: "I've picked up a new skill with sewing thanks to a coworker at the Googles! I love making things!"
   date: 2023-06-14
   id: ce48
+  image:
+    src: https://github.com/p13i/p13i.github.io/assets/13140065/7382a790-bb29-4a8a-a71d-3179091457b3
 
 - text: I created a Google Apps Script script (lol) to write "Tweets" to my website! Sue me, Elon hehe
   date: 2023-06-14

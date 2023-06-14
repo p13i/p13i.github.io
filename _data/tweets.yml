@@ -5,56 +5,69 @@
 - text: "In Cambodia you can shoot a rocket launcher at a cow for $400. (Nate 
 Bargatze)"
   date: 2023-06-13
+  id: 13
 
 - text: "I follow politics closely but I don?t like talking about it. Go 
 figure! I like to keep an apolitical persona around everyone except close 
 friends/family."
   date: 2023-06-13
+  id: 12
 
 - text: "During a layover in Amsterdam, I rented a bike for four hours but 
 totally forgot when the bike store closed! So I locked it to a lamp post 
 outside the shop and dropped an apologetic note in their mailbox. LOL."
   date: 2023-06-13
+  id: 11
 
 - text: "I love Making with all my heart."
   date: 2023-06-13
+  id: 10
 
 - text: "The dots will connect looking backwards so just trust your instincts 
 and things will work out in the end. -Steve Jobs"
   date: 2023-06-13
+  id: 9
 
 - text: "I used to be pretty skeptical of ChatGPT and now I used it multiple 
 times a day!"
   date: 2023-06-13
+  id: 8
 
 - text: "Nothing in this world can take the place of persistence. -Ray Kroc 
 (McDonalds)"
   date: 2023-06-13
+  id: 7
 
 - text: "I love automating some things in my life, like posting Tweets to 
 this custom Twitter-like micro-blogging page on my website!!"
   date: 2023-06-12
+  id: 6
 
 - text: "This is my new favorite emoji:"
   date: 2023-06-12
+  id: 5
   image:
     src: https://github.com/p13i/p13i.github.io/assets/13140065/94a6b633-c61a-44fa-9ac0-844c972c809e
     alt: A vibrating face emoji (see https://emojipedia.org/shaking-face/)
 
 - text: "I think Apple's new AR headset will finally lead to mass adoption of head-worn AR products for millions of consumers around the world. Great work!!"
   date: 2023-06-12
+  id: 4
 
 - text: "i actually typed this garbage into search #googler #internaltools"
   date: 2023-06-07
+  id: 3
   image:
     src: https://github.com/p13i/p13i.github.io/assets/13140065/dfaf47bb-c6b9-4431-8ca1-06ff1d24f935
 
 - text: "Maybe I'm too PC, but white-toned emoji-reactions feel like a micro-aggresion to me"
   date: 2023-06-07
+  id: 2
   image:
     src: https://github.com/p13i/p13i.github.io/assets/13140065/fd5be4b5-a28e-4b46-9c62-74e872cea76d
     alt: A white, skin-toned thumbs up emoji reaction to a message in a chat app.
 
 - text: "One of the best feelings is when other teammates an emoji-react I started lol"
   date: 2023-06-07
+  id: 1
 

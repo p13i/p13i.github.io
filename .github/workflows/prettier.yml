@@ -20,7 +20,7 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         if: ${{ failure() }}
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.WORKFLOW_TOKEN }}
           commit-message: Apply prettier to ${{ github.ref_name }}
           title: Apply prettier to ${{ github.ref_name }}
           branch: prettier-${{ github.run_number }}

@@ -7,6 +7,7 @@
 #   make run
 #   make stop
 #   make publish
+#   make fix
 ########################################
 
 # Default when make is called w/o args

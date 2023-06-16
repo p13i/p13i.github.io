@@ -1,9 +1,9 @@
 ---
 title: Lovebirds
 categories:
-- writing
+  - writing
 tags:
-- poetry
+  - poetry
 layout: post
 author: Pramod Kotipalli
 description: all in my head
@@ -11,13 +11,13 @@ image: https://user-images.githubusercontent.com/13140065/178388949-46cc23bd-60e
 ---
 
 i saw two love birds today  
-perched on a hill among the rolling greens of our shire  
+perched on a hill among the rolling greens of our shire
 
 you and i came to mind  
-how we’d chat and mingle like the best of friends  
+how we’d chat and mingle like the best of friends
 
 but we’re not friends, i don’t want us to be friends  
-and that’s the problem  
+and that’s the problem
 
 but you don’t even know me, you don’t even care to  
 and that’s the problem
@@ -30,12 +30,12 @@ screen from which we depart
 
 love birds on a hill? no chance  
 friends who fell in love? no chance  
-will i ever even hear your voice? no chance  
+will i ever even hear your voice? no chance
 
 i don’t know how,  
-i don’t know if it’s even in my cards  
+i don’t know if it’s even in my cards
 
 it’s all in my head,  
-i expect too much	 
+i expect too much
 
-yeah, and that’s the problem  
+yeah, and that’s the problem

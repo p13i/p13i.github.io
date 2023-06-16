@@ -1,16 +1,16 @@
 ---
 title: TransitMate
 categories:
-- engineering
-- design
+  - engineering
+  - design
 layout: post
 image: "https://user-images.githubusercontent.com/13140065/179047999-df4c84f4-3ead-4e02-a1cb-be0c0513127f.png"
 description: "Safer transportation via checkpoint-based route notifications for friends and family"
 downloads:
-- name: "📱 App Store"
-  url: https://apps.apple.com/app/id1622298888
-- name: "\U0001F4DC Final Report (19.4 MB)"
-  url: "https://github.com/p13i/p13i.github.io/files/9113930/Final.Report.pdf"
+  - name: "📱 App Store"
+    url: https://apps.apple.com/app/id1622298888
+  - name: "\U0001F4DC Final Report (19.4 MB)"
+    url: "https://github.com/p13i/p13i.github.io/files/9113930/Final.Report.pdf"
 featured: true
 ---
 

@@ -1,51 +1,78 @@
 <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container">
-        <a class="navbar-brand" href="/">Pramod Kotipalli</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+  <div class="container">
+    <a class="navbar-brand" href="/">Pramod Kotipalli</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                {% for navbar_link in site.data.navbar %}
-                    {% if navbar_link.submenu %}
-                    <li class="nav-item dropdown {% if page.url contains navbar_link.href or page.categories contains navbar_link.category %}active{% endif %}">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbar-{{ forloop.index }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          {{ navbar_link.display }}
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbar-{{ forloop.index }}">
-                            {% for item in navbar_link.submenu %}
-                                {% if item.divider %}
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        {% for navbar_link in site.data.navbar %} {% if navbar_link.submenu %}
+        <li
+          class="nav-item dropdown {% if page.url contains navbar_link.href or page.categories contains navbar_link.category %}active{% endif %}"
+        >
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbar-{{ forloop.index }}"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            {{ navbar_link.display }}
+          </a>
+          <div
+            class="dropdown-menu"
+            aria-labelledby="navbar-{{ forloop.index }}"
+          >
+            {% for item in navbar_link.submenu %} {% if item.divider %}
 
-                                <div class="dropdown-divider"></div>
+            <div class="dropdown-divider"></div>
 
-                                {% else %}
+            {% else %}
 
-                                <a class="dropdown-item" href="{{ item.href }}" target="{{ item.target }}">{{ item.display }}&nbsp;{% if item.target == '_blank' %}&#187;{% endif %}
-                                    {% if page.url contains navbar_link.href or page.categories contains navbar_link.category %}<span class="sr-only">(current)</span>{% endif %}
-                                </a>
+            <a
+              class="dropdown-item"
+              href="{{ item.href }}"
+              target="{{ item.target }}"
+              >{{ item.display }}&nbsp;{% if item.target == '_blank' %}&#187;{%
+              endif %} {% if page.url contains navbar_link.href or
+              page.categories contains navbar_link.category %}<span
+                class="sr-only"
+                >(current)</span
+              >{% endif %}
+            </a>
 
-                                {% endif %}
-                            {% endfor %}
-                        </div>
-                      </li>
-                    {% else %}
-                    <li class="nav-item {% if page.url contains navbar_link.href or page.categories contains navbar_link.category %}active{% endif %}">
-                        <a class="nav-link" href="{{ navbar_link.href }}" target="{{ navbar_link.target }}">
-                            {{ navbar_link.display }}
-                            {% if navbar_link.target == '_blank' %}
-                            &#187;
-                            {% endif %}
-
-                            {% if page.url contains navbar_link.href or page.categories contains navbar_link.category %}
-                                <span class="sr-only">(current)</span>
-                            {% endif %}
-                        </a>
-                    </li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-        </div>
+            {% endif %} {% endfor %}
+          </div>
+        </li>
+        {% else %}
+        <li
+          class="nav-item {% if page.url contains navbar_link.href or page.categories contains navbar_link.category %}active{% endif %}"
+        >
+          <a
+            class="nav-link"
+            href="{{ navbar_link.href }}"
+            target="{{ navbar_link.target }}"
+          >
+            {{ navbar_link.display }} {% if navbar_link.target == '_blank' %}
+            &#187; {% endif %} {% if page.url contains navbar_link.href or
+            page.categories contains navbar_link.category %}
+            <span class="sr-only">(current)</span>
+            {% endif %}
+          </a>
+        </li>
+        {% endif %} {% endfor %}
+      </ul>
     </div>
+  </div>
 </nav>

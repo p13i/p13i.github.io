@@ -2,13 +2,13 @@
 title: Mergesort in C
 date: "2022-05-18"
 categories:
-- engineering
+  - engineering
 layout: post
 description: "A cute implementation of mergesort in C"
 image: "https://user-images.githubusercontent.com/13140065/169116098-56d65621-69f3-4507-82e4-aaefe55986c9.png"
 downloads:
-- name: "💻 GitHub source"
-  url: https://github.com/p13i/mergesort-c/blob/main/main.c#L27
+  - name: "💻 GitHub source"
+    url: https://github.com/p13i/mergesort-c/blob/main/main.c#L27
 ---
 
 In preparation for technical interviews, I implemented
@@ -19,7 +19,7 @@ looks.
 ---
 
 ```c
-int *MergeSort(int *array, int length) 
+int *MergeSort(int *array, int length)
 {
     if (NULL == array || length < 1) {
         return NULL;
@@ -41,7 +41,7 @@ int *MergeSortRecursive(int *array, int length, int left, int right)
 
     int leftLength = middle - left;
     int rightLength = right - middle;
-    
+
     int *leftSide = MergeSortRecursive(array, length, left, middle);
     int *rightSide = MergeSortRecursive(array, length, middle, right);
 
@@ -49,13 +49,13 @@ int *MergeSortRecursive(int *array, int length, int left, int right)
     int i = 0, j = 0, k = 0;
     int *mergedArray = MakeArray(right - left);
 
-    while (i < leftLength && j < rightLength) 
+    while (i < leftLength && j < rightLength)
     {
-        if (leftSide[i] < rightSide[j]) 
+        if (leftSide[i] < rightSide[j])
         {
             mergedArray[k++] = leftSide[i++];
         }
-        else 
+        else
         {
             mergedArray[k++] = rightSide[j++];
         }
@@ -65,7 +65,7 @@ int *MergeSortRecursive(int *array, int length, int left, int right)
     {
         mergedArray[k++] = leftSide[i++];
     }
-    
+
     while (j < rightLength)
     {
         mergedArray[k++] = rightSide[j++];

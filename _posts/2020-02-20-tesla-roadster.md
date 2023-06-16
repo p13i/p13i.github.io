@@ -1,12 +1,12 @@
 ---
 title: Tesla Roadster 2020
 categories:
-- design
+  - design
 tags:
-- cinema-4d
-- octane-render
-- graphic-design
-- 3d-modeling
+  - cinema-4d
+  - octane-render
+  - graphic-design
+  - 3d-modeling
 layout: post
 author: Pramod Kotipalli
 description: Automotive body modeling with subdivision surfaces from a polygon shell

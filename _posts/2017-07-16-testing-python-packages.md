@@ -2,16 +2,16 @@
 title: Testing Python Packages
 date: "2017-07-16"
 categories:
-- writing
-- engineering
+  - writing
+  - engineering
 tags:
-- programming
-- python
-- tools
-- testing
-- continuous-integration
-- tox
-- travis-ci
+  - programming
+  - python
+  - tools
+  - testing
+  - continuous-integration
+  - tox
+  - travis-ci
 layout: post
 author: Pramod Kotipalli
 description: Integration with tox and Travis CI
@@ -38,8 +38,9 @@ description: Integration with tox and Travis CI
     &nbsp; Passing Travis CI builds
 </a>
 
-In my [previous post](/writing/pytouch/), we developed a simple Python package 
+In my [previous post](/writing/pytouch/), we developed a simple Python package
 that creates a file, somewhat similar to the `touch` found in Linux systems.
+
 ```bash
 $ pytouch new-file.txt
 $ ls
@@ -47,10 +48,11 @@ $ ls
   new-file.txt
   [...]
 ```
-Explore the code from the previous post at tag `v0.0.1` 
-[here](https://github.com/p13i/pytouch/tree/v0.0.1). 
 
-You can clone the code and follow along as we explore `tox` 
+Explore the code from the previous post at tag `v0.0.1`
+[here](https://github.com/p13i/pytouch/tree/v0.0.1).
+
+You can clone the code and follow along as we explore `tox`
 and Travis CI in this post.
 
 ```bash
@@ -59,15 +61,15 @@ $ git clone https://github.com/p13i/pytouch.git
 $ git checkout tags/v0.0.1 -b my-follow-along
 ```
 
-Now, you'll have the `pytouch` code at `v0.0.1` ready to 
+Now, you'll have the `pytouch` code at `v0.0.1` ready to
 follow along on the new `my-follow-along` branch.
 
 # Testing `pytouch`
 
 Python packages don't come packaged with an expressly-
-specified Python interpreter. So, our package will need to 
-rely on our end users' interpreter. As such, we need to 
-ensure that our package will work on multiple different 
+specified Python interpreter. So, our package will need to
+rely on our end users' interpreter. As such, we need to
+ensure that our package will work on multiple different
 platforms without issue.
 
 [`tox`](https://tox.readthedocs.io/en/latest/) is a Python
@@ -88,6 +90,7 @@ for new `.gitignore` file's contents.
 In the [previous post](/writing/pytouch/), I made a small
 typo that we can quickly fix. On line 6 of
 `pytouch/pytouch.py` please change the `3` to `2`:
+
 ```python
 6    if len(sys.argv) != 2:
                          ^
@@ -108,23 +111,23 @@ framework](https://docs.python.org/2/library/unittest.html),
 let's discuss a few lines in particular:
 
 - `tests.py:17` : `@mock.patch.object(sys, 'argv',
-  ['pytouch'])`
+['pytouch'])`
 
-    This [method
-    decorator](https://www.python.org/dev/peps/pep-0318/)
-    alters the `sys.argv` list to be `['pytouch']` for the
-    scope of the succeeding method starting on `tests.py:6`:
-    `def test_not_enough(self):`
+  This [method
+  decorator](https://www.python.org/dev/peps/pep-0318/)
+  alters the `sys.argv` list to be `['pytouch']` for the
+  scope of the succeeding method starting on `tests.py:6`:
+  `def test_not_enough(self):`
 
 - `tests.py:23` : `self.assertRaises(ValueError, main)`
 
-    Because of the method decorator on line 17, the `main`
-    function will not have access to a `sys.argv` list of
-    length two causing [this
-    check](https://github.com/p13i/pytouch/blob/v0.0.2/pytouch/pytouch.py#L6)
-    to fail. Thus, we expect a
-    [`ValueError`](https://github.com/p13i/pytouch/blob/v0.0.2/pytouch/pytouch.py#L6)
-    to be raised.
+  Because of the method decorator on line 17, the `main`
+  function will not have access to a `sys.argv` list of
+  length two causing [this
+  check](https://github.com/p13i/pytouch/blob/v0.0.2/pytouch/pytouch.py#L6)
+  to fail. Thus, we expect a
+  [`ValueError`](https://github.com/p13i/pytouch/blob/v0.0.2/pytouch/pytouch.py#L6)
+  to be raised.
 
 ## Adding dependencies
 
@@ -170,6 +173,7 @@ versions of the Python interpreter.
 Create a file named `tox.ini` (you could use our tool
 `pytouch tox.ini`!). Add the following five lines to the
 file:
+
 ```ini
 [tox]
 envlist = py26,py27,py33,py34,py35,py36
@@ -177,6 +181,7 @@ envlist = py26,py27,py33,py34,py35,py36
 [testenv]
 commands = python setup.py test
 ```
+
 The `envlist` specifies the list of Python interpreters to
 run the `python setup.py test` command in. Here, `py26`
 indicates a Python v2.6.x interpreter, `py27` indicates a
@@ -185,6 +190,7 @@ Python v2.7.x interpreter, etc.
 Install `tox` on your system or in a
 [`virtualenv`](http://python-guide-pt-br.readthedocs.io/en/latest/dev/virtualenvs/)
 and run:
+
 ```bash
 $ tox --skip-missing-interpreters
 ```
@@ -195,6 +201,7 @@ versions of Python specified in `envlist`, we provide the
 it doesn't find a particular interpreter.
 
 At the end of a rather long console output, you'll see
+
 ```bash
     py26: commands succeeded
     py27: commands succeeded
@@ -204,13 +211,14 @@ SKIPPED:  py35: InterpreterNotFound: python3.5
     py36: commands succeeded
     congratulations :)
 ```
+
 indicating that our tool works for the specific Python
 interpreters available on the host system. In this case, you
 can see that my OS has Python 2.6, Python 2.7, and Python
 3.6 installed. The lack of Python 3.3, 3.4, and 3.5 causes
 those iterations to be skipped by `tox`.
 
-But, you may note, we *must* test our tool on all versions
+But, you may note, we _must_ test our tool on all versions
 of Python! We don't know what our users will be using!
 
 ## Running `tox` tests on multiple interpreters
@@ -237,11 +245,13 @@ with all six of these interpreters installed so we can
 simply pull the ~500 MB image instead of installing each one
 by hand and risking all sorts of unintended consequences.
 First, pull the image:
+
 ```bash
 docker pull p13i/docker-tox
 ```
 
 Now, within our main `pytouch` directory, we can simply run
+
 ```bash
 $ docker run \
     --rm \
@@ -250,6 +260,7 @@ $ docker run \
     p13i/docker-tox \
     tox
 ```
+
 to run our `tox` tests on all six specified interpreters.
 
 Note that we didn't pass in the
@@ -262,10 +273,11 @@ comes with all six of these interpreters installed.
 for running tests for open-source projects.
 
 Create a file named `.travis.yml`:
+
 ```yml
 language: python
 
-# These are all the different versions we 
+# These are all the different versions we
 # want to run our tests with
 python:
   - "2.6"
@@ -275,7 +287,7 @@ python:
   - "3.5"
   - "3.6"
 
-# Install this package to easily run tox 
+# Install this package to easily run tox
 # in all these environments on Travis
 install: pip install tox-travis
 

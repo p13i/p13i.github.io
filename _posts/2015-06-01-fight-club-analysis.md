@@ -2,7 +2,7 @@
 title: Fight Club and our Construction of Self-image through Consumerism and Materialism
 date: "2015-06-01"
 categories:
-- writing
+  - writing
 layout: post
 author: Pramod Kotipalli
 description: Independent Research Project for English Composition at the University of Washington
@@ -21,10 +21,9 @@ description: Independent Research Project for English Composition at the Univers
 
 # Introduction
 
+## _Fight Club_ as a popular culture artifact worth studying
 
-## *Fight Club* as a popular culture artifact worth studying
-
-The 1999 film *Fight Club* and the 1996 novel of the same
+The 1999 film _Fight Club_ and the 1996 novel of the same
 name were produced in a pivotal period in the history of the
 world’s economic systems. The early 1990s played host to
 what seemed like the unquestionable dominance of the Western
@@ -56,12 +55,12 @@ presented in the film continue to be debated by film
 critiques and popular culture academics alike. When
 considering the intertwined nature of Flight Club’s argument
 and the films continued popular appeal, without a doubt,
-David Fincher’s 1999 film *Fight Club* is a popular culture
+David Fincher’s 1999 film _Fight Club_ is a popular culture
 artifact worth studying.
 
-## Relevance of the social issue presented in *Fight Club*
+## Relevance of the social issue presented in _Fight Club_
 
-*Fight Club* follows the story of an insomniac office worker
+_Fight Club_ follows the story of an insomniac office worker
 (known to us only as “The Narrator”) who finds solace and
 sleep only by coming to tears to the confessions of others
 in the support groups for those suffering from
@@ -89,7 +88,7 @@ crowning credit institutions are brought to the ground.
 Most mainstream academic discussion of the film is centered
 around a traditional Marxist analysis of the film and novel.
 Some of these papers such as "America's Proletariat: Fight
-Club through a Marxist Lens" describe *Fight Club* in terms
+Club through a Marxist Lens" describe _Fight Club_ in terms
 of a class struggle as a Marxist perspective would indicate;
 In fact, most papers in this field analyze this film as a
 Marxist criticism of American society. Other academics
@@ -97,12 +96,12 @@ discuss gender constructs and the development of masculine
 and feminine characteristics throughout the film while
 attempting to tie in their analysis with a Marxist analysis
 as in Tori Godfree’s paper “A Generation of Men Raised by
-Women: Gender Constructs in ‘*Fight Club*.’” However, most
-academic work on *Fight Club* is found within film circles
+Women: Gender Constructs in ‘_Fight Club_.’” However, most
+academic work on _Fight Club_ is found within film circles
 where scholars debate the merits of artistic style used
 within the film as an adaptation of the novel (see Kyle
 Bishop’s “Artistic Schizophrenia”). This paper will take
-another angle upon the film *Fight Club* and will instead
+another angle upon the film _Fight Club_ and will instead
 discuss, through a neo-Marxist perspective, how the film
 criticizes how we construct our own self-image and identity
 based on our material possessions.
@@ -116,10 +115,10 @@ has feminized promotional perceptions of male masculinity in
 late 20th century American society and has also altered the
 way in which we value ourselves. In this paper we will ask:
 
-how does *Fight Club* establishes a relationship between
+how does _Fight Club_ establishes a relationship between
 America’s consumerist/materialist culture and images of
 masculinity conveyed through promotional materials? how does
-*Fight Club* illustrate how we have come to value ourselves
+_Fight Club_ illustrate how we have come to value ourselves
 based on our possessions? These lines of inquiry are
 relevant to our own 21th century where the internet and
 ubiquitous advertising continue to expand in their in their
@@ -129,12 +128,12 @@ understand how our macro-scale economic structures can
 influence the way in which promotion can alter the way we
 perceive ourselves as a departure or entrenching of past
 ideologies. In this way, the social issues and challenge to
-the dominant consumerist ideology presented in *Fight Club*
+the dominant consumerist ideology presented in _Fight Club_
 is still relevant today and worthy of study. Similarly, we
 will also find that the neo-Marxist perspective is apt to
 study and understand this film.
 
-# Examining *Fight Club*
+# Examining _Fight Club_
 
 ## Outlining the neo-Marxist rhetorical perspective
 
@@ -165,7 +164,7 @@ ideas” (Marx, 172). In addition, the neo-Marxist perspective
 draws on various philosophers such as Italian Marxist
 Antonia Gramsci and cultural theorist Stuart Hall regarding
 ideology and hegemony. Further, we will see how the main
-characters of *Fight Club*, who anti-models in the
+characters of _Fight Club_, who anti-models in the
 neo-Marxist sense, challenge the hegemony by fighting the
 preferred reading. Within this perspective, texts are seen
 as sites of struggle wherein the mass media reinforces or
@@ -193,7 +192,7 @@ the text in terms of the economic metaphors embodied in the
 character presented as models (who we “ought to be like”)
 and anti-models (who we “ought not be like”); as we will
 see, this dichotomy is clearly presented between The
-Narrator and Steven Durden in *Fight Club*. Next, we the
+Narrator and Steven Durden in _Fight Club_. Next, we the
 model’s and anti-model’s material possessions, statuses, and
 the interaction between the characters; in doing so, we
 consider what is conveyed as positive and negative in each
@@ -211,7 +210,8 @@ establishing a status quo (i.e. hegemonic) ideology
 encompassing feminized images of and domesticated behavior
 of men in late 20th century American society.
 
-## Examining *Fight Club* – the dominant ideology, models, and
+## Examining _Fight Club_ – the dominant ideology, models, and
+
 anti-models
 
 In our analysis of the film, in keeping with the neo-Marxist
@@ -229,10 +229,9 @@ dominate ideology regarding materialism and consumerism.
 First we hear The Narrator commenting the following:
 
 “When deep space exploration ramps up, it will be
-corporations that name everything.  The IBM Stellar Sphere.
-The Microsoft Galaxy.  Planet Starbucks.” (*Fight Club*
+corporations that name everything. The IBM Stellar Sphere.
+The Microsoft Galaxy. Planet Starbucks.” (_Fight Club_
 04:20)
-
 
 As we hear The Narrator saying this, the camera zooms out of
 a trash can containing various popular consumer brands such
@@ -244,7 +243,7 @@ word “corporations” and the monotone conveyance of “IBM,”
 indifferent attitude to consumerist state of The Narrator’s
 society.
 
-Earlier on, *Fight Club* more definitively establishes the
+Earlier on, _Fight Club_ more definitively establishes the
 dominant ideology regarding materialism in the opening
 moments of the film. In the beginning of the film, the
 narrator suffers from insomnia, a condition that doesn’t
@@ -253,12 +252,12 @@ discussing his boring, repetitive office work, he comments
 that
 
 "With insomnia, nothing is real. Everything's far away.
-Everything’s a copy of a copy of a copy.” (*Fight Club*
+Everything’s a copy of a copy of a copy.” (_Fight Club_
 00:04)
 
 In this quote, The Narrator is encompassing the consumer
 goods like in the “Everything’s a copy of a copy”
-commenting. Thus, *Fight Club* is also commenting on how
+commenting. Thus, _Fight Club_ is also commenting on how
 continued purchase of consumer goods is repetitive, and
 worthless, in nature. This scene clearly demonstrates that
 the culture of mindless and repetitive office work and
@@ -270,24 +269,24 @@ Club eventually fights against this status quo. When
 describing his home in the opening scenes of the film, The
 Narrator describes his purchasing habits as “Like everyone
 else, I had become a slave to the IKEA nesting instinct.”
-(*Fight Club* 04:40) He proceeds to disinterestedly list out
+(_Fight Club_ 04:40) He proceeds to disinterestedly list out
 the numerous Ikea items he has mindlessly purchased as a
 “slave to the IKEA nesting instinct.”
 
 Finally, one more scene will illustrate how the dominant
 ideology shapes individuals’ behavior. To conclude his
 narration of his insomnia condition near the beginning of
-*Fight Club* and while The Narrator is laying down and
+_Fight Club_ and while The Narrator is laying down and
 watching the Home Shopping Network on TV, he comments that:
 
 > When you have insomnia, you're never really asleep and
-you're never really awake. (*Fight Club* 13:00)
+> you're never really awake. (_Fight Club_ 13:00)
 
 In this quote, The Narrator parallel his own inability to
 rest with that of the consumerist/materialist world
-surrounding him. In doing so, *Fight Club* establishes the
+surrounding him. In doing so, _Fight Club_ establishes the
 main tenants of what we can observe to be the dominant
-ideology of society *Fight Club* takes place in:
+ideology of society _Fight Club_ takes place in:
 
 rampant and thoughtless/mindless consumerism, and a restless
 obsession with materialism and possession of all things
@@ -304,9 +303,9 @@ as the neo-Marxist perspective would have us observe: The
 Narrator’s occupation is a recall analyst in a major car
 company; he assesses life and death choices by weighing the
 cost of a recall with the cost of out-of-court settlements
-(*Fight Club* 21:00).
+(_Fight Club_ 21:00).
 
-Prior to this scene, *Fight Club* further illustrates the
+Prior to this scene, _Fight Club_ further illustrates the
 monotonous nature of The Narrator’s job with a montage of
 The Narrator being jarred awake upon landing at various
 cities across the country where he is tasked with assessing
@@ -331,7 +330,7 @@ that
 
 > The oxygen gets you high. You’re taking in giant, panicked
 > breaths and, suddenly, you become euphoric and docile, and
-> you accept your fate. (*Fight Club* 22:00)
+> you accept your fate. (_Fight Club_ 22:00)
 
 These anti-conventional thoughts continue a few moments
 later when Tyler Durden says:
@@ -339,12 +338,12 @@ later when Tyler Durden says:
 > There are three ways to make napalm. One, mix equal parts
 > of gasoline and frozen orange juice. Two, mix equal parts
 > of gasoline and diet cola. Three, dissolve crumbled cat
-> litter in gasoline until the mixture is thick. (*Fight
-> Club* 22:00)
+> litter in gasoline until the mixture is thick. (_Fight
+> Club_ 22:00)
 
 We further see how this anti-model further challenges the
 expectations of the hegemony that the model readily adopts;
-Tyler Durden, *Fight Club*’s society’s anti-model, adopts a
+Tyler Durden, _Fight Club_’s society’s anti-model, adopts a
 non-conventional career that defines its own hours and
 expectations: producing soap. Soap production is the only
 Later on in the film, we see that Tyler Durden challenges
@@ -356,6 +355,7 @@ plays the role of anti-model, he would be considered
 negatively in the dominant ideology.
 
 ## Understanding characters’ material possessions and their
+
 relationship to one another
 
 Since we have already established who is the model and
@@ -369,20 +369,20 @@ elements of his materialist life outlined in the beginning
 of the film. The Narrator himself comments that he would:
 
 > I'd flip through catalogues and wonder, “what kind of
-> dining set defines me as a person?” (*Fight Club* 05:30)
+> dining set defines me as a person?” (_Fight Club_ 05:30)
 
 Here we see that The Narrator initially defined himself by
 his own material possessions, tying his self-worth and
 values to the products that he bought. Essentially, he is
 ‘enslaving’ his own thoughts and values to the ideals
 conveyed in consumerist messages and his materialist
-lifestyle. Such a statement supports *Fight Club*’s that the
+lifestyle. Such a statement supports _Fight Club_’s that the
 hegemony promoted by consumerism has led to individual’s
 valuing themselves based on their possessions. However, The
 Narrator’s material possessions don’t remain static through
 the film. After returning from a business trip, he finds
 that his home has exploded leading to the total destruction
-of all of his personal property (*Fight Club* 28:20). Such
+of all of his personal property (_Fight Club_ 28:20). Such
 an event represents the forced abandonment of all of The
 Narrator’s personal property and material possessions. With
 nowhere left to turn, and nothing left to live with, The
@@ -391,13 +391,13 @@ met on a flight.
 
 Our anti-model, Tyler Durden, signifies the polar opposite
 lifestyle of The Narrator’s. He lives in an abandoned and
-rundown house near a factory (*Fight Club* 36:00). Durden
+rundown house near a factory (_Fight Club_ 36:00). Durden
 lives without proper running water and intermittent flooding
 that shorts out whatever power he has running the lights.
 Durden also comments on how he has no TV, car, any form of
 modern newspaper/magazine, or electronics. He makes his own
 living as a food service worker for his city’s wealthiest
-(*Fight Club* 33:00). In short, Durden lives a minimalist
+(_Fight Club_ 33:00). In short, Durden lives a minimalist
 life absent of property, consumerist or materialist
 tendencies; he is the pure embodiment of this society’s
 anti-model.
@@ -421,7 +421,7 @@ Narrator’s monologue as he confesses the objective of
 Project Mayhem to the police:
 
 > If you erase the debt record, we all go back to zero.
-> It'll create total chaos. (*Fight Club* 121:00)
+> It'll create total chaos. (_Fight Club_ 121:00)
 
 The very development of The Narrator into a more aggressive
 and non-materialist through the underground fight club
@@ -441,7 +441,7 @@ for the guys packing into gyms, trying to look like Calvin
 Klein and Tommy Hilfiger said they should.
 
 Tyler Durden (indicating the ad): Is that how a man looks
-like? (scoffs) (*Fight Club* 45:00)
+like? (scoffs) (_Fight Club_ 45:00)
 
 Such a scene effectively demonstrates what seems to be Fight
 Club’s thesis: American materialism and consumerism has led
@@ -457,9 +457,9 @@ Club argues against materialism and consumerism because it
 has altered the way that promotion views us and thus the way
 we see ourselves.
 
-## Evaluating potential implications of *Fight Club*
+## Evaluating potential implications of _Fight Club_
 
-We will now consider the effect of *Fight Club* on the
+We will now consider the effect of _Fight Club_ on the
 viewer and the implications of this analysis. As previously
 mentioned, the film conveys a strong anti-consumerist
 message tied in with what appears to be a promotion of
@@ -481,30 +481,28 @@ self-worth. As Tyler Durden himself put it:
 
 You are not your job. You’re not how much money you have in
 the bank. You’re not the car you drive. You’re not the
-contents of your wallet. You’re not your f***-ing khakis.
-(*Fight Club* 84:30)
+contents of your wallet. You’re not your f*\*\*-ing khakis.
+(*Fight Club\* 84:30)
 
 # Works Cited
 
-"America's Proletariat: *Fight Club* through a Marxist
+"America's Proletariat: _Fight Club_ through a Marxist
 Lens." Personal Blog. N.p., 09 Dec. 2012. Web. 10 May 2015.
 <https://mypotatofamine.wordpress.com/fight-club-literay-analysis/americas-proletariat-fight-club-through-a-marxist-lens/>.
 
-Bishop, Kyle. "Artistic Schizophrenia: How *Fight Club*’s
-Message Is Subverted by Its Own Nature." PCASACAS, Oct.
-2006. Web. 10 May 2015.
+Bishop, Kyle. "Artistic Schizophrenia: How _Fight Club_’s
+Message Is Subverted by Its Own Nature." PCASACAS, Oct. 2006. Web. 10 May 2015.
 <http://pcasacas.org.seanic11.net/SiPC/29.1/Bishop.pdf>.
 
 Burris, Val. "Chapter 3: The Neo-Marxist Synthesis of Marx
 and Weber on Class." The Marx-Weber Debate. Newbury Park,
 CA: Sage Publications, 1987. 67-90. Print.
 
-*Fight Club*. Dir. David Fincher. Perf. Brad Pitt, Edward
+_Fight Club_. Dir. David Fincher. Perf. Brad Pitt, Edward
 Norton, Helena Bonham Carter. 20th Century Fox, 1999. DVD.
 
 Godfree, Tori E. "A Generation of Men Raised by Women:
-Gender Constructs in '*Fight Club*'" Student Pulse. N.p.,
-2010. Web. 10 May 2015.
+Gender Constructs in '_Fight Club_'" Student Pulse. N.p., 2010. Web. 10 May 2015.
 <http://www.studentpulse.com/articles/227/a-generation-of-men-raised-by-women-gender-constructs-in-fight-club>.
 
 Mckerrow, Raymie E. "Critical Rhetoric: Theory and Praxis."

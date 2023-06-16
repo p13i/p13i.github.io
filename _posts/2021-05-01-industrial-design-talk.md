@@ -2,10 +2,10 @@
 title: "Review of modern industrial design"
 date: 2021-05-17
 categories:
-- portfolio
-- design
+  - portfolio
+  - design
 tags:
-- industrial-design
+  - industrial-design
 layout: post
 author: Pramod Kotipalli
 description: A talk given to high school students through CLOUD Rainstorm (a Splash program run by Learning Unlimited)
@@ -13,8 +13,8 @@ image: https://user-images.githubusercontent.com/13140065/200154423-cdb850ba-af4
 default_image_fullwidth: true
 columns: 1
 downloads:
-- name: "&#128442; PDF slides"
-  url: "https://github.com/p13i/p13i.github.io/files/8145727/id-talk-slides.pdf"
+  - name: "&#128442; PDF slides"
+    url: "https://github.com/p13i/p13i.github.io/files/8145727/id-talk-slides.pdf"
 ---
 
 **Talk description**:
@@ -22,7 +22,7 @@ downloads:
 The products that surround us, particularly those that have
 real utility and beauty, draw upon a long history of
 industrial design. We will dive into the design style that
-characterized cities and homes through the generations. 
+characterized cities and homes through the generations.
 
 We’ll start with products from the Industrial Revolution
 (1760-1840) and end with the trends like Blobism and

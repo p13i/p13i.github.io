@@ -2,28 +2,28 @@
 title: Jellyfish
 date: 2019-06-09 00:00:00 Z
 categories:
-- design
+  - design
 tags:
-- cinema-4d
-- octane-render
-- graphic-design
-- simulation
-- hair
-- adobe-illustrator
-- adobe-after-effects
-- 3d-modeling
+  - cinema-4d
+  - octane-render
+  - graphic-design
+  - simulation
+  - hair
+  - adobe-illustrator
+  - adobe-after-effects
+  - 3d-modeling
 layout: post
 author: Pramod Kotipalli
 description: Modeling, rigging, and animating a bioluminescent jellyfish
 subcategories:
-- design
+  - design
 downloads:
-- name: "\U0001F4F1 iPhone X (2436-by-1125 - 2.5 MB)"
-  url: "/assets/images/2019-06-09-jellyfish/downloads/jellyfish-iphone-x.jpg"
-- name: "\U0001F5A5️ Desktop (2560-by-1600 - 3.7 MB)"
-  url: "https://drive.google.com/open?id=1Q_7Pam_uwsWqCJdrubYEKhIw_GUajxqD"
-- name: "\U0001F5BC️ Full (4096-by-4096, 4k - 18.2 MB)"
-  url: "/assets/images/2019-06-09-jellyfish/downloads/jellyfish-full.jpg"
+  - name: "\U0001F4F1 iPhone X (2436-by-1125 - 2.5 MB)"
+    url: "/assets/images/2019-06-09-jellyfish/downloads/jellyfish-iphone-x.jpg"
+  - name: "\U0001F5A5️ Desktop (2560-by-1600 - 3.7 MB)"
+    url: "https://drive.google.com/open?id=1Q_7Pam_uwsWqCJdrubYEKhIw_GUajxqD"
+  - name: "\U0001F5BC️ Full (4096-by-4096, 4k - 18.2 MB)"
+    url: "/assets/images/2019-06-09-jellyfish/downloads/jellyfish-full.jpg"
 image: "https://user-images.githubusercontent.com/13140065/178388947-a59bbe42-bdf5-4b21-b1e8-0ccaef3cab1b.png"
 default_image_fullwidth: true
 featured: true
@@ -107,6 +107,5 @@ I added an Octane Volume and created a rig to try and
 simulate underwater light rays as would come through the
 surface in real life. I also added some small green spheres
 to look like little bioluminescent sea creatures:
-
 
 ![](https://user-images.githubusercontent.com/13140065/178388937-7948216c-c465-494e-81bf-71c593f9e484.png)

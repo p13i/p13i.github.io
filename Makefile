@@ -35,3 +35,6 @@ push	:
 	git add .
 	git commit --allow-empty-message -m ''
 	git push
+
+fix:
+	npx prettier '**/*.{json,tsx,md,html,scss,yml,yaml}' --write

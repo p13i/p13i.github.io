@@ -1,20 +1,18 @@
 ---
 title: Error-Correcting Codes
 categories:
-- writing
+  - writing
 tags:
-- error-correcting-codes
+  - error-correcting-codes
 layout: post
 author: Pramod Kotipalli
-description: Final project writeup from Georgia Tech's Math 2803 (honors) 
-    class with  Professor Matt Baker
+description: Final project writeup from Georgia Tech's Math 2803 (honors)
+  class with  Professor Matt Baker
 ---
 
-Introduction to Coding Theory
-=============================
+# Introduction to Coding Theory
 
-A practical example of error correction
----------------------------------------
+## A practical example of error correction
 
 How is it that a CD with so many scratches on it can still
 be played continuously with few audible errors? Why is it
@@ -26,8 +24,7 @@ data stream with so many errors and correct most of them?
 This is where error correcting codes (a topic within Coding
 Theory) come into play.
 
-Overview of error detection
----------------------------
+## Overview of error detection
 
 In communications over noisy channels, like radio
 communications or the reading of a CD[^1], the data is often
@@ -48,7 +45,6 @@ $\textcolor{red}{1}10010\textcolor{red}{1}00110100\textcolor{red}{1}001
 
 </p>
 
-
 Converting this transmitted message back to a string doesn’t
 even resemble a word! Over noisy mediums, error rates, like
 one-in-six ratio as in the example, are very common. Using
@@ -56,8 +52,8 @@ check bits, however, we can devise of a simple way to detect
 an error (but not correct it).
 
 Suppose that I send a message composed of three bits and a
-*parity bit* which is calculated by adding all the previous
-bits in the binary field $$\textbf{B} = \{0, 1\}$$: 
+_parity bit_ which is calculated by adding all the previous
+bits in the binary field $$\textbf{B} = \{0, 1\}$$:
 
 <p class="center">
     $$\verb|Message:| 011$$
@@ -68,7 +64,6 @@ bits in the binary field $$\textbf{B} = \{0, 1\}$$:
 <p class="center">
     $$\verb|Final message:| 011\textcolor{blue}{0}$$
 </p>
-
 
 Such a scheme can detect only one error:
 Suppose that the message $$0100$$ is
@@ -88,8 +83,8 @@ With certain modifications,
 augmentations, and more complex
 calculations, schemes based solely on
 parity bits can detect a great deal of
-errors. Generally, the *information
-rate* for parity bit schemes is
+errors. Generally, the _information
+rate_ for parity bit schemes is
 $$R:=\frac{n - 1}{n}$$ where $$n$$ is
 the length of the message[^4]. However,
 this high information rate comes at the
@@ -101,8 +96,7 @@ scanners, and other noise-prone
 applications where re-scanning is a
 viable option.
 
-Overview of error correction
-----------------------------
+## Overview of error correction
 
 In some situations, like reading a CD or
 in QR codes, detecting an error is
@@ -118,7 +112,9 @@ original message and transmit it. For
 example, I can encode a message $$011$$
 as $$011, 011, 011$$ and transmit
 $$011011011$$. Then if a friend receives
-$$011\textcolor{red}{10}1011 = 011,
+
+$$
+011\textcolor{red}{10}1011 = 011,
 \textcolor{red}{10}1, 011$$ he/she can
 take the majority-occurring message
 $$(011)$$ as the actual message and use
@@ -415,17 +411,17 @@ trying to correct three errors. $$\begin{aligned}
              g(x) &= LCM\{\phi_1(x), \phi_3(x), \phi_5(x)\} \\
                   &= (x^4 + x + 1) (x^4 + x^3 + x^2 + x + 1) (x^2 + x + 1) \\
                   &= x^{10} + x^8 + x^5 + x^4 + x^2 + x + 1 \\
-             \end{aligned}$$
+             \end{aligned}
+$$
 
 Now, we have finally established that the polynomial
 $$g(x) = x^{10} + x^8 + x^5 + x^4 + x^2 + x + 1$$ can correct three
 errors in a $$(15, \textbf{\underline{5}}, 7)$$ BCH code.
 
-Encoding our message into a codeword of BCH
--------------------------------------------
+## Encoding our message into a codeword of BCH
 
 Next, suppose that we would like to send a message $$m(x)$$. We can
-express our **** message in equivalent forms:
+express our \*\*\*\* message in equivalent forms:
 $$m: 10110 \leftrightarrow m(x) = 1\cdot x^4 + 0\cdot x^3 + 1\cdot x^2 + 1\cdot x^1 + 0\cdot x^0 = x^4 + x^2 + x$$
 Now, we must find our transmitted word $$t(x)$$:
 
@@ -442,7 +438,9 @@ Now, we must find our transmitted word $$t(x)$$:
                         \end{aligned}$$
 
 2.  Second, we find $$t(x)$$ by adding $$m(x) \cdot x^{10}$$ and $$b(x)$$:
-    $$\begin{aligned}
+
+    $$
+    \begin{aligned}
                         t(x) &= m(x) \cdot x^{10} + b(x) \\
                         &= (x^4 + x^2 + x) \cdot x^{10} + (x^8 + x^4 + x^3 + x^2 + x) \\
                         &=x^{14} + x^{12} + x^{11} + x^8 + x^4 + x^3 + x^2 + x \\
@@ -457,25 +455,26 @@ Now, we must find our transmitted word $$t(x)$$:
                     &= (x^{14} + x^{12} + x^{11} + x^8 + x^4 + x^3 + x^2 + x) + (x^{12} + x^6 + 1) \\
                     &= x^{14} + x^{11} + x^8 + x^6 + x^4 + x^3 + x^2 + x + 1 \\
                     & \leftrightarrow 100100101011111 \\
-                \end{aligned}$$
+                \end{aligned}
+    $$
 
-    Summarizing our results thus far
-    --------------------------------
+    ## Summarizing our results thus far
 
     The transmitted, error, and received vectors are included below for
     convenience ( and resemble flipped bits):
 
-      ---------------------- -----------------
+    ***
+
                $$t$$            101100100011110
-       $$\textcolor{red}{e}$$  
-               $$r$$             101001001111
-      ---------------------- -----------------
 
-Decoding and error correction in BCH
-====================================
+    $$\textcolor{red}{e}$$  
+     $$r$$ 101001001111
 
-Structure of BCH cyclic codes
------------------------------
+    ***
+
+# Decoding and error correction in BCH
+
+## Structure of BCH cyclic codes
 
 Before delving in the decoding and error correction of our sample BCH
 code, we should discuss the structure of these codes.
@@ -488,19 +487,21 @@ consecutive roots
 $$\alpha^b, \alpha^{b+1}, \ldots, \alpha^{b + 2t_d - 1}$$ where $$\alpha$$
 is a primitive element and $$t_d$$ is the number errors that the BCH code
 can correct. This fact arises from the fact that BCH codes have a
-minimum *designed minimum Hamming distance* of $$2t_d + 1$$.
+minimum _designed minimum Hamming distance_ of $$2t_d + 1$$.
 
-Decoding BCH codes
-------------------
+## Decoding BCH codes
 
 To decode binary codes in BCH, we must use the elements of **GF**(16) to
 number the positions of a codeword. For a vector $$r$$ or length $$n$$, the
 numbering is illustrated as such:
 
-  ----------- ------- ---------- ---------- ----------------
+---
+
     values     $$r_o$$    $$r_1$$     $$\ldots$$     $$r_{n-1}$$
-   positions    $$1$$    $$\alpha$$   $$\ldots$$   $$\alpha^{n-1}$$
-  ----------- ------- ---------- ---------- ----------------
+
+positions $$1$$ $$\alpha$$ $$\ldots$$ $$\alpha^{n-1}$$
+
+---
 
 In **GF**(16) arithmetic, we can find the positions of the errors
 (bottom row of the table above) by solving a set of equations. These
@@ -511,8 +512,8 @@ Let $$r(x) = m(x) + e(x)$$ represent the polynomial associated with a
 received codeword where the error polynomial is defined as
 $$e(x) = e_{j_i}x^{j_i} + \cdots + e_{j_v}x^{j_v}$$ for $$v \leq t_d$$ is
 the number of errors. The sets $$\{e_{j_1}, \ldots, e_{j_v}\}$$ and
-$$\{\alpha^{j_1}, \ldots, \alpha^{j_v}$$ are known as the *error values*
-and *error positions* respectively where $$e_j \in \mathbb{B} = \{0, 1\}$$
+$$\{\alpha^{j_1}, \ldots, \alpha^{j_v}$$ are known as the _error values_
+and _error positions_ respectively where $$e_j \in \mathbb{B} = \{0, 1\}$$
 for binary BCH codes and $$\alpha \in \textbf{GF}(16)$$[^19].
 
 We can then calculate syndrome values as such by evaluating $$r(x)$$ at
@@ -524,15 +525,16 @@ $$\alpha$$): $$\begin{aligned}
                     S_{2t_d} &= r(\alpha^{b+2t_d -1}) \\
                 \end{aligned}$$
 
-Then we can define our *error locater polynomial* as:
+Then we can define our _error locater polynomial_ as:
 $$\sigma(x) = \prod_{l=1}^{v} (1 + a^{j_l}x) = 1 + \sigma_1x + \cdots + \sigma_v x^v$$
 
 Finally, the roots of this polynomial are equivalent to the roots of the
-*inverses* of the error locations in $$r(x)$$. Finally, we can make the
+_inverses_ of the error locations in $$r(x)$$. Finally, we can make the
 following relation between the coefficients of $$\sigma(x)$$ and the
 syndromes as such.
 
-$$\left( \begin{array}{c}
+$$
+\left( \begin{array}{c}
                 S_{v+1} \\
                 S_{v+2} \\
                 \vdots \\
@@ -547,13 +549,14 @@ $$\left( \begin{array}{c}
                 \sigma_{v} \\
                 \sigma_{v-1} \\
                 \vdots \\
-                \sigma_{1} \end{array} \right)$$
+                \sigma_{1} \end{array} \right)
+$$
 
 Solving this matrix for the $$\sigma$$
 vector will give us the coefficients in
-the *error locater polynomial*
+the _error locater polynomial_
 $$\sigma(x)$$. This matrix is also
-referred to as the *key equation*. There
+referred to as the _key equation_. There
 are multiple algorithms to solve for the
 $$\sigma$$ vector:
 
@@ -567,8 +570,7 @@ The Peterson-–Gorenstein–-Zierler (PGZ) decoder
 
 In this example, we will use the PGZ decoder.
 
-Continuing our example...
--------------------------
+## Continuing our example...
 
 Now, the binary message
 $$r: 10\textcolor{red}{0}10010\textcolor{red}{1}01111\textcolor{red}{1}$$
@@ -601,8 +603,7 @@ Now, knowing the six syndrome values for the received message $$r$$, we
 can proceed to use the Peterson–-Gorenstein–-Zierler algorithm to find
 the error locations of $$r$$.
 
-The Peterson-–Gorenstein–-Zierler (PGZ) decoder
------------------------------------------------
+## The Peterson-–Gorenstein–-Zierler (PGZ) decoder
 
 The decoding problem with BCH is that the number of errors in a message
 $$r$$ are unknown to a recipient.
@@ -629,7 +630,8 @@ correct: $$\left( \begin{array}{cccc}
 Because the $$\sigma_i$$ values below are the inverses of the error
 positions, we must find the solution to the matrix equation:
 
-$$\left( \begin{array}{c}
+$$
+\left( \begin{array}{c}
             \alpha^4 \\
             1 \\
             \alpha \end{array} \right)
@@ -641,7 +643,8 @@ $$\left( \begin{array}{c}
             \left( \begin{array}{c}
             \sigma_{3} \\
             \sigma_{2} \\
-            \sigma_{1} \end{array} \right)$$
+            \sigma_{1} \end{array} \right)
+$$
 
 Finding a solution for the $$\sigma$$ vector is equivalent to seeing if
 $$\left( \begin{array}{ccc} \alpha & \alpha^2 & \alpha^8 \\ \alpha^2 & \alpha^8 & \alpha^4 \\ \alpha^8 & \alpha^4 & 1 \\ \end{array} \right)$$
@@ -650,12 +653,14 @@ determinant[^21].
 
 Let us calculate this determinant:
 
-$$\begin{aligned}
+$$
+\begin{aligned}
                  \text{det} \left( \begin{array}{ccc} \alpha & \alpha^2 & \alpha^8 \\ \alpha^2 & \alpha^8 & \alpha^4 \\ \alpha^8 & \alpha^4 & 1 \\ \end{array} \right)
                      &= \alpha(\alpha^8 + \alpha^8) + \alpha^2 (\alpha^2 + \alpha^{12}) + \alpha^8 (\alpha^6 + \alpha) \\
                      &= \alpha^{2+7} + \alpha^{8+11} \\
                      &= \alpha^{14}
-             \end{aligned}$$
+             \end{aligned}
+$$
 
 Because the determinant of the matrix is non-zero, then the matrix
 equation $$\left( \begin{array}{c}
@@ -676,16 +681,18 @@ matrix equation above for the $$\sigma$$ vector. Any such valid
 calculation (involving inverses and matrix multiplication[^22] reveals
 the following vector:
 
-$$\left( \begin{array}{c}
+$$
+\left( \begin{array}{c}
             \sigma_{3} \\
             \sigma_{2} \\
             \sigma_{1} \end{array} \right)
             = \left( \begin{array}{c}
             \alpha^3 \\
             \alpha^7 \\
-            \alpha \end{array} \right)$$
+            \alpha \end{array} \right)
+$$
 
-It follows by our definition of the *error locater polynomial* that:
+It follows by our definition of the _error locater polynomial_ that:
 $$\sigma(x) = \alpha^3 x^3 + \alpha^7 x^2 + \alpha x + 1$$ This
 polynomial also factors in $$\textbf{GF}(16)$$ with our primitive root
 $$\alpha$$[^23] as such. $$\sigma(x) = (1+x)(1+\alpha^6)(1+\alpha^{12}x)$$
@@ -695,8 +702,10 @@ are $$1=\alpha^0, \alpha^9 = \alpha^{-6}$$, and $$\alpha^3 = \alpha^{-12}$$.
 These powers of these inverses in fact correspond to error positions as
 such:
 
-   Root of $$\sigma(x)$$   Inverse of root   Negative of power   Corresponding polynomial
-  --------------------- ----------------- ------------------- --------------------------
+Root of $$\sigma(x)$$ Inverse of root Negative of power Corresponding polynomial
+
+---
+
            $$1$$             $$\alpha^0$$             $$0$$                    $$1$$
        $$\alpha^9$$         $$\alpha^{-6}$$           $$6$$                   $$x^6$$
        $$\alpha^3$$        $$\alpha^{-12}$$          $$12$$                  $$x^{12}$$
@@ -707,20 +716,25 @@ error polynomial for him/herself, the corresponding bits (12th, 6th, and
 1st) are flipped[^24] to recover the original message. The final step is
 completed by adding the two vectors/polynomials[^25].
 
-  ----------------------------- ---------------------------------------------------------
+---
+
          Received $$r(x)$$         $$x^{14} + x^{11} + x^8 + x^6 + x^4 + x^3 + x^2 + x + 1$$
        **** $$e(x)$$ vector                           $$x^{12} + x^6+ 1$$
-   Original $$m(x)$$ message $$t$$   $$x^{14} + x^{12} + x^{11} + x^8 + x^4 + x^3 + x^2 + x$$
-  ----------------------------- ---------------------------------------------------------
 
-Summarizing our results
------------------------
+Original $$m(x)$$ message $$t$$ $$x^{14} + x^{12} + x^{11} + x^8 + x^4 + x^3 + x^2 + x$$
 
-  ----------------------------------- -----------------
+---
+
+## Summarizing our results
+
+---
+
           Received $$r$$ vector           101001001111
             **** $$e$$ vector            001000001000001
-   Computed original $$m$$ message $$t$$    101001001111
-  ----------------------------------- -----------------
+
+Computed original $$m$$ message $$t$$ 101001001111
+
+---
 
 Now, the original message is the first five bits 10110. This message has
 been recovered, without error, due to this implementation of a BCH code.
@@ -732,8 +746,7 @@ to the received vector $$r$$. This code word (in the set of BCH code
 words) then must be the intended sent code word before an error acted
 upon it.
 
-Conclusion
-==========
+# Conclusion
 
 Through our example of a BCH code, we required that calculations take
 place in $$\textbf{GF}(16)$$ and with codewords expressed in binomial
@@ -754,96 +767,100 @@ In this paper, we have discussed Coding Theory, finite/Galois fields
 (and their various properties), polynomial arithmetic in these fields,
 and a complete example of BCH codes.
 
-Appendix
-========
+# Appendix
 
-Power/Vector table
-------------------
+## Power/Vector table
 
 ![The Power/Vector table referred to throughout the paper.
 @LAandMatricies](https://user-images.githubusercontent.com/13140065/178387347-44db0237-4df5-4a73-9750-7f2a3ef92f58.png)
 
-References
-==========
+# References
 
-[^1]: Other examples of noisy channels include reading data from a hard
+[^1]:
+    Other examples of noisy channels include reading data from a hard
     drive or reading a magnetic tape
 
-[^2]: Here, text is converted to Unicode numbers and finally into
+[^2]:
+    Here, text is converted to Unicode numbers and finally into
     binary.
 
-[^3]: In this scheme, we do not assume that the parity bit was immune
+[^3]:
+    In this scheme, we do not assume that the parity bit was immune
     from error. If the only parity bit is flipped, this scheme would
     still reveal that an error occurred in transmission.
 
-[^4]: The greater $$R$$ is, the more information that is transmitted and
-    the more *efficient* the detection or correction scheme is
+[^4]:
+    The greater $$R$$ is, the more information that is transmitted and
+    the more _efficient_ the detection or correction scheme is
 
 [^5]: The encoder is both subjective and injective, onto and one-to-one.
-
 [^6]: i.e. the distance between them
-
-[^7]: i.e. addition, subtraction, multiplication, and division
+[^7]:
+    i.e. addition, subtraction, multiplication, and division
     (inverses)
 
 [^8]: The polynomial $$f(x)$$ cannot be further factored
-
-[^9]: The Cancellation Law states that if $$bc \equiv bd \pmod{a}$$ and
+[^9]:
+    The Cancellation Law states that if $$bc \equiv bd \pmod{a}$$ and
     $$(b, a) = 1$$, then $$c \equiv d \pmod{a}$$. Integer math fails in mod
     16, for example, because
     $$4 \times 5 \equiv 4 \equiv 4 \times 1 \pmod{16}$$ and, even worse,
     $$4 \times 4 \equiv 0 \pmod{16}$$
 
 [^10]: i.e. they do not factor or “split”
-
-[^11]: Note that these $$x$$s are not the same as the $$x$$s used in
+[^11]:
+    Note that these $$x$$s are not the same as the $$x$$s used in
     $$\mathbb{Z}[x]$$ as we are used to.
 
-[^12]: This set adheres to a designed minimum Hamming distance to ensure
+[^12]:
+    This set adheres to a designed minimum Hamming distance to ensure
     a required measure of “separated-ness” between the code words in the
     set. This designed minimum distance will allow a decoder to
     determine what a transmitted message is trying to represent
 
 [^13]: i.e. an irreducible factor of $$x^{16}-1$$
-
-[^14]: Note that this table is based on a different polynomial than the
+[^14]:
+    Note that this table is based on a different polynomial than the
     table in Figure \[mult\]. A similar table can easily be constructed,
     however, to verify the math in the following sections.
 
-[^15]: Let the designed minimum distance $$d_{min}$$ and let the number of
+[^15]:
+    Let the designed minimum distance $$d_{min}$$ and let the number of
     errors we wish to correct with BCH be $$e$$, then $$d_{min} = 2 e + 1$$.
     In out example, we wish to correct three errors so our
-    $$ d_{min} = 2 \times 3 + 1 = 7$$
+    $$ d\_{min} = 2 \times 3 + 1 = 7$$
 
-[^16]: A minimal polynomial here is a monic (leading coefficient of 1)
+[^16]:
+    A minimal polynomial here is a monic (leading coefficient of 1)
     polynomial of smallest degree which has coefficients in **GF**(16)
     and $$\alpha$$ as a root
 
 [^17]: Calculated on WolframAlpha at [this link](http://goo.gl/Twtypq)
-
-[^18]: Note that adding polynomials with binary coefficients is
+[^18]:
+    Note that adding polynomials with binary coefficients is
     identical to the **XOR** operation in computers!
 
-[^19]: This could be extended for any field **GF**($$2^m)$$ for an natural
+[^19]:
+    This could be extended for any field **GF**($$2^m)$$ for an natural
     number m
 
-[^20]: Note that $$\alpha$$ is a primitive element of $$\textbf{GF}(16)$$.
+[^20]:
+    Note that $$\alpha$$ is a primitive element of $$\textbf{GF}(16)$$.
     For $$\alpha = 2 \in \textbf{GF}(16)$$,
     $$\alpha = 2 \leftrightarrow 0010 \leftrightarrow x$$. So we are
     essentially evaluating $$r$$ for a primitive element’s polynomial
     $$\alpha$$ like $$\alpha = 2 \leftrightarrow x$$
 
 [^21]: By the Invertible Matrix Theorem from Linear Algebra.
-
-[^22]: If you wish to try row-reduction yourself, note that since
+[^22]:
+    If you wish to try row-reduction yourself, note that since
     $$\alpha$$ is a primitive element in $$\textbf{GF}(16)$$, we know that
     $$\alpha^{15}=1$$. For example, to find the inverse of $$\alpha^{3}$$
     follows that $$\alpha^{3}\times\alpha^{5} = 1$$ so
     $$\alpha^{3} = \frac{1}{\alpha^{5}} = \alpha^{-5}$$)
 
 [^23]: Again, we use the Power/Vector table found in the Appendix
-
 [^24]: This process involves simple binary addition
-
-[^25]: As we see below, adding two terms with the same degree in binary
+[^25]:
+    As we see below, adding two terms with the same degree in binary
     coefficients cancels them out.

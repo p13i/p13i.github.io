@@ -10,14 +10,14 @@ sass:
   style: :compressed
 repository: p13i/p13i.github.io
 include:
-- static
-- assets
+  - static
+  - assets
 
 # Dependencies
 gems:
-- jekyll-feed
-- jekyll-paginate
-- jekyll-redirect-from
-- jekyll-sitemap
-- jekyll-github-metadata
-- jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-github-metadata
+  - jekyll-seo-tag

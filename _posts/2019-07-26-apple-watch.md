@@ -2,26 +2,26 @@
 title: " Watch"
 date: "2019-07-26"
 categories:
-- portfolio
+  - portfolio
 tags:
-- cinema-4d
-- octane-render
-- graphic-design
-- apple
-- apple-watch
-- wearable-computing
-- wireframe
-- 3d-modeling
+  - cinema-4d
+  - octane-render
+  - graphic-design
+  - apple
+  - apple-watch
+  - wearable-computing
+  - wireframe
+  - 3d-modeling
 layout: post
 author: Pramod Kotipalli
 description: Modeling, texturing, rendering my favorite product
 subcategories:
-- design
+  - design
 downloads:
-- name: "\U0001F4BE Full-res renders"
-  url: https://drive.google.com/open?id=1XXZSmgxVWZKHemYtRqa1tuoNuFTTQryj
-- name: "\U0001F3A5 c4d/Octane project files"
-  url: https://drive.google.com/open?id=1NzQf6RymvsWfNV3OqxXfTqkz4irlqpVg
+  - name: "\U0001F4BE Full-res renders"
+    url: https://drive.google.com/open?id=1XXZSmgxVWZKHemYtRqa1tuoNuFTTQryj
+  - name: "\U0001F3A5 c4d/Octane project files"
+    url: https://drive.google.com/open?id=1NzQf6RymvsWfNV3OqxXfTqkz4irlqpVg
 image: "https://user-images.githubusercontent.com/13140065/178388867-bc635ef3-542e-4c34-92d1-37889a75f902.png"
 default_image_fullwidth: true
 ---

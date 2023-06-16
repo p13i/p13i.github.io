@@ -11,7 +11,7 @@ Personal website
    and [Docker
    Compose](https://docs.docker.com/compose/install/).
 2. Run `git clone https://github.com/p13i/p13i.github.io.git`
-4. Run `make up`
+3. Run `make up`
 4. Open `localhost:4000`
 
 ## One-off builds

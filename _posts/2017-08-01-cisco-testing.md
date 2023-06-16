@@ -2,42 +2,42 @@
 title: Cisco Testing-as-a-Service
 date: "2017-08-01"
 categories:
-- engineering
+  - engineering
 tags:
-- software-engineering
-- python
-- django
-- load-testing
-- rest-api
-- angularjs
-- javascript
-- typescript
-- docker
-- containerization
-- orchestration
-- elasticsearch
-- logstash
-- kibana
-- postgresql
-- jmeter
-- java
-- celery
-- task-queue
-- message-queue
-- rabbitmq
-- jenkins
-- vagrant
-- scripting
-- shell
-- linux
-- networking
+  - software-engineering
+  - python
+  - django
+  - load-testing
+  - rest-api
+  - angularjs
+  - javascript
+  - typescript
+  - docker
+  - containerization
+  - orchestration
+  - elasticsearch
+  - logstash
+  - kibana
+  - postgresql
+  - jmeter
+  - java
+  - celery
+  - task-queue
+  - message-queue
+  - rabbitmq
+  - jenkins
+  - vagrant
+  - scripting
+  - shell
+  - linux
+  - networking
 layout: post
 author: Pramod Kotipalli
 description: Easy-to-use high-scale testing orchestration software
 image: "https://user-images.githubusercontent.com/13140065/178388342-22edb567-e4f0-43d0-9c28-96f7e2c70e9a.png"
 default_image_fullwidth: true
 subcategories:
-- engineering
+  - engineering
 ---
 
 ![]({{ page.image }})

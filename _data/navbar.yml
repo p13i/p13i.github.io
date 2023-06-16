@@ -18,7 +18,7 @@
   target: _self
   category: writing
 
-- display: "\"Tweets\""
+- display: '"Tweets"'
   href: /tweets/
   target: _self
   category: tweet

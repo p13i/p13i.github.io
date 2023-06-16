@@ -1,19 +1,19 @@
 ---
 title: Remembrance Agent for Java
 categories:
-- writing
-- research
+  - writing
+  - research
 tags:
-- note-taking
-- remembrance-agent
-- google-drive-api
-- gmail-api
-- symbiotic-artificial-intelligence
-- java
-- java-swing
-- desktop
-- gui
-- google-cloud-speech-api
+  - note-taking
+  - remembrance-agent
+  - google-drive-api
+  - gmail-api
+  - symbiotic-artificial-intelligence
+  - java
+  - java-swing
+  - desktop
+  - gui
+  - google-cloud-speech-api
 layout: post
 author: Pramod Kotipalli
 description: Java-based implementations of a remembrance
@@ -29,21 +29,21 @@ description: Java-based implementations of a remembrance
 image: "https://user-images.githubusercontent.com/13140065/178388966-481931be-96f3-4820-88e8-141e16a5ff7c.png"
 default_image_fullwidth: true
 downloads:
-- name: "\U0001F4BB GitHub (Remembrance Agent Java Gradle project)"
-  url: https://github.com/remembrance-agent/remembrance-agent.git
-- name: "\U0001F4BB GitHub (Remembrance Agent Desktop GUI)"
-  url: https://github.com/remembrance-agent/remembrance-agent-desktop.git
-- name: "\U0001F4BB macOS .dmg desktop application (v1.0.1)"
-  url: https://github.com/remembrance-agent/remembrance-agent-desktop/releases/download/v1.0.1/ra-desktop-v1.0.1-macos-dmg.zip
-- name: "\U0001F4BB Windows .exe desktop application (v1.0.1)"
-  url: https://github.com/remembrance-agent/remembrance-agent-desktop/releases/download/v1.0.1/ra-desktop-v1.0.1-windows-exe.zip
+  - name: "\U0001F4BB GitHub (Remembrance Agent Java Gradle project)"
+    url: https://github.com/remembrance-agent/remembrance-agent.git
+  - name: "\U0001F4BB GitHub (Remembrance Agent Desktop GUI)"
+    url: https://github.com/remembrance-agent/remembrance-agent-desktop.git
+  - name: "\U0001F4BB macOS .dmg desktop application (v1.0.1)"
+    url: https://github.com/remembrance-agent/remembrance-agent-desktop/releases/download/v1.0.1/ra-desktop-v1.0.1-macos-dmg.zip
+  - name: "\U0001F4BB Windows .exe desktop application (v1.0.1)"
+    url: https://github.com/remembrance-agent/remembrance-agent-desktop/releases/download/v1.0.1/ra-desktop-v1.0.1-windows-exe.zip
 featured: true
 ---
 
 # Remembrance Agents
 
 The concept of a Remembrance Agent (RA) was first outlined
-by [Rhodes][rhodes-1997]{:target="_blank"} in 1997 as a
+by [Rhodes][rhodes-1997]{:target="\_blank"} in 1997 as a
 system that would automatically present
 contextually-relevant notes, documents, and contacts.
 
@@ -95,18 +95,18 @@ to use:
 ![](https://user-images.githubusercontent.com/13140065/178388891-897cb7d0-e510-46f3-99b2-01795bee251e.png)
 
 As you type, [every five
-seconds][ra-query-period]{:target="_blank"} the prior 60
+seconds][ra-query-period]{:target="\_blank"} the prior 60
 characters of your keyboard buffer are sent to the RA.
 Suggestions are presented as clickable buttons. To the left
 of each suggestion is the relevance score of that document
 [accounting for contextual
-factors][ra-engine-github]{:target="_blank"} like date and
+factors][ra-engine-github]{:target="\_blank"} like date and
 subject of a document (these factors can be re-weighted in
-the code as done by Rhodes). 
+the code as done by Rhodes).
 
 The core algorithm used to determine the similarity between
 two documents is TFiDF, or [Term-Frequency Inverse Document
-Frequency][tfidf-github]{:target="_blank"}: documents are
+Frequency][tfidf-github]{:target="\_blank"}: documents are
 weighted by both the frequency of a word in a document and
 the frequency of the word in the larger corpus of documents
 (i.e. a "document database" in this project's parlance).
@@ -116,7 +116,6 @@ Professor Abowd at Georgia Tech), the RA client will open
 the corresponding Google Doc in Chrome:
 
 ![](https://user-images.githubusercontent.com/13140065/178388888-914d0109-1809-4af5-b4fe-47f605362d2b.png)
-
 
 ## Integrations
 
@@ -161,9 +160,9 @@ Google Glass. On such a small wearable platform, CPU clock
 speeds are measured in the hundreds of megahertz and RAM
 sizes are measured in the low single-digit gigabytes.
 Further, over-heating is a constant concern on such
-platforms.  
+platforms.
 
-As such, used performance analysis tools like 
+As such, used performance analysis tools like
 
 ## Installation & Running
 
@@ -179,7 +178,6 @@ formalities). In three steps:
 Further instructions can be found on the [GitHub
 README][readme].
 
-
 ## Architecture
 
 I closely followed the algorithms and data structures
@@ -188,6 +186,7 @@ outlined in Rhodes' paper.
 I separated the Remembrance Agent backend functionality from
 the presentation functionality. This resulted in two
 repositories:
+
 1. [`remembrance-agent`][ra-repo]: This is a pure-Java
    (version 7) package with no dependencies that implements
    the "engine" of the RA. It provides an easy-to-use
@@ -201,11 +200,11 @@ repositories:
    a Google Drive- and Gmail-based document database as well
    as usage of our keystrokes or speech as input to the RA.
 
-[rhodes-1997]:http://alumni.media.mit.edu/~rhodes/Papers/wear-ra-personaltech/
-[ra-query-period]:https://github.com/remembrance-agent/remembrance-agent/blob/v1.2.1/src/main/java/io/p13i/ra/RemembranceAgentClient.java#L332-L337
-[ra-engine-github]:https://github.com/remembrance-agent/remembrance-agent/blob/v1.2.1/src/main/java/io/p13i/ra/engine/RemembranceAgentSuggestionCalculator.java
-[tfidf-github]:https://github.com/remembrance-agent/remembrance-agent/blob/v1.2.1/src/main/java/io/p13i/ra/utils/TFIDFCalculator.java
-[readme]:https://github.com/remembrance-agent/remembrance-agent/blob/master/README.md
-[ra-repo]:https://github.com/remembrance-agent/remembrance-agent
-[ra-interface]:https://github.com/remembrance-agent/remembrance-agent/blob/f061e14770e2aa8c0e79dcefb654b9d28c6325e3/src/main/java/io/p13i/ra/engine/IRemembranceAgentEngine.java#L17-L38
-[ra-desktop]:https://github.com/remembrance-agent/remembrance-agent-desktop
+[rhodes-1997]: http://alumni.media.mit.edu/~rhodes/Papers/wear-ra-personaltech/
+[ra-query-period]: https://github.com/remembrance-agent/remembrance-agent/blob/v1.2.1/src/main/java/io/p13i/ra/RemembranceAgentClient.java#L332-L337
+[ra-engine-github]: https://github.com/remembrance-agent/remembrance-agent/blob/v1.2.1/src/main/java/io/p13i/ra/engine/RemembranceAgentSuggestionCalculator.java
+[tfidf-github]: https://github.com/remembrance-agent/remembrance-agent/blob/v1.2.1/src/main/java/io/p13i/ra/utils/TFIDFCalculator.java
+[readme]: https://github.com/remembrance-agent/remembrance-agent/blob/master/README.md
+[ra-repo]: https://github.com/remembrance-agent/remembrance-agent
+[ra-interface]: https://github.com/remembrance-agent/remembrance-agent/blob/f061e14770e2aa8c0e79dcefb654b9d28c6325e3/src/main/java/io/p13i/ra/engine/IRemembranceAgentEngine.java#L17-L38
+[ra-desktop]: https://github.com/remembrance-agent/remembrance-agent-desktop

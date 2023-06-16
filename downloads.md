@@ -12,7 +12,7 @@ layout: base
         <hr/>
 
         <p>3D assets, images, and easy-to-build source for most of my work.</p>
-        
+
         <p>I am a <strong>strong</strong> believer in open-sourcing whatever I can so that others may learn from my work, as I have learned from countless others.</p>
 
         <hr/>
@@ -23,7 +23,7 @@ layout: base
             {% for post in site.posts %}
 
             {% if post.downloads %}
-            
+
             <div class="card">
                 <img src="{{ site.data.images.loading.src }}"
                     data-src="{{ post.image }}"
@@ -36,7 +36,7 @@ layout: base
                     {% for download in post.downloads %}
 
                     <a class="list-group-item list-group-item-action" href="{{ download.url }}" target="_blank">{{ download.name }}&nbsp;&#187;</a>
-                    
+
                     {% endfor %}
                 </ul>
                 <div class="card-body">
@@ -47,11 +47,12 @@ layout: base
               {% endif %}
 
             {% endfor %}
-            
+
             </div>
 
         </div>
 
         {% include _copyright.html %}
     </div>
+
 </div>

@@ -25,7 +25,7 @@ people all around the world.
 
 This course synthesizes key research findings, provides
 practical approaches to user interface (UI) prototyping, and
-a strong introduction to the *design thinking* process
+a strong introduction to the _design thinking_ process
 developed by the Hasso-Plattner Institute and Stanford
 University to create experiences that are grounded in
 observations of how real people use software products.
@@ -35,7 +35,7 @@ pre-lecture reading materials and lectures including key
 graphics and resources to better illustrate and aid in
 learning.
 
-**Note from the author:** Please do note that these are *my*
+**Note from the author:** Please do note that these are _my_
 (Pramod's) own notes and may not fully reflect the learning
 outcomes of James Landay's course; howerver, I will do the
 best I can to write an introduction to HCI faithful to the
@@ -45,9 +45,9 @@ assistants.
 ## Course overview
 
 The PDF screen-grab of the syllabus for this course is
-available here: 
+available here:
 
-{% include _single_download.html 
+{% include _single_download.html
     name="🗓 CS 147 (Winter 2022) Calendar (3.1 MB)"
     url="https://github.com/p13i/p13i.github.io/files/9128690/cs147-2022-wi-calendar.pdf"%}
 
@@ -57,12 +57,12 @@ ten week Stanford quarter.
 
 1. 1A: Introduction to HCI and a Techno-Realist Vision
 2. Design Thinking:
-    1. Design Discovery (1B)
-    2. Define (2A)
-    3. Ideate (2B)
-    4. Concept Videos (3B)
-    5. Exploration (4A)
-    6. Early Stage Prototyping (4B)
+   1. Design Discovery (1B)
+   2. Define (2A)
+   3. Ideate (2B)
+   4. Concept Videos (3B)
+   5. Exploration (4A)
+   6. Early Stage Prototyping (4B)
 3. Visual Information Design (5B)
 4. Early and Future Visions of HCI (6A)
 5. Human Abilities (6B)
@@ -78,8 +78,8 @@ Let's get into it!
 
 ## What it means to innovate responsibly
 
-Based on Margaret Gould Stewart's "*From techno-optimism to
-techno-realism: What it means to innovate responsibly*".
+Based on Margaret Gould Stewart's "_From techno-optimism to
+techno-realism: What it means to innovate responsibly_".
 
 {% include _single_download.html name="📜 [Stewart 2021] PDF from
     Medium.com (363 KB)"
@@ -90,19 +90,19 @@ for a diverse and global community, as Facebook does.
 Unbridled technology-optimism isn’t a healthy approach to
 responsible innovation, i.e. the belief that technology
 advancements are always a net positive contribution to our
-world. 
+world.
 
 By leveraging a diverse set of perspectives, technology can
 empower people and should be developed collaboratively with
 the intended users. The technologies we deploy may
 unintentionally reinforce or amplify the pre-existing
-prejudices. 
+prejudices.
 
 In designing new virtual assistant voices, Stewart’s
 Responsible Innovation team reflected early in the design
 process to challenge the status quo that a voice assistant
 should have a female persona and voice. This is a
-socially-aware lens applied to development. 
+socially-aware lens applied to development.
 
 Beyond the “target users” of a product, we should also
 consider who would be impacted by others’ use of the product
@@ -110,12 +110,12 @@ via an **expansive stakeholder analysis**. This process is
 augmented by **codesign** wherein community members are
 treated as equal collaborators in the design process via a
 participatory approach. Participants were paid a “meaningful
-honorarium” for their engagement. 
+honorarium” for their engagement.
 
 To empower people, reduce reinforcing existing societal
 biases, and improve the condition of others, technologies
 need to expand their scope of professional responsibility,
-as a *digital urban planner* of sorts.
+as a _digital urban planner_ of sorts.
 
 ## AI & User experience design
 
@@ -125,8 +125,8 @@ mode ripe for multi-modal interactions involving more than
 one interaction mode (e.g., voice with a screen output,
 gestures to a voice output).
 
-{% include _post_image.html 
-  src="https://user-images.githubusercontent.com/13140065/180309680-ac8c1250-c611-4c16-9f0e-e31c61ae37c4.jpg" 
+{% include _post_image.html
+  src="https://user-images.githubusercontent.com/13140065/180309680-ac8c1250-c611-4c16-9f0e-e31c61ae37c4.jpg"
   text="Image: [Roberto Nickson, Unsplash](https://unsplash.com/photos/Ddjl0Cicdr4)" %}
 
 Smart speakers use a voice UI but do not provide a natural
@@ -141,51 +141,53 @@ A balance between human-centered approaches and technical
 approaches in CS/engineering. Design involves:
 
 1. **Humans**: the end users, cognition, vision, perception,
-motor abilities, etc. 
+   motor abilities, etc.
 2. **Tasks & Activities** we want to support for the people
-   we are designing for 
+   we are designing for
 3. **Technology**: what users already have or new tech we
-might bring to them. This synthesis takes context in
-organizational and societal issues.
+   might bring to them. This synthesis takes context in
+   organizational and societal issues.
 
-## Design discovery and exploring ideas 
+## Design discovery and exploring ideas
 
 The **Design Thinking** process is outlined to the right.
 Beyond a seemingly-linear process, there are loops or steps
-back in this process. 
+back in this process.
 
 {% include _post_image.html
   src="https://user-images.githubusercontent.com/13140065/198849919-f4e708f5-cdd1-4ae1-aa84-c2fd17f1da9f.png"
   text="Five stage design thinking process" %}
 
-User experience goals include: 
+User experience goals include:
 
-1. Learnable: faster the second time 
-2. Memorable: from session to session 
+1. Learnable: faster the second time
+2. Memorable: from session to session
 3. Flexible: multiple ways to do tasks
-4. Efficient: perform tasks quickly 
+4. Efficient: perform tasks quickly
 5. Robust: minimal error rates, good feedback so user can
    recover
-6. Discoverable: learn new features over time 
-7. Pleasing: high user satisfaction 
+6. Discoverable: learn new features over time
+7. Pleasing: high user satisfaction
 8. Fun
 
 User-centered design involves:
+
 1. Cognitive abilities: perception, physical manipulation,
    memory
-2. Organizational/education job abilities 
+2. Organizational/education job abilities
 3. Keeping users involved throughout: developers working
-with target customers, think of the world in the users’
-terms 
+   with target customers, think of the world in the users’
+   terms
 
 Accessible design involves catering to:
+
 1. Different abilities: vision, hearing, cognitive, mobility
-(e.g., blind users with screen readers)
+   (e.g., blind users with screen readers)
 2. Moral and ethical purpose: inclusive design benefits
-everyone (e.g., sidewalk curb cuts)
+   everyone (e.g., sidewalk curb cuts)
 3. Legal guidance: Americans with Disabilities Act (ADA)
-which includes websites and apps per the Department of
-Justice
+   which includes websites and apps per the Department of
+   Justice
 
 Needfinding involves observing existing practices for
 inspiration making sure that key questions are answered
@@ -196,7 +198,7 @@ user rather than the specific UI, a relatively quick and
 inexpensive process that forces us to think about how the
 user will actually use the app.
 
-### Rapid prototyping & evaluation 
+### Rapid prototyping & evaluation
 
 Rapid prototypes allow us to build a mock-up of a design so
 it can be tested, typically taking the form of paper
@@ -211,8 +213,8 @@ evaluation (heuristic evaluation).
 
 ## Successful Brainstorming
 
-Based on Susan Adams's "*4 Steps to Successful
-Brainstorming*" [Adams 2013].
+Based on Susan Adams's "_4 Steps to Successful
+Brainstorming_" [Adams 2013].
 
 {% include _single_download.html name="📜 [Adams 2013] PDF
   from Medium.com (355 KB)"
@@ -228,23 +230,23 @@ on the objectives of the group. Keeney’s four steps to
 effective brainstorming are:
 
 1. Lay out the problem you want to solve. Identify the
-objectives, evaluate the alternatives (pushing until five
-such alternatives are found), and select the best option.
+   objectives, evaluate the alternatives (pushing until five
+   such alternatives are found), and select the best option.
 2. Identify the objectives of a possible solution. Going
-into details about the requirements and not potential
-solutions makes the forthcoming brainstorming sessions more
-successful.
+   into details about the requirements and not potential
+   solutions makes the forthcoming brainstorming sessions more
+   successful.
 3. Try to generate solutions individually. Before heading to
-the group, brainstorm solutions individually to avoid
-‘anchoring’ to a particular solution/objective to the
-exclusion of other goals for the team.
+   the group, brainstorm solutions individually to avoid
+   ‘anchoring’ to a particular solution/objective to the
+   exclusion of other goals for the team.
 4. After the prior steps, work as a group. Use the
-objectives, problem statements, and individual solutions to
-facilitate a more productive brainstorming session.
+   objectives, problem statements, and individual solutions to
+   facilitate a more productive brainstorming session.
 
-## Beyer, *Contextual Design - Defining Customer-Centered Systems*
+## Beyer, _Contextual Design - Defining Customer-Centered Systems_
 
-Based on Hugh Beyer and Karen Holtzblatt's *Contextual Design - Defining Customer-Centered Systems*.
+Based on Hugh Beyer and Karen Holtzblatt's _Contextual Design - Defining Customer-Centered Systems_.
 
 {% include _single_download.html name="📜 [Beyer and
   Holtzblatt] PDF on my Google Drive (request access)"
@@ -323,7 +325,7 @@ which it makes sense. [Beyer, Contextual Design, p. 63]"%}
 Beyer outlines a structure for contextual interviews that
 Landay discusses in detail in lecture.
 
-## Stanford d.school's *Empathy Fieldguide*
+## Stanford d.school's _Empathy Fieldguide_
 
 This PDF is a comprehensive book detailing how to get out
 there and talk to people to ground product development and
@@ -457,8 +459,8 @@ will evoke stories that bring out emotion in the interview
 participant. (We prefer to use the word **participant** over
 the term **subject** when working with humans.)
 
-*Image: The structure of an interview closely follows that
-of a story told in prose, film, etc.*
+_Image: The structure of an interview closely follows that
+of a story told in prose, film, etc._
 
 {% include _post_image.html
   src="https://user-images.githubusercontent.com/13140065/229276025-9eda8502-324e-4c70-b870-47bef2ce4468.png"
@@ -472,33 +474,33 @@ sharing more about themselves and their lives. Interview
 questions in this **background** phase can take on many
 forms:
 
-* Background: “Tell me about what you do here.”
-* Sequence: “Walk me through your day yesterday... then what
+- Background: “Tell me about what you do here.”
+- Sequence: “Walk me through your day yesterday... then what
   did you do next?”
-* Physical tour: “Take me on a tour of how you build the
+- Physical tour: “Take me on a tour of how you build the
   panels...”
-* Virtual tour: “Walk me through your sales process from the
+- Virtual tour: “Walk me through your sales process from the
   beginning...”
-* Participation: “Can you show me exactly how you prepare a
+- Participation: “Can you show me exactly how you prepare a
   customer bid?”
-* Exhaustive list: “What are the different municipalities
+- Exhaustive list: “What are the different municipalities
   where you sell?”
 
 After setting the scene, it’s important to still **build
 rapport** with a user. Questions can take the form of:
 
-* Naive outsider perspective: “I’m not from LA, how does the
+- Naive outsider perspective: “I’m not from LA, how does the
   housing market work here?”
-* Changes over time: “How are things different than they
+- Changes over time: “How are things different than they
   were last year?”
-* Reflecting back: “So, what I hear you saying is... is that
+- Reflecting back: “So, what I hear you saying is... is that
   right?” (clarifying an assumption or an identified feeling
   of the participant)
-* Quantity: “How many of your competitors fall into that
+- Quantity: “How many of your competitors fall into that
   category?”
-* Tasks and organizational structures: “Can you draw me a
+- Tasks and organizational structures: “Can you draw me a
   diagram of your organization chart?”
-* Native language: “Why do you call your office ‘the command
+- Native language: “Why do you call your office ‘the command
   post’?”
 
 During the rest of the interview, always be prepared to
@@ -515,12 +517,12 @@ interview, **reflect** on salient patterns and interesting
 findings, assumptions, or contractions that came up for you
 during the interview process. A few guiding questions:
 
-* Point to their reaction: “Why do you roll your eyes when
+- Point to their reaction: “Why do you roll your eyes when
   you say that?”
-* Suggestive opinion: “Some people have very negative
+- Suggestive opinion: “Some people have very negative
   feelings about emotional sales pitches. What are your
   feelings about it?”
-* Contradictions: “You tell me you can sell ice cubes to
+- Contradictions: “You tell me you can sell ice cubes to
   Eskimos, but you also tell me you have a deep concern for
   your customers. How do these two work together?”
 
@@ -626,28 +628,28 @@ A four sentence structure:
 
 ###### Example: Point-of-View for jeans user
 
-*  **We met** Chuck, a young millennial living in an
-   apartment in SoCal. 
-*  **We were surprised to notice** that he says he cares
-   about his jeans, but he doesn’t wash them often. 
-*  **We wonder if this means** that he believes the best way
-   to protect his jeans is to not wash them. 
-*  **It would be game-changing to** help him care for his
-   clothes while keeping them clean.
+- **We met** Chuck, a young millennial living in an
+  apartment in SoCal.
+- **We were surprised to notice** that he says he cares
+  about his jeans, but he doesn’t wash them often.
+- **We wonder if this means** that he believes the best way
+  to protect his jeans is to not wash them.
+- **It would be game-changing to** help him care for his
+  clothes while keeping them clean.
 
 A second example of a good POV:
 
 ###### Example: Joel and art collection
 
-* **We met** Joel, a guy in his 20s with a good job and a
+- **We met** Joel, a guy in his 20s with a good job and a
   new apartment.
-* **We were surprised to notice** that he worried his taste
+- **We were surprised to notice** that he worried his taste
   was unrefined when the pieces he liked didn’t align with
   the more expensive prices.
-* **We wonder** if this means **that Joel views art as
+- **We wonder** if this means \*\*that Joel views art as
   fashion on the wall: it’s about what his friends are going
   to think about his taste.
-* **It would be game-changing to** help buyers to cut
+- **It would be game-changing to** help buyers to cut
   through the paralysis of doubt.
 
 Affinity diagramming helps find important information by
@@ -657,7 +659,7 @@ work well. Empathy maps are another technique.
 The “yes and...” technique from improv helps generate new
 ideas without judgment. (See [Ideate](#ideate).) At this
 stage of **_Define_** we are still not focused on one
-solution. 
+solution.
 
 <!-- *Image: Empathy maps include observations from what
 participants say and do, and move to inferences of what
@@ -688,7 +690,7 @@ Evaluating a POV is done on four dimensions:
    emotional and flows logically from what you learned?
 4. Does your POV help you generate many ideas immediately?
 
-<!-- TODO *Image: Evaluating POV statements’ quality. 
+<!-- TODO *Image: Evaluating POV statements’ quality.
 Various quality of POV statements.*
 <img src="images/image3.png" width="" alt="alt_text"
       title="image_tooltip"> <img src="images/image4.png"
@@ -701,7 +703,7 @@ width="" alt="alt_text" title="image_tooltip"> <img
 
 ## Eisenmann, Early Customer Research
 
-{% include _single_download.html 
+{% include _single_download.html
     name="📄 Eisenmann, Early Customer Research.pdf (555 kb)"
     url="https://github.com/p13i/p13i.github.io/files/9986563/Eisenmann.Early.Customer.Research.pdf"%}
 
@@ -761,29 +763,28 @@ Note: There’s a lot more content in this presentation PDF
 about how to develop interview questions, different forms of
 quantitative vs. qualitative research methods, how to
 conduct an interview, etc. Many of the themes are similar to
-*Beyer, Contextual Design - Defining Customer-Centered
-Systems.pk.pdf* but Stok’s presentation has a lot more
+_Beyer, Contextual Design - Defining Customer-Centered
+Systems.pk.pdf_ but Stok’s presentation has a lot more
 detail and examples. Stok discusses survey structures (p.
 27), comparative/competitive analysis, user testing of
 competitors’ offerings, and developing user personas.
-
 
 ## Review on unpacking data into POV statements
 
 ###### Example: Really good POV statement. [Brackets] are my notes.
 
-* **We met...** a young female [demographics] truck owner
+- **We met...** a young female [demographics] truck owner
   [characteristic], with an ME background [education], who
   loves owning her truck and learning about it [her
   passions].
-* **We were surprised to notice...** she sometimes blindly
+- **We were surprised to notice...** she sometimes blindly
   trusts [say/do, surprise against ME background] whatever
   the mechanics say [behavior] so as not to reveal how
   little she knows about her vehicle [why that behavior].
-* **We wonder if this means...** she is trying to protect
+- **We wonder if this means...** she is trying to protect
   [inference] her persona and confidence [feelings] as a
   truck owner.
-* **It would be game changing to...** provide a detailed and
+- **It would be game changing to...** provide a detailed and
   accessible way [solution space, but not specific] for her
   to learn about truck mechanics in a style that doesn’t
   make her feel self-conscious [counters negative feeling
@@ -803,43 +804,43 @@ instead of an open exploration.
 
 ###### Example: A good POV: Janice with kids at the airport. [Brackets] are my notes.
 
-* **We met** Janie, a harried mother of 3, [persona] rushing
+- **We met** Janie, a harried mother of 3, [persona] rushing
   through the airport only to wait hours [pain point] at the
   gate.
 
-* **We were surprised** to notice that she makes up many
+- **We were surprised** to notice that she makes up many
   games to entertain her children [observation on
   do/behavior].
 
-* **We wonder if** she is stressed [inference on feeling]
+- **We wonder if** she is stressed [inference on feeling]
   that the kids will irritate fellow passengers if she’s
   unable to distract them [pain point].
 
-* **It would be game changing to** bring other passengers
+- **It would be game changing to** bring other passengers
   and airport facilities [broad enough audience] into
   helping families [broad audience] have a better travel
-  experience [broad enough goal for ideation]. 
+  experience [broad enough goal for ideation].
 
 “How might we” (HMW) statements for this POV can include
-(see , p. 29), inspired by **_generators_**: 
+(see , p. 29), inspired by **_generators_**:
 
 ###### Example: Generators and example HMWs for Janice
 
-* _Breaking the POV into pieces:_ 
-    - HMW entertain kids? HMW slow a mom down?
-* _Amp up the good or remove the bad:_ 
-    - HMW separate kids from fellow passengers?
-* _Explore the opposite_ 
-    - HMW make the wait the most exciting part of the trip?
-* _Go after adjectives_ 
-    - HMW we make the rush refreshing instead of harrying?
-* _Identify unexpected resources_ 
-    - HMW leverage free time of fellow passengers to share
-      the load?
-* _Create an analogy from need or context_ 
-    - HMW make the airport like a spa?
-* _Change a status quo_ 
-    - HMW make playful, loud kids less annoying? 
+- _Breaking the POV into pieces:_
+  - HMW entertain kids? HMW slow a mom down?
+- _Amp up the good or remove the bad:_
+  - HMW separate kids from fellow passengers?
+- _Explore the opposite_
+  - HMW make the wait the most exciting part of the trip?
+- _Go after adjectives_
+  - HMW we make the rush refreshing instead of harrying?
+- _Identify unexpected resources_
+  - HMW leverage free time of fellow passengers to share
+    the load?
+- _Create an analogy from need or context_
+  - HMW make the airport like a spa?
+- _Change a status quo_
+  - HMW make playful, loud kids less annoying?
 
 A strong HMW question involves at least three of: who, what,
 when, where, or why.
@@ -1008,7 +1009,7 @@ features will work together and they allow us to get
 feedback via a visual demonstration from users. Having
 concrete artifacts helps designers settle competing
 ideas/conflicts and converge to better task definitions and
-UIs. 
+UIs.
 
 ## Video prototypes
 
@@ -1026,7 +1027,7 @@ roles (people involved), scenes (context of use), and props
 
 # Design Exploration
 
-## Buxton, *Sketching the User Experience*
+## Buxton, _Sketching the User Experience_
 
 {% include _single_download.html name="📄 Buxton, Sketching
   the User Experience on my Google Drive (request access)"
@@ -1072,7 +1073,7 @@ required to render the intended purpose or concept. More so
 than eliminating details, we focus on specific details to
 amplify those features that are most important.
 
-{% include _callout.html 
+{% include _callout.html
     text="Jobs: Focusing is about saying no." %}
 
 Some parts of this lecture on design sketching borrow from
@@ -1094,17 +1095,17 @@ about, including:
 
 ###### Listing: Examples of values in design
 
-* Efficiency
-* Privacy
-* Beauty
-* Truth
-* Justice
-* Equity
-* Safety
-* Transparency
-* Accountability
-* Inclusion
-* Sustainability
+- Efficiency
+- Privacy
+- Beauty
+- Truth
+- Justice
+- Equity
+- Safety
+- Transparency
+- Accountability
+- Inclusion
+- Sustainability
 
 These values emerge from the designer’s understanding of a
 situation starting with definitions and specifications for
@@ -1124,8 +1125,8 @@ Values unintentionally crop up in a product via
 standardization (who the standard user is), power, and
 discriminations and form our default assumptions. Bias takes
 the form of _preexisting bias (from community), technical
-bias (from technology), _and_ emergent bias (from
-interaction with the system)_.
+bias (from technology), \_and_ emergent bias (from
+interaction with the system)\_.
 
 A “standard user” takes on dimensions of gender, age,
 ability, race, zip code, access to technology, and needs
@@ -1162,7 +1163,7 @@ complementary frameworks exist in HCI to aid in these goals.
 
 ## Pre-lecture readings
 
-{% include _single_download.html 
+{% include _single_download.html
     name="📄 Duyne 2006, Involving Customers in Iterative Design.pdf on my Google Drive"
     url="https://drive.google.com/file/d/1GPwYBLkxsKWYIeUdfa0uEUo0Jwqf1NiE/view"%}
 
@@ -1213,7 +1214,7 @@ generally be 20%.
 
 ## Lecture
 
-<!-- TODO 
+<!-- TODO
 ###### Image: Hanging Chad problem on the Florida 2000 ballot. It’s redesign:
 <img src="images/image8.png" width="" alt="alt_text"
 title="image_tooltip"> -->
@@ -1250,7 +1251,7 @@ distance.
 you are trying to call attention to the difference!" %}
 
 Small multiples of the same object can vary in one dimension
-(say color) to highlight differences. 
+(say color) to highlight differences.
 
 <!-- TODO
 ###### Images: Use of visual changes in small multiples to highlight differences
@@ -1307,177 +1308,178 @@ information.
 
 Other tidbits:
 
-* Art of Balance: Promotion & demotion of important objects
-* First Question for any design: what are the most important
+- Art of Balance: Promotion & demotion of important objects
+- First Question for any design: what are the most important
   things?
-* Information should be prioritized based on how important
+- Information should be prioritized based on how important
   it should be when people see it.
-* Visual hierarchy: guides people to look how they want in
+- Visual hierarchy: guides people to look how they want in
   their own hierarchy.
 
 # Designing the Future: Early and Future Visions of HCI
 
 ## Lecture
 
-* The first read, above the fold 
-* Grouping from color gradients, and font sizes, on virgin
-  america website
+- The first read, above the fold
+- Grouping from color gradients, and font sizes, on virgin
+america website
 <!-- TODO ![alt_text](images/image14.png) -->
-* Buttons for plus and minus are small compared to the size
+- Buttons for plus and minus are small compared to the size
   of the box => Fitt’s Law about how fast you can hit
   targets on a UI
-* Missing summary of what data I’ve entered already
-* Landay: Hall of Fame:
-    * Minimalist design with large and simple instructions
-    * Whitespace shows what is important/related
-    * Automatic location setting
-    * large calendar for easy/fast date selection because
-      the buttons are large (Fitt’s Law)
-* Shake Shack iPhone app:
-    * No clear way to navigate to the next screen
-    * Icons are clear and representative
-    * May be too many screens
-    * Only using one color: but for two things:
-        * For selection of items as well as checking out
-        * One highlight color with their images =>
-          recommended by Landay to carefully think if more
-          colors are necessary
-    * No place to comment on Allergens, etc. 
-    * Design pattern: cross-sale of Fries etc. on screen 9.
-      “Would you like fries with that?” Landay not sure what
-      the right way do it is.
-    * Bug: no “no sauce” button, at 11pm the app didn’t work
-      because the store may have closed
-    * Price jumped right before checkout (no tax)
-    * Landay:
-        * Photography and food aesthetic is good
-        * Simple icons
-        * whitespace shows what is important
+- Missing summary of what data I’ve entered already
+- Landay: Hall of Fame:
+  - Minimalist design with large and simple instructions
+  - Whitespace shows what is important/related
+  - Automatic location setting
+  - large calendar for easy/fast date selection because
+    the buttons are large (Fitt’s Law)
+- Shake Shack iPhone app:
 
-* Why should I care?
-    * We should know the history of the field and what’s
-      influenced today.
-    * Visionaries of the field were 20-40 years ahead.
-    * Visions of the future that have arrived and haven’t
-    * Push myself to think of a vision that’s far ahead in
-      projects and in my careers
-* Wizard-Of-Oz technique
-    * Faking the interaction via a person or system that
-      hasn’t been implemented yet.
-    * Make it appear as if there’s something powerful behind
-      what’s happening, like in the film
-    * Tradition in CS industry:
-        * prototype of a PC with a DEC VAX (minicomputer)
-          behind the curtain
-    * Can test the application before making it: important
-      for hard-to-implement features
-    * Carbon Shopper with Pico projector:
-    * Hardcode data to give a “flavor of how it will work”
-    * Want to see the working user interface by faking the
-      back-end/data stuff.
-* Computing in 1945
-    * Hardvard mark I and ENIAC: women were the first
-      programmers (“computers”)
-    * Mary Keller: first CS PhD (from U of Wisconsin)
-* Bush and “As We May Think”
-    * Vannevar Bush kicked of Big Science:
-        * MIT Faculty member
-        * Coordinated WWII scientific effort
-        * Social contract for science:
-            * Federal government funds universities
-            * universities do basic research
-            * Helps economy & national defense
-        * Analog computers: differential equations
-    * “As we may think” written in 1942-1943, published in
-      The Atlantic in 1945:
-        * “selection” for search
-        * connecting articles together via ‘hyperlinks’
-    * Futuristic inventions/trends?
-        * wearable computers to record life
-        * encyclopedia for a nickel
-        * automatic transcripts of speech:
-            * Landay: 2014 with deep learning is when speech
-              recognition got a high enough  accuracy
-        * trails of discovery
-        * capture of nerve impulses
-        * memex:
-            * had large monitors for reading (didn’t exist
-              then!)
-            * scanners
-            * controls
-            * Styluses
-        * Drawers for storage using Micro Fish
-        * Bush: wrong about photographic storage, missed
-          digital technologies, didn’t see
-          non-science/non-office apps
-        * Predicting -> Inventing the Future
-* Computing in 1965
-    * Hidden Figures [Shetterly] advanced much of
-      programming of computers at NASA
-* Engelbart & Augmenting Intellect
-    * “Conceptual Model for Augmenting Human Intellect”
-      (1962)
-        * Complexity of problems is increasing -> new tools
-          needed
-    * Stanford Research Institute (SRI) in the 1960s:
-        * Johns Hopkins Applied Physics Lab
-        * Many in Boston associated with MIT
-        * Worked at NASA precursor (NACA) at Ames in
-          Mountain View
-    * Turning Award of 1997
-    * Demoed NLS (oNLine System), 1968 Fall Joint Computer
-      Conference (in SF Civic Center) => “mother of all
-      demos” => affected industry for next 30 years. (In
-      Stanford Libraries, hours of footage(
-    * Most known for inventing the mouse:
-    * Has hyperlinks in text-based UI
-    * Inventions:
-        * First 2D editing and windows (different sections
-          of independent text)
-        * First mouse
-        * First hypertext
-        * First word processing
-        * First document version controlFirst groupware
-          (shared screen teleconferencing)
-        * Find context-sensitive help in the UI
-        * First distributed client-server model
-        * And about 30 different key concepts that show up
-          in our computers today
-    * Tricycles vs. bicycles: specialized tools
-        * Tricycles doesn’t take much time to learn it
-        * Bicycles require learning of balance:
-            * Benefit: faster, more complex terrain
-            * Englebart: we are losing sight of making
-              powerful goals instead of just more usable
-    * More reading:
-        * Bardini 2000: Bootstrapping
-        * Program on Human Effectiveness
-        * Tools for Thought
-* SketchPad, Dynabook, Xerox Star
-    * Sutherland: 
-        * MIT PhD student
-        * GUI from Sutherland
-        * All the basics for computer graphics, AR/VR&lt;
-          etc.
-        * CAD: graphical constraints (1962) took until 1990s
-        * AR/VR: mechanical tracking and sonic tracking
-          (first AR/VR from 1965)
-    * Alan Kay (1974): Dynabook
-    * Xerox Star: 1st commercial GUI (1981): $20k cost =>
-      failure:
-        * Desktop, word processor via GUI (WYSIWYG)
-        * Laser Printer
-        * Ethernet
-        * Copied by Jobs after he toured the center
-* Projects that push more will be considered well
-* Midterm
-    * everything through conceptual models and interface
-      metaphors (week 7 lecture 13)
-    * multi part design problem.. less facts and more
-      demonstrating aspects of design)
-    * 3 hour clock over a 48 hour period. oae exceptions.
-* CodeX app due Feb 24
-* Bauhaus Typography at 100: A Letterform Archive Exhibition
+  - No clear way to navigate to the next screen
+  - Icons are clear and representative
+  - May be too many screens
+  - Only using one color: but for two things:
+    - For selection of items as well as checking out
+    - One highlight color with their images =>
+      recommended by Landay to carefully think if more
+      colors are necessary
+  - No place to comment on Allergens, etc.
+  - Design pattern: cross-sale of Fries etc. on screen 9.
+    “Would you like fries with that?” Landay not sure what
+    the right way do it is.
+  - Bug: no “no sauce” button, at 11pm the app didn’t work
+    because the store may have closed
+  - Price jumped right before checkout (no tax)
+  - Landay:
+    - Photography and food aesthetic is good
+    - Simple icons
+    - whitespace shows what is important
+
+- Why should I care?
+  - We should know the history of the field and what’s
+    influenced today.
+  - Visionaries of the field were 20-40 years ahead.
+  - Visions of the future that have arrived and haven’t
+  - Push myself to think of a vision that’s far ahead in
+    projects and in my careers
+- Wizard-Of-Oz technique
+  - Faking the interaction via a person or system that
+    hasn’t been implemented yet.
+  - Make it appear as if there’s something powerful behind
+    what’s happening, like in the film
+  - Tradition in CS industry:
+    - prototype of a PC with a DEC VAX (minicomputer)
+      behind the curtain
+  - Can test the application before making it: important
+    for hard-to-implement features
+  - Carbon Shopper with Pico projector:
+  - Hardcode data to give a “flavor of how it will work”
+  - Want to see the working user interface by faking the
+    back-end/data stuff.
+- Computing in 1945
+  - Hardvard mark I and ENIAC: women were the first
+    programmers (“computers”)
+  - Mary Keller: first CS PhD (from U of Wisconsin)
+- Bush and “As We May Think”
+  - Vannevar Bush kicked of Big Science:
+    - MIT Faculty member
+    - Coordinated WWII scientific effort
+    - Social contract for science:
+      - Federal government funds universities
+      - universities do basic research
+      - Helps economy & national defense
+    - Analog computers: differential equations
+  - “As we may think” written in 1942-1943, published in
+    The Atlantic in 1945:
+    - “selection” for search
+    - connecting articles together via ‘hyperlinks’
+  - Futuristic inventions/trends?
+    - wearable computers to record life
+    - encyclopedia for a nickel
+    - automatic transcripts of speech:
+      - Landay: 2014 with deep learning is when speech
+        recognition got a high enough accuracy
+    - trails of discovery
+    - capture of nerve impulses
+    - memex:
+      - had large monitors for reading (didn’t exist
+        then!)
+      - scanners
+      - controls
+      - Styluses
+    - Drawers for storage using Micro Fish
+    - Bush: wrong about photographic storage, missed
+      digital technologies, didn’t see
+      non-science/non-office apps
+    - Predicting -> Inventing the Future
+- Computing in 1965
+  - Hidden Figures [Shetterly] advanced much of
+    programming of computers at NASA
+- Engelbart & Augmenting Intellect
+  - “Conceptual Model for Augmenting Human Intellect”
+    (1962)
+    - Complexity of problems is increasing -> new tools
+      needed
+  - Stanford Research Institute (SRI) in the 1960s:
+    - Johns Hopkins Applied Physics Lab
+    - Many in Boston associated with MIT
+    - Worked at NASA precursor (NACA) at Ames in
+      Mountain View
+  - Turning Award of 1997
+  - Demoed NLS (oNLine System), 1968 Fall Joint Computer
+    Conference (in SF Civic Center) => “mother of all
+    demos” => affected industry for next 30 years. (In
+    Stanford Libraries, hours of footage(
+  - Most known for inventing the mouse:
+  - Has hyperlinks in text-based UI
+  - Inventions:
+    - First 2D editing and windows (different sections
+      of independent text)
+    - First mouse
+    - First hypertext
+    - First word processing
+    - First document version controlFirst groupware
+      (shared screen teleconferencing)
+    - Find context-sensitive help in the UI
+    - First distributed client-server model
+    - And about 30 different key concepts that show up
+      in our computers today
+  - Tricycles vs. bicycles: specialized tools
+    - Tricycles doesn’t take much time to learn it
+    - Bicycles require learning of balance:
+      - Benefit: faster, more complex terrain
+      - Englebart: we are losing sight of making
+        powerful goals instead of just more usable
+  - More reading:
+    - Bardini 2000: Bootstrapping
+    - Program on Human Effectiveness
+    - Tools for Thought
+- SketchPad, Dynabook, Xerox Star
+  - Sutherland:
+    - MIT PhD student
+    - GUI from Sutherland
+    - All the basics for computer graphics, AR/VR&lt;
+      etc.
+    - CAD: graphical constraints (1962) took until 1990s
+    - AR/VR: mechanical tracking and sonic tracking
+      (first AR/VR from 1965)
+  - Alan Kay (1974): Dynabook
+  - Xerox Star: 1st commercial GUI (1981): $20k cost =>
+    failure:
+    - Desktop, word processor via GUI (WYSIWYG)
+    - Laser Printer
+    - Ethernet
+    - Copied by Jobs after he toured the center
+- Projects that push more will be considered well
+- Midterm
+  - everything through conceptual models and interface
+    metaphors (week 7 lecture 13)
+  - multi part design problem.. less facts and more
+    demonstrating aspects of design)
+  - 3 hour clock over a 48 hour period. oae exceptions.
+- CodeX app due Feb 24
+- Bauhaus Typography at 100: A Letterform Archive Exhibition
   until April 27 in San Francisco.
 
 # Human Abilities
@@ -1542,38 +1544,38 @@ H10: Help and documentation: better if the system can be
 used without documentation but it may be necessary. How:
 easy to search, focused on tasks, list concrete steps.
 
-H11*: Accessible: users can interact with the system using
+H11\*: Accessible: users can interact with the system using
 alternative input methods. Content is legible with
 distinguishable contrast and text size. Key information is
 upfront and not next for screen readers. Purely visual or
 auditory content has text-based alternatives for users with
 low vision and low hearing.
 
-H12*: Fairness and inclusion: Users shouldn’t feel like the
+H12\*: Fairness and inclusion: Users shouldn’t feel like the
 design isn’t made for them. The design should meet all
 users’ needs equally and prevent the reproduction of
 pre-existing inequities. It should not create additional
 burdens for members of disadvantaged populations.
 
-H13*: Value alignment: The design should encode values that
+H13\*: Value alignment: The design should encode values that
 users can understand and relate to. Conflicting collateral
 values should not emerge when the user interacts with the
 product. Encoded values should match users’ values in a
-broad set of contexts. (See 
+broad set of contexts. (See
 
 Listing: Examples of values in design
 
 <!-- TODO <img src="images/image15.png" width="" alt="alt_text"
 title="image_tooltip"> -->
 
-* In consistent colors for text (red vs. black)
-* In consistent or extra spacing
-* Price vs. total doesn’t make sense
-* “h” value is accepted into the input
-* yes and no are both checkboxes
-* inconsistent highlighting of table rows
-* black on blue text
-* red font means different things
+- In consistent colors for text (red vs. black)
+- In consistent or extra spacing
+- Price vs. total doesn’t make sense
+- “h” value is accepted into the input
+- yes and no are both checkboxes
+- inconsistent highlighting of table rows
+- black on blue text
+- red font means different things
 
 Summary:
 
@@ -1589,22 +1591,22 @@ Exercise:
 <!-- <img src="images/image16.png" width="" alt="alt_text"
 title="image_tooltip"> -->
 
-* inconsistent colors
-* bad color contrasts
-* null, unsable
-* inconsistent fonts
-* no back button
-* no system status
-* Create message vs. send text - technical language
-* Bad font choice: I looks like J
-* recognition vs. recall for sending who you are texting
+- inconsistent colors
+- bad color contrasts
+- null, unsable
+- inconsistent fonts
+- no back button
+- no system status
+- Create message vs. send text - technical language
+- Bad font choice: I looks like J
+- recognition vs. recall for sending who you are texting
 
 <!-- <img src="images/image17.png" width="" alt="alt_text"
 title="image_tooltip"> -->
 
 # Conceptual Models and Interface Metaphors
 
-## *Design of Everyday Things*
+## _Design of Everyday Things_
 
 Don Norman is one of the most famous HCI people. Started the
 cognitive science group at UCSD. He worked at Apple, HP,
@@ -1619,7 +1621,7 @@ phones, etc. The book includes design guidelines.
 
 ## Conceptual Models
 
-This is also called a mental model. 
+This is also called a mental model.
 
 {% include _callout.html text="A mental representation of
 how an artifact works & how the interface controls affect
@@ -1640,7 +1642,7 @@ this “actionable possibilities.”
 In 2015, the style of buttons changed into more of a flat
 design in iOS. Text isn’t considered an affordance. There
 was a trend in design from 2015 onwards to move towards flat
-UIs. 
+UIs.
 
 Poorly-designed objects have no clues, weak clues, or
 misleading clues. Signs are indications that a UI isn’t
@@ -1662,7 +1664,7 @@ the new through the system image. Mismatches between the
 designer and customer’s models cause frustration, bad
 operation, lower performance, etc.
 
-* CS 194H will be running 1:30pm to 3:30pm on Tue/Fri.
+- CS 194H will be running 1:30pm to 3:30pm on Tue/Fri.
   Continue the project or join another one to get it to app
   store quality. Practice design principles individually w/
   crit. Slower pace than CS 147, 50% more time per
@@ -1681,7 +1683,7 @@ operation, lower performance, etc.
 
 Making things more visible. If it’s not visible, people may
 get into a “mode error” (on a watch) or may not see all the
-functionality. 
+functionality.
 
 <!-- ###### In older car radios, the number of controls equals the number of functions. Controls are labeled(?) and grouped together. In the Tesla, we get no haptic feedback (and some voice feedback) mostly requiring us to look at the screen while driving.
 
@@ -1760,7 +1762,7 @@ title="image_tooltip"> -->
 
 Interfaces should be consistent in a meaningful way, for
 example the ubiquitous use of the same keys for
-cut/copy/paste. They should not be arbitrary choices. 
+cut/copy/paste. They should not be arbitrary choices.
 
 Types of consistency include:
 
@@ -1795,7 +1797,6 @@ vocabulary, knowledge, tasks. We can approximate if needed
 (e.g. doctors and medical students, engineers and students).
 We can use incentives to get participants via a t-shirt, a
 mug, or free food.
-
 
 ## Ethical considerations
 
@@ -1885,13 +1886,14 @@ number of user errors.
 
 Some measures are easy to record (e.g., time) but aspects
 like errors or ‘successful completion of tasks’ is more
-difficult, requiring such definitions made in advance. 
+difficult, requiring such definitions made in advance.
 
 Combining thinking-aloud with quantitative measurements can
 slow down the interactions.
 
 Between groups, within groups.
- - apple hci guidelines
+
+- apple hci guidelines
 
 <!-- ![alt_text](images/image28.png "image_tooltip") -->
 
@@ -1914,7 +1916,7 @@ from experience prototypes.
 
 # Appendix: Accessibility Workshop by Jianna
 
-*Social Model of Disability*
+_Social Model of Disability_
 
 Ableism is a system of oppression that favors being
 able-bodies/able-minded, frequently at the expense of people
@@ -1955,9 +1957,9 @@ POUR: Perceivable, Operable, Understandable, Robust
 VoiceOver design principles:
 
 1.  ALL elements are reachable and labeled
-2. Elements have a coherent swipe order
-3. Label heading text with “headings” to help users easily
-   navigate and explore the app
-4. Implement actions on interactable elements
-5. Add accessibility “hints” to clarify and describe
-   element’s role
+2.  Elements have a coherent swipe order
+3.  Label heading text with “headings” to help users easily
+    navigate and explore the app
+4.  Implement actions on interactable elements
+5.  Add accessibility “hints” to clarify and describe
+    element’s role

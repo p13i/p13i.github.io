@@ -1,11 +1,11 @@
 ---
 title: Symbiotic Artificial Intelligence
 categories:
-- writing
-- research
+  - writing
+  - research
 tags:
-- artificial-intelligence
-- human-computer-interaction
+  - artificial-intelligence
+  - human-computer-interaction
 author: Pramod Kotipalli
 description: An evolving catalog of what I’ve learned in
   the fields of artificial intelligence and human-computer
@@ -21,17 +21,17 @@ We are witness to the convergence of multiple scientific
 trends that will enable us humans to take control of our
 bodies like never before: CRISPR allows us humans to modify
 our own DNA, the internet augments the human memory to the
-entire sum of human *memory*, AI will allow humans to
+entire sum of human _memory_, AI will allow humans to
 process inordinate amounts of information thus increasing
-the scope of our *intuition*, and AR will increase the
+the scope of our _intuition_, and AR will increase the
 information bandwidth of our senses.
 
-It’s a matter of *when* we humans will gain full control
+It’s a matter of _when_ we humans will gain full control
 over evolution: we will soon be able to control our genetics
 and augment the brain that allowed us to become the dominant
 creatures on Earth.
 
-*Symbiotic Artificial Intelligence* is a term that
+_Symbiotic Artificial Intelligence_ is a term that
 encompasses a broad set of fields in computing. It expresses
 the principle that humans and machines can learn from each
 other in a way that improves the way humans live and work in
@@ -43,14 +43,15 @@ For our purposes, the word “machine” can be used
 interchangeably with “computer.”
 
 Symbiotic AI can take many forms:
-* a 12 year old spending the entire day with her smartphone
+
+- a 12 year old spending the entire day with her smartphone
   being able to research any fact from all of human
   knowledge after just a few taps, or
-* a student using a Remembrance Agent [[Rhodes
-  1997]](https://paperpile.com/c/mpEskP/0nl3) to
+- a student using a Remembrance Agent [[Rhodes
+1997]](https://paperpile.com/c/mpEskP/0nl3) to
   automatically pull up meeting notes with every person he’s
   ever met, or
-* a “Borg” like creature (see *Star Trek: Voyager*) merging
+- a “Borg” like creature (see _Star Trek: Voyager_) merging
   man and literal metal into one being.
 
 In this document, I will investigate non-invasive forms of
@@ -73,13 +74,13 @@ acceptable than implanted devices for the time being.
 
 # Human-Machine Symbiosis
 
-## Closing the loop between *intention* and *action*
+## Closing the loop between _intention_ and _action_
 
 The first, and perhaps most important, principle of
 Symbiotic AI is of reducing the time (and effort) between
 intention and action. Once the time between intent and
 action reduces below two seconds, we are able to start
-forming habits. 
+forming habits.
 
 Reducing this delta is the premise behind a multi-billion
 dollar online shopping industry: Amazon’s patented 1-Click
@@ -92,7 +93,7 @@ order common consumables. Once a habit is formed, it’s
 ingrained, it’s useful, and it’s profitable (for those of
 that persuasion).
 
-*The distance between action and intent*: It’s a key concept
+_The distance between action and intent_: It’s a key concept
 for the melding of men and machines, humans and AI. Reduce
 the overhead of a communication bridge or the time to act on
 a thought. Then habits are formed and we get closer to
@@ -107,15 +108,16 @@ and permanent way; the two “halves” of our brains are no
 longer the “left” or “right” but instead the biological we
 are given and the digital we use to voluntarily augment our
 memory and communication. Maes provides a compelling way to
-think about 
+think about
 
 The interface between our biological and digital worlds is
 currently mediated by smartphones and laptops. These
 interfaces are marked by three fundamental problems:
-* I/O bandwidth is limited,
-* they requires our complete attention, disengaging us from
+
+- I/O bandwidth is limited,
+- they requires our complete attention, disengaging us from
   the physical world,
-* they serve to distract us quite often as they aren’t
+- they serve to distract us quite often as they aren’t
   necessarily designed for the goals of people in mind.
 
 Different apps on phones are designed to distract you as
@@ -130,12 +132,13 @@ that we will become one with the computer, but we must
 redesign the experience of how we interact with their
 digital devices. In this direction, Maes argues for a new
 approach built upon three pillars:
-* A system aware of context and a user’s internal state. It
+
+- A system aware of context and a user’s internal state. It
   pays attention to what the user is paying attention to, to
   brain activity, heart rate, breathing rate, etc.
-* An always-on augmented interface integrated in a seamless
+- An always-on augmented interface integrated in a seamless
   and non-disruptive way.
-* A system that has its roots in proactive and personalized
+- A system that has its roots in proactive and personalized
   interaction that offers relevant information and
   intervention, given what the user is currently trying to
   do, the user’s state, and the user’s real/human goals.
@@ -149,14 +152,17 @@ more and more to help us change with time.
 
 Maes outlines four broad categories in which symbiotic
 systems can support humans:
-* Supporting Decision Making
-* Supporting Learning
-* Supporting Memory
-* Supporting Mood and Well-being
+
+- Supporting Decision Making
+- Supporting Learning
+- Supporting Memory
+- Supporting Mood and Well-being
 
 We will discuss each of these categories in the following
 chapters.
-## 
+
+##
+
 # Augmented Reality
 
 Augmented reality refers to any augmentation of our natural
@@ -173,8 +179,9 @@ Figure: [[Milgram et al.
 
 On this particular spectrum exist two primary stages of
 manipulation:
-* Augmented reality
-* Virtual reality
+
+- Augmented reality
+- Virtual reality
 
 A second, more useful spectrum exists on the scale of VR to
 AR. “True AR” encompasses a system “[fused coherently] with
@@ -188,10 +195,10 @@ demands a higher-level of realism than AR. [[Sandor et al.
 approaches to AR into four categories ranging from
 “manipulating atoms” to “manipulating perception”:
 
-* Controlled Matter
-* Surround AR
-* Personalized AR
-* Implanted AR
+- Controlled Matter
+- Surround AR
+- Personalized AR
+- Implanted AR
 
 ## The Reality-Virtuality Spectrum
 
@@ -202,14 +209,15 @@ of this subject.
 ### Real environment
 
 Simple enough to grasp, this is the real world in which we
-all reside and perceive. 
+all reside and perceive.
 
 ### Augmented reality (AR)
 
 This form of augmentation encompasses a broader scope of
 marketing terms including divided into two broad categories:
-* those involving registered graphics and
-* those involving static graphics. It’s important to note
+
+- those involving registered graphics and
+- those involving static graphics. It’s important to note
   that both static and registered graphics can still make
   use of contextual information[^footnote-3] in similar
   ways; only the mechanism of conveying such information is
@@ -224,9 +232,10 @@ et. al) known as registered AR or spatial AR.
 
 This form of AR involves placing virtual computer artifacts
 into the real world by either:
-* displaying such graphics through a traditional display
+
+- displaying such graphics through a traditional display
   (i.e. an iPhone running ARKit), or
-* displaying such graphics through a holographic display
+- displaying such graphics through a holographic display
   (i.e. a HoloLens).
 
 ![None](https://user-images.githubusercontent.com/13140065/178388916-56955326-3181-4ec1-9d11-a13d829b1804.png) A
@@ -238,11 +247,13 @@ real world. Figure:
 
 Depending on the use case, static graphics may be more
 applicable. This form involves displaying static information
-generated by a computer that *does not* include an image of
+generated by a computer that _does not_ include an image of
 the real environment.
 
 ### Virtual Reality
-### 
+
+###
+
 Virtual reality (VR) involves complete immersion in a
 virtual environment with little or none of the real
 environment available to the user.
@@ -263,7 +274,7 @@ mechanisms with which reality can be manipulated.
 Figure: [[Zambetta
 2017]](https://paperpile.com/c/mpEskP/KEbv)
 
-Think The HoloDeck from *Star Trek*: matter is created and
+Think The HoloDeck from _Star Trek_: matter is created and
 destroyed, or at the minimum photons are controlled by
 ‘force fields’ giving the impression of physical objects and
 interactions.
@@ -338,24 +349,24 @@ depending on the situation.
 Among these 8+ factors, we can see how many are engaged by
 each of the daily tasks below:
 
-|Daily situation|Primary task|Secondary task (usually optional)|Primary senses engaged|Secondary senses engaged|
-|---|---|---|---|---|
-|Brushing|Moving arm to brush teeth|N/A|Touch (active), Proprioception|N/A|
-|Driving|Driving automobile|Listen to audio (music, podcast, audiobook), converse with passengers, |Sight, Touch Proprioception, Hearing (background for emergencies)|Hearing (active)|
-|Cooking|Cooking food in a kitchen|Listen to audio (music, podcast, audiobook), converse with family or friends|Touch, Proprioception, Sight, Taste, Smell, Hearing (background, for alarms)|Hearing|
-|Household chores|Cleaning, Laundry|Listen to audio (music, podcast, audiobook)|Touch, Proprioception, Sight, Smell|Hearing|
-|Studying|Reading,Watching lectures|N/A|Sight, Hearing|N/A|
-|Watching TV or YouTube|Watching a screen|Converse with friends or family, Draw|Sight, Hearing|Hearing (background)|
-|Visiting an art museum|Walking around an art museum|(Usually quiet)|Sight, Proprioception (for walking)|N/A|
-
+| Daily situation        | Primary task                 | Secondary task (usually optional)                                            | Primary senses engaged                                                       | Secondary senses engaged |
+| ---------------------- | ---------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------ |
+| Brushing               | Moving arm to brush teeth    | N/A                                                                          | Touch (active), Proprioception                                               | N/A                      |
+| Driving                | Driving automobile           | Listen to audio (music, podcast, audiobook), converse with passengers,       | Sight, Touch Proprioception, Hearing (background for emergencies)            | Hearing (active)         |
+| Cooking                | Cooking food in a kitchen    | Listen to audio (music, podcast, audiobook), converse with family or friends | Touch, Proprioception, Sight, Taste, Smell, Hearing (background, for alarms) | Hearing                  |
+| Household chores       | Cleaning, Laundry            | Listen to audio (music, podcast, audiobook)                                  | Touch, Proprioception, Sight, Smell                                          | Hearing                  |
+| Studying               | Reading,Watching lectures    | N/A                                                                          | Sight, Hearing                                                               | N/A                      |
+| Watching TV or YouTube | Watching a screen            | Converse with friends or family, Draw                                        | Sight, Hearing                                                               | Hearing (background)     |
+| Visiting an art museum | Walking around an art museum | (Usually quiet)                                                              | Sight, Proprioception (for walking)                                          | N/A                      |
 
 Opportunities for creating truly immersive and useful
 augmented reality systems comes at the following places:
-* Look up situations in which senses are not used for a
+
+- Look up situations in which senses are not used for a
   primary task and there is no secondary task (it is N/A).
   Explore situations where these unused senses could be used
   in a secondary task.
-* Look up situations where a sense is not used in a primary
+- Look up situations where a sense is not used in a primary
   or secondary task. Explore situations where these unused
   senses could be used in a different secondary task or
   tertiary task.
@@ -385,17 +396,16 @@ flow we feel in various daily tasks.
 
 # Glossary of terms
 
-|Acronym|Term|Definition|
-|---|---|---|
-|AI|Artificial intelligence|The field of creating computer agents comparable to humans in a variety of discrete tasks ranging from image classification to automobile driving.|
-|API|Application programmers interface||
-|AR|Augmented reality||
-|HCD|Human-centered design||
-|HCI|Human-computer interaction|A field of computer science that focuses on the medium of interaction between humans and their computers.|
-|HWD|Head-worn display|Describes any display mounted on the head with information presented to the eyes and ears through a display and speakers, respectively.|
-|HUD|Heads-up display|A subset of HWDs that details |
-|VR|Virtual reality|A fully-immersive |
-
+| Acronym | Term                              | Definition                                                                                                                                         |
+| ------- | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| AI      | Artificial intelligence           | The field of creating computer agents comparable to humans in a variety of discrete tasks ranging from image classification to automobile driving. |
+| API     | Application programmers interface |                                                                                                                                                    |
+| AR      | Augmented reality                 |                                                                                                                                                    |
+| HCD     | Human-centered design             |                                                                                                                                                    |
+| HCI     | Human-computer interaction        | A field of computer science that focuses on the medium of interaction between humans and their computers.                                          |
+| HWD     | Head-worn display                 | Describes any display mounted on the head with information presented to the eyes and ears through a display and speakers, respectively.            |
+| HUD     | Heads-up display                  | A subset of HWDs that details                                                                                                                      |
+| VR      | Virtual reality                   | A fully-immersive                                                                                                                                  |
 
 # References
 
@@ -418,15 +428,13 @@ Global Computer. ](http://paperpile.com/b/mpEskP/se69)[IEEE
 Internet Computing 1](http://paperpile.com/b/mpEskP/se69)[,
 10–19.
 ](http://paperpile.com/b/mpEskP/se69)[http://dx.doi.org/10.1109/mic.1997.612209.](http://dx.doi.org/10.1109/mic.1997.612209.)
-[Milgram, P., Takemura, H., Utsumi, A., and Kishino, F.
-1995. Augmented reality: a class of displays on the
+[Milgram, P., Takemura, H., Utsumi, A., and Kishino, F. 1995. Augmented reality: a class of displays on the
 reality-virtuality continuum.
 ](http://paperpile.com/b/mpEskP/ZNyK)[Telemanipulator and
 Telepresence
 Technologies](http://paperpile.com/b/mpEskP/ZNyK)[,
 International Society for Optics and Photonics,
-282–292.](http://paperpile.com/b/mpEskP/ZNyK) [Rhodes, B.J.
-1997. The wearable remembrance agent: A system for augmented
+282–292.](http://paperpile.com/b/mpEskP/ZNyK) [Rhodes, B.J. 1997. The wearable remembrance agent: A system for augmented
 memory. ](http://paperpile.com/b/mpEskP/0nl3)[Personal
 Technologies](http://paperpile.com/b/mpEskP/0nl3)[
 ](http://paperpile.com/b/mpEskP/0nl3)[1](http://paperpile.com/b/mpEskP/0nl3)[,
@@ -453,14 +461,18 @@ fiction to a new reality.
 Conversation](http://paperpile.com/b/mpEskP/KEbv)[.
 ](http://paperpile.com/b/mpEskP/KEbv)[http://theconversation.com/star-treks-holodeck-from-science-fiction-to-a-new-reality-74839.](http://theconversation.com/star-treks-holodeck-from-science-fiction-to-a-new-reality-74839.)
 
-
 ---
 
-[^footnote-1]:  e.g. sight, vestibular, auditory, touch
-(with haptics), etc. [^footnote-2]:  e.g. an ARKit iOS
-application for playing darts:
-[https://www.youtube.com/watch?v=Dg9kcm_Li08](https://www.youtube.com/watch?v=Dg9kcm_Li08)
-[^footnote-3]:  information such as the location, time,
-people involved, retailers nearby, users nearby, etc.
-[^footnote-4]:  because it was created by the Tangible Media
-Group :)
+[^footnote-1]:
+    e.g. sight, vestibular, auditory, touch
+    (with haptics), etc. [^footnote-2]: e.g. an ARKit iOS
+    application for playing darts:
+    [https://www.youtube.com/watch?v=Dg9kcm_Li08](https://www.youtube.com/watch?v=Dg9kcm_Li08)
+
+[^footnote-3]:
+    information such as the location, time,
+    people involved, retailers nearby, users nearby, etc.
+
+[^footnote-4]:
+    because it was created by the Tangible Media
+    Group :)

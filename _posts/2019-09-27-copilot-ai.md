@@ -1,18 +1,18 @@
 ---
 title: "Intelligent agents for industrial workers"
 categories:
-- research
+  - research
 tags:
-- head-worn-displays
-- wearable-computing
-- entrepreneurship
+  - head-worn-displays
+  - wearable-computing
+  - entrepreneurship
 layout: post
 author: Pramod Kotipalli
 description: An adventure into the venture formation world
 image: "https://user-images.githubusercontent.com/13140065/155861077-bdc74ebc-bd51-441f-9745-f20fd783d2fb.png"
 downloads:
-- name: "&#128442; PDF executive summary"
-  url: "https://github.com/p13i/p13i.github.io/files/8147621/copilot-ai-executive-summary.pdf"
+  - name: "&#128442; PDF executive summary"
+    url: "https://github.com/p13i/p13i.github.io/files/8147621/copilot-ai-executive-summary.pdf"
 ---
 
 This was a business I pursued (mostly independently) from
@@ -28,7 +28,7 @@ return-on-investment (ROI) dollar amount and timeline, and
 the geographically-sparse nature of factories and warehouses
 would make this business difficult to scale exponentially
 (i.e. it would take ~20 years, like Ubimax which was aquired
-by TeamViewer after 18 years of business). 
+by TeamViewer after 18 years of business).
 
 I estimated that each factory or warehouse worker
 instrumented with a heads-up display (HUD), our integrated

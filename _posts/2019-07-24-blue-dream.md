@@ -2,19 +2,19 @@
 title: Blue Dream
 date: "2019-07-24"
 categories:
-- design
+  - design
 tags:
-- cinema-4d
-- octane-render
-- graphic-design
-- 3d-modeling
+  - cinema-4d
+  - octane-render
+  - graphic-design
+  - 3d-modeling
 layout: post
 author: Pramod Kotipalli
 description: Scene from a dream
-downloads: 
+downloads:
 image: "https://user-images.githubusercontent.com/13140065/178388879-b8602f6f-830a-4856-9be4-22cf4098b6c3.png"
 subcategories:
-- design
+  - design
 default_image_fullwidth: true
 ---
 

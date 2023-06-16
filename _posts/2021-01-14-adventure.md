@@ -3,14 +3,14 @@ title: Adventure
 date: "2021-01-14"
 description: Exploring the world
 categories:
-- photos
-- writing
+  - photos
+  - writing
 layout: post
 author: Pramod Kotipalli
 image: "https://user-images.githubusercontent.com/13140065/155815967-0968cbf1-2d06-470a-9fc2-7d3b88493cd9.jpg"
 downloads:
-- name: "\U0001F4F8 Instagram"
-  url: https://www.instagram.com/p/CKDZJJdFPFO/
+  - name: "\U0001F4F8 Instagram"
+    url: https://www.instagram.com/p/CKDZJJdFPFO/
 ---
 
 ![]({{ page.image }})

@@ -20,6 +20,7 @@ layout: compress
     {% include _stylesheets.html %}
 
     {% seo %}
+
   </head>
 
   <body data-spy="scroll" data-target="#toc">

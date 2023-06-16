@@ -2,30 +2,32 @@
 title: Twitter Sentiment Analysis
 date: "2016-08-01"
 categories:
-- engineering
+  - engineering
 tags:
-- twitter-api
-- machine-learning
-- artifical-intelligence
-- ibm-watson-api
+  - twitter-api
+  - machine-learning
+  - artifical-intelligence
+  - ibm-watson-api
 layout: post
 author: Pramod Kotipalli
 description: Understanding user sentiment to aid mental health diagnosis
 image: "https://user-images.githubusercontent.com/13140065/178387533-dd7c868a-b32d-4995-a9c4-99503e06d02c.png"
 default_image_fullwidth: true
 subcategories:
-- engineering
+  - engineering
 ---
 
 ![]({{ page.image }})
 
 # Motivation
+
 - The United States, in particular, features extremely high
   costs for healthcare
 - Public awareness and support mental health care is
   increasing
 
 # Solution created
+
 - Pipeline to gather tweets on two polar topics to
   understand users’ sentiment towards them
 - Demonstration that identifies those users who use
@@ -34,6 +36,7 @@ subcategories:
   long-term trends in user’s mental health
 
 # Pipeline overview
+
 1. Data collection: Collected nearly 4,000 tweets from the
    Twitter Developer API and labelled them based on hashtags
    present. For example, tweets containing "depressed" (or
@@ -57,6 +60,7 @@ subcategories:
    Twitter tweet language.
 
 # Technologies used
+
 - Python + Django web framework
 - scikit-learn & IBM Watson intelligence APIs
 - chart.js & Material Bootstrap

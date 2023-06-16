@@ -1,12 +1,20 @@
 <div class="card mb-3">
-    <div class="card-body">
-        <p class="card-text">
-            <small class="text-muted">{{ include.tweet.date | date_to_string }}</small>
-            <small class="text-muted float-right"><a href="#{{ include.tweet.id }}" id="{{ include.tweet.id }}">#{{ include.tweet.id }}</a></small>
-        </p>
-        <p class="card-text">{{ include.tweet.text }}</p>
-        {% if include.tweet.image %}
-            {% include _post_image.html src=include.tweet.image.src alt=include.tweet.image.alt text=include.tweet.image.alt %}
-        {% endif %}
-    </div>
+  <div class="card-body">
+    <p class="card-text">
+      <small class="text-muted"
+        >{{ include.tweet.date | date_to_string }}</small
+      >
+      <small class="text-muted float-right"
+        ><a href="#{{ include.tweet.id }}" id="{{ include.tweet.id }}"
+          >#{{ include.tweet.id }}</a
+        ></small
+      >
+    </p>
+    <p class="card-text">{{ include.tweet.text }}</p>
+    {% if include.tweet.image %} {% include _post_image.html
+    src=include.tweet.image.src alt=include.tweet.image.alt
+    text=include.tweet.image.alt %} {% endif %}
+  </div>
 </div>
+<!-- npx prettier --config .prettierrc '**/*.{json,js,jsx,ts,tsx,css,scss,md}' --write -->
+npx prettier '**/*.{json,tsx,md,html,scss,yml,yaml}' --write

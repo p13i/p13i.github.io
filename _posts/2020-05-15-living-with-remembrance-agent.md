@@ -2,12 +2,12 @@
 title: Living with a Remembrance Agent
 date: "2020-05-15"
 categories:
-- research
+  - research
 tags:
-- artificial-intelligence
-- human-computer-interaction
-- remembrance-agents
-- java
+  - artificial-intelligence
+  - human-computer-interaction
+  - remembrance-agents
+  - java
 author: Pramod Kotipalli
 description: My experiences developing a wearable and
   desktop-based remembrance agent. I also examine the impact
@@ -61,7 +61,7 @@ memory augmentation tool for a year could improve the way I
 relate to the knowledge in my brain and in my computer.
 
 I've been living and working with a memory augmentation tool
-for almost a year. 
+for almost a year.
 
 ## Background
 
@@ -75,7 +75,7 @@ a user to pursue or ignore the RA’s suggestions as desired.”
 [Rhodes 1996] originally conceived of the remembrance agent
 as an extension for the Emacs text editor. [Rhodes 1997]
 integrated the remembrance agent for use with wearable
-computers like head-worn displays. 
+computers like head-worn displays.
 
 However, I am not an active user of Emacs (I prefer
 graphical text editors). Further, there’s no remembrance
@@ -101,7 +101,7 @@ I settled on Java for this project because of its use in
 developing Android applications and its strong
 cross-platform support for graphical user interfaces (GUIs)
 through [Java
-Swing](https://en.wikipedia.org/wiki/Swing_(Java)) and
+Swing](<https://en.wikipedia.org/wiki/Swing_(Java)>) and
 [JavaFX](https://en.wikipedia.org/wiki/JavaFX).
 
 I created a no-dependency, pure-Java, Gradle-based project
@@ -111,12 +111,12 @@ interface for the “Remembrance Agent Engine” (i.e. the core
 of the project). Conceptually, there are three functions
 required to setup and interact with a remembrance agent
 
-* `void loadDocuments()` which will pull documents from all
+- `void loadDocuments()` which will pull documents from all
   the required data sources into the system,
-* `void indexDocuments()` which will perform all the
+- `void indexDocuments()` which will perform all the
   preprocessing required to efficiently produce
   contextually-useful document suggestions, and
-* `List<ScoredDocuments> determineSuggestions(Query)` which
+- `List<ScoredDocuments> determineSuggestions(Query)` which
   will take in a contextually-aware query and return a list
   of documents and their relevance scores.
 
@@ -124,7 +124,7 @@ These three functions map clearly to the
 [`IRemembranceAgentEngine`](https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/engine/IRemembranceAgentEngine.java)
 interface resting at the core of this project. The
 [implementation](https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/engine/RemembranceAgentEngine.java)
-of this interface closely follows that of [Rhodes 1997]. 
+of this interface closely follows that of [Rhodes 1997].
 
 ### Data models
 
@@ -138,11 +138,11 @@ are encapsulated in a
 [`Context`](https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/models/Context.java).
 These factors include:
 
-* the location of the user,
-* the name of the user (i.e. the
+- the location of the user,
+- the name of the user (i.e. the
   [`person`](https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/models/Context.java#L13)),
-* a short description of the subject of the query, and
-* the date this query.
+- a short description of the subject of the query, and
+- the date this query.
 
 There are numerous concrete subclasses of `AbstractDocument`
 which lend to numerous integrations like those for Gmail and
@@ -205,10 +205,9 @@ own such integrations for other Java applications.)
 ### Remembrance Agent Desktop GUI
 
 My primary interface to the remembrance agent has been
-through a desktop GUI. 
+through a desktop GUI.
 
 ![None](https://user-images.githubusercontent.com/13140065/178388914-d6ca3582-e057-4330-bc41-888776f0b965.png)
-
 
 As I go about my normal typing tasks, my keystrokes are
 recorded into the “Keylogger Buffer” at the bottom of the
@@ -250,9 +249,6 @@ faster mental recall of older documents.
 
 (More such findings will be added here with time.)
 
-
-
-
 ---
 
-[^footnote-1]:  By “passive” I simply mean that he was not putting in a conscious effort.
+[^footnote-1]: By “passive” I simply mean that he was not putting in a conscious effort.

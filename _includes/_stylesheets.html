@@ -1,9 +1,9 @@
 <!-- Site-wide styles-->
 
-<link rel="stylesheet" href="/static/css/index.css">
+<link rel="stylesheet" href="/static/css/index.css" />
 
 <!-- KaTeX: LaTeX typesetting for the web by Khan Academy -->
-<link rel="stylesheet" href="/static/katex-v0.11.1/katex.css">
+<link rel="stylesheet" href="/static/katex-v0.11.1/katex.css" />
 
 <link
   rel="stylesheet"
@@ -11,30 +11,30 @@
 />
 
 <style>
-    nav[data-toggle="toc"] {
-        top: 42px;
-    }
+  nav[data-toggle="toc"] {
+    top: 42px;
+  }
 
-    nav[data-toggle=toc] .nav>li>a {
-        font-size: 16pt;
-    }
+  nav[data-toggle="toc"] .nav > li > a {
+    font-size: 16pt;
+  }
 
-    nav[data-toggle=toc] .nav .nav>li>a {
-        font-size: 14pt;
-    }
+  nav[data-toggle="toc"] .nav .nav > li > a {
+    font-size: 14pt;
+  }
 
-    /* small screens */
-    @media (max-width: 768px) {
+  /* small screens */
+  @media (max-width: 768px) {
     /* override stickyness so that the navigation does not follow scrolling */
     nav[data-toggle="toc"] {
-        margin-bottom: 42px;
-        position: static;
+      margin-bottom: 42px;
+      position: static;
     }
 
     /* PICK ONE */
     /* don't expand nested items, which pushes down the rest of the page when navigating */
     nav[data-toggle="toc"] .nav .active .nav {
-        display: none;
+      display: none;
     }
     /* alternatively, if you *do* want the second-level navigation to be shown (as seen on this page on mobile), use this */
     /*
@@ -42,17 +42,17 @@
         display: block;
     }
     */
-    }
+  }
 
-    .bd-callout-info {
-        border-left-color: #563d7d;
-    }
-    .bd-callout {
-        padding: 1.25rem;
-        margin-top: 1.25rem;
-        margin-bottom: 1.25rem;
-        border: 1px solid #563d7d;
-        border-left-width: 0.25rem;
-        border-radius: 0.25rem;
-    }
+  .bd-callout-info {
+    border-left-color: #563d7d;
+  }
+  .bd-callout {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #563d7d;
+    border-left-width: 0.25rem;
+    border-radius: 0.25rem;
+  }
 </style>

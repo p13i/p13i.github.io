@@ -2,12 +2,12 @@
 title: Building Command Line Tools with Python
 date: "2017-07-11"
 categories:
-- writing
-- engineering
+  - writing
+  - engineering
 tags:
-- programming
-- python
-- tools
+  - programming
+  - python
+  - tools
 layout: post
 author: Pramod Kotipalli
 description: Python Makes CLIs Easier!
@@ -68,7 +68,7 @@ handle parsing the one `filename` argument and creating that
 file in the current working directory. Add this to
 `pytouch/pytouch.py`:
 
-``` python
+```python
 import sys
 
 def main():
@@ -99,7 +99,7 @@ We're going to fill out this file so that we can use `pip`
 to simply install this package. Add the following to
 `setup.py`:
 
-``` python
+```python
 from setuptools import setup
 
 setup(
@@ -137,7 +137,6 @@ Installing collected packages: pytouch
   Running setup.py install for pytouch ... done
 Successfully installed pytouch-0.0.1
 ```
-
 
 Now, if you run `pip freeze | grep pytouch`, you should see our tool!
 

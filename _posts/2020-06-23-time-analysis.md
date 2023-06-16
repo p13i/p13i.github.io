@@ -2,10 +2,11 @@
 title: Work analysis for Spring 2020
 date: "2020-06-23"
 categories:
-- writing
+  - writing
 tags:
-- time-tracking
-description: A time-tracking experiment with Memory.ai’s Timely app and a post-hoc
+  - time-tracking
+description:
+  A time-tracking experiment with Memory.ai’s Timely app and a post-hoc
   analysis of my Spring quarter at Stanford.
 author: Pramod Kotipalli
 layout: post
@@ -48,47 +49,49 @@ hours of work over the quarter is an accurate figure.
 ![Work distribution by
 day](https://user-images.githubusercontent.com/13140065/178388885-a747072e-6d1f-46a6-bc69-ff34a0a1e4d1.jpg)
 
-
 This chart presents the distribution of work by "client" for
 each day throughout the quarter. A "client" is an academic
 course, employer, research, or personal projects. The
 notable trends here are:
-  1. My hourly expenditure on the Personal Health Dashboard
-     decreased significantly as my Computer Graphics class
-     and Smart Products class took on more of my mental
-     bandwidth later on.
-  2. I tend to procrastinate work on academic assignments
-     until the few days before they are due. There are a few
-     peaks that support this claim:
 
-      * Sun. 05/03 - Mon 05/04 for Smart Products which were
-        the two days before my first assignment was due in
-        the class. There was almost no other work done
-        during that time.
+1. My hourly expenditure on the Personal Health Dashboard
+   decreased significantly as my Computer Graphics class
+   and Smart Products class took on more of my mental
+   bandwidth later on.
+2. I tend to procrastinate work on academic assignments
+   until the few days before they are due. There are a few
+   peaks that support this claim:
 
-      * Thu. 05/07 - Mon. 05/11 for my Remembrance Agent
-        project that a corporate client wanted a demo of. I
-        spent three straight days on this project working
-        about 10 hours per day to get this project to
-        completion.
+   - Sun. 05/03 - Mon 05/04 for Smart Products which were
+     the two days before my first assignment was due in
+     the class. There was almost no other work done
+     during that time.
 
-      * Mon. 05/18 - Fri. 05/22 for my Computer Graphics
-        class.
-  3. The second half of the quarter was increasing dominated
-     by Computer Graphics work as I struggled to complete
-     the challenging assignments at hand.
+   - Thu. 05/07 - Mon. 05/11 for my Remembrance Agent
+     project that a corporate client wanted a demo of. I
+     spent three straight days on this project working
+     about 10 hours per day to get this project to
+     completion.
+
+   - Mon. 05/18 - Fri. 05/22 for my Computer Graphics
+     class.
+
+3. The second half of the quarter was increasing dominated
+   by Computer Graphics work as I struggled to complete
+   the challenging assignments at hand.
 
 Some conclusions:
-  1. In this Spring 2020 quarter, I seemed to work best by
-     focusing on one task at a time and manically-hacking
-     away at the problem.
-  2. I overestimate my throughput in terms of hours spent
-     working per day. I always felt like I worked an average
-     of 8 hours per day but it looks like this
-     ‘manic-recovery' cycle actually decreases my
-     productivity overall: after high-throughput days I need
-     at least one day to recover where I only work 20-50% as
-     much as the day before.
+
+1. In this Spring 2020 quarter, I seemed to work best by
+   focusing on one task at a time and manically-hacking
+   away at the problem.
+2. I overestimate my throughput in terms of hours spent
+   working per day. I always felt like I worked an average
+   of 8 hours per day but it looks like this
+   ‘manic-recovery' cycle actually decreases my
+   productivity overall: after high-throughput days I need
+   at least one day to recover where I only work 20-50% as
+   much as the day before.
 
 Having processed these data, I realized that I need to lay
 out my priorities for this upcoming Summer very clearly and

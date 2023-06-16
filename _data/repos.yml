@@ -1,4 +1,3 @@
 - name: Converts a PDF to a folder of images
   url: https://github.com/p13i/pdf-to-images
   sloc: 28
-  

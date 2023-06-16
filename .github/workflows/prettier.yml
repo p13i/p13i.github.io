@@ -1,0 +1,39 @@
+on:
+  push:
+    branches:
+      - '**'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup repo
+        uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+          cache: npm
+
+      - name: Run prettier
+        run: make fix
+
+      - name: Make sure there are no diffs
+        run: git diff && exit $(git status --porcelain=v1 2>/dev/null | wc -l)
+
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v3
+        if: ${{ failure() }}
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: Apply prettier to ${{ github.ref_name }}
+          title: Apply prettier to ${{ github.ref_name }}
+          branch: prettier-${{ github.run_number }}
+          body: This pull request applies NPM's `prettier` formatting changes to the codebase at ${{ github.sha }}.
+          labels: auto-generated
+          reviewers: ${{ github.actor }}
+
+      - name: Store pull request number
+        if: ${{ failure() }}
+        run: echo "PR_NUMBER=${{ steps.cpr.outputs.pull-request-number }}" >> $GITHUB_ENV

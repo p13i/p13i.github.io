@@ -14,9 +14,12 @@
       <div class="card-body">
         <h5 class="card-title">{{ include.post.title }}</h5>
         <p class="card-text">
-          {{ include.post.description | truncate: 120, "..." }}
+          {{ include.post.description | truncate: 120, "..."
+          }}
         </p>
-        <p>{% include _post_tags.html post=include.post %}</p>
+        <p>
+          {% include _post_tags.html post=include.post %}
+        </p>
         <p class="card-text">
           <small class="text-muted"
             >{{ include.post.date | date_to_string }}</small

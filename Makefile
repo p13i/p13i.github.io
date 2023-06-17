@@ -38,4 +38,4 @@ push	:
 	git push
 
 fix:
-	npx prettier '**/*.{json,tsx,md,html,scss,yml,yaml}' --write
+	npx prettier --write --print-width 60 '**/*.{md,html,yml,yaml}' 

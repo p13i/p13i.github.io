@@ -1,19 +1,21 @@
 <hr />
 
 {% if include.render_tags %} {% include _get_all_tags.html
-category=include.category %} {% for tag in tags %} {% include _tag.html tag=tag
-%} {% endfor %}
+category=include.category %} {% for tag in tags %} {%
+include _tag.html tag=tag %} {% endfor %}
 
 <hr />
 
 {% endif %}
 
 <div class="row">
-  {% assign i = 0 %} {% for post in site.posts %} {% if post.categories contains
-  include.category or post.tags contains include.tag %} {% if
-  include.subcategory == nil or post.subcategories contains include.subcategory
-  %} {% if post.columns %} {% assign col_md_val = post.columns | times: 4 %} {%
-  else %} {% assign col_md_val = 4 %} {% endif %}
+  {% assign i = 0 %} {% for post in site.posts %} {% if
+  post.categories contains include.category or post.tags
+  contains include.tag %} {% if include.subcategory == nil
+  or post.subcategories contains include.subcategory %} {%
+  if post.columns %} {% assign col_md_val = post.columns |
+  times: 4 %} {% else %} {% assign col_md_val = 4 %} {%
+  endif %}
 
   <div class="col-sm-6 col-md-{{ col_md_val }} thumbnail">
     <a href="{{ post.url }}" class="thumbnail-link">
@@ -27,7 +29,8 @@ category=include.category %} {% for tag in tags %} {% include _tag.html tag=tag
     </a>
   </div>
 
-  {% endif %} {% assign i = i | plus:1 %} {% endif %} {% endfor %}
+  {% endif %} {% assign i = i | plus:1 %} {% endif %} {%
+  endfor %}
 </div>
 
 {% include _copyright.html %}

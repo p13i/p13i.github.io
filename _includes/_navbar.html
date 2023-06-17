@@ -13,9 +13,13 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div
+      class="collapse navbar-collapse"
+      id="navbarSupportedContent"
+    >
       <ul class="navbar-nav mr-auto">
-        {% for navbar_link in site.data.navbar %} {% if navbar_link.submenu %}
+        {% for navbar_link in site.data.navbar %} {% if
+        navbar_link.submenu %}
         <li
           class="nav-item dropdown {% if page.url contains navbar_link.href or page.categories contains navbar_link.category %}active{% endif %}"
         >
@@ -34,7 +38,8 @@
             class="dropdown-menu"
             aria-labelledby="navbar-{{ forloop.index }}"
           >
-            {% for item in navbar_link.submenu %} {% if item.divider %}
+            {% for item in navbar_link.submenu %} {% if
+            item.divider %}
 
             <div class="dropdown-divider"></div>
 
@@ -44,9 +49,10 @@
               class="dropdown-item"
               href="{{ item.href }}"
               target="{{ item.target }}"
-              >{{ item.display }}&nbsp;{% if item.target == '_blank' %}&#187;{%
-              endif %} {% if page.url contains navbar_link.href or
-              page.categories contains navbar_link.category %}<span
+              >{{ item.display }}&nbsp;{% if item.target ==
+              '_blank' %}&#187;{% endif %} {% if page.url
+              contains navbar_link.href or page.categories
+              contains navbar_link.category %}<span
                 class="sr-only"
                 >(current)</span
               >{% endif %}
@@ -64,9 +70,11 @@
             href="{{ navbar_link.href }}"
             target="{{ navbar_link.target }}"
           >
-            {{ navbar_link.display }} {% if navbar_link.target == '_blank' %}
-            &#187; {% endif %} {% if page.url contains navbar_link.href or
-            page.categories contains navbar_link.category %}
+            {{ navbar_link.display }} {% if
+            navbar_link.target == '_blank' %} &#187; {%
+            endif %} {% if page.url contains
+            navbar_link.href or page.categories contains
+            navbar_link.category %}
             <span class="sr-only">(current)</span>
             {% endif %}
           </a>

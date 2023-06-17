@@ -1,4 +1,7 @@
-{% if include.post.categories %} {% for category in include.post.categories %}
-<a href="/{{ category }}/" class="badge badge-dark">#{{ category }}</a>
-{% endfor %} {% endif %} {% for tag in include.post.tags %} {% include _tag.html
-tag=tag %} {% endfor %}
+{% if include.post.categories %} {% for category in
+include.post.categories %}
+<a href="/{{ category }}/" class="badge badge-dark"
+  >#{{ category }}</a
+>
+{% endfor %} {% endif %} {% for tag in include.post.tags %}
+{% include _tag.html tag=tag %} {% endfor %}

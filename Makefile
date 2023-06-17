@@ -6,35 +6,36 @@
 #   make clean
 #   make run
 #   make stop
+#	make push
 #   make publish
 #   make fix
 ########################################
 
 # Default when make is called w/o args
-default	:
+default:
 	make clean
 	make up
 
 # Deletes all the generated files
-clean	:
+clean:
 	make down
     # In order: generated HTML, 2 caches
 	rm -rf _site/ .sass-cache/ .jekyll-metadata
 	docker-compose rm --force
 
 # Serves the website on localhost:4000
-up		:
+up:
 	docker-compose up --force-recreate --always-recreate-deps --build
 
 # Stop serving the website
-down	:
+down:
 	docker-compose down
 
 # Adds all files, commits an empty
 # message to git, and pushes to GitHub
-push	:
+push:
 	git add .
-	git commit --allow-empty-message -m ''
+	git commit --allow-empty-message -m "${date}"
 	git push
 
 fix:

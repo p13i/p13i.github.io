@@ -2,6 +2,10 @@
 
 # Automation:
 
+- text: "bendy"
+  date: 2023-06-16
+  id: e414
+
 - text: "Look up 'Whirlyball'"
   date: 2023-06-16
   id: 83bf

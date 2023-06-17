@@ -1,15 +1,18 @@
-########################################
 # Makefile for GNU Make projects 
 #
 # Usage:
 #   make
+# 		Runs clean and docker up
 #   make clean
-#   make run
-#   make stop
+#		Deoetes generated files
+#   make up
+#		docker up
+#   make down
+#		docker down
 #	make push
-#   make publish
+#		Adds all unstaged changes and commits and pushes
 #   make fix
-########################################
+#		Appplies code formatting
 
 # Default when make is called w/o args
 default:

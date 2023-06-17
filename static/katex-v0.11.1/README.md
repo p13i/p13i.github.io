@@ -77,9 +77,12 @@ Call `katex.renderToString` to generate an HTML string of the rendered math,
 e.g., for server-side rendering. For example:
 
 ```js
-var html = katex.renderToString("c = \\pm\\sqrt{a^2 + b^2}", {
-  throwOnError: false,
-});
+var html = katex.renderToString(
+  "c = \\pm\\sqrt{a^2 + b^2}",
+  {
+    throwOnError: false,
+  }
+);
 // '<span class="katex">...</span>'
 ```
 

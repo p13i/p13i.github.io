@@ -24,11 +24,11 @@ I discuss the modeling techniques I used: adjusting every point on a sparse mesh
 
 {% include _post_image.html
   src="https://github.com/p13i/p13i.github.io/assets/13140065/d1a57664-bf3e-4c75-989c-c1e33e13fb11"
-  text="" %}
+  text="1/2" %}
 
 {% include _post_image.html
   src="https://github.com/p13i/p13i.github.io/assets/13140065/60ceaa11-26ed-4ffc-b89e-e71dc61ed1c3"
-  text="" %}
+  text="2/2" %}
 
 {% include _post_image.html
   src="https://github.com/p13i/p13i.github.io/assets/13140065/5dcd4a66-469a-47a9-bd58-f2f838eea0aa"

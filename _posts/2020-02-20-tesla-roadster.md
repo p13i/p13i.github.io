@@ -16,7 +16,7 @@ columns: 3
 
 # Model walkthrough
 
-I discuss the modeling techniques I used: adjusting every point on a sparse mesh before applying a subdivision surface. 
+I discuss the modeling techniques I used: adjusting every point on a sparse mesh before applying a subdivision surface.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Zpz5SftiTWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

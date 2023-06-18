@@ -1,13 +1,12 @@
 ---
-title: My "Tweets"
+title: Twit-a-verse
 layout: base
 ---
 
 <div class="row">
     <div class="col-lg-2 col-md-0"></div>
-    <div class="col-lg-8 col-md-12">
-        <hr/>
-        <h1>{{ page.title }}</h1>
+    <div class="col-lg-8 col-md-12" style="background-color: aliceblue; border-radius: 1em; padding: 2em;">
+        <h1 style="color: #1d9bf0; font-weight: 900;">{{ page.title }}</h1>
         <hr/>
         <div class="row">
             <div class="col-12">

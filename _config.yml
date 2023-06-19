@@ -12,6 +12,10 @@ repository: p13i/p13i.github.io
 include:
   - static
   - assets
+collections:
+  tweets:
+    output: true
+    layout: tweet
 
 # Dependencies
 gems:

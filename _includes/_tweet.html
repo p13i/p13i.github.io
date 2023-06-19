@@ -35,19 +35,23 @@
 
       <small class="text-muted float-right"
         ><a
-          href="#{{ include.tweet.id }}"
-          id="{{ include.tweet.id }}"
-          >#{{ include.tweet.id }}</a
+          href="{{ include.tweet.id }}"
+          id="{{ include.tweet.num }}"
+          >#{{ include.tweet.num }}</a
         ></small
       >
-      </div>
+    </div>
 
-    <div style="margin-left: 42px !important; margin-bottom: 0">
-      <p style="margin-bottom: 0;">{{ include.tweet.text }}</p>
+    <div
+      style="margin-left: 42px !important; margin-bottom: 0"
+    >
+      <p style="margin-bottom: 0">
+        {{ include.tweet.text }}{{ include.tweet.content }}
+      </p>
       {% if include.tweet.image %} {% include
       _post_image.html src=include.tweet.image.src
       alt=include.tweet.image.alt
       text=include.tweet.image.alt %} {% endif %}
-      </div>
+    </div>
   </div>
 </div>

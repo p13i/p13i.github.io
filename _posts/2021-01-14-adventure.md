@@ -13,8 +13,6 @@ downloads:
     url: https://www.instagram.com/p/CKDZJJdFPFO/
 ---
 
-![]({{ page.image }})
-
 ADVENTURE is a beautiful word. It's derived from
 /adventurus/ in Latin, meaning "about to happen."
 

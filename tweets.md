@@ -12,7 +12,8 @@ layout: base
         <hr/>
         <div class="row">
             <div class="col-12">
-                {% for tweet in site.data.tweets %}
+                {% assign sorted = site.tweets | sort: 'num' | reverse  %}
+                {% for tweet in sorted %}
                     {% include _tweet.html tweet=tweet %}
                 {% endfor %}
             </div>

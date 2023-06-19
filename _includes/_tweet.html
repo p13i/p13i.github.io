@@ -5,10 +5,34 @@
   "
 >
   <div class="card-body">
-    <p class="card-text">
-      <small class="text-muted"
-        >{{ include.tweet.date | date_to_string }}</small
+    <div style="margin-bottom: 0">
+      <img
+        src="{{ site.data.images.headshot.src }}"
+        width="32"
+        style="border-radius: 50%"
+      />
+      <strong style="margin-left: 6px"
+        >Pramod Kotipalli</strong
       >
+      <svg
+        width="16"
+        height="16"
+        viewBox="0 0 32 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C20.9419 0 25.3606 2.24052 28.2955 5.76119L13.607 20.4497L6.7605 13.6031L4.5044 15.8592L11.3509 22.7058L13.607 24.9619L15.8631 22.7058L30.1132 8.45567C31.3172 10.7033 32 13.2719 32 16Z"
+          fill="#1D9BF0"
+        />
+      </svg>
+      <small class="text-muted"
+        >@p13i • {{ include.tweet.date | date_to_string
+        }}</small
+      >
+
       <small class="text-muted float-right"
         ><a
           href="#{{ include.tweet.id }}"
@@ -16,10 +40,14 @@
           >#{{ include.tweet.id }}</a
         ></small
       >
-    </p>
-    <p class="card-text">{{ include.tweet.text }}</p>
-    {% if include.tweet.image %} {% include _post_image.html
-    src=include.tweet.image.src alt=include.tweet.image.alt
-    text=include.tweet.image.alt %} {% endif %}
+      </div>
+
+    <div style="margin-left: 42px !important; margin-bottom: 0">
+      <p style="margin-bottom: 0;">{{ include.tweet.text }}</p>
+      {% if include.tweet.image %} {% include
+      _post_image.html src=include.tweet.image.src
+      alt=include.tweet.image.alt
+      text=include.tweet.image.alt %} {% endif %}
+      </div>
   </div>
 </div>

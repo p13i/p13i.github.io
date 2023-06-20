@@ -1,5 +1,5 @@
 ---
-title: My Twit-a-Verse
+title: Twit-a-Verse
 layout: base
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Traveling Salesperson Problem in Python
+title: Traveling Sales-person Problem
 description: pip install gt-tsp
 date: 2023-06-21
 image: "https://user-images.githubusercontent.com/13140065/169116098-56d65621-69f3-4507-82e4-aaefe55986c9.png"

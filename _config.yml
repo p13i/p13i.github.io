@@ -15,7 +15,8 @@ include:
 collections:
   tweets:
     output: true
-    layout: tweet
+  bytes:
+    output: true
 
 # Dependencies
 gems:

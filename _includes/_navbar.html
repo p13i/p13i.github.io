@@ -24,7 +24,7 @@
           class="nav-item dropdown {% if page.url contains navbar_link.href or page.categories contains navbar_link.category %}active{% endif %}"
         >
           <a
-            class="nav-link dropdown-toggle"
+            class="nav-link dropdown-toggle link-paragraph-no-margin"
             href="#"
             id="navbar-{{ forloop.index }}"
             role="button"
@@ -32,7 +32,7 @@
             aria-haspopup="true"
             aria-expanded="false"
           >
-            {{ navbar_link.display }}
+            {{ navbar_link.display | markdownify }}
           </a>
           <div
             class="dropdown-menu"
@@ -66,11 +66,11 @@
           class="nav-item {% if page.url contains navbar_link.href or page.categories contains navbar_link.category %}active{% endif %}"
         >
           <a
-            class="nav-link"
+            class="nav-link link-paragraph-no-margin"
             href="{{ navbar_link.href }}"
             target="{{ navbar_link.target }}"
           >
-            {{ navbar_link.display }} {% if
+            {{ navbar_link.display | markdownify }} {% if
             navbar_link.target == '_blank' %} &#187; {%
             endif %} {% if page.url contains
             navbar_link.href or page.categories contains

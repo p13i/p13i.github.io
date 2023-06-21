@@ -27,3 +27,8 @@
   href: /downloads/
   target: _self
   category: downloads
+
+- display: "`bytes`"
+  href: /bytes/
+  target: _self
+  category: bytes

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Recursive Backtracking in C#"
+title: "Recursive Backtracking"
 date: 2021-04-12
-description: "Fun :)"
+description: "Fun in C# :)"
 image: https://user-images.githubusercontent.com/13140065/169116098-56d65621-69f3-4507-82e4-aaefe55986c9.png
 downloads:
   - name: "💻 GitHub source"

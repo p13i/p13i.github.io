@@ -1,17 +1,25 @@
 <div class="card mb-3">
-    <div class="card-image">
-        <img src="{{ site.data.images.loading.src }}" data-src="{{ include.byte.image }}" alt="{{ include.byte.title }}"
-            class="lazyload img-fluid rounded-start" width="100%" />
-    </div>
-    <div class="card-body">
-        <h5 class="card-title">{{ include.byte.title }}</h5>
-        <p class="card-text">
-            {{ include.byte.description | truncate: 120, "..." }}
-        </p>
-    </div>
-    <div class="card-footer">
-        <a href="{{ include.byte.url }}" class="btn btn-outline-dark btn-sm float-right">
-            <small class="text-muted">More »</small>
-        </a>
-    </div>
+  <div class="card-image">
+    <img
+      src="{{ site.data.images.loading.src }}"
+      data-src="{{ include.byte.image }}"
+      alt="{{ include.byte.title }}"
+      class="lazyload img-fluid rounded-start"
+      width="100%"
+    />
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">{{ include.byte.title }}</h5>
+    <p class="card-text">
+      {{ include.byte.description | truncate: 120, "..." }}
+    </p>
+  </div>
+  <div class="card-footer">
+    <a
+      href="{{ include.byte.url }}"
+      class="btn btn-outline-dark btn-sm float-right"
+    >
+      <small class="text-muted">More »</small>
+    </a>
+  </div>
 </div>

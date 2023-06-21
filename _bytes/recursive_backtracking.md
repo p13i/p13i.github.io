@@ -20,7 +20,7 @@ IAssignment RecursiveBacktracking(CSP csp, IAssignment assignment)
     {
         throw new Exception($"Timed out after {TimeoutNumberOfSteps} steps.");
     }
-    
+
     if (assignment.IsComplete())
     {
         return assignment;
@@ -39,7 +39,7 @@ IAssignment RecursiveBacktracking(CSP csp, IAssignment assignment)
             {
                 return result;
             }
-            
+
             assignment.Unassign(variable);
         }
     }

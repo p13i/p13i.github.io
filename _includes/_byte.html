@@ -5,6 +5,9 @@
     </div>
     <div class="card-body">
         <h5 class="card-title">{{ include.byte.title }}</h5>
+        <p class="card-text">
+            {{ include.byte.description | truncate: 120, "..." }}
+        </p>
     </div>
     <div class="card-footer">
         <a href="{{ include.byte.url }}" class="btn btn-outline-dark btn-sm float-right">

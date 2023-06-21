@@ -242,3 +242,7 @@ p.center {
   text-decoration: underline;
   text-underline-offset: 0.4rem;
 }
+
+.link-paragraph-no-margin > p {
+  margin-bottom: 0;
+}

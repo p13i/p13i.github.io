@@ -60,7 +60,7 @@ def optimize(f, g, x0, n, count, prob, return_history=False):
         if count() + 1 >= n:
             raise CountWillExceedWarning()
         return f(x)
-    
+
     def g_fn(x):
         if count() + 2 >= n:
             raise CountWillExceedWarning()

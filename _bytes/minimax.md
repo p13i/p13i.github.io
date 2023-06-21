@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Minimax in C#
+title: "Minimax in C#"
 date: 2020-03-06
 description: "Implemented for any board game via generics"
 image: "https://user-images.githubusercontent.com/13140065/169116098-56d65621-69f3-4507-82e4-aaefe55986c9.png"

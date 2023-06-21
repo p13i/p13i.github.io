@@ -8,14 +8,14 @@ image: https://user-images.githubusercontent.com/13140065/169116098-56d65621-69f
 
 ```java
 /**
-    * An Integer can take on values from -2^31 to + 2^31. The argument x can 
-    * take on values from 0 to 2^31. This means that all outputs of sqrt(x) 
+    * An Integer can take on values from -2^31 to + 2^31. The argument x can
+    * take on values from 0 to 2^31. This means that all outputs of sqrt(x)
     * can only fall in the range of 1 to sqrt(2^31) because 2^31 is the
     * largest possible Integer input. Thus, we can limit our binary search
     * range to [1, min(x, sqrt(2^31))]
     */
 
-// We compute this value once by means of the standard library or a 
+// We compute this value once by means of the standard library or a
 // hand-computed number
 static int MAX_SQUARE_ROOT_BOUND = (int) Math.sqrt(Integer.MAX_VALUE);
 
@@ -40,15 +40,15 @@ public static int sqrt(int x) {
         int middleSquared = middle * middle;
 
         if (middleSquared > x) {
-            // Our middleSquared estimate was too high so we adjust the 
+            // Our middleSquared estimate was too high so we adjust the
             // end marker down
             end = middle - 1;
         } else if (middleSquared < x) {
-            // Our middleSquared estimate was too low so we adjust the 
+            // Our middleSquared estimate was too low so we adjust the
             // start marker up
             start = middle + 1;
-            // If we adjusting the search range upwards, then we should 
-            // save the existing estimate for the square-root. By saving 
+            // If we adjusting the search range upwards, then we should
+            // save the existing estimate for the square-root. By saving
             // this value here, we are essentially performing the flooring.
             flooredSqrt = middle;
         } else {  // squared == n

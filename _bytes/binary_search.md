@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Binary Search in C#"
+title: Binary Search
 date: 2021-04-12
+programming_language: "csharp"
 description: "For interview prep, why else?"
 image: https://user-images.githubusercontent.com/13140065/169116098-56d65621-69f3-4507-82e4-aaefe55986c9.png
 ---

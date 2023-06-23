@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Mergesort in C
+title: Mergesort
+programming_language: C
 date: 2022-05-18
-description: "A cute implementation of mergesort in C"
+description: "A cute implementation"
 image: "https://user-images.githubusercontent.com/13140065/169116098-56d65621-69f3-4507-82e4-aaefe55986c9.png"
 downloads:
   - name: "💻 GitHub source"

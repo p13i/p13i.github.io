@@ -13,6 +13,8 @@
 #		Adds all unstaged changes and commits and pushes
 #   make fix
 #		Appplies code formatting
+#   make sync
+# 		Pulls changes from git and pushes local commits
 
 # Default when make is called w/o args
 default:
@@ -43,3 +45,7 @@ push:
 
 fix:
 	npx prettier --write --print-width 60 '**/*.{md,html,yml,yaml}' 
+
+sync:
+	git pull --rebase
+	git push

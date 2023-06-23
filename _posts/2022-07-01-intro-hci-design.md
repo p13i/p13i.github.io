@@ -2,6 +2,8 @@
 title: "Course Notes: Intro HCI & Design Thinking 
 (Stanford CS 147)"
 categories:
+- research
+- design
 - writing
 tags:
 - human-computer-interaction
@@ -1516,48 +1518,48 @@ Good evaluators find both easy and hard problems. Every
 evaluator doesn’t find every problem. These two factors
 impel us to have multiple evaluators.
 
-H1: Visibility of system status.
+**H1**: Visibility of system status.
 
-H2: Match between system and the real world, use real world
+**H2**: Match between system and the real world, use real world
 language and metaphors people will understand
 
-H3: User control and freedom.
+**H3**: User control and freedom.
 
-H4: Consistency and standards, helped by design systems. Why
+**H4**: Consistency and standards, helped by design systems. Why
 mac was more usable than DOS
 
-H5: Error prevention
+**H5**: Error prevention
 
-H6: Recognition rather than recall, e.g. parse it as you
+**H6**: Recognition rather than recall, e.g. parse it as you
 type it in
 
-H7: Flexibility and efficiency of use
+**H7**: Flexibility and efficiency of use
 
-H8: Aesthetic and minimalist design
+**H8**: Aesthetic and minimalist design
 
-H9: Help users recognize, diagnose, and recover from errors:
+**H9**: Help users recognize, diagnose, and recover from errors:
 clearly indicate what has gone wrong, human readable,
 politie, describe the problem, and explain how to fix the
 problem, highly noticeable, perhaps fix it for me.
 
-H10: Help and documentation: better if the system can be
+**H10**: Help and documentation: better if the system can be
 used without documentation but it may be necessary. How:
 easy to search, focused on tasks, list concrete steps.
 
-H11\*: Accessible: users can interact with the system using
+**H11\***: Accessible: users can interact with the system using
 alternative input methods. Content is legible with
 distinguishable contrast and text size. Key information is
 upfront and not next for screen readers. Purely visual or
 auditory content has text-based alternatives for users with
 low vision and low hearing.
 
-H12\*: Fairness and inclusion: Users shouldn’t feel like the
+**H12\***: Fairness and inclusion: Users shouldn’t feel like the
 design isn’t made for them. The design should meet all
 users’ needs equally and prevent the reproduction of
 pre-existing inequities. It should not create additional
 burdens for members of disadvantaged populations.
 
-H13\*: Value alignment: The design should encode values that
+**H13\***: Value alignment: The design should encode values that
 users can understand and relate to. Conflicting collateral
 values should not emerge when the user interacts with the
 product. Encoded values should match users’ values in a

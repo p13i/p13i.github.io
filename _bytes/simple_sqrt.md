@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Simple square root"
+title: "Binary search square root"
 programming_language: Java
 date: 2017-08-24
 description: "For interview prep, why else?"

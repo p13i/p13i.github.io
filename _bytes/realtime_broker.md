@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Simple Realtime WebSocket Message Broker
+title: Simple Realtime WebSocket Messages
 programming_language: TypeScript
 date: 2021-03-12
 ---

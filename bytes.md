@@ -9,10 +9,10 @@ layout: base
         <h1>{{ page.title }}</h1>
         <hr/>
         <div class="row">
+            <div class="card-columns">
             {% for byte in site.bytes %}
-                <div class="col-lg-3 col-6 col-xs-12">
                     {% include _byte.html byte=byte %}
-                </div>
             {% endfor %}
+            </div>
         </div>
 </div>

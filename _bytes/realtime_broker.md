@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Realtime WebSocket Message Broker
+title: Simple Realtime WebSocket Message Broker
 programming_language: TypeScript
 date: 2021-03-12
-description: Simple example of realtime websocket messages
 ---
 
 # `server.ts`

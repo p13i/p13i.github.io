@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Nesterov Gradient Descent in Python
+title: Nesterov Gradient Descent
+programming_language: Python
 date: 2021-04-12
 description: "For Stanford AA222"
 image: "https://user-images.githubusercontent.com/13140065/169116098-56d65621-69f3-4507-82e4-aaefe55986c9.png"

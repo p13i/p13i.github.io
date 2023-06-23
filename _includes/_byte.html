@@ -13,13 +13,22 @@
   <div class="card-body pb-0">
     <h5 class="card-title">{{ include.byte.title }}</h5>
     <span class="card-text">
-      {{ include.byte.description | markdownify | truncate: 120, "..." }}
+      {{ include.byte.description | markdownify | truncate:
+      120, "..." }}
     </span>
   </div>
   <div class="card-footer">
     <div class="row">
       <div class="col-6">
-        <span style="text-transform: uppercase; color:gray; font-size: 0.8em;" class="align-middle">{{ include.byte.programming_language }}</span>
+        <span
+          style="
+            text-transform: uppercase;
+            color: gray;
+            font-size: 0.8em;
+          "
+          class="align-middle"
+          >{{ include.byte.programming_language }}</span
+        >
       </div>
       <div class="col-6">
         <a

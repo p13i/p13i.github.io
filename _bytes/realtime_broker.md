@@ -324,7 +324,7 @@ Configuration for TypeScript compiler.
   "name": "broker",
   "version": "1.0.0",
   "scripts": {
-    "start": "npx ts-node index.ts"
+    "start": "npx ts-node server.ts"
   },
   "dependencies": {
     "@types/express": "^4.17.11",

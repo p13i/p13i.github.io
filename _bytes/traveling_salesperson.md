@@ -13,6 +13,8 @@ downloads:
     url: https://pypi.org/project/gt-tsp/
 ---
 
+# Standard optimal path algorithm
+
 ```py
 def solver(G, source):  # type: (nx.Graph, Any) -> Tuple[Tuple[Any, ...], int]
     """
@@ -81,6 +83,8 @@ def solver(G, source):  # type: (nx.Graph, Any) -> Tuple[Tuple[Any, ...], int]
 
     return tour, min_
 ```
+
+# Christofide's Algorithm
 
 ```py
 """

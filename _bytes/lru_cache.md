@@ -5,9 +5,6 @@ programming_language: "csharp"
 date: 2020-02-13
 description: "For interview prep, why else?"
 image: https://user-images.githubusercontent.com/13140065/169116098-56d65621-69f3-4507-82e4-aaefe55986c9.png
-downloads:
-  - name: "💻 GitHub source"
-    url: https://github.com/p13i/CSP/blob/master/Source/CSP/Solvers.cs#L39-L71
 ---
 
 ```csharp

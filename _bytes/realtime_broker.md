@@ -316,7 +316,9 @@ Configuration for TypeScript compiler.
 }
 ```
 
-`package.json`: NPM project definition
+# `package.json`
+
+NPM project definition
 
 ```json
 {

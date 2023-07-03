@@ -6,7 +6,7 @@ layout: base
 
 <div class="row post">
     <div class="col-12">
-        <h1 class="title" data-toc-skip>{{ page.title }}</h1>
+        <h1 class="title" data-toc-skip>{{ page.title | markdownify }}</h1>
         <hr/>
     </div>
     <div class="col-12 col-lg-4">
@@ -14,7 +14,7 @@ layout: base
             <img src="{{ page.image }}"/>
         {% endif %}
         <hr/>
-        <p class="description">{{ page.description }}</p>
+        <p class="description">{{ page.description | markdownify  }}</p>
         <hr/>
         <p class="date">{{ page.date | date_to_long_string: "ordinal", "US" }}</p>
         <hr/>

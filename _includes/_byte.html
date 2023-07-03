@@ -11,7 +11,7 @@
   </div>
   {% endcomment %}
   <div class="card-body pb-0">
-    <h5 class="card-title">{{ include.byte.title }}</h5>
+    <h5 class="card-title">{{ include.byte.title | markdownify }}</h5>
     <span class="card-text">
       {{ include.byte.description | markdownify | truncate:
       120, "..." }}

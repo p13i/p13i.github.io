@@ -15,7 +15,7 @@ function mapValue(
   valueRangeStart: number,
   valueRangeEnd: number,
   newRangeStart: number,
-  newRangeEnd: number
+  newRangeEnd: number,
 ) {
   return (
     newRangeStart +

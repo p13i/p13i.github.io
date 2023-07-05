@@ -3,7 +3,6 @@ layout: post
 title: "Map numbers from one range to another"
 programming_language: TypeScript
 date: 2021-02-23
-description: ""
 ---
 
 # `mapValue.ts`

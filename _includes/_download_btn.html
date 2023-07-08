@@ -3,12 +3,10 @@
   href="{{ include.url }}"
   target="_blank"
 >
-  <!-- prettier-ignore-start -->
-  <span
-    >{{ include.name | markdownify | remove: '
-    <p>' | remove: '</p>
-    ' }} &nbsp;
+  <!-- prettier-ignore -->
+  <span>
+    {{ include.name | markdownify | remove: '<p>' | remove: '</p>' }}
+    &nbsp;
     <span class="float-right">&#187;</span>
   </span>
-  <!-- prettier-ignore-end -->
 </a>

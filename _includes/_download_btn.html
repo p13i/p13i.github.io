@@ -3,7 +3,10 @@
   href="{{ include.url }}"
   target="_blank"
 >
-  <span>{{ include.name | markdownify | remove: '<p>' | remove: '</p>' }}
-    &nbsp;
-    <span class="float-right">&#187;</span></span>
+  <span
+    >{{ include.name | markdownify | remove: '
+    <p>' | remove: '</p>
+    ' }} &nbsp;
+    <span class="float-right">&#187;</span></span
+  >
 </a>

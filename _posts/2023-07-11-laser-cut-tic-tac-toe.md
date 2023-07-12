@@ -24,3 +24,27 @@ featured: true
 ---
 
 This project is a travel-sized tic-tac-toe board is a great introduction to laser cutting that's not too time consuming to make but still fun and cute.
+
+{% include _post_image.html
+  src="https://p13i.io/assets/2023-07-11-tic-tac-toe/IMG_5651.jpg"
+  text="" %}
+
+{% include _post_image.html
+  src="https://p13i.io/assets/2023-07-11-tic-tac-toe/IMG_5652.jpg"
+  text="" %}
+  
+{% include _post_image.html
+  src="https://p13i.io/assets/2023-07-11-tic-tac-toe/IMG_5653.jpg"
+  text="" %}
+  
+{% include _post_image.html
+  src="https://p13i.io/assets/2023-07-11-tic-tac-toe/IMG_5655.jpg"
+  text="" %}
+  
+{% include _post_image.html
+  src="https://p13i.io/assets/2023-07-11-tic-tac-toe/IMG_5673.jpg"
+  text="" %}
+  
+{% include _post_image.html
+  src="https://p13i.io/assets/2023-07-11-tic-tac-toe/IMG_5682.jpg"
+  text="" %}

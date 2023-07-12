@@ -21,7 +21,6 @@ downloads:
   - name: "Step 3: CUT main.plf (Visicut file)"
     url: "https://p13i.io/assets/2023-07-11-tic-tac-toe/tic-tac-toe CUT main.plf"
 featured: true
-
 ---
-A travel-sized tic-tac-toe board is a great introduction to laser cutting that's not too time consuming but still fun and cute.
 
+A travel-sized tic-tac-toe board is a great introduction to laser cutting that's not too time consuming but still fun and cute.

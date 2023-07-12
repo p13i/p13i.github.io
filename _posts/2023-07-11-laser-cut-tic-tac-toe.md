@@ -23,5 +23,5 @@ downloads:
 featured: true
 
 ---
-A travel-sized tic-tac-toe board is a great introduction to laser cutting that's not too time consuming but still fun and cute.
 
+This project is a travel-sized tic-tac-toe board is a great introduction to laser cutting that's not too time consuming to make but still fun and cute.

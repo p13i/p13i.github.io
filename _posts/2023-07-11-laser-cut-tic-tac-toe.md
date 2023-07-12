@@ -32,19 +32,19 @@ This project is a travel-sized tic-tac-toe board is a great introduction to lase
 {% include _post_image.html
   src="https://p13i.io/assets/2023-07-11-tic-tac-toe/IMG_5652.jpg"
   text="" %}
-  
+
 {% include _post_image.html
   src="https://p13i.io/assets/2023-07-11-tic-tac-toe/IMG_5653.jpg"
   text="" %}
-  
+
 {% include _post_image.html
   src="https://p13i.io/assets/2023-07-11-tic-tac-toe/IMG_5655.jpg"
   text="" %}
-  
+
 {% include _post_image.html
   src="https://p13i.io/assets/2023-07-11-tic-tac-toe/IMG_5673.jpg"
   text="" %}
-  
+
 {% include _post_image.html
   src="https://p13i.io/assets/2023-07-11-tic-tac-toe/IMG_5682.jpg"
   text="" %}

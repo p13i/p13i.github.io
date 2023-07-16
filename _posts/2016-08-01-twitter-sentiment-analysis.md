@@ -4,10 +4,8 @@ date: 2016-08-01
 categories:
   - engineering
 tags:
-  - twitter-api
   - machine-learning
-  - artifical-intelligence
-  - ibm-watson-api
+  - artificial-intelligence
 layout: post
 author: Pramod Kotipalli
 description: Understanding user sentiment to aid mental health diagnosis

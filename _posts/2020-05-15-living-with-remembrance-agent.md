@@ -1,14 +1,12 @@
 ---
 title: Living with a Remembrance Agent
-date: "2020-05-15"
 categories:
   - research
 tags:
   - artificial-intelligence
   - human-computer-interaction
-  - remembrance-agents
+  - remembrance-agent
   - java
-author: Pramod Kotipalli
 description: My experiences developing a wearable and
   desktop-based remembrance agent. I also examine the impact
   of living with an intelligent agent such as this has had

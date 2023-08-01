@@ -3,11 +3,6 @@
   target: _self
   category: research
 
-- display: Engineering
-  href: /engineering/
-  target: _self
-  category: engineering
-
 - display: Design
   href: /design/
   target: _self

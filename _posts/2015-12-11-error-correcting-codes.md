@@ -35,15 +35,12 @@ Suppose that I intend to send the following message to a
 friend through a noisy channel: `Hi!` [^2] This string is
 equivalent to the bits: `010010000110100100100001`
 
-However, my friend may receive this message as corrupted as
-(flipped bits are marked in
-$$\textcolor{red}{\verb!red!}$$):
+However, my friend may receive this message as corrupted [in ASCII](https://www.rapidtables.com/convert/number/binary-to-string.html). 
+Flipped bits are marked in $\textcolor{red}{\verb|red|}$.
 
 <p class="center">
-
-$\textcolor{red}{1}10010\textcolor{red}{1}00110100\textcolor{red}{1}001
-\textcolor{red}{1}0001 \longleftrightarrow \verb!Ei1!$$
-
+$$\textcolor{red}{1}10010\textcolor{red}{1}00110100\textcolor{red}{1}001
+\textcolor{red}{1}0001 \longleftrightarrow \verb!Êi1!$$
 </p>
 
 Converting this transmitted message back to a string doesn’t

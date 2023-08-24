@@ -1,12 +1,12 @@
 ---
 title: "C++ simulations in the browser"
 categories:
-- research
-- design
-- engineering
+  - research
+  - design
+  - engineering
 tags:
-- "c++"
-- computer-graphics
+  - "c++"
+  - computer-graphics
 layout: post
 description: ""
 image: "https://p13i.io/assets/2023-08-01-cc-simulations-thumbnail.jpg"

@@ -1,5 +1,5 @@
 ---
-title: "C++ Simulations in Website"
+title: "C++ simulations in the browser"
 categories:
 - research
 - design

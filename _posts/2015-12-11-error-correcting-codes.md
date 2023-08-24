@@ -35,7 +35,7 @@ Suppose that I intend to send the following message to a
 friend through a noisy channel: `Hi!` [^2] This string is
 equivalent to the bits: `010010000110100100100001`
 
-However, my friend may receive this message as corrupted [in ASCII](https://www.rapidtables.com/convert/number/binary-to-string.html). 
+However, my friend may receive this message as corrupted [in ASCII](https://www.rapidtables.com/convert/number/binary-to-string.html).
 Flipped bits are marked in $\textcolor{red}{\verb|red|}$.
 
 <p class="center">

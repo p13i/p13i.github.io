@@ -76,7 +76,7 @@ ten week Stanford quarter.
 
 Let's get into it!
 
-# Intro to HCI & a Techno-Realist Vision
+# HCI & a Techno-Realist Vision
 
 ## What it means to innovate responsibly
 
@@ -1518,18 +1518,20 @@ impel us to have multiple evaluators.
 
 ## **H1**: Visibility of system status.
 
-## **H2**: Match between system and the real world, use real world
-language and metaphors people will understand
+## **H2**: Match between system and the real world.
+
+Use real world language and metaphors that people will understand.
 
 ## **H3**: User control and freedom.
 
-## **H4**: Consistency and standards, helped by design systems.
+## **H4**: Consistency and standards.
 
-This is why Mac was more usable than Windows DOS.
+This is helped by design systems. This is why Mac was more usable than Windows DOS.
 
 ## **H5**: Error prevention.
 
 ## **H6**: Recognition rather than recall.
+
 For example, parse it as you type it in.
 
 ## **H7**: Flexibility and efficiency of use.
@@ -1907,7 +1909,9 @@ Between groups, within groups.
 
 <!-- ![alt_text](images/image28.png "image_tooltip") -->
 
-# Appendix: Experience Prototyping by Kristina
+# Experience Prototyping
+
+Courtosey of Kristina Inoyue.
 
 We want to focus on assumptions that are unknown to be true
 and are vital for the user experience. These are the
@@ -1924,7 +1928,9 @@ controlled study where one variable may be manipulated for
 the participant. Future development is guided by insights
 from experience prototypes.
 
-# Appendix: Accessibility Workshop by Jianna
+# Accessibility
+
+Courtosey of Jianna So.
 
 _Social Model of Disability_
 

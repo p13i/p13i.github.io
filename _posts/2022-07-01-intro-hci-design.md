@@ -1488,16 +1488,14 @@ america website
 
 # Heuristic Evaluation
 
-## Lecture
+<!-- Big Basket UI evaluation: hall of shame due to large ads and
+bad colors schemes -->
 
-Big Basket UI evaluation: hall of shame due to large ads and
-bad colors schemes
-
-This is a 25 year old method that is very useful in
+_Heuristic evaluation_ is a 25 year old method that is useful in
 companies and startups for testing software products.
 
 In any evaluation we want to figure out what we should keep
-and what we should improve or add. Lo-fi works well for
+and what we should improve or add. Lo-fi prototyping works well for
 tap-and-show interactions, not real-time gestures required
 for AR, painting, etc. They are not realistic in visuals and
 performance, these are not an actual interface meaning that
@@ -1518,68 +1516,78 @@ Good evaluators find both easy and hard problems. Every
 evaluator doesn’t find every problem. These two factors
 impel us to have multiple evaluators.
 
-**H1**: Visibility of system status.
+## **H1**: Visibility of system status.
 
-**H2**: Match between system and the real world, use real world
+## **H2**: Match between system and the real world, use real world
 language and metaphors people will understand
 
-**H3**: User control and freedom.
+## **H3**: User control and freedom.
 
-**H4**: Consistency and standards, helped by design systems. Why
-mac was more usable than DOS
+## **H4**: Consistency and standards, helped by design systems.
 
-**H5**: Error prevention
+This is why Mac was more usable than Windows DOS.
 
-**H6**: Recognition rather than recall, e.g. parse it as you
-type it in
+## **H5**: Error prevention.
 
-**H7**: Flexibility and efficiency of use
+## **H6**: Recognition rather than recall.
+For example, parse it as you type it in.
 
-**H8**: Aesthetic and minimalist design
+## **H7**: Flexibility and efficiency of use.
 
-**H9**: Help users recognize, diagnose, and recover from errors:
-clearly indicate what has gone wrong, human readable,
+## **H8**: Aesthetic and minimalist design.
+
+## **H9**: Help users recognize, diagnose, and recover from errors.
+
+Clearly indicate what has gone wrong, human readable,
 politie, describe the problem, and explain how to fix the
 problem, highly noticeable, perhaps fix it for me.
 
-**H10**: Help and documentation: better if the system can be
-used without documentation but it may be necessary. How:
-easy to search, focused on tasks, list concrete steps.
+## **H10**: Help and documentation
 
-**H11\***: Accessible: users can interact with the system using
-alternative input methods. Content is legible with
-distinguishable contrast and text size. Key information is
-upfront and not next for screen readers. Purely visual or
-auditory content has text-based alternatives for users with
-low vision and low hearing.
+It's better if the system can be used without documentation
+but it may be necessary. How: easy to search, focused on
+tasks, list concrete steps.
 
-**H12\***: Fairness and inclusion: Users shouldn’t feel like the
-design isn’t made for them. The design should meet all
-users’ needs equally and prevent the reproduction of
-pre-existing inequities. It should not create additional
-burdens for members of disadvantaged populations.
+## **H11\***: Accessible.
 
-**H13\***: Value alignment: The design should encode values that
-users can understand and relate to. Conflicting collateral
-values should not emerge when the user interacts with the
-product. Encoded values should match users’ values in a
-broad set of contexts. (See
+Users can interact with the system using alternative input
+methods. Content is legible with distinguishable contrast
+and text size. Key information is upfront and not next for
+screen readers. Purely visual or auditory content has
+text-based alternatives for users with low vision and low
+hearing.
 
-Listing: Examples of values in design
+## **H12\***: Fairness and inclusion.
+
+Users shouldn’t feel like the design isn’t made for them.
+The design should meet all users’ needs equally and prevent
+the reproduction of pre-existing inequities. It should not
+create additional burdens for members of disadvantaged
+populations.
+
+## **H13\***: Value alignment.
+
+The design should encode values that users can understand
+and relate to. Conflicting collateral values should not
+emerge when the user interacts with the product. Encoded
+values should match users’ values in a broad set of
+contexts.
 
 <!-- TODO <img src="images/image15.png" width="" alt="alt_text"
 title="image_tooltip"> -->
+
+### Examples of values in design
 
 - In consistent colors for text (red vs. black)
 - In consistent or extra spacing
 - Price vs. total doesn’t make sense
 - “h” value is accepted into the input
-- yes and no are both checkboxes
-- inconsistent highlighting of table rows
-- black on blue text
-- red font means different things
+- Yes and no are both checkboxes
+- Inconsistent highlighting of table rows
+- Black on blue text
+- Red font means different things
 
-Summary:
+### Summary:
 
 1. Have evaluators go through the UI twice
 2. Ask them to see if it complies with the heuristics, not

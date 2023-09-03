@@ -1593,7 +1593,7 @@ contexts.</p>
     </ul>
 </div>
 
-<em>* Heuristics marked with a star (*) are custom additions
+<em>_ Heuristics marked with a star (_) are custom additions
 by the course staff to reflect new values that are important
 to making accessible and socially-conscious products.</em>
 
@@ -1604,14 +1604,15 @@ to making accessible and socially-conscious products.</em>
   text="Example of a heuristic evaluation from class." %}
 
 Here are some heuristic violations:
-* Inconsistent colors for text (red vs. black) - H4
-* Inconsistent or extra spacing - H4
-* Price vs. total doesn’t make sense - H2
-* “h” value is accepted into the input - H5
-* Yes and no are both checkboxes - H5
-* Inconsistent highlighting of table rows - H4
-* Black on blue text - H11
-* Red font means different things - H4
+
+- Inconsistent colors for text (red vs. black) - H4
+- Inconsistent or extra spacing - H4
+- Price vs. total doesn’t make sense - H2
+- “h” value is accepted into the input - H5
+- Yes and no are both checkboxes - H5
+- Inconsistent highlighting of table rows - H4
+- Black on blue text - H11
+- Red font means different things - H4
 
 ### Summary:
 

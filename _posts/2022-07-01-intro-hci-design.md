@@ -1516,64 +1516,86 @@ Good evaluators find both easy and hard problems. Every
 evaluator doesn’t find every problem. These two factors
 impel us to have multiple evaluators.
 
-## **H1**: Visibility of system status.
-
-## **H2**: Match between system and the real world.
-
-Use real world language and metaphors that people will understand.
-
-## **H3**: User control and freedom.
-
-## **H4**: Consistency and standards.
-
-This is helped by design systems. This is why Mac was more usable than Windows DOS.
-
-## **H5**: Error prevention.
-
-## **H6**: Recognition rather than recall.
-
-For example, parse it as you type it in.
-
-## **H7**: Flexibility and efficiency of use.
-
-## **H8**: Aesthetic and minimalist design.
-
-## **H9**: Help users recognize, diagnose, and recover from errors.
-
-Clearly indicate what has gone wrong, human readable,
+<div class="card mb-3">
+  <div class="card-header" style="text-transform: uppercase;">
+Heuristics
+  </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">
+        <h2><strong>H1</strong>: Visibility of system status.</h2>
+        <p>This is prose.</p>
+      </li>
+      <li class="list-group-item">
+        <h2><strong>H2</strong>: Match between system and the real world.</h2>
+        <p>Use real world language and metaphors that people will understand.</p>
+      </li>
+      <li class="list-group-item">
+        <h2><strong>H3</strong>: User control and freedom.</h2>
+        <p></p>
+      </li>
+      <li class="list-group-item">
+        <h2><strong>H4</strong>: Consistency and standards.</h2>
+        <p>This is helped by design systems. This is why Mac was more usable than Windows DOS.</p>
+      </li>
+      <li class="list-group-item">
+        <h2><strong>H5</strong>: Error prevention.</h2>
+        <p></p>
+      </li>
+      <li class="list-group-item">
+        <h2><strong>H6</strong>: Recognition rather than recall.</h2>
+        <p>For example, parse it as you type it in.</p>
+      </li>
+      <li class="list-group-item">
+        <h2><strong>H7</strong>: Flexibility and efficiency of use.</h2>
+        <p></p>
+      </li>
+      <li class="list-group-item">
+        <h2><strong>H8</strong>: Aesthetic and minimalist design.</h2>
+        <p></p>
+      </li>
+      <li class="list-group-item">
+        <h2><strong>H9</strong>: Help users recognize, diagnose, and recover from errors.</h2>
+        <p>Clearly indicate what has gone wrong, human readable,
 politie, describe the problem, and explain how to fix the
-problem, highly noticeable, perhaps fix it for me.
-
-## **H10**: Help and documentation
-
-It's better if the system can be used without documentation
+problem, highly noticeable, perhaps fix it for me.</p>
+      </li>
+      <li class="list-group-item">
+        <h2><strong>H10</strong>: Help and documentation.</h2>
+        <p>It's better if the system can be used without documentation
 but it may be necessary. How: easy to search, focused on
-tasks, list concrete steps.
-
-## **H11\***: Accessible.
-
-Users can interact with the system using alternative input
+tasks, list concrete steps.</p>
+      </li>
+      <li class="list-group-item">
+        <h2><strong>H11*</strong>: Accessible.</h2>
+        <p>Users can interact with the system using alternative input
 methods. Content is legible with distinguishable contrast
 and text size. Key information is upfront and not next for
 screen readers. Purely visual or auditory content has
 text-based alternatives for users with low vision and low
-hearing.
-
-## **H12\***: Fairness and inclusion.
-
-Users shouldn’t feel like the design isn’t made for them.
+hearing.</p>
+      </li>
+      <li class="list-group-item">
+        <h2><strong>H12*</strong>: Fairness and inclusion.</h2>
+        <p>Users shouldn’t feel like the design isn’t made for them.
 The design should meet all users’ needs equally and prevent
 the reproduction of pre-existing inequities. It should not
 create additional burdens for members of disadvantaged
-populations.
-
-## **H13\***: Value alignment.
-
-The design should encode values that users can understand
+populations.</p>
+      </li>
+      <li class="list-group-item">
+        <h2><strong>H13*</strong>: Value alignment.</h2>
+        <p>The design should encode values that users can understand
 and relate to. Conflicting collateral values should not
 emerge when the user interacts with the product. Encoded
 values should match users’ values in a broad set of
-contexts.
+contexts.</p>
+      </li>
+    </ul>
+</div>
+
+<em>* Heuristics marked with a star (*) are custom additions
+by the course staff to reflect new values that are important
+to making accessible and socially-conscious products.</em>
 
 <!-- TODO <img src="images/image15.png" width="" alt="alt_text"
 title="image_tooltip"> -->

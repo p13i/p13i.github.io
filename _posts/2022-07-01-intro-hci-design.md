@@ -1597,19 +1597,21 @@ contexts.</p>
 by the course staff to reflect new values that are important
 to making accessible and socially-conscious products.</em>
 
-<!-- TODO <img src="images/image15.png" width="" alt="alt_text"
-title="image_tooltip"> -->
-
 ### Examples of values in design
 
-- In consistent colors for text (red vs. black)
-- In consistent or extra spacing
-- Price vs. total doesn’t make sense
-- “h” value is accepted into the input
-- Yes and no are both checkboxes
-- Inconsistent highlighting of table rows
-- Black on blue text
-- Red font means different things
+{% include _post_image.html
+  src="https://raw.githubusercontent.com/p13i/assets/main/2022-07-hci-design/image13.png"
+  text="Example of a heuristic evaluation from class." %}
+
+Here are some heuristic violations:
+* Inconsistent colors for text (red vs. black) - H4
+* Inconsistent or extra spacing - H4
+* Price vs. total doesn’t make sense - H2
+* “h” value is accepted into the input - H5
+* Yes and no are both checkboxes - H5
+* Inconsistent highlighting of table rows - H4
+* Black on blue text - H11
+* Red font means different things - H4
 
 ### Summary:
 

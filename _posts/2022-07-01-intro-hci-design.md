@@ -1593,7 +1593,7 @@ contexts.</p>
     </ul>
 </div>
 
-<em>_ Heuristics marked with a star (_) are custom additions
+<em>&#42; Heuristics marked with an asterisks (&#42;) are custom additions
 by the course staff to reflect new values that are important
 to making accessible and socially-conscious products.</em>
 

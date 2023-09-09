@@ -3,7 +3,7 @@ title: Laser Cut Tic-Tac-Toe, now with magnets!
 categories:
   - design
 layout: post
-image: "https://p13i.io/assets/2023-07-11-tic-tac-toe/thumbnail.jpg"
+image: "https://p13i.io/assets/2023-09-08-tic-tac-toe-v2/collage.jpg"
 description: "Travel-sized board game made via laser cutting plywood"
 # downloads:
 #   - name: "Illustrator file"

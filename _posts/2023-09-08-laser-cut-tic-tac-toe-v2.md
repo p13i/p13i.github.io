@@ -25,7 +25,7 @@ featured: true
 
 A follow-on to [/posts/], now wotih magnets! Definitely a WIP rip.
 
-<!-- 
+<!--
 {% include _post_image.html
   src="https://p13i.io/assets/2023-07-11-tic-tac-toe/IMG_5651.jpg"
   text="" %}

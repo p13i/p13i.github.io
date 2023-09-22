@@ -14,7 +14,9 @@ tags:
   - 3d-modeling
 layout: post
 author: Pramod Kotipalli
-description: Modeling, rigging, and animating a bioluminescent jellyfish
+description:
+  Modeling, rigging, and animating a bioluminescent
+  jellyfish
 subcategories:
   - design
 downloads:
@@ -36,9 +38,8 @@ simulation, and texturing.
 # Modeling
 
 The first phase was modeling. I followed Motion Viking's
-[YouTube
-tutorial](https://www.youtube.com/watch?v=11JwBQkzySE) to
-model, rig, and animate a jellyfish in a procedural way.
+[YouTube tutorial](https://www.youtube.com/watch?v=11JwBQkzySE)
+to model, rig, and animate a jellyfish in a procedural way.
 _Procedural modeling_ differs from traditional modeling in
 that each modification made to the base shape without
 altering the original shape. This particular approach to

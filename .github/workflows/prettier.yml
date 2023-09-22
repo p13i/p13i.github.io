@@ -13,7 +13,9 @@ jobs:
         run: make fix
 
       - name: Make sure there are no diffs
-        run: git diff && exit $(git status --porcelain=v1 2>/dev/null | wc -l)
+        run:
+          git diff && exit $(git status --porcelain=v1
+          2>/dev/null | wc -l)
 
       - name: Create Pull Request
         id: cpr
@@ -21,13 +23,20 @@ jobs:
         if: ${{ failure() }}
         with:
           token: ${{ secrets.WORKFLOW_TOKEN }}
-          commit-message: Apply prettier to ${{ github.ref_name }}
+          commit-message:
+            Apply prettier to ${{ github.ref_name }}
           title: Apply prettier to ${{ github.ref_name }}
           branch: prettier-${{ github.run_number }}
-          body: This pull request applies NPM's `prettier` formatting changes to the codebase at ${{ github.sha }}.
+          body:
+            This pull request applies NPM's `prettier`
+            formatting changes to the codebase at ${{
+            github.sha }}.
           labels: auto-generated
           reviewers: ${{ github.actor }}
 
       - name: Store pull request number
         if: ${{ failure() }}
-        run: echo "PR_NUMBER=${{ steps.cpr.outputs.pull-request-number }}" >> $GITHUB_ENV
+        run:
+          echo "PR_NUMBER=${{
+          steps.cpr.outputs.pull-request-number }}" >>
+          $GITHUB_ENV

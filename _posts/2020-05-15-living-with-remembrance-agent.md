@@ -7,11 +7,12 @@ tags:
   - human-computer-interaction
   - remembrance-agent
   - java
-description: My experiences developing a wearable and
-  desktop-based remembrance agent. I also examine the impact
-  of living with an intelligent agent such as this has had
-  on my cognition, memory recall, and how I organize my
-  digital information.
+description:
+  My experiences developing a wearable and desktop-based
+  remembrance agent. I also examine the impact of living
+  with an intelligent agent such as this has had on my
+  cognition, memory recall, and how I organize my digital
+  information.
 image: https://user-images.githubusercontent.com/13140065/146688349-93d418a5-c04a-41f1-b445-cf527923c6bc.png
 layout: post
 featured: true
@@ -98,9 +99,9 @@ remembrance agent in a more modern and portable toolset.
 I settled on Java for this project because of its use in
 developing Android applications and its strong
 cross-platform support for graphical user interfaces (GUIs)
-through [Java
-Swing](<https://en.wikipedia.org/wiki/Swing_(Java)>) and
-[JavaFX](https://en.wikipedia.org/wiki/JavaFX).
+through
+[Java Swing](<https://en.wikipedia.org/wiki/Swing_(Java)>)
+and [JavaFX](https://en.wikipedia.org/wiki/JavaFX).
 
 I created a no-dependency, pure-Java, Gradle-based project
 that encapsulates the core functionality of the remembrance
@@ -159,8 +160,8 @@ the document is relevant to the query.
 
 ### Determining suggestions
 
-The implementation of `determineSuggestions` is [quite
-involved](https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/engine/RemembranceAgentEngine.java#L38-L100).
+The implementation of `determineSuggestions` is
+[quite involved](https://github.com/remembrance-agent/remembrance-agent/blob/v2.0.0/src/main/java/io/p13i/ra/engine/RemembranceAgentEngine.java#L38-L100).
 At a high-level, each document’s text is
 [windowed](https://github.com/remembrance-agent/remembrance-agent/blob/03a7280872bfb1d6e6188d33836fa6fd1f45c6fe/src/main/java/io/p13i/ra/utils/WordVector.java#L29)
 into smaller strings before comparison with a query.
@@ -184,8 +185,7 @@ top `Query::numSuggestions` are returned from
 I sought to use the remembrance agent on my desktop and on
 Google Glass. As such I enclosed the core remembrance agent
 functionality in a no-dependency Gradle
-[`remembrance-agent`](https://github.com/remembrance-agent/remembrange-agent)[
-project](https://github.com/remembrance-agent/remembrange-agent)
+[`remembrance-agent`](https://github.com/remembrance-agent/remembrange-agent)[ project](https://github.com/remembrance-agent/remembrange-agent)
 that can easily be imported into other Java runtime
 projects.
 
@@ -249,4 +249,6 @@ faster mental recall of older documents.
 
 ---
 
-[^footnote-1]: By “passive” I simply mean that he was not putting in a conscious effort.
+[^footnote-1]:
+    By “passive” I simply mean that he was not putting in a
+    conscious effort.

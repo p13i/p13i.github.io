@@ -7,7 +7,8 @@ date: 2020-04-06
 
 # `DateUtils.java`
 
-Conforms to the ISO specification for a UTC timestamp in the format like `2023-07-03T08:11:22Z`.
+Conforms to the ISO specification for a UTC timestamp in the
+format like `2023-07-03T08:11:22Z`.
 
 ```java
 package io.p13i.ra.utils;

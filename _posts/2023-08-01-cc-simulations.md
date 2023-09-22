@@ -13,7 +13,8 @@ image: "https://p13i.io/assets/2023-08-01-cc-simulations-thumbnail.jpg"
 featured: true
 ---
 
-This is a continually-improving rendering program being built from scratch in C++, and run in your browser.
+This is a continually-improving rendering program being
+built from scratch in C++, and run in your browser.
 
 <hr/>
 <div id="spinner"></div>

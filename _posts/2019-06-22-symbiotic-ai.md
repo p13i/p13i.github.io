@@ -7,9 +7,9 @@ tags:
   - artificial-intelligence
   - human-computer-interaction
 author: Pramod Kotipalli
-description: An evolving catalog of what I’ve learned in
-  the fields of artificial intelligence and human-computer
-  interaction.
+description:
+  An evolving catalog of what I’ve learned in the fields of
+  artificial intelligence and human-computer interaction.
 layout: post
 image: "https://user-images.githubusercontent.com/13140065/178389106-b692c4f3-e02b-4af1-9a11-ad2df40b65a1.jpg"
 featured: true
@@ -47,8 +47,8 @@ Symbiotic AI can take many forms:
 - a 12 year old spending the entire day with her smartphone
   being able to research any fact from all of human
   knowledge after just a few taps, or
-- a student using a Remembrance Agent [[Rhodes
-1997]](https://paperpile.com/c/mpEskP/0nl3) to
+- a student using a Remembrance Agent
+  [[Rhodes 1997]](https://paperpile.com/c/mpEskP/0nl3) to
   automatically pull up meeting notes with every person he’s
   ever met, or
 - a “Borg” like creature (see _Star Trek: Voyager_) merging
@@ -124,8 +124,8 @@ Different apps on phones are designed to distract you as
 much as possible, making you as inefficient and ineffective
 in accomplishing goals leading to increased “multitasking”
 which contributes to shorter attention spans and worse
-memory recall [[Stanford University
-2018]](https://paperpile.com/c/mpEskP/HdB0).
+memory recall
+[[Stanford University 2018]](https://paperpile.com/c/mpEskP/HdB0).
 
 [[Maes 1997]](https://paperpile.com/c/mpEskP/se69) argued
 that we will become one with the computer, but we must
@@ -174,8 +174,8 @@ represent AR on a spectrum from the real world to that of
 the virtual:
 
 ![None](https://user-images.githubusercontent.com/13140065/178389104-bd61f640-9cd7-41b0-85be-4236a031d02f.png)
-Figure: [[Milgram et al.
-1995]](https://paperpile.com/c/mpEskP/ZNyK)
+Figure:
+[[Milgram et al. 1995]](https://paperpile.com/c/mpEskP/ZNyK)
 
 On this particular spectrum exist two primary stages of
 manipulation:
@@ -190,10 +190,10 @@ AR, AR forms a proper superset of VR where in VR “we just
 need to block the user’s experience of the real world.”
 [[Sandor et al. 2015]](https://paperpile.com/c/mpEskP/8tj6)
 Thus, as VR substitutes the entire visual experience, it
-demands a higher-level of realism than AR. [[Sandor et al.
-2015]](https://paperpile.com/c/mpEskP/8tj6) segment their
-approaches to AR into four categories ranging from
-“manipulating atoms” to “manipulating perception”:
+demands a higher-level of realism than AR.
+[[Sandor et al. 2015]](https://paperpile.com/c/mpEskP/8tj6)
+segment their approaches to AR into four categories ranging
+from “manipulating atoms” to “manipulating perception”:
 
 - Controlled Matter
 - Surround AR
@@ -238,8 +238,8 @@ into the real world by either:
 - displaying such graphics through a holographic display
   (i.e. a HoloLens).
 
-![None](https://user-images.githubusercontent.com/13140065/178388916-56955326-3181-4ec1-9d11-a13d829b1804.png) A
-holographic display placing registered graphics into the
+![None](https://user-images.githubusercontent.com/13140065/178388916-56955326-3181-4ec1-9d11-a13d829b1804.png)
+A holographic display placing registered graphics into the
 real world. Figure:
 [[Buntz]](https://paperpile.com/c/mpEskP/L36u)
 
@@ -259,8 +259,8 @@ virtual environment with little or none of the real
 environment available to the user.
 ![None](https://user-images.githubusercontent.com/13140065/178388918-3a4fc5a2-8aea-4fdf-a337-5e16a20b369e.png)
 
-Figure: [[[CSL STYLE ERROR: reference with no printed
-form.]]](https://paperpile.com/c/mpEskP/KjLj)
+Figure:
+[[[CSL STYLE ERROR: reference with no printed form.]]](https://paperpile.com/c/mpEskP/KjLj)
 
 ## Augmented Reality Spectrum
 
@@ -271,16 +271,16 @@ mechanisms with which reality can be manipulated.
 ### Controlled Matter
 
 ![None](https://user-images.githubusercontent.com/13140065/178388920-4d438b56-364f-4b4f-ac31-4e8ff6560e2b.png)
-Figure: [[Zambetta
-2017]](https://paperpile.com/c/mpEskP/KEbv)
+Figure:
+[[Zambetta 2017]](https://paperpile.com/c/mpEskP/KEbv)
 
 Think The HoloDeck from _Star Trek_: matter is created and
 destroyed, or at the minimum photons are controlled by
 ‘force fields’ giving the impression of physical objects and
 interactions.
 
-Another, more tangible[^footnote-4], example is the [inFORM
-project](https://tangible.media.mit.edu/project/inform/)
+Another, more tangible[^footnote-4], example is the
+[inFORM project](https://tangible.media.mit.edu/project/inform/)
 from MIT Media Lab:
 ![None](https://user-images.githubusercontent.com/13140065/178388922-f1c3d862-04e7-4128-8dce-bff70bba5413.png)
 Figure: [[2013]](https://paperpile.com/c/mpEskP/HJKN)
@@ -341,10 +341,10 @@ parlance, we have five senses: taste, touch, smell, sight,
 and hearing. We also have an extended sensor system that
 plays less visible of a role in our lives:
 sensoriomotor/proprioception (bodily awareness),
-equilibrioception (balance), among others [[Sensory Trust
-2003]](https://paperpile.com/c/mpEskP/6mmR). Many of these
-senses can alternate between an active or *background *role
-depending on the situation.
+equilibrioception (balance), among others
+[[Sensory Trust 2003]](https://paperpile.com/c/mpEskP/6mmR).
+Many of these senses can alternate between an active or
+*background *role depending on the situation.
 
 Among these 8+ factors, we can see how many are engaged by
 each of the daily tasks below:
@@ -409,70 +409,30 @@ flow we feel in various daily tasks.
 
 # References
 
-[Buntz, B. Augmented Reality Technology Gaining Ground for
-Industrial Uses.
-](http://paperpile.com/b/mpEskP/L36u)[https://www.iotworldtoday.com/2019/06/14/augmented-reality-technology-heating-up-in-industrial-space/.](https://www.iotworldtoday.com/2019/06/14/augmented-reality-technology-heating-up-in-industrial-space/.)
-[Fleenor, S.E. 2019. The Seven of Nine binge guide.
-](http://paperpile.com/b/mpEskP/cNpY)[SYFY
-WIRE](http://paperpile.com/b/mpEskP/cNpY)[.
-](http://paperpile.com/b/mpEskP/cNpY)[https://www.syfy.com/syfywire/the-seven-of-nine-binge-guide.](https://www.syfy.com/syfywire/the-seven-of-nine-binge-guide.)
-[Hartman, P., Bezos, J.P., Kaphan, S., and Spiegel, J. 1999.
-Method and system for placing a purchase order via a
-communications network.
-](http://paperpile.com/b/mpEskP/jiKd)[US
-Patent](http://paperpile.com/b/mpEskP/jiKd)[.
-](http://paperpile.com/b/mpEskP/jiKd)[https://patentimages.storage.googleapis.com/37/e6/81/3ebb1f33c41b4a/US5960411.pdf.](https://patentimages.storage.googleapis.com/37/e6/81/3ebb1f33c41b4a/US5960411.pdf.)
-[inFORM. 2013. .](http://paperpile.com/b/mpEskP/HJKN) [Maes,
-P. 1997. Pattie Maes On Sofware Agents: Humanizing The
-Global Computer. ](http://paperpile.com/b/mpEskP/se69)[IEEE
-Internet Computing 1](http://paperpile.com/b/mpEskP/se69)[,
-10–19.
-](http://paperpile.com/b/mpEskP/se69)[http://dx.doi.org/10.1109/mic.1997.612209.](http://dx.doi.org/10.1109/mic.1997.612209.)
-[Milgram, P., Takemura, H., Utsumi, A., and Kishino, F. 1995. Augmented reality: a class of displays on the
-reality-virtuality continuum.
-](http://paperpile.com/b/mpEskP/ZNyK)[Telemanipulator and
-Telepresence
-Technologies](http://paperpile.com/b/mpEskP/ZNyK)[,
-International Society for Optics and Photonics,
-282–292.](http://paperpile.com/b/mpEskP/ZNyK) [Rhodes, B.J. 1997. The wearable remembrance agent: A system for augmented
-memory. ](http://paperpile.com/b/mpEskP/0nl3)[Personal
-Technologies](http://paperpile.com/b/mpEskP/0nl3)[
-](http://paperpile.com/b/mpEskP/0nl3)[1](http://paperpile.com/b/mpEskP/0nl3)[,
-4, 218–224.](http://paperpile.com/b/mpEskP/0nl3) [Sandor,
-C., Fuchs, M., Cassinelli, A., et al. 2015. Breaking the
-barriers to true augmented reality.
-](http://paperpile.com/b/mpEskP/8tj6)[arXiv preprint
-arXiv:1512.
-05471](http://paperpile.com/b/mpEskP/8tj6)[.](http://paperpile.com/b/mpEskP/8tj6)
-[Sensory Trust. 2003. Sensory Trust.5, 9, 21, 53… how many
-senses?
-](http://paperpile.com/b/mpEskP/6mmR)[https://www.sensorytrust.org.uk/information/articles/senses.html.](https://www.sensorytrust.org.uk/information/articles/senses.html.)
-[Stanford University. 2018. Heavy multitaskers have reduced
-memory. ](http://paperpile.com/b/mpEskP/HdB0)[Stanford
-News](http://paperpile.com/b/mpEskP/HdB0)[.
-](http://paperpile.com/b/mpEskP/HdB0)[https://news.stanford.edu/2018/10/25/decade-data-reveals-heavy-multitaskers-reduced-memory-psychologist-says/.](https://news.stanford.edu/2018/10/25/decade-data-reveals-heavy-multitaskers-reduced-memory-psychologist-says/.)
-[Virtual Room | #1 Virtual Reality Sydney | Multiplayer VR
-Escape Room.
-](http://paperpile.com/b/mpEskP/KjLj)[Sydney](http://paperpile.com/b/mpEskP/KjLj)[.
-](http://paperpile.com/b/mpEskP/KjLj)[https://sydney.virtual-room.com/.](https://sydney.virtual-room.com/.)
-[Zambetta, F. 2017. Star Trek’s Holodeck: from science
-fiction to a new reality.
-](http://paperpile.com/b/mpEskP/KEbv)[The
-Conversation](http://paperpile.com/b/mpEskP/KEbv)[.
-](http://paperpile.com/b/mpEskP/KEbv)[http://theconversation.com/star-treks-holodeck-from-science-fiction-to-a-new-reality-74839.](http://theconversation.com/star-treks-holodeck-from-science-fiction-to-a-new-reality-74839.)
+[Buntz, B. Augmented Reality Technology Gaining Ground for Industrial Uses. ](http://paperpile.com/b/mpEskP/L36u)[https://www.iotworldtoday.com/2019/06/14/augmented-reality-technology-heating-up-in-industrial-space/.](https://www.iotworldtoday.com/2019/06/14/augmented-reality-technology-heating-up-in-industrial-space/.)
+[Fleenor, S.E. 2019. The Seven of Nine binge guide. ](http://paperpile.com/b/mpEskP/cNpY)[SYFY WIRE](http://paperpile.com/b/mpEskP/cNpY)[. ](http://paperpile.com/b/mpEskP/cNpY)[https://www.syfy.com/syfywire/the-seven-of-nine-binge-guide.](https://www.syfy.com/syfywire/the-seven-of-nine-binge-guide.)
+[Hartman, P., Bezos, J.P., Kaphan, S., and Spiegel, J. 1999. Method and system for placing a purchase order via a communications network. ](http://paperpile.com/b/mpEskP/jiKd)[US Patent](http://paperpile.com/b/mpEskP/jiKd)[. ](http://paperpile.com/b/mpEskP/jiKd)[https://patentimages.storage.googleapis.com/37/e6/81/3ebb1f33c41b4a/US5960411.pdf.](https://patentimages.storage.googleapis.com/37/e6/81/3ebb1f33c41b4a/US5960411.pdf.)
+[inFORM. 2013. .](http://paperpile.com/b/mpEskP/HJKN)
+[Maes, P. 1997. Pattie Maes On Sofware Agents: Humanizing The Global Computer. ](http://paperpile.com/b/mpEskP/se69)[IEEE Internet Computing 1](http://paperpile.com/b/mpEskP/se69)[, 10–19. ](http://paperpile.com/b/mpEskP/se69)[http://dx.doi.org/10.1109/mic.1997.612209.](http://dx.doi.org/10.1109/mic.1997.612209.)
+[Milgram, P., Takemura, H., Utsumi, A., and Kishino, F. 1995. Augmented reality: a class of displays on the reality-virtuality continuum. ](http://paperpile.com/b/mpEskP/ZNyK)[Telemanipulator and Telepresence Technologies](http://paperpile.com/b/mpEskP/ZNyK)[, International Society for Optics and Photonics, 282–292.](http://paperpile.com/b/mpEskP/ZNyK)
+[Rhodes, B.J. 1997. The wearable remembrance agent: A system for augmented memory. ](http://paperpile.com/b/mpEskP/0nl3)[Personal Technologies](http://paperpile.com/b/mpEskP/0nl3)[ ](http://paperpile.com/b/mpEskP/0nl3)[1](http://paperpile.com/b/mpEskP/0nl3)[, 4, 218–224.](http://paperpile.com/b/mpEskP/0nl3)
+[Sandor, C., Fuchs, M., Cassinelli, A., et al. 2015. Breaking the barriers to true augmented reality. ](http://paperpile.com/b/mpEskP/8tj6)[arXiv preprint arXiv:1512. 05471](http://paperpile.com/b/mpEskP/8tj6)[.](http://paperpile.com/b/mpEskP/8tj6)
+[Sensory Trust. 2003. Sensory Trust.5, 9, 21, 53… how many senses? ](http://paperpile.com/b/mpEskP/6mmR)[https://www.sensorytrust.org.uk/information/articles/senses.html.](https://www.sensorytrust.org.uk/information/articles/senses.html.)
+[Stanford University. 2018. Heavy multitaskers have reduced memory. ](http://paperpile.com/b/mpEskP/HdB0)[Stanford News](http://paperpile.com/b/mpEskP/HdB0)[. ](http://paperpile.com/b/mpEskP/HdB0)[https://news.stanford.edu/2018/10/25/decade-data-reveals-heavy-multitaskers-reduced-memory-psychologist-says/.](https://news.stanford.edu/2018/10/25/decade-data-reveals-heavy-multitaskers-reduced-memory-psychologist-says/.)
+[Virtual Room | #1 Virtual Reality Sydney | Multiplayer VR Escape Room. ](http://paperpile.com/b/mpEskP/KjLj)[Sydney](http://paperpile.com/b/mpEskP/KjLj)[. ](http://paperpile.com/b/mpEskP/KjLj)[https://sydney.virtual-room.com/.](https://sydney.virtual-room.com/.)
+[Zambetta, F. 2017. Star Trek’s Holodeck: from science fiction to a new reality. ](http://paperpile.com/b/mpEskP/KEbv)[The Conversation](http://paperpile.com/b/mpEskP/KEbv)[. ](http://paperpile.com/b/mpEskP/KEbv)[http://theconversation.com/star-treks-holodeck-from-science-fiction-to-a-new-reality-74839.](http://theconversation.com/star-treks-holodeck-from-science-fiction-to-a-new-reality-74839.)
 
 ---
 
 [^footnote-1]:
-    e.g. sight, vestibular, auditory, touch
-    (with haptics), etc. [^footnote-2]: e.g. an ARKit iOS
-    application for playing darts:
+    e.g. sight, vestibular, auditory, touch (with haptics),
+    etc. [^footnote-2]: e.g. an ARKit iOS application for
+    playing darts:
     [https://www.youtube.com/watch?v=Dg9kcm_Li08](https://www.youtube.com/watch?v=Dg9kcm_Li08)
 
 [^footnote-3]:
-    information such as the location, time,
-    people involved, retailers nearby, users nearby, etc.
+    information such as the location, time, people involved,
+    retailers nearby, users nearby, etc.
 
 [^footnote-4]:
-    because it was created by the Tangible Media
-    Group :)
+    because it was created by the Tangible Media Group :)

@@ -11,7 +11,8 @@ downloads:
 ---
 
 In preparation for technical interviews, I implemented
-mergesort in C. The [source on Github](https://github.com/p13i/mergesort-c/blob/main/main.c#L27)
+mergesort in C. The
+[source on Github](https://github.com/p13i/mergesort-c/blob/main/main.c#L27)
 has an extensive set of tests. I like how 'cute' the code
 looks.
 

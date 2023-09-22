@@ -14,7 +14,8 @@ tags:
   - 3d-modeling
 layout: post
 author: Pramod Kotipalli
-description: Modeling, texturing, rendering my favorite product
+description:
+  Modeling, texturing, rendering my favorite product
 subcategories:
   - design
 downloads:

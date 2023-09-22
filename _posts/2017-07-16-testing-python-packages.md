@@ -38,8 +38,9 @@ description: Integration with tox and Travis CI
     &nbsp; Passing Travis CI builds
 </a>
 
-In my [previous post](/writing/pytouch/), we developed a simple Python package
-that creates a file, somewhat similar to the `touch` found in Linux systems.
+In my [previous post](/writing/pytouch/), we developed a
+simple Python package that creates a file, somewhat similar
+to the `touch` found in Linux systems.
 
 ```bash
 $ pytouch new-file.txt
@@ -106,15 +107,15 @@ Create a new file called `tests.py` in the root of the
 project. Fill in the file with
 [this](https://github.com/p13i/pytouch/blob/v0.0.2/tests.py).
 
-Assuming you are familiar with Python's [`unittest`
-framework](https://docs.python.org/2/library/unittest.html),
+Assuming you are familiar with Python's
+[`unittest` framework](https://docs.python.org/2/library/unittest.html),
 let's discuss a few lines in particular:
 
-- `tests.py:17` : `@mock.patch.object(sys, 'argv',
-['pytouch'])`
+- `tests.py:17` :
+  `@mock.patch.object(sys, 'argv', ['pytouch'])`
 
-  This [method
-  decorator](https://www.python.org/dev/peps/pep-0318/)
+  This
+  [method decorator](https://www.python.org/dev/peps/pep-0318/)
   alters the `sys.argv` list to be `['pytouch']` for the
   scope of the succeeding method starting on `tests.py:6`:
   `def test_not_enough(self):`
@@ -123,16 +124,16 @@ let's discuss a few lines in particular:
 
   Because of the method decorator on line 17, the `main`
   function will not have access to a `sys.argv` list of
-  length two causing [this
-  check](https://github.com/p13i/pytouch/blob/v0.0.2/pytouch/pytouch.py#L6)
+  length two causing
+  [this check](https://github.com/p13i/pytouch/blob/v0.0.2/pytouch/pytouch.py#L6)
   to fail. Thus, we expect a
   [`ValueError`](https://github.com/p13i/pytouch/blob/v0.0.2/pytouch/pytouch.py#L6)
   to be raised.
 
 ## Adding dependencies
 
-You may have noticed that the [`import
-mock`](https://github.com/p13i/pytouch/blob/v0.0.2/tests.py#L6)
+You may have noticed that the
+[`import mock`](https://github.com/p13i/pytouch/blob/v0.0.2/tests.py#L6)
 statement in `tests.py` is not a standard, in-built Python
 module; it's located on
 [`PyPI`](https://pypi.python.org/pypi) and can be installed
@@ -141,8 +142,8 @@ package has access to this library?
 
 We can specify it as a dependency in our `setup.py`. Simply
 insert `install_requires=['mock']` in the `setup` method of
-`setup.py` and you should be good to go. See the [completed
-`setup.py`](https://github.com/p13i/pytouch/blob/v0.0.2/setup.py#L11-L14)
+`setup.py` and you should be good to go. See the
+[completed `setup.py`](https://github.com/p13i/pytouch/blob/v0.0.2/setup.py#L11-L14)
 to double-check your work.
 
 ## Running tests
@@ -239,8 +240,8 @@ If you're familiar with Docker (or want to see how this
 option works), continue on. If not, please move on to the
 Travis CI section below.
 
-I created a [Docker
-image](https://github.com/p13i/docker-tox/blob/master/Dockerfile)
+I created a
+[Docker image](https://github.com/p13i/docker-tox/blob/master/Dockerfile)
 with all six of these interpreters installed so we can
 simply pull the ~500 MB image instead of installing each one
 by hand and risking all sorts of unintended consequences.
@@ -298,11 +299,12 @@ script: tox
 Commit your changes and upload to your own git repository
 (or simply [fork](https://github.com/p13i/pytouch/fork) the
 existing one). After setting up your repository with Travis,
-you'll [see all our tests
-running](https://travis-ci.org/p13i/pytouch) on all six of
-these interpreters. From Travis, you can also get a status
-badge that will help our users know that our tool works
-properly: [![Build
+you'll
+[see all our tests running](https://travis-ci.org/p13i/pytouch)
+on all six of these interpreters. From Travis, you can also
+get a status badge that will help our users know that our
+tool works properly:
+[![Build
 Status](https://travis-ci.org/p13i/pytouch.svg?branch=master)](https://travis-ci.org/p13i/pytouch)
 
 Best of luck writing your own Python-based command line

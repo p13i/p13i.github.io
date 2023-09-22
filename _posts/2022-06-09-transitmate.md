@@ -5,7 +5,9 @@ categories:
   - design
 layout: post
 image: "https://user-images.githubusercontent.com/13140065/179047999-df4c84f4-3ead-4e02-a1cb-be0c0513127f.png"
-description: "Safer transportation via checkpoint-based route notifications for friends and family"
+description:
+  "Safer transportation via checkpoint-based route
+  notifications for friends and family"
 downloads:
   - name: "📱 App Store"
     url: https://apps.apple.com/app/id1622298888
@@ -36,8 +38,8 @@ software engineering design patterns and advanced mobile
 application patterns.
 
 We deployed our application to the Google Play and Apple App
-Stores and earned a **Best Technical Achievement** award from
-our course instructor, a world-renowned human-computer
+Stores and earned a **Best Technical Achievement** award
+from our course instructor, a world-renowned human-computer
 interaction Professor teaching at Stanford University in
 California.
 

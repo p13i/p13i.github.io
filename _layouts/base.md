@@ -13,6 +13,8 @@ layout: compress
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}&nbsp;|&nbsp;{% endif %}Pramod Kotipalli" />
+    <meta property="og:image" content="{% if page.image.src %}{{ page.image.src }}{% else %}{{ page.image.src }}{% endif %}" />
     <title>
       {% if page.title %}{{ page.title }}&nbsp;|&nbsp;{% endif %}Pramod Kotipalli
     </title>

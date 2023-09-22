@@ -4,7 +4,8 @@ categories:
   - design
 layout: post
 image: "https://p13i.io/assets/2023-09-08-tic-tac-toe-v2/collage.jpg"
-description: "Travel-sized board game made via laser cutting plywood"
+description:
+  "Travel-sized board game made via laser cutting plywood"
 # downloads:
 #   - name: "Illustrator file"
 #     url: https://p13i.io/assets/2023-07-11-tic-tac-toe/tic-tac-toe.ai
@@ -23,7 +24,8 @@ description: "Travel-sized board game made via laser cutting plywood"
 featured: true
 ---
 
-A follow-on to [/posts/], now wotih magnets! Definitely a WIP rip.
+A follow-on to [/posts/], now wotih magnets! Definitely a
+WIP rip.
 
 <!--
 {% include _post_image.html

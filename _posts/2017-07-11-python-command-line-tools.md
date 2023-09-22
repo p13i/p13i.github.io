@@ -121,7 +121,8 @@ setup(
 )
 ```
 
-Learn more about the `setuptools` package [here](https://setuptools.readthedocs.io/en/latest/setuptools.html).
+Learn more about the `setuptools` package
+[here](https://setuptools.readthedocs.io/en/latest/setuptools.html).
 
 ---
 
@@ -138,7 +139,8 @@ Installing collected packages: pytouch
 Successfully installed pytouch-0.0.1
 ```
 
-Now, if you run `pip freeze | grep pytouch`, you should see our tool!
+Now, if you run `pip freeze | grep pytouch`, you should see
+our tool!
 
 ```shell
 $ pip freeze | grep pytouch
@@ -169,5 +171,5 @@ Run `pip uninstall pytouch` and our tool is removed.
 
 In a soon to come future post, we'll dive into testing tools
 that will ensure our project can work with any version of
-Python. **2017/07/16 Edit**: See [Testing Python
-Packages](/writing/py-test/).
+Python. **2017/07/16 Edit**: See
+[Testing Python Packages](/writing/py-test/).

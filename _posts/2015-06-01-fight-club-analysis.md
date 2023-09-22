@@ -1,11 +1,15 @@
 ---
-title: Fight Club and our Construction of Self-image through Consumerism and Materialism
+title:
+  Fight Club and our Construction of Self-image through
+  Consumerism and Materialism
 date: "2015-06-01"
 categories:
   - writing
 layout: post
 author: Pramod Kotipalli
-description: Independent Research Project for English Composition at the University of Washington
+description:
+  Independent Research Project for English Composition at
+  the University of Washington
 ---
 
 <!--
@@ -491,7 +495,8 @@ Lens." Personal Blog. N.p., 09 Dec. 2012. Web. 10 May 2015.
 <https://mypotatofamine.wordpress.com/fight-club-literay-analysis/americas-proletariat-fight-club-through-a-marxist-lens/>.
 
 Bishop, Kyle. "Artistic Schizophrenia: How _Fight Club_’s
-Message Is Subverted by Its Own Nature." PCASACAS, Oct. 2006. Web. 10 May 2015.
+Message Is Subverted by Its Own Nature." PCASACAS,
+Oct. 2006. Web. 10 May 2015.
 <http://pcasacas.org.seanic11.net/SiPC/29.1/Bishop.pdf>.
 
 Burris, Val. "Chapter 3: The Neo-Marxist Synthesis of Marx
@@ -502,7 +507,8 @@ _Fight Club_. Dir. David Fincher. Perf. Brad Pitt, Edward
 Norton, Helena Bonham Carter. 20th Century Fox, 1999. DVD.
 
 Godfree, Tori E. "A Generation of Men Raised by Women:
-Gender Constructs in '_Fight Club_'" Student Pulse. N.p., 2010. Web. 10 May 2015.
+Gender Constructs in '_Fight Club_'" Student Pulse.
+N.p., 2010. Web. 10 May 2015.
 <http://www.studentpulse.com/articles/227/a-generation-of-men-raised-by-women-gender-constructs-in-fight-club>.
 
 Mckerrow, Raymie E. "Critical Rhetoric: Theory and Praxis."

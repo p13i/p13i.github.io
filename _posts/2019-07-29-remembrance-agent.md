@@ -16,10 +16,11 @@ tags:
   - google-cloud-speech-api
 layout: post
 author: Pramod Kotipalli
-description: Java-based implementations of a remembrance
-  agent, a continuously running automated information
-  retrieval system, based on work by Bradley Rhodes of MIT
-  Media Lab (1997). Available as a standalone, no-dependency
+description:
+  Java-based implementations of a remembrance agent, a
+  continuously running automated information retrieval
+  system, based on work by Bradley Rhodes of MIT Media Lab
+  (1997). Available as a standalone, no-dependency
   Java/Gradle project and as a desktop graphical user
   interface (GUI) featuring integrations with Google Cloud
   Speech APIs, Gmail, Google Drive, and locally-stored plain
@@ -29,13 +30,18 @@ description: Java-based implementations of a remembrance
 image: "https://user-images.githubusercontent.com/13140065/178388966-481931be-96f3-4820-88e8-141e16a5ff7c.png"
 default_image_fullwidth: true
 downloads:
-  - name: "\U0001F4BB GitHub (Remembrance Agent Java Gradle project)"
+  - name:
+      "\U0001F4BB GitHub (Remembrance Agent Java Gradle
+      project)"
     url: https://github.com/remembrance-agent/remembrance-agent.git
-  - name: "\U0001F4BB GitHub (Remembrance Agent Desktop GUI)"
+  - name:
+      "\U0001F4BB GitHub (Remembrance Agent Desktop GUI)"
     url: https://github.com/remembrance-agent/remembrance-agent-desktop.git
-  - name: "\U0001F4BB macOS .dmg desktop application (v1.0.1)"
+  - name:
+      "\U0001F4BB macOS .dmg desktop application (v1.0.1)"
     url: https://github.com/remembrance-agent/remembrance-agent-desktop/releases/download/v1.0.1/ra-desktop-v1.0.1-macos-dmg.zip
-  - name: "\U0001F4BB Windows .exe desktop application (v1.0.1)"
+  - name:
+      "\U0001F4BB Windows .exe desktop application (v1.0.1)"
     url: https://github.com/remembrance-agent/remembrance-agent-desktop/releases/download/v1.0.1/ra-desktop-v1.0.1-windows-exe.zip
 featured: true
 ---
@@ -200,11 +206,19 @@ repositories:
    a Google Drive- and Gmail-based document database as well
    as usage of our keystrokes or speech as input to the RA.
 
-[rhodes-1997]: http://alumni.media.mit.edu/~rhodes/Papers/wear-ra-personaltech/
-[ra-query-period]: https://github.com/remembrance-agent/remembrance-agent/blob/v1.2.1/src/main/java/io/p13i/ra/RemembranceAgentClient.java#L332-L337
-[ra-engine-github]: https://github.com/remembrance-agent/remembrance-agent/blob/v1.2.1/src/main/java/io/p13i/ra/engine/RemembranceAgentSuggestionCalculator.java
-[tfidf-github]: https://github.com/remembrance-agent/remembrance-agent/blob/v1.2.1/src/main/java/io/p13i/ra/utils/TFIDFCalculator.java
-[readme]: https://github.com/remembrance-agent/remembrance-agent/blob/master/README.md
-[ra-repo]: https://github.com/remembrance-agent/remembrance-agent
-[ra-interface]: https://github.com/remembrance-agent/remembrance-agent/blob/f061e14770e2aa8c0e79dcefb654b9d28c6325e3/src/main/java/io/p13i/ra/engine/IRemembranceAgentEngine.java#L17-L38
-[ra-desktop]: https://github.com/remembrance-agent/remembrance-agent-desktop
+[rhodes-1997]:
+  http://alumni.media.mit.edu/~rhodes/Papers/wear-ra-personaltech/
+[ra-query-period]:
+  https://github.com/remembrance-agent/remembrance-agent/blob/v1.2.1/src/main/java/io/p13i/ra/RemembranceAgentClient.java#L332-L337
+[ra-engine-github]:
+  https://github.com/remembrance-agent/remembrance-agent/blob/v1.2.1/src/main/java/io/p13i/ra/engine/RemembranceAgentSuggestionCalculator.java
+[tfidf-github]:
+  https://github.com/remembrance-agent/remembrance-agent/blob/v1.2.1/src/main/java/io/p13i/ra/utils/TFIDFCalculator.java
+[readme]:
+  https://github.com/remembrance-agent/remembrance-agent/blob/master/README.md
+[ra-repo]:
+  https://github.com/remembrance-agent/remembrance-agent
+[ra-interface]:
+  https://github.com/remembrance-agent/remembrance-agent/blob/f061e14770e2aa8c0e79dcefb654b9d28c6325e3/src/main/java/io/p13i/ra/engine/IRemembranceAgentEngine.java#L17-L38
+[ra-desktop]:
+  https://github.com/remembrance-agent/remembrance-agent-desktop

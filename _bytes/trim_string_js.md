@@ -7,7 +7,9 @@ date: 2023-08-24
 
 # `trimString.js`
 
-Gets rid of whitespace on either side of a string and returns a new string. For example, `trimString(" abc ")` will result in `"abc"`.
+Gets rid of whitespace on either side of a string and
+returns a new string. For example, `trimString(" abc ")`
+will result in `"abc"`.
 
 ```js
 // https://stackoverflow.com/a/3084733/5071723

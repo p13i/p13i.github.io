@@ -7,7 +7,9 @@ tags:
   - graphic-design
   - 3d-modeling
 layout: post
-description: Rendering sakura flowers with custom bokeh effect in PBRT (Stanford CS 348B)
+description:
+  Rendering sakura flowers with custom bokeh effect in PBRT
+  (Stanford CS 348B)
 # Use *829 for 3 columns
 # image: "https://github.com/p13i/p13i.github.io/assets/13140065/ece9730a-1b90-4513-9159-fd3f9e46a829"
 # Use *9a8 for 2 columns
@@ -31,5 +33,4 @@ presentation:
 ---
 
 {% for slide in page.presentation.slides %}
-{% include _post_image.html src=slide %}
-{% endfor %}
+{% include _post_image.html src=slide %} {% endfor %}

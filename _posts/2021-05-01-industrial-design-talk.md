@@ -8,7 +8,9 @@ tags:
   - industrial-design
 layout: post
 author: Pramod Kotipalli
-description: A talk given to high school students through CLOUD Rainstorm (a Splash program run by Learning Unlimited)
+description:
+  A talk given to high school students through CLOUD
+  Rainstorm (a Splash program run by Learning Unlimited)
 image: https://user-images.githubusercontent.com/13140065/200154423-cdb850ba-af45-4c84-ab76-e41f375da2cb.png
 default_image_fullwidth: true
 columns: 1

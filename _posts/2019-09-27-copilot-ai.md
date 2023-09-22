@@ -39,4 +39,5 @@ amount. Plus robotics is getting pretty dang good and
 workers are increasingly demanding better working conditions
 (both of which are great!).
 
-This work was based, in part, on our [ISWC 2018 paper](/portfolio/rf-pick).
+This work was based, in part, on our
+[ISWC 2018 paper](/portfolio/rf-pick).

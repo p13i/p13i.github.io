@@ -236,19 +236,20 @@ effective brainstorming are:
    such alternatives are found), and select the best option.
 2. Identify the objectives of a possible solution. Going
    into details about the requirements and not potential
-   solutions makes the forthcoming brainstorming sessions more
-   successful.
+   solutions makes the forthcoming brainstorming sessions
+   more successful.
 3. Try to generate solutions individually. Before heading to
    the group, brainstorm solutions individually to avoid
    ‘anchoring’ to a particular solution/objective to the
    exclusion of other goals for the team.
 4. After the prior steps, work as a group. Use the
-   objectives, problem statements, and individual solutions to
-   facilitate a more productive brainstorming session.
+   objectives, problem statements, and individual solutions
+   to facilitate a more productive brainstorming session.
 
 ## Beyer, _Contextual Design - Defining Customer-Centered Systems_
 
-Based on Hugh Beyer and Karen Holtzblatt's _Contextual Design - Defining Customer-Centered Systems_.
+Based on Hugh Beyer and Karen Holtzblatt's _Contextual
+Design - Defining Customer-Centered Systems_.
 
 {% include _single_download.html name="📜 [Beyer and
   Holtzblatt] PDF on my Google Drive (request access)"
@@ -837,8 +838,8 @@ instead of an open exploration.
 - _Go after adjectives_
   - HMW we make the rush refreshing instead of harrying?
 - _Identify unexpected resources_
-  - HMW leverage free time of fellow passengers to share
-    the load?
+  - HMW leverage free time of fellow passengers to share the
+    load?
 - _Create an analogy from need or context_
   - HMW make the airport like a spa?
 - _Change a status quo_
@@ -951,8 +952,8 @@ he is and be notified when she is about to get to the club.
 
 Tasks are described as **users and their goals**, not
 details of the system. From simple to complex, the
-_frequency, density, and pain_ (see [Selecting good problems
-& solutions](#heading=h.5f0scbfwd3k8)).
+_frequency, density, and pain_ (see
+[Selecting good problems & solutions](#heading=h.5f0scbfwd3k8)).
 
 <div class="card mb-3">
   <div class="card-header">
@@ -1334,8 +1335,8 @@ america website
   - Minimalist design with large and simple instructions
   - Whitespace shows what is important/related
   - Automatic location setting
-  - large calendar for easy/fast date selection because
-    the buttons are large (Fitt’s Law)
+  - large calendar for easy/fast date selection because the
+    buttons are large (Fitt’s Law)
 - Shake Shack iPhone app:
 
   - No clear way to navigate to the next screen
@@ -1343,9 +1344,9 @@ america website
   - May be too many screens
   - Only using one color: but for two things:
     - For selection of items as well as checking out
-    - One highlight color with their images =>
-      recommended by Landay to carefully think if more
-      colors are necessary
+    - One highlight color with their images => recommended
+      by Landay to carefully think if more colors are
+      necessary
   - No place to comment on Allergens, etc.
   - Design pattern: cross-sale of Fries etc. on screen 9.
     “Would you like fries with that?” Landay not sure what
@@ -1371,10 +1372,10 @@ america website
   - Make it appear as if there’s something powerful behind
     what’s happening, like in the film
   - Tradition in CS industry:
-    - prototype of a PC with a DEC VAX (minicomputer)
-      behind the curtain
-  - Can test the application before making it: important
-    for hard-to-implement features
+    - prototype of a PC with a DEC VAX (minicomputer) behind
+      the curtain
+  - Can test the application before making it: important for
+    hard-to-implement features
   - Carbon Shopper with Pico projector:
   - Hardcode data to give a “flavor of how it will work”
   - Want to see the working user interface by faking the
@@ -1392,8 +1393,8 @@ america website
       - universities do basic research
       - Helps economy & national defense
     - Analog computers: differential equations
-  - “As we may think” written in 1942-1943, published in
-    The Atlantic in 1945:
+  - “As we may think” written in 1942-1943, published in The
+    Atlantic in 1945:
     - “selection” for search
     - connecting articles together via ‘hyperlinks’
   - Futuristic inventions/trends?
@@ -1405,54 +1406,51 @@ america website
     - trails of discovery
     - capture of nerve impulses
     - memex:
-      - had large monitors for reading (didn’t exist
-        then!)
+      - had large monitors for reading (didn’t exist then!)
       - scanners
       - controls
       - Styluses
     - Drawers for storage using Micro Fish
-    - Bush: wrong about photographic storage, missed
-      digital technologies, didn’t see
-      non-science/non-office apps
+    - Bush: wrong about photographic storage, missed digital
+      technologies, didn’t see non-science/non-office apps
     - Predicting -> Inventing the Future
 - Computing in 1965
-  - Hidden Figures [Shetterly] advanced much of
-    programming of computers at NASA
+  - Hidden Figures [Shetterly] advanced much of programming
+    of computers at NASA
 - Engelbart & Augmenting Intellect
-  - “Conceptual Model for Augmenting Human Intellect”
-    (1962)
+  - “Conceptual Model for Augmenting Human Intellect” (1962)
     - Complexity of problems is increasing -> new tools
       needed
   - Stanford Research Institute (SRI) in the 1960s:
     - Johns Hopkins Applied Physics Lab
     - Many in Boston associated with MIT
-    - Worked at NASA precursor (NACA) at Ames in
-      Mountain View
+    - Worked at NASA precursor (NACA) at Ames in Mountain
+      View
   - Turning Award of 1997
   - Demoed NLS (oNLine System), 1968 Fall Joint Computer
-    Conference (in SF Civic Center) => “mother of all
-    demos” => affected industry for next 30 years. (In
-    Stanford Libraries, hours of footage(
+    Conference (in SF Civic Center) => “mother of all demos”
+    => affected industry for next 30 years. (In Stanford
+    Libraries, hours of footage(
   - Most known for inventing the mouse:
   - Has hyperlinks in text-based UI
   - Inventions:
-    - First 2D editing and windows (different sections
-      of independent text)
+    - First 2D editing and windows (different sections of
+      independent text)
     - First mouse
     - First hypertext
     - First word processing
-    - First document version controlFirst groupware
-      (shared screen teleconferencing)
+    - First document version controlFirst groupware (shared
+      screen teleconferencing)
     - Find context-sensitive help in the UI
     - First distributed client-server model
-    - And about 30 different key concepts that show up
-      in our computers today
+    - And about 30 different key concepts that show up in
+      our computers today
   - Tricycles vs. bicycles: specialized tools
     - Tricycles doesn’t take much time to learn it
     - Bicycles require learning of balance:
       - Benefit: faster, more complex terrain
-      - Englebart: we are losing sight of making
-        powerful goals instead of just more usable
+      - Englebart: we are losing sight of making powerful
+        goals instead of just more usable
   - More reading:
     - Bardini 2000: Bootstrapping
     - Program on Human Effectiveness
@@ -1461,11 +1459,10 @@ america website
   - Sutherland:
     - MIT PhD student
     - GUI from Sutherland
-    - All the basics for computer graphics, AR/VR&lt;
-      etc.
+    - All the basics for computer graphics, AR/VR&lt; etc.
     - CAD: graphical constraints (1962) took until 1990s
-    - AR/VR: mechanical tracking and sonic tracking
-      (first AR/VR from 1965)
+    - AR/VR: mechanical tracking and sonic tracking (first
+      AR/VR from 1965)
   - Alan Kay (1974): Dynabook
   - Xerox Star: 1st commercial GUI (1981): $20k cost =>
     failure:
@@ -1491,16 +1488,18 @@ america website
 <!-- Big Basket UI evaluation: hall of shame due to large ads and
 bad colors schemes -->
 
-_Heuristic evaluation_ is a 25 year old method that is useful in
-companies and startups for testing software products.
+_Heuristic evaluation_ is a 25 year old method that is
+useful in companies and startups for testing software
+products.
 
 In any evaluation we want to figure out what we should keep
-and what we should improve or add. Lo-fi prototyping works well for
-tap-and-show interactions, not real-time gestures required
-for AR, painting, etc. They are not realistic in visuals and
-performance, these are not an actual interface meaning that
-we cannot let the user test it alone (“Hawthorne Effect”).
-Participants can be hard to find repeatedly.
+and what we should improve or add. Lo-fi prototyping works
+well for tap-and-show interactions, not real-time gestures
+required for AR, painting, etc. They are not realistic in
+visuals and performance, these are not an actual interface
+meaning that we cannot let the user test it alone
+(“Hawthorne Effect”). Participants can be hard to find
+repeatedly.
 
 Jakob Nielsen developed the Heuristic Evaluation to help
 find usability problems in a UI design. The key idea is to
@@ -1593,9 +1592,10 @@ contexts.</p>
     </ul>
 </div>
 
-<em>\* Heuristics marked with an asterisks (\*) are custom additions
-by the course staff to reflect new values that are important
-to making accessible and socially-conscious products.</em>
+<em>\* Heuristics marked with an asterisks (\*) are custom
+additions by the course staff to reflect new values that are
+important to making accessible and socially-conscious
+products.</em>
 
 ### Examples of values in design
 

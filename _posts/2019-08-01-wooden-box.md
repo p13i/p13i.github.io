@@ -1,7 +1,8 @@
 ---
 title: "Laser Cut Wooden Pencil Box"
-description: "Made at Georgia Tech's 'The Hive' Makerspace
-  with an Islamic art style engraving"
+description:
+  "Made at Georgia Tech's 'The Hive' Makerspace with an
+  Islamic art style engraving"
 categories:
   - design
 tags:

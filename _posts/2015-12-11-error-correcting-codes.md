@@ -418,12 +418,15 @@ Now, we must find our transmitted word $$t(x)$$:
 
     In this case, we operate under $$\pmod{g(x)}$$. Our
     final expression is evaluated as such[^17]:
-    $$\begin{aligned}
+
+    $$
+    \begin{aligned}
                             b(x) = x^{10} \cdot m(x) &= x^{10} \cdot (x^4 + x^2 + x) \\
                                 &= x^{14} + x^{12} + x^{11}\\
                                 &\equiv -2 x^9-x^8-2 x^6-2 x^5-x^4-x^3-x^2-x \pmod{g(x)} \\
                                 &\equiv x^8 + x^4 + x^3 + x^2 + x \pmod{g(x)}
-                        \end{aligned}$$
+                        \end{aligned}
+    $$
 
 2.  Second, we find $$t(x)$$ by adding $$m(x) \cdot x^{10}$$
     and $$b(x)$$:
@@ -517,12 +520,15 @@ $$\alpha \in \textbf{GF}(16)$$[^19].
 We can then calculate syndrome values as such by evaluating
 $$r(x)$$ at each of the zeros of the code (which we have
 established to be powers of $$\alpha$$):
-$$\begin{aligned}
+
+$$
+\begin{aligned}
                     S_1 &= r(\alpha^b) \\
                     S_2 &= r(\alpha^{b+1}) \\
                     & \vdots \\
                     S_{2t_d} &= r(\alpha^{b+2t_d -1}) \\
-                \end{aligned}$$
+                \end{aligned}
+$$
 
 Then we can define our _error locater polynomial_ as:
 $$\sigma(x) = \prod_{l=1}^{v} (1 + a^{j_l}x) = 1 + \sigma_1x + \cdots + \sigma_v x^v$$
@@ -580,24 +586,30 @@ corresponding powers of the primitive element
 $$\alpha \in \textbf{GF}(16)$$. The syndromes are calculated
 as such using the Power/Vector table provided in the
 Appendix:[^20]
-$$\begin{aligned}
+
+$$
+\begin{aligned}
                 S_1 &= r(\alpha^1) = \alpha^{14} + \alpha^{11} + \alpha^8 + \alpha^6 +  \alpha^4 + \alpha^3 + \alpha^2 + \alpha^1 + \alpha^0 = \alpha \\
                 S_2 &= {S_1}^2 = \alpha^2 \\
                 S_3 &= r(\alpha^3) = {\alpha^3}^{14} + {\alpha^3}^{11} + {\alpha^3}^8 + {\alpha^3}^6 + {\alpha^3}^4 + {\alpha^3}^3 + {\alpha^3}^2 + {\alpha^3}^1 + {\alpha^3}^0 = \alpha^8\\
                 S_4 &= {S_2}^2 = \alpha^4 \\
                 S_5 &= r(\alpha^5) = {\alpha^5}^{14} + {\alpha^5}^{11} + {\alpha^5}^8 + {\alpha^5}^6 + {\alpha^5}^4 + {\alpha^5}^3 + {\alpha^5}^2 + {\alpha^5}^1 + {\alpha^5}^0 = 1 \\
                 S_6 &= {S_3}^2 = \alpha \\
-            \end{aligned}$$
+            \end{aligned}
+$$
 
 Restating our findings:
-$$\begin{aligned}
+
+$$
+\begin{aligned}
              S_1 &= \alpha \\
              S_2 &= \alpha^2 \\
              S_3 & = \alpha^8 \\
              S_4 & = \alpha^4 \\
              S_5 &= 1 \\
              S_6 & = \alpha \\
-             \end{aligned}$$
+             \end{aligned}
+$$
 
 Now, knowing the six syndrome values for the received
 message $$r$$, we can proceed to use the
@@ -612,7 +624,9 @@ in a message $$r$$ are unknown to a recipient.
 The PGZ process begins by filling the matrix from prior with
 values that we know for $$v = 3$$ representing the three
 number of errors we can correct:
-$$\left( \begin{array}{cccc}
+
+$$
+\left( \begin{array}{cccc}
             S_1 & S_2 & \cdots &S_v \\
             S_2 & S_3 & \cdots &S_{v+1} \\
             \vdots & \vdots & \ddots & \vdots \\
@@ -627,7 +641,8 @@ $$\left( \begin{array}{cccc}
             \alpha & \alpha^2 & \alpha^8 \\
             \alpha^2 & \alpha^8 & \alpha^4 \\
             \alpha^8 & \alpha^4 & 1 \\
-            \end{array} \right)$$
+            \end{array} \right)
+$$
 
 Because the $$\sigma_i$$ values below are the inverses of
 the error positions, we must find the solution to the matrix
@@ -668,7 +683,9 @@ $$
 
 Because the determinant of the matrix is non-zero, then the
 matrix equation
-$$\left( \begin{array}{c}
+
+$$
+\left( \begin{array}{c}
             \alpha^4 \\
             1 \\
             \alpha \end{array} \right)
@@ -680,7 +697,9 @@ $$\left( \begin{array}{c}
             \left( \begin{array}{c}
             \sigma_{3} \\
             \sigma_{2} \\
-            \sigma_{1} \end{array} \right)$$
+            \sigma_{1} \end{array} \right)
+$$
+
 must have a solution for the $$\sigma$$ vector. Through a
 multitude of methods, we can solve the matrix equation above
 for the $$\sigma$$ vector. Any such valid calculation

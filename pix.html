@@ -19,6 +19,11 @@ layout: base
     display: inline-block;
     width: 100%;
   }
+
+  .my-card {
+    padding: 1em;
+    background-color: black;
+  }
 </style>
 
 <script type="text/javascript">
@@ -34,7 +39,7 @@ layout: base
         cardsDiv.style.columnCount = slider.value;
         numColumnsSpan.textContent = slider.value;
       }
-      slider.addEventListener("input", setColumnsCount);
+      slider.addEventListener("input", () => setColumnsCount(slider.value));
       setColumnsCount(3);
     },
   );
@@ -49,14 +54,14 @@ layout: base
     <label for="slider">Set number of columns in grid (between 1 and 8), currently <strong><span
         id="num-columns"></span></strong>:</label>
     <br />
-    <input type="range" id="slider" name="slider" min="1" max="8" />
+    <input type="range" id="slider" name="slider" min="1" max="8" value="3" />
 
     <hr />
     <div class="row">
       <div class="card-columns my-card-columns" id="my-card-columns">
         {% for post in site.posts %} {% if post.downloads %}
 
-        <div class="card" style="border-width: 0;">
+        <div class="card my-card" style="border-width: 0;">
           <img src="{{ site.data.images.loading.src }}" data-src="{{ post.image }}" class="card-img-top lazyload" />
         </div>
         {% endif %} {% endfor %}

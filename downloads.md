@@ -6,24 +6,15 @@ layout: base
 <div class="row">
     <div class="col-12">
         <hr/>
-
         <h1>Downloads</h1>
-
         <hr/>
-
         <p>3D assets, images, and easy-to-build source for most of my work.</p>
-
         <p>I am a <strong>strong</strong> believer in open-sourcing whatever I can so that others may learn from my work, as I have learned from countless others.</p>
-
         <hr/>
-
         <div class="row">
             <div class="card-columns">
-
             {% for post in site.posts %}
-
             {% if post.downloads %}
-
             <div class="card">
                 <img src="{{ site.data.images.loading.src }}"
                     data-src="{{ post.image }}"
@@ -43,15 +34,10 @@ layout: base
                   <a href="{{ post.url }}" class="card-link">Go to post »</a>
                 </div>
               </div>
-
               {% endif %}
-
             {% endfor %}
-
             </div>
-
         </div>
-
         {% include _copyright.html %}
     </div>
 

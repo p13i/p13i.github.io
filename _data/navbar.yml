@@ -18,6 +18,10 @@
   target: _self
   category: tweet
 
+- display: Pix
+  href: /pix/
+  target: _self
+
 - display: Downloads
   href: /downloads/
   target: _self

@@ -3,11 +3,6 @@
   target: _self
   category: research
 
-- display: Design
-  href: /design/
-  target: _self
-  category: design
-
 - display: Writing
   href: /writing/
   target: _self
@@ -18,14 +13,9 @@
   target: _self
   category: tweet
 
-- display: Pix
+- display: pix
   href: /pix/
   target: _self
-
-- display: Downloads
-  href: /downloads/
-  target: _self
-  category: downloads
 
 - display: "`bytes`"
   href: /bytes/

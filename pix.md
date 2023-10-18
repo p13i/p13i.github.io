@@ -1,6 +1,7 @@
 ---
 title: Photography
 layout: base
+theme: dark
 ---
 
 <style>
@@ -22,6 +23,9 @@ layout: base
 
   .my-card {
     padding: 1em;
+    background-color: black;
+  }
+  body {
     background-color: black;
   }
 </style>

@@ -66,7 +66,6 @@ theme: dark
   <div class="container-fluid">
     <p>i'm a vsco girl.. in a vosco world...</p>
     <hr />
-
     <label for="slider"
       >Set number of columns in grid (between 1 and 8),
       currently
@@ -82,7 +81,6 @@ theme: dark
       max="8"
       value="3"
     />
-
     <hr />
     <div class="row">
       <div
@@ -90,7 +88,6 @@ theme: dark
         id="my-card-columns"
       >
         {% for post in site.posts %} {% if post.downloads %}
-
         <div class="card my-card" style="border-width: 0">
           <img
             src="{{ site.data.images.loading.src }}"

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Recursive Backtracking"
+title: "Recursive backtracking"
 programming_language: "csharp"
 date: 2021-04-12
 description: "Fun"

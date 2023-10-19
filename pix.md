@@ -28,6 +28,9 @@ theme: dark
   body {
     background-color: black;
   }
+  .active {
+    text-decoration-color: white !important;
+  }
 </style>
 
 <script type="text/javascript">

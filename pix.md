@@ -75,25 +75,27 @@ theme: dark
   "
 >
   <div class="container-fluid">
-    <div class="row">
+    <div class="row" style="padding: 1em;">
       <p>i'm a vsco girl.. in a vosco world...</p>
       <hr />
       <div class="float-right">
-        <label for="slider"  class="form-label"
-          >Set number of columns in grid (between 1 and 8),
-          currently
-          <strong><span id="num-columns"></span></strong
-          >:</label
-        >
-        <br />
-        <input class="form-range"
-          type="range"
-          id="slider"
-          name="slider"
-          min="1"
-          max="8"
-          value="3"
-        />
+        <div class="form-group">
+          <label for="slider"
+            >Set number of columns in grid (between 1 and 8),
+            currently
+            <strong><span id="num-columns"></span></strong
+            >:</label
+          >
+          <br />
+          <input class="form-control-range"
+            type="range"
+            id="slider"
+            name="slider"
+            min="1"
+            max="8"
+            value="3"
+          />
+        </div>
       </div>
     </div>
     <hr />

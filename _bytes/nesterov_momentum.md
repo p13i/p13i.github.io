@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nesterov Gradient Descent
+title: Nesterov gradient descent
 programming_language: Python
 date: 2021-04-12
 description: For Stanford AA222

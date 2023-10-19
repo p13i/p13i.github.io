@@ -34,21 +34,32 @@ theme: dark
   document.addEventListener(
     "DOMContentLoaded",
     function () {
+      /* Get the `columns` query string param if set */
+      const urlParams = new URLSearchParams(window.location.search);
+      const numColumns = urlParams.get('columns') || 3;
+      console.log('columns', numColumns);
+
       const slider = document.getElementById("slider");
       const numColumnsSpan =
         document.getElementById("num-columns");
       const cardsDiv = document.getElementById(
         "my-card-columns",
       );
-      function setColumnsCount() {
-        cardsDiv.style.columnCount = slider.value;
-        numColumnsSpan.textContent = slider.value;
+      function setColumnsCount(value) {
+        cardsDiv.style.columnCount = value;
+        numColumnsSpan.textContent = value;
+        slider.value = value;
+        
+        urlParams.set('columns', value);
+        const newURL = `${window.location.pathname}?${urlParams.toString()}`;
+        window.history.pushState({}, '', newURL);
+
       }
       slider.addEventListener("input", () =>
         setColumnsCount(slider.value),
       );
-      setColumnsCount(3);
-    },
+      setColumnsCount(numColumns);
+    }
   );
 </script>
 

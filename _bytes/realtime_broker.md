@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Simple Realtime WebSocket Messages
+title: Realtime messages over WebSockets
 programming_language: TypeScript
 date: 2021-03-12
 ---

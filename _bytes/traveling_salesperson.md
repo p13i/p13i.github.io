@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Traveling Sales-person Problem
+title: Traveling sales-person problem (TSP)
 programming_language: Python
 description: "`pip install gt-tsp`"
 date: 2023-06-21

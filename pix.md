@@ -79,14 +79,14 @@ theme: dark
       <p>i'm a vsco girl.. in a vosco world...</p>
       <hr />
       <div class="float-right">
-        <label for="slider"
+        <label for="slider"  class="form-label"
           >Set number of columns in grid (between 1 and 8),
           currently
           <strong><span id="num-columns"></span></strong
           >:</label
         >
         <br />
-        <input
+        <input class="form-range"
           type="range"
           id="slider"
           name="slider"

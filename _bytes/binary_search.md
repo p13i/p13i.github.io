@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Binary Search
+title: Binary search
 date: 2021-04-12
 programming_language: "csharp"
 description: "For interview prep, why else?"

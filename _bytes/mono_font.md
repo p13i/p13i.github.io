@@ -7,7 +7,7 @@ date: 2023-10-22
 image: ""
 ---
 
-# 
+#
 
 Prompt was something like this:
 

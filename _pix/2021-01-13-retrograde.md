@@ -7,7 +7,7 @@ pictures:
   - url: https://user-images.githubusercontent.com/13140065/155815967-0968cbf1-2d06-470a-9fc2-7d3b88493cd9.jpg
     alt: "Focus on a horse's face in Snoqualime, WA."
   - url: https://user-images.githubusercontent.com/13140065/155812212-3cf879df-b300-4c53-aacb-b30caa926221.jpg
-  - alt:
+    alt:
       "Photo of a homeless woman sitting on a sidewalk with
       a sign as a minivan speeds on on the road behind her."
 ---

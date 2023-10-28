@@ -112,7 +112,7 @@ theme: dark
             <div class="card my-card" style="border-width: 0">
               <img
                 src="{{ site.data.images.loading.src }}"
-                data-src="{{ picture.src }}"
+                data-src="{{ picture.url }}"
                 alt="{{ picture.alt }}"
                 class="card-img-top lazyload"
               />

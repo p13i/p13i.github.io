@@ -107,17 +107,15 @@ theme: dark
         class="card-columns my-card-columns"
         id="my-card-columns"
       >
-        {% for post in site.pix %}
-          {% for picture in post.pictures %}
-            <div class="card my-card" style="border-width: 0">
-              <img
-                src="{{ site.data.images.loading.src }}"
-                data-src="{{ picture.url }}"
-                alt="{{ picture.alt }}"
-                class="card-img-top lazyload"
-              />
-            </div>
-          {% endfor %}
+        {% for pic in site.data.pix %}
+          <div class="card my-card" style="border-width: 0">
+            <img
+              src="{{ site.data.images.loading.src }}"
+              data-src="{{ pic.url }}"
+              alt="{{ pic.alt }}"
+              class="card-img-top lazyload"
+            />
+          </div>
         {% endfor %}
       </div>
     </div>

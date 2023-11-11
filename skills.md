@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 Pramod's skills:
 
 * HCI Research Methods: Human-subjects study design (e.g., counterbalancing, dual-task studies, learning effects, IRB approvals), qualitative interviews, data visualization, statistics tests, UX research, UI design/implementation.

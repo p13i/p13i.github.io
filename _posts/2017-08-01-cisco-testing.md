@@ -41,8 +41,6 @@ subcategories:
   - engineering
 ---
 
-![]({{ page.image }})
-
 During my internship at Cisco, I led two full-time employees
 where we created a highly-scalable distributed HTTP load
 testing framework. We built a simple-to-use RESTful API that

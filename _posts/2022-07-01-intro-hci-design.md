@@ -1,5 +1,5 @@
 ---
-title: "Course Notes: Intro HCI & Design Thinking 
+title: "Intro HCI & Design Thinking 
 (Stanford CS 147)"
 categories:
 - research

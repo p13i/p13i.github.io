@@ -1,6 +1,6 @@
 ---
 layout: base
-title: "Tweet #{{ page.num }}"
+title: "{{ page.content | truncate: 32, '...' }}"
 ---
 
 <div class="row">

@@ -1,6 +1,5 @@
 ---
 layout: base
-title: "{{ page.content | truncate: 32, '...' }}"
 ---
 
 <div class="row">

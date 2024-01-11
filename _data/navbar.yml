@@ -11,11 +11,6 @@
 - display: '"Tweets"'
   href: /tweets/
   target: _self
-  category: tweet
-
-- display: pix
-  href: /pix/
-  target: _self
 
 - display: "`bytes`"
   href: /bytes/

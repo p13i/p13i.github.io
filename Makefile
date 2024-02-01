@@ -44,7 +44,7 @@ push:
 	git push
 
 fix:
-	npx prettier --write --print-width 60 --trailingComma=none --prose-wrap always '**/*.{md,html,yml,yaml}' 
+	npx prettier --write --print-width 60 --trailing-comma=none --prose-wrap always '**/*.{md,html,yml,yaml}' 
 
 sync:
 	git pull --rebase

@@ -38,7 +38,7 @@ Try out KaTeX [on the demo page](https://katex.org/#demo)!
 ### Starter template
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <!-- KaTeX requires the use of the HTML5 doctype. Without it, KaTeX may not render properly -->
 <html>
   <head>
@@ -98,7 +98,7 @@ var html = katex.renderToString(
   "c = \\pm\\sqrt{a^2 + b^2}",
   {
     throwOnError: false,
-  },
+  }
 );
 // '<span class="katex">...</span>'
 ```

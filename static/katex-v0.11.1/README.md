@@ -38,7 +38,7 @@ Try out KaTeX [on the demo page](https://katex.org/#demo)!
 ### Starter template
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <!-- KaTeX requires the use of the HTML5 doctype. Without it, KaTeX may not render properly -->
 <html>
   <head>
@@ -85,7 +85,7 @@ a DOM element. For example:
 
 ```js
 katex.render("c = \\pm\\sqrt{a^2 + b^2}", element, {
-  throwOnError: false,
+  throwOnError: false
 });
 ```
 
@@ -97,7 +97,7 @@ example:
 var html = katex.renderToString(
   "c = \\pm\\sqrt{a^2 + b^2}",
   {
-    throwOnError: false,
+    throwOnError: false
   }
 );
 // '<span class="katex">...</span>'

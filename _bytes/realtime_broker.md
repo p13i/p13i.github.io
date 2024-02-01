@@ -34,8 +34,8 @@ io.on("connection", (socket: Socket) => {
       console.log(
         `Received ${eventName} from ${senderUserId} with data: ${dataStr.substr(
           0,
-          64,
-        )}${dataStr.length >= 64 ? "..." : ""}`,
+          64
+        )}${dataStr.length >= 64 ? "..." : ""}`
       );
     }
 
@@ -98,7 +98,7 @@ export interface WebSocketBrokerRequiredData {
 }
 
 export declare type EventsCallBackType<T = any> = (
-  data: T,
+  data: T
 ) => void;
 
 export default class WebSocketBroker {
@@ -110,16 +110,16 @@ export default class WebSocketBroker {
   constructor(
     private _webSocketURL: string,
     private _axios: AxiosInstance,
-    private thisUserId: number,
+    private thisUserId: number
   ) {}
 
   public start = async () => {
     console.log("this.start");
     console.debug(
-      `Establishing websocket connection with ${this._webSocketURL}`,
+      `Establishing websocket connection with ${this._webSocketURL}`
     );
     WebSocketBroker._socket = SocketIOClient(
-      this._webSocketURL,
+      this._webSocketURL
     );
     WebSocketBroker._socket.on("connect", async () => {
       console.debug(`socket on connected`);
@@ -127,14 +127,14 @@ export default class WebSocketBroker {
     });
     WebSocketBroker._socket.on("disconnect", () => {
       console.debug(
-        `Disconnected from ${this._webSocketURL}`,
+        `Disconnected from ${this._webSocketURL}`
       );
     });
     WebSocketBroker._socket.connect();
   };
 
   public isConnected = (
-    checkServerAvailability: boolean = false,
+    checkServerAvailability: boolean = false
   ): Promise<boolean> => {
     // TODO maybe use this._socket.connected ?
     return new Promise<boolean>(async (resolve) => {
@@ -158,11 +158,11 @@ export default class WebSocketBroker {
       // Timeout to resolve false
       this._connectionTimeout = setTimeout(
         () => timeoutFn(false),
-        5 * 1000,
+        5 * 1000
       );
 
       await this._onInternal("time", (data: any) =>
-        timeoutFn(true),
+        timeoutFn(true)
       );
 
       await this._sendInternal("time", {
@@ -175,7 +175,7 @@ export default class WebSocketBroker {
     console.debug("_join");
     if (!WebSocketBroker._socket) {
       console.error(
-        `Socket connection not established! Cannot join room.`,
+        `Socket connection not established! Cannot join room.`
       );
       return;
     }
@@ -192,11 +192,11 @@ export default class WebSocketBroker {
 
   send = async <T extends WebSocketBrokerRequiredData>(
     event: string,
-    data: T,
+    data: T
   ) => {
     if (event === "join" || event === "time") {
       console.warn(
-        `Attempting to use reserved event ${event}`,
+        `Attempting to use reserved event ${event}`
       );
     }
 
@@ -205,7 +205,7 @@ export default class WebSocketBroker {
 
   on = async <T extends WebSocketBrokerRequiredData>(
     event: string,
-    callback: EventsCallBackType<T>,
+    callback: EventsCallBackType<T>
   ) => {
     console.debug(`on`, event, callback);
     await this._onInternal(event, callback);
@@ -222,15 +222,15 @@ export default class WebSocketBroker {
   };
 
   private _sendInternal = async <
-    T extends WebSocketBrokerRequiredData,
+    T extends WebSocketBrokerRequiredData
   >(
     event: string,
-    data: T,
+    data: T
   ) => {
     console.debug("this._sendInternal", event, data);
     if (!WebSocketBroker._socket) {
       console.warn(
-        `Attempting to send ${event} without a socket.`,
+        `Attempting to send ${event} without a socket.`
       );
       return;
     }
@@ -238,22 +238,22 @@ export default class WebSocketBroker {
   };
 
   private _onInternal = async <
-    T extends WebSocketBrokerRequiredData,
+    T extends WebSocketBrokerRequiredData
   >(
     event: string,
-    callback: EventsCallBackType<T>,
+    callback: EventsCallBackType<T>
   ) => {
     console.debug("_onInternal", event, callback);
     if (!WebSocketBroker._socket) {
       console.warn(
-        `Attempting to listen for ${event} without a socket.`,
+        `Attempting to listen for ${event} without a socket.`
       );
       return;
     }
 
     if (this.isOn(event)) {
       console.warn(
-        `Unable to register event ${event} because it is already on.`,
+        `Unable to register event ${event} because it is already on.`
       );
       return;
     }
@@ -263,8 +263,8 @@ export default class WebSocketBroker {
     WebSocketBroker._socket.on(event, (data: T) => {
       console.debug(
         `Received ${event} with data ${JSON.stringify(
-          data,
-        )}`,
+          data
+        )}`
       );
       callback(data);
     });

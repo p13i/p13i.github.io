@@ -48,7 +48,7 @@ io.on("connection", (socket: Socket) => {
     if (eventName === "time") {
       socket.emit("time", {
         recipientUserId: thisUserId,
-        time: Date.now(),
+        time: Date.now()
       });
       return;
     }
@@ -166,7 +166,7 @@ export default class WebSocketBroker {
       );
 
       await this._sendInternal("time", {
-        recipientUserId: this._thisUserId!,
+        recipientUserId: this._thisUserId!
       });
     });
   };
@@ -186,7 +186,7 @@ export default class WebSocketBroker {
 
     await this._sendInternal<JoinDetails>("join", {
       senderUserId: this._thisUserId,
-      recipientUserId: -1,
+      recipientUserId: -1
     });
   };
 

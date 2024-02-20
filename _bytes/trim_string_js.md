@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Trim whitspace from either end"
+title: "Trim whitespace from either end"
 programming_language: JavaScript
 date: 2023-08-24
 ---

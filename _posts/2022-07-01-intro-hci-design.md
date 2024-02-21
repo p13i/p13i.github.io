@@ -39,7 +39,7 @@ learning.
 
 **Note from the author:** Please do note that these are _my_
 (Pramod's) own notes and may not fully reflect the learning
-outcomes of James Landay's course; howerver, I will do the
+outcomes of James Landay's course; however, I will do the
 best I can to write an introduction to HCI faithful to the
 teachings of James Landay and his wonderful staff of course
 assistants.
@@ -89,7 +89,7 @@ techno-realism: What it means to innovate responsibly_".
 
 Stewart discusses how to innovate responsibly when building
 for a diverse and global community, as Facebook does.
-Unbridled technology-optimism isn’t a healthy approach to
+Unbridled technology-optimism isn't a healthy approach to
 responsible innovation, i.e. the belief that technology
 advancements are always a net positive contribution to our
 world.
@@ -100,19 +100,19 @@ the intended users. The technologies we deploy may
 unintentionally reinforce or amplify the pre-existing
 prejudices.
 
-In designing new virtual assistant voices, Stewart’s
+In designing new virtual assistant voices, Stewart's
 Responsible Innovation team reflected early in the design
 process to challenge the status quo that a voice assistant
 should have a female persona and voice. This is a
 socially-aware lens applied to development.
 
-Beyond the “target users” of a product, we should also
-consider who would be impacted by others’ use of the product
+Beyond the “target users" of a product, we should also
+consider who would be impacted by others' use of the product
 via an **expansive stakeholder analysis**. This process is
-augmented by **codesign** wherein community members are
+augmented by **co-design** wherein community members are
 treated as equal collaborators in the design process via a
 participatory approach. Participants were paid a “meaningful
-honorarium” for their engagement.
+honorarium" for their engagement.
 
 To empower people, reduce reinforcing existing societal
 biases, and improve the condition of others, technologies
@@ -121,7 +121,7 @@ as a _digital urban planner_ of sorts.
 
 ## AI & User experience design
 
-Tesla’s autopilot feature requires UX design. The
+Tesla's autopilot feature requires UX design. The
 touchscreen requires your full attention to operate it, a
 mode ripe for multi-modal interactions involving more than
 one interaction mode (e.g., voice with a screen output,
@@ -178,7 +178,7 @@ User-centered design involves:
    memory
 2. Organizational/education job abilities
 3. Keeping users involved throughout: developers working
-   with target customers, think of the world in the users’
+   with target customers, think of the world in the users'
    terms
 
 Accessible design involves catering to:
@@ -206,8 +206,8 @@ Rapid prototypes allow us to build a mock-up of a design so
 it can be tested, typically taking the form of paper
 sketches or interactive tools like HTML, Balsamiq, Axure,
 proto.io, Sketch, Marvel, Modao, etc. UI builders include
-Expression Blend with Visual Studio, Xcode’s Interface
-Builder, etc. Test with real customers (“participants”) with
+Expression Blend with Visual Studio, Xcode's Interface
+Builder, etc. Test with real customers (“participants") with
 an interactive prototype. Low-cost techniques involve expert
 evaluation (heuristic evaluation).
 
@@ -226,9 +226,9 @@ Brainstorming_" [Adams 2013].
 Adams found that most corporate executives put the cart
 before the horse: “Instead of parsing the objectives they
 hope to achieve, they direct their energy at coming up with
-solutions to broadly-stated problems.” Keeney argues that
+solutions to broadly-stated problems." Keeney argues that
 before brainstorming, it is important to analyze and focus
-on the objectives of the group. Keeney’s four steps to
+on the objectives of the group. Keeney's four steps to
 effective brainstorming are:
 
 1. Lay out the problem you want to solve. Identify the
@@ -240,7 +240,7 @@ effective brainstorming are:
    more successful.
 3. Try to generate solutions individually. Before heading to
    the group, brainstorm solutions individually to avoid
-   ‘anchoring’ to a particular solution/objective to the
+   ‘anchoring' to a particular solution/objective to the
    exclusion of other goals for the team.
 4. After the prior steps, work as a group. Use the
    objectives, problem statements, and individual solutions
@@ -256,55 +256,55 @@ Design - Defining Customer-Centered Systems_.
   url="https://drive.google.com/open?id=1bif2O_v-Q2MoPpNenZ7zosDeh52LLGE7"%}
 
 Contextual inquiry is all about going to where the customer
-(i.e., “user” or “participant”) is, observing them, and
+(i.e., “user" or “participant") is, observing them, and
 talking to them about their work. A relationship model
 suggests that the appropriate behavior will manifest from
 the right mindset applied to an interaction with a customer.
 Different relationship models bring with them different
 attitudes and behaviors taken to the customer. “As long as
 you play your role, you will pull the customer into playing
-theirs.”
+theirs."
 
 The Master-Apprentice Model is an effective way to collect
 data on another. In this case, the design team wants to
-learn about the customer’s work from its customers. The
+learn about the customer's work from its customers. The
 customer (like a master) teaches by doing work and talking
 about it while doing the work, making learning easy. We can
 have customers explaining their work as they do it, but
 customers may not be aware of everything they do or why they
 do it. By having the customer talk through their process, we
 avoid the “human propensity to talk in generalizations that
-omit the detail designers need.” By observing how multiple
+omit the detail designers need." By observing how multiple
 such customers work, the design can begin to conceptualize a
 system that supports those tasks. Taking notes and asking
-about the artifacts in a customer’s environment helps the
+about the artifacts in a customer's environment helps the
 designer gain more understanding.
 
 Four principles guide contextual inquiry:
 
 1. **Context** tells us to get as close to being physically
-   present in the customer’s environment, allowing us to
+   present in the customer's environment, allowing us to
    capture concrete data over an ongoing experience (in
    contrast to abstract data from a summary experience).
    Concrete data can be focused on by pulling the customer
    back to the real experience whenever the conversation
    veers off track. Grounding such questions in artifacts
-   helps (e.g., “can I see that email you mentioned?”) which
-   also serves to stimulate the customer’s memory.. Also,
+   helps (e.g., “can I see that email you mentioned?") which
+   also serves to stimulate the customer's memory.. Also,
    ask questions to fill in gaps in understanding.
 
 2. **Partnership** is about making the customer and design
    feel like they are collaborating in understanding the
-   customer’s work. In this process, the designer alternates
+   customer's work. In this process, the designer alternates
    between watching a customer and probing into their
    behaviors and environment. Such probes can also guide the
    customer to provide details themselves as the interview
    experience continues. Assumptions or potential design
    solutions can be proposed to the customer to clarify
-   assumptions. Be a “partner in inquiry.”
+   assumptions. Be a “partner in inquiry."
 
 3. **Interpretation** is the “chain of reasoning that turns
-   a fat into an action relevant to the designer’s intent.”
+   a fat into an action relevant to the designer's intent."
    Interpretation drives design decisions. The
    interpretation is grounded in facts, moves to a
    hypothesis which has an implication realized as a design
@@ -317,12 +317,12 @@ Four principles guide contextual inquiry:
    work is relevant to the design without fully taking
    control from the customer. If the designer thinks some
    behavior is happening for no reason, then the designer
-   doesn’t yet understand the point of view from which that
+   doesn't yet understand the point of view from which that
    behavior does make sense. Admit your ignorance, and
    always assume there is more to be learned.
 
-{% include _callout.html text="If you think it’s for no
-reason, you don’t yet understand the point of view from
+{% include _callout.html text="If you think it's for no
+reason, you don't yet understand the point of view from
 which it makes sense. [Beyer, Contextual Design, p. 63]"%}
 
 Beyer outlines a structure for contextual interviews that
@@ -369,7 +369,7 @@ the first half of these course notes:
 In the design process, we constantly find ourselves going
 forward, skipping backwards, and in cycles of two or three.
 In other words, the design process is messy and feeling lost
-is a part of the journey. Let’s start with empathy.
+is a part of the journey. Let's start with empathy.
 
 ## Empathy
 
@@ -394,7 +394,7 @@ in an intensive way. Critical to the needfinding process is
 to observe and interview users without knowing what you are
 looking for. The Design Thinking process lends itself best
 to the mindset amongst its practitioners to **_discover
-what’s interesting_** without bringing in agendas,
+what's interesting_** without bringing in agendas,
 objectives, or (worse) solutions to a user. Therefore:
 
 {% include _callout.html text="Needfinding is discovering
@@ -402,20 +402,20 @@ objectives, or (worse) solutions to a user. Therefore:
     system." %}
 
 [Universal Principles of Design, p. 76] describes such a gap
-or need as a ‘desire line,’ or _“traces of use or wear that
+or need as a ‘desire line,' or _“traces of use or wear that
 indicate preferred methods of interaction with an object or
-environment.”_ Such preferred methods can form patterns
+environment."_ Such preferred methods can form patterns
 which require careful observation. When needfinding with a
 user, we want to pay attention to all **artifacts **around a
 user. Keep an eye out for hacks or workarounds users take.
-Mistakes or perceived ‘errors’ are a great place to find
+Mistakes or perceived ‘errors' are a great place to find
 needs.
 
 The need finding process begins with questioning everyday
 experiences. We move towards open ended questions to better
 understand why a user is doing something in addition to what
 they are doing. Further, we want to move from cataloging
-observing actions to inferring (and confirming!) the users’
+observing actions to inferring (and confirming!) the users'
 feelings, i.e., empathizing.
 
 {% include _callout.html text="Engage users in their
@@ -435,16 +435,16 @@ researchers should maintain an open mind and be prepared to
 hear something new, change their own opinions, and challenge
 their own prejudices and biases towards people and the
 systems they use. As a designer, defer your agenda and seek
-to unlock your users’ world. Be curious. Step into their
+to unlock your users' world. Be curious. Step into their
 shoes. Participate in their work. Ask probing questions.
 Begin _tabula rasa_ and document their world with the
 mindset of a beginner in a different world.
 
 Strong interviews should be able to encompass a broad set of
 questions but should always be prepared to veer in new
-directions. In-person interviews in users’ environment (in
+directions. In-person interviews in users' environment (in
 their world) are usually the best: you can observe body
-language and notice many more artifacts in your users’
+language and notice many more artifacts in your users'
 environment. Video calls, phone calls, text conversations,
 and surveys are progressively impersonal ways to interview
 individuals.
@@ -454,7 +454,7 @@ individuals.
 It is advisable to see an interview as sharing the same
 basic structure as a story. Namely that there is an
 introduction, rising action, a climax, and denouement (or
-‘wind down’) to the conclusion. An interview shares a
+‘wind down') to the conclusion. An interview shares a
 similar structure as it progresses from closed-ended
 questions to open-ended questions over time. Keep an eye and
 ear out for emotion and pull further on those threads that
@@ -477,34 +477,34 @@ sharing more about themselves and their lives. Interview
 questions in this **background** phase can take on many
 forms:
 
-- Background: “Tell me about what you do here.”
+- Background: “Tell me about what you do here."
 - Sequence: “Walk me through your day yesterday... then what
-  did you do next?”
+  did you do next?"
 - Physical tour: “Take me on a tour of how you build the
-  panels...”
+  panels..."
 - Virtual tour: “Walk me through your sales process from the
-  beginning...”
+  beginning..."
 - Participation: “Can you show me exactly how you prepare a
-  customer bid?”
+  customer bid?"
 - Exhaustive list: “What are the different municipalities
-  where you sell?”
+  where you sell?"
 
-After setting the scene, it’s important to still **build
+After setting the scene, it's important to still **build
 rapport** with a user. Questions can take the form of:
 
-- Naive outsider perspective: “I’m not from LA, how does the
-  housing market work here?”
+- Naive outsider perspective: “I'm not from LA, how does the
+  housing market work here?"
 - Changes over time: “How are things different than they
-  were last year?”
+  were last year?"
 - Reflecting back: “So, what I hear you saying is... is that
-  right?” (clarifying an assumption or an identified feeling
+  right?" (clarifying an assumption or an identified feeling
   of the participant)
 - Quantity: “How many of your competitors fall into that
-  category?”
+  category?"
 - Tasks and organizational structures: “Can you draw me a
-  diagram of your organization chart?”
+  diagram of your organization chart?"
 - Native language: “Why do you call your office ‘the command
-  post’?”
+  post'?"
 
 During the rest of the interview, always be prepared to
 adjust your questions to their previous answers. Ask
@@ -521,13 +521,13 @@ findings, assumptions, or contractions that came up for you
 during the interview process. A few guiding questions:
 
 - Point to their reaction: “Why do you roll your eyes when
-  you say that?”
+  you say that?"
 - Suggestive opinion: “Some people have very negative
   feelings about emotional sales pitches. What are your
-  feelings about it?”
+  feelings about it?"
 - Contradictions: “You tell me you can sell ice cubes to
   Eskimos, but you also tell me you have a deep concern for
-  your customers. How do these two work together?”
+  your customers. How do these two work together?"
 
 During the wrap-up, keep recording because some gems usually
 do come out in this period.
@@ -540,7 +540,7 @@ When choosing participants, we want to be representative of
 target users. We also want to interview people on both sides
 of an interaction (i.e., all the stakeholders involved). For
 example, the Lyft driver and Lyft passenger. Experts are
-good for background but aren’t a substitute for users.
+good for background but aren't a substitute for users.
 
 Extreme users can reveal important insights. Extreme users
 can vary in ability, SES, their interest in a topic, a
@@ -573,17 +573,17 @@ constantly asking if our design addresses their needs and
 wants.
 
 Some caveats of user-centered design include politics, the
-idea that customers are not always right, and that it’s easy
+idea that customers are not always right, and that it's easy
 to get stuck in the observation process without prototyping.
-Entering an environment as an “agent of change” can cause
-controversy. As such it’s important to get the buy-in from
+Entering an environment as an “agent of change" can cause
+controversy. As such it's important to get the buy-in from
 all stakeholders involved. Customers cannot anticipate new
 technologies accurately. As designers, our role is to design
 and build systems that customers will want, not what systems
 customers say they want.
 
 {% include _callout.html text="Steve Jobs: A lot of times,
-    people don’t know what they want until you show it to
+    people don't know what they want until you show it to
     them." %}
 
 With the design thinking process, we can get stuck observing
@@ -594,9 +594,9 @@ users.
 
 # Define
 
-Items “above the fold” are immediately visible to the user
+Items “above the fold" are immediately visible to the user
 on a website and should highlight the most important
-information for the “first read.” Alignment and white space
+information for the “first read." Alignment and white space
 around buttons make them appear logically grouped (Gestalt
 principles).
 
@@ -607,14 +607,14 @@ reframe the problem and find opportunities.
 
 Observations lead to inferences which lead to insights:
 
-1. **Observations**: “I notice...”
-2. **Inferences**: “I wonder if this means...”
+1. **Observations**: “I notice..."
+2. **Inferences**: “I wonder if this means..."
 3. **Insights**: Actionable learnings about people.
 
 A discrete observation (jeans on the back of the chair)
-leads to a more abstract inference (millenials don’t want to
-ruin their clothes meaning they won’t clean them). Focus is
-found by writing a “Point of View” - a unique, concise
+leads to a more abstract inference (millenials don't want to
+ruin their clothes meaning they won't clean them). Focus is
+found by writing a “Point of View" - a unique, concise
 reframing of the **problem** that is grounded in user needs,
 insights, and emotions.
 
@@ -634,7 +634,7 @@ A four sentence structure:
 - **We met** Chuck, a young millennial living in an
   apartment in SoCal.
 - **We were surprised to notice** that he says he cares
-  about his jeans, but he doesn’t wash them often.
+  about his jeans, but he doesn't wash them often.
 - **We wonder if this means** that he believes the best way
   to protect his jeans is to not wash them.
 - **It would be game-changing to** help him care for his
@@ -647,10 +647,10 @@ A second example of a good POV:
 - **We met** Joel, a guy in his 20s with a good job and a
   new apartment.
 - **We were surprised to notice** that he worried his taste
-  was unrefined when the pieces he liked didn’t align with
+  was unrefined when the pieces he liked didn't align with
   the more expensive prices.
 - **We wonder** if this means \*\*that Joel views art as
-  fashion on the wall: it’s about what his friends are going
+  fashion on the wall: it's about what his friends are going
   to think about his taste.
 - **It would be game-changing to** help buyers to cut
   through the paralysis of doubt.
@@ -659,7 +659,7 @@ Affinity diagramming helps find important information by
 finding relations between groups. Post-Its on large surfaces
 work well. Empathy maps are another technique.
 
-The “yes and...” technique from improv helps generate new
+The “yes and..." technique from improv helps generate new
 ideas without judgment. (See [Ideate](#ideate).) At this
 stage of **_Define_** we are still not focused on one
 solution.
@@ -675,7 +675,7 @@ characteristics:
 1. It provides focus and frames the problem.
 2. It inspires our team.
 3. It provides a reference for evaluating competing ideas.
-4. It fuels brainstorms by suggesting “how might we”
+4. It fuels brainstorms by suggesting “how might we"
    statements.
 5. It captures the hearts and minds of people you meet.
 6. It saves you from the impossible task of developing
@@ -693,7 +693,7 @@ Evaluating a POV is done on four dimensions:
    emotional and flows logically from what you learned?
 4. Does your POV help you generate many ideas immediately?
 
-<!-- TODO *Image: Evaluating POV statements’ quality.
+<!-- TODO *Image: Evaluating POV statements' quality.
 Various quality of POV statements.*
 <img src="images/image3.png" width="" alt="alt_text"
       title="image_tooltip"> <img src="images/image4.png"
@@ -738,9 +738,9 @@ forfeiting existing contracts), lack of vendor reputation
 product if it fails (again at higher risk for an unproven
 startup without testimonials/recommendations).
 
-Hypotheses of a customer’s problem take the format of **“I
+Hypotheses of a customer's problem take the format of **“I
 believe [customer segment] experience [problem] when [doing
-task] and/or because [of constraint].”** A validated
+task] and/or because [of constraint]."** A validated
 hypothesis has characteristics such as (for blatant needs):
 
 1. The customer confirms there is a problem,
@@ -762,15 +762,15 @@ will be the first ones to buy and use a product, and so they
 should be studied, but mainstream viability depends on
 understanding the needs of mainstream users.
 
-Note: There’s a lot more content in this presentation PDF
+Note: There's a lot more content in this presentation PDF
 about how to develop interview questions, different forms of
 quantitative vs. qualitative research methods, how to
 conduct an interview, etc. Many of the themes are similar to
 _Beyer, Contextual Design - Defining Customer-Centered
-Systems.pk.pdf_ but Stok’s presentation has a lot more
+Systems.pk.pdf_ but Stok's presentation has a lot more
 detail and examples. Stok discusses survey structures (p.
 27), comparative/competitive analysis, user testing of
-competitors’ offerings, and developing user personas.
+competitors' offerings, and developing user personas.
 
 ## Review on unpacking data into POV statements
 
@@ -789,7 +789,7 @@ competitors’ offerings, and developing user personas.
   truck owner.
 - **It would be game changing to...** provide a detailed and
   accessible way [solution space, but not specific] for her
-  to learn about truck mechanics in a style that doesn’t
+  to learn about truck mechanics in a style that doesn't
   make her feel self-conscious [counters negative feeling
   from above].
 
@@ -802,7 +802,7 @@ can limit the creativity in a brainstorming session.
 
 ## How Might We...?
 
-Versus “can we” or “should we” we start with judgment,
+Versus “can we" or “should we" we start with judgment,
 instead of an open exploration.
 
 ###### Example: A good POV: Janice with kids at the airport. [Brackets] are my notes.
@@ -816,7 +816,7 @@ instead of an open exploration.
   do/behavior].
 
 - **We wonder if** she is stressed [inference on feeling]
-  that the kids will irritate fellow passengers if she’s
+  that the kids will irritate fellow passengers if she's
   unable to distract them [pain point].
 
 - **It would be game changing to** bring other passengers
@@ -824,7 +824,7 @@ instead of an open exploration.
   helping families [broad audience] have a better travel
   experience [broad enough goal for ideation].
 
-“How might we” (HMW) statements for this POV can include
+“How might we" (HMW) statements for this POV can include
 (see , p. 29), inspired by **_generators_**:
 
 ###### Example: Generators and example HMWs for Janice
@@ -850,9 +850,9 @@ when, where, or why.
 
 ## Brainstorming solutions
 
-It’s important to: go for quantity, not quality, when
+It's important to: go for quantity, not quality, when
 brainstorming, to build upon the ideas of others (“yes
-and...”), encourage wild ideas, write brief headline-like
+and..."), encourage wild ideas, write brief headline-like
 statements on PostIts, do so visually, stay on topic, defer
 judgment, share the stage equally, and **_stand up!_**
 Having rules makes the brainstorming session more
@@ -880,7 +880,7 @@ presented to better understand the solution-user fit.
 An experience prototype involves a scene, props, and roles
 (including of the researcher), all of which should be
 defined before a testing session. In the process we can find
-new information about the user’s needs as well as new
+new information about the user's needs as well as new
 information about how the solution addresses those needs.
 
 Picking experience prototypes is a focus stage based on the
@@ -925,7 +925,7 @@ of achieving a goal with a particular interface).
     Example of a task flow, i.e. a <strong>bad task</strong>
   </div>
   <div class="card-body">
-    <p class="card-text">Tony clicks on the Charing Cross Pub icon and selects “directions to” as he walks down the street.</p>
+    <p class="card-text">Tony clicks on the Charing Cross Pub icon and selects “directions to" as he walks down the street.</p>
   </div>
 </div>
 
@@ -943,7 +943,7 @@ Example of a strong task
   <div class="card-body">
     <h5 class="card-title">Let my friends know where I am</h5>
     <p class="card-text">
-Manny is in the city at a club that he wasn’t planning to go
+Manny is in the city at a club that he wasn't planning to go
 to and would like to let his girlfriend, Sherry, know where
 he is and be notified when she is about to get to the club.
     </p>
@@ -1037,13 +1037,13 @@ roles (people involved), scenes (context of use), and props
   url="https://drive.google.com/file/d/1G9BDQ3-LbLBlBE7ERDXug2idpGPxoqLZ/view"
   %}
 
-Most of Buxton’s discussion is about the iterative,
+Most of Buxton's discussion is about the iterative,
 convergent/divergent nature of the design process. Many of
 these topics are covered in lecture materials or repeated
 from other materials so I will not provide more detailed
 notes here.
 
-###### Image: Buxton’s definition of design
+###### Image: Buxton's definition of design
 
 <!-- TODO <img src="images/image7.png" width="" alt="alt_text"
 title="image_tooltip"> -->
@@ -1062,7 +1062,7 @@ Elements of design sketches include:
    extend through endpoints, …)
 5. No higher resolution than required to communicate the
    intended purpose/concept
-6. Resolution doesn’t suggest a degree of refinement of
+6. Resolution doesn't suggest a degree of refinement of
    concept that exceeds actual state
 7. Ambiguous to allow for more ideation
 
@@ -1080,12 +1080,12 @@ amplify those features that are most important.
     text="Jobs: Focusing is about saying no." %}
 
 Some parts of this lecture on design sketching borrow from
-Buxton’s reading. Notes on this material will not be taken
+Buxton's reading. Notes on this material will not be taken
 again here.
 
 ## Values in Design: Talk by Dr. Diana Acosta-Navas
 
-Values are underpinnings of the idea that we haven’t
+Values are underpinnings of the idea that we haven't
 considered before, and thinking about whether they are good
 or bad. (See Stanford ENGR248 Principled Entrepreneurial
 Decisions.) What can people do to embody those values? What
@@ -1110,7 +1110,7 @@ about, including:
 - Inclusion
 - Sustainability
 
-These values emerge from the designer’s understanding of a
+These values emerge from the designer's understanding of a
 situation starting with definitions and specifications for
 design features. Values also arise from user perception and
 broader societal context (e.g., from politics).
@@ -1131,9 +1131,9 @@ the form of _preexisting bias (from community), technical
 bias (from technology), \_and_ emergent bias (from
 interaction with the system)\_.
 
-A “standard user” takes on dimensions of gender, age,
+A “standard user" takes on dimensions of gender, age,
 ability, race, zip code, access to technology, and needs
-which can vary across an intended user base. It’s also
+which can vary across an intended user base. It's also
 important to be aware of the distribution of the burden of
 tasks (e.g., women cook at home more often), making it
 harder for those people to use and actually benefit from the
@@ -1142,7 +1142,7 @@ product.
 Abstract values are connected to design features via
 definitions and analysis. Choices for inclusion of some can
 lead to exclusion of others, e.g., changes made to
-Microsoft’s Zoe AI chatbot. Implementing values involves
+Microsoft's Zoe AI chatbot. Implementing values involves
 awareness of the narrative, intended users, context, etc.
 and elements of the product expresses these values.
 
@@ -1202,7 +1202,7 @@ elements of a web page.
 The three basic elements of visual design are typography,
 layout, and color.
 
-We’re looking for perceptual balance even if the font is
+We're looking for perceptual balance even if the font is
 implemented in an imbalance form.
 
 Typefaces with a higher x-height are more readable on
@@ -1218,7 +1218,7 @@ generally be 20%.
 ## Lecture
 
 <!-- TODO
-###### Image: Hanging Chad problem on the Florida 2000 ballot. It’s redesign:
+###### Image: Hanging Chad problem on the Florida 2000 ballot. It's redesign:
 <img src="images/image8.png" width="" alt="alt_text"
 title="image_tooltip"> -->
 
@@ -1234,7 +1234,7 @@ title="image_tooltip"> -->
 
 Prioritize the most important information. Strong visual
 hierarchies can guide users into logical progressions by
-showing what’s important.
+showing what's important.
 
 The _Gestalt Principles of Perception_ help us understand
 how to group information.
@@ -1278,7 +1278,7 @@ asymmetry without centering elements.
 
 ## Color
 
-Information should not be ordered with hue because don’t
+Information should not be ordered with hue because don' t
 process colors in that way. **_Ordering by luminance is
 easier to understand_**, while leveraging pre-existing
 conception of colors (e.g., green for land and blue for
@@ -1297,7 +1297,7 @@ Complimentary colors provide extreme contrast and can be
 quite jarring and are bad for text. Analogous colors are
 comforting and pleasing yet provide enough contrast. Split
 complementary colors are a good choice to start out with
-because it’s hard to mess up. Active and passive colors can
+because it's hard to mess up. Active and passive colors can
 be used to provide an isolation effect. Using three
 actionable colors is a good choice. First design in
 greyscale to scale and layout important information.
@@ -1328,15 +1328,15 @@ Other tidbits:
 america website
 <!-- TODO ![alt_text](images/image14.png) -->
 - Buttons for plus and minus are small compared to the size
-  of the box => Fitt’s Law about how fast you can hit
+  of the box => Fitt's Law about how fast you can hit
   targets on a UI
-- Missing summary of what data I’ve entered already
+- Missing summary of what data I've entered already
 - Landay: Hall of Fame:
   - Minimalist design with large and simple instructions
   - Whitespace shows what is important/related
   - Automatic location setting
   - large calendar for easy/fast date selection because the
-    buttons are large (Fitt’s Law)
+    buttons are large (Fitt's Law)
 - Shake Shack iPhone app:
 
   - No clear way to navigate to the next screen
@@ -1349,9 +1349,9 @@ america website
       necessary
   - No place to comment on Allergens, etc.
   - Design pattern: cross-sale of Fries etc. on screen 9.
-    “Would you like fries with that?” Landay not sure what
+    “Would you like fries with that?" Landay not sure what
     the right way do it is.
-  - Bug: no “no sauce” button, at 11pm the app didn’t work
+  - Bug: no “no sauce" button, at 11pm the app didn't work
     because the store may have closed
   - Price jumped right before checkout (no tax)
   - Landay:
@@ -1360,31 +1360,31 @@ america website
     - whitespace shows what is important
 
 - Why should I care?
-  - We should know the history of the field and what’s
+  - We should know the history of the field and what's
     influenced today.
   - Visionaries of the field were 20-40 years ahead.
-  - Visions of the future that have arrived and haven’t
-  - Push myself to think of a vision that’s far ahead in
+  - Visions of the future that have arrived and haven't
+  - Push myself to think of a vision that's far ahead in
     projects and in my careers
 - Wizard-Of-Oz technique
   - Faking the interaction via a person or system that
-    hasn’t been implemented yet.
-  - Make it appear as if there’s something powerful behind
-    what’s happening, like in the film
+    hasn't been implemented yet.
+  - Make it appear as if there's something powerful behind
+    what's happening, like in the film
   - Tradition in CS industry:
     - prototype of a PC with a DEC VAX (minicomputer) behind
       the curtain
   - Can test the application before making it: important for
     hard-to-implement features
   - Carbon Shopper with Pico projector:
-  - Hardcode data to give a “flavor of how it will work”
+  - Hardcode data to give a “flavor of how it will work"
   - Want to see the working user interface by faking the
     back-end/data stuff.
 - Computing in 1945
   - Hardvard mark I and ENIAC: women were the first
-    programmers (“computers”)
+    programmers (“computers")
   - Mary Keller: first CS PhD (from U of Wisconsin)
-- Bush and “As We May Think”
+- Bush and “As We May Think"
   - Vannevar Bush kicked of Big Science:
     - MIT Faculty member
     - Coordinated WWII scientific effort
@@ -1393,10 +1393,10 @@ america website
       - universities do basic research
       - Helps economy & national defense
     - Analog computers: differential equations
-  - “As we may think” written in 1942-1943, published in The
+  - “As we may think" written in 1942-1943, published in The
     Atlantic in 1945:
-    - “selection” for search
-    - connecting articles together via ‘hyperlinks’
+    - “selection" for search
+    - connecting articles together via ‘hyperlinks'
   - Futuristic inventions/trends?
     - wearable computers to record life
     - encyclopedia for a nickel
@@ -1406,19 +1406,19 @@ america website
     - trails of discovery
     - capture of nerve impulses
     - memex:
-      - had large monitors for reading (didn’t exist then!)
+      - had large monitors for reading (didn't exist then!)
       - scanners
       - controls
       - Styluses
     - Drawers for storage using Micro Fish
     - Bush: wrong about photographic storage, missed digital
-      technologies, didn’t see non-science/non-office apps
+      technologies, didn't see non-science/non-office apps
     - Predicting -> Inventing the Future
 - Computing in 1965
   - Hidden Figures [Shetterly] advanced much of programming
     of computers at NASA
 - Engelbart & Augmenting Intellect
-  - “Conceptual Model for Augmenting Human Intellect” (1962)
+  - “Conceptual Model for Augmenting Human Intellect" (1962)
     - Complexity of problems is increasing -> new tools
       needed
   - Stanford Research Institute (SRI) in the 1960s:
@@ -1428,7 +1428,7 @@ america website
       View
   - Turning Award of 1997
   - Demoed NLS (oNLine System), 1968 Fall Joint Computer
-    Conference (in SF Civic Center) => “mother of all demos”
+    Conference (in SF Civic Center) => “mother of all demos"
     => affected industry for next 30 years. (In Stanford
     Libraries, hours of footage(
   - Most known for inventing the mouse:
@@ -1446,7 +1446,7 @@ america website
     - And about 30 different key concepts that show up in
       our computers today
   - Tricycles vs. bicycles: specialized tools
-    - Tricycles doesn’t take much time to learn it
+    - Tricycles doesn't take much time to learn it
     - Bicycles require learning of balance:
       - Benefit: faster, more complex terrain
       - Englebart: we are losing sight of making powerful
@@ -1498,21 +1498,21 @@ well for tap-and-show interactions, not real-time gestures
 required for AR, painting, etc. They are not realistic in
 visuals and performance, these are not an actual interface
 meaning that we cannot let the user test it alone
-(“Hawthorne Effect”). Participants can be hard to find
+(“Hawthorne Effect"). Participants can be hard to find
 repeatedly.
 
 Jakob Nielsen developed the Heuristic Evaluation to help
 find usability problems in a UI design. The key idea is to
 take a small set of evaluators (3-5) to examine a UI to
 independently check for compliance with usability principles
-(“heuristics”). Evaluators only communicate after their
+(“heuristics"). Evaluators only communicate after their
 individual tests and aggregate them afterwards. Heuristics
 are not laws but tools to help us find problems. We use
 these violations to redesign/fix problems. This test can be
 performed on a working UI or on sketches.
 
 Good evaluators find both easy and hard problems. Every
-evaluator doesn’t find every problem. These two factors
+evaluator doesn't find every problem. These two factors
 impel us to have multiple evaluators.
 
 <div class="card mb-3">
@@ -1575,8 +1575,8 @@ hearing.</p>
       </li>
       <li class="list-group-item">
         <h2><strong>H12*</strong>: Fairness and inclusion.</h2>
-        <p>Users shouldn’t feel like the design isn’t made for them.
-The design should meet all users’ needs equally and prevent
+        <p>Users shouldn't feel like the design isn't made for them.
+The design should meet all users' needs equally and prevent
 the reproduction of pre-existing inequities. It should not
 create additional burdens for members of disadvantaged
 populations.</p>
@@ -1586,7 +1586,7 @@ populations.</p>
         <p>The design should encode values that users can understand
 and relate to. Conflicting collateral values should not
 emerge when the user interacts with the product. Encoded
-values should match users’ values in a broad set of
+values should match users' values in a broad set of
 contexts.</p>
       </li>
     </ul>
@@ -1607,8 +1607,8 @@ Here are some heuristic violations:
 
 - Inconsistent colors for text (red vs. black) - H4
 - Inconsistent or extra spacing - H4
-- Price vs. total doesn’t make sense - H2
-- “h” value is accepted into the input - H5
+- Price vs. total doesn't make sense - H2
+- “h" value is accepted into the input - H5
 - Yes and no are both checkboxes - H5
 - Inconsistent highlighting of table rows - H4
 - Black on blue text - H11
@@ -1618,7 +1618,7 @@ Here are some heuristic violations:
 
 1. Have evaluators go through the UI twice
 2. Ask them to see if it complies with the heuristics, not
-   where it doesn’t and say why
+   where it doesn't and say why
 3. Have evaluators independently rate severity
 4. Combine the findings from 3-5 evaluators, come to
    agreement
@@ -1665,24 +1665,24 @@ how an artifact works & how the interface controls affect
 it." %}
 
 People may have preconceived models that are hard to change.
-E.g. “(4 + 5)” vs. “(4 5 +)”, dragging items to the trash,
+E.g. “(4 + 5)" vs. “(4 5 +)", dragging items to the trash,
 etc. Interfaces should communicate the model, usually
 visually or physical or using sound.
 
 Affordances are perceptual clues. Well-designed objects have
 affordances which are clues to their operation. They are
 often visual, but not always (e.g., speech). Gibson called
-this “actionable possibilities.”
+this “actionable possibilities."
 
-“High visibility action buttons”
+“High visibility action buttons"
 
 In 2015, the style of buttons changed into more of a flat
-design in iOS. Text isn’t considered an affordance. There
+design in iOS. Text isn't considered an affordance. There
 was a trend in design from 2015 onwards to move towards flat
 UIs.
 
 Poorly-designed objects have no clues, weak clues, or
-misleading clues. Signs are indications that a UI isn’t
+misleading clues. Signs are indications that a UI isn't
 communicating how to operate the interface.
 
 <!-- ###### Image: In Hipstamatic, adding a rectangle angle and contrast improves the usability significantly.
@@ -1691,14 +1691,14 @@ communicating how to operate the interface.
 title="image_tooltip"> -->
 
 Refrigerator example: solutions can be to (1) make the
-controls map to the customer’s model or (2) make controls
+controls map to the customer's model or (2) make controls
 map to the actual system.
 
-There is a design model (the designer’s conceptual model),
-the customer’s customer model, and a system image. Customers
+There is a design model (the designer's conceptual model),
+the customer's customer model, and a system image. Customers
 get their conceptual model from prior experience & usage of
 the new through the system image. Mismatches between the
-designer and customer’s models cause frustration, bad
+designer and customer's models cause frustration, bad
 operation, lower performance, etc.
 
 - CS 194H will be running 1:30pm to 3:30pm on Tue/Fri.
@@ -1714,12 +1714,12 @@ operation, lower performance, etc.
    understand how controls affect object
 2. Make things visible: if object has function, interface
    should show it
-3. Map interface controls to customer’s model: infix vs.
+3. Map interface controls to customer's model: infix vs.
    postfix calculator
 4. Provide feedback: what you see is what you get! (WYSIWYG)
 
-Making things more visible. If it’s not visible, people may
-get into a “mode error” (on a watch) or may not see all the
+Making things more visible. If it's not visible, people may
+get into a “mode error" (on a watch) or may not see all the
 functionality.
 
 <!-- ###### In older car radios, the number of controls equals the number of functions. Controls are labeled(?) and grouped together. In the Tesla, we get no haptic feedback (and some voice feedback) mostly requiring us to look at the screen while driving.
@@ -1736,7 +1736,7 @@ title="image_tooltip">
 <img src="images/image22.png" width="" alt="alt_text"
 title="image_tooltip"> -->
 
-Map interface controls to the customer’s model. Controls
+Map interface controls to the customer's model. Controls
 should mirror the real-world.
 
 ## Interface metaphors
@@ -1745,11 +1745,11 @@ A metaphor is the transference of the relation between one
 set of objects to another set for the purpose of brief
 explanation. Lakoff & Johnson said that metaphors are “the
 way we think, what we experience, and what we do everyday is
-very much a matter of metaphor.” There are many examples in
+very much a matter of metaphor." There are many examples in
 our language. We can use metaphor in UI design to leverage
 existing conceptual models.
 
-The desktop metaphor suggests a conceptual model. It’s not
+The desktop metaphor suggests a conceptual model. It's not
 an attempt to simulate a real desktop but a way to explain
 why some windows overlapped. It leverages knowledge about
 files, folders, and trash.
@@ -1768,8 +1768,8 @@ Example of metaphors include:
 
 How to use metaphor...
 
-Avoid a metaphor for metaphor’s sake. Skeuomorphism is
-“making items resemble their real-world counterparts” or “a
+Avoid a metaphor for metaphor's sake. Skeuomorphism is
+“making items resemble their real-world counterparts" or “a
 physical ornament or design on an object made to resemble
 another material or technique.
 
@@ -1778,7 +1778,7 @@ another material or technique.
 <img src="images/image24.png" width="" alt="alt_text"
 title="image_tooltip"> -->
 
-The iPhone’s click-photo is an audio skeuomorphism.
+The iPhone's click-photo is an audio skeuomorphism.
 
 Arguments against skeuomorphism include that it takes up
 space and leads to an inconsistent look. The argument for it
@@ -1787,7 +1787,7 @@ skeuomorphisms until they are learned by the users.
 
 However, metaphors can become dated.
 
-<!-- ###### Image: The iPhone's phone icon resembles an older-style phone. The iPad Podcasts app included the tape metaphor most people didn’t understand.
+<!-- ###### Image: The iPhone's phone icon resembles an older-style phone. The iPad Podcasts app included the tape metaphor most people didn't understand.
 
 <img src="images/image25.png" width="" alt="alt_text"
 title="image_tooltip">
@@ -1825,7 +1825,7 @@ We cannot tell how good a UI is until people actually use
 it. Using heuristic evaluations with expert reviewers may
 not be representative of the target user, i.e. they know too
 much or not know enough about the target domain.
-Additionally, it’s hard to predict what real users will do.
+Additionally, it's hard to predict what real users will do.
 
 ## Choosing participants
 
@@ -1846,8 +1846,8 @@ As researchers we have a responsibility to alleviate these
 issues with informed consent, avoiding pressure to
 participate, letting them know they can stop at any time,
 emphasizing that you are _testing the system_ and not the
-individual (which is why we say “participant” and not
-“subject”), and collecting information anonymously. In the
+individual (which is why we say “participant" and not
+“subject"), and collecting information anonymously. In the
 context of a university or a medical community, we need to
 get human subjects approval (IRB).
 
@@ -1861,7 +1861,7 @@ run the study and then use the procedures in the final
 report. Writing these procedures can help us write the
 report itself.
 
-It’s best not to train users unless it’ll happen in the
+It's best not to train users unless it'll happen in the
 real-world deployment. Tasks should determine the best
 design, not vice-versa. **Fragmented tasks** are those that
 do not represent a complete goal a real person would do to
@@ -1874,7 +1874,7 @@ emotion or the reasons for errors, etc. Bottom-line
 (quantitative) results require many users to gain
 **statistical significance**.
 
-The “thinking aloud” method helps us understand what users
+The “thinking aloud" method helps us understand what users
 are thinking, not just what they are doing (starting with
 work from Herb Simon and Alan Newell: cognitive science and
 AI at CMU). Prompts include:
@@ -1922,7 +1922,7 @@ rates, and comparing two designs on metrics like speed or
 number of user errors.
 
 Some measures are easy to record (e.g., time) but aspects
-like errors or ‘successful completion of tasks’ is more
+like errors or ‘successful completion of tasks' is more
 difficult, requiring such definitions made in advance.
 
 Combining thinking-aloud with quantitative measurements can
@@ -1999,8 +1999,8 @@ VoiceOver design principles:
 
 1.  ALL elements are reachable and labeled
 2.  Elements have a coherent swipe order
-3.  Label heading text with “headings” to help users easily
+3.  Label heading text with “headings" to help users easily
     navigate and explore the app
 4.  Implement actions on interactable elements
-5.  Add accessibility “hints” to clarify and describe
-    element’s role
+5.  Add accessibility “hints" to clarify and describe
+    element's role

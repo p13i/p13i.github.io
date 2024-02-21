@@ -27,7 +27,7 @@ calls with industry leaders) convinced me that the
 return-on-investment (ROI) dollar amount and timeline, and
 the geographically-sparse nature of factories and warehouses
 would make this business difficult to scale exponentially
-(i.e. it would take ~20 years, like Ubimax which was aquired
+(i.e. it would take ~20 years, like Ubimax which was acquired
 by TeamViewer after 18 years of business).
 
 I estimated that each factory or warehouse worker

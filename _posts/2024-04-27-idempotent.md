@@ -3,8 +3,6 @@ title: Idempotent
 date: "2024-04-27"
 categories:
   - writing
-tags:
-  - poetry
 layout: post
 author: Pramod Kotipalli
 ---

@@ -1,14 +1,12 @@
 ---
-title: Night
-date: "2012-03-05"
+title: Idempotent
+date: "2024-04-27"
 categories:
   - writing
 tags:
   - poetry
 layout: post
 author: Pramod Kotipalli
-image: https://github.com/p13i/p13i.github.io/assets/13140065/b04ed7a4-8a1c-4be5-a5a1-25e72686fbc1
-description: a gentle starry night
 ---
 
 Something I notes since joining control plane team is when I

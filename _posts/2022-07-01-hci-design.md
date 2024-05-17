@@ -1,12 +1,11 @@
 ---
-title: "Intro HCI & Design Thinking 
-(Stanford CS 147)"
+title: "HCI & Design Thinking"
 categories:
 - research
 - design
 - writing
 tags:
-- human-computer-interaction
+- hci
 layout: post
 description: "CS 147 is a course on Human-Computer 
 Interaction (HCI) and Design Thinking offered at Stanford 
@@ -16,6 +15,7 @@ hybrid format due to COVID-19. The course introduces
 principles for designing and evaluating user interfaces."
 image: "https://user-images.githubusercontent.com/13140065/201414650-e5dd26a5-290c-4b52-a5f8-ed73b7c14334.png"
 featured: true
+redirect_from: "hci"
 ---
 
 # Introduction

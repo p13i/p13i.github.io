@@ -7,7 +7,7 @@ layout: post
 author: Pramod Kotipalli
 ---
 
-Something I notes since joining control plane team is when I
+Something I noted since joining control plane team is when I
 am writing an algorithm. Most of my SWE tasks are defining
 inputs and outputs and the logic in between. When I am
 implementing that logic in the code editor, I have to make

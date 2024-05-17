@@ -9,6 +9,7 @@ author: Pramod Kotipalli
 description:
   Final project writeup from Georgia Tech's Math 2803
   (honors) class with  Professor Matt Baker
+redirect_from: "ecc"
 ---
 
 # Introduction to Coding Theory

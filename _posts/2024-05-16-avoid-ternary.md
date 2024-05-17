@@ -7,8 +7,8 @@ layout: post
 redirect_from: "avoid-ternary"
 ---
 
-This is a personal preference informed by my experience. 
-Using expanded statements can make code more readable and 
+This is a personal preference informed by my experience.
+Using expanded statements can make code more readable and
 less prone to future coding errors. Some things to consider:
 
 - C++ in scripting contexts is okay.

@@ -5,7 +5,8 @@ layout: base
 <hr/>
 
 <div class="row post">
-    <div class="col-12">
+    <div class="col-12 col-lg-4">spacer</div><div class="col-lg-8"> 
+    <div class="col-lg-8">
         <h1 class="title" data-toc-skip>{{ page.title | markdownify }}</h1>
         <hr/>
     </div>

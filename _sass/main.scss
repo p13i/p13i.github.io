@@ -88,9 +88,17 @@ body {
     height: auto;
   }
 
+  h1.title {
+    margin-bottom: 0rem;
+  }
+
   .title {
     font-weight: 900;
     /*letter-spacing: 0.5em;*/
+    p {
+      margin-top: 0rem;
+      margin-bottom: 0rem;
+    }
   }
 
   .description {

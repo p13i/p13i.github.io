@@ -16,8 +16,6 @@ layout: post
 author: Pramod Kotipalli
 description:
   Modeling, texturing, rendering my favorite product
-subcategories:
-  - design
 downloads:
   - name: "\U0001F4BE Full-res renders"
     url: https://drive.google.com/open?id=1XXZSmgxVWZKHemYtRqa1tuoNuFTTQryj

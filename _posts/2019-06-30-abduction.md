@@ -13,8 +13,6 @@ tags:
 layout: post
 author: Pramod Kotipalli
 description: Modeling and texturing an alien abduction scene
-subcategories:
-  - design
 downloads:
   - name: "\U0001F5BC️ Full (4096-by-4096, 4k - 22.5 MB)"
     url: "/assets/images/2019-06-30-abduction/downloads/abduction-full.png"

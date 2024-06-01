@@ -14,8 +14,6 @@ tags:
 layout: post
 author: Pramod Kotipalli
 description: It's raining watches!
-subcategories:
-  - design
 downloads:
   - name: "\U0001F4BE Full-res renders"
     url: https://drive.google.com/open?id=1NWcqJooej6B791La-9ZsZ6O4ar9v4Bvm

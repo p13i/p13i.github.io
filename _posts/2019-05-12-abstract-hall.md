@@ -12,8 +12,6 @@ layout: post
 author: Pramod Kotipalli
 description: Heavenly settings
 image: "https://user-images.githubusercontent.com/13140065/178388636-83750ce2-3841-4428-b17d-3b79a82bbc92.png"
-subcategories:
-  - design
 default_image_fullwidth: true
 ---
 

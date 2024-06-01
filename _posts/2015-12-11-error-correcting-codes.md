@@ -837,11 +837,13 @@ example of BCH codes.
     one-to-one.
 
 [^6]: i.e. the distance between them
+
 [^7]:
     i.e. addition, subtraction, multiplication, and division
     (inverses)
 
 [^8]: The polynomial $$f(x)$$ cannot be further factored
+
 [^9]:
     The Cancellation Law states that if
     $$bc \equiv bd \pmod{a}$$ and $$(b, a) = 1$$, then
@@ -851,6 +853,7 @@ example of BCH codes.
     even worse, $$4 \times 4 \equiv 0 \pmod{16}$$
 
 [^10]: i.e. they do not factor or “split”
+
 [^11]:
     Note that these $$x$$s are not the same as the $$x$$s
     used in $$\mathbb{Z}[x]$$ as we are used to.
@@ -863,6 +866,7 @@ example of BCH codes.
     transmitted message is trying to represent
 
 [^13]: i.e. an irreducible factor of $$x^{16}-1$$
+
 [^14]:
     Note that this table is based on a different polynomial
     than the table in Figure \[mult\]. A similar table can
@@ -903,6 +907,7 @@ example of BCH codes.
     $$\alpha = 2 \leftrightarrow x$$
 
 [^21]: By the Invertible Matrix Theorem from Linear Algebra.
+
 [^22]:
     If you wish to try row-reduction yourself, note that
     since $$\alpha$$ is a primitive element in
@@ -916,6 +921,7 @@ example of BCH codes.
     Appendix
 
 [^24]: This process involves simple binary addition
+
 [^25]:
     As we see below, adding two terms with the same degree
     in binary coefficients cancels them out.

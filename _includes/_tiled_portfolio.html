@@ -11,11 +11,9 @@ include _tag.html tag=tag %} {% endfor %}
 <div class="row">
   {% assign i = 0 %} {% for post in site.posts %} {% if
   post.categories contains include.category or post.tags
-  contains include.tag %} {% if include.subcategory == nil
-  or post.subcategories contains include.subcategory %} {%
-  if post.columns %} {% assign col_md_val = post.columns |
-  times: 4 %} {% else %} {% assign col_md_val = 4 %} {%
-  endif %}
+  contains include.tag %} {% if true %} {% if post.columns
+  %} {% assign col_md_val = post.columns | times: 4 %} {%
+  else %} {% assign col_md_val = 4 %} {% endif %}
 
   <div class="col-sm-6 col-md-{{ col_md_val }} thumbnail">
     <a href="{{ post.url }}" class="thumbnail-link">

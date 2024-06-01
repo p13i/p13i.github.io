@@ -17,8 +17,6 @@ author: Pramod Kotipalli
 description:
   Modeling, rigging, and animating a bioluminescent
   jellyfish
-subcategories:
-  - design
 downloads:
   - name: "\U0001F4F1 iPhone X (2436-by-1125 - 2.5 MB)"
     url: "/assets/images/2019-06-09-jellyfish/downloads/jellyfish-iphone-x.jpg"

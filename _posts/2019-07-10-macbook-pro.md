@@ -12,8 +12,6 @@ tags:
 layout: post
 author: Pramod Kotipalli
 description: Modeling and texturing a MacBook Pro
-subcategories:
-  - design
 downloads:
   - name: "\U0001F4F8 Tryptch - Instagram"
     url: https://www.instagram.com/p/B9dz_pHBf79/

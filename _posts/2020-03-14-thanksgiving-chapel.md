@@ -15,8 +15,6 @@ description:
   Render based on Thanksgiving Chapel in Dallas, Texas
 image: "https://user-images.githubusercontent.com/13140065/178388967-1987a708-8db0-4b92-b1d3-528e20615c84.png"
 default_image_fullwidth: true
-subcategories:
-  - design
 columns: 3
 downloads:
   - name: "\U0001F5BC️ Full (3072-by-1024, 2k - 5.02 MB)"

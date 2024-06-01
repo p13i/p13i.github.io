@@ -68,11 +68,11 @@ From [Rhodes 1997], “the Remembrance Agent (RA) is a program
 that augments human memory by displaying a list of documents
 that might be relevant to the user’s current context. Unlike
 most information retrieval systems, the RA runs continuously
-without user intervention. Its unobtrusive interface allows
-a user to pursue or ignore the RA’s suggestions as desired.”
+without user intervention. Its unobtrusive interface allows a
+user to pursue or ignore the RA’s suggestions as desired.”
 
-[Rhodes 1996] originally conceived of the remembrance agent
-as an extension for the Emacs text editor. [Rhodes 1997]
+[Rhodes 1996] originally conceived of the remembrance agent as
+an extension for the Emacs text editor. [Rhodes 1997]
 integrated the remembrance agent for use with wearable
 computers like head-worn displays.
 
@@ -105,10 +105,10 @@ and [JavaFX](https://en.wikipedia.org/wiki/JavaFX).
 
 I created a no-dependency, pure-Java, Gradle-based project
 that encapsulates the core functionality of the remembrance
-agent. Following [Rhodes 1997], I sketched out a simple
-interface for the “Remembrance Agent Engine” (i.e. the core
-of the project). Conceptually, there are three functions
-required to setup and interact with a remembrance agent
+agent. Following [Rhodes 1997], I sketched out a simple interface
+for the “Remembrance Agent Engine” (i.e. the core of the project).
+Conceptually, there are three functions required to setup and
+interact with a remembrance agent
 
 - `void loadDocuments()` which will pull documents from all
   the required data sources into the system,

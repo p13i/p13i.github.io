@@ -16,6 +16,8 @@ featured: true
 This is a continually-improving rendering program being
 built from scratch in C++, and run in your browser.
 
+{% include _callout.html text="Checkout https://cs.p13i.io/render-in-browser/ for a stand-alone web app." %}
+
 <hr/>
 <div id="spinner"></div>
 <div id="status">Downloading...</div>

@@ -1316,167 +1316,105 @@ Other tidbits:
 - Visual hierarchy: guides people to look how they want in
   their own hierarchy.
 
-# Designing the Future: Early and Future Visions of HCI
+# Designing the Future: Early and
 
-## Lecture
+Future Visions of HCI In our lecture, we began by examining
+the importance of first impressions on websites,
+particularly noting the virgin America site where elements
+are grouped using color gradients and varying font sizes to
+guide the user's attention. One issue highlighted was the
+small size of plus and minus buttons relative to the box,
+which violates Fitts's Law regarding target acquisition
+speed in a user interface. Additionally, the site lacked a
+summary of the data entered by the user, a critical
+oversight in user experience design.
 
-- The first read, above the fold
-- Grouping from color gradients, and font sizes, on virgin
-america website
-<!-- TODO ![alt_text](images/image14.png) -->
-- Buttons for plus and minus are small compared to the size
-  of the box => Fitt's Law about how fast you can hit
-  targets on a UI
-- Missing summary of what data I've entered already
-- Landay: Hall of Fame:
-  - Minimalist design with large and simple instructions
-  - Whitespace shows what is important/related
-  - Automatic location setting
-  - large calendar for easy/fast date selection because the
-    buttons are large (Fitt's Law)
-- Shake Shack iPhone app:
+Landay's Hall of Fame was discussed, showcasing exemplary
+minimalist designs with large, simple instructions and
+effective use of whitespace to highlight important and
+related elements. Features like automatic location setting
+and large calendars for easy, fast date selection, adhering
+to Fitts's Law, were praised for their usability.
 
-  - No clear way to navigate to the next screen
-  - Icons are clear and representative
-  - May be too many screens
-  - Only using one color: but for two things:
-    - For selection of items as well as checking out
-    - One highlight color with their images => recommended
-      by Landay to carefully think if more colors are
-      necessary
-  - No place to comment on Allergens, etc.
-  - Design pattern: cross-sale of Fries etc. on screen 9.
-    “Would you like fries with that?" Landay not sure what
-    the right way do it is.
-  - Bug: no “no sauce" button, at 11pm the app didn't work
-    because the store may have closed
-  - Price jumped right before checkout (no tax)
-  - Landay:
-    - Photography and food aesthetic is good
-    - Simple icons
-    - whitespace shows what is important
+We then analyzed the Shake Shack iPhone app, noting its lack
+of clear navigation to the next screen. While the icons were
+clear and representative, the app suffered from having too
+many screens and using only one color for multiple
+functions, leading to potential user confusion. Landay
+suggested careful consideration of color use to avoid such
+issues. The app also lacked a place for users to comment on
+allergens and had other design shortcomings, such as missing
+a "no sauce" button and malfunctioning late at night due to
+store closures. The app's price jumping right before
+checkout without showing tax further illustrated poor user
+experience design. Despite these flaws, Landay commended the
+app for its food photography, simple icons, and effective
+use of whitespace.
 
-- Why should I care?
-  - We should know the history of the field and what's
-    influenced today.
-  - Visionaries of the field were 20-40 years ahead.
-  - Visions of the future that have arrived and haven't
-  - Push myself to think of a vision that's far ahead in
-    projects and in my careers
-- Wizard-Of-Oz technique
-  - Faking the interaction via a person or system that
-    hasn't been implemented yet.
-  - Make it appear as if there's something powerful behind
-    what's happening, like in the film
-  - Tradition in CS industry:
-    - prototype of a PC with a DEC VAX (minicomputer) behind
-      the curtain
-  - Can test the application before making it: important for
-    hard-to-implement features
-  - Carbon Shopper with Pico projector:
-  - Hardcode data to give a “flavor of how it will work"
-  - Want to see the working user interface by faking the
-    back-end/data stuff.
-- Computing in 1945
-  - Hardvard mark I and ENIAC: women were the first
-    programmers (“computers")
-  - Mary Keller: first CS PhD (from U of Wisconsin)
-- Bush and “As We May Think"
-  - Vannevar Bush kicked of Big Science:
-    - MIT Faculty member
-    - Coordinated WWII scientific effort
-    - Social contract for science:
-      - Federal government funds universities
-      - universities do basic research
-      - Helps economy & national defense
-    - Analog computers: differential equations
-  - “As we may think" written in 1942-1943, published in The
-    Atlantic in 1945:
-    - “selection" for search
-    - connecting articles together via ‘hyperlinks'
-  - Futuristic inventions/trends?
-    - wearable computers to record life
-    - encyclopedia for a nickel
-    - automatic transcripts of speech:
-      - Landay: 2014 with deep learning is when speech
-        recognition got a high enough accuracy
-    - trails of discovery
-    - capture of nerve impulses
-    - memex:
-      - had large monitors for reading (didn't exist then!)
-      - scanners
-      - controls
-      - Styluses
-    - Drawers for storage using Micro Fish
-    - Bush: wrong about photographic storage, missed digital
-      technologies, didn't see non-science/non-office apps
-    - Predicting -> Inventing the Future
-- Computing in 1965
-  - Hidden Figures [Shetterly] advanced much of programming
-    of computers at NASA
-- Engelbart & Augmenting Intellect
-  - “Conceptual Model for Augmenting Human Intellect" (1962)
-    - Complexity of problems is increasing -> new tools
-      needed
-  - Stanford Research Institute (SRI) in the 1960s:
-    - Johns Hopkins Applied Physics Lab
-    - Many in Boston associated with MIT
-    - Worked at NASA precursor (NACA) at Ames in Mountain
-      View
-  - Turning Award of 1997
-  - Demoed NLS (oNLine System), 1968 Fall Joint Computer
-    Conference (in SF Civic Center) => “mother of all demos"
-    => affected industry for next 30 years. (In Stanford
-    Libraries, hours of footage(
-  - Most known for inventing the mouse:
-  - Has hyperlinks in text-based UI
-  - Inventions:
-    - First 2D editing and windows (different sections of
-      independent text)
-    - First mouse
-    - First hypertext
-    - First word processing
-    - First document version controlFirst groupware (shared
-      screen teleconferencing)
-    - Find context-sensitive help in the UI
-    - First distributed client-server model
-    - And about 30 different key concepts that show up in
-      our computers today
-  - Tricycles vs. bicycles: specialized tools
-    - Tricycles doesn't take much time to learn it
-    - Bicycles require learning of balance:
-      - Benefit: faster, more complex terrain
-      - Englebart: we are losing sight of making powerful
-        goals instead of just more usable
-  - More reading:
-    - Bardini 2000: Bootstrapping
-    - Program on Human Effectiveness
-    - Tools for Thought
-- SketchPad, Dynabook, Xerox Star
-  - Sutherland:
-    - MIT PhD student
-    - GUI from Sutherland
-    - All the basics for computer graphics, AR/VR&lt; etc.
-    - CAD: graphical constraints (1962) took until 1990s
-    - AR/VR: mechanical tracking and sonic tracking (first
-      AR/VR from 1965)
-  - Alan Kay (1974): Dynabook
-  - Xerox Star: 1st commercial GUI (1981): $20k cost =>
-    failure:
-    - Desktop, word processor via GUI (WYSIWYG)
-    - Laser Printer
-    - Ethernet
-    - Copied by Jobs after he toured the center
-- Projects that push more will be considered well
-- Midterm
-  - everything through conceptual models and interface
-    metaphors (week 7 lecture 13)
-  - multi part design problem.. less facts and more
-    demonstrating aspects of design)
-  - 3 hour clock over a 48 hour period. oae exceptions.
-- CodeX app due Feb 24
-- Bauhaus Typography at 100: A Letterform Archive Exhibition
-  until April 27 in San Francisco.
+The lecture emphasized the importance of understanding the
+history of HCI and the visionaries who shaped the field.
+These pioneers were often decades ahead of their time,
+influencing both current and future developments. Students
+were encouraged to think far ahead in their projects and
+careers.
+
+We discussed the Wizard-of-Oz technique, a method of
+simulating interactions using human or system stand-ins for
+unimplemented features. This approach allows for testing
+applications before full implementation, which is
+particularly valuable for complex features. An example
+provided was the Carbon Shopper with a Pico projector, where
+hardcoded data simulated a working user interface.
+
+The lecture then explored early computing history,
+highlighting the Harvard Mark I and ENIAC, where women were
+the first programmers, referred to as "computers." Mary
+Keller was noted as the first woman to earn a PhD in
+Computer Science from the University of Wisconsin.
+
+Vannevar Bush's work, particularly his 1945 essay "As We May
+Think," was discussed for its significant impact on the
+field. Bush, an MIT faculty member, coordinated WWII
+scientific efforts and established a social contract for
+science funding, where the federal government funds
+universities to conduct basic research that benefits the
+economy and national defense. His predictions included
+concepts like searchable articles via hyperlinks, wearable
+computers, and automatic speech transcription. Some
+predictions, like digital storage and non-science
+applications, were not foreseen.
+
+The contributions of women at NASA, as highlighted in
+"Hidden Figures" by Shetterly, were recognized for advancing
+much of computer programming during the 1960s.
+
+Douglas Engelbart's 1962 "Conceptual Model for Augmenting
+Human Intellect" addressed the increasing complexity of
+problems and the need for new tools. His work at the
+Stanford Research Institute and the 1968 demonstration of
+the oNLine System at the Fall Joint Computer Conference,
+known as the "mother of all demos," introduced numerous
+innovations such as the mouse, hypertext, word processing,
+and groupware, shaping the industry for the next 30 years.
+Engelbart's philosophy emphasized creating powerful,
+goal-oriented tools over merely improving usability.
+
+We also reviewed influential projects like SketchPad,
+Dynabook, and the Xerox Star. Ivan Sutherland, an MIT PhD
+student, developed the first graphical user interface and
+early AR/VR technologies in the 1960s. Alan Kay introduced
+the concept of the Dynabook in 1974. The Xerox Star,
+released in 1981, was the first commercial GUI, featuring
+desktop computing, WYSIWYG word processing, laser printing,
+and Ethernet. Its high cost led to commercial failure, but
+it inspired Steve Jobs after his visit to Xerox PARC.
+
+The lecture concluded with details about the midterm, which
+will cover material through week 7, focusing on design
+problem-solving rather than rote memorization. The CodeX app
+is due on February 24, and students were encouraged to visit
+the "Bauhaus Typography at 100" exhibition at the Letterform
+Archive in San Francisco, running until April 27.
 
 # Human Abilities
 

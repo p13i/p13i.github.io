@@ -37,5 +37,5 @@ built from scratch in C++, and run in your browser.
 <hr/>
 <p>Console output:</p>
 <textarea id="output" rows="5" cols="40"></textarea>
-<script type="text/javascript" src="https://p13i.io/cs/wasm.js"></script>
-<script type="text/javascript" src="https://p13i.io/cs/index.js"></script>
+<script type="text/javascript" src="https://cs.p13i.io/render-in-browser/wasm.js"></script>
+<script type="text/javascript" src="https://cs.p13i.io/render-in-browser/index.js"></script>

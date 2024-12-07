@@ -184,14 +184,16 @@ manipulation:
 - Virtual reality
 
 A second, more useful spectrum exists on the scale of VR to
-AR. “True AR” encompasses a system “[fused coherently] with the
-user’s real environment.” In traditional formulations of AR,
-AR forms a proper superset of VR where in VR “we just need to
-block the user’s experience of the real world.” [[Sandor et al. 2015]](https://paperpile.com/c/mpEskP/8tj6)
-Thus, as VR substitutes the entire visual experience, it demands
-a higher-level of realism than AR. [[Sandor et al. 2015]](https://paperpile.com/c/mpEskP/8tj6)
-segment their approaches to AR into four categories ranging from
-“manipulating atoms” to “manipulating perception”:
+AR. “True AR” encompasses a system “[fused coherently] with
+the user’s real environment.” In traditional formulations of
+AR, AR forms a proper superset of VR where in VR “we just
+need to block the user’s experience of the real world.”
+[[Sandor et al. 2015]](https://paperpile.com/c/mpEskP/8tj6)
+Thus, as VR substitutes the entire visual experience, it
+demands a higher-level of realism than AR.
+[[Sandor et al. 2015]](https://paperpile.com/c/mpEskP/8tj6)
+segment their approaches to AR into four categories ranging
+from “manipulating atoms” to “manipulating perception”:
 
 - Controlled Matter
 - Surround AR

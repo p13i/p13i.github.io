@@ -12,4 +12,5 @@ Using expanded statements can make code more readable and
 less prone to future coding errors. Some things to consider:
 
 - C++ in scripting contexts is okay.
-- Ternary statements in Python are acceptable and are encourged for readability.
+- Ternary statements in Python are acceptable and are
+  encourged for readability.

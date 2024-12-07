@@ -382,17 +382,19 @@ observe them and their surroundings, and engage with the
 user. This process is based on _immersion, observation, and
 engaging_ with the user.
 
-[Malinowski 1914] is an early example of **ethnography(-inspired)
-research **or **participatory observation** (coined by Malinowski).
-During World War I, Malinowski lived with the people of Trobriand
-Island fully immersing himself in their world, their customs,
-their practices, and their language. His technique was that of
-**active observation** where we observe facts, make inferences,
-state assumptions, and clarify our assumptions in an intensive
-way. Critical to the needfinding process is to observe and interview
-users without knowing what you are looking for. The Design Thinking
-process lends itself best to the mindset amongst its practitioners
-to **_discover what's interesting_** without bringing in agendas,
+[Malinowski 1914] is an early example of
+**ethnography(-inspired) research **or **participatory
+observation** (coined by Malinowski). During World War I,
+Malinowski lived with the people of Trobriand Island fully
+immersing himself in their world, their customs, their
+practices, and their language. His technique was that of
+**active observation** where we observe facts, make
+inferences, state assumptions, and clarify our assumptions
+in an intensive way. Critical to the needfinding process is
+to observe and interview users without knowing what you are
+looking for. The Design Thinking process lends itself best
+to the mindset amongst its practitioners to **_discover
+what's interesting_** without bringing in agendas,
 objectives, or (worse) solutions to a user. Therefore:
 
 {% include _callout.html text="Needfinding is discovering
@@ -400,13 +402,14 @@ objectives, or (worse) solutions to a user. Therefore:
     system." %}
 
 [Universal Principles of Design, p. 76] describes such a gap
-or need as a ‘desire line,' or _“traces of use or wear that indicate
-preferred methods of interaction with an object or environment."_
-Such preferred methods can form patterns which require careful
-observation. When needfinding with a user, we want to pay attention
-to all **artifacts **around a user. Keep an eye out for hacks
-or workarounds users take. Mistakes or perceived ‘errors' are
-a great place to find needs.
+or need as a ‘desire line,' or _“traces of use or wear that
+indicate preferred methods of interaction with an object or
+environment."_ Such preferred methods can form patterns
+which require careful observation. When needfinding with a
+user, we want to pay attention to all **artifacts **around a
+user. Keep an eye out for hacks or workarounds users take.
+Mistakes or perceived ‘errors' are a great place to find
+needs.
 
 The need finding process begins with questioning everyday
 experiences. We move towards open ended questions to better
@@ -549,10 +552,10 @@ who are historically underserved.
 Ethical considerations involve power, language, standpoint,
 and inclusion. Testing/fieldwork can be coercive if there is
 a power imbalance (participants need compensation), power
-imbalances can bias results (see [Dell 2012]). Language can also
-replicate prejudices. Standpoints encompass the user personas
-and perspectives of other users not immediately evident to the
-designer.
+imbalances can bias results (see [Dell 2012]). Language can
+also replicate prejudices. Standpoints encompass the user
+personas and perspectives of other users not immediately
+evident to the designer.
 
 Inclusion involves accommodation:
 
@@ -737,9 +740,8 @@ startup without testimonials/recommendations).
 
 Hypotheses of a customer's problem take the format of **“I
 believe [customer segment] experience [problem] when [doing
-task]
-and/or because [of constraint]."** A validated hypothesis has
-characteristics such as (for blatant needs):
+task] and/or because [of constraint]."** A validated
+hypothesis has characteristics such as (for blatant needs):
 
 1. The customer confirms there is a problem,
 2. The customer has already invested in trying to solve the
@@ -776,7 +778,8 @@ competitors' offerings, and developing user personas.
 
 - **We met...** a young female [demographics] truck owner
   [characteristic], with an ME background [education], who
-  loves owning her truck and learning about it [her passions].
+  loves owning her truck and learning about it [her
+  passions].
 - **We were surprised to notice...** she sometimes blindly
   trusts [say/do, surprise against ME background] whatever
   the mechanics say [behavior] so as not to reveal how
@@ -809,8 +812,8 @@ instead of an open exploration.
   gate.
 
 - **We were surprised** to notice that she makes up many
-  games to entertain her children [observation
-  on do/behavior].
+  games to entertain her children [observation on
+  do/behavior].
 
 - **We wonder if** she is stressed [inference on feeling]
   that the kids will irritate fellow passengers if she's
@@ -818,8 +821,8 @@ instead of an open exploration.
 
 - **It would be game changing to** bring other passengers
   and airport facilities [broad enough audience] into
-  helping families [broad audience] have a better travel experience
-  [broad enough goal for ideation].
+  helping families [broad audience] have a better travel
+  experience [broad enough goal for ideation].
 
 “How might we" (HMW) statements for this POV can include
 (see , p. 29), inspired by **_generators_**:

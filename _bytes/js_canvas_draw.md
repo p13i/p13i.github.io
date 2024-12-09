@@ -10,8 +10,8 @@ var i = 0;
 var oneSecondStartMs = 0;
 var oneSecondEndMs = 0;
 var drawMs = 0;
-const canvas = document.getElementById('canvas');
-var ctx = canvas.getContext('2d');
+const canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
 function drawImage() {
   const startMs = Date.now();
   if (i % FPS == 0) {
@@ -27,9 +27,10 @@ function drawImage() {
     }
   }
   const endMs = Date.now();
-  if (i % FPS == (FPS - 1)) {
+  if (i % FPS == FPS - 1) {
     oneSecondEndMs = endMs;
-    const oneSceneSecondInMs = (oneSecondEndMs - oneSecondStartMs);
+    const oneSceneSecondInMs =
+      oneSecondEndMs - oneSecondStartMs;
     const fps = (FPS * 1000) / oneSceneSecondInMs;
     const message = `Drawing at ${fps.toFixed(2)} fps.`;
     document.getElementById("fps").innerHTML = message;

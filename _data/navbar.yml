@@ -12,6 +12,10 @@
   href: /tweets/
   target: _self
 
+- display: "Pix"
+  href: /pix/
+  target: _self
+
 - display: "`bytes`"
   href: /bytes/
   target: _self

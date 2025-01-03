@@ -23,36 +23,32 @@ board (lid) to the base (for storing the pieces).
 
 {% include _post_image.html
   src="https://p13i.io/assets/2025-01-02-chess-laser-magnets/IMG_3546-thumbnail.jpg"
-  text="" %}
+  text="Setting X/Y to a custom position; using thin weights to keep the plywood flat while cutting." %}
 
 {% include _post_image.html
   src="https://p13i.io/assets/2025-01-02-chess-laser-magnets/IMG_3562-thumbnail.jpg"
-  text="" %}
+  text="Finished board with a magnet holding one corner of the board to the base." %}
 
 {% include _post_image.html
   src="https://p13i.io/assets/2025-01-02-chess-laser-magnets/IMG_3563-thumbnail.jpg"
-  text="" %}
+  text="MC Escher birds/fish engraved on the back." %}
 
 {% include _post_image.html
   src="https://p13i.io/assets/2025-01-02-chess-laser-magnets/IMG_3565-thumbnail.jpg"
-  text="" %}
-
-{% include _post_image.html
-  src="https://p13i.io/assets/2025-01-02-chess-laser-magnets/IMG_3567-thumbnail-COLLAGE.jpg"
-  text="" %}
+  text="Assembled and setup pieces." %}
 
 {% include _post_image.html
   src="https://p13i.io/assets/2025-01-02-chess-laser-magnets/IMG_3567-thumbnail.jpg"
-  text="" %}
+  text="Opposing King (\"white\") seen through the outline of the player's King (\"black\")." %}
 
 {% include _post_image.html
   src="https://p13i.io/assets/2025-01-02-chess-laser-magnets/IMG_3568-thumbnail.jpg"
-  text="" %}
+  text="Board viewed from the top-down." %}
 
 {% include _post_image.html
   src="https://p13i.io/assets/2025-01-02-chess-laser-magnets/IMG_3569-thumbnail.jpg"
-  text="" %}
+  text="Close-up of \"black\" pieces." %}
 
 {% include _post_image.html
   src="https://p13i.io/assets/2025-01-02-chess-laser-magnets/IMG_3570-thumbnail.jpg"
-  text="" %}
+  text="Close-up of \"white\" pieces." %}

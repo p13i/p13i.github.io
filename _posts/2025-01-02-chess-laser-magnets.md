@@ -7,21 +7,9 @@ image: "https://p13i.io/assets/2025-01-02-chess-laser-magnets/IMG_3567-thumbnail
 description:
   "Travel-sized board game classic crafted with plywood,
   glue, and magnets in our company's makerspace."
-# downloads:
-#   - name: "Illustrator file"
-#     url: https://p13i.io/assets/2023-07-11-tic-tac-toe/tic-tac-toe.ai
-#   - name: "Step 1: ENGRAVE.png"
-#     url: "https://p13i.io/assets/2023-07-11-tic-tac-toe/tic-tac-toe ENGRAVE.png"
-#   - name: "Step 1: ENGRAVE.plf (Visicut file)"
-#     url: "https://p13i.io/assets/2023-07-11-tic-tac-toe/tic-tac-toe ENGRAVE.plf"
-#   - name: "Step 2: MARK stubs.svg"
-#     url: "https://p13i.io/assets/2023-07-11-tic-tac-toe/tic-tac-toe MARK stubs.svg"
-#   - name: "Step 2: MARK stubs.plf (Visicut file)"
-#     url: "https://p13i.io/assets/2023-07-11-tic-tac-toe/tic-tac-toe MARK stubs.plf"
-#   - name: "Step 3: CUT main.svg"
-#     url: "https://p13i.io/assets/2023-07-11-tic-tac-toe/tic-tac-toe CUT main.svg"
-#   - name: "Step 3: CUT main.plf (Visicut file)"
-#     url: "https://p13i.io/assets/2023-07-11-tic-tac-toe/tic-tac-toe CUT main.plf"
+downloads:
+  - name: "🖼️ SVG file"
+    url: "https://p13i.io/assets/2025-01-02-chess-laser-magnets/chess-laser-magnets.svg"
 ---
 
 My first attempt at a laser-cut chessboard was almost

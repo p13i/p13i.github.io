@@ -3,7 +3,7 @@ title: Laser-cut chess set with magnets
 categories:
   - design
 layout: post
-image: "https://p13i.io/assets/2025-01-02-chess-laser-magnets/IMG_3567-thumbnail-COLLAGE.jpg"
+image: "https://p13i.io/assets/2025-01-02-chess-laser-magnets/IMG_3568-thumbnail.jpg"
 description:
   "Travel-sized board game classic crafted with plywood,
   glue, and magnets in our company's makerspace."

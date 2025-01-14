@@ -11,6 +11,7 @@ downloads:
   - name: "🖼️ SVG file"
     url: "https://p13i.io/assets/2025-01-02-chess-laser-magnets/chess-laser-magnets.svg"
 featured: true
+redirect_from: "chess-laser-magnets"
 ---
 
 My first attempt at a laser-cut chessboard was almost

@@ -34,6 +34,7 @@ downloads:
       "https://p13i.io/assets/2023-07-11-tic-tac-toe/tic-tac-toe
       CUT main.plf"
 featured: true
+redirect_from: "laser-cut-tic-tac-toe"
 ---
 
 This project is a travel-sized tic-tac-toe board is a great

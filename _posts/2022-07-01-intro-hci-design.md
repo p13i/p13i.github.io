@@ -1639,13 +1639,6 @@ the new through the system image. Mismatches between the
 designer and customer's models cause frustration, bad
 operation, lower performance, etc.
 
-- CS 194H will be running 1:30pm to 3:30pm on Tue/Fri.
-  Continue the project or join another one to get it to app
-  store quality. Practice design principles individually w/
-  crit. Slower pace than CS 147, 50% more time per
-  assignment: 1.5 weeks instead of 1 week. Small size with
-  feedback from Landay and a very experienced TA.
-
 ## Design guides for conceptual models
 
 1. Provide good conceptual model: customer wants to

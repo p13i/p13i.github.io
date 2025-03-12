@@ -1,80 +1,86 @@
 import os
 import re
+from dataclasses import dataclass
 
 # Configuration
 OUTPUT_FILE = "sitemap.md"
-POST_DIRS = ["_bytes", "_tweets", "_posts"]
+PAGE_DIRS = ["_bytes", "_tweets", "_posts", '.']
 
-# Regex to match Jekyll's post filenames: YYYY-MM-DD-title.md
-POST_PATTERN = re.compile(r"(\d{4})-(\d{2})-(\d{2})-(.+)\.md")
+@dataclass
+class Page:
+    name: str
+    url: str
+    subpages: list['Page']
 
-def get_post_data(folder, filename):
-    """Extract title and URL from Jekyll post filename."""
-    match = POST_PATTERN.match(filename)
-    if match:
-        _, _, _, title = match.groups()
-    else:
-        title = filename.replace(".md", "")
-    
-    title = title.replace("-", " ").title()
-    if folder == "root":
-        url = f"/{filename.replace('.md', '').replace(' ', '-').lower()}"
-    else:
-        url = f"/{folder.strip('_')}/{filename.replace('.md', '').replace(' ', '-').lower()}"
-    
-    return title, url
+    def GenerateSitemap(self, indent:int=0):
+        if self.name == '.':
+            return ''
+        if self.name.startswith('_'):
+            self.name = self.name[1:].capitalize()
+        s = ' ' * indent + f'- [{self.name}]({self.url})\n'
+        for page in self.subpages:
+            s += page.GenerateSitemap(indent=indent + 2)
+        return s
 
-def collect_posts():
+def get_url(folder: str, post_title: str) -> str:
+    if folder[0] == '_':
+        folder = folder[1:]
+    REGEX = r'(\d{4})-(\d{2})-(\d{2})-([\w\-]+)\.md'
+    matches = re.search(REGEX, post_title)
+    if not matches:
+        return f'/{folder}/{post_title.rstrip('.md')}/'
+    return f'/{folder}/{matches.group(1)}/{matches.group(2)}/{matches.group(4)}/'
+
+def CollectPages():
     """Collect posts from all directories and root."""
-    sitemap = {"root": []}
+    top_level_pages: list[Page] = []
 
     # Collect posts from specified directories
-    for folder in POST_DIRS:
-        sitemap[folder] = []
-        for filename in os.listdir(folder):
+    for dir in PAGE_DIRS:
+        page_name: str = dir
+        page_url: str = f'/{dir.lstrip('_')}/'
+        page_subpages: list[str] = []
+        for filename in os.listdir(dir):
             if filename.endswith(".md"):
-                title, url = get_post_data(folder, filename)
-                sitemap[folder].append((title, url))
-
-    # Collect root-level markdown files
-    for filename in os.listdir():
-        if filename.endswith(".md") and not filename.startswith("_"):
-            title, url = get_post_data("root", filename)
-            sitemap["root"].append((title, url))
-
-    # Sort items alphabetically
-    for folder in sitemap:
-        sitemap[folder].sort(key=lambda x: x[0].lower())
-
-    return sitemap
+                with open(os.path.join(dir, filename)) as f:
+                    contents = f.read()
+                    REGEX = r'title: (.*)\n'
+                    matches = re.search(REGEX, contents)
+                    if not matches:
+                        REGEX = '---\n\n(.*)\n'
+                        matches = re.search(REGEX, contents)
+                        if not matches:
+                            title = 'unknown'
+                        else:
+                            title = matches.group(1)[:32]
+                    else:
+                        title = matches.group(1)
+                    url = get_url(dir, filename)
+                new_page = Page(name=title, url=url, subpages=[])
+                if dir == '.':
+                    top_level_pages.append(new_page)
+                else:
+                    page_subpages.append(new_page)
+        page_for_dir = Page(name=page_name, url=page_url, subpages=page_subpages)
+        top_level_pages.append(page_for_dir)
+    
+    root = Page(name='p13i.io', url='/', subpages=top_level_pages)
+    return root.GenerateSitemap()
 
 def generate_sitemap():
     """Generate sitemap.md with nested lists."""
-    sitemap = collect_posts()
+    sitemap = CollectPages()
 
     with open(OUTPUT_FILE, "w") as f:
-        f.write("""---
+        f.write(f"""---
 layout: base
 title: "Sitemap"
 ---
+# Sitemap
+
+{sitemap}
 
 """)
-
-        f.write("# {{ page.title }}\n\n")
-
-        # Root-level posts
-        if sitemap["root"]:
-            f.write("- Root\n")
-            for title, url in sitemap["root"]:
-                f.write(f"  - [{title}]({url})\n")
-
-        # Posts by directory
-        for folder, posts in sitemap.items():
-            if folder == "root":
-                continue
-            f.write(f"- {folder.strip('_').capitalize()}\n")
-            for title, url in posts:
-                f.write(f"  - [{title}]({url})\n")
 
     print(f"Sitemap generated: {OUTPUT_FILE}")
 

@@ -43,10 +43,13 @@ push:
 	git commit --allow-empty-message -m "${date}"
 	git push
 
+generate-sitemap:
+	python3 scripts/sitemap.py
+
 fix:
 	npx prettier --write --print-width 60 --trailing-comma=none --prose-wrap always '**/*.{md,html,yml,yaml}' 
 
-lint: fix
+lint: generate-sitemap fix
 
 sync: pull
 	git push

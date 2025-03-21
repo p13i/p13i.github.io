@@ -9,8 +9,8 @@ jobs:
       - name: Setup repo
         uses: actions/checkout@v2
 
-      - name: Run prettier
-        run: make fix
+      - name: Run linters
+        run: make lint
 
       - name: Make sure there are no diffs
         run:
@@ -24,12 +24,12 @@ jobs:
         with:
           token: ${{ secrets.WORKFLOW_TOKEN }}
           commit-message:
-            Apply prettier to ${{ github.ref_name }}
-          title: Apply prettier to ${{ github.ref_name }}
-          branch: prettier-${{ github.run_number }}
+            Automated - Lint ${{ github.ref_name }}
+          title: Automated - Lint ${{ github.ref_name }}
+          branch: lint-${{ github.run_number }}
           body:
             This pull request applies NPM's `prettier`
-            formatting changes to the codebase at ${{
+            formatting changes and will generate the sitemap. Commit ${{
             github.sha }}.
           labels: auto-generated
           reviewers: ${{ github.actor }}

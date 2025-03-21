@@ -2,6 +2,7 @@
 layout: base
 title: "Sitemap"
 ---
+
 # Sitemap
 
 - [p13i.io](/)
@@ -328,5 +329,3 @@ title: "Sitemap"
   - [My research work](/./research/)
   - [Pramod's skills:](/./skills/)
   - [Posts](/./posts/)
-
-

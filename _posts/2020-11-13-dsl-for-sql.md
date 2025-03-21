@@ -1,7 +1,7 @@
 ---
 title:
   Design factors for database query domain-specific
-  languages (DSLs) in object-oriented languages
+  languages (DSLs) in object-oriented languages (Stanford CS343D, Fall 2020)
 date: "2020-11-13"
 categories:
   - research
@@ -20,12 +20,6 @@ downloads:
     url: https://github.com/p13i/p13i.github.io/files/11621351/2020_11_13._.CS343D._.Essay.Assignment.pdf
 ---
 
-<p>
-<strong>Design factors for database query domain-specific languages (DSLs) in object-oriented languages</strong>
-</p>
-<p>
-<em>Pramod Kotipalli | Stanford CS343D | Fall 2020</em>
-</p>
 <p>
 Most applications that interface with a database are written with object-oriented programming (OOP) languages. <a href="https://scalegrid.io/blog/2019-database-trends-sql-vs-nosql-top-databases-single-vs-multiple-database-use/">Many applications</a> use SQL databases to persist data. There exists an ‘impedance mismatch’ between the use of object-oriented systems that act on objects of non-scalar values and the storage of scalar values (e.g. strings and integers) organized in SQL tables. The ubiquity of OOP systems and SQL databases is hard to overcome; many developers must use both together to write effective and performant web applications. Numerous object-relational mapping (ORM) software libraries exist as libraries for popular languages such as <a href="https://hibernate.org/orm/">Hibernate ORM</a> for Java, <a href="https://guides.rubyonrails.org/active_record_basics.html">Active Record</a> for Ruby, and the <a href="https://docs.djangoproject.com/en/3.1/topics/db/queries/">Django ORM</a> or <a href="https://www.sqlalchemy.org/">SQLAlchemy</a><span style="text-decoration:underline;"> </span>for Python.
 </p>

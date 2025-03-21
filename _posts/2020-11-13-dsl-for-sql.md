@@ -20,30 +20,6 @@ downloads:
     url: https://github.com/p13i/p13i.github.io/files/11621351/2020_11_13._.CS343D._.Essay.Assignment.pdf
 ---
 
-<!-- Output copied to clipboard! -->
-
-<!-----
-
-Yay, no errors, warnings, or alerts!
-
-Conversion time: 0.734 seconds.
-
-
-Using this HTML file:
-
-1. Paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β34
-* Sun Sep 03 2023 23:55:25 GMT-0700 (PDT)
-* Source doc: 2020/11/13 | CS343D | Essay Assignment
-* Tables are currently converted to HTML tables.
------>
-
 <p>
 <strong>Design factors for database query domain-specific languages (DSLs) in object-oriented languages</strong>
 </p>

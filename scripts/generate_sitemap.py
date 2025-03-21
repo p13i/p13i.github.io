@@ -17,7 +17,7 @@ class Page:
             return ''
         if self.name.startswith('_'):
             self.name = self.name[1:].capitalize()
-        s = ' ' * indent + f'- [{self.name}]({self.url})\n'
+        s = ' ' * indent + f'- [`{self.name}`]({self.url}): [`{self.url}`]({self.url})\n'
         for page in self.subpages:
             s += page.GenerateSitemap(indent=indent + 2)
         return s

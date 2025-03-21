@@ -229,3 +229,183 @@ With extensibility, query syntax is easier to read and lends itself to DRY imple
 <p>
 While this essay may seem like a document exalting the expressiveness and simplicity of LINQ, I try to show that some core language features of C# are very useful for interacting with data through ORMs and creating DSLs for data queries. The support of native language query expressions and extension methods provide for readability and extensibility. The statically-typed nature of C# provides the programmer with many assurances during development. Many ORMs and data-interfacing query languages in OOP contexts can benefit from supporting C#-like language features.
 </p>
+
+---
+
+Most applications that interface with a database are written
+with object-oriented programming (OOP) languages.
+[Many applications](https://scalegrid.io/blog/2019-database-trends-sql-vs-nosql-top-databases-single-vs-multiple-database-use/)
+use SQL databases to persist data. There exists an
+‘impedance mismatch’ between the use of object-oriented
+systems that act on objects of non-scalar values and the
+storage of scalar values (e.g. strings and integers)
+organized in SQL tables. The ubiquity of OOP systems and SQL
+databases is hard to overcome; many developers must use both
+together to write effective and performant web applications.
+Numerous object-relational mapping (ORM) software libraries
+exist as libraries for popular languages such as
+[Hibernate ORM](https://hibernate.org/orm/) for Java,
+[Active Record](https://guides.rubyonrails.org/active_record_basics.html)
+for Ruby, and the
+[Django ORM](https://docs.djangoproject.com/en/3.1/topics/db/queries/)
+or [SQLAlchemy](https://www.sqlalchemy.org/) for Python.
+
+From the perspective of the programmer of a sophisticated
+backend API, three language ‘front-end’ design factors are
+key when selecting or implementing a query DSL for an OOP
+language (implementation details of ORMs will not be
+discussed):
+
+1. Syntax readability
+2. Type-checking
+3. Extensibility
+
+## Syntax readability
+
+In addition to a method-chaining (i.e.
+["fluent interface"](https://docs.microsoft.com/en-us/archive/msdn-magazine/2010/january/patterns-in-practice-internal-domain-specific-languages#fluent-interfaces-and-expression-builders))
+interface common to many programming languages, some
+languages have taken to including data querying syntax
+natively, as in C# with Language Integrated Query (LINQ).
+This
+["query expression"](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/)
+syntax supports data-query-specific keywords like `from` and
+`select` as native language constructs.
+
+```csharp
+class Person { public int Age; public String Name; }
+
+Person[] people = new Person[] {
+    new Person { Age = 16, Name = "Alex" },
+    new Person { Age = 17, Name = "Jamie" },
+    new Person { Age = 20, Name = "Savannah" }
+};
+```
+
+**Code Fragment 1 - Initializing a `people` array in C#**
+
+```csharp
+IEnumerable<Person> minors = people.Where(p => p.Age < 18);
+foreach (Person minor in minors) {
+    Console.WriteLine(minor.Name);
+}
+```
+
+**Code Fragment 2 - LINQ through a _method chaining_ or a
+_fluent interface_ syntax**
+
+```csharp
+IEnumerable<Person> minors = from person in people
+    where person.Age < 18
+    select person;
+foreach (Person minor in minors) {
+    Console.WriteLine(minor.Name);
+}
+```
+
+**Code Fragment 3 - LINQ through _query expression_ syntax**
+
+Note that both the method chaining and query expression
+approaches yield the same `IEnumerable` collection type:
+both approaches are semantically equivalent. However, some
+queries are more readable in one form over another.
+
+Further, the support of syntactically simple lambda
+expressions is crucial for readable queries. This is a
+feature that popular languages like Python do not support.
+An equivalent to Code Fragment 2 with Python lambdas would
+print as:
+
+```python
+minors = Person.objects.filter(lambda p: p.Age < 18)
+```
+
+**Code Fragment 4 - Python lambda syntax in an ORM query**
+
+The use of the `lambda` keyword over `=>` in more
+sophisticated queries grows to be a tiresome syntax.
+
+## Type-checking
+
+C#’s support of LINQ enables compile-time type checking of
+every query written in a program. Django’s ORM is
+constrained to Python’s dynamic type checking system leading
+to syntax like so for a similar C# query:
+
+```python
+minors = Person.object.filter(age__lt=18)
+for minor in minors:
+    print(minor.Name)
+```
+
+**Code Fragment 5 - A query for `minors` through a Python
+ORM**
+
+Python-based ORMs must rely on method-chaining syntax,
+straying one level of abstraction away from the SQL-like
+syntax of C# query expressions.
+
+As the complexity of object-oriented systems grows,
+developers tend to write fewer tests, making compile-time
+type checking more important. Python’s best approach to this
+problem is using an optional static type checker,
+[mypy](http://mypy-lang.org/), which can check a Python
+program before it is deployed.
+
+C# also supports statically-typed
+[anonymous types](https://docs.microsoft.com/en-us/dotnet/standard/linq/project-anonymous-type),
+enabling C# to represent intermediate query results in
+simple struct-like types.
+
+## Extensibility
+
+C#’s support of extension methods is extremely useful for
+both readability and keeping code DRY. Take for example
+[the expression of a time-difference object](https://docs.microsoft.com/en-us/archive/msdn-magazine/2010/january/patterns-in-practice-internal-domain-specific-languages).
+
+```csharp
+public static class DateTimeExtensions
+{
+    public static TimeSpan Days(this int number)
+    {
+        return new TimeSpan(number, 0, 0, 0);
+    }
+}
+...
+30.Days(); // Equivalent to new Timespan(30, 0, 0, 0);
+```
+
+**Code Fragment 6 - “Literal expressions” in C#**
+
+With extensibility, query syntax is easier to read and lends
+itself to DRY implementations of large systems.
+
+```csharp
+public static class OrderExtensions
+{
+    public static IEnumerable<Order> OnShelfForShortTime(
+        this IEnumerable<Order> orders)
+    {
+        return orders.Where(order =>
+            order.DaysOnShelf < 3.Days());
+    }
+}
+...
+user.GetOrders().OnShelfForShortTime(); // Equivalent form
+```
+
+**Code Fragment 7 - “Literal expressions” in C#**
+
+## Final thoughts
+
+While this essay may seem like a document exalting the
+expressiveness and simplicity of LINQ, I try to show that
+some core language features of C# are very useful for
+interacting with data through ORMs and creating DSLs for
+data queries. The support of native language query
+expressions and extension methods provide for readability
+and extensibility. The statically-typed nature of C#
+provides the programmer with many assurances during
+development. Many ORMs and data-interfacing query languages
+in OOP contexts can benefit from supporting C#-like language
+features.

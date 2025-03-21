@@ -1,0 +1,42 @@
+on:
+  push:
+    branches:
+      - "**"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup repo
+        uses: actions/checkout@v2
+
+      - name: Run linters
+        run: make lint
+
+      - name: Make sure there are no diffs
+        run:
+          git diff && exit $(git status --porcelain=v1
+          2>/dev/null | wc -l)
+
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v3
+        if: ${{ failure() }}
+        with:
+          token: ${{ secrets.WORKFLOW_TOKEN }}
+          commit-message:
+            Automated - Lint ${{ github.ref_name }}
+          title: Automated - Lint ${{ github.ref_name }}
+          branch: lint-${{ github.run_number }}
+          body:
+            This pull request applies NPM's `prettier`
+            formatting changes and will generate the sitemap. Commit ${{
+            github.sha }}.
+          labels: auto-generated
+          reviewers: ${{ github.actor }}
+
+      - name: Store pull request number
+        if: ${{ failure() }}
+        run:
+          echo "PR_NUMBER=${{
+          steps.cpr.outputs.pull-request-number }}" >>
+          $GITHUB_ENV

@@ -46,10 +46,8 @@ push:
 generate-sitemap:
 	python3 scripts/generate_sitemap.py
 
-fix:
+lint: generate-sitemap
 	npx prettier --write --print-width 60 --trailing-comma=none --prose-wrap always '**/*.{md,html,yml,yaml}' 
-
-lint: generate-sitemap fix
 
 sync: pull
 	git push

@@ -1,7 +1,8 @@
 ---
 title:
   Design factors for database query domain-specific
-  languages (DSLs) in object-oriented languages (Stanford CS343D, Fall 2020)
+  languages (DSLs) in object-oriented languages (Stanford
+  CS343D, Fall 2020)
 date: "2020-11-13"
 categories:
   - research

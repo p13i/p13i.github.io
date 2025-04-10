@@ -92,7 +92,7 @@ Context approaches include zero shot, one shot, or few shot
 prompts where the prompt provides examples of what we want
 the model to produce.
 
-## Evaluation Parameters\*\*
+## Evaluation Parameters
 
 Temperature refers to how “creative” the model is in
 considering less-related or novel content. In mathematical

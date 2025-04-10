@@ -10,6 +10,7 @@ description:
   Some notes from a recent talk I attended introducing
   generative AI to a general, non-technical audience.
 redirect_from: "intro-genai-llm"
+image: https://assets.p13i.io/2025-05-10-intro-genai-llm/genai-thumbnail.png
 ---
 
 ## Background

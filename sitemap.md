@@ -298,6 +298,7 @@ title: "Sitemap"
     - [`/posts/2023/09/laser-cut-tic-tac-toe-v2/` → Laser Cut Tic-Tac-Toe, now with magnets!](/posts/2023/09/laser-cut-tic-tac-toe-v2/)
     - [`/posts/2019/05/neon-sign/` → Neon Sign](/posts/2019/05/neon-sign/)
     - [`/posts/2017/08/cisco-testing/` → Cisco Testing-as-a-Service](/posts/2017/08/cisco-testing/)
+    - [`/posts/2025/04/intro-genai-llm/` → Intro to GenAI and LLMs](/posts/2025/04/intro-genai-llm/)
     - [`/posts/2016/10/safely/` → Safely](/posts/2016/10/safely/)
     - [`/posts/2020/06/tracks/` → Tracks](/posts/2020/06/tracks/)
     - [`/posts/2019/05/prism/` → Prism](/posts/2019/05/prism/)

@@ -135,6 +135,7 @@ title: "Sitemap"
     - [`/tweets/208/` → The Pramod Show - Live at](/tweets/208/)
     - [`/tweets/23/` → People will forget what you said](/tweets/23/)
     - [`/tweets/149/` → David Goggins would like MrBeast](/tweets/149/)
+    - [`/tweets/260/` → Adrianna and my former psych ins](/tweets/260/)
     - [`/tweets/49/` → 🙌](/tweets/49/)
     - [`/tweets/114/` → With 4 years of research at Geor](/tweets/114/)
     - [`/tweets/139/` → Let's get started :)](/tweets/139/)

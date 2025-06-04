@@ -83,7 +83,7 @@ title: "Sitemap"
     - [`/tweets/43/` → I'm so sorry...](/tweets/43/)
     - [`/tweets/29/` → "Remember, you are not your own,](/tweets/29/)
     - [`/tweets/12/` → I follow politics closely but I ](/tweets/12/)
-    - [`/tweets/268/` → Unacceptable: https://www.thegua](/tweets/268/)
+    - [`/tweets/268/` → Unacceptable:](/tweets/268/)
     - [`/tweets/57/` → Paid off my student loans!!!](/tweets/57/)
     - [`/tweets/116/` → COLORS](/tweets/116/)
     - [`/tweets/252/` → i love how wikipedia just lists ](/tweets/252/)

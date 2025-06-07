@@ -23,6 +23,10 @@ layout: base
                     <img src="{{ page.image }}"/>
                     <hr/>
                 {% endif %}
+                {% if page.redirect_from %}
+                    <a href="https://p13i.io/{{ page.redirect_from }}">p13i.io/{{ page.redirect_from }}</a>
+                    <hr/>
+                {% endif %}
                 {% if page.description %}
                     <p class="description">{{ page.description | markdownify }}</p>
                     <hr/>

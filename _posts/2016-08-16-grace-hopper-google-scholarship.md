@@ -10,7 +10,7 @@ layout: post
 description:
   My application for a Google scholarship to support my
   attending Grace Hopper Conference in 2016
-image: https://assets.p13i.io/2025-05-10-intro-genai-llm/genai-thumbnail.png
+image: http://assets.p13i.io/grace-hopper-thumbnail.png
 ---
 
 **What do you hope to gain from attending Grace Hopper, and

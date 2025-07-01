@@ -60,7 +60,6 @@ notable trends here are:
 2. I tend to procrastinate work on academic assignments
    until the few days before they are due. There are a few
    peaks that support this claim:
-
    - Sun. 05/03 - Mon 05/04 for Smart Products which were
      the two days before my first assignment was due in the
      class. There was almost no other work done during that

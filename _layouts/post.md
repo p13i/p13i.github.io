@@ -24,7 +24,7 @@ layout: base
                     <hr/>
                 {% endif %}
                 {% if page.redirect_from %}
-                    <a href="https://p13i.io/{{ page.redirect_from }}">p13i.io/{{ page.redirect_from }}</a>
+                    <a href="https://p13i.io/{{ page.redirect_from }}">https://p13i.io/{{ page.redirect_from }}</a>
                     <hr/>
                 {% endif %}
                 {% if page.description %}

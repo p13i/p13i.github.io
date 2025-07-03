@@ -30,6 +30,7 @@ presentation:
     - https://github.com/p13i/p13i.github.io/assets/13140065/6810625d-c48f-4a67-ac9b-7efa2c506185
     - https://github.com/p13i/p13i.github.io/assets/13140065/ddcf1fb4-9d0e-47ad-9d0d-f9a3ae3f3c73
     - https://github.com/p13i/p13i.github.io/assets/13140065/d4ca92d3-3cd1-44d8-927a-e2b5bfcb4821
+redirect_from: "bokeh"
 ---
 
 {% for slide in page.presentation.slides %}

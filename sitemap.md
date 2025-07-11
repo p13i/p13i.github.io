@@ -77,6 +77,7 @@ title: "Sitemap"
     - [`/tweets/201/` → Kamala will win big.](/tweets/201/)
     - [`/tweets/232/` → I was in an ‘artificial high’ of](/tweets/232/)
     - [`/tweets/223/` → Amazing Belgian waffles #pix](/tweets/223/)
+    - [`/tweets/274/` → brb gonna get my phd](/tweets/274/)
     - [`/tweets/152/` → ...then do something](/tweets/152/)
     - [`/tweets/261/` → "Solving the problem of today."](/tweets/261/)
     - [`/tweets/189/` → Does this still work? I just upd](/tweets/189/)

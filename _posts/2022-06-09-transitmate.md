@@ -14,6 +14,7 @@ downloads:
   - name: "\U0001F4DC Final Report (19.4 MB)"
     url: "https://github.com/p13i/p13i.github.io/files/9113930/Final.Report.pdf"
 featured: true
+redirect_from: "transitmate"
 ---
 
 Our mobile app was a checkpoint-based transit safety

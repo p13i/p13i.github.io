@@ -9,6 +9,7 @@ image: "https://user-images.githubusercontent.com/13140065/169116098-56d65621-69
 downloads:
   - name: "💻 GitHub source"
     url: https://github.com/p13i/mergesort-c/blob/main/main.c#L27
+redirect_from: "mergesort"
 ---
 
 In preparation for technical interviews, I implemented

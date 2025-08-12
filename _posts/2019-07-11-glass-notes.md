@@ -6,11 +6,8 @@ categories:
   - engineering
 tags:
   - google-glass
-  - note-taking
   - android
-  - github-api
   - wearable-computing
-  - performance-optimization
   - symbiotic-artificial-intelligence
 layout: post
 author: Pramod Kotipalli

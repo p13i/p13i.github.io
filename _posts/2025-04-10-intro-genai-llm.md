@@ -102,3 +102,16 @@ explore next; a higher temperature indicates a higher
 likelihood to consider more distant (less relevant) tokens.
 The higher the temperature the more likely the model is to
 hallucinate.
+
+---
+
+# List of LLM products
+
+* ChatGPT
+* Notion AI
+* Microsoft Copilot
+* [Gauth Math](https://www.gauthmath.com/)
+* [StudyX](https://studyx.ai/)
+* [Brainly](https://brainly.com/)
+* Perplexity
+* Claude

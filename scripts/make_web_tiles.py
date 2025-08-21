@@ -284,3 +284,6 @@ if __name__ == "__main__":
     with open("gallery.html", "w", encoding="utf8") as f:
         f.write(html_output)
     print("HTML gallery generated: gallery.html")
+
+# python scripts/make_web_tiles.py
+# python3 -m http.server --bind 127.0.0.1 8080

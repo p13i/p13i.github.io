@@ -36,11 +36,11 @@ def CollectPages():
     top_level_pages: list[Page] = []
 
     # Collect posts from specified directories
-    for dir in PAGE_DIRS:
+    for dir in sorted(PAGE_DIRS):
         page_name: str = dir
         page_url: str = f'/{dir.lstrip('_')}/'
         page_subpages: list[str] = []
-        for filename in os.listdir(dir):
+        for filename in sorted(os.listdir(dir)):
             if filename.endswith(".md"):
                 with open(os.path.join(dir, filename)) as f:
                     contents = f.read()

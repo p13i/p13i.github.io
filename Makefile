@@ -49,7 +49,10 @@ generate-sitemap:
 fix:
 	npx prettier --write --print-width 60 --trailing-comma=none --prose-wrap always '**/*.{md,html,yml,yaml}' 
 
-lint: generate-sitemap fix
+make-web-tiles:
+	python scripts/make_web_tiles.py
+
+lint: generate-sitemap make-web-tiles fix
 
 sync: pull
 	git push

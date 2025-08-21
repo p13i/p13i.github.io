@@ -107,11 +107,11 @@ hallucinate.
 
 # List of LLM products
 
-* ChatGPT
-* Notion AI
-* Microsoft Copilot
-* [Gauth Math](https://www.gauthmath.com/)
-* [StudyX](https://studyx.ai/)
-* [Brainly](https://brainly.com/)
-* Perplexity
-* Claude
+- ChatGPT
+- Notion AI
+- Microsoft Copilot
+- [Gauth Math](https://www.gauthmath.com/)
+- [StudyX](https://studyx.ai/)
+- [Brainly](https://brainly.com/)
+- Perplexity
+- Claude

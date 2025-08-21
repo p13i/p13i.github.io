@@ -2,7 +2,6 @@
 layout: base
 title: "Sitemap"
 ---
-
 # Sitemap
 
 - [`/` → p13i.io](/)
@@ -44,7 +43,7 @@ title: "Sitemap"
     - [`/posts/2015/12/error-correcting-codes/` → Error-Correcting Codes](/posts/2015/12/error-correcting-codes/)
     - [`/posts/2016/08/hmm-heart/` → HMM Heart](/posts/2016/08/hmm-heart/)
     - [`/posts/2016/08/twitter-sentiment-analysis/` → Twitter Sentiment Analysis](/posts/2016/08/twitter-sentiment-analysis/)
-    - [`/posts/2016/08/grace-hopper-google-scholarship/` → \*\*What do you hope to gain from ](/posts/2016/08/grace-hopper-google-scholarship/)
+    - [`/posts/2016/08/grace-hopper-google-scholarship/` → **What do you hope to gain from ](/posts/2016/08/grace-hopper-google-scholarship/)
     - [`/posts/2016/09/rich-captions/` → Rich Captions](/posts/2016/09/rich-captions/)
     - [`/posts/2016/10/safely/` → Safely](/posts/2016/10/safely/)
     - [`/posts/2016/12/csp/` → CSP Solver](/posts/2016/12/csp/)
@@ -362,3 +361,5 @@ title: "Sitemap"
     - [`/tweets/96/` → TECHNOKING](/tweets/96/)
     - [`/tweets/97/` → “I think there's a misconception](/tweets/97/)
     - [`/tweets/98/` → Solarpunk is the beautiful futur](/tweets/98/)
+
+

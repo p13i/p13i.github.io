@@ -11,7 +11,7 @@
 #		docker down
 #	make push
 #		Adds all unstaged changes and commits and pushes
-#   make fix
+#   make lint
 #		Appplies code formatting
 #   make sync
 # 		Pulls changes from git and pushes local commits
@@ -47,15 +47,21 @@ generate-sitemap:
 	python3 scripts/generate_sitemap.py
 
 setup-lint:
+	pip3 install pillow
+	pip3 install requests
+	pip3 install black
 	npm install --global prettier
 
-fix:
-	prettier --write --print-width 60 --trailing-comma=none --prose-wrap always '**/*.{md,html,yml,yaml}' 
+lint-markups:
+	prettier --write --print-width 60 --trailing-comma=none --prose-wrap always '**/*.{md,html,yml,yaml}'
+
+lint-python: 
+	python3 -m black .
 
 make-web-tiles:
-	python scripts/make_web_tiles.py
+	python3 scripts/make_web_tiles.py
 
-lint: generate-sitemap make-web-tiles fix
+lint: generate-sitemap make-web-tiles lint-markups lint-python
 
 sync: pull
 	git push

@@ -2,6 +2,7 @@ import os
 import re
 import sys
 
+
 def get_all_image_urls(source_code_folder, output_file):
     # Find all image URLs in the source code files using a regular expression
     image_urls = []
@@ -12,8 +13,13 @@ def get_all_image_urls(source_code_folder, output_file):
                 file_path = os.path.join(root, file)
                 with open(file_path, "r") as f:
                     source_code = f.read()
-                    image_urls.extend(re.findall(r'https?://[^\s/$.?#\":].[^\s\",:]*\.(?:png|jpe?g|gif)', source_code))
-    
+                    image_urls.extend(
+                        re.findall(
+                            r"https?://[^\s/$.?#\":].[^\s\",:]*\.(?:png|jpe?g|gif)",
+                            source_code,
+                        )
+                    )
+
     # Depulicate and sort URLs
     image_urls = sorted(list(set(image_urls)))
 
@@ -23,10 +29,13 @@ def get_all_image_urls(source_code_folder, output_file):
 
     print(f"List of {len(image_urls)} image URLs written to: {output_file}")
 
+
 if __name__ == "__main__":
     if len(sys.argv) != 3:
         print("Usage:")
-        print("python get_all_image_urls.py /path/to/source/code /path/to/output_file.txt")
+        print(
+            "python get_all_image_urls.py /path/to/source/code /path/to/output_file.txt"
+        )
         exit(1)
 
     # Get the source code folder and output file path from command-line arguments

@@ -46,8 +46,11 @@ push:
 generate-sitemap:
 	python3 scripts/generate_sitemap.py
 
+setup-lint:
+	npm install --global prettier
+
 fix:
-	npx prettier --write --print-width 60 --trailing-comma=none --prose-wrap always '**/*.{md,html,yml,yaml}' 
+	prettier --write --print-width 60 --trailing-comma=none --prose-wrap always '**/*.{md,html,yml,yaml}' 
 
 make-web-tiles:
 	python scripts/make_web_tiles.py

@@ -9,7 +9,10 @@ jobs:
       - name: Setup repo
         uses: actions/checkout@v2
 
-      - name: Run prettier
+      - name: Run setup lint
+        run: make setup-lint
+
+      - name: Run linters
         run: make lint
 
       - name: Make sure there are no diffs

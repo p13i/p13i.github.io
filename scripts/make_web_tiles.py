@@ -5,6 +5,7 @@ from PIL import Image
 import html
 import math
 
+
 def MakeWebTiles(image_urls: List[str]) -> str:
     """
     Downloads the images (in-memory), reads their dimensions, and returns an HTML string
@@ -28,12 +29,9 @@ def MakeWebTiles(image_urls: List[str]) -> str:
             w, h = img.size
             if w <= 0 or h <= 0:
                 continue
-            images.append({
-                "url": url,
-                "w": int(w),
-                "h": int(h),
-                "ratio": float(w) / float(h)
-            })
+            images.append(
+                {"url": url, "w": int(w), "h": int(h), "ratio": float(w) / float(h)}
+            )
         except Exception:
             # skip broken/unreachable images silently
             continue
@@ -68,8 +66,10 @@ def MakeWebTiles(image_urls: List[str]) -> str:
         if row:
             total_spacing = SPACING * (len(row) - 1)
             if sum_ratio > 0:
-                last_height = min(TARGET_ROW_HEIGHT,
-                                  max(MIN_ROW_HEIGHT, (container_width - total_spacing) / sum_ratio))
+                last_height = min(
+                    TARGET_ROW_HEIGHT,
+                    max(MIN_ROW_HEIGHT, (container_width - total_spacing) / sum_ratio),
+                )
             else:
                 last_height = TARGET_ROW_HEIGHT
             rows.append((row, last_height))
@@ -92,7 +92,7 @@ def MakeWebTiles(image_urls: List[str]) -> str:
 
     # Build server-side rows markup (fallback if JS disabled) using computed widths/heights
     rows_html_parts = []
-    for (row_imgs, row_h) in rows:
+    for row_imgs, row_h in rows:
         rows_html_parts.append('<div class="jg-row">')
         for im in row_imgs:
             scaled_w = max(1, int(round(im["ratio"] * row_h)))
@@ -105,7 +105,7 @@ def MakeWebTiles(image_urls: List[str]) -> str:
                 f'width="{scaled_w}" height="{scaled_h}" '
                 f'data-w="{im["w"]}" data-h="{im["h"]}" alt="{alt}" loading="lazy" />'
             )
-        rows_html_parts.append('</div>')
+        rows_html_parts.append("</div>")
 
     rows_html = "\n".join(rows_html_parts)
 
@@ -236,28 +236,30 @@ def MakeWebTiles(image_urls: List[str]) -> str:
         js,
         "  </script>",
         "</body>",
-        "</html>"
+        "</html>",
     ]
 
     return "\n".join(html_out)
+
+
 import re
 from typing import List
+
 
 def ExtractImageUrlsFromYaml(filename: str) -> List[str]:
     """
     Extract all image URLs from a YAML file using regex, without any dependencies.
     Specifically looks for lines with 'url:' followed by a string.
-    
+
     Args:
         filename: Path to the YAML file.
-    
+
     Returns:
         A list of URLs (strings).
     """
     urls: List[str] = []
     url_pattern = re.compile(
-        r'^\s*-\s*url:\s*(["\']?)(https?://[^\s#]+)\1',
-        re.IGNORECASE
+        r'^\s*-\s*url:\s*(["\']?)(https?://[^\s#]+)\1', re.IGNORECASE
     )
 
     with open(filename, "r", encoding="utf-8") as f:
@@ -267,6 +269,7 @@ def ExtractImageUrlsFromYaml(filename: str) -> List[str]:
                 urls.append(match.group(2))
 
     return urls
+
 
 # Example usage:
 # html_string = MakeWebTiles([

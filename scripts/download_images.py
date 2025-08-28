@@ -2,6 +2,7 @@ import os
 import requests
 import sys
 
+
 def download_images(url_list_file, local_folder):
     # Create the local folder if it doesn't exist
     if not os.path.exists(local_folder):
@@ -27,6 +28,7 @@ def download_images(url_list_file, local_folder):
                 print(f"Failed to download: {image_filename}")
         except Exception as e:
             print(f"Failed to download: {image_filename}. Error: {str(e)}")
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:

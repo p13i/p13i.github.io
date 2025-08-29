@@ -58,10 +58,10 @@ lint-markups:
 lint-python: 
 	python3 -m black .
 
-make-web-tiles:
+web-tiles:
 	python3 scripts/make_web_tiles.py
 
-lint: generate-sitemap make-web-tiles lint-markups lint-python
+lint: generate-sitemap web-tiles lint-markups lint-python
 
 sync: pull
 	git push

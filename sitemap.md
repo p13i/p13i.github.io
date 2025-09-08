@@ -294,6 +294,7 @@ title: "Sitemap"
     - [`/tweets/285/` → My sense of humor is best define](/tweets/285/)
     - [`/tweets/286/` → "The only step you ever have to ](/tweets/286/)
     - [`/tweets/287/` → Biden was one of the worst presi](/tweets/287/)
+    - [`/tweets/288/` → There’s just something beautiful](/tweets/288/)
     - [`/tweets/29/` → "Remember, you are not your own,](/tweets/29/)
     - [`/tweets/3/` → i actually typed this garbage in](/tweets/3/)
     - [`/tweets/31/` → One of my favorite poems... "Ang](/tweets/31/)

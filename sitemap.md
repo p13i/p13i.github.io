@@ -356,7 +356,7 @@ title: "Sitemap"
     - [`/tweets/87/` → LOL](/tweets/87/)
     - [`/tweets/88/` → wow](/tweets/88/)
     - [`/tweets/89/` → ppl be always changing they pron](/tweets/89/)
-    - [`/tweets/9/` → The dots will connect looking ba](/tweets/9/)
+    - [`/tweets/9/` → You can only connect them lookin](/tweets/9/)
     - [`/tweets/90/` → "The Extended Phenotype” by Rich](/tweets/90/)
     - [`/tweets/91/` → once is too much and 1000 is nev](/tweets/91/)
     - [`/tweets/92/` → i am going to spend the next nin](/tweets/92/)

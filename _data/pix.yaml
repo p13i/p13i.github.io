@@ -68,4 +68,5 @@
 - url: https://p13i.io/assets/2025-08-21-22ae.jpg
   alt: "Sunset from Mt Rainier #pix"
 - url: https://p13i.io/assets/2025-09-08-3a6f.jpg
-  alt: "There’s just something beautiful about Bangalore… #pix"
+  alt:
+    "There’s just something beautiful about Bangalore… #pix"

@@ -316,6 +316,7 @@ title: "Sitemap"
     - [`/tweets/305/` → Again, just something beautiful ](/tweets/305/)
     - [`/tweets/306/` → Indian architecture in sunset co](/tweets/306/)
     - [`/tweets/307/` → Indian infrastructure is rather ](/tweets/307/)
+    - [`/tweets/308/` → im so excited about mamdani in n](/tweets/308/)
     - [`/tweets/31/` → One of my favorite poems... "Ang](/tweets/31/)
     - [`/tweets/32/` → US military policy is amazingly ](/tweets/32/)
     - [`/tweets/33/` → Fuck cancer](/tweets/33/)

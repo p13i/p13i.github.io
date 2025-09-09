@@ -220,7 +220,7 @@ def MakeWebTiles(image_urls: List[str]) -> str:
         "<head>",
         "  <meta charset='utf-8'/>",
         "  <meta name='viewport' content='width=device-width,initial-scale=1'/>",
-        "  <title>Justified Image Tiles</title>",
+        "  <title>Gallery</title>",
         "  <style>",
         css,
         "  </style>",

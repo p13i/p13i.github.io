@@ -82,7 +82,7 @@ def MakeWebTiles(image_urls: List[str]) -> str:
     css = f"""
     :root {{ --jg-spacing: {SPACING}px; --jg-max-width: {DEFAULT_CONTAINER_PX}px; }}
     html,body{{height:100%;margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;}}
-    .jg-wrap{{max-width:var(--jg-max-width);margin:20px auto;padding:0 12px;box-sizing:border-box;}}
+    .jg-wrap{{max-width:var(--jg-max-width);margin:20px auto;padding:12px;box-sizing:border-box;}}
     .jg-row{{display:flex;gap:var(--jg-spacing);margin-bottom:var(--jg-spacing);align-items:stretch;}}
     .jg-row:last-child{{margin-bottom:0;}}
     .jg-row img{{display:block;object-fit:cover;--intrinsic-w:auto;--intrinsic-h:auto;}}

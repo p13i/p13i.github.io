@@ -1,7 +1,7 @@
 ---
 title: Photography
 layout: base
-theme: dark
+# theme: dark
 ---
 
 <style>
@@ -112,7 +112,7 @@ theme: dark
             <img
               src="{{ site.data.images.loading.src }}"
               data-src="{{ pic.url }}"
-              alt="{{ pic.alt }}"
+              alt="{{ pic.alt | xml_escape }}"
               class="card-img-top lazyload"
             />
           </div>

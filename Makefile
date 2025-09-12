@@ -61,7 +61,10 @@ lint-python:
 web-tiles:
 	python3 scripts/make_web_tiles.py
 
-lint: generate-sitemap web-tiles lint-markups lint-python
+tweet-titles:
+	python3 scripts/write_tweet_titles.py _tweets
+
+lint: generate-sitemap web-tiles tweet-titles lint-markups lint-python
 
 sync: pull
 	git push

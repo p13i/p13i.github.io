@@ -115,3 +115,71 @@ hallucinate.
 - [Brainly](https://brainly.com/)
 - Perplexity
 - Claude
+
+---
+
+# WIP
+
+# Optimization algorithms
+
+See
+`Kochenderfer 2024, Algorithms for Optimization (MIT Press)`:
+"dual-primal" solvers find the most best solutions, most
+used in optimization products to find good solutions.
+Textbook provides a detailed survey of all general-purpose
+optimization methods.
+
+## `Kamath et al. 2024, Large Language Models (Springer)`
+
+- LLMs considered a part of natural language processing
+  (NLP)
+- prompt-based learning: diverse NLP tasks mapped to
+  specific prompts.
+- end-user prompt engineering guides the model to the
+  desired outputs; answer engineering; multi-prompting;
+  pre-trained/fine-tuning methods vs. prompt-based
+  approaches.
+- "extracting knowledge from LLMs"
+- reinforcement learning introduced to LLMs to train them to
+  align to human values; Reinforcement Learning from Human
+  Feedback (RLHF)
+- Retrival-Augmented Generation (RAG): foundational to LLMs;
+  key test metrics that evaluate the accuracy of dense
+  retrival, quality of chatbot responses to queries.
+- multimodal LLMs use audio, images, video, and robotic
+  inputs -> comprehensive AI interactions
+- attention mechanism allows models to focus on relevant
+  information.
+- architectures include: transformers, encoder-decoder,
+  autoregressive, masked language models, BERT, T5, GPT
+  (1-3), Mixtral8x7B.
+- Fine-tuning: parameter-efficent learning. "delta-tuning"
+  methods determines the efficency of a model towards
+  certain desired outputs: serial and parallel adapters,
+  LoRA, VeRA. Limited data availability, zero/few/multi-shot
+  learning, prompt design, context length, "in-context
+  learning", chain-of-thought reasoning (aids in low data),
+  practical full-parameter tuning methods (e.g.,
+  post-training quantization, quatization-aware learning ->
+  makes LLM compute feasible for less resourced
+  organizations)
+- Alignment with human preferences (3Hs: Helpful, Harmless,
+  Honest). RLHF provides feedback based on human values. New
+  methods include Constitutional AI and Direct Preference
+  Optimization. Moral norms are embedded into the models;
+  determining the moral direction of a model; "neural toxic
+  degeneration"; privacy-enhancing technologies.
+- Production considerations: choosing the appropriate LLM
+  for the context; evaluation metrics; benchmarking;
+  optimizations for latency, cost, quality, adaptability,
+  maintenance.
+- Multi-modal, MMLLMs; transfering techniques from LLMs to
+  MM-LLMs; reasoning across different modes. Three leading
+  MM-LLMs as of publication are Flamingo, Video-LLaMA,
+  NExT-GPT.
+- Some trends are: using synthetic data to help models
+  scale; expanding context windows to improve interpretation
+  quality; Transformers vs. state-space models; smaller
+  models; domain-specific models; agent-based applications;
+  search engines... all slowly replacing traditional
+  information/technology methods.

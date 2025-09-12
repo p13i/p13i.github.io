@@ -284,9 +284,10 @@ if __name__ == "__main__":
     # Example usage
     example_urls = ExtractImageUrlsFromYaml("_data/pix.yaml")
     html_output = MakeWebTiles(example_urls)
-    with open("gallery.html", "w", encoding="utf8") as f:
+    path = "_includes/_gallery.html"
+    with open("_includes/_gallery.html", "w", encoding="utf8") as f:
         f.write(html_output)
-    print("HTML gallery generated: gallery.html")
+    print(f"HTML gallery generated: {path}")
 
 # python scripts/make_web_tiles.py
 # python3 -m http.server --bind 127.0.0.1 8080

@@ -3,11 +3,13 @@ import re
 import sys
 
 def clean_content(text: str, max_len: int = 64) -> str:
-    """Strip HTML, emojis, non-ASCII chars, and truncate to max_len with ..."""
+    """Strip HTML, emojis, non-ASCII chars, markdown symbols, and truncate."""
     # Remove HTML tags
     text = re.sub(r'<[^>]+>', '', text)
     # Remove non-ASCII (emojis, symbols, etc.)
     text = text.encode("ascii", errors="ignore").decode()
+    # Remove Markdown-y characters: *, [ ], ( )
+    text = re.sub(r"[\*\[\]\(\)]", "", text)
     # Collapse whitespace
     text = re.sub(r"\s+", " ", text).strip()
     # Truncate with "..." if needed

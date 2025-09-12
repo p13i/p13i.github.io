@@ -53,7 +53,7 @@ setup-lint:
 	npm install --global prettier
 
 lint-markups:
-	prettier --write --print-width 60 --trailing-comma=none --prose-wrap always '**/*.{md,html,yml,yaml}'
+	npx prettier --write --print-width 60 --trailing-comma=none --prose-wrap always '**/*.{md,html,yml,yaml}'
 
 lint-python: 
 	python3 -m black .

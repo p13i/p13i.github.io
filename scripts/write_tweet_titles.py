@@ -35,16 +35,20 @@ def update_file(path: str):
 
     before, front_matter, content = parts[0], parts[1], parts[2]
 
-    if "title:" in front_matter:
-        return  # already has title
-
+    # Compute new title
     title = clean_content(content)
     safe_title = yaml_safe_string(title)
 
-    # Insert title before the closing --- of front matter
-    new_front_matter = front_matter.rstrip() + f"\ntitle: {safe_title}\n"
+    # Remove any existing title line(s)
+    fm_lines = []
+    for line in front_matter.splitlines():
+        if not line.strip().startswith("title:"):
+            fm_lines.append(line)
+    fm_lines.append(f"title: {safe_title}")
+    new_front_matter = "\n".join(fm_lines) + "\n"
 
-    new_data = f"---{new_front_matter}---{content}"
+    # Rebuild file
+    new_data = f"---\n{new_front_matter}---{content}"
 
     with open(path, "w", encoding="utf-8") as f:
         f.write(new_data)

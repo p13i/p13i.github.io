@@ -16,7 +16,7 @@ layout: compress
     <meta property="og:title" content="{% if page.title %}{{ page.title }}&nbsp;|&nbsp;{% endif %}Pramod Kotipalli" />
     <meta property="og:image" content="{% if page.image.src %}{{ page.image.src }}{% else %}{{ page.image.src }}{% endif %}" />
     <title>
-      {% if page.title %}{{ page.title }}&nbsp;|&nbsp;{% endif %}Pramod Kotipalli
+      {{ page.title | truncate: 64, "..." }}
     </title>
 
     {% include _stylesheets.html %}

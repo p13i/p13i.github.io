@@ -18,7 +18,7 @@ layout: compress
     <title>
       {% if page.title %}
         {{ page.title | truncate: 64, "..." }}
-      {% elsif page.path contains '_bytes/' %}
+      {% elsif page.path contains '_tweets/' %}
         {{ page.content | strip_html | strip_newlines | truncate: 64, "..." }}
       {% else %}
         {{ site.title }}

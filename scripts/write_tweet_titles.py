@@ -2,11 +2,10 @@ import os
 import re
 import sys
 
-
 def clean_content(text: str, max_len: int = 64) -> str:
     """Strip HTML, emojis, non-ASCII chars, markdown symbols, and truncate."""
     # Remove HTML tags
-    text = re.sub(r"<[^>]+>", "", text)
+    text = re.sub(r'<[^>]+>', '', text)
     # Remove non-ASCII (emojis, symbols, etc.)
     text = text.encode("ascii", errors="ignore").decode()
     # Remove Markdown-y characters: *, [ ], ( )
@@ -18,16 +17,14 @@ def clean_content(text: str, max_len: int = 64) -> str:
         text = text[: max_len - 3].rstrip() + "..."
     return text
 
-
 def yaml_safe_string(s: str) -> str:
     """
     Escape a string for safe YAML inline usage by wrapping in double quotes
     and escaping special characters.
     """
     s = s.replace("\\", "\\\\")  # escape backslashes
-    s = s.replace('"', '\\"')  # escape double quotes
-    return f'"{s}"'
-
+    s = s.replace("\"", "\\\"")  # escape double quotes
+    return f"\"{s}\""
 
 def update_file(path: str):
     with open(path, "r", encoding="utf-8") as f:
@@ -60,13 +57,11 @@ def update_file(path: str):
 
     print(f"Updated {path} with title: {safe_title}")
 
-
 def update_folder(folder: str):
     for root, _, files in os.walk(folder):
         for fname in files:
             if fname.endswith((".md", ".markdown", ".html")):
                 update_file(os.path.join(root, fname))
-
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:

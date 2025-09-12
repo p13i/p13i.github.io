@@ -46,9 +46,11 @@
       style="margin-left: 42px !important; margin-bottom: 0"
     >
       <p style="margin-bottom: 0">
-        {{ include.tweet.text }}
-        {% assign pix_link = '<a href="/pix/">#pix</a>' %}
-        {{ include.tweet.content | replace: "#pix", pix_link }}
+        {{ include.tweet.text }} {% assign pix_link = '<a
+          href="/pix/"
+          >#pix</a
+        >' %} {{ include.tweet.content | replace: "#pix",
+        pix_link }}
       </p>
       {% if include.tweet.image %} {% include
       _post_image.html src=include.tweet.image.src

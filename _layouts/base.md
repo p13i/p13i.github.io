@@ -16,7 +16,13 @@ layout: compress
     <meta property="og:title" content="{% if page.title %}{{ page.title }}&nbsp;|&nbsp;{% endif %}Pramod Kotipalli" />
     <meta property="og:image" content="{% if page.image.src %}{{ page.image.src }}{% else %}{{ page.image.src }}{% endif %}" />
     <title>
-      {{ page.title | truncate: 64, "..." }}
+      {% if page.title %}
+        {{ page.title | truncate: 64, "..." }}
+      {% elsif page.path contains '_bytes/' %}
+        {{ page.content | strip_html | strip_newlines | truncate: 64, "..." }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
     </title>
 
     {% include _stylesheets.html %}

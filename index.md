@@ -2,4 +2,4 @@
 layout: index
 ---
 
-I'm Pramod!
+brb gonna get my phd

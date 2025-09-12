@@ -12,7 +12,7 @@ layout: base
         <br/>
         <div class="row">
             <div class="col-12">
-                {% assign sorted = site.tweets | sort: 'num' | reverse  %}
+                {% assign sorted = site.tweets | sort: 'num' | reverse %}
                 {% for tweet in sorted %}
                     {% include _tweet.html tweet=tweet %}
                 {% endfor %}

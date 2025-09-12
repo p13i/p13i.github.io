@@ -320,6 +320,7 @@ title: "Sitemap"
     - [`/tweets/309/` → On a six hour layover in Amsterd](/tweets/309/)
     - [`/tweets/31/` → One of my favorite poems... "Ang](/tweets/31/)
     - [`/tweets/310/` → The new iPhones are sooo ugly ri](/tweets/310/)
+    - [`/tweets/311/` → Bangalore airport ❤️ #pix](/tweets/311/)
     - [`/tweets/32/` → US military policy is amazingly ](/tweets/32/)
     - [`/tweets/33/` → Fuck cancer](/tweets/33/)
     - [`/tweets/34/` → Moderation.](/tweets/34/)

@@ -59,7 +59,6 @@ def CollectPages():
                     else:
                         title = matches.group(1)
                     url = get_url(dir, filename)
-                title = title.replace('*', '').replace('[', '').replace(']', '').replace('(', '').replace(')', '')
                 new_page = Page(name=title, url=url, subpages=[])
                 if dir == ".":
                     top_level_pages.append(new_page)

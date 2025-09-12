@@ -12,17 +12,8 @@ def clean_content(text: str, max_len: int = 64) -> str:
     text = re.sub(r"\s+", " ", text).strip()
     # Truncate with "..." if needed
     if len(text) > max_len:
-        text = text[: max_len - 3].rstrip() + "..."
+        return text[: max_len - 3].rstrip() + "..."
     return text
-
-def yaml_safe_string(s: str) -> str:
-    """
-    Escape a string for safe YAML inline usage by wrapping in double quotes
-    and escaping special characters.
-    """
-    s = s.replace("\\", "\\\\")  # escape backslashes
-    s = s.replace("\"", "\\\"")  # escape double quotes
-    return f"\"{s}\""
 
 def update_file(path: str):
     with open(path, "r", encoding="utf-8") as f:
@@ -39,17 +30,15 @@ def update_file(path: str):
         return  # already has title
 
     title = clean_content(content)
-    safe_title = yaml_safe_string(title)
-
     # Insert title before the closing --- of front matter
-    new_front_matter = front_matter.rstrip() + f"\ntitle: {safe_title}\n"
+    new_front_matter = front_matter.rstrip() + f"\ntitle: {title}\n"
 
     new_data = f"---{new_front_matter}---{content}"
 
     with open(path, "w", encoding="utf-8") as f:
         f.write(new_data)
 
-    print(f"Updated {path} with title: {safe_title}")
+    print(f"Updated {path} with title: {title}")
 
 def update_folder(folder: str):
     for root, _, files in os.walk(folder):

@@ -50,6 +50,7 @@ setup-lint:
 	pip3 install pillow
 	pip3 install requests
 	pip3 install black
+	pip3 install pyyaml
 	npm install --global prettier
 
 lint-markups:

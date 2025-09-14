@@ -218,7 +218,6 @@ def MakeWebTiles(image_urls: List[str]) -> str:
         "  <style>",
         css,
         "  </style>",
-
         "  <div class='jg-wrap'>",
         "    <!-- Server-side fallback rows (JS will reflow into responsive layout at runtime) -->",
         "    <div id='justified-gallery-container'>",
@@ -227,7 +226,7 @@ def MakeWebTiles(image_urls: List[str]) -> str:
         "  </div>",
         "  <script>",
         js,
-        "  </script>"
+        "  </script>",
     ]
 
     return "\n".join(html_out)

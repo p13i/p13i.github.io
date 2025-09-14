@@ -389,3 +389,4 @@ title: "Sitemap"
     - [`/tweets/309/` → On a six hour layover in Amsterdam, I rented a bike to check... (generated)](/tweets/309/)
     - [`/tweets/310/` → The new iPhones are sooo ugly rip (generated)](/tweets/310/)
     - [`/tweets/311/` → Bangalore airport pix (generated)](/tweets/311/)
+    - [`/tweets/312/` → Cute window situation here. pix (generated)](/tweets/312/)

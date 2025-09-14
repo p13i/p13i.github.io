@@ -215,17 +215,10 @@ def MakeWebTiles(image_urls: List[str]) -> str:
 
     # Full HTML assembly
     html_out = [
-        "<!doctype html>",
-        "<html lang='en'>",
-        "<head>",
-        "  <meta charset='utf-8'/>",
-        "  <meta name='viewport' content='width=device-width,initial-scale=1'/>",
-        "  <title>Gallery</title>",
         "  <style>",
         css,
         "  </style>",
-        "</head>",
-        "<body>",
+
         "  <div class='jg-wrap'>",
         "    <!-- Server-side fallback rows (JS will reflow into responsive layout at runtime) -->",
         "    <div id='justified-gallery-container'>",
@@ -234,9 +227,7 @@ def MakeWebTiles(image_urls: List[str]) -> str:
         "  </div>",
         "  <script>",
         js,
-        "  </script>",
-        "</body>",
-        "</html>",
+        "  </script>"
     ]
 
     return "\n".join(html_out)

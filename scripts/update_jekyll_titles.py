@@ -136,35 +136,55 @@ def sanitize_filename_for_fallback(name: str) -> str:
     return s or base or "untitled"
 
 
+import shutil
+import yaml
+from pathlib import Path
+from typing import Tuple
+
 def process_file(path: Path, max_len: int = DEFAULT_MAX_LEN, make_backup: bool = False, dry_run: bool = False) -> Tuple[bool, str, str]:
     """
     Process a single file. Returns a tuple (changed: bool, old_title_repr, new_title_repr).
     """
-    text = path.read_text(encoding='utf-8')
+    text = path.read_text(encoding="utf-8")
     yaml_body, content = extract_front_matter_and_content(text)
 
-    # Extract old title, supporting multiline wrapped values
-    old_title = ""
-    if yaml_body:
-        m = re.search(r'(?im)^[ \t]*title[ \t]*:[ \t]*(.+)$', yaml_body, flags=re.MULTILINE)
-        if m:
-            old_title = m.group(1).strip()
+    # Parse YAML safely
+    try:
+        front_matter = yaml.safe_load(yaml_body) if yaml_body else {}
+    except Exception as e:
+        print(f"Skipping {path}: YAML parse error {e}")
+        return False, "", ""
 
+    if front_matter is None:
+        front_matter = {}
+
+    # Old title (whatever YAML parsed it to)
+    old_title = str(front_matter.get("title", "")).strip()
+
+    # Compute new title
     fallback = sanitize_filename_for_fallback(path.name)
     new_title_plain = compute_title_from_content(content, fallback, max_len=max_len)
-    new_title_yaml = yaml_quote(new_title_plain)
 
-    cleaned_yaml = remove_existing_title_from_yaml(yaml_body or "")
-    if cleaned_yaml:
-        new_yaml = f"title: {new_title_yaml}\n{cleaned_yaml}\n"
-    else:
-        new_yaml = f"title: {new_title_yaml}\n"
+    # Update front matter
+    front_matter["title"] = new_title_plain
 
-    new_text = f"---\n{new_yaml}---\n\n"
-    # Keep original leading/trailing whitespace of content to avoid massive reformatting,
-    # but ensure there is at least one newline after the front matter
-    if content.startswith('\n'):
-        new_text += content.lstrip('\n')
+    # Dump YAML with preserved ordering (title first)
+    # Note: sort_keys=False preserves insertion order of dict
+    # We want `title` at the top
+    items = [("title", front_matter.pop("title"))] + list(front_matter.items())
+    ordered_front_matter = {k: v for k, v in items}
+
+    new_yaml = yaml.dump(
+        ordered_front_matter,
+        allow_unicode=True,
+        sort_keys=False,
+        default_flow_style=False
+    ).strip()
+
+    new_text = f"---\n{new_yaml}\n---\n\n"
+    # Keep original leading/trailing whitespace of content
+    if content.startswith("\n"):
+        new_text += content.lstrip("\n")
     else:
         new_text += content
 
@@ -173,7 +193,7 @@ def process_file(path: Path, max_len: int = DEFAULT_MAX_LEN, make_backup: bool =
         if make_backup:
             bak = path.with_suffix(path.suffix + ".bak")
             shutil.copy2(path, bak)
-        path.write_text(new_text, encoding='utf-8')
+        path.write_text(new_text, encoding="utf-8")
 
     return changed, old_title, new_title_plain
 

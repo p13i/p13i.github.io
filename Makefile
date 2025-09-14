@@ -65,7 +65,7 @@ web-tiles:
 write-tweet-titles:
 	python3 scripts/update_jekyll_titles.py _tweets
 
-lint: generate-sitemap web-tiles write-tweet-titles lint-markups lint-python
+lint: write-tweet-titles generate-sitemap web-tiles lint-markups lint-python
 
 sync: pull
 	git push

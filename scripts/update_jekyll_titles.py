@@ -181,7 +181,7 @@ def process_file(
     # Dump YAML with preserved ordering (title first)
     # Note: sort_keys=False preserves insertion order of dict
     # We want `title` at the top
-    items = [("title", front_matter.pop("title") + " (generated)")] + list(
+    items = [("title", front_matter.pop("title"))] + list(
         front_matter.items()
     )
     ordered_front_matter = {k: v for k, v in items}

@@ -390,3 +390,5 @@ title: "Sitemap"
     - [`/tweets/310/` → The new iPhones are sooo ugly rip (generated)](/tweets/310/)
     - [`/tweets/311/` → Bangalore airport pix (generated)](/tweets/311/)
     - [`/tweets/312/` → Cute window situation here. pix (generated)](/tweets/312/)
+    - [`/tweets/313/` → is it just me, or do a lot of the lane markers in issaquah lo... (generated)](/tweets/313/)
+    - [`/tweets/314/` → I think the new liquid glass feature on iOS 26 is overheating... (generated)](/tweets/314/)

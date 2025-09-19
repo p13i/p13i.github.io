@@ -392,3 +392,6 @@ title: "Sitemap"
     - [`/tweets/312/` → Cute window situation here. pix](/tweets/312/)
     - [`/tweets/313/` → is it just me, or do a lot of the lane markers in issaquah lo...](/tweets/313/)
     - [`/tweets/314/` → I think the new liquid glass feature on iOS 26 is overheating...](/tweets/314/)
+    - [`/tweets/315/` → i updated my phone to iOS and its so slow i should have waite...](/tweets/315/)
+    - [`/tweets/316/` → Mt. Si from my home in Issaquah pix](/tweets/316/)
+    - [`/tweets/317/` → View of downtown Seattle from my sisters new college apartmen...](/tweets/317/)

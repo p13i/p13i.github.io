@@ -12,17 +12,6 @@ description:
   the University of Washington
 ---
 
-<!--
-![image8](https://user-images.githubusercontent.com/13140065/196009580-667e26ae-4a7d-40e7-a10a-041149a8f65e.png)
-![image7](https://user-images.githubusercontent.com/13140065/196009581-d130a7e7-0b3d-48ce-8ad7-6df3e9fb7f26.png)
-![image6](https://user-images.githubusercontent.com/13140065/196009583-fe9baa97-9939-4ea3-a032-89ed4310a742.png)
-![image5](https://user-images.githubusercontent.com/13140065/196009584-54308802-7ae5-46f3-97e2-85de345ffb42.png)
-![image4](https://user-images.githubusercontent.com/13140065/196009585-0ec07c58-11fc-4026-b24f-d376e0e8553c.png)
-![image3](https://user-images.githubusercontent.com/13140065/196009586-089cb4c5-c903-421d-82a6-184a8422018b.png)
-![image2](https://user-images.githubusercontent.com/13140065/196009587-6cc4da14-3010-4496-87c5-086a26658313.png)
-![image1](https://user-images.githubusercontent.com/13140065/196009588-23de3c57-47a0-4357-8f54-1b023a32bf7e.png)
--->
-
 # Introduction
 
 ## _Fight Club_ as a popular culture artifact worth studying
@@ -521,3 +510,15 @@ Considering Mediated Texts. Los Angeles: SAGE, 2010. Print.
 
 Tucker, Robert C., Karl Marx, and Friedrich Engels. The
 Marx-Engels Reader. New York: Norton, 1978. Print.
+
+
+<!--
+![image8](https://user-images.githubusercontent.com/13140065/196009580-667e26ae-4a7d-40e7-a10a-041149a8f65e.png)
+![image7](https://user-images.githubusercontent.com/13140065/196009581-d130a7e7-0b3d-48ce-8ad7-6df3e9fb7f26.png)
+![image6](https://user-images.githubusercontent.com/13140065/196009583-fe9baa97-9939-4ea3-a032-89ed4310a742.png)
+![image5](https://user-images.githubusercontent.com/13140065/196009584-54308802-7ae5-46f3-97e2-85de345ffb42.png)
+![image4](https://user-images.githubusercontent.com/13140065/196009585-0ec07c58-11fc-4026-b24f-d376e0e8553c.png)
+![image3](https://user-images.githubusercontent.com/13140065/196009586-089cb4c5-c903-421d-82a6-184a8422018b.png)
+![image2](https://user-images.githubusercontent.com/13140065/196009587-6cc4da14-3010-4496-87c5-086a26658313.png)
+![image1](https://user-images.githubusercontent.com/13140065/196009588-23de3c57-47a0-4357-8f54-1b023a32bf7e.png)
+-->

@@ -511,7 +511,6 @@ Considering Mediated Texts. Los Angeles: SAGE, 2010. Print.
 Tucker, Robert C., Karl Marx, and Friedrich Engels. The
 Marx-Engels Reader. New York: Norton, 1978. Print.
 
-
 <!--
 ![image8](https://user-images.githubusercontent.com/13140065/196009580-667e26ae-4a7d-40e7-a10a-041149a8f65e.png)
 ![image7](https://user-images.githubusercontent.com/13140065/196009581-d130a7e7-0b3d-48ce-8ad7-6df3e9fb7f26.png)

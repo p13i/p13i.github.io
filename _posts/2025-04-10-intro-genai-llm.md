@@ -132,7 +132,12 @@ optimization methods.
 ## `Kamath et al. 2024, Large Language Models (Springer)`
 
 - LLMs considered a part of natural language processing
-  (NLP)
+  (NLP). Chomsky's _Syntatic Structures_ analyzed sentence
+  structure, an early and important contribution to NLP.
+  "ELIZA" in 1966 is considered the first chat bot. Most
+  early approaches used rulesets and predetermined
+  objects/subjects/verbs/etc, i.e. "expert systems" which
+  were unable to...
 - prompt-based learning: diverse NLP tasks mapped to
   specific prompts.
 - end-user prompt engineering guides the model to the

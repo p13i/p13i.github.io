@@ -71,4 +71,4 @@ sync: pull
 	git push
 
 pull:
-	git pull --rebase
+	git pull --rebase --all

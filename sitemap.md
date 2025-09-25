@@ -78,6 +78,7 @@ title: "Sitemap"
     - [`/posts/2019/07/remembrance-agent/` → Remembrance Agent for Java](/posts/2019/07/remembrance-agent/)
     - [`/posts/2019/08/wooden-box/` → "Laser Cut Wooden Pencil Box"](/posts/2019/08/wooden-box/)
     - [`/posts/2019/08/powder/` → Powder](/posts/2019/08/powder/)
+    - [`/posts/2019/08/autobot/` → Autobot](/posts/2019/08/autobot/)
     - [`/posts/2019/09/neon-noir/` → Neon Noir](/posts/2019/09/neon-noir/)
     - [`/posts/2019/09/copilot-ai/` → "Intelligent agents for industrial workers"](/posts/2019/09/copilot-ai/)
     - [`/posts/2020/01/america/` → America](/posts/2020/01/america/)

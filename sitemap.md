@@ -49,6 +49,7 @@ title: "Sitemap"
     - [`/posts/2016/10/safely/` → Safely](/posts/2016/10/safely/)
     - [`/posts/2016/12/csp/` → CSP Solver](/posts/2016/12/csp/)
     - [`/posts/2017/07/python-command-line-tools/` → Building Command Line Tools with Python](/posts/2017/07/python-command-line-tools/)
+    - [`/posts/2017/07/autobot/` → Autobot](/posts/2017/07/autobot/)
     - [`/posts/2017/07/testing-python-packages/` → Testing Python Packages](/posts/2017/07/testing-python-packages/)
     - [`/posts/2017/08/cisco-testing/` → Cisco Testing-as-a-Service](/posts/2017/08/cisco-testing/)
     - [`/posts/2017/12/spacex/` → SpaceX Internship](/posts/2017/12/spacex/)

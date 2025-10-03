@@ -129,7 +129,11 @@ used in optimization products to find good solutions.
 Textbook provides a detailed survey of all general-purpose
 optimization methods.
 
-## `Kamath et al. 2024, Large Language Models (Springer)`
+# LLM textbooks/papers
+
+## Kamath et al. 2024, Large Language Models (Springer)
+
+https://www.amazon.com/Large-Language-Models-Bridging-Practice/dp/3031656466
 
 - LLMs considered a part of natural language processing
   (NLP). Chomsky's _Syntatic Structures_ analyzed sentence

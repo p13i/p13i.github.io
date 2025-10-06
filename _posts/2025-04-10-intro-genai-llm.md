@@ -9,7 +9,7 @@ layout: post
 description:
   Some notes from a recent talk I attended introducing
   generative AI to a general, non-technical audience.
-redirect_from: "/intro-genai-llm/"
+redirect_from: "/llm/"
 image: https://assets.p13i.io/2025-05-10-intro-genai-llm/genai-thumbnail.png
 ---
 
@@ -136,12 +136,12 @@ optimization methods.
 https://www.amazon.com/Large-Language-Models-Bridging-Practice/dp/3031656466
 
 - LLMs considered a part of natural language processing
-  (NLP). Chomsky's _Syntatic Structures_ analyzed sentence
+  (NLP). Chomsky's _Syntactic Structures_ analyzed sentence
   structure, an early and important contribution to NLP.
   "ELIZA" in 1966 is considered the first chat bot. Most
   early approaches used rulesets and predetermined
   objects/subjects/verbs/etc, i.e. "expert systems" which
-  were unable to...
+  were unable to... TODO
 - prompt-based learning: diverse NLP tasks mapped to
   specific prompts.
 - end-user prompt engineering guides the model to the
@@ -152,9 +152,9 @@ https://www.amazon.com/Large-Language-Models-Bridging-Practice/dp/3031656466
 - reinforcement learning introduced to LLMs to train them to
   align to human values; Reinforcement Learning from Human
   Feedback (RLHF)
-- Retrival-Augmented Generation (RAG): foundational to LLMs;
+- Retrieval-Augmented Generation (RAG): foundational to LLMs;
   key test metrics that evaluate the accuracy of dense
-  retrival, quality of chatbot responses to queries.
+  retrieval, quality of chatbot responses to queries.
 - multimodal LLMs use audio, images, video, and robotic
   inputs -> comprehensive AI interactions
 - attention mechanism allows models to focus on relevant
@@ -162,14 +162,14 @@ https://www.amazon.com/Large-Language-Models-Bridging-Practice/dp/3031656466
 - architectures include: transformers, encoder-decoder,
   autoregressive, masked language models, BERT, T5, GPT
   (1-3), Mixtral8x7B.
-- Fine-tuning: parameter-efficent learning. "delta-tuning"
-  methods determines the efficency of a model towards
+- Fine-tuning: parameter-efficient learning. "delta-tuning"
+  methods determines the efficiency of a model towards
   certain desired outputs: serial and parallel adapters,
   LoRA, VeRA. Limited data availability, zero/few/multi-shot
   learning, prompt design, context length, "in-context
   learning", chain-of-thought reasoning (aids in low data),
   practical full-parameter tuning methods (e.g.,
-  post-training quantization, quatization-aware learning ->
+  post-training quantization, quantization-aware learning ->
   makes LLM compute feasible for less resourced
   organizations)
 - Alignment with human preferences (3Hs: Helpful, Harmless,
@@ -182,7 +182,7 @@ https://www.amazon.com/Large-Language-Models-Bridging-Practice/dp/3031656466
   for the context; evaluation metrics; benchmarking;
   optimizations for latency, cost, quality, adaptability,
   maintenance.
-- Multi-modal, MMLLMs; transfering techniques from LLMs to
+- Multi-modal, MMLLMs; transferring techniques from LLMs to
   MM-LLMs; reasoning across different modes. Three leading
   MM-LLMs as of publication are Flamingo, Video-LLaMA,
   NExT-GPT.

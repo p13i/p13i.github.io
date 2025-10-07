@@ -152,8 +152,8 @@ https://www.amazon.com/Large-Language-Models-Bridging-Practice/dp/3031656466
 - reinforcement learning introduced to LLMs to train them to
   align to human values; Reinforcement Learning from Human
   Feedback (RLHF)
-- Retrieval-Augmented Generation (RAG): foundational to LLMs;
-  key test metrics that evaluate the accuracy of dense
+- Retrieval-Augmented Generation (RAG): foundational to
+  LLMs; key test metrics that evaluate the accuracy of dense
   retrieval, quality of chatbot responses to queries.
 - multimodal LLMs use audio, images, video, and robotic
   inputs -> comprehensive AI interactions
@@ -172,6 +172,11 @@ https://www.amazon.com/Large-Language-Models-Bridging-Practice/dp/3031656466
   post-training quantization, quantization-aware learning ->
   makes LLM compute feasible for less resourced
   organizations)
+  - Quantization reduces the size of a model by reducing the
+    bit-level precision of the weights in the model. For
+    example, a floating-point 64-bit model (FP64) might be
+    reduced in precision to FP16 or even INT8 to reduce the
+    size of the model by up to 4x or 8x, respectively.
 - Alignment with human preferences (3Hs: Helpful, Harmless,
   Honest). RLHF provides feedback based on human values. New
   methods include Constitutional AI and Direct Preference

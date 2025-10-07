@@ -96,6 +96,7 @@ title: "Sitemap"
     - [`/posts/2021/01/alyssa/` → Alyssa](/posts/2021/01/alyssa/)
     - [`/posts/2021/01/adventure/` → Adventure](/posts/2021/01/adventure/)
     - [`/posts/2021/01/balance/` → Balance](/posts/2021/01/balance/)
+    - [`/posts/2021/04/bitcoin/` → "Bitcoin"](/posts/2021/04/bitcoin/)
     - [`/posts/2021/05/industrial-design-talk/` → "Review of modern industrial design"](/posts/2021/05/industrial-design-talk/)
     - [`/posts/2021/05/inverse-kinematics/` → Gradient optimization for inverse kinematics](/posts/2021/05/inverse-kinematics/)
     - [`/posts/2021/06/bokeh-bouquet/` → Bokeh Bouquet](/posts/2021/06/bokeh-bouquet/)
@@ -396,3 +397,4 @@ title: "Sitemap"
     - [`/tweets/315/` → i updated my phone to iOS and its so slow i should have waite...](/tweets/315/)
     - [`/tweets/316/` → Mt. Si from my home in Issaquah pix](/tweets/316/)
     - [`/tweets/317/` → View of downtown Seattle from my sisters new college apartmen...](/tweets/317/)
+    - [`/tweets/318/` → this world of LLMs is so so large im learning so much. many n...](/tweets/318/)

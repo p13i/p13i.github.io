@@ -10,7 +10,7 @@ description:
   Notes and discussion of QEMU and binary translations to
   enable virtualization on any architecture (including
   macOS!).
-redirect_from: "/qemu/"
+redirect_from: "qemu"
 image: ""
 draft: true
 ---

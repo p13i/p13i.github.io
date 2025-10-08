@@ -16,11 +16,11 @@ permalink: /cv/
 
 Award-winning computer science researcher, integrated
 (hardware + software + human-factors) product designer, and
-engineer. Interests include climate, geopolitics, piano, viola,
-sketching, film/photo, and 3D art.
+engineer. Interests include climate, geopolitics, piano,
+viola, sketching, film/photo, and 3D art.
 
 **Languages:** English (native), Telugu (native), American
-Sign Language (intermediate), Mandarin (beginner).  
+Sign Language (intermediate), Mandarin (beginner).
 
 **Research interests:** Human–computer interaction, physical
 interfaces, industrial design, AR/VR, wearables, and
@@ -30,41 +30,40 @@ human-centered AI.
 
 ## Education
 
-**Stanford University**, 
+**Stanford University**,
 
-_Stanford, CA_ 
+_Stanford, CA_
 
 _M.S. Computer Science_, 2022
- 
 
 Concentrations: Human-Computer Interaction & Artificial
-Intelligence  
+Intelligence
 
-GPA 3.72 / 4.00  
-
-Selected coursework: 
-* HCI & Design Thinking
-* UI Prototyping & Evaluation
-* Physically Based Ray Tracing
-* Domain Specific Languages & Compilers,
-* Engineering Design Optimization
-* * Mechatronics
-
-**Georgia Institute of Technology**
-
-_Atlanta, GA_  
-
-_B.S. Computer Science_, 2019
-
-Threads: Information Internetworks & Artificial
-Intelligence  
-
-GPA 3.83 / 4.00 (Highest Honors)  
+GPA 3.72 / 4.00
 
 Selected coursework:
 
-* Number Theory & Cryptography,
-* History of Industrial Design
+- HCI & Design Thinking
+- UI Prototyping & Evaluation
+- Physically Based Ray Tracing
+- Domain Specific Languages & Compilers,
+- Engineering Design Optimization
+- - Mechatronics
+
+**Georgia Institute of Technology**
+
+_Atlanta, GA_
+
+_B.S. Computer Science_, 2019
+
+Threads: Information Internetworks & Artificial Intelligence
+
+GPA 3.83 / 4.00 (Highest Honors)
+
+Selected coursework:
+
+- Number Theory & Cryptography,
+- History of Industrial Design
 
 ---
 

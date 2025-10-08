@@ -1,25 +1,23 @@
 ---
-layout: page
-title: "Curriculum Vitae — Pramod Kotipalli"
+layout: post
+title: "Curriculum Vitae"
 permalink: /cv/
-date: 2024-03-31
-author: "Pramod Kotipalli"
+date: 2025-10-08
 ---
 
 # Pramod Kotipalli
 
 ## Contact
 
-- 📧
-  [pramod.kotipalli@gmail.com](mailto:pramod.kotipalli@gmail.com)
-- 📞 +1 (425) 667-0000
-- 🌐 [Google Scholar](#)
-- 🌐 [Website](#)
+- [pramod.kotipalli@gmail.com](mailto:pramod.kotipalli@gmail.com)
+- +1 (425) 667-0000
+- [Google Scholar](https://p13i.io/scholar)
+- [Website](https://p13i.io)
 
 ## Links
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/p13i)
-- 🎬 [IMDb](https://www.imdb.com/name/nm13435187/)
+- 🎬 [IMDb](https://www.imdb.com/name/nm12384452/)
 - 🧑‍💻 [GitHub](https://github.com/p13i)
 - 📺 [YouTube](https://www.youtube.com/@p13i)
 - 🌐 [Website](https://p13i.io)
@@ -64,11 +62,39 @@ human-centered AI.
 **Master of Science, Computer Science (2022)**  
 **Concentrations:** Human-Computer Interaction & Artificial
 Intelligence  
-**GPA:** 3.72 / 4.00  
-**Selected Coursework:** HCI & Design Thinking, UI
-Prototyping & Evaluation, Physically Based Ray Tracing,
-Domain-Specific Languages & Compilers, Engineering Design
-Optimization, Mechatronics
+**GPA:** 3.72 / 4.00
+
+#### Selected Coursework
+
+- HCI & Design Thinking  
+- UI Prototyping & Evaluation  
+- Physically Based Ray Tracing  
+- Domain-Specific Languages & Compilers  
+- Engineering Design Optimization  
+- Mechatronics  
+
+### Technologies & Skills
+
+- Design  
+- Engineering  
+- Artificial Intelligence (AI)  
+- Human-Computer Interaction (HCI)  
+- UI Design  
+- UX Design  
+- User Experience (UX)  
+- User Interface (UI)  
+- PyTorch  
+- Deep Learning  
+- Computer Vision  
+- Algorithms  
+- GPS Tracker  
+- Google Maps API  
+- Mobile App Development  
+- Programming  
+- Architecture  
+- Kubernetes  
+- Expo  
+- Flutter  
 
 ### Georgia Institute of Technology — _Atlanta, GA_
 
@@ -76,8 +102,28 @@ Optimization, Mechatronics
 **Threads:** Information Internetworks & Artificial
 Intelligence  
 **GPA:** 3.83 / 4.00 (Highest Honors)  
-**Selected Coursework:** Number Theory & Cryptography,
-History of Industrial Design
+
+#### Selected Coursework
+
+- Number Theory & Cryptography  
+- History of Industrial Design  
+
+#### Technologies & Skills
+
+- Engineering  
+- Human-Computer Interaction (HCI)  
+- User Experience (UX)  
+- User Interface (UI)  
+- Web Design  
+- Deep Learning  
+- Computer Vision  
+- Algorithms  
+- GPS Tracker  
+- Mobile App Development  
+- Programming  
+- Django  
+- Architecture  
+- PostgreSQL  
 
 ---
 

@@ -16,12 +16,12 @@ permalink: /cv/
 
 Award-winning computer science researcher, integrated
 (hardware + software + human-factors) product designer, and
-engineer.  
-Interests include climate, geopolitics, piano, viola,
+engineer. Interests include climate, geopolitics, piano, viola,
 sketching, film/photo, and 3D art.
 
 **Languages:** English (native), Telugu (native), American
 Sign Language (intermediate), Mandarin (beginner).  
+
 **Research interests:** Human–computer interaction, physical
 interfaces, industrial design, AR/VR, wearables, and
 human-centered AI.
@@ -30,22 +30,41 @@ human-centered AI.
 
 ## Education
 
-**Stanford University**, _M.S. Computer Science_, 2022 —
-_Stanford, CA_  
+**Stanford University**, 
+
+_Stanford, CA_ 
+
+_M.S. Computer Science_, 2022
+ 
+
 Concentrations: Human-Computer Interaction & Artificial
 Intelligence  
-GPA 3.72 / 4.00  
-Selected coursework: HCI & Design Thinking, UI Prototyping &
-Evaluation, Physically Based Ray Tracing, DSLs & Compilers,
-Engineering Design Optimization, Mechatronics
 
-**Georgia Institute of Technology**, _B.S. Computer
-Science_, 2019 — _Atlanta, GA_  
+GPA 3.72 / 4.00  
+
+Selected coursework: 
+* HCI & Design Thinking
+* UI Prototyping & Evaluation
+* Physically Based Ray Tracing
+* Domain Specific Languages & Compilers,
+* Engineering Design Optimization
+* * Mechatronics
+
+**Georgia Institute of Technology**
+
+_Atlanta, GA_  
+
+_B.S. Computer Science_, 2019
+
 Threads: Information Internetworks & Artificial
 Intelligence  
+
 GPA 3.83 / 4.00 (Highest Honors)  
-Selected coursework: Number Theory & Cryptography, History
-of Industrial Design
+
+Selected coursework:
+
+* Number Theory & Cryptography,
+* History of Industrial Design
 
 ---
 
@@ -166,14 +185,22 @@ _Akshay Dinakar, Pramod Kotipalli, Paul Lavengco, Katie Fo._
 
 ## Industry & Venture Experience
 
-**Google**, Sunnyvale & Seattle — _Software Engineer_ (Aug
-2022 – Mar 2024)  
+### Google
+
+Sunnyvale & Seattle
+
+#### Software Engineer
+
+(Aug 2022 – present)  
 Google Cloud IAM — Offline Policy Wipeout (Data Plane),
 Policy Control Plane (Roles & Policy Admin APIs).  
 Also Makerspace Coordinator (Nov 2023 – present).
 
-**Tangible Smart Clothing Inc.**, Stanford CA — _Co-Founder
-→ Advisor_ (Apr 2020 – present)  
+#### Tangible Smart Clothing Inc.
+
+Stanford CA
+
+_Co-Founder → Advisor_ (Apr 2020 – 2022)  
 Fashionable haptic telepresence hardware & software product.
 Published apps and companion wearables.
 

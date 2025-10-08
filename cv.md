@@ -1,272 +1,450 @@
 ---
-layout: post
-title: "Curriculum Vitae"
+layout: page
+title: "Curriculum Vitae — Pramod Kotipalli"
 permalink: /cv/
+date: 2024-03-31
+author: "Pramod Kotipalli"
 ---
 
-# Pramod Kotipalli
+# Pramod Kotipalli  
 
-📧 [p13i@stanford.edu](mailto:p13i@stanford.edu) 📞 +1 (425)
-667-0000  
-🌐 [Google Scholar](#) 🌐 [Website](#)
+## Contact
+
+- 📧 [pramod.kotipalli@gmail.com](mailto:pramod.kotipalli@gmail.com)  
+- 📞 +1 (425) 667-0000  
+- 🌐 [Google Scholar](#)  
+- 🌐 [Website](#)
+
+## Links
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/p13i)  
+- 🎬 [IMDb](https://www.imdb.com/name/nm13435187/)  
+- 🧑‍💻 [GitHub](https://github.com/p13i)  
+- 📺 [YouTube](https://www.youtube.com/@p13i)  
+- 🌐 [Website](https://p13i.io)
 
 ---
 
 ## Summary
 
-Award-winning computer science researcher, integrated
-(hardware + software + human-factors) product designer, and
-engineer. Interests include climate, geopolitics, piano, viola,
-sketching, film/photo, and 3D art.
+## Small-sized
 
-**Languages:** English (native), Telugu (native), American
-Sign Language (intermediate), Mandarin (beginner).  
+Award-winning computer science researcher, integrated (hardware + software + human-factors) product designer, and engineer.  
+Interests include climate, geopolitics, piano, viola, sketching, film/photo, and 3D art.  
 
-**Research interests:** Human–computer interaction, physical
-interfaces, industrial design, AR/VR, wearables, and
-human-centered AI.
+## Medium-sized
+
+A graduate of Stanford's Master's program in Computer Science, I have three years of industry experience at Google and another three years of experience in venture formation (i.e., startups). I'm passionate and skilled in many forms of software engineering, ranging from full-stack web applications to embedded systems. My experience with user-facing software is extensive, ranging from cross-platform web applications to server-managed video calling systems and even custom electronic devices.
+
+**Languages:** English (native), Telugu (native), American Sign Language (intermediate), Mandarin (beginner).  
+
+**Research interests:** Human–computer interaction, physical interfaces, industrial design, AR/VR, wearables, and human-centered AI.
 
 ---
 
 ## Education
 
-**Stanford University**, 
+### Stanford University — *Stanford, CA*  
+**Master of Science, Computer Science (2022)**  
+**Concentrations:** Human-Computer Interaction & Artificial Intelligence  
+**GPA:** 3.72 / 4.00  
+**Selected Coursework:** HCI & Design Thinking, UI Prototyping & Evaluation, Physically Based Ray Tracing, Domain-Specific Languages & Compilers, Engineering Design Optimization, Mechatronics  
 
-_Stanford, CA_ 
-
-_M.S. Computer Science_, 2022
- 
-
-Concentrations: Human-Computer Interaction & Artificial
-Intelligence  
-
-GPA 3.72 / 4.00  
-
-Selected coursework: 
-* HCI & Design Thinking
-* UI Prototyping & Evaluation
-* Physically Based Ray Tracing
-* Domain Specific Languages & Compilers,
-* Engineering Design Optimization
-* * Mechatronics
-
-**Georgia Institute of Technology**
-
-_Atlanta, GA_  
-
-_B.S. Computer Science_, 2019
-
-Threads: Information Internetworks & Artificial
-Intelligence  
-
-GPA 3.83 / 4.00 (Highest Honors)  
-
-Selected coursework:
-
-* Number Theory & Cryptography,
-* History of Industrial Design
+### Georgia Institute of Technology — *Atlanta, GA*  
+**Bachelor of Science, Computer Science (2019)**  
+**Threads:** Information Internetworks & Artificial Intelligence  
+**GPA:** 3.83 / 4.00 (Highest Honors)  
+**Selected Coursework:** Number Theory & Cryptography, History of Industrial Design  
 
 ---
 
 ## Research Experience
 
-**Shape Lab**, Stanford Mechanical Engineering — _Graduate
-Research Assistant_ (Summer 2021)
-
-- _A Model Predictive Control Approach for Reach Redirection
-  in Virtual Reality_, ACM CHI ’22 (Advisor Eric J.
-  Gonzalez)
-- Sound-source localization for multi-agent robot systems
-  via acoustic simulation
-
-**Stanford Healthcare Innovation Lab**, Stanford Medicine
-Genetics — _Research Software Engineer_ (Spring 2020)
-
-- _A Scalable, Secure, and Interoperable Platform for Deep
-  Data-Driven Health Management_, _Nature Communications_  
-  _(Best Paper Award, IMIA ’21)_
-
-**Contextual Computing Group**, Georgia Tech Interactive
-Computing — _Project Lead & Undergraduate Research
-Assistant_ (2018–2019)
-
-- _RF-Pick: Order Picking Using a HUD with Wearable RFID
-  Verification_, ACM ISWC ’18 (**Best Paper Award**)
-- _Comparing Order Picking Guidance with HoloLens, Magic
-  Leap, Google Glass XE, and Paper_, ACM HotMobile ’21
-- _Task Guidance Perception Study for HWD Interfaces_, ACM
-  IMWUT (Mar ’21)
-- _Notification Perception on HWDs and Smartwatches
-  (Dual-Task Study)_
-
-**Wall Lab**, Georgia Tech Interactive Computing —
-_Undergraduate Research Assistant_ (2018–2019)
-
-- Predictive health analytics for heart disease patients
-  using DSP + HMMs on on-body sensors
+### Shape Lab — Stanford Mechanical Engineering  
+**Graduate Research Assistant (Summer 2021)**  
+**PI:** Prof. Sean Follmer  
+- *A Model Predictive Control Approach for Reach Redirection in Virtual Reality* (ACM CHI ’22) — Advisor: Eric J. Gonzalez  
+- Sound-source localization for multi-agent robot systems via acoustic simulation  
 
 ---
 
-## Publications
+### Stanford Healthcare Innovation Lab — Stanford Medicine, Department of Genetics  
+**Research Software Engineer (Spring 2020)**  
+**PI:** Dr. Michael Snyder  
+- *A Scalable, Secure, and Interoperable Platform for Deep Data-Driven Health Management* (*Nature Communications*, 2021)  
+- *Best Paper Award*, International Medical Informatics Association (IMIA), 2021
+- Covid-19 called for novel ways to detect, test, and treat the disease. Our team designed a system that could detect asymptomatic Covid-19 only using data from smartwatches.
 
-- _A Model Predictive Control Approach for Reach Redirection
-  in Virtual Reality._ **ACM CHI ’22.** Gonzalez, Chase,
-  Kotipalli, Follmer.
-- _A Scalable, Secure, and Interoperable Platform for Deep
-  Data-Driven Health Management._ **Nature Communications**,
-  Oct ’21 (18th of 34 authors; Best Paper Award).
-- _Towards Finding the Optimum Position in the Visual Field
-  for Task Guidance with Non-registered Graphics._ **ACM
-  IMWUT**, Mar ’21.
-- _Comparing Order Picking Guidance with HoloLens, Magic
-  Leap, Google Glass XE, and Paper._ **ACM HotMobile ’21.**
-- _RF-Pick: Order Picking Using a HUD with Wearable RFID
-  Verification._ **ACM ISWC ’18.** (**Best Paper Award**)
+* I developed the data collection, parsing, and upload functions for our iOS and Android apps using smartwatches’ APIs. I added dependency injection and instrumented UI testing.
+
+* Our work was published in a well-regarded health informatics journal, where it won a Best Paper award.
 
 ---
 
-## Work in Progress
-
-- _Iterative Self-Tracking Templates:_ Exploratory design,
-  interviews (12), thematic analysis, participatory
-  evaluation (IMWUT submission).
-- _Micro-Syntax Chatbot for Google Workspace Apps Increases
-  User Engagement in Self-Tracking._
-- _Fashion Factors for Widespread Adoption of Wearable
-  Computers._
+### Contextual Computing Group — Georgia Tech Interactive Computing  
+**Project Lead & Undergraduate Research Assistant (2018–2019)**  
+**PI & Advisor:** Prof. Thad Starner  
+- *RF-Pick: Order Picking Using a HUD with Wearable RFID Verification* (ACM ISWC ’18, **Best Paper Award**)  
+- *Comparing Order Picking Guidance with HoloLens, Magic Leap, Google Glass XE, and Paper* (ACM HotMobile ’21)  
+- *Task-Guidance Perception Study for HWD Interfaces* (ACM IMWUT, Mar ’21)  
+- *Notification Perception with Visual Distraction on HWDs and Smartwatches* (Dual-Task Human Study, IRB-approved)  
 
 ---
 
-## Patents
-
-**Wearable Haptic System for Immersive Social
-Telepresence**  
-US Provisional No. 63086349 (pending), filed Mar 2020 with
-Tangible Smart Clothing Inc.  
-_Akshay Dinakar, Pramod Kotipalli, Paul Lavengco, Katie Fo._
-
----
-
-## Awards
-
-- **Best Paper Award**, IMIA Yearbook (2021)
-- **Best Paper Award**, ACM ISWC (2018)
-- **Best Technical Achievement**, TransitMate for Stanford
-  CS149H (2022)
-- **Accel Fellow**, Stanford Technology Ventures Program
-  (2021)
-- **Faculty Honors (4×)**, Georgia Tech (2015–2018)
-- **Best Cinematography & Best Use of Music**, Stanford
-  CS147 Film Festival (2022)
-
----
-
-## Grants
-
-- **Stanford eWear Initiative** Research Grant ($500), 2021
-- **ACM SIGCHI Gary Marsden Travel Award**, CHI 2021
-- **Stanford CS Department**, Tapia Diversity Conference
-  2020
-- **Google**, Grace Hopper Celebration 2016
-
----
-
-## Academic Service
-
-- Coordinator, Google Seattle Makerspaces (2023 – present)
-- Mentor, exploreCSR and CSRMP (diversity research
-  initiatives)
-- Reviewer, ACM UbiComp/ISWC (2021–2022), CHI (2022)
-- Course Assistant, Stanford ENGR 145 (Technology
-  Entrepreneurship)
-- President, Georgia Tech Web Development Club (2016–2019)
+### Wall Lab — Georgia Tech Interactive Computing  
+**Undergraduate Research Assistant (2018–2019)**  
+**PI:** Prof. Jim Rehg  
+- Developed predictive health analytics for heart disease patients using DSP and HMMs on on-body sensors  
+- Advisor: Ahmet Bicen  
 
 ---
 
 ## Industry & Venture Experience
 
-### Google
+### Google — *Sunnyvale, CA & Seattle, WA*  
+**Software Engineer (Aug 2022 – Mar 2024)**  
+**Team:** Google Cloud Platform — Identity & Access Management (IAM)  
+* Designed a map-reduce pipeline to verify that 70%+ of our 21.8bn Storage policies can be safely purged.
 
-Sunnyvale & Seattle
+* Modernized Roles and Policy Admin APIs for maintainability; migrated ~2.5k QPS of customer traffic w/o issues.
 
-#### Software Engineer
-
-(Aug 2022 – present)  
-Google Cloud IAM — Offline Policy Wipeout (Data Plane),
-Policy Control Plane (Roles & Policy Admin APIs).  
-Also Makerspace Coordinator (Nov 2023 – present).
-
-#### Tangible Smart Clothing Inc.
-
-Stanford CA
-
-_Co-Founder → Advisor_ (Apr 2020 – 2022)  
-Fashionable haptic telepresence hardware & software product.
-Published apps and companion wearables.
-
-**Copilot AI Inc.**, Atlanta GA — _Founder_ (2018–2019)  
-AR with AI for industrial workers.
-
-**US CDC ATSDR**, Atlanta GA — _Technical Consultant_
-(2018–2019)  
-Automation for publishing air quality data.
-
-**SpaceX**, Hawthorne CA — _Software Engineering Intern_
-(Fall 2017)  
-Enterprise resource planning and supply chain automation.
-
-**Cisco Systems**, San Jose CA — _Software Engineering
-Intern_ (Summer 2017)  
-Distributed load testing system for DirecTV Now & Comcast.
-
-**Safely LLC**, Atlanta GA — _Co-Founder_ (2016–2017)  
-Discreet wearable panic button startup ($20k+ funding).
+* Increased the in-production v3 policy API serving capacity QPS to a reliable 40m.
+- Makerspace Coordinator (Nov 2023 – Present): Safety trainings, orientations, classes, office hours  
 
 ---
 
-## Skills
+### Tangible Smart Clothing Inc. — *Stanford, CA*  
+**Co-Founder, Founding Software Engineer (Apr 2020 – Jul 2021)**  
+**Advisor (Jul 2021 – Present)**  
+* Designed and sold a fashionable smart neck TelePillow that conveys real-time haptics in a video call.
 
-**Programming:** Python, C#, Java, C++, Embedded C,
-JavaScript, TypeScript, Swift, Bash, MATLAB, HTML, CSS  
-**Frameworks:** Unity, OpenFrameworks, LLVM, iOS, Android,
-React Native, .NET, Angular, NodeJS, Django  
-**Deployment:** Vagrant, Docker, Azure, AWS, Heroku, GCP  
-**Databases:** SQL Server, PostgreSQL, Redis, MySQL,
-Firebase, MongoDB  
-**Machine Learning:** DSP, scikit-learn, TensorFlow,
-PyTorch, Keras  
-**Design:** Adobe Suite, Cinema 4D, Octane Render, Sketch,
-Figma  
-**HCI Methods:** Human-subjects studies, IRB processes, UX
-research, interviews, data viz, statistics  
-**Fabrication:** Laser cutting, Arduino, PIC32, CNC  
-**Systems:** Distributed systems, containerization, async
-queues, dependency injection, ORM, MapReduce
+* Led a team of 5 engineers working across embedded systems, mobile apps, and aesthetic fashion design.
+
+* A successful Kickstarter produced a six-figure ARR with a 19k waitlist. Venture-backed; acquired by Easel AI.
+
+
+
+---
+
+### Copilot AI Inc. — *Atlanta, GA*  
+**Founder (2018–2019)**  
+- Developed AR + AI tools for industrial workers  
+- Produced early prototypes, business plan, and research demos  
+
+---
+
+### US CDC ATSDR — *Atlanta, GA*  
+**Technical Consultant (2018–2019)**  
+- Created automation tools for publishing citizens’ air quality data  
+- Improved publishing latency and data accuracy pipelines  
+
+---
+
+### SpaceX — *Hawthorne, CA*  
+**Software Engineering Intern (Fall 2017)**  
+- Developed ERP and supply chain automation systems  
+- Early exposure to UX research and cross-department integration  
+
+---
+
+### Cisco Systems — *San Jose, CA*  
+**Software Engineering Intern (Summer 2017)**  
+- Built distributed load testing infrastructure for AT&T DirecTV Now & Comcast (1.1M MAU)  
+
+---
+
+### Safely LLC — *Atlanta, GA*  
+**Co-Founder (2016–2017)**  
+- Created discreet wearable panic button for personal safety  
+- Raised $20k+ in prize/funding  
+- Featured in university and press coverage  
+
+---
+
+## Research Awards
+
+- **Best Paper Award**, *IMIA Yearbook 2021* — *Clinical Research Informatics Section*  
+- **Best Paper Award**, *ACM International Symposium on Wearable Computers* (ISWC ’18)
+
+---
+
+## Publications
+
+- *A Model Predictive Control Approach for Reach Redirection in Virtual Reality.* ACM CHI ’22. Gonzalez, Chase, Kotipalli, Follmer.  
+- *A Scalable, Secure, and Interoperable Platform for Deep Data-Driven Health Management.* Nature Communications, Oct ’21 (Best Paper Award).  
+- *Towards Finding the Optimum Position in the Visual Field for a Head-Worn Display for Task Guidance.* ACM IMWUT, Mar ’21.  
+- *Comparing Order Picking Guidance with HoloLens, Magic Leap, Google Glass XE, and Paper.* ACM HotMobile ’21.  
+- *RF-Pick: Order Picking Using a HUD with Wearable RFID Verification.* ACM ISWC ’18. (**Best Paper Award**)
+
+---
+
+## Work in Progress
+
+- *Iterative Self-Tracking Templates:* Exploratory design, thematic analysis, participatory evaluation (IMWUT submission).  
+- *Micro-Syntax Chatbot for Google Workspace Apps:* Increasing user engagement in self-tracking.  
+- *Fashion Factors for Widespread Adoption of Wearable Computers.*
+
+---
+
+## Patent
+
+**Wearable Haptic System for Immersive Social Telepresence**  
+US Provisional No. 63086349 (Pending), filed Mar 2020.  
+*Tangible Smart Clothing Inc.* — Akshay Dinakar, Pramod Kotipalli, Paul Lavengco, Katie Fo.  
+
+---
+
+## Academic Service
+
+- Coordinator, Google Seattle Makerspaces  
+- Mentor, Google exploreCSR & CSRMP  
+- Reviewer, ACM UbiComp/ISWC (2021–2022), CHI (2022)  
+- Course Assistant, Stanford ENGR 145 (Technology Entrepreneurship)  
+- President, Georgia Tech Web Development Club (2016–2019)
+
+---
+
+## Academic Grants
+
+- Stanford eWear Initiative Research Grant ($500, 2021)  
+- ACM SIGCHI Gary Marsden Travel Award (CHI 2021)  
+- Stanford CS Department, Tapia Conference (2020)  
+- Google, Grace Hopper Celebration (2016)
 
 ---
 
 ## Talks
 
-- _Identifying Broken Car Parts in Images with AutoML_,
-  Google Cloud Higher Ed Series (2022)
-- _Beginning with Machine Learning_, Google Developer
-  Connect NA (2022)
-- _The Products We Live With: A Survey of Modern Industrial
-  Design_, Cloud Rainstorm Splash (2021)
-- _2D Sketching & Design Thinking_, Cloud Rainstorm Splash
-  (2021)
-- _Tangible: Fashionable Haptic Interfaces for
-  Telepresence_, Stanford eWEAR Initiative (2020)
+- *Identifying Broken Car Parts in Images with AutoML* — Google Cloud Higher Ed Series (2022)  
+- *Beginning with Machine Learning* — Google Developer Connect North America (2022)  
+- *The Products We Live With: Modern Industrial Design* — Cloud Rainstorm Splash Program (2021)  
+- *2D Sketching & Design Thinking* — Cloud Rainstorm Splash Program (2021)  
+- *Tangible: Fashionable Haptic Interfaces for Telepresence* — Stanford eWEAR Initiative (2020)
 
 ---
 
-## Memberships
+## Academic Memberships
 
-- ACM SIGCHI
-- ACM SIGGRAPH
+- ACM SIGCHI  
+- ACM SIGGRAPH  
 
 ---
 
-## Links
+## Skills
 
-[LinkedIn](#) [IMDb](#) [GitHub](#) [YouTube](#) [Website](#)
+## Skills
+
+### Programming
+- Python  
+- C#  
+- Java  
+- C++  
+- Embedded C  
+- JavaScript  
+- TypeScript  
+- Swift  
+- Bash  
+- MATLAB  
+- HTML  
+- CSS  
+
+### Frameworks
+- Unity  
+- OpenFrameworks  
+- LLVM  
+- iOS  
+- Android  
+- React Native  
+- .NET  
+- Angular  
+- NodeJS  
+- Django  
+
+### Deployment
+- Vagrant  
+- Docker  
+- Azure  
+- AWS  
+- Heroku  
+- Google Cloud Platform (GCP)  
+
+### Databases
+- Microsoft SQL Server  
+- PostgreSQL  
+- Redis  
+- MySQL  
+- Firebase  
+- MongoDB  
+
+### Machine Learning
+- Digital Signal Processing (DSP)  
+- scikit-learn  
+- TensorFlow  
+- PyTorch  
+- Keras  
+
+### Design
+- Adobe Suite (Illustrator, After Effects, Premiere, Photoshop, Audition, InDesign, Lightroom, XD)  
+- Cinema 4D  
+- Octane Render  
+- Sketch  
+- Figma  
+
+### HCI Methods
+- Human-subjects study design (counterbalancing, dual-task studies, learning effects)  
+- IRB approvals  
+- Qualitative interview design  
+- UX research and UI evaluation  
+- Data visualization and statistical analysis  
+
+### Fabrication
+- Laser cutting (Epilog, Universal Laser Systems)  
+- Arduino prototyping  
+- Microchip PIC32 development  
+- CNC machining  
+
+### Systems
+- Distributed system design  
+- Containerization and scaling  
+- Asynchronous task queues  
+- Dependency injection  
+- ORM frameworks  
+- MapReduce pipelines  
+
+---
+
+# Portfolio Projects
+
+## TransitMate
+
+Our mobile app was a checkpoint-based transit safety application that allowed you to share your instantaneous location with friends, share a transit route with friends, and receive updates on your friends' progress to their destination.
+
+Leading a team of four Stanford computer science students, I conducted need-finding interviews that revealed a desire for a noninvasive way to monitor friends and family during their commutes or use of public transit systems. We utilized a human-centered design process to rapidly iterate on our user interfaces and design to best suit our project for our target audience.
+
+I was the project lead and contributed to our design. We implemented a cross-platform mobile app using React Native and Expo, which provided real-time communication and database services via Firebase. We used strong software engineering design patterns and advanced mobile application patterns.
+
+We deployed our application to the Google Play and Apple App Stores. We earned a Best Technical Achievement award from our course instructor, a world-renowned human-computer interaction Professor teaching at Stanford University in California.
+
+### Industry
+
+Mobile App Development
+
+### Technologies & Skills
+
+- React Native  
+- Figma  
+- iOS  
+- App Store  
+- UI Evaluation  
+- UX Research  
+- User Experience (UX)  
+- User Interface (UI)  
+- Web Design  
+- Algorithms  
+- GPS Tracker  
+- Google Maps API  
+- Mobile App Development  
+- Testing  
+- Programming  
+- Architecture  
+- DevOps  
+- Expo  
+- CI/CD Pipelines
+
+## Remembrance Agent for Java
+
+*A context-aware memory augmentation tool inspired by Bradley Rhodes’ seminal work.*
+
+In this project, I implemented Bradley Rhodes’ Remembrance Agent (RA) for use across desktop and mobile environments supporting the Java Runtime Environment. The system continuously surfaces relevant past notes and documents in real time, acting as a personal cognitive prosthetic for knowledge work.
+
+I developed this project to support my own workflow — typically writing notes and emails at a desk — where contextual recall could streamline focus and creative continuity. To integrate seamlessly with my personal ecosystem, I built direct compatibility with Google Drive and Gmail, since they hold the majority of my written work.
+
+To preserve privacy and simplicity, I avoided remote APIs entirely. Instead, I implemented a local-disk caching and indexing pipeline that securely downloads, parses, and stores plain-text versions of notes and emails. The RA indexes these locally using a lightweight search algorithm optimized for relevance. As an additional feature, a scoped keylogger records keystrokes only while the RA is active, allowing later analysis for retrieval optimization — all stored locally, never transmitted.
+
+---
+
+### Industries
+- Wearables  
+- Artificial Intelligence (AI)  
+
+### Technologies & Skills
+- Java  
+- APIs  
+- Linux  
+- User Experience (UX)  
+- User Interface (UI)  
+- Algorithms  
+- Mobile App Development  
+- Testing  
+- Programming  
+- WebSockets  
+- Architecture  
+- CI/CD Pipelines
+
+### Autobot: Google Workspace Automation via SMS
+
+Autobot is a Google Apps Script–based automation system that integrates Gmail, Calendar, Docs, and Sheets to streamline personal productivity. Motivated by my reliance on Google tools for self-tracking and note-taking, I built Autobot to provide a lightweight mobile interface through SMS via Google Voice.
+
+The system translates incoming text messages into structured actions: logging meals, workouts, or medications; extending habit-tracking spreadsheets; creating Google Docs; or adding calendar events. Periodic background tasks automate weekly sheet updates, daily summaries, and inbox maintenance. All results are logged back to Google Sheets for later review and visualization.
+
+I designed and implemented the system architecture, built modular action classes, and integrated external APIs including OpenAI’s GPT for conversational queries and GitHub’s API for content management. Autobot demonstrates expertise in Google Workspace automation, API design and integration, and extensible system design connecting structured back-end logic with natural user input.
+
+---
+
+#### Industries
+- Healthcare Software  
+- Engineering Software  
+- Telephony & Wireless  
+
+#### Technologies & Skills
+- Google Apps Script  
+- JavaScript  
+- TypeScript  
+- GoogleScript  
+- API Design  
+- API Integration  
+- Gmail API  
+- Google Calendar API  
+- Google Docs  
+- Google APIs  
+- Data Modeling  
+- Logging  
+- Google Sheets API  
+- Automated Data Flows  
+- IT Systems Architecture  
+- Background Jobs  
+- Modular Design  
+- Google Sheets  
+- Programming  
+- Architecture
+
+### Georgia Tech Score: Mobile Solution for Judging Poster Sessions
+
+Managing the evaluation of poster sessions and design expos is a persistent logistical challenge. Collecting and processing paper-based evaluation sheets is slow, error-prone, and resource-intensive. Each year, Georgia Tech hosts dozens of such events, including the tri-annual Capstone Design Expo for all graduating engineering students.
+
+To address this, I led the development of a highly automated and customizable platform for managing poster session logistics, including judge registration, evaluation collection, and result computation. The system integrated tightly with email services to automate invitations, reminders, and communications that were previously handled manually or through Eventbrite.
+
+The application provided real-time visualizations and downloadable Excel exports of team evaluations, enabling immediate scoring insights during events. Built using the Django web framework and Django REST Framework, the system demonstrated strong performance and scalability, supporting over 5,000 concurrent users during load tests.
+
+I wrote approximately 10,000 lines of Python code, 5,000 lines of HTML, 1,000 lines of JavaScript/TypeScript, and 2,000 lines of custom CSS. The project was designed mobile-first, focusing on usability and accessibility for on-the-go judges.
+
+---
+
+#### Industries
+- Education  
+- Mobile  
+- Web Development  
+
+#### Technologies & Skills
+- Python  
+- JavaScript  
+- TypeScript  
+- WebSockets  
+- WebRTC  
+- Firebase Realtime Database  
+- Django  
+- Architecture  
+- PostgreSQL  
+- DevOps  
+- Expo  
+- CI/CD Pipelines

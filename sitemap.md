@@ -8,6 +8,7 @@ title: "Sitemap"
 - [`/` → p13i.io](/)
   - [`/README/` → unknown](/./README/)
   - [`/bytes/` → code4all](/./bytes/)
+  - [`/cv/` → "Curriculum Vitae"](/./cv/)
   - [`/design/` → Some of my art/design work](/./design/)
   - [`/downloads/` → Downloads for you!](/./downloads/)
   - [`/engineering/` → My engineering work](/./engineering/)

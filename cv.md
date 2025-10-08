@@ -66,64 +66,64 @@ Intelligence
 
 #### Selected Coursework
 
-- HCI & Design Thinking  
-- UI Prototyping & Evaluation  
-- Physically Based Ray Tracing  
-- Domain-Specific Languages & Compilers  
-- Engineering Design Optimization  
-- Mechatronics  
+- HCI & Design Thinking
+- UI Prototyping & Evaluation
+- Physically Based Ray Tracing
+- Domain-Specific Languages & Compilers
+- Engineering Design Optimization
+- Mechatronics
 
 ### Technologies & Skills
 
-- Design  
-- Engineering  
-- Artificial Intelligence (AI)  
-- Human-Computer Interaction (HCI)  
-- UI Design  
-- UX Design  
-- User Experience (UX)  
-- User Interface (UI)  
-- PyTorch  
-- Deep Learning  
-- Computer Vision  
-- Algorithms  
-- GPS Tracker  
-- Google Maps API  
-- Mobile App Development  
-- Programming  
-- Architecture  
-- Kubernetes  
-- Expo  
-- Flutter  
+- Design
+- Engineering
+- Artificial Intelligence (AI)
+- Human-Computer Interaction (HCI)
+- UI Design
+- UX Design
+- User Experience (UX)
+- User Interface (UI)
+- PyTorch
+- Deep Learning
+- Computer Vision
+- Algorithms
+- GPS Tracker
+- Google Maps API
+- Mobile App Development
+- Programming
+- Architecture
+- Kubernetes
+- Expo
+- Flutter
 
 ### Georgia Institute of Technology — _Atlanta, GA_
 
 **Bachelor of Science, Computer Science (2019)**  
 **Threads:** Information Internetworks & Artificial
 Intelligence  
-**GPA:** 3.83 / 4.00 (Highest Honors)  
+**GPA:** 3.83 / 4.00 (Highest Honors)
 
 #### Selected Coursework
 
-- Number Theory & Cryptography  
-- History of Industrial Design  
+- Number Theory & Cryptography
+- History of Industrial Design
 
 #### Technologies & Skills
 
-- Engineering  
-- Human-Computer Interaction (HCI)  
-- User Experience (UX)  
-- User Interface (UI)  
-- Web Design  
-- Deep Learning  
-- Computer Vision  
-- Algorithms  
-- GPS Tracker  
-- Mobile App Development  
-- Programming  
-- Django  
-- Architecture  
-- PostgreSQL  
+- Engineering
+- Human-Computer Interaction (HCI)
+- User Experience (UX)
+- User Interface (UI)
+- Web Design
+- Deep Learning
+- Computer Vision
+- Algorithms
+- GPS Tracker
+- Mobile App Development
+- Programming
+- Django
+- Architecture
+- PostgreSQL
 
 ---
 
@@ -200,17 +200,23 @@ Intelligence
 
 **Software Engineer (2022 – 2025)**  
 **Leadership experience:** 1–5 Reports  
-*Enterprise Experience*
+_Enterprise Experience_
 
-- Designed a map-reduce pipeline to verify that 70%+ of our 21.8bn Storage policies can be safely purged.
-- Modernized Roles and Policy Admin APIs for maintainability; migrated ~2.5k QPS of customer traffic w/o issues.
-- Increased the in-production v3 policy API serving capacity QPS to a reliable 40m.
+- Designed a map-reduce pipeline to verify that 70%+ of our
+  21.8bn Storage policies can be safely purged.
+- Modernized Roles and Policy Admin APIs for
+  maintainability; migrated ~2.5k QPS of customer traffic
+  w/o issues.
+- Increased the in-production v3 policy API serving capacity
+  QPS to a reliable 40m.
 
 ### Industries
+
 - Software
 - Business Technology
 
 ### Technologies & Skills
+
 - C++
 - Java
 - Python
@@ -219,20 +225,24 @@ Intelligence
 - Algorithms
 - Testing
 
-
 ### Tangible Smart Clothing, Inc. — _Stanford, CA_
 
 **Founder (2020 – 2022)**  
 **Leadership experience:** 6–10 Reports
 
-- Designed and sold a fashionable smart neck TelePillow that conveys real-time haptics in a video call.
-- Led a team of 5 engineers working across embedded systems, mobile apps, and aesthetic fashion design.
-- A successful Kickstarter produced a six-figure ARR with a 19k waitlist. Venture-backed; acquired by Easel AI.
+- Designed and sold a fashionable smart neck TelePillow that
+  conveys real-time haptics in a video call.
+- Led a team of 5 engineers working across embedded systems,
+  mobile apps, and aesthetic fashion design.
+- A successful Kickstarter produced a six-figure ARR with a
+  19k waitlist. Venture-backed; acquired by Easel AI.
 
 ### Industries
+
 - Consumer Electronics & Computers Retail
 
 ### Technologies & Skills
+
 - React Native
 - iOS
 - Android
@@ -264,20 +274,27 @@ Intelligence
 - CI/CD Pipelines
 - Flutter
 
-
 ### Stanford Healthcare Innovation Lab — _Stanford, CA_
 
 **Research Engineer (2020 – 2021)**  
 **Leadership experience:** 1–5 Reports
 
-- Covid-19 called for novel ways to detect, test, and treat the disease. Our team designed a system that could detect asymptomatic Covid-19 only using data from smartwatches.
-- I developed the data collection, parsing, and upload functions for our iOS and Android apps using smartwatches’ APIs. I added dependency injection and instrumented UI testing.
-- Our work was published in a well-regarded health informatics journal, where it won a Best Paper award.
+- Covid-19 called for novel ways to detect, test, and treat
+  the disease. Our team designed a system that could detect
+  asymptomatic Covid-19 only using data from smartwatches.
+- I developed the data collection, parsing, and upload
+  functions for our iOS and Android apps using smartwatches’
+  APIs. I added dependency injection and instrumented UI
+  testing.
+- Our work was published in a well-regarded health
+  informatics journal, where it won a Best Paper award.
 
 ### Industries
+
 - Healthcare Software
 
 ### Technologies & Skills
+
 - Java
 - Swift
 - Objective-C
@@ -294,22 +311,31 @@ Intelligence
 - CI/CD Pipelines
 - Flutter
 
-
 ### Copilot AI — _Atlanta, GA_
 
 **Founder (2018 – 2020)**  
 **Leadership experience:** 1–5 Reports
 
-- Led customer discovery, need-finding, engineering, deployments, investor relations, and business research for an augmented reality, head-worn display for warehouse workers.
-- Based on my research at Georgia Tech, I wrote a 25-page business plan, which revealed poor unit economics and a low return-on-investment, requiring up to 20 years of execution time.
-- Early research was published as a paper and talk to ACM's wearable computing journal; at our conference, we won the Best Paper award.
+- Led customer discovery, need-finding, engineering,
+  deployments, investor relations, and business research for
+  an augmented reality, head-worn display for warehouse
+  workers.
+- Based on my research at Georgia Tech, I wrote a 25-page
+  business plan, which revealed poor unit economics and a
+  low return-on-investment, requiring up to 20 years of
+  execution time.
+- Early research was published as a paper and talk to ACM's
+  wearable computing journal; at our conference, we won the
+  Best Paper award.
 
 ### Industries
+
 - Wearables
 - Artificial Intelligence (AI)
 - Lean Startups
 
 ### Technologies & Skills
+
 - Java
 - Android
 - JavaScript
@@ -340,18 +366,22 @@ Intelligence
 - DevOps
 - CI/CD Pipelines
 
-
 ### CDC — _Atlanta, GA_
 
 **Technical Consultant (2018 – 2019)**  
 **Leadership experience:** 6–10 Reports  
-*Enterprise Experience*
+_Enterprise Experience_
 
-- Wildfires and air pollutants cause respiratory illness. Our team automated the generation of typeset reports from citizens’ air quality sensors, a tedious manual process.
-- We delivered a Python desktop app that parsed data files, drew tables/charts, and wrote a prose analysis to a PDF.
-- Our solution was used in the 2019 CA wildfires and informs policies.
+- Wildfires and air pollutants cause respiratory illness.
+  Our team automated the generation of typeset reports from
+  citizens’ air quality sensors, a tedious manual process.
+- We delivered a Python desktop app that parsed data files,
+  drew tables/charts, and wrote a prose analysis to a PDF.
+- Our solution was used in the 2019 CA wildfires and informs
+  policies.
 
 ### Industries
+
 - Business Services
 - Management Consulting
 - Information & Document Management
@@ -361,6 +391,7 @@ Intelligence
 - Healthcare Software
 
 ### Technologies & Skills
+
 - Python
 - Agile
 - Evaluation
@@ -375,18 +406,29 @@ Intelligence
 - PostgreSQL
 - DevOps
 
-
 ### Cisco — _San Jose, CA_
 
 **Software Engineer (2017 – 2017)**  
 **Leadership experience:** 1–5 Reports  
-*Enterprise Experience*
+_Enterprise Experience_
 
-- Cloud DVR relies on high-performance blob storage. I automated the manual process of inter-networking a cluster of Linux servers to load test our storage endpoints. AT&T DirecTV Now & Comcast used service to simulate a load of 1.1m monthly active users.
-- Led a team of two full-time software engineers to develop an AngularJS web app and Python Django REST API that orchestrates Docker containers across multiple machines. Each container simulated HTTP load per user-tuned settings in the GUI.
-- Gained expert knowledge in Docker and Linux containerization, consulting with industry experts and sharing findings back with our organization and its engineers.
+- Cloud DVR relies on high-performance blob storage. I
+  automated the manual process of inter-networking a cluster
+  of Linux servers to load test our storage endpoints. AT&T
+  DirecTV Now & Comcast used service to simulate a load of
+  1.1m monthly active users.
+- Led a team of two full-time software engineers to develop
+  an AngularJS web app and Python Django REST API that
+  orchestrates Docker containers across multiple machines.
+  Each container simulated HTTP load per user-tuned settings
+  in the GUI.
+- Gained expert knowledge in Docker and Linux
+  containerization, consulting with industry experts and
+  sharing findings back with our organization and its
+  engineers.
 
 ### Industries
+
 - Manufacturing
 - Computer Equipment & Peripherals
 - Telecommunication Equipment
@@ -394,6 +436,7 @@ Intelligence
 - Networking Software
 
 ### Technologies & Skills
+
 - Docker
 - JavaScript
 - TypeScript
@@ -411,22 +454,30 @@ Intelligence
 - DevOps
 - CI/CD Pipelines
 
-
 ### SpaceX — _Hawthorne, CA_
 
 **Software Engineer (2017 – 2017)**  
-*Enterprise Experience*
+_Enterprise Experience_
 
-- I worked closely with a product manager, a software mentor, and the UI design team to create a portal to automate this onboarding process. I used a Windows Scheduled Task to read Outlook, parse PDF attachments in .NET, and write to a SQL Server.
-- I also worked on UX changes that impacted the whole company, including high-level UI changes for SpaceX's internal enterprise resource planning (ERP) application.
-- Shadowed our UX research team, sparking my long-term interests in human-computer interaction work.
+- I worked closely with a product manager, a software
+  mentor, and the UI design team to create a portal to
+  automate this onboarding process. I used a Windows
+  Scheduled Task to read Outlook, parse PDF attachments in
+  .NET, and write to a SQL Server.
+- I also worked on UX changes that impacted the whole
+  company, including high-level UI changes for SpaceX's
+  internal enterprise resource planning (ERP) application.
+- Shadowed our UX research team, sparking my long-term
+  interests in human-computer interaction work.
 
 ### Industries
+
 - Transportation
 - Airlines, Airports & Air Services
 - Supply Chain Management (SCM) Software
 
 ### Technologies & Skills
+
 - C#
 - JavaScript
 - TypeScript
@@ -450,7 +501,8 @@ Intelligence
 
 **Co-Founder (2016–2017)**
 
-- Created discreet wearable panic button for personal safety.
+- Created discreet wearable panic button for personal
+  safety.
 - Raised $20k+ in prize/funding.
 - Featured in university and press coverage.
 

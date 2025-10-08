@@ -11,16 +11,15 @@ date: 2025-10-08
 
 - [pramod.kotipalli@gmail.com](mailto:pramod.kotipalli@gmail.com)
 - +1 (425) 667-0000
-- [Google Scholar](https://p13i.io/scholar)
-- [Website](https://p13i.io)
 
 ## Links
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/p13i)
-- 🎬 [IMDb](https://www.imdb.com/name/nm12384452/)
-- 🧑‍💻 [GitHub](https://github.com/p13i)
-- 📺 [YouTube](https://www.youtube.com/@p13i)
-- 🌐 [Website](https://p13i.io)
+- [LinkedIn](https://www.linkedin.com/in/p13i)
+- [IMDb](https://www.imdb.com/name/nm12384452/)
+- [GitHub](https://github.com/p13i)
+- [YouTube](https://www.youtube.com/@p13i)
+- [Google Scholar](https://p13i.io/scholar)
+- [Website](https://p13i.io)
 
 ---
 

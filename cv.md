@@ -23,14 +23,14 @@ date: 2025-10-08
 
 # Summary
 
-# Small-sized
+## Small-sized
 
 Award-winning computer science researcher, integrated
 (hardware + software + human-factors) product designer, and
 engineer. Interests include climate, geopolitics, piano, viola,
 sketching, film/photo, and 3D art.
 
-# Medium-sized
+## Medium-sized
 
 A graduate of Stanford's Master's program in Computer
 Science, I have three years of industry experience at Google
@@ -42,7 +42,7 @@ user-facing software is extensive, ranging from
 cross-platform web applications to server-managed video
 calling systems and even custom electronic devices.
 
-**Languages:** English (native), Telugu (native), American
+**Languages:** English (native), Telugu (native speaking), American
 Sign Language (intermediate), Mandarin (beginner).
 
 **Research interests:** Human–computer interaction, physical

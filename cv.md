@@ -194,92 +194,265 @@ Intelligence
 
 ---
 
-## Industry & Venture Experience
+## Industry Experience
 
 ### Google — _Sunnyvale, CA & Seattle, WA_
 
-**Software Engineer (Aug 2022 – Mar 2024)**  
-**Team:** Google Cloud Platform — Identity & Access
-Management (IAM)
+**Software Engineer (2022 – 2025)**  
+**Leadership experience:** 1–5 Reports  
+*Enterprise Experience*
 
-- Designed a map-reduce pipeline to verify that 70%+ of our
-  21.8bn Storage policies can be safely purged.
+- Designed a map-reduce pipeline to verify that 70%+ of our 21.8bn Storage policies can be safely purged.
+- Modernized Roles and Policy Admin APIs for maintainability; migrated ~2.5k QPS of customer traffic w/o issues.
+- Increased the in-production v3 policy API serving capacity QPS to a reliable 40m.
 
-- Modernized Roles and Policy Admin APIs for
-  maintainability; migrated ~2.5k QPS of customer traffic
-  w/o issues.
+### Industries
+- Software
+- Business Technology
 
-- Increased the in-production v3 policy API serving capacity
-  QPS to a reliable 40m.
+### Technologies & Skills
+- C++
+- Java
+- Python
+- Server Configuration
+- Distributed Systems
+- Algorithms
+- Testing
 
-* Makerspace Coordinator (Nov 2023 – Present): Safety
-  trainings, orientations, classes, office hours
 
----
+### Tangible Smart Clothing, Inc. — _Stanford, CA_
 
-### Tangible Smart Clothing Inc. — _Stanford, CA_
+**Founder (2020 – 2022)**  
+**Leadership experience:** 6–10 Reports
 
-**Co-Founder, Founding Software Engineer (Apr 2020 –
-Jul 2021)**  
-**Advisor (Jul 2021 – Present)**
+- Designed and sold a fashionable smart neck TelePillow that conveys real-time haptics in a video call.
+- Led a team of 5 engineers working across embedded systems, mobile apps, and aesthetic fashion design.
+- A successful Kickstarter produced a six-figure ARR with a 19k waitlist. Venture-backed; acquired by Easel AI.
 
-- Designed and sold a fashionable smart neck TelePillow that
-  conveys real-time haptics in a video call.
+### Industries
+- Consumer Electronics & Computers Retail
 
-- Led a team of 5 engineers working across embedded systems,
-  mobile apps, and aesthetic fashion design.
+### Technologies & Skills
+- React Native
+- iOS
+- Android
+- Bluetooth
+- TypeScript
+- JavaScript
+- Java
+- Objective-C
+- WebRTC
+- Engineering Management
+- User Experience (UX)
+- User Interface (UI)
+- Web Design
+- API Integration
+- Algorithms
+- GPS Tracker
+- Google Maps API
+- Mobile App Development
+- Testing
+- Twilio
+- Programming
+- Django
+- WebSockets
+- Architecture
+- Kubernetes
+- PostgreSQL
+- DevOps
+- Expo
+- CI/CD Pipelines
+- Flutter
 
-- A successful Kickstarter produced a six-figure ARR with a
-  19k waitlist. Venture-backed; acquired by Easel AI.
 
----
+### Stanford Healthcare Innovation Lab — _Stanford, CA_
 
-### Copilot AI Inc. — _Atlanta, GA_
+**Research Engineer (2020 – 2021)**  
+**Leadership experience:** 1–5 Reports
 
-**Founder (2018–2019)**
+- Covid-19 called for novel ways to detect, test, and treat the disease. Our team designed a system that could detect asymptomatic Covid-19 only using data from smartwatches.
+- I developed the data collection, parsing, and upload functions for our iOS and Android apps using smartwatches’ APIs. I added dependency injection and instrumented UI testing.
+- Our work was published in a well-regarded health informatics journal, where it won a Best Paper award.
 
-- Developed AR + AI tools for industrial workers
-- Produced early prototypes, business plan, and research
-  demos
+### Industries
+- Healthcare Software
 
----
+### Technologies & Skills
+- Java
+- Swift
+- Objective-C
+- API Integration
+- Algorithms
+- Mobile App Development
+- Testing
+- Twilio
+- Programming
+- WebSockets
+- Architecture
+- PostgreSQL
+- DevOps
+- CI/CD Pipelines
+- Flutter
 
-### US CDC ATSDR — _Atlanta, GA_
 
-**Technical Consultant (2018–2019)**
+### Copilot AI — _Atlanta, GA_
 
-- Created automation tools for publishing citizens’ air
-  quality data
-- Improved publishing latency and data accuracy pipelines
+**Founder (2018 – 2020)**  
+**Leadership experience:** 1–5 Reports
 
----
+- Led customer discovery, need-finding, engineering, deployments, investor relations, and business research for an augmented reality, head-worn display for warehouse workers.
+- Based on my research at Georgia Tech, I wrote a 25-page business plan, which revealed poor unit economics and a low return-on-investment, requiring up to 20 years of execution time.
+- Early research was published as a paper and talk to ACM's wearable computing journal; at our conference, we won the Best Paper award.
+
+### Industries
+- Wearables
+- Artificial Intelligence (AI)
+- Lean Startups
+
+### Technologies & Skills
+- Java
+- Android
+- JavaScript
+- 3D Printing
+- Filmmaking
+- SEO Marketing
+- Web Marketing
+- Branding
+- UX Research
+- UI Engineering
+- Fundraising
+- Hiring
+- Financial Management
+- Process Automation
+- Deep Learning
+- Computer Vision
+- Algorithms
+- GPS Tracker
+- Google Maps API
+- Mobile App Development
+- Twilio
+- Programming
+- Django
+- WebSockets
+- Architecture
+- Kubernetes
+- PostgreSQL
+- DevOps
+- CI/CD Pipelines
+
+
+### CDC — _Atlanta, GA_
+
+**Technical Consultant (2018 – 2019)**  
+**Leadership experience:** 6–10 Reports  
+*Enterprise Experience*
+
+- Wildfires and air pollutants cause respiratory illness. Our team automated the generation of typeset reports from citizens’ air quality sensors, a tedious manual process.
+- We delivered a Python desktop app that parsed data files, drew tables/charts, and wrote a prose analysis to a PDF.
+- Our solution was used in the 2019 CA wildfires and informs policies.
+
+### Industries
+- Business Services
+- Management Consulting
+- Information & Document Management
+- Research & Development
+- Government
+- Federal
+- Healthcare Software
+
+### Technologies & Skills
+- Python
+- Agile
+- Evaluation
+- Needs Analysis
+- Presentations
+- IT Consulting
+- Algorithms
+- GPS Tracker
+- Mobile App Development
+- Programming
+- Architecture
+- PostgreSQL
+- DevOps
+
+
+### Cisco — _San Jose, CA_
+
+**Software Engineer (2017 – 2017)**  
+**Leadership experience:** 1–5 Reports  
+*Enterprise Experience*
+
+- Cloud DVR relies on high-performance blob storage. I automated the manual process of inter-networking a cluster of Linux servers to load test our storage endpoints. AT&T DirecTV Now & Comcast used service to simulate a load of 1.1m monthly active users.
+- Led a team of two full-time software engineers to develop an AngularJS web app and Python Django REST API that orchestrates Docker containers across multiple machines. Each container simulated HTTP load per user-tuned settings in the GUI.
+- Gained expert knowledge in Docker and Linux containerization, consulting with industry experts and sharing findings back with our organization and its engineers.
+
+### Industries
+- Manufacturing
+- Computer Equipment & Peripherals
+- Telecommunication Equipment
+- Private Clouds
+- Networking Software
+
+### Technologies & Skills
+- Docker
+- JavaScript
+- TypeScript
+- Angular
+- Django
+- Python
+- NGINX
+- API Integration
+- Algorithms
+- Testing
+- Programming
+- WebSockets
+- Architecture
+- Kubernetes
+- DevOps
+- CI/CD Pipelines
+
 
 ### SpaceX — _Hawthorne, CA_
 
-**Software Engineering Intern (Fall 2017)**
+**Software Engineer (2017 – 2017)**  
+*Enterprise Experience*
 
-- Developed ERP and supply chain automation systems
-- Early exposure to UX research and cross-department
-  integration
+- I worked closely with a product manager, a software mentor, and the UI design team to create a portal to automate this onboarding process. I used a Windows Scheduled Task to read Outlook, parse PDF attachments in .NET, and write to a SQL Server.
+- I also worked on UX changes that impacted the whole company, including high-level UI changes for SpaceX's internal enterprise resource planning (ERP) application.
+- Shadowed our UX research team, sparking my long-term interests in human-computer interaction work.
 
----
+### Industries
+- Transportation
+- Airlines, Airports & Air Services
+- Supply Chain Management (SCM) Software
 
-### Cisco Systems — _San Jose, CA_
-
-**Software Engineering Intern (Summer 2017)**
-
-- Built distributed load testing infrastructure for AT&T
-  DirecTV Now & Comcast (1.1M MAU)
-
----
+### Technologies & Skills
+- C#
+- JavaScript
+- TypeScript
+- HTML
+- CSS
+- AngularJS
+- React
+- C++
+- Windows Server
+- .NET Framework
+- API Integration
+- Process Automation
+- Algorithms
+- Testing
+- Programming
+- Architecture
+- DevOps
+- CI/CD Pipelines
 
 ### Safely LLC — _Atlanta, GA_
 
 **Co-Founder (2016–2017)**
 
-- Created discreet wearable panic button for personal safety
-- Raised $20k+ in prize/funding
-- Featured in university and press coverage
+- Created discreet wearable panic button for personal safety.
+- Raised $20k+ in prize/funding.
+- Featured in university and press coverage.
 
 ---
 

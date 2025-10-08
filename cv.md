@@ -5,14 +5,12 @@ permalink: /cv/
 date: 2025-10-08
 ---
 
-# Pramod Kotipalli
-
-## Contact
+# Contact
 
 - [pramod.kotipalli@gmail.com](mailto:pramod.kotipalli@gmail.com)
 - +1 (425) 667-0000
 
-## Links
+# Links
 
 - [LinkedIn](https://www.linkedin.com/in/p13i)
 - [IMDb](https://www.imdb.com/name/nm12384452/)
@@ -23,17 +21,16 @@ date: 2025-10-08
 
 ---
 
-## Summary
+# Summary
 
-## Small-sized
+# Small-sized
 
 Award-winning computer science researcher, integrated
 (hardware + software + human-factors) product designer, and
-engineer.  
-Interests include climate, geopolitics, piano, viola,
+engineer. Interests include climate, geopolitics, piano, viola,
 sketching, film/photo, and 3D art.
 
-## Medium-sized
+# Medium-sized
 
 A graduate of Stanford's Master's program in Computer
 Science, I have three years of industry experience at Google
@@ -54,16 +51,18 @@ human-centered AI.
 
 ---
 
-## Education
+# Education
 
-### Stanford University — _Stanford, CA_
+## Stanford University — _Stanford, CA_
 
 **Master of Science, Computer Science (2022)**  
+
 **Concentrations:** Human-Computer Interaction & Artificial
 Intelligence  
+
 **GPA:** 3.72 / 4.00
 
-#### Selected Coursework
+### Selected Coursework
 
 - HCI & Design Thinking
 - UI Prototyping & Evaluation
@@ -72,7 +71,7 @@ Intelligence
 - Engineering Design Optimization
 - Mechatronics
 
-### Technologies & Skills
+## Technologies & Skills
 
 - Design
 - Engineering
@@ -95,19 +94,21 @@ Intelligence
 - Expo
 - Flutter
 
-### Georgia Institute of Technology — _Atlanta, GA_
+## Georgia Institute of Technology — _Atlanta, GA_
 
 **Bachelor of Science, Computer Science (2019)**  
+
 **Threads:** Information Internetworks & Artificial
 Intelligence  
+
 **GPA:** 3.83 / 4.00 (Highest Honors)
 
-#### Selected Coursework
+### Selected Coursework
 
 - Number Theory & Cryptography
 - History of Industrial Design
 
-#### Technologies & Skills
+### Technologies & Skills
 
 - Engineering
 - Human-Computer Interaction (HCI)
@@ -126,9 +127,9 @@ Intelligence
 
 ---
 
-## Research Experience
+# Research Experience
 
-### Shape Lab — Stanford Mechanical Engineering
+## Shape Lab — Stanford Mechanical Engineering
 
 **Graduate Research Assistant (Summer 2021)**  
 **PI:** Prof. Sean Follmer
@@ -141,7 +142,7 @@ Intelligence
 
 ---
 
-### Stanford Healthcare Innovation Lab — Stanford Medicine, Department of Genetics
+## Stanford Healthcare Innovation Lab — Stanford Medicine, Department of Genetics
 
 **Research Software Engineer (Spring 2020)**  
 **PI:** Dr. Michael Snyder
@@ -165,7 +166,7 @@ Intelligence
 
 ---
 
-### Contextual Computing Group — Georgia Tech Interactive Computing
+## Contextual Computing Group — Georgia Tech Interactive Computing
 
 **Project Lead & Undergraduate Research Assistant
 (2018–2019)**  
@@ -182,7 +183,7 @@ Intelligence
 
 ---
 
-### Wall Lab — Georgia Tech Interactive Computing
+## Wall Lab — Georgia Tech Interactive Computing
 
 **Undergraduate Research Assistant (2018–2019)**  
 **PI:** Prof. Jim Rehg
@@ -193,9 +194,9 @@ Intelligence
 
 ---
 
-## Industry Experience
+# Industry Experience
 
-### Google — _Sunnyvale, CA & Seattle, WA_
+## Google — _Sunnyvale, CA & Seattle, WA_
 
 **Software Engineer (2022 – 2025)**  
 **Leadership experience:** 1–5 Reports  
@@ -209,12 +210,12 @@ _Enterprise Experience_
 - Increased the in-production v3 policy API serving capacity
   QPS to a reliable 40m.
 
-### Industries
+## Industries
 
 - Software
 - Business Technology
 
-### Technologies & Skills
+## Technologies & Skills
 
 - C++
 - Java
@@ -224,7 +225,7 @@ _Enterprise Experience_
 - Algorithms
 - Testing
 
-### Tangible Smart Clothing, Inc. — _Stanford, CA_
+## Tangible Smart Clothing, Inc. — _Stanford, CA_
 
 **Founder (2020 – 2022)**  
 **Leadership experience:** 6–10 Reports
@@ -236,11 +237,11 @@ _Enterprise Experience_
 - A successful Kickstarter produced a six-figure ARR with a
   19k waitlist. Venture-backed; acquired by Easel AI.
 
-### Industries
+## Industries
 
 - Consumer Electronics & Computers Retail
 
-### Technologies & Skills
+## Technologies & Skills
 
 - React Native
 - iOS
@@ -273,7 +274,7 @@ _Enterprise Experience_
 - CI/CD Pipelines
 - Flutter
 
-### Stanford Healthcare Innovation Lab — _Stanford, CA_
+## Stanford Healthcare Innovation Lab — _Stanford, CA_
 
 **Research Engineer (2020 – 2021)**  
 **Leadership experience:** 1–5 Reports
@@ -288,11 +289,11 @@ _Enterprise Experience_
 - Our work was published in a well-regarded health
   informatics journal, where it won a Best Paper award.
 
-### Industries
+## Industries
 
 - Healthcare Software
 
-### Technologies & Skills
+## Technologies & Skills
 
 - Java
 - Swift
@@ -310,7 +311,7 @@ _Enterprise Experience_
 - CI/CD Pipelines
 - Flutter
 
-### Copilot AI — _Atlanta, GA_
+## Copilot AI — _Atlanta, GA_
 
 **Founder (2018 – 2020)**  
 **Leadership experience:** 1–5 Reports
@@ -327,13 +328,13 @@ _Enterprise Experience_
   wearable computing journal; at our conference, we won the
   Best Paper award.
 
-### Industries
+## Industries
 
 - Wearables
 - Artificial Intelligence (AI)
 - Lean Startups
 
-### Technologies & Skills
+## Technologies & Skills
 
 - Java
 - Android
@@ -365,7 +366,7 @@ _Enterprise Experience_
 - DevOps
 - CI/CD Pipelines
 
-### CDC — _Atlanta, GA_
+## CDC — _Atlanta, GA_
 
 **Technical Consultant (2018 – 2019)**  
 **Leadership experience:** 6–10 Reports  
@@ -379,7 +380,7 @@ _Enterprise Experience_
 - Our solution was used in the 2019 CA wildfires and informs
   policies.
 
-### Industries
+## Industries
 
 - Business Services
 - Management Consulting
@@ -389,7 +390,7 @@ _Enterprise Experience_
 - Federal
 - Healthcare Software
 
-### Technologies & Skills
+## Technologies & Skills
 
 - Python
 - Agile
@@ -405,7 +406,7 @@ _Enterprise Experience_
 - PostgreSQL
 - DevOps
 
-### Cisco — _San Jose, CA_
+## Cisco — _San Jose, CA_
 
 **Software Engineer (2017 – 2017)**  
 **Leadership experience:** 1–5 Reports  
@@ -426,7 +427,7 @@ _Enterprise Experience_
   sharing findings back with our organization and its
   engineers.
 
-### Industries
+## Industries
 
 - Manufacturing
 - Computer Equipment & Peripherals
@@ -434,7 +435,7 @@ _Enterprise Experience_
 - Private Clouds
 - Networking Software
 
-### Technologies & Skills
+## Technologies & Skills
 
 - Docker
 - JavaScript
@@ -453,7 +454,7 @@ _Enterprise Experience_
 - DevOps
 - CI/CD Pipelines
 
-### SpaceX — _Hawthorne, CA_
+## SpaceX — _Hawthorne, CA_
 
 **Software Engineer (2017 – 2017)**  
 _Enterprise Experience_
@@ -469,13 +470,13 @@ _Enterprise Experience_
 - Shadowed our UX research team, sparking my long-term
   interests in human-computer interaction work.
 
-### Industries
+## Industries
 
 - Transportation
 - Airlines, Airports & Air Services
 - Supply Chain Management (SCM) Software
 
-### Technologies & Skills
+## Technologies & Skills
 
 - C#
 - JavaScript
@@ -496,7 +497,7 @@ _Enterprise Experience_
 - DevOps
 - CI/CD Pipelines
 
-### Safely LLC — _Atlanta, GA_
+## Safely LLC — _Atlanta, GA_
 
 **Co-Founder (2016–2017)**
 
@@ -507,7 +508,7 @@ _Enterprise Experience_
 
 ---
 
-## Research Awards
+# Research Awards
 
 - **Best Paper Award**, _IMIA Yearbook 2021_ — _Clinical
   Research Informatics Section_
@@ -516,7 +517,7 @@ _Enterprise Experience_
 
 ---
 
-## Publications
+# Publications
 
 - _A Model Predictive Control Approach for Reach Redirection
   in Virtual Reality._ ACM CHI ’22. Gonzalez, Chase,
@@ -534,7 +535,7 @@ _Enterprise Experience_
 
 ---
 
-## Work in Progress
+# Work in Progress
 
 - _Iterative Self-Tracking Templates:_ Exploratory design,
   thematic analysis, participatory evaluation (IMWUT
@@ -546,7 +547,7 @@ _Enterprise Experience_
 
 ---
 
-## Patent
+# Patent
 
 **Wearable Haptic System for Immersive Social
 Telepresence**  
@@ -556,7 +557,7 @@ Kotipalli, Paul Lavengco, Katie Fo.
 
 ---
 
-## Academic Service
+# Academic Service
 
 - Coordinator, Google Seattle Makerspaces
 - Mentor, Google exploreCSR & CSRMP
@@ -567,7 +568,7 @@ Kotipalli, Paul Lavengco, Katie Fo.
 
 ---
 
-## Academic Grants
+# Academic Grants
 
 - Stanford eWear Initiative Research Grant ($500, 2021)
 - ACM SIGCHI Gary Marsden Travel Award (CHI 2021)
@@ -576,7 +577,7 @@ Kotipalli, Paul Lavengco, Katie Fo.
 
 ---
 
-## Talks
+# Talks
 
 - _Identifying Broken Car Parts in Images with AutoML_ —
   Google Cloud Higher Ed Series (2022)
@@ -591,18 +592,18 @@ Kotipalli, Paul Lavengco, Katie Fo.
 
 ---
 
-## Academic Memberships
+# Academic Memberships
 
 - ACM SIGCHI
 - ACM SIGGRAPH
 
 ---
 
-## Skills
+# Skills
 
-## Skills
+# Skills
 
-### Programming
+## Programming
 
 - Python
 - C#
@@ -617,7 +618,7 @@ Kotipalli, Paul Lavengco, Katie Fo.
 - HTML
 - CSS
 
-### Frameworks
+## Frameworks
 
 - Unity
 - OpenFrameworks
@@ -630,7 +631,7 @@ Kotipalli, Paul Lavengco, Katie Fo.
 - NodeJS
 - Django
 
-### Deployment
+## Deployment
 
 - Vagrant
 - Docker
@@ -639,7 +640,7 @@ Kotipalli, Paul Lavengco, Katie Fo.
 - Heroku
 - Google Cloud Platform (GCP)
 
-### Databases
+## Databases
 
 - Microsoft SQL Server
 - PostgreSQL
@@ -648,7 +649,7 @@ Kotipalli, Paul Lavengco, Katie Fo.
 - Firebase
 - MongoDB
 
-### Machine Learning
+## Machine Learning
 
 - Digital Signal Processing (DSP)
 - scikit-learn
@@ -656,7 +657,7 @@ Kotipalli, Paul Lavengco, Katie Fo.
 - PyTorch
 - Keras
 
-### Design
+## Design
 
 - Adobe Suite (Illustrator, After Effects, Premiere,
   Photoshop, Audition, InDesign, Lightroom, XD)
@@ -665,7 +666,7 @@ Kotipalli, Paul Lavengco, Katie Fo.
 - Sketch
 - Figma
 
-### HCI Methods
+## HCI Methods
 
 - Human-subjects study design (counterbalancing, dual-task
   studies, learning effects)
@@ -674,14 +675,14 @@ Kotipalli, Paul Lavengco, Katie Fo.
 - UX research and UI evaluation
 - Data visualization and statistical analysis
 
-### Fabrication
+## Fabrication
 
 - Laser cutting (Epilog, Universal Laser Systems)
 - Arduino prototyping
 - Microchip PIC32 development
 - CNC machining
 
-### Systems
+## Systems
 
 - Distributed system design
 - Containerization and scaling
@@ -694,7 +695,7 @@ Kotipalli, Paul Lavengco, Katie Fo.
 
 # Portfolio Projects
 
-## TransitMate
+# TransitMate
 
 Our mobile app was a checkpoint-based transit safety
 application that allowed you to share your instantaneous
@@ -723,11 +724,11 @@ our course instructor, a world-renowned human-computer
 interaction Professor teaching at Stanford University in
 California.
 
-### Industry
+## Industry
 
 Mobile App Development
 
-### Technologies & Skills
+## Technologies & Skills
 
 - React Native
 - Figma
@@ -749,7 +750,7 @@ Mobile App Development
 - Expo
 - CI/CD Pipelines
 
-## Remembrance Agent for Java
+# Remembrance Agent for Java
 
 _A context-aware memory augmentation tool inspired by
 Bradley Rhodes’ seminal work._
@@ -780,12 +781,12 @@ stored locally, never transmitted.
 
 ---
 
-### Industries
+## Industries
 
 - Wearables
 - Artificial Intelligence (AI)
 
-### Technologies & Skills
+## Technologies & Skills
 
 - Java
 - APIs
@@ -800,7 +801,7 @@ stored locally, never transmitted.
 - Architecture
 - CI/CD Pipelines
 
-### Autobot: Google Workspace Automation via SMS
+## Autobot: Google Workspace Automation via SMS
 
 Autobot is a Google Apps Script–based automation system that
 integrates Gmail, Calendar, Docs, and Sheets to streamline
@@ -827,13 +828,13 @@ structured back-end logic with natural user input.
 
 ---
 
-#### Industries
+### Industries
 
 - Healthcare Software
 - Engineering Software
 - Telephony & Wireless
 
-#### Technologies & Skills
+### Technologies & Skills
 
 - Google Apps Script
 - JavaScript
@@ -856,7 +857,7 @@ structured back-end logic with natural user input.
 - Programming
 - Architecture
 
-### Georgia Tech Score: Mobile Solution for Judging Poster Sessions
+## Georgia Tech Score: Mobile Solution for Judging Poster Sessions
 
 Managing the evaluation of poster sessions and design expos
 is a persistent logistical challenge. Collecting and
@@ -889,13 +890,13 @@ on-the-go judges.
 
 ---
 
-#### Industries
+### Industries
 
 - Education
 - Mobile
 - Web Development
 
-#### Technologies & Skills
+### Technologies & Skills
 
 - Python
 - JavaScript

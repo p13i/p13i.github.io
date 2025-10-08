@@ -66,64 +66,64 @@ Intelligence
 
 #### Selected Coursework
 
-- HCI & Design Thinking  
-- UI Prototyping & Evaluation  
-- Physically Based Ray Tracing  
-- Domain-Specific Languages & Compilers  
-- Engineering Design Optimization  
-- Mechatronics  
+- HCI & Design Thinking
+- UI Prototyping & Evaluation
+- Physically Based Ray Tracing
+- Domain-Specific Languages & Compilers
+- Engineering Design Optimization
+- Mechatronics
 
 ### Technologies & Skills
 
-- Design  
-- Engineering  
-- Artificial Intelligence (AI)  
-- Human-Computer Interaction (HCI)  
-- UI Design  
-- UX Design  
-- User Experience (UX)  
-- User Interface (UI)  
-- PyTorch  
-- Deep Learning  
-- Computer Vision  
-- Algorithms  
-- GPS Tracker  
-- Google Maps API  
-- Mobile App Development  
-- Programming  
-- Architecture  
-- Kubernetes  
-- Expo  
-- Flutter  
+- Design
+- Engineering
+- Artificial Intelligence (AI)
+- Human-Computer Interaction (HCI)
+- UI Design
+- UX Design
+- User Experience (UX)
+- User Interface (UI)
+- PyTorch
+- Deep Learning
+- Computer Vision
+- Algorithms
+- GPS Tracker
+- Google Maps API
+- Mobile App Development
+- Programming
+- Architecture
+- Kubernetes
+- Expo
+- Flutter
 
 ### Georgia Institute of Technology — _Atlanta, GA_
 
 **Bachelor of Science, Computer Science (2019)**  
 **Threads:** Information Internetworks & Artificial
 Intelligence  
-**GPA:** 3.83 / 4.00 (Highest Honors)  
+**GPA:** 3.83 / 4.00 (Highest Honors)
 
 #### Selected Coursework
 
-- Number Theory & Cryptography  
-- History of Industrial Design  
+- Number Theory & Cryptography
+- History of Industrial Design
 
 #### Technologies & Skills
 
-- Engineering  
-- Human-Computer Interaction (HCI)  
-- User Experience (UX)  
-- User Interface (UI)  
-- Web Design  
-- Deep Learning  
-- Computer Vision  
-- Algorithms  
-- GPS Tracker  
-- Mobile App Development  
-- Programming  
-- Django  
-- Architecture  
-- PostgreSQL  
+- Engineering
+- Human-Computer Interaction (HCI)
+- User Experience (UX)
+- User Interface (UI)
+- Web Design
+- Deep Learning
+- Computer Vision
+- Algorithms
+- GPS Tracker
+- Mobile App Development
+- Programming
+- Django
+- Architecture
+- PostgreSQL
 
 ---
 

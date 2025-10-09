@@ -21,14 +21,14 @@ date: 2025-10-08
 }
 
 .content .row.post .post ul > li:not(:last-child)::after {
-  content: ", ";
+  content: ",\00a0";
 }
 </style>
 
 # Contact
 
 - [pramod.kotipalli@gmail.com](mailto:pramod.kotipalli@gmail.com)
-- +1 (425) 667-0000
+- [+1 (425) 667-0000](tel:+14256670000)
 
 ---
 
@@ -93,7 +93,7 @@ Intelligence
 - Engineering Design Optimization
 - Mechatronics
 
-## Technologies & Skills
+### Technologies & Skills
 
 - Design
 - Engineering
@@ -562,18 +562,6 @@ _Enterprise Experience_
 
 ---
 
-# Work in Progress
-
-- _Iterative Self-Tracking Templates:_ Exploratory design,
-  thematic analysis, participatory evaluation (IMWUT
-  submission).
-- _Micro-Syntax Chatbot for Google Workspace Apps:_
-  Increasing user engagement in self-tracking.
-- _Fashion Factors for Widespread Adoption of Wearable
-  Computers._
-
----
-
 # Patent
 
 **Wearable Haptic System for Immersive Social
@@ -935,3 +923,15 @@ on-the-go judges.
 - DevOps
 - Expo
 - CI/CD Pipelines
+
+---
+
+# Work in Progress
+
+- _Iterative Self-Tracking Templates:_ Exploratory design,
+  thematic analysis, participatory evaluation (IMWUT
+  submission).
+- _Micro-Syntax Chatbot for Google Workspace Apps:_
+  Increasing user engagement in self-tracking.
+- _Fashion Factors for Widespread Adoption of Wearable
+  Computers._

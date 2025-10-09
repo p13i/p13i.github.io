@@ -369,19 +369,23 @@ Programming, Architecture, DevOps, CI/CD Pipelines
 
 # Publications
 
-- _A Model Predictive Control Approach for Reach Redirection
-  in Virtual Reality._ ACM CHI ’22. Gonzalez, Chase,
-  Kotipalli, Follmer.
-- _A Scalable, Secure, and Interoperable Platform for Deep
-  Data-Driven Health Management._ Nature Communications, Oct
-  ’21 (Best Paper Award).
-- _Towards Finding the Optimum Position in the Visual Field
-  for a Head-Worn Display for Task Guidance._ ACM IMWUT, Mar
-  ’21.
-- _Comparing Order Picking Guidance with HoloLens, Magic
-  Leap, Google Glass XE, and Paper._ ACM HotMobile ’21.
-- _RF-Pick: Order Picking Using a HUD with Wearable RFID
-  Verification._ ACM ISWC ’18. (**Best Paper Award**)
+_A Model Predictive Control Approach for Reach Redirection
+in Virtual Reality._ ACM CHI ’22. Gonzalez, Chase,
+Kotipalli, Follmer.
+
+_A Scalable, Secure, and Interoperable Platform for Deep
+Data-Driven Health Management._ Nature Communications, Oct
+’21 (Best Paper Award).
+
+_Towards Finding the Optimum Position in the Visual Field
+for a Head-Worn Display for Task Guidance._ ACM IMWUT, Mar
+’21.
+
+_Comparing Order Picking Guidance with HoloLens, Magic Leap,
+Google Glass XE, and Paper._ ACM HotMobile ’21.
+
+_RF-Pick: Order Picking Using a HUD with Wearable RFID
+Verification._ ACM ISWC ’18. (**Best Paper Award**)
 
 ---
 

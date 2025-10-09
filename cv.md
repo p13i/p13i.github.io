@@ -435,31 +435,53 @@ Kotipalli, Paul Lavengco, Katie Fo.
 # Skills
 
 ## Programming
-Python, C#, Java, C++, Embedded C, JavaScript, TypeScript, Swift, Bash, MATLAB, HTML, CSS
+
+Python, C#, Java, C++, Embedded C, JavaScript, TypeScript,
+Swift, Bash, MATLAB, HTML, CSS
 
 ## Frameworks
-Unity, OpenFrameworks, LLVM, iOS, Android, React Native, .NET, Angular, NodeJS, Django
+
+Unity, OpenFrameworks, LLVM, iOS, Android, React Native,
+.NET, Angular, NodeJS, Django
 
 ## Deployment
-Vagrant, Docker, Azure, AWS, Heroku, Google Cloud Platform (GCP)
+
+Vagrant, Docker, Azure, AWS, Heroku, Google Cloud Platform
+(GCP)
 
 ## Databases
-Microsoft SQL Server, PostgreSQL, Redis, MySQL, Firebase, MongoDB
+
+Microsoft SQL Server, PostgreSQL, Redis, MySQL, Firebase,
+MongoDB
 
 ## Machine Learning
-Digital Signal Processing (DSP), scikit-learn, TensorFlow, PyTorch, Keras
+
+Digital Signal Processing (DSP), scikit-learn, TensorFlow,
+PyTorch, Keras
 
 ## Design
-Adobe Suite (Illustrator, After Effects, Premiere, Photoshop, Audition, InDesign, Lightroom, XD), Cinema 4D, Octane Render, Sketch, Figma
+
+Adobe Suite (Illustrator, After Effects, Premiere,
+Photoshop, Audition, InDesign, Lightroom, XD), Cinema 4D,
+Octane Render, Sketch, Figma
 
 ## HCI Methods
-Human-subjects study design (counterbalancing, dual-task studies, learning effects), IRB approvals, Qualitative interview design, UX research and UI evaluation, Data visualization and statistical analysis
+
+Human-subjects study design (counterbalancing, dual-task
+studies, learning effects), IRB approvals, Qualitative
+interview design, UX research and UI evaluation, Data
+visualization and statistical analysis
 
 ## Fabrication
-Laser cutting (Epilog, Universal Laser Systems), Arduino prototyping, Microchip PIC32 development, CNC machining
+
+Laser cutting (Epilog, Universal Laser Systems), Arduino
+prototyping, Microchip PIC32 development, CNC machining
 
 ## Systems
-Distributed system design, Containerization and scaling, Asynchronous task queues, Dependency injection, ORM frameworks, MapReduce pipelines
+
+Distributed system design, Containerization and scaling,
+Asynchronous task queues, Dependency injection, ORM
+frameworks, MapReduce pipelines
 
 ---
 

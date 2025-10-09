@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Curriculum Vitae"
+description: "Course of life."
 permalink: /cv/
 date: 2025-10-08
 image: https://p13i.io/assets/2025-10-08-cv/cv-thumbnail.png

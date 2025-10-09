@@ -5,21 +5,42 @@ permalink: /cv/
 date: 2025-10-08
 ---
 
-# Contact
+<style>
+/* Make headings noticeably smaller (~30% down from Bootstrap defaults),
+   scoped to the inner .post only */
+.content .row.post .post h1,
+.content .row.post .post .h1 { font-size: 1.75rem; }  /* was ~2.5rem */
+.content .row.post .post h2,
+.content .row.post .post .h2 { font-size: 1.40rem; }  /* was ~2.0rem */
+.content .row.post .post h3,
+.content .row.post .post .h3 { font-size: 1.20rem; }  /* was ~1.75rem */
+.content .row.post .post h4,
+.content .row.post .post .h4 { font-size: 1.05rem; }  /* was ~1.5rem */
+.content .row.post .post h5,
+.content .row.post .post .h5 { font-size: 0.875rem; } /* was ~1.25rem */
+.content .row.post .post h6,
+.content .row.post .post .h6 { font-size: 0.75rem; }  /* was ~1.0rem */
 
-- [pramod.kotipalli@gmail.com](mailto:pramod.kotipalli@gmail.com)
-- [+1 (425) 667-0000](tel:+14256670000)
+/* Compact spacing to match the smaller sizes (optional) */
+.content .row.post .post h1,
+.content .row.post .post h2,
+.content .row.post .post h3,
+.content .row.post .post h4,
+.content .row.post .post h5,
+.content .row.post .post h6 {
+  line-height: 1.15;
+  margin-top: 0.6rem;
+  margin-bottom: 0.4rem;
+}
+</style>
+
+# Contact
+[pramod.kotipalli@gmail.com](mailto:pramod.kotipalli@gmail.com), [+1 (425) 667-0000](tel:+14256670000)
 
 ---
 
 # Links
-
-- [LinkedIn](https://www.linkedin.com/in/p13i)
-- [IMDb](https://www.imdb.com/name/nm12384452/)
-- [GitHub](https://github.com/p13i)
-- [YouTube](https://www.youtube.com/@p13i)
-- [Google Scholar](https://p13i.io/scholar)
-- [Website](https://p13i.io)
+[LinkedIn](https://www.linkedin.com/in/p13i), [IMDb](https://www.imdb.com/name/nm12384452/), [GitHub](https://github.com/p13i), [YouTube](https://www.youtube.com/@p13i), [Google Scholar](https://p13i.io/scholar), [Website](https://p13i.io)
 
 ---
 

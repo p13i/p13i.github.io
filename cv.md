@@ -5,6 +5,9 @@ permalink: /cv/
 date: 2025-10-08
 image: https://p13i.io/assets/2025-10-08-cv/cv-thumbnail.png
 content_css_class: "cv"
+downloads:
+  - name: "\U0001F4DC PDF"
+    url: https://cv.p13i.io
 ---
 
 # Contact

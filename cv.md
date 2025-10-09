@@ -7,35 +7,6 @@ image: https://p13i.io/assets/2025-10-08-cv/cv-thumbnail.png
 content_css_class: "cv"
 ---
 
-<style>
-/* Make headings noticeably smaller (~30% down from Bootstrap defaults),
-   scoped to the inner .post only */
-.cv .row.post .post h1,
-.cv .row.post .post .h1 { font-size: 1.75rem; }  /* was ~2.5rem */
-.cv .row.post .post h2,
-.cv .row.post .post .h2 { font-size: 1.40rem; }  /* was ~2.0rem */
-.cv .row.post .post h3,
-.cv .row.post .post .h3 { font-size: 1.20rem; }  /* was ~1.75rem */
-.cv .row.post .post h4,
-.cv .row.post .post .h4 { font-size: 1.05rem; }  /* was ~1.5rem */
-.cv .row.post .post h5,
-.cv .row.post .post .h5 { font-size: 0.875rem; } /* was ~1.25rem */
-.cv .row.post .post h6,
-.cv .row.post .post .h6 { font-size: 0.75rem; }  /* was ~1.0rem */
-
-/* Compact spacing to match the smaller sizes (optional) */
-.cv .row.post .post h1,
-.cv .row.post .post h2,
-.cv .row.post .post h3,
-.cv .row.post .post h4,
-.cv .row.post .post h5,
-.cv .row.post .post h6 {
-  line-height: 1.15;
-  margin-top: 0.6rem;
-  margin-bottom: 0.4rem;
-}
-</style>
-
 # Contact
 
 [pramod.kotipalli@gmail.com](mailto:pramod.kotipalli@gmail.com),

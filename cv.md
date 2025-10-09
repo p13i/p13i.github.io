@@ -524,7 +524,8 @@ vision-language models to test limits of offline reasoning;
 implementing logit-level response merging for
 semantically-consistent answers.
 
-**Industries**: Artificial Intelligence (AI), Mobile, Edge ML  
+**Industries**: Artificial Intelligence (AI), Mobile, Edge
+ML
 
 **Technologies & Skills**: iOS, Android, Core ML, TensorFlow
 Lite, ONNX Runtime Mobile, Metal (MPS), Android NNAPI,
@@ -536,11 +537,17 @@ optimization
 
 ## Distributed Mini-Transformer Trainer
 
-Distributed Mini-Transformer Trainer – Building 100M-parameter transformer with DeepSpeed and torch.distributed orchestrated on Kubernetes for multi-GPU scaling and fault-tolerant training.
+Distributed Mini-Transformer Trainer – Building
+100M-parameter transformer with DeepSpeed and
+torch.distributed orchestrated on Kubernetes for multi-GPU
+scaling and fault-tolerant training.
 
-**Industries**: Artificial Intelligence (AI), Distributed Systems, MLOps / Cloud  
+**Industries**: Artificial Intelligence (AI), Distributed
+Systems, MLOps / Cloud
 
-**Technologies & Skills**: PyTorch, DeepSpeed, torch.distributed, Kubernetes, Docker, CUDA, monitoring, CI/CD pipelines
+**Technologies & Skills**: PyTorch, DeepSpeed,
+torch.distributed, Kubernetes, Docker, CUDA, monitoring,
+CI/CD pipelines
 
 ## Scratch C++ Transformer Implementation
 
@@ -549,9 +556,11 @@ benchmarking a minimal transformer architecture from first
 principals in C++ to study attention, memory, and throughput
 considerations & trade-offs.
 
-**Industries**: Artificial Intelligence (AI), High-Performance Computing (HPC), Systems  
+**Industries**: Artificial Intelligence (AI),
+High-Performance Computing (HPC), Systems
 
-**Technologies & Skills**: Memory management, Numerical stability, Algorithms, Architecture
+**Technologies & Skills**: Memory management, Numerical
+stability, Algorithms, Architecture
 
 ## TransitMate (2022)
 

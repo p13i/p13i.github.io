@@ -228,6 +228,7 @@ _Enterprise Experience_
 ## Tangible Smart Clothing, Inc. — _Stanford, CA_
 
 **Founder (2020 – 2022)**  
+
 **Leadership experience:** 6–10 Reports
 
 - Designed and sold a fashionable smart neck TelePillow that
@@ -276,7 +277,8 @@ _Enterprise Experience_
 
 ## Stanford Healthcare Innovation Lab — _Stanford, CA_
 
-**Research Engineer (2020 – 2021)**  
+**Research Engineer (2020 – 2021)** 
+
 **Leadership experience:** 1–5 Reports
 
 - Covid-19 called for novel ways to detect, test, and treat
@@ -314,6 +316,7 @@ _Enterprise Experience_
 ## Copilot AI — _Atlanta, GA_
 
 **Founder (2018 – 2020)**  
+
 **Leadership experience:** 1–5 Reports
 
 - Led customer discovery, need-finding, engineering,
@@ -601,8 +604,6 @@ Kotipalli, Paul Lavengco, Katie Fo.
 
 # Skills
 
-# Skills
-
 ## Programming
 
 - Python
@@ -695,7 +696,7 @@ Kotipalli, Paul Lavengco, Katie Fo.
 
 # Portfolio Projects
 
-# TransitMate
+## TransitMate
 
 Our mobile app was a checkpoint-based transit safety
 application that allowed you to share your instantaneous
@@ -724,11 +725,11 @@ our course instructor, a world-renowned human-computer
 interaction Professor teaching at Stanford University in
 California.
 
-## Industry
+### Industry
 
 Mobile App Development
 
-## Technologies & Skills
+### Technologies & Skills
 
 - React Native
 - Figma
@@ -750,7 +751,7 @@ Mobile App Development
 - Expo
 - CI/CD Pipelines
 
-# Remembrance Agent for Java
+## Remembrance Agent for Java
 
 _A context-aware memory augmentation tool inspired by
 Bradley Rhodes’ seminal work._
@@ -781,12 +782,12 @@ stored locally, never transmitted.
 
 ---
 
-## Industries
+### Industries
 
 - Wearables
 - Artificial Intelligence (AI)
 
-## Technologies & Skills
+### Technologies & Skills
 
 - Java
 - APIs
@@ -801,7 +802,7 @@ stored locally, never transmitted.
 - Architecture
 - CI/CD Pipelines
 
-## Autobot: Google Workspace Automation via SMS
+### Autobot: Google Workspace Automation via SMS
 
 Autobot is a Google Apps Script–based automation system that
 integrates Gmail, Calendar, Docs, and Sheets to streamline

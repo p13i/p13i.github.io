@@ -18,7 +18,7 @@ layout: base
     </div>
     <div class="col-12">
         <div class="row">
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-lg-4 {% if page.content_css_class %}{{ page.content_css_class }}{% endif %}">
                 {% if page.image %}
                     <img src="{{ page.image }}"/>
                     <hr/>

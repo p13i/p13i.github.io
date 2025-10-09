@@ -4,31 +4,32 @@ title: "Curriculum Vitae"
 permalink: /cv/
 date: 2025-10-08
 image: https://p13i.io/assets/2025-10-08-cv/cv-thumbnail.png
+content_css_class: "cv"
 ---
 
 <style>
 /* Make headings noticeably smaller (~30% down from Bootstrap defaults),
    scoped to the inner .post only */
-.content .row.post .post h1,
-.content .row.post .post .h1 { font-size: 1.75rem; }  /* was ~2.5rem */
-.content .row.post .post h2,
-.content .row.post .post .h2 { font-size: 1.40rem; }  /* was ~2.0rem */
-.content .row.post .post h3,
-.content .row.post .post .h3 { font-size: 1.20rem; }  /* was ~1.75rem */
-.content .row.post .post h4,
-.content .row.post .post .h4 { font-size: 1.05rem; }  /* was ~1.5rem */
-.content .row.post .post h5,
-.content .row.post .post .h5 { font-size: 0.875rem; } /* was ~1.25rem */
-.content .row.post .post h6,
-.content .row.post .post .h6 { font-size: 0.75rem; }  /* was ~1.0rem */
+.cv .row.post .post h1,
+.cv .row.post .post .h1 { font-size: 1.75rem; }  /* was ~2.5rem */
+.cv .row.post .post h2,
+.cv .row.post .post .h2 { font-size: 1.40rem; }  /* was ~2.0rem */
+.cv .row.post .post h3,
+.cv .row.post .post .h3 { font-size: 1.20rem; }  /* was ~1.75rem */
+.cv .row.post .post h4,
+.cv .row.post .post .h4 { font-size: 1.05rem; }  /* was ~1.5rem */
+.cv .row.post .post h5,
+.cv .row.post .post .h5 { font-size: 0.875rem; } /* was ~1.25rem */
+.cv .row.post .post h6,
+.cv .row.post .post .h6 { font-size: 0.75rem; }  /* was ~1.0rem */
 
 /* Compact spacing to match the smaller sizes (optional) */
-.content .row.post .post h1,
-.content .row.post .post h2,
-.content .row.post .post h3,
-.content .row.post .post h4,
-.content .row.post .post h5,
-.content .row.post .post h6 {
+.cv .row.post .post h1,
+.cv .row.post .post h2,
+.cv .row.post .post h3,
+.cv .row.post .post h4,
+.cv .row.post .post h5,
+.cv .row.post .post h6 {
   line-height: 1.15;
   margin-top: 0.6rem;
   margin-bottom: 0.4rem;
@@ -524,7 +525,8 @@ vision-language models to test limits of offline reasoning;
 implementing logit-level response merging for
 semantically-consistent answers.
 
-**Industries**: Artificial Intelligence (AI), Mobile, Edge ML  
+**Industries**: Artificial Intelligence (AI), Mobile, Edge
+ML
 
 **Technologies & Skills**: iOS, Android, Core ML, TensorFlow
 Lite, ONNX Runtime Mobile, Metal (MPS), Android NNAPI,
@@ -536,11 +538,17 @@ optimization
 
 ## Distributed Mini-Transformer Trainer
 
-Distributed Mini-Transformer Trainer – Building 100M-parameter transformer with DeepSpeed and torch.distributed orchestrated on Kubernetes for multi-GPU scaling and fault-tolerant training.
+Distributed Mini-Transformer Trainer – Building
+100M-parameter transformer with DeepSpeed and
+torch.distributed orchestrated on Kubernetes for multi-GPU
+scaling and fault-tolerant training.
 
-**Industries**: Artificial Intelligence (AI), Distributed Systems, MLOps / Cloud  
+**Industries**: Artificial Intelligence (AI), Distributed
+Systems, MLOps / Cloud
 
-**Technologies & Skills**: PyTorch, DeepSpeed, torch.distributed, Kubernetes, Docker, CUDA, monitoring, CI/CD pipelines
+**Technologies & Skills**: PyTorch, DeepSpeed,
+torch.distributed, Kubernetes, Docker, CUDA, monitoring,
+CI/CD pipelines
 
 ## Scratch C++ Transformer Implementation
 
@@ -549,9 +557,11 @@ benchmarking a minimal transformer architecture from first
 principals in C++ to study attention, memory, and throughput
 considerations & trade-offs.
 
-**Industries**: Artificial Intelligence (AI), High-Performance Computing (HPC), Systems  
+**Industries**: Artificial Intelligence (AI),
+High-Performance Computing (HPC), Systems
 
-**Technologies & Skills**: Memory management, Numerical stability, Algorithms, Architecture
+**Technologies & Skills**: Memory management, Numerical
+stability, Algorithms, Architecture
 
 ## TransitMate (2022)
 

@@ -29,8 +29,8 @@ date: 2025-10-08
 
 Award-winning computer science researcher, integrated
 (hardware + software + human-factors) product designer, and
-engineer. Interests include climate, geopolitics, piano, viola,
-sketching, film/photo, and 3D art.
+engineer. Interests include climate, geopolitics, piano,
+viola, sketching, film/photo, and 3D art.
 
 ## Medium-sized
 
@@ -44,8 +44,8 @@ user-facing software is extensive, ranging from
 cross-platform web applications to server-managed video
 calling systems and even custom electronic devices.
 
-**Languages:** English (native), Telugu (native speaking), American
-Sign Language (intermediate), Mandarin (beginner).
+**Languages:** English (native), Telugu (native speaking),
+American Sign Language (intermediate), Mandarin (beginner).
 
 **Research interests:** Human–computer interaction, physical
 interfaces, industrial design, AR/VR, wearables, and
@@ -57,31 +57,44 @@ human-centered AI.
 
 ## Stanford University — _Stanford, CA_
 
-**Master of Science, Computer Science (2022)**  
+**Master of Science, Computer Science (2022)**
 
 **Concentrations:** Human-Computer Interaction & Artificial
-Intelligence  
+Intelligence
 
 **GPA:** 3.72 / 4.00
 
-**Selected Coursework**: HCI & Design Thinking, UI Prototyping & Evaluation, Physically Based Ray Tracing, Domain-Specific Languages & Compilers, Engineering Design Optimization, Mechatronics
+**Selected Coursework**: HCI & Design Thinking, UI
+Prototyping & Evaluation, Physically Based Ray Tracing,
+Domain-Specific Languages & Compilers, Engineering Design
+Optimization, Mechatronics
 
-**Technologies & Skills**: Design, Engineering, Artificial Intelligence (AI), Human-Computer Interaction (HCI), UI Design, UX Design, User Experience (UX), User Interface (UI), PyTorch, Deep Learning, Computer Vision, Algorithms, GPS Tracker, Google Maps API, Mobile App Development, Programming, Architecture, Kubernetes, Expo, Flutter
+**Technologies & Skills**: Design, Engineering, Artificial
+Intelligence (AI), Human-Computer Interaction (HCI), UI
+Design, UX Design, User Experience (UX), User Interface
+(UI), PyTorch, Deep Learning, Computer Vision, Algorithms,
+GPS Tracker, Google Maps API, Mobile App Development,
+Programming, Architecture, Kubernetes, Expo, Flutter
 
 ---
 
 ## Georgia Institute of Technology — _Atlanta, GA_
 
-**Bachelor of Science, Computer Science (2019)**  
+**Bachelor of Science, Computer Science (2019)**
 
 **Threads:** Information Internetworks & Artificial
-Intelligence  
+Intelligence
 
 **GPA:** 3.83 / 4.00 (Highest Honors)
 
-**Selected Coursework**: Number Theory & Cryptography, History of Industrial Design
+**Selected Coursework**: Number Theory & Cryptography,
+History of Industrial Design
 
-**Technologies & Skills**: Engineering, Human-Computer Interaction (HCI), User Experience (UX), User Interface (UI), Web Design, Deep Learning, Computer Vision, Algorithms, GPS Tracker, Mobile App Development, Programming, Django, Architecture, PostgreSQL
+**Technologies & Skills**: Engineering, Human-Computer
+Interaction (HCI), User Experience (UX), User Interface
+(UI), Web Design, Deep Learning, Computer Vision,
+Algorithms, GPS Tracker, Mobile App Development,
+Programming, Django, Architecture, PostgreSQL
 
 ---
 
@@ -167,7 +180,8 @@ _Enterprise Experience_
   QPS to a reliable 40m.
 
 **Industries**: Software, Business Technology  
-**Technologies & Skills**: C++, Java, Python, Server Configuration, Distributed Systems, Algorithms, Testing
+**Technologies & Skills**: C++, Java, Python, Server
+Configuration, Distributed Systems, Algorithms, Testing
 
 ---
 
@@ -184,7 +198,14 @@ _Enterprise Experience_
   19k waitlist. Venture-backed; acquired by Easel AI.
 
 **Industries**: Consumer Electronics & Computers Retail  
-**Technologies & Skills**: React Native, iOS, Android, Bluetooth, TypeScript, JavaScript, Java, Objective-C, WebRTC, Engineering Management, User Experience (UX), User Interface (UI), Web Design, API Integration, Algorithms, GPS Tracker, Google Maps API, Mobile App Development, Testing, Twilio, Programming, Django, WebSockets, Architecture, Kubernetes, PostgreSQL, DevOps, Expo, CI/CD Pipelines, Flutter
+**Technologies & Skills**: React Native, iOS, Android,
+Bluetooth, TypeScript, JavaScript, Java, Objective-C,
+WebRTC, Engineering Management, User Experience (UX), User
+Interface (UI), Web Design, API Integration, Algorithms, GPS
+Tracker, Google Maps API, Mobile App Development, Testing,
+Twilio, Programming, Django, WebSockets, Architecture,
+Kubernetes, PostgreSQL, DevOps, Expo, CI/CD Pipelines,
+Flutter
 
 ---
 
@@ -204,7 +225,10 @@ _Enterprise Experience_
   informatics journal, where it won a Best Paper award.
 
 **Industries**: Healthcare Software  
-**Technologies & Skills**: Java, Swift, Objective-C, API Integration, Algorithms, Mobile App Development, Testing, Twilio, Programming, WebSockets, Architecture, PostgreSQL, DevOps, CI/CD Pipelines, Flutter
+**Technologies & Skills**: Java, Swift, Objective-C, API
+Integration, Algorithms, Mobile App Development, Testing,
+Twilio, Programming, WebSockets, Architecture, PostgreSQL,
+DevOps, CI/CD Pipelines, Flutter
 
 ---
 
@@ -225,8 +249,16 @@ _Enterprise Experience_
   wearable computing journal; at our conference, we won the
   Best Paper award.
 
-**Industries**: Wearables, Artificial Intelligence (AI), Lean Startups  
-**Technologies & Skills**: Java, Android, JavaScript, 3D Printing, Filmmaking, SEO Marketing, Web Marketing, Branding, UX Research, UI Engineering, Fundraising, Hiring, Financial Management, Process Automation, Deep Learning, Computer Vision, Algorithms, GPS Tracker, Google Maps API, Mobile App Development, Twilio, Programming, Django, WebSockets, Architecture, Kubernetes, PostgreSQL, DevOps, CI/CD Pipelines
+**Industries**: Wearables, Artificial Intelligence (AI),
+Lean Startups  
+**Technologies & Skills**: Java, Android, JavaScript, 3D
+Printing, Filmmaking, SEO Marketing, Web Marketing,
+Branding, UX Research, UI Engineering, Fundraising, Hiring,
+Financial Management, Process Automation, Deep Learning,
+Computer Vision, Algorithms, GPS Tracker, Google Maps API,
+Mobile App Development, Twilio, Programming, Django,
+WebSockets, Architecture, Kubernetes, PostgreSQL, DevOps,
+CI/CD Pipelines
 
 ---
 
@@ -244,8 +276,13 @@ _Enterprise Experience_
 - Our solution was used in the 2019 CA wildfires and informs
   policies.
 
-**Industries**: Business Services, Management Consulting, Information & Document Management, Research & Development, Government, Federal, Healthcare Software  
-**Technologies & Skills**: Python, Agile, Evaluation, Needs Analysis, Presentations, IT Consulting, Algorithms, GPS Tracker, Mobile App Development, Programming, Architecture, PostgreSQL, DevOps
+**Industries**: Business Services, Management Consulting,
+Information & Document Management, Research & Development,
+Government, Federal, Healthcare Software  
+**Technologies & Skills**: Python, Agile, Evaluation, Needs
+Analysis, Presentations, IT Consulting, Algorithms, GPS
+Tracker, Mobile App Development, Programming, Architecture,
+PostgreSQL, DevOps
 
 ---
 
@@ -270,8 +307,13 @@ _Enterprise Experience_
   sharing findings back with our organization and its
   engineers.
 
-**Industries**: Manufacturing, Computer Equipment & Peripherals, Telecommunication Equipment, Private Clouds, Networking Software  
-**Technologies & Skills**: Docker, JavaScript, TypeScript, Angular, Django, Python, NGINX, API Integration, Algorithms, Testing, Programming, WebSockets, Architecture, Kubernetes, DevOps, CI/CD Pipelines
+**Industries**: Manufacturing, Computer Equipment &
+Peripherals, Telecommunication Equipment, Private Clouds,
+Networking Software  
+**Technologies & Skills**: Docker, JavaScript, TypeScript,
+Angular, Django, Python, NGINX, API Integration, Algorithms,
+Testing, Programming, WebSockets, Architecture, Kubernetes,
+DevOps, CI/CD Pipelines
 
 ---
 
@@ -291,8 +333,12 @@ _Enterprise Experience_
 - Shadowed our UX research team, sparking my long-term
   interests in human-computer interaction work.
 
-**Industries**: Transportation, Airlines, Airports & Air Services, Supply Chain Management (SCM) Software  
-**Technologies & Skills**: C#, JavaScript, TypeScript, HTML, CSS, AngularJS, React, C++, Windows Server, .NET Framework, API Integration, Process Automation, Algorithms, Testing, Programming, Architecture, DevOps, CI/CD Pipelines
+**Industries**: Transportation, Airlines, Airports & Air
+Services, Supply Chain Management (SCM) Software  
+**Technologies & Skills**: C#, JavaScript, TypeScript, HTML,
+CSS, AngularJS, React, C++, Windows Server, .NET Framework,
+API Integration, Process Automation, Algorithms, Testing,
+Programming, Architecture, DevOps, CI/CD Pipelines
 
 ---
 
@@ -388,15 +434,30 @@ Kotipalli, Paul Lavengco, Katie Fo.
 
 # Skills
 
-- **Programming**: Python, C#, Java, C++, Embedded C, JavaScript, TypeScript, Swift, Bash, MATLAB, HTML, CSS
-- **Frameworks**: Unity, OpenFrameworks, LLVM, iOS, Android, React Native, .NET, Angular, NodeJS, Django
-- **Deployment**: Vagrant, Docker, Azure, AWS, Heroku, Google Cloud Platform (GCP)
-- **Databases**: Microsoft SQL Server, PostgreSQL, Redis, MySQL, Firebase, MongoDB
-- **Machine Learning**: Digital Signal Processing (DSP), scikit-learn, TensorFlow, PyTorch, Keras
-- **Design**: Adobe Suite (Illustrator, After Effects, Premiere, Photoshop, Audition, InDesign, Lightroom, XD), Cinema 4D, Octane Render, Sketch, Figma
-- **HCI Methods**: Human-subjects study design (counterbalancing, dual-task studies, learning effects), IRB approvals, Qualitative interview design, UX research and UI evaluation, Data visualization and statistical analysis
-- **Fabrication**: Laser cutting (Epilog, Universal Laser Systems), Arduino prototyping, Microchip PIC32 development, CNC machining
-- **Systems**: Distributed system design, Containerization and scaling, Asynchronous task queues, Dependency injection, ORM frameworks, MapReduce pipelines
+- **Programming**: Python, C#, Java, C++, Embedded C,
+  JavaScript, TypeScript, Swift, Bash, MATLAB, HTML, CSS
+- **Frameworks**: Unity, OpenFrameworks, LLVM, iOS, Android,
+  React Native, .NET, Angular, NodeJS, Django
+- **Deployment**: Vagrant, Docker, Azure, AWS, Heroku,
+  Google Cloud Platform (GCP)
+- **Databases**: Microsoft SQL Server, PostgreSQL, Redis,
+  MySQL, Firebase, MongoDB
+- **Machine Learning**: Digital Signal Processing (DSP),
+  scikit-learn, TensorFlow, PyTorch, Keras
+- **Design**: Adobe Suite (Illustrator, After Effects,
+  Premiere, Photoshop, Audition, InDesign, Lightroom, XD),
+  Cinema 4D, Octane Render, Sketch, Figma
+- **HCI Methods**: Human-subjects study design
+  (counterbalancing, dual-task studies, learning effects),
+  IRB approvals, Qualitative interview design, UX research
+  and UI evaluation, Data visualization and statistical
+  analysis
+- **Fabrication**: Laser cutting (Epilog, Universal Laser
+  Systems), Arduino prototyping, Microchip PIC32
+  development, CNC machining
+- **Systems**: Distributed system design, Containerization
+  and scaling, Asynchronous task queues, Dependency
+  injection, ORM frameworks, MapReduce pipelines
 
 ---
 
@@ -432,7 +493,11 @@ interaction Professor teaching at Stanford University in
 California.
 
 **Industry**: Mobile App Development  
-**Technologies & Skills**: React Native, Figma, iOS, App Store, UI Evaluation, UX Research, User Experience (UX), User Interface (UI), Web Design, Algorithms, GPS Tracker, Google Maps API, Mobile App Development, Testing, Programming, Architecture, DevOps, Expo, CI/CD Pipelines
+**Technologies & Skills**: React Native, Figma, iOS, App
+Store, UI Evaluation, UX Research, User Experience (UX),
+User Interface (UI), Web Design, Algorithms, GPS Tracker,
+Google Maps API, Mobile App Development, Testing,
+Programming, Architecture, DevOps, Expo, CI/CD Pipelines
 
 ## Remembrance Agent for Java
 
@@ -464,7 +529,10 @@ allowing later analysis for retrieval optimization — all
 stored locally, never transmitted.
 
 **Industries**: Wearables, Artificial Intelligence (AI)  
-**Technologies & Skills**: Java, APIs, Linux, User Experience (UX), User Interface (UI), Algorithms, Mobile App Development, Testing, Programming, WebSockets, Architecture, CI/CD Pipelines
+**Technologies & Skills**: Java, APIs, Linux, User
+Experience (UX), User Interface (UI), Algorithms, Mobile App
+Development, Testing, Programming, WebSockets, Architecture,
+CI/CD Pipelines
 
 ## Autobot: Google Workspace Automation via SMS
 
@@ -491,8 +559,14 @@ expertise in Google Workspace automation, API design and
 integration, and extensible system design connecting
 structured back-end logic with natural user input.
 
-**Industries**: Healthcare Software, Engineering Software, Telephony & Wireless  
-**Technologies & Skills**: Google Apps Script, JavaScript, TypeScript, GoogleScript, API Design, API Integration, Gmail API, Google Calendar API, Google Docs, Google APIs, Data Modeling, Logging, Google Sheets API, Automated Data Flows, IT Systems Architecture, Background Jobs, Modular Design, Google Sheets, Programming, Architecture
+**Industries**: Healthcare Software, Engineering Software,
+Telephony & Wireless  
+**Technologies & Skills**: Google Apps Script, JavaScript,
+TypeScript, GoogleScript, API Design, API Integration, Gmail
+API, Google Calendar API, Google Docs, Google APIs, Data
+Modeling, Logging, Google Sheets API, Automated Data Flows,
+IT Systems Architecture, Background Jobs, Modular Design,
+Google Sheets, Programming, Architecture
 
 ## Georgia Tech Score: Mobile Solution for Judging Poster Sessions
 
@@ -525,9 +599,11 @@ lines of HTML, 1,000 lines of JavaScript/TypeScript, and
 mobile-first, focusing on usability and accessibility for
 on-the-go judges.
 
-**Industries**: Education, Mobile, Web Development  
+**Industries**: Education, Mobile, Web Development
 
-**Technologies & Skills**: Python, JavaScript, TypeScript, WebSockets, WebRTC, Firebase Realtime Database, Django, Architecture, PostgreSQL, DevOps, Expo, CI/CD Pipelines
+**Technologies & Skills**: Python, JavaScript, TypeScript,
+WebSockets, WebRTC, Firebase Realtime Database, Django,
+Architecture, PostgreSQL, DevOps, Expo, CI/CD Pipelines
 
 ---
 

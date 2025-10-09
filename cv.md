@@ -27,8 +27,8 @@ date: 2025-10-08
 
 Award-winning computer science researcher, integrated
 (hardware + software + human-factors) product designer, and
-engineer. Interests include climate, geopolitics, piano, viola,
-sketching, film/photo, and 3D art.
+engineer. Interests include climate, geopolitics, piano,
+viola, sketching, film/photo, and 3D art.
 
 ## Medium-sized
 
@@ -42,8 +42,8 @@ user-facing software is extensive, ranging from
 cross-platform web applications to server-managed video
 calling systems and even custom electronic devices.
 
-**Languages:** English (native), Telugu (native speaking), American
-Sign Language (intermediate), Mandarin (beginner).
+**Languages:** English (native), Telugu (native speaking),
+American Sign Language (intermediate), Mandarin (beginner).
 
 **Research interests:** Human–computer interaction, physical
 interfaces, industrial design, AR/VR, wearables, and
@@ -55,10 +55,10 @@ human-centered AI.
 
 ## Stanford University — _Stanford, CA_
 
-**Master of Science, Computer Science (2022)**  
+**Master of Science, Computer Science (2022)**
 
 **Concentrations:** Human-Computer Interaction & Artificial
-Intelligence  
+Intelligence
 
 **GPA:** 3.72 / 4.00
 
@@ -96,10 +96,10 @@ Intelligence
 
 ## Georgia Institute of Technology — _Atlanta, GA_
 
-**Bachelor of Science, Computer Science (2019)**  
+**Bachelor of Science, Computer Science (2019)**
 
 **Threads:** Information Internetworks & Artificial
-Intelligence  
+Intelligence
 
 **GPA:** 3.83 / 4.00 (Highest Honors)
 

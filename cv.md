@@ -36,12 +36,20 @@ image: https://p13i.io/assets/2025-10-08-cv/cv-thumbnail.png
 </style>
 
 # Contact
-[pramod.kotipalli@gmail.com](mailto:pramod.kotipalli@gmail.com), [+1 (425) 667-0000](tel:+14256670000)
+
+[pramod.kotipalli@gmail.com](mailto:pramod.kotipalli@gmail.com),
+[+1 (425) 667-0000](tel:+14256670000)
 
 ---
 
 # Links
-[LinkedIn](https://www.linkedin.com/in/p13i), [IMDb](https://www.imdb.com/name/nm12384452/), [GitHub](https://github.com/p13i), [YouTube](https://www.youtube.com/@p13i), [Google Scholar](https://p13i.io/scholar), [Website](https://p13i.io)
+
+[LinkedIn](https://www.linkedin.com/in/p13i),
+[IMDb](https://www.imdb.com/name/nm12384452/),
+[GitHub](https://github.com/p13i),
+[YouTube](https://www.youtube.com/@p13i),
+[Google Scholar](https://p13i.io/scholar),
+[Website](https://p13i.io)
 
 ---
 
@@ -457,37 +465,95 @@ Kotipalli, Paul Lavengco, Katie Fo.
 # Skills
 
 ## Programming
-Python, C#, Java, C++, Embedded C, JavaScript, TypeScript, Swift, Bash, MATLAB, HTML, CSS
+
+Python, C#, Java, C++, Embedded C, JavaScript, TypeScript,
+Swift, Bash, MATLAB, HTML, CSS
 
 ## Frameworks
-Unity, OpenFrameworks, LLVM, iOS, Android, React Native, .NET, Angular, NodeJS, Django
+
+Unity, OpenFrameworks, LLVM, iOS, Android, React Native,
+.NET, Angular, NodeJS, Django
 
 ## Deployment
-Vagrant, Docker, Azure, AWS, Heroku, Google Cloud Platform (GCP)
+
+Vagrant, Docker, Azure, AWS, Heroku, Google Cloud Platform
+(GCP)
 
 ## Databases
-Microsoft SQL Server, PostgreSQL, Redis, MySQL, Firebase, MongoDB
+
+Microsoft SQL Server, PostgreSQL, Redis, MySQL, Firebase,
+MongoDB
 
 ## Machine Learning
-Digital Signal Processing (DSP), scikit-learn, TensorFlow, PyTorch, Keras
+
+Digital Signal Processing (DSP), scikit-learn, TensorFlow,
+PyTorch, Keras
 
 ## Design
-Adobe Suite (Illustrator, After Effects, Premiere, Photoshop, Audition, InDesign, Lightroom, XD), Cinema 4D, Octane Render, Sketch, Figma
+
+Adobe Suite (Illustrator, After Effects, Premiere,
+Photoshop, Audition, InDesign, Lightroom, XD), Cinema 4D,
+Octane Render, Sketch, Figma
 
 ## HCI Methods
-Human-subjects study design (counterbalancing, dual-task studies, learning effects), IRB approvals, Qualitative interview design, UX research and UI evaluation, Data visualization and statistical analysis
+
+Human-subjects study design (counterbalancing, dual-task
+studies, learning effects), IRB approvals, Qualitative
+interview design, UX research and UI evaluation, Data
+visualization and statistical analysis
 
 ## Fabrication
-Laser cutting (Epilog, Universal Laser Systems), Arduino prototyping, Microchip PIC32 development, CNC machining
+
+Laser cutting (Epilog, Universal Laser Systems), Arduino
+prototyping, Microchip PIC32 development, CNC machining
 
 ## Systems
-Distributed system design, Containerization and scaling, Asynchronous task queues, Dependency injection, ORM frameworks, MapReduce pipelines
+
+Distributed system design, Containerization and scaling,
+Asynchronous task queues, Dependency injection, ORM
+frameworks, MapReduce pipelines
 
 ---
 
 # Portfolio Projects
 
-## TransitMate
+## Visual Inference on Mobile Devices
+
+Visual Inference on Mobile Devices – Quantizing on-device
+vision-language models to test limits of offline reasoning;
+implementing logit-level response merging for
+semantically-consistent answers.
+
+**Industries**: Artificial Intelligence (AI), Mobile, Edge ML  
+
+**Technologies & Skills**: iOS, Android, Core ML, TensorFlow
+Lite, ONNX Runtime Mobile, Metal (MPS), Android NNAPI,
+Quantization (INT8 / INT4), Post-Training Quantization
+(PTQ), Quantization-Aware Training (QAT), Vision–Language
+Models (CLIP / BLIP / LLaVA), Logit-level ensembling /
+response merging, ONNX model conversion, Profiling &
+optimization
+
+## Distributed Mini-Transformer Trainer
+
+Distributed Mini-Transformer Trainer – Building 100M-parameter transformer with DeepSpeed and torch.distributed orchestrated on Kubernetes for multi-GPU scaling and fault-tolerant training.
+
+**Industries**: Artificial Intelligence (AI), Distributed Systems, MLOps / Cloud  
+
+**Technologies & Skills**: PyTorch, DeepSpeed, torch.distributed, Kubernetes, Docker, CUDA, monitoring, CI/CD pipelines
+
+## Scratch C++ Transformer Implementation
+
+Scratch C++ Transformer Implementation – Programming &
+benchmarking a minimal transformer architecture from first
+principals in C++ to study attention, memory, and throughput
+considerations & trade-offs.
+
+**Industries**: Artificial Intelligence (AI), High-Performance Computing (HPC), Systems  
+
+**Technologies & Skills**: Memory management, Numerical stability, Algorithms, Architecture
+
+## TransitMate (2022)
 
 Our mobile app was a checkpoint-based transit safety
 application that allowed you to share your instantaneous

@@ -5,26 +5,6 @@ permalink: /cv/
 date: 2025-10-08
 ---
 
-<style>
-/* Inline, wrapped comma-separated lists inside the INNER .post only */
-.content .row.post .post ul {
-  list-style: none;
-  margin: 0 0 1rem;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap; /* fill remaining right-side whitespace */
-}
-
-.content .row.post .post ul > li {
-  display: inline-flex;
-  white-space: nowrap;
-}
-
-.content .row.post .post ul > li:not(:last-child)::after {
-  content: ",\00a0";
-}
-</style>
-
 # Contact
 
 - [pramod.kotipalli@gmail.com](mailto:pramod.kotipalli@gmail.com)
@@ -84,37 +64,9 @@ Intelligence
 
 **GPA:** 3.72 / 4.00
 
-### Selected Coursework
+**Selected Coursework**: HCI & Design Thinking, UI Prototyping & Evaluation, Physically Based Ray Tracing, Domain-Specific Languages & Compilers, Engineering Design Optimization, Mechatronics
 
-- HCI & Design Thinking
-- UI Prototyping & Evaluation
-- Physically Based Ray Tracing
-- Domain-Specific Languages & Compilers
-- Engineering Design Optimization
-- Mechatronics
-
-### Technologies & Skills
-
-- Design
-- Engineering
-- Artificial Intelligence (AI)
-- Human-Computer Interaction (HCI)
-- UI Design
-- UX Design
-- User Experience (UX)
-- User Interface (UI)
-- PyTorch
-- Deep Learning
-- Computer Vision
-- Algorithms
-- GPS Tracker
-- Google Maps API
-- Mobile App Development
-- Programming
-- Architecture
-- Kubernetes
-- Expo
-- Flutter
+**Technologies & Skills**: Design, Engineering, Artificial Intelligence (AI), Human-Computer Interaction (HCI), UI Design, UX Design, User Experience (UX), User Interface (UI), PyTorch, Deep Learning, Computer Vision, Algorithms, GPS Tracker, Google Maps API, Mobile App Development, Programming, Architecture, Kubernetes, Expo, Flutter
 
 ---
 
@@ -127,27 +79,9 @@ Intelligence
 
 **GPA:** 3.83 / 4.00 (Highest Honors)
 
-### Selected Coursework
+**Selected Coursework**: Number Theory & Cryptography, History of Industrial Design
 
-- Number Theory & Cryptography
-- History of Industrial Design
-
-### Technologies & Skills
-
-- Engineering
-- Human-Computer Interaction (HCI)
-- User Experience (UX)
-- User Interface (UI)
-- Web Design
-- Deep Learning
-- Computer Vision
-- Algorithms
-- GPS Tracker
-- Mobile App Development
-- Programming
-- Django
-- Architecture
-- PostgreSQL
+**Technologies & Skills**: Engineering, Human-Computer Interaction (HCI), User Experience (UX), User Interface (UI), Web Design, Deep Learning, Computer Vision, Algorithms, GPS Tracker, Mobile App Development, Programming, Django, Architecture, PostgreSQL
 
 ---
 
@@ -179,13 +113,11 @@ Intelligence
 - Covid-19 called for novel ways to detect, test, and treat
   the disease. Our team designed a system that could detect
   asymptomatic Covid-19 only using data from smartwatches.
-
-* I developed the data collection, parsing, and upload
+- I developed the data collection, parsing, and upload
   functions for our iOS and Android apps using smartwatches’
   APIs. I added dependency injection and instrumented UI
   testing.
-
-* Our work was published in a well-regarded health
+- Our work was published in a well-regarded health
   informatics journal, where it won a Best Paper award.
 
 ---
@@ -234,25 +166,14 @@ _Enterprise Experience_
 - Increased the in-production v3 policy API serving capacity
   QPS to a reliable 40m.
 
-## Industries
+**Industries**: Software, Business Technology  
+**Technologies & Skills**: C++, Java, Python, Server Configuration, Distributed Systems, Algorithms, Testing
 
-- Software
-- Business Technology
-
-## Technologies & Skills
-
-- C++
-- Java
-- Python
-- Server Configuration
-- Distributed Systems
-- Algorithms
-- Testing
+---
 
 ## Tangible Smart Clothing, Inc. — _Stanford, CA_
 
 **Founder (2020 – 2022)**  
-
 **Leadership experience:** 6–10 Reports
 
 - Designed and sold a fashionable smart neck TelePillow that
@@ -262,47 +183,14 @@ _Enterprise Experience_
 - A successful Kickstarter produced a six-figure ARR with a
   19k waitlist. Venture-backed; acquired by Easel AI.
 
-## Industries
+**Industries**: Consumer Electronics & Computers Retail  
+**Technologies & Skills**: React Native, iOS, Android, Bluetooth, TypeScript, JavaScript, Java, Objective-C, WebRTC, Engineering Management, User Experience (UX), User Interface (UI), Web Design, API Integration, Algorithms, GPS Tracker, Google Maps API, Mobile App Development, Testing, Twilio, Programming, Django, WebSockets, Architecture, Kubernetes, PostgreSQL, DevOps, Expo, CI/CD Pipelines, Flutter
 
-- Consumer Electronics & Computers Retail
-
-## Technologies & Skills
-
-- React Native
-- iOS
-- Android
-- Bluetooth
-- TypeScript
-- JavaScript
-- Java
-- Objective-C
-- WebRTC
-- Engineering Management
-- User Experience (UX)
-- User Interface (UI)
-- Web Design
-- API Integration
-- Algorithms
-- GPS Tracker
-- Google Maps API
-- Mobile App Development
-- Testing
-- Twilio
-- Programming
-- Django
-- WebSockets
-- Architecture
-- Kubernetes
-- PostgreSQL
-- DevOps
-- Expo
-- CI/CD Pipelines
-- Flutter
+---
 
 ## Stanford Healthcare Innovation Lab — _Stanford, CA_
 
-**Research Engineer (2020 – 2021)** 
-
+**Research Engineer (2020 – 2021)**  
 **Leadership experience:** 1–5 Reports
 
 - Covid-19 called for novel ways to detect, test, and treat
@@ -315,32 +203,14 @@ _Enterprise Experience_
 - Our work was published in a well-regarded health
   informatics journal, where it won a Best Paper award.
 
-## Industries
+**Industries**: Healthcare Software  
+**Technologies & Skills**: Java, Swift, Objective-C, API Integration, Algorithms, Mobile App Development, Testing, Twilio, Programming, WebSockets, Architecture, PostgreSQL, DevOps, CI/CD Pipelines, Flutter
 
-- Healthcare Software
-
-## Technologies & Skills
-
-- Java
-- Swift
-- Objective-C
-- API Integration
-- Algorithms
-- Mobile App Development
-- Testing
-- Twilio
-- Programming
-- WebSockets
-- Architecture
-- PostgreSQL
-- DevOps
-- CI/CD Pipelines
-- Flutter
+---
 
 ## Copilot AI — _Atlanta, GA_
 
 **Founder (2018 – 2020)**  
-
 **Leadership experience:** 1–5 Reports
 
 - Led customer discovery, need-finding, engineering,
@@ -355,43 +225,10 @@ _Enterprise Experience_
   wearable computing journal; at our conference, we won the
   Best Paper award.
 
-## Industries
+**Industries**: Wearables, Artificial Intelligence (AI), Lean Startups  
+**Technologies & Skills**: Java, Android, JavaScript, 3D Printing, Filmmaking, SEO Marketing, Web Marketing, Branding, UX Research, UI Engineering, Fundraising, Hiring, Financial Management, Process Automation, Deep Learning, Computer Vision, Algorithms, GPS Tracker, Google Maps API, Mobile App Development, Twilio, Programming, Django, WebSockets, Architecture, Kubernetes, PostgreSQL, DevOps, CI/CD Pipelines
 
-- Wearables
-- Artificial Intelligence (AI)
-- Lean Startups
-
-## Technologies & Skills
-
-- Java
-- Android
-- JavaScript
-- 3D Printing
-- Filmmaking
-- SEO Marketing
-- Web Marketing
-- Branding
-- UX Research
-- UI Engineering
-- Fundraising
-- Hiring
-- Financial Management
-- Process Automation
-- Deep Learning
-- Computer Vision
-- Algorithms
-- GPS Tracker
-- Google Maps API
-- Mobile App Development
-- Twilio
-- Programming
-- Django
-- WebSockets
-- Architecture
-- Kubernetes
-- PostgreSQL
-- DevOps
-- CI/CD Pipelines
+---
 
 ## CDC — _Atlanta, GA_
 
@@ -407,31 +244,10 @@ _Enterprise Experience_
 - Our solution was used in the 2019 CA wildfires and informs
   policies.
 
-## Industries
+**Industries**: Business Services, Management Consulting, Information & Document Management, Research & Development, Government, Federal, Healthcare Software  
+**Technologies & Skills**: Python, Agile, Evaluation, Needs Analysis, Presentations, IT Consulting, Algorithms, GPS Tracker, Mobile App Development, Programming, Architecture, PostgreSQL, DevOps
 
-- Business Services
-- Management Consulting
-- Information & Document Management
-- Research & Development
-- Government
-- Federal
-- Healthcare Software
-
-## Technologies & Skills
-
-- Python
-- Agile
-- Evaluation
-- Needs Analysis
-- Presentations
-- IT Consulting
-- Algorithms
-- GPS Tracker
-- Mobile App Development
-- Programming
-- Architecture
-- PostgreSQL
-- DevOps
+---
 
 ## Cisco — _San Jose, CA_
 
@@ -454,32 +270,10 @@ _Enterprise Experience_
   sharing findings back with our organization and its
   engineers.
 
-## Industries
+**Industries**: Manufacturing, Computer Equipment & Peripherals, Telecommunication Equipment, Private Clouds, Networking Software  
+**Technologies & Skills**: Docker, JavaScript, TypeScript, Angular, Django, Python, NGINX, API Integration, Algorithms, Testing, Programming, WebSockets, Architecture, Kubernetes, DevOps, CI/CD Pipelines
 
-- Manufacturing
-- Computer Equipment & Peripherals
-- Telecommunication Equipment
-- Private Clouds
-- Networking Software
-
-## Technologies & Skills
-
-- Docker
-- JavaScript
-- TypeScript
-- Angular
-- Django
-- Python
-- NGINX
-- API Integration
-- Algorithms
-- Testing
-- Programming
-- WebSockets
-- Architecture
-- Kubernetes
-- DevOps
-- CI/CD Pipelines
+---
 
 ## SpaceX — _Hawthorne, CA_
 
@@ -497,32 +291,10 @@ _Enterprise Experience_
 - Shadowed our UX research team, sparking my long-term
   interests in human-computer interaction work.
 
-## Industries
+**Industries**: Transportation, Airlines, Airports & Air Services, Supply Chain Management (SCM) Software  
+**Technologies & Skills**: C#, JavaScript, TypeScript, HTML, CSS, AngularJS, React, C++, Windows Server, .NET Framework, API Integration, Process Automation, Algorithms, Testing, Programming, Architecture, DevOps, CI/CD Pipelines
 
-- Transportation
-- Airlines, Airports & Air Services
-- Supply Chain Management (SCM) Software
-
-## Technologies & Skills
-
-- C#
-- JavaScript
-- TypeScript
-- HTML
-- CSS
-- AngularJS
-- React
-- C++
-- Windows Server
-- .NET Framework
-- API Integration
-- Process Automation
-- Algorithms
-- Testing
-- Programming
-- Architecture
-- DevOps
-- CI/CD Pipelines
+---
 
 ## Safely LLC — _Atlanta, GA_
 
@@ -616,93 +388,15 @@ Kotipalli, Paul Lavengco, Katie Fo.
 
 # Skills
 
-## Programming
-
-- Python
-- C#
-- Java
-- C++
-- Embedded C
-- JavaScript
-- TypeScript
-- Swift
-- Bash
-- MATLAB
-- HTML
-- CSS
-
-## Frameworks
-
-- Unity
-- OpenFrameworks
-- LLVM
-- iOS
-- Android
-- React Native
-- .NET
-- Angular
-- NodeJS
-- Django
-
-## Deployment
-
-- Vagrant
-- Docker
-- Azure
-- AWS
-- Heroku
-- Google Cloud Platform (GCP)
-
-## Databases
-
-- Microsoft SQL Server
-- PostgreSQL
-- Redis
-- MySQL
-- Firebase
-- MongoDB
-
-## Machine Learning
-
-- Digital Signal Processing (DSP)
-- scikit-learn
-- TensorFlow
-- PyTorch
-- Keras
-
-## Design
-
-- Adobe Suite (Illustrator, After Effects, Premiere,
-  Photoshop, Audition, InDesign, Lightroom, XD)
-- Cinema 4D
-- Octane Render
-- Sketch
-- Figma
-
-## HCI Methods
-
-- Human-subjects study design (counterbalancing, dual-task
-  studies, learning effects)
-- IRB approvals
-- Qualitative interview design
-- UX research and UI evaluation
-- Data visualization and statistical analysis
-
-## Fabrication
-
-- Laser cutting (Epilog, Universal Laser Systems)
-- Arduino prototyping
-- Microchip PIC32 development
-- CNC machining
-
-## Systems
-
-- Distributed system design
-- Containerization and scaling
-- Asynchronous task queues
-- Dependency injection
-- ORM frameworks
-- MapReduce pipelines
+- **Programming**: Python, C#, Java, C++, Embedded C, JavaScript, TypeScript, Swift, Bash, MATLAB, HTML, CSS
+- **Frameworks**: Unity, OpenFrameworks, LLVM, iOS, Android, React Native, .NET, Angular, NodeJS, Django
+- **Deployment**: Vagrant, Docker, Azure, AWS, Heroku, Google Cloud Platform (GCP)
+- **Databases**: Microsoft SQL Server, PostgreSQL, Redis, MySQL, Firebase, MongoDB
+- **Machine Learning**: Digital Signal Processing (DSP), scikit-learn, TensorFlow, PyTorch, Keras
+- **Design**: Adobe Suite (Illustrator, After Effects, Premiere, Photoshop, Audition, InDesign, Lightroom, XD), Cinema 4D, Octane Render, Sketch, Figma
+- **HCI Methods**: Human-subjects study design (counterbalancing, dual-task studies, learning effects), IRB approvals, Qualitative interview design, UX research and UI evaluation, Data visualization and statistical analysis
+- **Fabrication**: Laser cutting (Epilog, Universal Laser Systems), Arduino prototyping, Microchip PIC32 development, CNC machining
+- **Systems**: Distributed system design, Containerization and scaling, Asynchronous task queues, Dependency injection, ORM frameworks, MapReduce pipelines
 
 ---
 
@@ -737,31 +431,8 @@ our course instructor, a world-renowned human-computer
 interaction Professor teaching at Stanford University in
 California.
 
-### Industry
-
-Mobile App Development
-
-### Technologies & Skills
-
-- React Native
-- Figma
-- iOS
-- App Store
-- UI Evaluation
-- UX Research
-- User Experience (UX)
-- User Interface (UI)
-- Web Design
-- Algorithms
-- GPS Tracker
-- Google Maps API
-- Mobile App Development
-- Testing
-- Programming
-- Architecture
-- DevOps
-- Expo
-- CI/CD Pipelines
+**Industry**: Mobile App Development  
+**Technologies & Skills**: React Native, Figma, iOS, App Store, UI Evaluation, UX Research, User Experience (UX), User Interface (UI), Web Design, Algorithms, GPS Tracker, Google Maps API, Mobile App Development, Testing, Programming, Architecture, DevOps, Expo, CI/CD Pipelines
 
 ## Remembrance Agent for Java
 
@@ -792,29 +463,10 @@ keylogger records keystrokes only while the RA is active,
 allowing later analysis for retrieval optimization — all
 stored locally, never transmitted.
 
----
+**Industries**: Wearables, Artificial Intelligence (AI)  
+**Technologies & Skills**: Java, APIs, Linux, User Experience (UX), User Interface (UI), Algorithms, Mobile App Development, Testing, Programming, WebSockets, Architecture, CI/CD Pipelines
 
-### Industries
-
-- Wearables
-- Artificial Intelligence (AI)
-
-### Technologies & Skills
-
-- Java
-- APIs
-- Linux
-- User Experience (UX)
-- User Interface (UI)
-- Algorithms
-- Mobile App Development
-- Testing
-- Programming
-- WebSockets
-- Architecture
-- CI/CD Pipelines
-
-### Autobot: Google Workspace Automation via SMS
+## Autobot: Google Workspace Automation via SMS
 
 Autobot is a Google Apps Script–based automation system that
 integrates Gmail, Calendar, Docs, and Sheets to streamline
@@ -839,36 +491,8 @@ expertise in Google Workspace automation, API design and
 integration, and extensible system design connecting
 structured back-end logic with natural user input.
 
----
-
-### Industries
-
-- Healthcare Software
-- Engineering Software
-- Telephony & Wireless
-
-### Technologies & Skills
-
-- Google Apps Script
-- JavaScript
-- TypeScript
-- GoogleScript
-- API Design
-- API Integration
-- Gmail API
-- Google Calendar API
-- Google Docs
-- Google APIs
-- Data Modeling
-- Logging
-- Google Sheets API
-- Automated Data Flows
-- IT Systems Architecture
-- Background Jobs
-- Modular Design
-- Google Sheets
-- Programming
-- Architecture
+**Industries**: Healthcare Software, Engineering Software, Telephony & Wireless  
+**Technologies & Skills**: Google Apps Script, JavaScript, TypeScript, GoogleScript, API Design, API Integration, Gmail API, Google Calendar API, Google Docs, Google APIs, Data Modeling, Logging, Google Sheets API, Automated Data Flows, IT Systems Architecture, Background Jobs, Modular Design, Google Sheets, Programming, Architecture
 
 ## Georgia Tech Score: Mobile Solution for Judging Poster Sessions
 
@@ -901,28 +525,9 @@ lines of HTML, 1,000 lines of JavaScript/TypeScript, and
 mobile-first, focusing on usability and accessibility for
 on-the-go judges.
 
----
+**Industries**: Education, Mobile, Web Development  
 
-### Industries
-
-- Education
-- Mobile
-- Web Development
-
-### Technologies & Skills
-
-- Python
-- JavaScript
-- TypeScript
-- WebSockets
-- WebRTC
-- Firebase Realtime Database
-- Django
-- Architecture
-- PostgreSQL
-- DevOps
-- Expo
-- CI/CD Pipelines
+**Technologies & Skills**: Python, JavaScript, TypeScript, WebSockets, WebRTC, Firebase Realtime Database, Django, Architecture, PostgreSQL, DevOps, Expo, CI/CD Pipelines
 
 ---
 

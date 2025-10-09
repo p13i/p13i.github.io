@@ -1324,10 +1324,31 @@ Other tidbits:
 
 Here are some notes on Elizabeth Lin's courses and materials
 on visual design.
-[_Design is a Party_](https://designisaparty.com) is a
-community, design education content, and interactive
-experiences developed by Elizabeth Lin, a former student of
-James Landay at UC Berkeley.
+[_The Art of Visual Design_](https://theartofvisualdesign.com)
+is a community, self-paced design education content, and
+interactive experiences developed by Elizabeth Lin, a former
+student of James Landay at UC Berkeley.
+
+Visual design is the practice of choosing the visual
+elements that best convey a message (graphic design) or meet
+a user's needs (interface design) or evoke emotions (art).
+
+In the visual design process, it's important to first take a
+high-level, zoomed-out view of the goal of a particular end
+product (what tone should the content have?), dive into tiny
+details (what is a font for a formal tone?), and examine
+those details in context (how does this font look like
+inside of the current app design?).
+
+Iteration is the key to building better ideas and a stronger
+intuition. Iteration can be as focused as trying out a new
+button in a 100px square in Figma or as integrated as
+evaluating users' experiences while developing the software
+for an interface.
+
+There's no right answer: articulating why a certain choice
+makes sense helps others understand your perspective and
+helps you build a stronger intuition over time.
 
 # Designing the Future: Early and Future Visions of HCI
 
@@ -1342,7 +1363,7 @@ interface. Additionally, the site lacked a summary of the
 data entered by the user, a critical oversight in user
 experience design.
 
-Landay's Hall of Fame was discussed, showcasing exemplary
+Landay's _Hall of Fame_ was discussed, showcasing exemplary
 minimalist designs with large, simple instructions and
 effective use of whitespace to highlight important and
 related elements. Features like automatic location setting

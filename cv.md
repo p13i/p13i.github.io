@@ -5,10 +5,65 @@ permalink: /cv/
 date: 2025-10-08
 ---
 
+<style>
+/* Inline, wrapped list items with separators.
+   Change --list-sep to " " for space-separated instead of comma-separated. */
+:root {
+  --list-sep: ", ";
+}
+
+/* Scope to typical Jekyll/GitHub Pages content containers; add/remove selectors as needed */
+.page-content ul,
+.page-content ol,
+.post-content ul,
+.post-content ol,
+.markdown-body ul,
+.markdown-body ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 1rem;
+  display: flex;        /* lay items left-to-right */
+  flex-wrap: wrap;      /* wrap to next line to fill whitespace on the right */
+  gap: 0;               /* separators handle spacing */
+}
+
+/* Make each item a single chunk; it wraps between items, not inside */
+.page-content li,
+.post-content li,
+.markdown-body li {
+  display: inline-flex;
+  align-items: baseline;
+  margin: 0;
+  white-space: nowrap;  /* keep each item intact */
+}
+
+/* Add separators between items */
+.page-content li:not(:last-child)::after,
+.post-content li:not(:last-child)::after,
+.markdown-body li:not(:last-child)::after {
+  content: var(--list-sep);
+  padding-right: 0.25ch;
+}
+
+/* Optional: if you have a list you want to keep as normal bullets, wrap it in a container with class "stacked-list" */
+.stacked-list ul,
+.stacked-list ol {
+  display: block;
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+.stacked-list li {
+  display: list-item;
+  white-space: normal;
+}
+</style>
+
 # Contact
 
 - [pramod.kotipalli@gmail.com](mailto:pramod.kotipalli@gmail.com)
 - +1 (425) 667-0000
+
+---
 
 # Links
 
@@ -93,6 +148,8 @@ Intelligence
 - Kubernetes
 - Expo
 - Flutter
+
+---
 
 ## Georgia Institute of Technology — _Atlanta, GA_
 

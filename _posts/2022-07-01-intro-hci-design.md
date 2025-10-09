@@ -1319,10 +1319,13 @@ Other tidbits:
 - Visual hierarchy: guides people to look how they want in
   their own hierarchy.
 
-# Designing the Future: Early and
+# "The Art of Visual Design" by Elizabeth Lin
 
-Future Visions of HCI In our lecture, we began by examining
-the importance of first impressions on websites,
+Here are some notes on Elizabeth Lin's courses and materials on visual design. [_The Design Kids_](https://thedesignkids.org) is a community, design education content, and interactive experiences developed by Elizabeth Lin, a former student of James Landay at UC Berkeley.
+
+# Designing the Future: Early and Future Visions of HCI
+
+In our lecture, we began by examining the importance of first impressions on websites,
 particularly noting the virgin America site where elements
 are grouped using color gradients and varying font sizes to
 guide the user's attention. One issue highlighted was the

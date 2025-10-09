@@ -1,18 +1,19 @@
 ---
 title: "HCI & Design Thinking"
 categories:
-- research
-- design
-- writing
+  - research
+  - design
+  - writing
 tags:
-- hci
+  - hci
 layout: post
-description: "CS 147 is a course on Human-Computer 
-  Interaction (HCI) and Design Thinking offered at Stanford 
-  University taught by Professor James Landay. These notes 
-  were prepared for the Winter 2022 course delivered in a 
-  hybrid format due to COVID-19. The course introduces 
-  principles for designing and evaluating user interfaces."
+description:
+  "CS 147 is a course on Human-Computer Interaction (HCI)
+  and Design Thinking offered at Stanford University taught
+  by Professor James Landay. These notes were prepared for
+  the Winter 2022 course delivered in a hybrid format due to
+  COVID-19. The course introduces principles for designing
+  and evaluating user interfaces."
 image: "https://user-images.githubusercontent.com/13140065/201414650-e5dd26a5-290c-4b52-a5f8-ed73b7c14334.png"
 featured: true
 redirect_from: "/hci/"
@@ -1321,19 +1322,25 @@ Other tidbits:
 
 # "The Art of Visual Design" by Elizabeth Lin
 
-Here are some notes on Elizabeth Lin's courses and materials on visual design. [_The Design Kids_](https://thedesignkids.org) is a community, design education content, and interactive experiences developed by Elizabeth Lin, a former student of James Landay at UC Berkeley.
+Here are some notes on Elizabeth Lin's courses and materials
+on visual design.
+[_Design is a Party_](https://designisaparty.com) is a
+community, design education content, and interactive
+experiences developed by Elizabeth Lin, a former student of
+James Landay at UC Berkeley.
 
 # Designing the Future: Early and Future Visions of HCI
 
-In our lecture, we began by examining the importance of first impressions on websites,
-particularly noting the virgin America site where elements
-are grouped using color gradients and varying font sizes to
-guide the user's attention. One issue highlighted was the
-small size of plus and minus buttons relative to the box,
-which violates Fitts's Law regarding target acquisition
-speed in a user interface. Additionally, the site lacked a
-summary of the data entered by the user, a critical
-oversight in user experience design.
+In our lecture, we began by examining the importance of
+first impressions on websites, particularly noting the
+virgin America site where elements are grouped using color
+gradients and varying font sizes to guide the user's
+attention. One issue highlighted was the small size of plus
+and minus buttons relative to the box, which violates
+Fitts's Law regarding target acquisition speed in a user
+interface. Additionally, the site lacked a summary of the
+data entered by the user, a critical oversight in user
+experience design.
 
 Landay's Hall of Fame was discussed, showcasing exemplary
 minimalist designs with large, simple instructions and

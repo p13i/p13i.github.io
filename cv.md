@@ -491,10 +491,9 @@ frameworks, MapReduce pipelines
 
 ## Visual Inference on Mobile Devices
 
-Visual Inference on Mobile Devices – Quantizing on-device
-vision-language models to test limits of offline reasoning;
-implementing logit-level response merging for
-semantically-consistent answers.
+Quantizing on-device vision-language models to test limits
+of offline reasoning; implementing logit-level response
+merging for semantically-consistent answers.
 
 **Industries**: Artificial Intelligence (AI), Mobile, Edge
 ML
@@ -509,8 +508,7 @@ optimization
 
 ## Distributed Mini-Transformer Trainer
 
-Distributed Mini-Transformer Trainer – Building
-100M-parameter transformer with DeepSpeed and
+Building 100M-parameter transformer with DeepSpeed and
 torch.distributed orchestrated on Kubernetes for multi-GPU
 scaling and fault-tolerant training.
 
@@ -523,10 +521,10 @@ CI/CD pipelines
 
 ## Scratch C++ Transformer Implementation
 
-Scratch C++ Transformer Implementation – Programming &
-benchmarking a minimal transformer architecture from first
-principals in C++ to study attention, memory, and throughput
-considerations & trade-offs.
+Programming & benchmarking a minimal transformer
+architecture from first principals in C++ to study
+attention, memory, and throughput considerations &
+trade-offs.
 
 **Industries**: Artificial Intelligence (AI),
 High-Performance Computing (HPC), Systems

@@ -6,19 +6,19 @@ date: 2025-10-08
 ---
 
 <style>
-/* Inline, wrapped list items (comma-separated) for lists inside .post only */
-.post ul {
+/* Apply only to UL/LI inside the child .post: .content > .post > .post */
+.content > .post > .post ul {
   list-style: none;
   margin: 0 0 1rem;
   padding: 0;
   display: flex;
-  flex-wrap: wrap; /* fill the right-side whitespace */
+  flex-wrap: wrap; /* fill remaining width on the right */
 }
-.post ul > li {
+.content > .post > .post ul > li {
   display: inline-flex;
   white-space: nowrap;
 }
-.post ul > li:not(:last-child)::after {
+.content > .post > .post ul > li:not(:last-child)::after {
   content: ", ";
 }
 </style>

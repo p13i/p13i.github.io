@@ -18,7 +18,7 @@ layout: base
     </div>
     <div class="col-12">
         <div class="row">
-            <div class="col-12 col-lg-4 {% if page.content_css_class %}{{ page.content_css_class }}{% endif %}">
+            <div class="col-12 col-lg-4">
                 {% if page.image %}
                     <img src="{{ page.image }}"/>
                     <hr/>
@@ -47,7 +47,7 @@ layout: base
             </div>
             <div class="col-12 col-lg-8 order-lg-last">
                 <div class="post">
-                    <div class="{% if page.default_image_fullwidth %}default-image-fullwidth{% endif %}">
+                    <div class="{% if page.default_image_fullwidth %}default-image-fullwidth{% endif %}{% if page.content_css_class %}{{ page.content_css_class }}{% endif %}">
                         {{ content }}
                     </div>
                     {% include _copyright.html %}

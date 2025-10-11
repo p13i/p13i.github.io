@@ -13,8 +13,7 @@ downloads:
 
 # Contact
 
-[pramod.kotipalli@gmail.com](mailto:pramod.kotipalli@gmail.com),
-[+1 (425) 667-0000](tel:+14256670000)
+[pramod.kotipalli@gmail.com](mailto:pramod.kotipalli@gmail.com)
 
 ---
 

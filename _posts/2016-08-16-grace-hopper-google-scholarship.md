@@ -11,6 +11,7 @@ description:
   My application for a Google scholarship to support my
   attending Grace Hopper Conference in 2016
 image: http://assets.p13i.io/grace-hopper-thumbnail.png
+redirect_from: ghc
 ---
 
 **What do you hope to gain from attending Grace Hopper, and

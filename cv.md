@@ -698,6 +698,16 @@ Architecture, PostgreSQL, DevOps, Expo, CI/CD Pipelines
   Increasing user engagement in self-tracking.
 - _Fashion Factors for Widespread Adoption of Wearable
   Computers._
-- `cs` - a Bazel-managed mono-repo of many computer science codes, emphasizing C++ implementations and Python scripting. The project features a from-scratch ray tracer, a protocol buffer (and protobuf database) implementation for JSON over HTTP, and more. Visit [`cs.p13i.io`](https://cs.p13i.io).
-- This website. `p13i.github.io` is an [open-source](https://github.com/p13i/p13i.github.io) Github Pages-hosted Jekyll website. I have been iterating on this repo [since 2017](https://github.com/p13i/p13i.github.io/commit/3ec240ee5940a02f9169568cf7b5e4eba2becf52), eventually adding a ["Twitter clone"](https://p13i.io/tweets)
-
+- `cs` - a Bazel-managed mono-repo of many computer science
+  codes, emphasizing C++ implementations and Python
+  scripting. The project features a from-scratch ray tracer,
+  a protocol buffer (and protobuf database) implementation
+  for JSON over HTTP, and more. Visit
+  [`cs.p13i.io`](https://cs.p13i.io).
+- This website. `p13i.github.io` is an
+  [open-source](https://github.com/p13i/p13i.github.io)
+  Github Pages-hosted Jekyll website. I have been iterating
+  on this repo
+  [since 2017](https://github.com/p13i/p13i.github.io/commit/3ec240ee5940a02f9169568cf7b5e4eba2becf52),
+  eventually adding a
+  ["Twitter clone"](https://p13i.io/tweets)

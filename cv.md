@@ -513,6 +513,8 @@ Models (CLIP / BLIP / LLaVA), Logit-level ensembling /
 response merging, ONNX model conversion, Profiling &
 optimization
 
+---
+
 ## Distributed Mini-Transformer Trainer
 
 Building 100M-parameter transformer with DeepSpeed and
@@ -526,6 +528,8 @@ Systems, MLOps / Cloud
 torch.distributed, Kubernetes, Docker, CUDA, monitoring,
 CI/CD pipelines
 
+---
+
 ## Scratch C++ Transformer Implementation
 
 Programming & benchmarking a minimal transformer
@@ -538,6 +542,8 @@ High-Performance Computing (HPC), Systems
 
 **Technologies & Skills**: Memory management, Numerical
 stability, Algorithms, Architecture
+
+---
 
 ## TransitMate (2022)
 
@@ -575,7 +581,7 @@ User Interface (UI), Web Design, Algorithms, GPS Tracker,
 Google Maps API, Mobile App Development, Testing,
 Programming, Architecture, DevOps, Expo, CI/CD Pipelines
 
-## Remembrance Agent for Java
+## Remembrance Agent for Java (2018)
 
 _A context-aware memory augmentation tool inspired by
 Bradley Rhodes’ seminal work._
@@ -610,7 +616,7 @@ Experience (UX), User Interface (UI), Algorithms, Mobile App
 Development, Testing, Programming, WebSockets, Architecture,
 CI/CD Pipelines
 
-## Autobot: Google Workspace Automation via SMS
+## Autobot: Google Workspace Automation via SMS (2022-now)
 
 Autobot is a Google Apps Script–based automation system that
 integrates Gmail, Calendar, Docs, and Sheets to streamline
@@ -644,7 +650,7 @@ Modeling, Logging, Google Sheets API, Automated Data Flows,
 IT Systems Architecture, Background Jobs, Modular Design,
 Google Sheets, Programming, Architecture
 
-## Georgia Tech Score: Mobile Solution for Judging Poster Sessions
+## GT Score: Mobile Solution for Judging Poster Sessions (2016)
 
 Managing the evaluation of poster sessions and design expos
 is a persistent logistical challenge. Collecting and
@@ -692,3 +698,6 @@ Architecture, PostgreSQL, DevOps, Expo, CI/CD Pipelines
   Increasing user engagement in self-tracking.
 - _Fashion Factors for Widespread Adoption of Wearable
   Computers._
+- `cs` - a Bazel-managed mono-repo of many computer science codes, emphasizing C++ implementations and Python scripting. The project features a from-scratch ray tracer, a protocol buffer (and protobuf database) implementation for JSON over HTTP, and more. Visit [`cs.p13i.io`](https://cs.p13i.io).
+- This website. `p13i.github.io` is an [open-source](https://github.com/p13i/p13i.github.io) Github Pages-hosted Jekyll website. I have been iterating on this repo [since 2017](https://github.com/p13i/p13i.github.io/commit/3ec240ee5940a02f9169568cf7b5e4eba2becf52), eventually adding a ["Twitter clone"](https://p13i.io/tweets)
+

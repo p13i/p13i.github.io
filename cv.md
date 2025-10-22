@@ -642,20 +642,34 @@ integration, and extensible system design connecting
 structured back-end logic with natural user input.
 
 **Industries**: Healthcare Software, Engineering Software,
-Telephony & Wireless
-**Technologies & Skills**: Google Apps Script, JavaScript,
-TypeScript, GoogleScript, API Design, API Integration, Gmail
-API, Google Calendar API, Google Docs, Google APIs, Data
-Modeling, Logging, Google Sheets API, Automated Data Flows,
-IT Systems Architecture, Background Jobs, Modular Design,
-Google Sheets, Programming, Architecture
+Telephony & Wireless **Technologies & Skills**: Google Apps
+Script, JavaScript, TypeScript, GoogleScript, API Design,
+API Integration, Gmail API, Google Calendar API, Google
+Docs, Google APIs, Data Modeling, Logging, Google Sheets
+API, Automated Data Flows, IT Systems Architecture,
+Background Jobs, Modular Design, Google Sheets, Programming,
+Architecture
 
 ## Autobot Extensions: Chrome History Logging & iMessage Logging
 
-I built two projects, each taking about two hours to configure:
+I built two projects, each taking about two hours to
+configure:
 
-1. **Chrome History Bot**: Save browsing history to Google Calendar in 15 minute chunks via a Chrome extension that routinely sends recent browsing history to a Google Apps Script that writes/syncs to a Google Calendar. I have a [`chromehistory` Github repo](https://github.com/p13i/chromehistory) with Google Apps Script and Chrome extension code. _Please email me for access._
-1. **iMessages in Google Sheets**: Backup iMessages to a Google Sheet via a Python cronjob on macOS that parses a SQLite database maintained by iMessage on macOS. My Github repo [`export-imessages`](https://github.com/p13i/export-imessages) has a Python script, Google Apps Script, and HTML visualizations of iMessage threads. _Please email me for access._
+1. **Chrome History Bot**: Save browsing history to Google
+   Calendar in 15 minute chunks via a Chrome extension that
+   routinely sends recent browsing history to a Google Apps
+   Script that writes/syncs to a Google Calendar. I have a
+   [`chromehistory` Github repo](https://github.com/p13i/chromehistory)
+   with Google Apps Script and Chrome extension code.
+   _Please email me for access._
+1. **iMessages in Google Sheets**: Backup iMessages to a
+   Google Sheet via a Python cronjob on macOS that parses a
+   SQLite database maintained by iMessage on macOS. My
+   Github repo
+   [`export-imessages`](https://github.com/p13i/export-imessages)
+   has a Python script, Google Apps Script, and HTML
+   visualizations of iMessage threads. _Please email me for
+   access._
 
 ## GT Score: Mobile Solution for Judging Poster Sessions (2016)
 

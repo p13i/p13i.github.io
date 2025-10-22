@@ -498,50 +498,32 @@ frameworks, MapReduce pipelines
 
 ## Visual Inference on Mobile Devices
 
-Quantizing on-device vision-language models to test limits
-of offline reasoning; implementing logit-level response
-merging for semantically-consistent answers.
+Developed a mobile framework for running quantized vision-language models entirely on-device, enabling offline multimodal reasoning. Implemented logit-level response merging to improve semantic consistency and reduce hallucination across visual question-answering tasks.
 
 **Industries**: Artificial Intelligence (AI), Mobile, Edge
 ML
 
-**Technologies & Skills**: iOS, Android, Core ML, TensorFlow
-Lite, ONNX Runtime Mobile, Metal (MPS), Android NNAPI,
-Quantization (INT8 / INT4), Post-Training Quantization
-(PTQ), Quantization-Aware Training (QAT), Vision–Language
-Models (CLIP / BLIP / LLaVA), Logit-level ensembling /
-response merging, ONNX model conversion, Profiling &
-optimization
+**Technologies & Skills**: iOS, Android, Core ML, TensorFlow Lite, ONNX Runtime Mobile, Metal (MPS), Android NNAPI, Post-Training Quantization, Quantization-Aware Training (QAT), Vision–Language Models (CLIP / BLIP / LLaVA), Logit-level response merging, Profiling
 
 ---
 
 ## Distributed Mini-Transformer Trainer
 
-Building 100M-parameter transformer with DeepSpeed and
-torch.distributed orchestrated on Kubernetes for multi-GPU
-scaling and fault-tolerant training.
+Built a distributed training framework for a 100M-parameter Transformer using DeepSpeed and torch.distributed. Long-running jobs on GPU nodes were orchestrated with  checkpointing to attempt training failure recovery.
 
-**Industries**: Artificial Intelligence (AI), Distributed
-Systems, MLOps / Cloud
+**Industries**: Artificial Intelligence (AI), Software
 
-**Technologies & Skills**: PyTorch, DeepSpeed,
-torch.distributed, Kubernetes, Docker, CUDA, monitoring,
-CI/CD pipelines
+**Technologies & Skills**: PyTorch, DeepSpeed, torch.distributed, Kubernetes, Docker, NVIDIA CUDA, Monitoring, CI/CD Pipelines
 
 ---
 
 ## Scratch C++ Transformer Implementation
 
-Programming & benchmarking a minimal transformer
-architecture from first principals in C++ to study
-attention, memory, and throughput considerations &
-trade-offs.
+Implemented and benchmarked a minimal Transformer architecture from first principles in modern C++, focusing on the core mechanics of attention, memory access patterns, and computational throughput. Conducted experiments to analyze architectural trade-offs and performance scaling behavior.
 
-**Industries**: Artificial Intelligence (AI),
-High-Performance Computing (HPC), Systems
+**Industries**: Artificial Intelligence (AI)
 
-**Technologies & Skills**: Memory management, Numerical
-stability, Algorithms, Architecture
+**Technologies & Skills**: C++
 
 ---
 

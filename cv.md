@@ -498,28 +498,46 @@ frameworks, MapReduce pipelines
 
 ## Visual Inference on Mobile Devices
 
-Developed a mobile framework for running quantized vision-language models entirely on-device, enabling offline multimodal reasoning. Implemented logit-level response merging to improve semantic consistency and reduce hallucination across visual question-answering tasks.
+Developed a mobile framework for running quantized
+vision-language models entirely on-device, enabling offline
+multimodal reasoning. Implemented logit-level response
+merging to improve semantic consistency and reduce
+hallucination across visual question-answering tasks.
 
 **Industries**: Artificial Intelligence (AI), Mobile, Edge
 ML
 
-**Technologies & Skills**: iOS, Android, Core ML, TensorFlow Lite, ONNX Runtime Mobile, Metal (MPS), Android NNAPI, Post-Training Quantization, Quantization-Aware Training (QAT), Vision–Language Models (CLIP / BLIP / LLaVA), Logit-level response merging, Profiling
+**Technologies & Skills**: iOS, Android, Core ML, TensorFlow
+Lite, ONNX Runtime Mobile, Metal (MPS), Android NNAPI,
+Post-Training Quantization, Quantization-Aware Training
+(QAT), Vision–Language Models (CLIP / BLIP / LLaVA),
+Logit-level response merging, Profiling
 
 ---
 
 ## Distributed Mini-Transformer Trainer
 
-Built a distributed training framework for a 100M-parameter Transformer using DeepSpeed and torch.distributed. Long-running jobs on GPU nodes were orchestrated with  checkpointing to attempt training failure recovery.
+Built a distributed training framework for a 100M-parameter
+Transformer using DeepSpeed and torch.distributed.
+Long-running jobs on GPU nodes were orchestrated with
+checkpointing to attempt training failure recovery.
 
 **Industries**: Artificial Intelligence (AI), Software
 
-**Technologies & Skills**: PyTorch, DeepSpeed, torch.distributed, Kubernetes, Docker, NVIDIA CUDA, Monitoring, CI/CD Pipelines
+**Technologies & Skills**: PyTorch, DeepSpeed,
+torch.distributed, Kubernetes, Docker, NVIDIA CUDA,
+Monitoring, CI/CD Pipelines
 
 ---
 
 ## Scratch C++ Transformer Implementation
 
-Implemented and benchmarked a minimal Transformer architecture from first principles in modern C++, focusing on the core mechanics of attention, memory access patterns, and computational throughput. Conducted experiments to analyze architectural trade-offs and performance scaling behavior.
+Implemented and benchmarked a minimal Transformer
+architecture from first principles in modern C++, focusing
+on the core mechanics of attention, memory access patterns,
+and computational throughput. Conducted experiments to
+analyze architectural trade-offs and performance scaling
+behavior.
 
 **Industries**: Artificial Intelligence (AI)
 
@@ -680,6 +698,16 @@ Architecture, PostgreSQL, DevOps, Expo, CI/CD Pipelines
   Increasing user engagement in self-tracking.
 - _Fashion Factors for Widespread Adoption of Wearable
   Computers._
-- `cs` - a Bazel-managed mono-repo of many computer science codes, emphasizing C++ implementations and Python scripting. The project features a from-scratch ray tracer, a protocol buffer (and protobuf database) implementation for JSON over HTTP, and more. Visit [`cs.p13i.io`](https://cs.p13i.io).
-- This website. `p13i.github.io` is an [open-source](https://github.com/p13i/p13i.github.io) Github Pages-hosted Jekyll website. I have been iterating on this repo [since 2017](https://github.com/p13i/p13i.github.io/commit/3ec240ee5940a02f9169568cf7b5e4eba2becf52), eventually adding a ["Twitter clone"](https://p13i.io/tweets)
-
+- `cs` - a Bazel-managed mono-repo of many computer science
+  codes, emphasizing C++ implementations and Python
+  scripting. The project features a from-scratch ray tracer,
+  a protocol buffer (and protobuf database) implementation
+  for JSON over HTTP, and more. Visit
+  [`cs.p13i.io`](https://cs.p13i.io).
+- This website. `p13i.github.io` is an
+  [open-source](https://github.com/p13i/p13i.github.io)
+  Github Pages-hosted Jekyll website. I have been iterating
+  on this repo
+  [since 2017](https://github.com/p13i/p13i.github.io/commit/3ec240ee5940a02f9169568cf7b5e4eba2becf52),
+  eventually adding a
+  ["Twitter clone"](https://p13i.io/tweets)

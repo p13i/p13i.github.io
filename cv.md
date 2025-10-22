@@ -574,12 +574,15 @@ our course instructor, a world-renowned human-computer
 interaction Professor teaching at Stanford University in
 California.
 
-**Industry**: Mobile App Development  
+**Industry**: Mobile App Development
+
 **Technologies & Skills**: React Native, Figma, iOS, App
 Store, UI Evaluation, UX Research, User Experience (UX),
 User Interface (UI), Web Design, Algorithms, GPS Tracker,
 Google Maps API, Mobile App Development, Testing,
 Programming, Architecture, DevOps, Expo, CI/CD Pipelines
+
+---
 
 ## Remembrance Agent for Java (2018)
 
@@ -610,11 +613,14 @@ keylogger records keystrokes only while the RA is active,
 allowing later analysis for retrieval optimization — all
 stored locally, never transmitted.
 
-**Industries**: Wearables, Artificial Intelligence (AI)  
+**Industries**: Wearables, Artificial Intelligence (AI)
+
 **Technologies & Skills**: Java, APIs, Linux, User
 Experience (UX), User Interface (UI), Algorithms, Mobile App
 Development, Testing, Programming, WebSockets, Architecture,
 CI/CD Pipelines
+
+---
 
 ## Autobot: Google Workspace Automation via SMS (2022-now)
 
@@ -643,6 +649,7 @@ structured back-end logic with natural user input.
 
 **Industries**: Healthcare Software, Engineering Software,
 Telephony & Wireless
+
 **Technologies & Skills**: Google Apps Script, JavaScript,
 TypeScript, GoogleScript, API Design, API Integration, Gmail
 API, Google Calendar API, Google Docs, Google APIs, Data
@@ -656,6 +663,8 @@ I built two projects, each taking about two hours to configure:
 
 1. **Chrome History Bot**: Save browsing history to Google Calendar in 15 minute chunks via a Chrome extension that routinely sends recent browsing history to a Google Apps Script that writes/syncs to a Google Calendar. I have a [`chromehistory` Github repo](https://github.com/p13i/chromehistory) with Google Apps Script and Chrome extension code. _Please email me for access._
 1. **iMessages in Google Sheets**: Backup iMessages to a Google Sheet via a Python cronjob on macOS that parses a SQLite database maintained by iMessage on macOS. My Github repo [`export-imessages`](https://github.com/p13i/export-imessages) has a Python script, Google Apps Script, and HTML visualizations of iMessage threads. _Please email me for access._
+
+---
 
 ## GT Score: Mobile Solution for Judging Poster Sessions (2016)
 

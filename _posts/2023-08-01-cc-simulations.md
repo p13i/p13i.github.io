@@ -11,6 +11,9 @@ layout: post
 description: ""
 image: "https://p13i.io/assets/2023-08-01-cc-simulations-thumbnail.jpg"
 featured: true
+downloads:
+  - name: "⌨️ Source code"
+    url: "https://github.com/p13i/cs-public"
 ---
 
 This is a continually-improving rendering program being

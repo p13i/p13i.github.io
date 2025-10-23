@@ -14,6 +14,7 @@ featured: true
 downloads:
   - name: "⌨️ Source code"
     url: "https://github.com/p13i/cs-public"
+redirect_from: "cs"
 ---
 
 This is a continually-improving rendering program being

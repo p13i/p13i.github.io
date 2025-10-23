@@ -19,26 +19,4 @@ downloads:
 This is a continually-improving rendering program being
 built from scratch in C++, and run in your browser.
 
-<hr/>
-<div id="spinner"></div>
-<div id="status">Downloading...</div>
-<hr/>
-<span id="controls">
-    <span>
-        <input type="checkbox" id="resize">Resize canvas
-    </span>
-    <span>
-        <input type="checkbox" id="pointerLock" checked="checked">Lock/hide mouse pointer &nbsp;&nbsp;&nbsp;
-    </span>
-    <span>
-        <input type="button" value="Fullscreen" onclick='Module.requestFullscreen(document.getElementById("pointerLock").checked,document.getElementById("resize").checked)'>
-    </span>
-</span>
-<progress value="0" max="100" id="progress" hidden="1"></progress>
-<hr/>
-<canvas id="canvas" oncontextmenu="event.preventDefault()" tabindex="-1"></canvas>
-<hr/>
-<p>Console output:</p>
-<textarea id="output" rows="5" cols="40"></textarea>
-<script type="text/javascript" src="https://cs.p13i.io/render-in-browser/wasm.js"></script>
-<script type="text/javascript" src="https://cs.p13i.io/render-in-browser/index.js"></script>
+Please see the [About](https://cs.p13i.io/about/) page for more context and the [Game](https://cs.p13i.io/game/) page for an interative demo.

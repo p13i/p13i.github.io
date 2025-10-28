@@ -20,4 +20,6 @@ redirect_from: "cs"
 This is a continually-improving rendering program being
 built from scratch in C++, and run in your browser.
 
-Please see the [About](https://cs.p13i.io/about/) page for more context and the [Game](https://cs.p13i.io/game/) page for an interative demo.
+Please see the [About](https://cs.p13i.io/about/) page for
+more context and the [Game](https://cs.p13i.io/game/) page
+for an interative demo.

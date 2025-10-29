@@ -400,3 +400,4 @@ title: "Sitemap"
     - [`/tweets/317/` → View of downtown Seattle from my sisters new college apartmen...](/tweets/317/)
     - [`/tweets/318/` → this world of LLMs is so so large im learning so much. many n...](/tweets/318/)
     - [`/tweets/319/` → ive already realized 25 in gains for these two days with a 1k...](/tweets/319/)
+    - [`/tweets/320/` → The trinity of kindness. Mr Rogers be kind to others. Bob Ros...](/tweets/320/)

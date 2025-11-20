@@ -93,28 +93,33 @@
   }
 </style>
 <div class="gallery">
-  {% assign photos = site.data.pix %}
-  {% if include.tag %}
-  {% assign tag = include.tag %}
-  {% assign photos = photos | where_exp: "photo", "photo.tags" %}
-  {% assign photos = photos | where_exp: "photo", "photo.tags contains tag" %}
+  {% assign photos = site.data.pix %} {% if include.tag %}
+  {% assign tag = include.tag %} {% assign photos = photos |
+  where_exp: "photo", "photo.tags" %} {% assign photos =
+  photos | where_exp: "photo", "photo.tags contains tag" %}
   {% endif %}
   <div class="gallery-cards card-columns">
     {% for photo in photos %}
     <div class="card gallery-card">
-      <img class="card-img-top" src="{{ photo.url }}" alt="{{ photo.alt | xml_escape }}" loading="lazy" />
+      <img
+        class="card-img-top"
+        src="{{ photo.url }}"
+        alt="{{ photo.alt | xml_escape }}"
+        loading="lazy"
+      />
       {% if photo.alt or photo.tags %}
       <div class="card-body">
         {% if photo.alt %}
-        <p class="gallery-caption">{{ photo.alt | xml_escape }}</p>
+        <p class="gallery-caption">
+          {{ photo.alt | xml_escape }}
+        </p>
+        {% endif %} {% if photo.tags %} {% if photo.alt %}
+        <hr />
         {% endif %}
-        {% if photo.tags %}
-        {% if photo.alt %}<hr />{% endif %}
         <div class="gallery-tags">
-          {% for tag in photo.tags %}
-          {% assign album_href = tag | slugify | prepend: "/pix/" %}
-          {% include _tag.html tag=tag href=album_href %}
-          {% endfor %}
+          {% for tag in photo.tags %} {% assign album_href =
+          tag | slugify | prepend: "/pix/" %} {% include
+          _tag.html tag=tag href=album_href %} {% endfor %}
         </div>
         {% endif %}
       </div>
@@ -123,6 +128,8 @@
     {% endfor %}
   </div>
   {% if photos == empty %}
-  <p class="gallery-empty">No photos are available for this album yet.</p>
+  <p class="gallery-empty">
+    No photos are available for this album yet.
+  </p>
   {% endif %}
 </div>

@@ -59,13 +59,10 @@ lint-markups:
 lint-python: 
 	python3 -m black .
 
-web-tiles:
-	python3 scripts/make_web_tiles.py
-
 write-tweet-titles:
 	python3 scripts/update_jekyll_titles.py _tweets
 
-lint: write-tweet-titles generate-sitemap web-tiles lint-markups lint-python
+lint: write-tweet-titles generate-sitemap lint-markups lint-python
 
 sync: pull
 	git push

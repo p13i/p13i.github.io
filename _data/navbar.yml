@@ -1,22 +1,26 @@
-- display: Research
+- display: "Research 🔭"
   href: /research/
   target: _self
   category: research
 
-- display: Writing
+- display: "Writing 📝"
   href: /writing/
   target: _self
   category: writing
 
-- display: Tweets
+- display: "Tweets 🐦"
   href: /tweets/
   target: _self
 
-- display: "Pix"
+- display: "pix 📸"
   href: /pix/
   target: _self
 
-- display: "`bytes`"
+- display: "`bytes` 👾"
   href: /bytes/
   target: _self
   category: bytes
+
+- display: "CV 📜"
+  href: /cv/
+  target: _self

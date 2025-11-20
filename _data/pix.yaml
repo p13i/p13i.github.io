@@ -9,10 +9,12 @@
   tags: [seattle]
 - url: https://user-images.githubusercontent.com/13140065/155815967-0968cbf1-2d06-470a-9fc2-7d3b88493cd9.jpg
   alt: "Focus on a horse's face in Snoqualime, WA."
+  tags: [home]
 - url: https://user-images.githubusercontent.com/13140065/155812212-3cf879df-b300-4c53-aacb-b30caa926221.jpg
   alt:
     "Photo of a homeless woman sitting on a sidewalk with a
     sign as a minivan speeds on on the road behind her."
+  tags: [home]
 - url: https://raw.githubusercontent.com/p13i/assets/main/2024-12-20-607c.jpg
   alt:
     "Sunset over Key West, Florida with a seagull and boat
@@ -20,6 +22,7 @@
   tags: [key-west]
 - url: https://p13i.io/assets/2024-12-21-4c7b.jpg
   alt: "Amazing Belgian waffles"
+  tags: [caribbean]
 - url: https://p13i.io/assets/2024-12-21-df84.jpg
   alt:
     "Picturesque gate to a horse's private beach in the
@@ -35,10 +38,12 @@
 - url: https://p13i.io/assets/pix/2024-12-22-5b4d.jpg
   alt:
     "Mary in a green courtyard under white arches in Nassau."
+  tags: [caribbean]
 - url: https://p13i.io/assets/pix/2024-12-22-f17f.jpg
   alt:
     "Golden bird with a purple sash in a Bahamian church in
     Nassau."
+  tags: [caribbean]
 - url: https://p13i.io/assets/2025-02-01-33c3.jpg
   alt:
     "Beautiful reflection of the sunset on a building in
@@ -63,10 +68,13 @@
   alt:
     "View of Canadian Rockies from a hotel window in
     Vancouver BC"
+  tags: [vancouver-bc]
 - url: https://p13i.io/assets/2025-05-25-5342.jpg
   alt: "A colorful stitching on the collar of my shirt."
+  tags: [industrial-design]
 - url: https://p13i.io/assets/2025-06-19-5414.jpg
   alt: "Mahjong night!"
+  tags: [seattle]
 - url: https://p13i.io/assets/2025-08-21-3834.jpg
   alt: "Sunset from a plane"
 - url: https://p13i.io/assets/2025-08-21-22ae.jpg
@@ -130,7 +138,7 @@
   alt:
     "A beautiful fabric, one of the most beautiful things
     I've ever seen."
-  tags: [india]
+  tags: [india, industrial-design]
 - url: https://p13i.io/assets/2025-09-08-4401.jpg
   alt:
     "Again, just something beautiful about homes in India"
@@ -158,6 +166,7 @@
   alt:
     "View of Tiger Mountain from my bedroom window; one of
     the most beautiful images I've ever taken. <3"
+  tags: [home]
 - url: https://p13i.io/assets/pix/2025-09-09-6108.jpg
   alt:
     "Small bit of light painting after a hike near Mt.
@@ -171,10 +180,13 @@
     "Cute window situation here. #pix"
 - url: https://p13i.io/assets/pix/2025-09-18-ff24.jpg
   alt: "Mesh of window with blurry branches outside."
+  tags: [home]
 - url: https://p13i.io/assets/pix/2025-09-18-eccb.jpg
   alt: "Ikea arrangements in their cafe in Renton, WA"
+  tags: [industrial-design]
 - url: https://p13i.io/assets/2025-09-19-8d8c.jpg
   alt: "Mt. Si from my home in Issaquah #pix"
+  tags: [home]
 - url: https://p13i.io/assets/2025-09-19-a2ec.jpg
   alt:
     "View of downtown Seattle from my sister's new college
@@ -182,9 +194,13 @@
   tags: [seattle]
 - url: https://p13i.io/assets/2025-11-20-476e.jpg
   alt: "A beautiful custom home built by architect/interior designer David Christopher in North Vancouver, BC. #pix"
+  tags: [vancouver-bc, industrial-design, david-christopher-homes]
 - url: https://p13i.io/assets/pix/2025-11-20-6fec.jpg
   alt: "Beautiful lighting fixture around wrapping staircase."
+  tags: [vancouver-bc, industrial-design, david-christopher-homes]
 - url: https://p13i.io/assets/pix/2025-11-20-32be.jpg
   alt: "Downtown Vancouver peeking out from the fog, visible from North Vancouver."
+  tags: [vancouver-bc, david-christopher-homes]
 - url: https://p13i.io/assets/2025-11-20-f190.jpg
   alt: "Beautiful rainbow over the Issaquah valley, viewed from our home. #pix"
+  tags: [home]

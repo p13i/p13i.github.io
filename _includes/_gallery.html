@@ -94,6 +94,7 @@
   {% assign photos = photos | where_exp: "photo", "photo.tags" %}
   {% assign photos = photos | where_exp: "photo", "photo.tags contains tag" %}
   {% endif %}
+  {% assign photos = photos | reverse %}
   <div class="gallery-columns">
     {% for photo in photos %}
     {% assign card_classes = "card gallery-card" %}

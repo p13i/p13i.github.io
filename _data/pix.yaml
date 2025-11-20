@@ -2,10 +2,11 @@
   alt:
     "Sunset over homes in Queen Anne, Seattle visible from
     the Google SLU office."
+  tags: [seattle]
 - url: https://user-images.githubusercontent.com/13140065/155825868-6ada81bf-69c0-404e-ad28-41fec88c3781.jpg
   alt:
-    "Sunset over homes in Queen Anne, Seattle visible from
-    the Google SLU office."
+    "Rocks balancing on a beach-front walk near the Expedia office in the Space Needle area."
+  tags: [seattle]
 - url: https://user-images.githubusercontent.com/13140065/155815967-0968cbf1-2d06-470a-9fc2-7d3b88493cd9.jpg
   alt: "Focus on a horse's face in Snoqualime, WA."
 - url: https://user-images.githubusercontent.com/13140065/155812212-3cf879df-b300-4c53-aacb-b30caa926221.jpg
@@ -23,14 +24,14 @@
   alt:
     "Picturesque gate to a horse's private beach in the
     Florida Keys."
-  tags:
-    - key-west
+  tags: [key-west]
 - url: https://p13i.io/assets/2024-12-21-7019.jpg
   alt:
     "Such a thoughtful Caribbean beach experience at
     Hideaway Beach in Cococay, Royal Caribbean."
 - url: https://p13i.io/assets/pix/2024-12-22-58af.jpg
   alt: "Beautiful."
+  tags: [key-west]
 - url: https://p13i.io/assets/pix/2024-12-22-5b4d.jpg
   alt:
     "Mary in a green courtyard under white arches in Nassau."
@@ -42,13 +43,16 @@
   alt:
     "Beautiful reflection of the sunset on a building in
     front of darker sky."
+  tags: [seattle]
 - url: https://p13i.io/assets/2025-02-12-3680.jpg
   alt:
     "Eastbound on WA SR 520 on Monday night... Bellevue is
     illuminated by the sunset on a purple/blue sky,
     snow-capped Tiger Mountain in the background."
+  tags: [seattle]
 - url: https://p13i.io/assets/2025-02-27-f1d1.jpg
   alt: "Beautiful Seattle sunset"
+  tags: [seattle]
 - url: https://p13i.io/assets/2025-04-19-4940.jpg
   alt: "Chroma"
 - url: https://p13i.io/assets/2025-05-25-8df0.jpg
@@ -69,64 +73,87 @@
   alt: "Sunset from Mt Rainier"
 - url: https://p13i.io/assets/2025-09-08-3a6f.jpg
   alt: "There's just something beautiful about Bangalore."
+  tags: [india]
 - url: https://p13i.io/assets/2025-09-08-445c.jpg
   alt:
     "I love photos of unique buildings contrasting with the
     sky behind them."
+  tags: [india]
 - url: https://p13i.io/assets/2025-09-08-4c03.jpg
   alt:
     'I might have used some "AI" to remove some cables...'
+  tags: [india]
 - url: https://p13i.io/assets/2025-09-08-4c61.jpg
   alt: "The sunset was rather beautiful."
+  tags: [india]
 - url: https://p13i.io/assets/2025-09-08-6c8e.jpg
   alt: "Just 100 more steps."
+  tags: [india]
 - url: https://p13i.io/assets/2025-09-08-8baf.jpg
   alt: "Beautiful Tirmula."
+  tags: [india]
 - url: https://p13i.io/assets/2025-09-08-a417.jpg
   alt:
     "These endless mountain ranges remind me of those in
     northern Georgia."
+  tags: [india]
 - url: https://p13i.io/assets/2025-09-08-0b70.jpg
   alt: "So many people have walked these same steps."
+  tags: [india]
 - url: https://p13i.io/assets/2025-09-08-11ff.jpg
   alt: "The beginning of the climb of 3,350 steps."
+  tags: [india]
 - url: https://p13i.io/assets/2025-09-08-61eb.jpg
   alt:
     "Looking up at 15 stories in my uncle's apartment
     building."
+  tags: [india]
 - url: https://p13i.io/assets/2025-09-08-39e1.jpg
   alt: "I like colors."
+  tags: [india]
 - url: https://p13i.io/assets/2025-09-08-c39f.jpg
   alt: "A water display after dinner."
+  tags: [india]
 - url: https://p13i.io/assets/2025-09-08-c949.jpg
   alt: "It's such a beautiful and fun-loving culture."
+  tags: [india]
 - url: https://p13i.io/assets/2025-09-08-b805.jpg
   alt: "Bangalore traffic is INSANE."
+  tags: [india]
 - url: https://p13i.io/assets/2025-09-08-d30b.jpg
   alt: "Looking down the sole runway in Shirdi, KA."
+  tags: [india]
 - url: https://p13i.io/assets/2025-09-08-ff7d.jpg
   alt: "A very cute dashboard adornment."
+  tags: [india]
 - url: https://p13i.io/assets/2025-09-08-c57a.jpg
   alt:
     "A beautiful fabric, one of the most beautiful things
     I've ever seen."
+  tags: [india]
 - url: https://p13i.io/assets/2025-09-08-4401.jpg
   alt:
     "Again, just something beautiful about homes in India"
+  tags: [india]
 - url: https://p13i.io/assets/2025-09-08-5917.jpg
   alt: "Indian architecture in sunset colors."
+  tags: [india]
 - url: https://p13i.io/assets/2025-09-08-30ee.jpg
   alt: "Indian infrastructure is rather impressive."
+  tags: [india]
 - url: https://p13i.io/assets/pix/2025-09-09-acc0.jpg
   alt: "San Francisco bay from Treasure Island"
+  tags: [san-francisco]
 - url: https://p13i.io/assets/pix/2025-09-09-0dd5.jpg
   alt:
     "View of Mt. Rainier and Elliot Bay from the Expedia
     campus near the Space Needle."
+  tags: [seattle]
 - url: https://p13i.io/assets/pix/2025-09-09-6f59.jpg
   alt:
     "Palm trees under a clear, starry night from the Main
     Quad of Stanford University, CA."
+  tags: [stanford]
 - url: https://p13i.io/assets/pix/2025-09-09-fbe9.jpg
   alt:
     "View of Tiger Mountain from my bedroom window; one of
@@ -138,6 +165,7 @@
 - url: https://p13i.io/assets/2025-09-12-802f.jpg
   alt:
     "Bangalore airport #pix"
+  tags: [bangalore]
 - url: https://p13i.io/assets/2025-09-14-42f6.jpg
   alt:
     "Cute window situation here. #pix"
@@ -151,3 +179,4 @@
   alt:
     "View of downtown Seattle from my sister's new college
     apartment. So proud. 🥹 #pix"
+  tags: [seattle]

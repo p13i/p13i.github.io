@@ -1,11 +1,19 @@
 <style>
-  .gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 18px;
-    padding: 0;
-    margin: 0;
-    list-style: none;
+  .gallery-cards {
+    column-count: 3;
+    column-gap: 18px;
+  }
+
+  @media (max-width: 992px) {
+    .gallery-cards {
+      column-count: 2;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .gallery-cards {
+      column-count: 1;
+    }
   }
 
   .gallery-card {
@@ -14,23 +22,43 @@
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 18px;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    break-inside: avoid;
   }
 
   .gallery-card img {
     width: 100%;
-    height: 220px;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
     display: block;
     background: #f3f4f6;
   }
 
-  .gallery-card figcaption {
+  .gallery-card .card-body {
     padding: 12px 14px 14px;
     font-size: 0.95rem;
     line-height: 1.5;
     color: #374151;
+  }
+
+  .gallery-caption {
+    margin: 0;
+  }
+
+  .gallery-card .card-body hr {
+    margin: 10px 0;
+    border-color: #e5e7eb;
+  }
+
+  .gallery-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
   }
 
   .gallery-empty {
@@ -39,20 +67,59 @@
     padding: 32px 0;
     font-size: 1rem;
   }
+
+  .gallery-tag-summary {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .gallery-tag-summary hr {
+    margin: 14px 0;
+  }
+
+  .gallery-tag-summary-title {
+    color: #4b5563;
+    font-size: 0.95rem;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+  }
+
+  .gallery-tag-summary-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
 </style>
 <div class="gallery">
   {% assign photos = site.data.pix %}
   {% if include.tag %}
-  {% assign tag = include.tag | downcase %}
+  {% assign tag = include.tag %}
   {% assign photos = photos | where_exp: "photo", "photo.tags" %}
-  {% assign photos = photos | where_exp: "photo", "photo.tags" | contains: tag %}
+  {% assign photos = photos | where_exp: "photo", "photo.tags contains tag" %}
   {% endif %}
-  <div class="gallery-grid">
+  <div class="gallery-cards card-columns">
     {% for photo in photos %}
-    <figure class="gallery-card">
-      <img src="{{ photo.url }}" alt="{{ photo.alt | xml_escape }}" loading="lazy" />
-      {% if photo.alt %}<figcaption>{{ photo.alt | xml_escape }}</figcaption>{% endif %}
-    </figure>
+    <div class="card gallery-card">
+      <img class="card-img-top" src="{{ photo.url }}" alt="{{ photo.alt | xml_escape }}" loading="lazy" />
+      {% if photo.alt or photo.tags %}
+      <div class="card-body">
+        {% if photo.alt %}
+        <p class="gallery-caption">{{ photo.alt | xml_escape }}</p>
+        {% endif %}
+        {% if photo.tags %}
+        {% if photo.alt %}<hr />{% endif %}
+        <div class="gallery-tags">
+          {% for tag in photo.tags %}
+          {% assign album_href = tag | slugify | prepend: "/pix/" %}
+          {% include _tag.html tag=tag href=album_href %}
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% endif %}
+    </div>
     {% endfor %}
   </div>
   {% if photos == empty %}

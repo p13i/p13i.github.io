@@ -1,19 +1,7 @@
 <style>
-  .gallery-cards {
-    column-count: 3;
+  .gallery-columns {
+    column-width: 280px;
     column-gap: 18px;
-  }
-
-  @media (max-width: 992px) {
-    .gallery-cards {
-      column-count: 2;
-    }
-  }
-
-  @media (max-width: 576px) {
-    .gallery-cards {
-      column-count: 1;
-    }
   }
 
   .gallery-card {
@@ -24,10 +12,17 @@
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
     display: inline-block;
     width: 100%;
-    margin-bottom: 18px;
+    margin: 0 0 18px;
     -webkit-column-break-inside: avoid;
     -moz-column-break-inside: avoid;
     break-inside: avoid;
+  }
+
+  .gallery-card-wide {
+    -webkit-column-span: all;
+    column-span: all;
+    width: 100%;
+    display: block;
   }
 
   .gallery-card img {
@@ -99,10 +94,14 @@
   {% assign photos = photos | where_exp: "photo", "photo.tags" %}
   {% assign photos = photos | where_exp: "photo", "photo.tags contains tag" %}
   {% endif %}
-  <div class="gallery-cards card-columns">
+  <div class="gallery-columns">
     {% for photo in photos %}
-    <div class="card gallery-card">
-      <img class="card-img-top" src="{{ photo.url }}" alt="{{ photo.alt | xml_escape }}" loading="lazy" />
+    {% assign card_classes = "card gallery-card" %}
+    {% if photo.wide %}
+    {% assign card_classes = card_classes | append: " gallery-card-wide" %}
+    {% endif %}
+    <div class="{{ card_classes }}">
+      <img class="card-img-top" src="{{ photo.url }}" alt="{{ photo.alt | xml_escape }}" loading="lazy" data-gallery-photo />
       {% if photo.alt or photo.tags %}
       <div class="card-body">
         {% if photo.alt %}
@@ -126,3 +125,35 @@
   <p class="gallery-empty">No photos are available for this album yet.</p>
   {% endif %}
 </div>
+<script>
+  (function () {
+    if (window.__p13iGalleryWideInit) return;
+    window.__p13iGalleryWideInit = true;
+
+    function maybeMarkWide(img) {
+      var card = img.closest(".gallery-card");
+      if (!card || card.classList.contains("gallery-card-wide")) return;
+      var w = img.naturalWidth;
+      var h = img.naturalHeight;
+      if (!w || !h) return;
+      if (w / h > 2.6) {
+        card.classList.add("gallery-card-wide");
+      }
+    }
+
+    function onLoad(img) {
+      if (img.complete && img.naturalWidth) {
+        maybeMarkWide(img);
+      } else {
+        img.addEventListener("load", function handler() {
+          maybeMarkWide(img);
+          img.removeEventListener("load", handler);
+        });
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll("[data-gallery-photo]").forEach(onLoad);
+    });
+  })();
+</script>

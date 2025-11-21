@@ -88,33 +88,37 @@
   }
 </style>
 <div class="gallery">
-  {% assign photos = site.data.pix %}
-  {% if include.tag %}
-  {% assign tag = include.tag %}
-  {% assign photos = photos | where_exp: "photo", "photo.tags" %}
-  {% assign photos = photos | where_exp: "photo", "photo.tags contains tag" %}
-  {% endif %}
-  {% assign photos = photos | reverse %}
+  {% assign photos = site.data.pix %} {% if include.tag %}
+  {% assign tag = include.tag %} {% assign photos = photos |
+  where_exp: "photo", "photo.tags" %} {% assign photos =
+  photos | where_exp: "photo", "photo.tags contains tag" %}
+  {% endif %} {% assign photos = photos | reverse %}
   <div class="gallery-columns">
-    {% for photo in photos %}
-    {% assign card_classes = "card gallery-card" %}
-    {% if photo.wide %}
-    {% assign card_classes = card_classes | append: " gallery-card-wide" %}
-    {% endif %}
+    {% for photo in photos %} {% assign card_classes = "card
+    gallery-card" %} {% if photo.wide %} {% assign
+    card_classes = card_classes | append: "
+    gallery-card-wide" %} {% endif %}
     <div class="{{ card_classes }}">
-      <img class="card-img-top" src="{{ photo.url }}" alt="{{ photo.alt | xml_escape }}" loading="lazy" data-gallery-photo />
+      <img
+        class="card-img-top"
+        src="{{ photo.url }}"
+        alt="{{ photo.alt | xml_escape }}"
+        loading="lazy"
+        data-gallery-photo
+      />
       {% if photo.alt or photo.tags %}
       <div class="card-body">
         {% if photo.alt %}
-        <p class="gallery-caption">{{ photo.alt | xml_escape }}</p>
+        <p class="gallery-caption">
+          {{ photo.alt | xml_escape }}
+        </p>
+        {% endif %} {% if photo.tags %} {% if photo.alt %}
+        <hr />
         {% endif %}
-        {% if photo.tags %}
-        {% if photo.alt %}<hr />{% endif %}
         <div class="gallery-tags">
-          {% for tag in photo.tags %}
-          {% assign album_href = tag | slugify | prepend: "/pix/" %}
-          {% include _tag.html tag=tag href=album_href %}
-          {% endfor %}
+          {% for tag in photo.tags %} {% assign album_href =
+          tag | slugify | prepend: "/pix/" %} {% include
+          _tag.html tag=tag href=album_href %} {% endfor %}
         </div>
         {% endif %}
       </div>
@@ -123,7 +127,9 @@
     {% endfor %}
   </div>
   {% if photos == empty %}
-  <p class="gallery-empty">No photos are available for this album yet.</p>
+  <p class="gallery-empty">
+    No photos are available for this album yet.
+  </p>
   {% endif %}
 </div>
 <script>
@@ -133,7 +139,11 @@
 
     function maybeMarkWide(img) {
       var card = img.closest(".gallery-card");
-      if (!card || card.classList.contains("gallery-card-wide")) return;
+      if (
+        !card ||
+        card.classList.contains("gallery-card-wide")
+      )
+        return;
       var w = img.naturalWidth;
       var h = img.naturalHeight;
       if (!w || !h) return;
@@ -153,8 +163,13 @@
       }
     }
 
-    document.addEventListener("DOMContentLoaded", function () {
-      document.querySelectorAll("[data-gallery-photo]").forEach(onLoad);
-    });
+    document.addEventListener(
+      "DOMContentLoaded",
+      function () {
+        document
+          .querySelectorAll("[data-gallery-photo]")
+          .forEach(onLoad);
+      }
+    );
   })();
 </script>

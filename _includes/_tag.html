@@ -1,6 +1,6 @@
-{% if include.href %}
-{% assign tag_href = include.href %}
-{% else %}
-{% assign tag_href = "/tags/#" | append: include.tag %}
-{% endif %}
-<a href="{{ tag_href }}" class="badge badge-light">#{{ include.tag }}</a>
+{% if include.href %} {% assign tag_href = include.href %}
+{% else %} {% assign tag_href = "/tags/#" | append:
+include.tag %} {% endif %}
+<a href="{{ tag_href }}" class="badge badge-light"
+  >#{{ include.tag }}</a
+>

@@ -5,7 +5,8 @@
   tags: [seattle]
 - url: https://user-images.githubusercontent.com/13140065/155825868-6ada81bf-69c0-404e-ad28-41fec88c3781.jpg
   alt:
-    "Rocks balancing on a beach-front walk near the Expedia office in the Space Needle area."
+    "Rocks balancing on a beach-front walk near the Expedia
+    office in the Space Needle area."
   tags: [seattle]
 - url: https://user-images.githubusercontent.com/13140065/155815967-0968cbf1-2d06-470a-9fc2-7d3b88493cd9.jpg
   alt: "Focus on a horse's face in Snoqualime, WA."
@@ -172,12 +173,10 @@
     "Small bit of light painting after a hike near Mt.
     Rainier."
 - url: https://p13i.io/assets/2025-09-12-802f.jpg
-  alt:
-    "Bangalore airport #pix"
+  alt: "Bangalore airport #pix"
   tags: [india]
 - url: https://p13i.io/assets/2025-09-14-42f6.jpg
-  alt:
-    "Cute window situation here. #pix"
+  alt: "Cute window situation here. #pix"
 - url: https://p13i.io/assets/pix/2025-09-18-ff24.jpg
   alt: "Mesh of window with blurry branches outside."
   tags: [home]
@@ -193,16 +192,35 @@
     apartment. So proud. #pix"
   tags: [seattle]
 - url: https://p13i.io/assets/2025-11-20-476e.jpg
-  alt: "A beautiful custom home built by architect/interior designer David Christopher in North Vancouver, BC. #pix"
-  tags: [vancouver-bc, industrial-design, david-christopher-homes]
+  alt:
+    "A beautiful custom home built by architect/interior
+    designer David Christopher in North Vancouver, BC. #pix"
+  tags:
+    [
+      vancouver-bc,
+      industrial-design,
+      david-christopher-homes
+    ]
 - url: https://p13i.io/assets/pix/2025-11-20-6fec.jpg
-  alt: "Beautiful lighting fixture around wrapping staircase."
-  tags: [vancouver-bc, industrial-design, david-christopher-homes]
+  alt:
+    "Beautiful lighting fixture around wrapping staircase."
+  tags:
+    [
+      vancouver-bc,
+      industrial-design,
+      david-christopher-homes
+    ]
 - url: https://p13i.io/assets/pix/2025-11-20-32be.jpg
-  alt: "Downtown Vancouver peeking out from the fog, visible from North Vancouver."
+  alt:
+    "Downtown Vancouver peeking out from the fog, visible
+    from North Vancouver."
   tags: [vancouver-bc, david-christopher-homes]
 - url: https://p13i.io/assets/2025-11-20-f190.jpg
-  alt: "Beautiful rainbow over the Issaquah valley, viewed from our home. #pix"
+  alt:
+    "Beautiful rainbow over the Issaquah valley, viewed from
+    our home. #pix"
   tags: [home]
 - url: https://p13i.io/assets/pix/2025-11-20-f7e8.jpg
-  alt: "Beautiful, custom light fixture in custom home in Vancouver."
+  alt:
+    "Beautiful, custom light fixture in custom home in
+    Vancouver."

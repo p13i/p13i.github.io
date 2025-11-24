@@ -408,3 +408,4 @@ title: "Sitemap"
     - [`/tweets/325/` → i got a release build of an expo app to load into my iphone f...](/tweets/325/)
     - [`/tweets/326/` → A beautiful custom home built by architectinterior designer D...](/tweets/326/)
     - [`/tweets/327/` → Beautiful rainbow over the Issaquah valley, viewed from our h...](/tweets/327/)
+    - [`/tweets/328/` → effective compensation Pramods way of say, what if I were to...](/tweets/328/)

@@ -15,6 +15,10 @@
 #		Appplies code formatting
 #   make sync
 # 		Pulls changes from git and pushes local commits
+#   make newpost
+#		Create a new post skeleton in _posts
+
+.ONESHELL:
 
 # Default when make is called w/o args
 default:
@@ -45,6 +49,53 @@ push:
 
 generate-sitemap:
 	python3 scripts/generate_sitemap.py
+
+# Creates a new Jekyll post in _posts with today's date and a slugged filename.
+# Usage:
+#   make newpost                 # prompts for slug
+#   SLUG=my-new-post make newpost # non-interactive; must be lowercase/digits/dashes
+# The rule aborts if the file already exists or the slug is invalid.
+newpost:
+	python3 - <<-'PY'
+	from datetime import date
+	from pathlib import Path
+	import os
+	import re
+	import sys
+
+	slug = (os.getenv("SLUG") or input("New post slug (dash-separated, e.g., my-new-post): ")).strip()
+	if not slug: sys.exit("Slug is required.")
+	if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", slug): sys.exit("Slug must be lowercase letters, numbers, and dashes (dash-separated).")
+
+	today = date.today()
+	date_str = today.strftime("%Y-%m-%d")
+	filename = f"{date_str}-{slug}.md"
+
+	posts_dir = Path.cwd() / "_posts"
+	posts_dir.mkdir(parents=True, exist_ok=True)
+	target_path = posts_dir / filename
+	if target_path.exists(): sys.exit(f"{target_path} already exists; choose a different slug.")
+
+	title = slug.replace("-", " ").title()
+	body = (
+	    "---\n"
+	    f'title: "{title}"\n'
+	    f'date: "{date_str}"\n'
+	    "categories:\n"
+	    "  - writing\n"
+	    "layout: post\n"
+	    "tags: []\n"
+	    "author: Pramod Kotipalli\n"
+	    "description:\n"
+	    "  TODO: add a short summary for previews.\n"
+	    "---\n\n"
+	    f"# {title}\n\n"
+	    "Start writing here.\n"
+	)
+
+	target_path.write_text(body, encoding="utf-8")
+	print(f"Created {target_path}")
+	PY
 
 setup-lint:
 	pip3 install pillow

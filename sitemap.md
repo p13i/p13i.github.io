@@ -95,6 +95,7 @@ title: "Sitemap"
     - [`/posts/2020/06/cactus/` → Cactus](/posts/2020/06/cactus/)
     - [`/posts/2020/06/tracks/` → Tracks](/posts/2020/06/tracks/)
     - [`/posts/2020/11/dsl-for-sql/` → <p>](/posts/2020/11/dsl-for-sql/)
+    - [`/posts/2020/12/stanford-cs-phd-statement/` → "Stanford CS PhD Statement of Purpose (denied)"](/posts/2020/12/stanford-cs-phd-statement/)
     - [`/posts/2021/01/alyssa/` → Alyssa](/posts/2021/01/alyssa/)
     - [`/posts/2021/01/adventure/` → Adventure](/posts/2021/01/adventure/)
     - [`/posts/2021/01/balance/` → Balance](/posts/2021/01/balance/)

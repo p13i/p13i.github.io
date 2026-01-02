@@ -21,7 +21,9 @@ tumultuous high school journey defined by my own struggles with identity and aca
 found our performance of Mahler to be a fitting bookend to that chapter of my life. My decade of
 musical training gave me a reverence for artistic expression. Axiomatically, art is human-centered
 design in its purest form.
-~~~
+
+\~\~\~
+
 A SpaceX rocket requires parts from thousands of suppliers. Stuart is one of the purchasing
 analysts who tackle this logistical challenge. Typically, he’d have to spend all day copy-pasting
 dozens of documents into our company’s database. When I demonstrated my intern project to the
@@ -33,7 +35,7 @@ being truly useful to other people. This empathetic approach is why I ground eve
 discussion in the user experience. It’s seeing the delight in another’s eyes that brings energy to my
 life. Human-centered design is the strongest way to help others.
 
-~~~
+\~\~\~
 
 When my sister turned around to face me, I saw Kamala Harris’ eyes staring back at me instead.
 We were watching the news together as Senator Harris gave her acceptance speech for the Vice

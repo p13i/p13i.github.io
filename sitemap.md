@@ -94,7 +94,7 @@ title: "Sitemap"
     - [`/posts/2020/06/time-analysis/` → Work analysis for Spring 2020](/posts/2020/06/time-analysis/)
     - [`/posts/2020/06/cactus/` → Cactus](/posts/2020/06/cactus/)
     - [`/posts/2020/06/tracks/` → Tracks](/posts/2020/06/tracks/)
-    - [`/posts/2020/10/stanford-khs-connect-dots/` → Stanford Knight-Hennessy Scholars essay (denied) ](/posts/2020/10/stanford-khs-connect-dots/)
+    - [`/posts/2020/10/stanford-khs-connect-dots/` → Stanford Knight-Hennessy Scholars essay (denied)](/posts/2020/10/stanford-khs-connect-dots/)
     - [`/posts/2020/11/dsl-for-sql/` → <p>](/posts/2020/11/dsl-for-sql/)
     - [`/posts/2020/12/stanford-cs-phd-statement/` → "Stanford CS PhD Statement of Purpose (denied)"](/posts/2020/12/stanford-cs-phd-statement/)
     - [`/posts/2021/01/alyssa/` → Alyssa](/posts/2021/01/alyssa/)

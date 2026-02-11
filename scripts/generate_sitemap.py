@@ -77,8 +77,7 @@ def generate_sitemap():
     sitemap = CollectPages()
 
     with open(OUTPUT_FILE, "w") as f:
-        f.write(
-            f"""---
+        f.write(f"""---
 layout: base
 title: "Sitemap"
 ---
@@ -86,8 +85,7 @@ title: "Sitemap"
 
 {sitemap}
 
-"""
-        )
+""")
 
     print(f"Sitemap generated: {OUTPUT_FILE}")
 

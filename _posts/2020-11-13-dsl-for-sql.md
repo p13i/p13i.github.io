@@ -19,6 +19,7 @@ image: "https://github.com/p13i/p13i.github.io/assets/13140065/5ba91cd7-a604-46d
 downloads:
   - name: "📜 Report PDF"
     url: https://github.com/p13i/p13i.github.io/files/11621351/2020_11_13._.CS343D._.Essay.Assignment.pdf
+redirect_from: "dsl"
 ---
 
 Most applications that interface with a database are written

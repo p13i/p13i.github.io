@@ -120,13 +120,15 @@ scripts.forEach(function (script) {
   var katexElement = document.createElement(display ? "div" : "span");
   katexElement.setAttribute("class", display ? "equation" : "inline-equation");
 
+  var tex = script.text.replace(/^%\s*<!\[CDATA\[\s*/, "").replace(/\s*%\]\]>\s*$/, "");
+
   try {
-    katex__WEBPACK_IMPORTED_MODULE_0___default.a.render(script.text, katexElement, {
+    katex__WEBPACK_IMPORTED_MODULE_0___default.a.render(tex, katexElement, {
       displayMode: display
     });
   } catch (err) {
     //console.error(err); linter doesn't like this
-    katexElement.textContent = script.text;
+    katexElement.textContent = tex;
   }
 
   script.parentNode.replaceChild(katexElement, script);

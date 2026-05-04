@@ -4,22 +4,27 @@
   font-family: "Calibri";
   font-style: normal;
   font-weight: 400;
-  src: local("Calibri"),
+  src:
+    local("Calibri"),
     url(https://fonts.gstatic.com/l/font?kit=J7afnpV-BGlaFfdAhLEY67FIEjg&skey=a1029226f80653a8&v=v10)
       format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
-    U+FEFF, U+FFFD;
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+    U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
+    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* latin-ext */
 @font-face {
   font-family: "Helvetica Neue";
   font-style: normal;
   font-weight: 400;
-  src: local("Helvetica Neue"), local("HelveticaNeue"),
+  src:
+    local("Helvetica Neue"),
+    local("HelveticaNeue"),
     url(https://fonts.gstatic.com/l/font?kit=jAnfgHBgCsv4eNLTaMECf8DQsNS1exC-fGAj&skey=4ad46dd97873f7d7&v=v9)
       format("woff2");
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+  unicode-range:
+    U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
     U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -27,22 +32,28 @@
   font-family: "Helvetica Neue";
   font-style: normal;
   font-weight: 400;
-  src: local("Helvetica Neue"), local("HelveticaNeue"),
+  src:
+    local("Helvetica Neue"),
+    local("HelveticaNeue"),
     url(https://fonts.gstatic.com/l/font?kit=jAnfgHBgCsv4eNLTaMECf8DQsNS7exC-fGAj&skey=4ad46dd97873f7d7&v=v9)
       format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
-    U+FEFF, U+FFFD;
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+    U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
+    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* latin-ext */
 @font-face {
   font-family: "Helvetica Neue";
   font-style: normal;
   font-weight: 700;
-  src: local("Helvetica Neue Bold"), local("HelveticaNeue-Bold"),
+  src:
+    local("Helvetica Neue Bold"),
+    local("HelveticaNeue-Bold"),
     url(https://fonts.gstatic.com/l/font?kit=jAncgHBgCsv4eNLTaMECf8DQsNwAXgWdXm0Jmmw5&skey=ba59c4fdb0ab3b35&v=v9)
       format("woff2");
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+  unicode-range:
+    U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
     U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
@@ -50,12 +61,15 @@
   font-family: "Helvetica Neue";
   font-style: normal;
   font-weight: 700;
-  src: local("Helvetica Neue Bold"), local("HelveticaNeue-Bold"),
+  src:
+    local("Helvetica Neue Bold"),
+    local("HelveticaNeue-Bold"),
     url(https://fonts.gstatic.com/l/font?kit=jAncgHBgCsv4eNLTaMECf8DQsNwAXgWTXm0Jmmw5&skey=ba59c4fdb0ab3b35&v=v9)
       format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
-    U+FEFF, U+FFFD;
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+    U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122,
+    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 body {
@@ -139,6 +153,38 @@ body {
     margin-bottom: 1em;
   }
 
+  table {
+    border-collapse: collapse;
+    margin: 1.5rem auto;
+  }
+
+  th,
+  td {
+    border: 1px solid #adb5bd;
+    padding: 0.35rem 0.6rem;
+  }
+
+  thead th {
+    border-bottom: 2px solid #adb5bd;
+  }
+
+  .equation {
+    margin: 1.5rem auto;
+    text-align: center;
+  }
+
+  .equation > .katex-display {
+    margin: 0;
+  }
+
+  .katex .hdashline {
+    border-bottom-style: dotted;
+  }
+
+  .katex .vertical-separator[style*="dashed"] {
+    border-right-style: dotted !important;
+  }
+
   h1,
   h2,
   h3,
@@ -179,8 +225,11 @@ body {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: 0.25rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition:
+    color 0.15s ease-in-out,
+    background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
 }
 
 .list-group-item {
@@ -258,17 +307,29 @@ p.center {
 /* Make headings noticeably smaller (~30% down from Bootstrap defaults),
    scoped to the inner .post only */
 .cv h1,
-.cv .h1 { font-size: 1.75rem; }  /* was ~2.5rem */
+.cv .h1 {
+  font-size: 1.75rem;
+} /* was ~2.5rem */
 .cv h2,
-.cv .h2 { font-size: 1.40rem; }  /* was ~2.0rem */
+.cv .h2 {
+  font-size: 1.4rem;
+} /* was ~2.0rem */
 .cv h3,
-.cv .h3 { font-size: 1.20rem; }  /* was ~1.75rem */
+.cv .h3 {
+  font-size: 1.2rem;
+} /* was ~1.75rem */
 .cv h4,
-.cv .h4 { font-size: 1.05rem; }  /* was ~1.5rem */
+.cv .h4 {
+  font-size: 1.05rem;
+} /* was ~1.5rem */
 .cv h5,
-.cv .h5 { font-size: 0.875rem; } /* was ~1.25rem */
+.cv .h5 {
+  font-size: 0.875rem;
+} /* was ~1.25rem */
 .cv h6,
-.cv .h6 { font-size: 0.75rem; }  /* was ~1.0rem */
+.cv .h6 {
+  font-size: 0.75rem;
+} /* was ~1.0rem */
 
 /* Compact spacing to match the smaller sizes (optional) */
 .cv h1,

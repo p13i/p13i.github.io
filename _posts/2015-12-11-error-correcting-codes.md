@@ -14,7 +14,7 @@ redirect_from: "ecc"
 
 # Introduction to Coding Theory
 
-## A practical example of error correction
+## Error correction in Compact Disks
 
 How is it that a CD with so many scratches on it can still
 be played continuously with few audible errors? Why is it
@@ -38,12 +38,11 @@ equivalent to the bits: `010010000110100100100001`
 
 However, my friend may receive this message as corrupted
 [in ASCII](https://www.rapidtables.com/convert/number/binary-to-string.html).
-Flipped bits are marked in $\textcolor{red}{\verb|red|}$.
+Flipped bits are marked in $\textcolor{red}{\texttt{red}}$.
 
-<p class="center">
-$$\textcolor{red}{1}10010\textcolor{red}{1}00110100\textcolor{red}{1}001
-\textcolor{red}{1}0001 \longleftrightarrow \verb!Êi1!$$
-</p>
+$$
+\textcolor{red}{1}10010\textcolor{red}{1}00110100\textcolor{red}{1}001\textcolor{red}{1}0001 \longleftrightarrow \texttt{Êi1}
+$$
 
 Converting this transmitted message back to a string doesn’t
 even resemble a word! Over noisy mediums, error rates, like
@@ -55,15 +54,17 @@ Suppose that I send a message composed of three bits and a
 _parity bit_ which is calculated by adding all the previous
 bits in the binary field $$\textbf{B} = \{0, 1\}$$:
 
-<p class="center">
-    $$\verb|Message:| 011$$
-</p>
-<p class="center">
-    $$\verb|Parity bit:| \textcolor{blue}{0 + 1 + 1 = 0} \verb| in | \textbf{B}$$
-</p>
-<p class="center">
-    $$\verb|Final message:| 011\textcolor{blue}{0}$$
-</p>
+$$
+\texttt{Message: } 011
+$$
+
+$$
+\texttt{Parity bit: } \textcolor{blue}{0 + 1 + 1 = 0} \texttt{ in } \textbf{B}
+$$
+
+$$
+\texttt{Final message: } 011\textcolor{blue}{0}
+$$
 
 Such a scheme can detect only one error: Suppose that the
 message $$0100$$ is received, then the receiver can perform
@@ -100,304 +101,423 @@ example, I can encode a message $$011$$ as $$011, 011, 011$$
 and transmit $$011011011$$. Then if a friend receives
 
 $$
-011\textcolor{red}{10}1011 = 011,
-\textcolor{red}{10}1, 011$$ he/she can
-take the majority-occurring message
-$$(011)$$ as the actual message and use
-it. Here the error correction and
-detection scheme corrects two errors but
-at the expense of more transmitted data.
-The *information rate* for such a scheme
-is $$R = \frac{1}{3}$$, a very
-inefficient mechanism.
+011\textcolor{red}{10}1011 = 011, \textcolor{red}{10}1, 011
+$$
 
-Defining Coding Theory
-----------------------
+he/she can take the majority-occurring message $$(011)$$ as
+the actual message and use it. Here the error correction and
+detection scheme corrects two errors but at the expense of
+more transmitted data. The _information rate_ for such a
+scheme is $$R = \frac{1}{3}$$, a very inefficient mechanism.
 
-Coding Theory deals with the creation
-and analysis of efficient
-error-correction schemes to ensure that
-messages transmitted over noisy channels
-are properly received.
+## Defining Coding Theory
 
-Further, Coding Theory aims to find the
-optimal balance of effectiveness and
-efficiency of error-correcting codes in
-various applications. In other words,
-Coding Theory aims to balance a high
-*information rate* with a high *error
-correction rate*. A message is
+Coding Theory deals with the creation and analysis of
+efficient error-correction schemes to ensure that messages
+transmitted over noisy channels are properly received.
 
-Finally, I include a useful graphic
-which outlines the procedure of error
-correction across noisy channels. A
-message is encoded into a codeword,
-transmitted across a noisy channel, and
-then decoded and corrected by the
+Further, Coding Theory aims to find the optimal balance of
+effectiveness and efficiency of error-correcting codes in
+various applications. In other words, Coding Theory aims to
+balance a high _information rate_ with a high _error
+correction rate_.
+
+Finally, I include a useful diagram which outlines the
+procedure of error correction across noisy channels. A
+message is encoded into a codeword, transmitted across a
+noisy channel, and then decoded and corrected by the
 recipient.
 
-\[NoisyCommunication\] ![Error
-correction across noisy channels
-@ECCAndFF](https://user-images.githubusercontent.com/13140065/178387208-ba2db1a7-815e-4066-8a96-fce0b2bec29a.png)
+```mermaid
+flowchart LR
+    subgraph encoding["Encoding and Transmission"]
+        direction LR
+        M1["Message word x"] -->|"Input"| ENC["Encoder"]
+        ENC -->|"Code word u"| ADD["+"]
+        ERR["Random error generator"] -->|"Errors"| ADD
+        ADD -->|"Received word v"| OUT1["Distorted signal"]
+    end
 
-In this paper, I hope to effectively
-outline the use of
-**Bose-Chaudhuri-Hocquenghem (BCH)
-codes** which form a class of cyclic
-error-correcting codes constructed in
-finite fields.
+    subgraph decoding["Reception and Decoding"]
+        direction LR
+        IN2["Received word v"] -->|"Input"| EP["Error processor"]
+        EP -->|"Code word u'"| DEC["Decoder"]
+        EP -.->|"v + error signal"| MON["Monitoring"]
+        DEC -->|"Message word x'"| OUT2["Recovered message"]
+    end
 
-Preliminaries to and definitions for
-discussing BCH codes
-========================================
+    OUT1 -.->|"Transmission"| IN2
 
-In the examples used in this paper, I
-will discuss the Galois field containing
-16 elements notated as
+    style encoding fill:#e1f5ff
+    style decoding fill:#fff4e1
+    style ERR fill:#ffcccc
+    style ADD fill:#ffe1e1
+```
+
+In this paper, I hope to effectively outline the use of
+**Bose-Chaudhuri-Hocquenghem (BCH) codes** which form a
+class of cyclic error-correcting codes constructed in finite
+fields.
+
+## Preliminaries to and definitions for discussing BCH codes
+
+In the examples used in this paper, I will discuss the
+Galois field containing 16 elements notated as
 $$\textbf{GF}(16)$$.
 
-Code words and Hamming distances
-----------------------------------------
+### Code words and Hamming distances
 
 Let’s first define some key words and concepts:
 
-If $$A$$ is an alphabet (containing $$q$$ symbols), then an *A-word* with length $$n$$ is
-denoted as $$A^n$$ meaning that it contains $$n$$ elements from $$A$$. For
-example, in the set of alphabetic characters
-$$A = \{a, b, \cdots, z\}$$, the *A-word* $$\verb|"hello"|$$ is denoted
-as $$A^5$$.
+If $$A$$ is an alphabet (containing $$q$$ symbols), then an
+_A-word_ with length $$n$$ is denoted as $$A^n$$ meaning
+that it contains $$n$$ elements from $$A$$. For example, in
+the set of alphabetic characters
+$$A = \{a, b, \cdots, z\}$$, the _A-word_ `"hello"` is
+denoted as $$A^5$$.
 
-An *$$(n, m)$$-block code $$C$$* over the alphabet $$A$$ of size $$q$$ contains exactly $$q^m$$ *code
-words* in $$A^n$$. The set of $$q^m$$ elements in $$A^n$$ consists of all
-the *code words* for a message of length $$n$$ in the alphabet $$A$$.
+An _$$(n, m)$$-block code $$C$$_ over the alphabet $$A$$ of
+size $$q$$ contains exactly $$q^m$$ _code words_ in $$A^n$$.
+The set of $$q^m$$ elements in $$A^n$$ consists of all the
+_code words_ for a message of length $$n$$ in the alphabet
+$$A$$.
 
-We will see that the field of code words defined in finite fields have
-special properties that would allow us to recover a corrupted message
-$$m$$. In order encode some message $$m$$, we use a bijective[^5] encoder
-$$E$$ to map some $$m \in A^m$$ to the set of code words $$C$$ which have
+We will see that the field of code words defined in finite
+fields have special properties that would allow us to
+recover a corrupted message $$m$$. In order encode some
+message $$m$$, we use a bijective[^5] encoder $$E$$ to map
+some $$m \in A^m$$ to the set of code words $$C$$ which have
 special properties as we will see.
 
 We indulge in one more definition:
 
 The Hamming distance
 
-:   between two code words in $$u = (u_1, \ldots, u_n) \in A$$ and
-    $$v = (v_1, \ldots, v_n) \in A$$ is a measure of how much $$u$$ and $$v$$
-    differ[^6]. This distance is defined as the number of positions $$i$$
-    where $$u_i \neq v_i$$. In other words, the Hamming distance is a
-    measure of how different two words are. For example, the distance
-    between the vectors $$\verb|hello|$$ and $$\verb|hi___|$$ in the
-    alphabet set $$A$$ is 4 because the two vectors differ in value in
-    four analougous locations.
+: between two code words in $$u = (u_1, \ldots, u_n) \in A$$
+and $$v = (v_1, \ldots, v_n) \in A$$ is a measure of how
+much $$u$$ and $$v$$ differ[^6]. This distance is defined as
+the number of positions $$i$$ where $$u_i \neq v_i$$. In
+other words, the Hamming distance is a measure of how
+different two words are. For example, the distance between
+the vectors `hello` and `hi___` in the alphabet set $$A$$ is
+4 because the two vectors differ in value in four analougous
+locations.
 
-Similarly, the *minimum distance* of the set $$C$$ is smallest Hamming
-distance between any distinct pair of vectors in $$C$$. The minimum
-distance is thus a measure of how “close” any two words are in a set of
-code words; the lower the minimum distance, the closer two words in the
-set $$C$$ are. A code with a *minimum Hamming distance of $$d$$* can correct
-up to $$d-1$$ errors in a code word. Usually, the set of code words $$C$$ is
-designed to have a **minimum Hamming distance**
+Similarly, the _minimum distance_ of the set $$C$$ is
+smallest Hamming distance between any distinct pair of
+vectors in $$C$$. The minimum distance is thus a measure of
+how “close” any two words are in a set of code words; the
+lower the minimum distance, the closer two words in the set
+$$C$$ are. A code with a _minimum Hamming distance of $$d$$_
+can correct up to $$d-1$$ errors in a code word. Usually,
+the set of code words $$C$$ is designed to have a **minimum
+Hamming distance**
 
-In error-correction schemes, when receiving a message vector in a noisy
-channel, say $$t = (t_1, \ldots, t_n)$$, we are looking in the set of
-possible code words $$C$$ to see what vector $$v$$ in $$C$$ has the smallest
-Hamming distance to $$t$$. Then, this vector $$v$$ is likely to be our
-intended message vector. In other words, we are trying to see what the
-message $$t$$ is most likely trying to represent from $$C$$.
+In error-correction schemes, when receiving a message vector
+in a noisy channel, say $$t = (t_1, \ldots, t_n)$$, we are
+looking in the set of possible code words $$C$$ to see what
+vector $$v$$ in $$C$$ has the smallest Hamming distance to
+$$t$$. Then, this vector $$v$$ is likely to be our intended
+message vector. In other words, we are trying to see what
+the message $$t$$ is most likely trying to represent from
+$$C$$.
 
-Finite/Galois Fields
---------------------
+### Finite/Galois Fields
 
-Alphabets used in error-correction schemes are usually constrained to
-$$256$$ bits because they can represent all the common characters used in
-electronic communications. This leads to using a finite field of $$256$$
-elements. Here, we give a more formal definition of finite fields.
+Alphabets used in error-correction schemes are usually
+constrained to $$256$$ bits because they can represent all
+the common characters used in electronic communications.
+This leads to using a finite field of $$256$$ elements.
+Here, we give a more formal definition of finite fields.
 
-The finite field $$\mathbb{F}_q$$ contains $$q$$ elements and the standard
-arithmetic[^7] is constrained to this set of $$q$$ elements. $$\mathbb{F}$$
-can also be considered a ring so $$\mathbb{F}[x]$$ is the set of
-polynomials over $$\mathbb{F}$$. Arithmetic in $$\mathbb{F}_n[x]$$ can
+The finite field $$\mathbb{F}_q$$ contains $$q$$ elements
+and the standard arithmetic[^7] is constrained to this set
+of $$q$$ elements. $$\mathbb{F}$$ can also be considered a
+ring so $$\mathbb{F}[x]$$ is the set of polynomials over
+$$\mathbb{F}$$. Arithmetic in $$\mathbb{F}_n[x]$$ can
 performed under a polynomial modulo and is denoted as
-$$\mathbb{F}_n[x]/f(x)$$ for some irreducible[^8] polynomial $$f(x)$$ that
-divides $$(x^n - 1)$$.
+$$\mathbb{F}_n[x]/f(x)$$ for some irreducible[^8] polynomial
+$$f(x)$$ that divides $$(x^n - 1)$$.
 
-For the purposes of this paper, we will consider four bits as a single
-unit to deal with burst errors which tend to corrupt short and
-continuous segments of a code. As such, we will want to consider fields
-of size $$2^4 = 16$$ as there are two elements in the alphabet
-$$\mathbb{B} = \{0, 1\}$$ and the code word has length $$4$$. As such, our
-finite field will can be denoted as
+For the purposes of this paper, we will consider four bits
+as a single unit to deal with burst errors which tend to
+corrupt short and continuous segments of a code. As such, we
+will want to consider fields of size $$2^4 = 16$$ as there
+are two elements in the alphabet $$\mathbb{B} = \{0, 1\}$$
+and the code word has length $$4$$. As such, our finite
+field will can be denoted as
 $$\mathbb{B}_4[x]/f(x) = \textbf{GF}(16)$$.
 
-We cannot use integers in our construction of our finite field as they
-do not satisfy the cancellation law[^9] under non-prime modulo. So, we
-must use polynomials because they satisfy the required arithmetic
-properties.
+We cannot use integers in our construction of our finite
+field as they do not satisfy the cancellation law[^9] under
+non-prime modulo. So, we must use polynomials because they
+satisfy the required arithmetic properties.
 
-Polynomials in finite fields
-----------------------------
+### Polynomials in finite fields
 
-Because our field is $$\mathbb{B}_4[x]$$, we are constrained to using
-binary coefficients to describe our polynomials. From binary strings, we
-can easily represent polynomials in $$\pmod{16}$$. For example:
+Because our field is $$\mathbb{B}_4[x]$$, we are constrained
+to using binary coefficients to describe our polynomials.
+From binary strings, we can easily represent polynomials in
+$$\bmod 16$$. For example:
 $$1 \times x^3 + 0 \times x^2 + 1 \times x^1 + 1 \times x^0 = x^3 + x + 1 \leftrightarrow 1011 \leftrightarrow 8 + 0 + 4 + 1 = 13$$
-Polynomial addition is the same as addition over $$\mathbb{B}$$. For
-example, adding $$101 \leftrightarrow x^2 + 1$$ and
+Polynomial addition is the same as addition over
+$$\mathbb{B}$$. For example, adding
+$$101 \leftrightarrow x^2 + 1$$ and
 $$011 \leftrightarrow x + 1$$ results in
-$$x^2 + x + (1 + 1) = x^2 + x \leftrightarrow 110 $$. You may, correctly
-note that this resembles an $$\verb|XOR|$$ operation.
+$$x^2 + x + (1 + 1) = x^2 + x \leftrightarrow 110$$. You
+may, correctly note that this resembles an `XOR` operation.
 
-Polynomial multiplication is a little more involved and is covered in
-more detail soon.
+Polynomial multiplication is a little more involved and is
+covered in more detail soon.
 
-Constructing a finite field with polynomials
---------------------------------------------
+### Constructing a finite field with polynomials
 
 We have seen that using composite numbers $$c$$ in
-$$\mathbb{Z}/c\mathbb{Z}$$ does not allow the set of integers
-$$\{0, \ldots, c-1\}$$ to satisfy the cancellation law. Using numbers like
-16 as the modulus for a finite field leads to results like
-$$4 \times 4 \equiv 16 \equiv 0$$ which are troubling to finite fields.
-This is why we chose polynomials as our arithmetic “basis” for math in
-the finite field $$\mathbb{B}_4[x]/f(x)$$.
+$$\mathbb{Z}/c\mathbb{Z}$$ does not allow the set of
+integers $$\{0, \ldots, c-1\}$$ to satisfy the cancellation
+law. Using numbers like 16 as the modulus for a finite field
+leads to results like $$4 \times 4 \equiv 16 \equiv 0$$
+which are troubling to finite fields. This is why we chose
+polynomials as our arithmetic “basis” for math in the finite
+field $$\mathbb{B}_4[x]/f(x)$$.
 
-Thus, for the construction of a finite field, other than $$\mathbb{F}_p$$
-for a prime $$p$$, we must choose polynomials $$g(x)$$ in $$\mathbb{F}_n[x]$$
-that are *irreducible*[^10] factors of $$x^n - 1$$. One such factor of
-$$x^{16} - 1$$ in **GF**(16) is $$g(x) = x^4 + x^3 + 1$$ and will be used to
-construct a finite field below.
+Thus, for the construction of a finite field, other than
+$$\mathbb{F}_p$$ for a prime $$p$$, we must choose
+polynomials $$g(x)$$ in $$\mathbb{F}_n[x]$$ that are
+_irreducible_[^10] factors of $$x^n - 1$$. One such factor
+of $$x^{16} - 1$$ in **GF**(16) is $$g(x) = x^4 + x^3 + 1$$
+and will be used to construct a finite field below.
 
-To construct the finite field $$\textbf{GF}(16)$$ using our generator
-polynomial $$x^4 + x^3 + 1$$, we must first observe that $$x^4 = x^3 + 1$$
-because coefficients of $$-1 \equiv 1$$ in $$\mathbb{B}$$. The finite field
-itself is found by each possible binary polynomial under degree of $$4$$.
-The set of possible polynomials each representing an integer from $$0$$ to
-$$16$$ is listed below in abbreviated form[^11].
+To construct the finite field $$\textbf{GF}(16)$$ using our
+generator polynomial $$x^4 + x^3 + 1$$, we must first
+observe that $$x^4 = x^3 + 1$$ because coefficients of
+$$-1 \equiv 1$$ in $$\mathbb{B}$$. The finite field itself
+is found by each possible binary polynomial under degree of
+$$4$$. The set of possible polynomials each representing an
+integer from $$0$$ to $$16$$ is listed below in abbreviated
+form[^11].
 
-     **Polynomial**      **Binary**   **Decimal**
-  --------------------- ------------ -------------
-            0               0000           0
-            1               0001           1
-           $$x$$              0010           2
-         $$x + 1$$            0011           3
-          $$x^2$$             0100           4
-        $$x^2 + 1$$           0101           5
-      $$x^2 + x + 1$$         0111           6
-        $$\cdots$$          $$\cdots$$     $$\cdots$$
-   $$x^3 + x^2 + x + 1$$      1111          15
+$$
+\begin{array}{|c|c|c|}
+\hline
+\textbf{Polynomial} & \textbf{Binary} & \textbf{Decimal} \\
+\hline
+0 & 0000 & 0 \\
+\hline
+1 & 0001 & 1 \\
+\hline
+x & 0010 & 2 \\
+\hline
+x + 1 & 0011 & 3 \\
+\hline
+x^2 & 0100 & 4 \\
+\hline
+x^2 + 1 & 0101 & 5 \\
+\hline
+x^2 + x + 1 & 0111 & 6 \\
+\hline
+\cdots & \cdots & \cdots \\
+\hline
+x^3 + x^2 + x + 1 & 1111 & 15 \\
+\hline
+\end{array}
+$$
 
-Now, to actually construct the field, we compute a table by multiplying
-the polynomial representations of each binary number from the rows and
-columns together to form a cell:
+Now, to actually construct the field, we compute a table by
+multiplying the polynomial representations of each binary
+number from the rows and columns together to form a cell:
 
-              0001   0010          0100   $$\cdots$$     1111
-  ---------- ------ ------ ------ ------ ---------- ----------
-     0001     0001   0010   0011   0100   $$\cdots$$     1111
-                     0100          1000   $$\cdots$$     0111
-     0011                   0101   1100   $$\cdots$$     1000
-     0100                          1001   $$\cdots$$     1110
-   $$\cdots$$                               $$\ddots$$   $$\vdots$$
-     1111                                              0011
+$$
+\begin{array}{|c|c|c|c|c|c|c|}
+\hline
+& 0001 & 0010 & 0011 & 0100 & \cdots & 1111 \\
+\hline
+0001 & 0001 & 0010 & 0011 & 0100 & \cdots & 1111 \\
+\hline
+0010 & 0010 & 0100 & 0110 & 1000 & \cdots & 1110 \\
+\hline
+0011 & 0011 & 0110 & 0101 & 1100 & \cdots & 1000 \\
+\hline
+0100 & 0100 & 1000 & 1100 & 1001 & \cdots & 1110 \\
+\hline
+\cdots & \cdots & \cdots & \cdots & \cdots & \ddots & \vdots \\
+\hline
+1111 & 1111 & 1110 & 1000 & 1110 & \cdots & 0011 \\
+\hline
+\end{array}
+$$
 
-For example, to compute $$2 \times 3 \leftrightarrow 0010 \times 0011$$,
-we compute the product of the polynomials:
+For example, to compute
+$$2 \times 3 \leftrightarrow 0010 \times 0011$$, we compute
+the product of the polynomials:
 $$(x) \times (x + 1) = x^2 + x \equiv x^2 + x \leftrightarrow \textcolor{green}{\textbf{0110}}$$
 For another example, we compute $$1111 \times 0010$$:
-$$(x^3 + x^2 + x + 1) \times (x) = x^4 + x^3 + x^2 + x$$ Using the fact
-that $$x^4 = x^3 + 1$$ in $$\mathbb{B}$$ we **must** further reduce this
-polynomial so it exists in $$\textbf{GF}(16)$$ because $$x^4$$ is not
-defined in the field. $$\begin{aligned}
-                x^4 + x^3 + x^2 + x &= (x^3 + 1) + x^3 + x^2 + x\\
-                    &= (x^3 + x^3) + x^2 + x + 1 \\
-                    &= x^2 + x + 1 \leftrightarrow 0111 \text{  } \checkmark \\
-                \end{aligned}$$ Below is a completed table (in base 10)
-based on the primitive, generator polynomial $$x^4 + x^3 + 1$$ (Figure
-\[mult\]).
+$$(x^3 + x^2 + x + 1) \times (x) = x^4 + x^3 + x^2 + x$$
+Using the fact that $$x^4 = x^3 + 1$$ in $$\mathbb{B}$$ we
+**must** further reduce this polynomial so it exists in
+$$\textbf{GF}(16)$$ because $$x^4$$ is not defined in the
+field.
 
-![Multiplication over the finite field GF(16)\[mult\]
-@ECCAndFF](https://user-images.githubusercontent.com/13140065/178387291-8f63b0ec-241e-4ee5-9ebe-c8472b4c5b3b.png)
-Primitive elements in **GF**(16)
---------------------------------
+$$
+\begin{aligned}
+x^4 + x^3 + x^2 + x &= (x^3 + 1) + x^3 + x^2 + x\\
+&= (x^3 + x^3) + x^2 + x + 1 \\
+&= x^2 + x + 1 \leftrightarrow 0111 \quad \checkmark \\
+\end{aligned}
+$$
 
-Similar to a primitive root for a prime number, a primitive element in a
-finite field can generate all elements of a field in some permutation.
-In other words, $$\alpha \in \textbf{GF}(n)$$ is a primitive element if
-the set $$\{a^0, a^1, \ldots, a^{n-1}\}$$ is a permutation of
+Below is a completed table (in base 10) based on the
+primitive, generator polynomial $$x^4 + x^3 + 1$$.
+
+$$
+\begin{array}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{Element} & \mathbf{0} & \mathbf{1} & \mathbf{2} & \mathbf{3} & \mathbf{4} & \mathbf{5} & \mathbf{6} & \mathbf{7} & \mathbf{8} & \mathbf{9} & \mathbf{10} & \mathbf{11} & \mathbf{12} & \mathbf{13} & \mathbf{14} & \mathbf{15} \\
+\hline
+\textbf{Log} & \text{--} & 0 & 1 & 12 & 2 & 9 & 13 & 7 & 3 & 4 & 10 & 5 & 14 & 11 & 8 & 6 \\
+\hline
+\end{array}
+$$
+
+$$
+\begin{array}{|c||c:c:c:c:c:c:c:c:c:c:c:c:c:c:c:c|}
+\hline
+\boldsymbol{\times} & \mathbf{0} & \mathbf{1} & \mathbf{2} & \mathbf{3} & \mathbf{4} & \mathbf{5} & \mathbf{6} & \mathbf{7} & \mathbf{8} & \mathbf{9} & \mathbf{10} & \mathbf{11} & \mathbf{12} & \mathbf{13} & \mathbf{14} & \mathbf{15} \\
+\hline
+\hline
+\mathbf{0} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+\hdashline
+\mathbf{1} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 \\
+\hdashline
+\mathbf{2} & 0 & 2 & 4 & 6 & 8 & 10 & 12 & 14 & 9 & 11 & 13 & 15 & 1 & 3 & 5 & 7 \\
+\hdashline
+\mathbf{3} & 0 & 3 & 6 & 5 & 12 & 15 & 10 & 9 & 1 & 2 & 7 & 4 & 13 & 14 & 11 & 8 \\
+\hdashline
+\mathbf{4} & 0 & 4 & 8 & 12 & 9 & 13 & 1 & 5 & 11 & 15 & 3 & 7 & 2 & 6 & 10 & 14 \\
+\hdashline
+\mathbf{5} & 0 & 5 & 10 & 15 & 13 & 8 & 7 & 2 & 3 & 6 & 9 & 12 & 14 & 11 & 4 & 1 \\
+\hdashline
+\mathbf{6} & 0 & 6 & 12 & 10 & 1 & 7 & 13 & 11 & 2 & 4 & 14 & 8 & 3 & 5 & 15 & 9 \\
+\hdashline
+\mathbf{7} & 0 & 7 & 14 & 9 & 5 & 2 & 11 & 12 & 10 & 13 & 4 & 3 & 15 & 8 & 1 & 6 \\
+\hdashline
+\mathbf{8} & 0 & 8 & 9 & 1 & 11 & 3 & 2 & 10 & 15 & 7 & 6 & 14 & 4 & 12 & 13 & 5 \\
+\hdashline
+\mathbf{9} & 0 & 9 & 11 & 2 & 15 & 6 & 4 & 13 & 7 & 14 & 12 & 5 & 8 & 1 & 3 & 10 \\
+\hdashline
+\mathbf{10} & 0 & 10 & 13 & 7 & 3 & 9 & 14 & 4 & 6 & 12 & 11 & 1 & 5 & 15 & 8 & 2 \\
+\hdashline
+\mathbf{11} & 0 & 11 & 15 & 4 & 7 & 12 & 8 & 3 & 14 & 5 & 1 & 10 & 9 & 2 & 6 & 13 \\
+\hdashline
+\mathbf{12} & 0 & 12 & 1 & 13 & 2 & 14 & 3 & 15 & 4 & 8 & 5 & 9 & 6 & 10 & 7 & 11 \\
+\hdashline
+\mathbf{13} & 0 & 13 & 3 & 14 & 6 & 11 & 5 & 8 & 12 & 1 & 15 & 2 & 10 & 7 & 9 & 4 \\
+\hdashline
+\mathbf{14} & 0 & 14 & 5 & 11 & 10 & 4 & 15 & 1 & 13 & 3 & 8 & 6 & 7 & 9 & 2 & 12 \\
+\hdashline
+\mathbf{15} & 0 & 15 & 7 & 8 & 14 & 1 & 9 & 6 & 5 & 10 & 2 & 13 & 11 & 4 & 12 & 3 \\
+\hline
+\end{array}
+$$
+
+### Primitive elements in **GF**(16)
+
+Similar to a primitive root for a prime number, a primitive
+element in a finite field can generate all elements of a
+field in some permutation. In other words,
+$$\alpha \in \textbf{GF}(n)$$ is a primitive element if the
+set $$\{a^0, a^1, \ldots, a^{n-1}\}$$ is a permutation of
 $$\{1, 2, \ldots, n - 1\}$$.
 
-For the field **GF**(16), $$\alpha = 2$$ is a primitive element because
-all powers of $$\alpha$$ up to $$15$$ serve as a permutation of the set
-$$\{1, 2, \ldots, n - 1\}$$. Using the multiplication table in Figure
-\[mult\], we can easily verify this fact.
+For the field **GF**(16), $$\alpha = 2$$ is a primitive
+element because all powers of $$\alpha$$ up to $$15$$ serve
+as a permutation of the set $$\{1, 2, \ldots, n - 1\}$$.
+Using the multiplication table above, we can easily verify
+this fact.
 
-Overview of BCH
----------------
+### Overview of BCH
 
-To develop a BCH code, we use all of the knowledge we have outlined
-above. Given a binary message expressed as a polynomial called $$u(x)$$,
-we can map it to an encoded code word $$c(x)$$ that lies in the set of
-valid BCH code words[^12]. We then convert $$c(x)$$ to binary and transmit
+To develop a BCH code, we use all of the knowledge we have
+outlined above. Given a binary message expressed as a
+polynomial called $$u(x)$$, we can map it to an encoded code
+word $$c(x)$$ that lies in the set of valid BCH code
+words[^12]. We then convert $$c(x)$$ to binary and transmit
 across a noisy channel.
 
-The receiver will then perform various polynomial operations, calculate
-syndromes (yet to be discussed), and linear algebra row-reduction to
-eventually calculate where the corrupted bits are.
+The receiver will then perform various polynomial
+operations, calculate syndromes (yet to be discussed), and
+linear algebra row-reduction to eventually calculate where
+the corrupted bits are.
 
-Encoding in BCH
-===============
+## Encoding in BCH
 
-To illustrate the BCH encoding and decoding procedures, we will use the
-example of a triple-error correcting $$(15, 5, 7)$$BCH code in the
-**GF**$$(16)$$ based on the primitive[^13] polynomial $$x^4 + x + 1$$[^14].
+To illustrate the BCH encoding and decoding procedures, we
+will use the example of a triple-error correcting
+$$(15, 5, 7)$$BCH code in the **GF**$$(16)$$ based on the
+primitive[^13] polynomial $$x^4 + x + 1$$[^14].
 
 First, let us clarify what a $$(15, 5, 7)$$BCH code is:
 
 The $$15$$ represents
 
-:   the size of the binary message transmitted. The size of a message is
-    limited by the size of the finite field we are using. In this case,
-    we are using **GF**$$(16)$$ so the size of our message is limited to
-    $$16 - 1 = 15$$. This value for $$15$$ is also directly related to the
-    maximal power of a polynomial code word as we will soon see.
+: the size of the binary message transmitted. The size of a
+message is limited by the size of the finite field we are
+using. In this case, we are using **GF**$$(16)$$ so the size
+of our message is limited to $$16 - 1 = 15$$. This value for
+$$15$$ is also directly related to the maximal power of a
+polynomial code word as we will soon see.
 
 The $$5$$ represents
 
-:   the number of information bits that can be transmitted.
+: the number of information bits that can be transmitted.
 
 The $$7$$ represents
 
-:   the number of check bits needed to correct the $$3$$ errors we expect
-    to introduce to our $$15$$ bit overall message. The *designed minimum
-    distance* in this code is $$7$$ which is a requirement to correct $$3$$
-    errors[^15].
+: the number of check bits needed to correct the $$3$$
+errors we expect to introduce to our $$15$$ bit overall
+message. The _designed minimum distance_ in this code is
+$$7$$ which is a requirement to correct $$3$$ errors[^15].
 
-Primitive elements and minimal polynomials in **GF**(16)
---------------------------------------------------------
+### Primitive elements and minimal polynomials in **GF**(16)
 
-Now, given a primitive element $$\alpha$$, we can find various minimal
-polynomials[^16] $$\phi_j(x)$$ for each power of $$\alpha$$ given below.
+Now, given a primitive element $$\alpha$$, we can find
+various minimal polynomials[^16] $$\phi_j(x)$$ for each
+power of $$\alpha$$ given below.
 
-                     Powers of $$\alpha$$                              Minimal polynomial
-  -------------------------------------------------------- ---------------------------------------
-        $$\{\alpha, \alpha^2, \alpha^ 4, \alpha^8 \}$$              $$\phi_1(x) = x^4 + x + 1$$
-      $$\{\alpha^3, \alpha^6, \alpha^9, \alpha^{12} \}$$      $$\phi_3(x) = x^4 + x^3 + x^2 + x + 1$$
-                $$\{\alpha^5, \alpha^{10}\}$$                       $$\phi_5(x) = x^2 + x + 1$$
-   $$\{\alpha^7, \alpha^{11}, \alpha^{13}, \alpha^{14} \}$$        $$\phi_7(x) = x^4 + x^3 + 1$$
+$$
+\begin{array}{|c|c|}
+\hline
+\textbf{Powers of } \boldsymbol{\alpha} & \textbf{Minimal polynomial} \\
+\hline
+\{\alpha, \alpha^2, \alpha^4, \alpha^8\} & \phi_1(x) = x^4 + x + 1 \\
+\hline
+\{\alpha^3, \alpha^6, \alpha^9, \alpha^{12}\} & \phi_3(x) = x^4 + x^3 + x^2 + x + 1 \\
+\hline
+\{\alpha^5, \alpha^{10}\} & \phi_5(x) = x^2 + x + 1 \\
+\hline
+\{\alpha^7, \alpha^{11}, \alpha^{13}, \alpha^{14}\} & \phi_7(x) = x^4 + x^3 + 1 \\
+\hline
+\end{array}
+$$
 
-Note that each power $$i$$ of $$\alpha$$ (i.e. $$\alpha^i$$) is a multiple of
-the corresponding minimal polynomial function $$\phi_j(x)$$.
+Note that each power $$i$$ of $$\alpha$$ (i.e. $$\alpha^i$$)
+is a multiple of the corresponding minimal polynomial
+function $$\phi_j(x)$$.
 
-Finding a generator polynomial g(x)
------------------------------------
+### Finding a generator polynomial g(x)
 
-Now, we must construct our generator function $$g(x)$$ that will aid in
-creating our BCH code word. We find $$g(x)$$ as such (using our table
-above). We find the LCM of three minimal polynomials because we are
-trying to correct three errors. $$\begin{aligned}
-             g(x) &= LCM\{\phi_1(x), \phi_3(x), \phi_5(x)\} \\
-                  &= (x^4 + x + 1) (x^4 + x^3 + x^2 + x + 1) (x^2 + x + 1) \\
-                  &= x^{10} + x^8 + x^5 + x^4 + x^2 + x + 1 \\
-             \end{aligned}
+Now, we must construct our generator function $$g(x)$$ that
+will aid in creating our BCH code word. We find $$g(x)$$ as
+such (using our table above). We find the LCM of three
+minimal polynomials because we are trying to correct three
+errors.
+
+$$
+\begin{aligned}
+g(x) &= LCM\{\phi_1(x), \phi_3(x), \phi_5(x)\} \\
+&= (x^4 + x + 1) (x^4 + x^3 + x^2 + x + 1) (x^2 + x + 1) \\
+&= x^{10} + x^8 + x^5 + x^4 + x^2 + x + 1 \\
+\end{aligned}
 $$
 
 Now, we have finally established that the polynomial
@@ -408,7 +528,7 @@ $$(15, \textbf{\underline{5}}, 7)$$ BCH code.
 ## Encoding our message into a codeword of BCH
 
 Next, suppose that we would like to send a message $$m(x)$$.
-We can express our \*\*\*\* message in equivalent forms:
+We can express our message in equivalent forms:
 $$m: 10110 \leftrightarrow m(x) = 1\cdot x^4 + 0\cdot x^3 + 1\cdot x^2 + 1\cdot x^1 + 0\cdot x^0 = x^4 + x^2 + x$$
 Now, we must find our transmitted word $$t(x)$$:
 
@@ -417,16 +537,16 @@ Now, we must find our transmitted word $$t(x)$$:
     **GF**$$(16)$$ based on the primitive polynomial
     $$x^4 + x + 1$$.
 
-    In this case, we operate under $$\pmod{g(x)}$$. Our
-    final expression is evaluated as such[^17]:
+    In this case, we operate under $$\bmod g(x)$$. Our final
+    expression is evaluated as such[^17]:
 
     $$
     \begin{aligned}
-                            b(x) = x^{10} \cdot m(x) &= x^{10} \cdot (x^4 + x^2 + x) \\
-                                &= x^{14} + x^{12} + x^{11}\\
-                                &\equiv -2 x^9-x^8-2 x^6-2 x^5-x^4-x^3-x^2-x \pmod{g(x)} \\
-                                &\equiv x^8 + x^4 + x^3 + x^2 + x \pmod{g(x)}
-                        \end{aligned}
+    b(x) = x^{10} \cdot m(x) &= x^{10} \cdot (x^4 + x^2 + x) \\
+    &= x^{14} + x^{12} + x^{11}\\
+    &\equiv -2 x^9-x^8-2 x^6-2 x^5-x^4-x^3-x^2-x \bmod g(x) \\
+    &\equiv x^8 + x^4 + x^3 + x^2 + x \bmod g(x)
+    \end{aligned}
     $$
 
 2.  Second, we find $$t(x)$$ by adding $$m(x) \cdot x^{10}$$
@@ -434,37 +554,47 @@ Now, we must find our transmitted word $$t(x)$$:
 
     $$
     \begin{aligned}
-                        t(x) &= m(x) \cdot x^{10} + b(x) \\
-                        &= (x^4 + x^2 + x) \cdot x^{10} + (x^8 + x^4 + x^3 + x^2 + x) \\
-                        &=x^{14} + x^{12} + x^{11} + x^8 + x^4 + x^3 + x^2 + x \\
-                        & \leftrightarrow t: 101100100011110
-                    \end{aligned}$$ Now, suppose we have transmitted the
-    code word $$t$$. In transmission over a noisy channel, the error
-    vector $$e: 001000001000001$$ is introduced to the transmission $$t$$.
-    Adding the polynomials $$t(x)$$ and $$e(x) = x^{12} + x^6 + 1$$ we
-    find the vector/polynomial $$r(x)$$ received is[^18].
-    $$\begin{aligned}
-                    r(x) &= t(x) + e(x) \\
-                    &= (x^{14} + x^{12} + x^{11} + x^8 + x^4 + x^3 + x^2 + x) + (x^{12} + x^6 + 1) \\
-                    &= x^{14} + x^{11} + x^8 + x^6 + x^4 + x^3 + x^2 + x + 1 \\
-                    & \leftrightarrow 100100101011111 \\
-                \end{aligned}
+    t(x) &= m(x) \cdot x^{10} + b(x) \\
+    &= (x^4 + x^2 + x) \cdot x^{10} + (x^8 + x^4 + x^3 + x^2 + x) \\
+    &=x^{14} + x^{12} + x^{11} + x^8 + x^4 + x^3 + x^2 + x \\
+    & \leftrightarrow t: 101100100011110
+    \end{aligned}
     $$
 
-    ## Summarizing our results thus far
+Now, suppose we have transmitted the code word $$t$$. In
+transmission over a noisy channel, the error vector
+$$e: 001000001000001$$ is introduced to the transmission
+$$t$$. Adding the polynomials $$t(x)$$ and
+$$e(x) = x^{12} + x^6 + 1$$ we find the vector/polynomial
+$$r(x)$$ received is[^18].
 
-    The transmitted, error, and received vectors are
-    included below for convenience ( and resemble flipped
-    bits):
+$$
+\begin{aligned}
+r(x) &= t(x) + e(x) \\
+&= (x^{14} + x^{12} + x^{11} + x^8 + x^4 + x^3 + x^2 + x) + (x^{12} + x^6 + 1) \\
+&= x^{14} + x^{11} + x^8 + x^6 + x^4 + x^3 + x^2 + x + 1 \\
+& \leftrightarrow 100100101011111
+\end{aligned}
+$$
 
-    ***
+## Summarizing our results thus far
 
-               $$t$$            101100100011110
+The transmitted, error, and received vectors are included
+below for convenience (and resemble flipped bits):
 
-    $$\textcolor{red}{e}$$  
-     $$r$$ 101001001111
-
-    ***
+$$
+\begin{array}{|c|c|}
+\hline
+\textbf{Vector} & \textbf{Value} \\
+\hline
+t & 101100100011110 \\
+\hline
+\textcolor{red}{e} & 001000001000001 \\
+\hline
+r & 100100101011111 \\
+\hline
+\end{array}
+$$
 
 # Decoding and error correction in BCH
 
@@ -493,13 +623,15 @@ To decode binary codes in BCH, we must use the elements of
 vector $$r$$ or length $$n$$, the numbering is illustrated
 as such:
 
----
-
-    values     $$r_o$$    $$r_1$$     $$\ldots$$     $$r_{n-1}$$
-
-positions $$1$$ $$\alpha$$ $$\ldots$$ $$\alpha^{n-1}$$
-
----
+$$
+\begin{array}{|c|c|c|c|c|}
+\hline
+\text{values} & r_0 & r_1 & \ldots & r_{n-1} \\
+\hline
+\text{positions} & 1 & \alpha & \ldots & \alpha^{n-1} \\
+\hline
+\end{array}
+$$
 
 In **GF**(16) arithmetic, we can find the positions of the
 errors (bottom row of the table above) by solving a set of
@@ -524,11 +656,11 @@ established to be powers of $$\alpha$$):
 
 $$
 \begin{aligned}
-                    S_1 &= r(\alpha^b) \\
-                    S_2 &= r(\alpha^{b+1}) \\
-                    & \vdots \\
-                    S_{2t_d} &= r(\alpha^{b+2t_d -1}) \\
-                \end{aligned}
+S_1 &= r(\alpha^b) \\
+S_2 &= r(\alpha^{b+1}) \\
+& \vdots \\
+S_{2t_d} &= r(\alpha^{b+2t_d -1}) \\
+\end{aligned}
 $$
 
 Then we can define our _error locater polynomial_ as:
@@ -541,21 +673,21 @@ coefficients of $$\sigma(x)$$ and the syndromes as such.
 
 $$
 \left( \begin{array}{c}
-                S_{v+1} \\
-                S_{v+2} \\
-                \vdots \\
-                S_{2v} \end{array} \right)
-                = \left( \begin{array}{cccc}
-                S_1 & S_2 & \cdots &S_v \\
-                S_2 & S_3 & \cdots &S_{v+1} \\
-                \vdots & \vdots & \ddots & \vdots \\
-                S_v & S_{v+1} & \cdots &S_{2v-1} \\
-                \end{array} \right)
-                \left( \begin{array}{c}
-                \sigma_{v} \\
-                \sigma_{v-1} \\
-                \vdots \\
-                \sigma_{1} \end{array} \right)
+S_{v+1} \\
+S_{v+2} \\
+\vdots \\
+S_{2v} \end{array} \right)
+= \left( \begin{array}{cccc}
+S_1 & S_2 & \cdots &S_v \\
+S_2 & S_3 & \cdots &S_{v+1} \\
+\vdots & \vdots & \ddots & \vdots \\
+S_v & S_{v+1} & \cdots &S_{2v-1} \\
+\end{array} \right)
+\left( \begin{array}{c}
+\sigma_{v} \\
+\sigma_{v-1} \\
+\vdots \\
+\sigma_{1} \end{array} \right)
 $$
 
 Solving this matrix for the $$\sigma$$ vector will give us
@@ -564,17 +696,11 @@ $$\sigma(x)$$. This matrix is also referred to as the _key
 equation_. There are multiple algorithms to solve for the
 $$\sigma$$ vector:
 
-<span>a</span><span> </span>
-
-Euclidean algorithm
-
-Berlekamp-Massey algorithm (BMA)
-
-The Peterson-–Gorenstein–-Zierler (PGZ) decoder
+- Euclidean algorithm
+- Berlekamp-Massey algorithm (BMA)
+- The Peterson-–Gorenstein–-Zierler (PGZ) decoder
 
 In this example, we will use the PGZ decoder.
-
-## Continuing our example...
 
 Now, the binary message
 $$r: 10\textcolor{red}{0}10010\textcolor{red}{1}01111\textcolor{red}{1}$$
@@ -590,26 +716,26 @@ Appendix:[^20]
 
 $$
 \begin{aligned}
-                S_1 &= r(\alpha^1) = \alpha^{14} + \alpha^{11} + \alpha^8 + \alpha^6 +  \alpha^4 + \alpha^3 + \alpha^2 + \alpha^1 + \alpha^0 = \alpha \\
-                S_2 &= {S_1}^2 = \alpha^2 \\
-                S_3 &= r(\alpha^3) = {\alpha^3}^{14} + {\alpha^3}^{11} + {\alpha^3}^8 + {\alpha^3}^6 + {\alpha^3}^4 + {\alpha^3}^3 + {\alpha^3}^2 + {\alpha^3}^1 + {\alpha^3}^0 = \alpha^8\\
-                S_4 &= {S_2}^2 = \alpha^4 \\
-                S_5 &= r(\alpha^5) = {\alpha^5}^{14} + {\alpha^5}^{11} + {\alpha^5}^8 + {\alpha^5}^6 + {\alpha^5}^4 + {\alpha^5}^3 + {\alpha^5}^2 + {\alpha^5}^1 + {\alpha^5}^0 = 1 \\
-                S_6 &= {S_3}^2 = \alpha \\
-            \end{aligned}
+S_1 &= r(\alpha^1) = \alpha^{14} + \alpha^{11} + \alpha^8 + \alpha^6 +  \alpha^4 + \alpha^3 + \alpha^2 + \alpha^1 + \alpha^0 = \alpha \\
+S_2 &= {S_1}^2 = \alpha^2 \\
+S_3 &= r(\alpha^3) = {\alpha^3}^{14} + {\alpha^3}^{11} + {\alpha^3}^8 + {\alpha^3}^6 + {\alpha^3}^4 + {\alpha^3}^3 + {\alpha^3}^2 + {\alpha^3}^1 + {\alpha^3}^0 = \alpha^8\\
+S_4 &= {S_2}^2 = \alpha^4 \\
+S_5 &= r(\alpha^5) = {\alpha^5}^{14} + {\alpha^5}^{11} + {\alpha^5}^8 + {\alpha^5}^6 + {\alpha^5}^4 + {\alpha^5}^3 + {\alpha^5}^2 + {\alpha^5}^1 + {\alpha^5}^0 = 1 \\
+S_6 &= {S_3}^2 = \alpha \\
+\end{aligned}
 $$
 
 Restating our findings:
 
 $$
 \begin{aligned}
-             S_1 &= \alpha \\
-             S_2 &= \alpha^2 \\
-             S_3 & = \alpha^8 \\
-             S_4 & = \alpha^4 \\
-             S_5 &= 1 \\
-             S_6 & = \alpha \\
-             \end{aligned}
+S_1 &= \alpha \\
+S_2 &= \alpha^2 \\
+S_3 &= \alpha^8 \\
+S_4 &= \alpha^4 \\
+S_5 &= 1 \\
+S_6 &= \alpha \\
+\end{aligned}
 $$
 
 Now, knowing the six syndrome values for the received
@@ -628,21 +754,21 @@ number of errors we can correct:
 
 $$
 \left( \begin{array}{cccc}
-            S_1 & S_2 & \cdots &S_v \\
-            S_2 & S_3 & \cdots &S_{v+1} \\
-            \vdots & \vdots & \ddots & \vdots \\
-            S_v & S_{v+1} & \cdots &S_{2v-1} \\
-            \end{array} \right)
-            = \left( \begin{array}{ccc}
-            S_1 & S_2 &S_3 \\
-            S_2 & S_3 & S_{4} \\
-            S_3 & S_{4} & S_{5} \\
-            \end{array} \right)
-            = \left( \begin{array}{ccc}
-            \alpha & \alpha^2 & \alpha^8 \\
-            \alpha^2 & \alpha^8 & \alpha^4 \\
-            \alpha^8 & \alpha^4 & 1 \\
-            \end{array} \right)
+S_1 & S_2 & \cdots &S_v \\
+S_2 & S_3 & \cdots &S_{v+1} \\
+\vdots & \vdots & \ddots & \vdots \\
+S_v & S_{v+1} & \cdots &S_{2v-1} \\
+\end{array} \right)
+= \left( \begin{array}{ccc}
+S_1 & S_2 &S_3 \\
+S_2 & S_3 & S_{4} \\
+S_3 & S_{4} & S_{5} \\
+\end{array} \right)
+= \left( \begin{array}{ccc}
+\alpha & \alpha^2 & \alpha^8 \\
+\alpha^2 & \alpha^8 & \alpha^4 \\
+\alpha^8 & \alpha^4 & 1 \\
+\end{array} \right)
 $$
 
 Because the $$\sigma_i$$ values below are the inverses of
@@ -667,7 +793,15 @@ $$
 
 Finding a solution for the $$\sigma$$ vector is equivalent
 to seeing if
-$$\left( \begin{array}{ccc} \alpha & \alpha^2 & \alpha^8 \\ \alpha^2 & \alpha^8 & \alpha^4 \\ \alpha^8 & \alpha^4 & 1 \\ \end{array} \right)$$
+
+$$
+\left( \begin{array}{ccc}
+\alpha & \alpha^2 & \alpha^8 \\
+\alpha^2 & \alpha^8 & \alpha^4 \\
+\alpha^8 & \alpha^4 & 1 \\
+\end{array} \right)
+$$
+
 is invertible. This is equivalent to the matrix having a
 non-zero determinant[^21].
 
@@ -675,11 +809,11 @@ Let us calculate this determinant:
 
 $$
 \begin{aligned}
-                 \text{det} \left( \begin{array}{ccc} \alpha & \alpha^2 & \alpha^8 \\ \alpha^2 & \alpha^8 & \alpha^4 \\ \alpha^8 & \alpha^4 & 1 \\ \end{array} \right)
-                     &= \alpha(\alpha^8 + \alpha^8) + \alpha^2 (\alpha^2 + \alpha^{12}) + \alpha^8 (\alpha^6 + \alpha) \\
-                     &= \alpha^{2+7} + \alpha^{8+11} \\
-                     &= \alpha^{14}
-             \end{aligned}
+\text{det} \left( \begin{array}{ccc} \alpha & \alpha^2 & \alpha^8 \\ \alpha^2 & \alpha^8 & \alpha^4 \\ \alpha^8 & \alpha^4 & 1 \\ \end{array} \right)
+&= \alpha(\alpha^8 + \alpha^8) + \alpha^2 (\alpha^2 + \alpha^{12}) + \alpha^8 (\alpha^6 + \alpha) \\
+&= \alpha^{2+7} + \alpha^{8+11} \\
+&= \alpha^{14}
+\end{aligned}
 $$
 
 Because the determinant of the matrix is non-zero, then the
@@ -709,36 +843,49 @@ the following vector:
 
 $$
 \left( \begin{array}{c}
-            \sigma_{3} \\
-            \sigma_{2} \\
-            \sigma_{1} \end{array} \right)
-            = \left( \begin{array}{c}
-            \alpha^3 \\
-            \alpha^7 \\
-            \alpha \end{array} \right)
+\sigma_{3} \\
+\sigma_{2} \\
+\sigma_{1} \end{array} \right)
+= \left( \begin{array}{c}
+\alpha^3 \\
+\alpha^7 \\
+\alpha \end{array} \right)
 $$
 
 It follows by our definition of the _error locater
 polynomial_ that:
-$$\sigma(x) = \alpha^3 x^3 + \alpha^7 x^2 + \alpha x + 1$$
+
+$$
+\sigma(x) = \alpha^3 x^3 + \alpha^7 x^2 + \alpha x + 1
+$$
+
 This polynomial also factors in $$\textbf{GF}(16)$$ with our
 primitive root $$\alpha$$[^23] as such.
-$$\sigma(x) = (1+x)(1+\alpha^6)(1+\alpha^{12}x)$$ This
-factorization allows us to see that the factors of this
+
+$$
+\sigma(x) = (1+x)(1+\alpha^6)(1+\alpha^{12}x)
+$$
+
+This factorization allows us to see that the factors of this
 equation are $$1=\alpha^0, \alpha^9 = \alpha^{-6}$$, and
 $$\alpha^3 = \alpha^{-12}$$.
 
 These powers of these inverses in fact correspond to error
 positions as such:
 
-Root of $$\sigma(x)$$ Inverse of root Negative of power
-Corresponding polynomial
-
----
-
-           $$1$$             $$\alpha^0$$             $$0$$                    $$1$$
-       $$\alpha^9$$         $$\alpha^{-6}$$           $$6$$                   $$x^6$$
-       $$\alpha^3$$        $$\alpha^{-12}$$          $$12$$                  $$x^{12}$$
+$$
+\begin{array}{|c|c|c|c|}
+\hline
+\textbf{Root of } \boldsymbol{\sigma(x)} & \textbf{Inverse of root} & \textbf{Negative of power} & \textbf{Corresponding polynomial} \\
+\hline
+1 & \alpha^0 & 0 & 1 \\
+\hline
+\alpha^9 & \alpha^{-6} & 6 & x^6 \\
+\hline
+\alpha^3 & \alpha^{-12} & 12 & x^{12} \\
+\hline
+\end{array}
+$$
 
 These terms are identical to the terms of the error
 polynomial $$e(x) = x^{12} + x^6 + 1$$. To the receiver, who
@@ -747,31 +894,41 @@ the corresponding bits (12th, 6th, and 1st) are flipped[^24]
 to recover the original message. The final step is completed
 by adding the two vectors/polynomials[^25].
 
----
-
-         Received $$r(x)$$         $$x^{14} + x^{11} + x^8 + x^6 + x^4 + x^3 + x^2 + x + 1$$
-       **** $$e(x)$$ vector                           $$x^{12} + x^6+ 1$$
-
-Original $$m(x)$$ message $$t$$
-$$x^{14} + x^{12} + x^{11} + x^8 + x^4 + x^3 + x^2 + x$$
-
----
+$$
+\begin{array}{|c|c|}
+\hline
+\textbf{Vector} & \textbf{Polynomial} \\
+\hline
+\text{Received } r(x) & x^{14} + x^{11} + x^8 + x^6 + x^4 + x^3 + x^2 + x + 1 \\
+\hline
+e(x) \text{ vector} & x^{12} + x^6 + 1 \\
+\hline
+\text{Original } m(x) \text{ message } t & x^{14} + x^{12} + x^{11} + x^8 + x^4 + x^3 + x^2 + x \\
+\hline
+\end{array}
+$$
 
 ## Summarizing our results
 
----
-
-          Received $$r$$ vector           101001001111
-            **** $$e$$ vector            001000001000001
-
-Computed original $$m$$ message $$t$$ 101001001111
-
----
+$$
+\begin{array}{|c|c|}
+\hline
+\textbf{Vector} & \textbf{Value} \\
+\hline
+\text{Received } r \text{ vector} & 100100101011111 \\
+\hline
+e \text{ vector} & 001000001000001 \\
+\hline
+\text{Computed original } m \text{ message } t & 101100100011110 \\
+\hline
+\end{array}
+$$
 
 Now, the original message is the first five bits 10110. This
 message has been recovered, without error, due to this
 implementation of a BCH code. The information rate for this
-$$(15, 5, 7)$$BCH code is
+$$(15, 5, 7)$$ BCH code is
+$$R = \frac{5}{15} = \frac{1}{3}$$.
 
 The decoding and error correction segment of this algorithm
 is essentially a way to find the BCH code word that has a
@@ -792,7 +949,7 @@ codes are used in most CD players, QR-code readers, and even
 in communication between NASA and it Voyager deep-space
 probes.
 
-For example, our example of a 5-bit message ($$10110$$)is
+For example, our example of a 5-bit message ($$10110$$) is
 not longer constrained to 0s and 1s. Now, we can send
 messages in the set **GF**(16). Conveniently, data in
 computers is commonly represented in hex-code (in base 16)
@@ -808,8 +965,45 @@ example of BCH codes.
 
 ## Power/Vector table
 
-![The Power/Vector table referred to throughout the paper.
-@LAandMatricies](https://user-images.githubusercontent.com/13140065/178387347-44db0237-4df5-4a73-9750-7f2a3ef92f58.png)
+$$
+\begin{array}{|c|c|}
+\hline
+\text{Power} & \text{Vector} \\
+\hline
+0 & \texttt{0000} \\
+\hline
+1 & \texttt{0001} \\
+\hline
+\alpha & \texttt{0010} \\
+\hline
+\alpha^2 & \texttt{0100} \\
+\hline
+\alpha^3 & \texttt{1000} \\
+\hline
+\alpha^4 & \texttt{0011} \\
+\hline
+\alpha^5 & \texttt{0110} \\
+\hline
+\alpha^6 & \texttt{1100} \\
+\hline
+\alpha^7 & \texttt{1011} \\
+\hline
+\alpha^8 & \texttt{0101} \\
+\hline
+\alpha^9 & \texttt{1010} \\
+\hline
+\alpha^{10} & \texttt{0111} \\
+\hline
+\alpha^{11} & \texttt{1110} \\
+\hline
+\alpha^{12} & \texttt{1111} \\
+\hline
+\alpha^{13} & \texttt{1101} \\
+\hline
+\alpha^{14} & \texttt{1001} \\
+\hline
+\end{array}
+$$
 
 # References
 
@@ -846,11 +1040,11 @@ example of BCH codes.
 
 [^9]:
     The Cancellation Law states that if
-    $$bc \equiv bd \pmod{a}$$ and $$(b, a) = 1$$, then
-    $$c \equiv d \pmod{a}$$. Integer math fails in mod 16,
+    $$bc \equiv bd \bmod a$$ and $$(b, a) = 1$$, then
+    $$c \equiv d \bmod a$$. Integer math fails in mod 16,
     for example, because
-    $$4 \times 5 \equiv 4 \equiv 4 \times 1 \pmod{16}$$ and,
-    even worse, $$4 \times 4 \equiv 0 \pmod{16}$$
+    $$4 \times 5 \equiv 4 \equiv 4 \times 1 \bmod 16$$ and,
+    even worse, $$4 \times 4 \equiv 0 \bmod 16$$
 
 [^10]: i.e. they do not factor or “split”
 
@@ -869,9 +1063,9 @@ example of BCH codes.
 
 [^14]:
     Note that this table is based on a different polynomial
-    than the table in Figure \[mult\]. A similar table can
-    easily be constructed, however, to verify the math in
-    the following sections.
+    than the table shown earlier. A similar table can easily
+    be constructed, however, to verify the math in the
+    following sections.
 
 [^15]:
     Let the designed minimum distance $$d_{min}$$ and let

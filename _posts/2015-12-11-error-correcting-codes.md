@@ -9,6 +9,7 @@ author: Pramod Kotipalli
 description:
   Final project writeup from Georgia Tech's Math 2803
   ("honors") class with  Professor Matt Baker
+image: "https://p13i.io/assets/2015-12-11-error-correcting-codes/error-correcting-codes-thumbnail.png"
 redirect_from: "ecc"
 ---
 

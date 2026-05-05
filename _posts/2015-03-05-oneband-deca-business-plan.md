@@ -12,7 +12,7 @@ description:
   Markdown transcription of a 2015 DECA entrepreneurship
   written event business plan focused on a predictive health
   wearable.
-image: "https://p13i.io/assets/2015-03-05-oneband-deca-business-plan/microsoft-band-running-summary.jpeg"
+image: "https://p13i.io/assets/2015-03-05-oneband-deca-business-plan/oneband-thumbnail.png"
 redirect_from: "oneband"
 downloads:
   - name: "PDF: Full business plan"

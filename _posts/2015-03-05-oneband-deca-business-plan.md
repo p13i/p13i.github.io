@@ -14,6 +14,7 @@ description:
   written event business plan focused on a predictive health
   wearable.
 image: "https://p13i.io/assets/2015-03-05-oneband-deca-business-plan/microsoft-band-running-summary.jpeg"
+redirect_from: "oneband"
 downloads:
   - name: "PDF: Full business plan"
     url: /downloads/enw2015/ENW2015.pdf

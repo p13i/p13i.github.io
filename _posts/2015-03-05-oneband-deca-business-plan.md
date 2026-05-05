@@ -1,8 +1,7 @@
 ---
 title: "oneBand DECA Entrepreneurship Written Event (2015)"
 date: "2015-03-05"
-categories:
-  - entrepreneurship
+featured: true
 tags:
   - entrepreneurship
   - wearable-computing

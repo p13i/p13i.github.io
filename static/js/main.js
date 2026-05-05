@@ -52,13 +52,15 @@ lazyload();
     window.mermaid.run({ nodes: diagrams });
   }
 
-  renderMathInElement(document.body, {
-    delimiters: [
-      { left: "$$", right: "$$", display: true },
-      { left: "\\[", right: "\\]", display: true },
-      { left: "$", right: "$", display: false }
-    ]
-  });
+  if (document.body.dataset.katex !== "false") {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "\\[", right: "\\]", display: true },
+        { left: "$", right: "$", display: false }
+      ]
+    });
+  }
 
   renderMermaidBlocks();
 })();

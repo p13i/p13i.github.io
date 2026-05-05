@@ -20,7 +20,11 @@ layout: compress
 
   </head>
 
-  <body data-spy="scroll" data-target="#toc">
+  <body
+    data-spy="scroll"
+    data-target="#toc"
+    {% if page.math == false %}data-katex="false"{% endif %}
+  >
     <div
       class="container-fluid"
       style="

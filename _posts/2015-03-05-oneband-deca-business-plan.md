@@ -7,6 +7,7 @@ tags:
   - wearable-computing
   - healthtech
 layout: post
+math: false
 author: Pramod Kotipalli
 description:
   Markdown transcription of a 2015 DECA entrepreneurship

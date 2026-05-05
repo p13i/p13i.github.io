@@ -17,14 +17,13 @@ image: "https://p13i.io/assets/2015-03-05-oneband-deca-business-plan/microsoft-b
 redirect_from: "oneband"
 downloads:
   - name: "PDF: Full business plan"
-    url: /downloads/enw2015/ENW2015.pdf
-  - name: "DOCX: Full business plan"
-    url: /downloads/enw2015/ENW2015.docx
+    url: https://p13i.io/assets/2015-03-05-oneband-deca-business-plan/oneband-business-plan.pdf
+  - name: "PDF: Presentation handout"
+    url: https://p13i.io/assets/2015-03-05-oneband-deca-business-plan/oneband-business-plan-handout.pdf
 ---
 
 This page transcribes the full 2015 DECA Entrepreneurship
-Written Event business plan from
-`downloads/enw2015/ENW2015.docx` into Markdown.
+Written Event business plan into Markdown.
 
 ## Entrepreneurship Written Event
 

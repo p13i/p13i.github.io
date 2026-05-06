@@ -1484,84 +1484,122 @@ Good evaluators find both easy and hard problems. Every
 evaluator doesn't find every problem. These two factors
 impel us to have multiple evaluators.
 
+The CS147 handout frames the checklist as thirteen usability
+heuristics, adapted from Nielsen's second-version list:
+Nielsen's ten rules of thumb, plus accessibility, fairness
+and inclusion, and value alignment as course-staff
+additions. I read the combined list as an optimistic union:
+a product can fail because it is confusing, inaccessible,
+exclusionary, or misaligned with user values, and evaluators
+should keep all of those lenses available.
+
 <div class="card mb-3">
   <div class="card-header" style="text-transform: uppercase;">
-Heuristics
+Thirteen Usability Heuristics
   </div>
     <ul class="list-group list-group-flush">
       <li class="list-group-item">
         <h2><strong>H1</strong>: Visibility of system status.</h2>
-        <p>This is prose.</p>
+        <p>Keep users informed about what is going on through
+timely, appropriate feedback. Loading states, progress,
+confirmations, selected states, and clear consequences of
+actions all help users stay oriented.</p>
       </li>
       <li class="list-group-item">
         <h2><strong>H2</strong>: Match between system and the real world.</h2>
-        <p>Use real world language and metaphors that people will understand.</p>
+        <p>Speak the users' language, with words, phrases,
+concepts, and metaphors that are familiar to them rather than
+system-oriented terms. Follow real-world conventions so
+information appears in a natural and logical order.</p>
       </li>
       <li class="list-group-item">
         <h2><strong>H3</strong>: User control and freedom.</h2>
-        <p></p>
+        <p>Users often choose actions by mistake. Provide clear
+exits, cancellation, undo, redo, and back navigation so they
+can leave an unwanted state without going through an extended
+dialogue.</p>
       </li>
       <li class="list-group-item">
         <h2><strong>H4</strong>: Consistency and standards.</h2>
-        <p>This is helped by design systems. This is why Mac was more usable than Windows DOS.</p>
+        <p>Users should not have to wonder whether different
+words, situations, or actions mean the same thing. Follow
+platform conventions and use design systems or shared
+components to make consistency durable.</p>
       </li>
       <li class="list-group-item">
         <h2><strong>H5</strong>: Error prevention.</h2>
-        <p></p>
+        <p>Prevent problems before they occur. Remove invalid
+choices when possible, validate input as the user goes, use
+constraints and helpful defaults, and confirm high-cost or
+destructive actions before users commit.</p>
       </li>
       <li class="list-group-item">
         <h2><strong>H6</strong>: Recognition rather than recall.</h2>
-        <p>For example, parse it as you type it in.</p>
+        <p>Minimize the user's memory load by making objects,
+actions, and options visible. Instructions should be visible
+or easily retrievable; parsing or previewing input as the
+user types can help people recognize valid choices rather
+than remember formats.</p>
       </li>
       <li class="list-group-item">
         <h2><strong>H7</strong>: Flexibility and efficiency of use.</h2>
-        <p></p>
+        <p>Support both novice and expert users. Accelerators,
+shortcuts, defaults, templates, search, customization, and
+saved frequent actions can speed up expert workflows while
+leaving simple paths for new users.</p>
       </li>
       <li class="list-group-item">
         <h2><strong>H8</strong>: Aesthetic and minimalist design.</h2>
-        <p></p>
+        <p>Dialogues should not contain information that is
+irrelevant or rarely needed. Every extra unit competes with
+the relevant units of information and diminishes their
+relative visibility, so hierarchy, spacing, and copy should
+serve the current task.</p>
       </li>
       <li class="list-group-item">
         <h2><strong>H9</strong>: Help users recognize, diagnose, and recover from errors.</h2>
-        <p>Clearly indicate what has gone wrong, human readable,
-politie, describe the problem, and explain how to fix the
-problem, highly noticeable, perhaps fix it for me.</p>
+        <p>Error messages should be plain language, polite,
+highly noticeable, precise about the problem, and constructive:
+describe what happened, explain the recovery path, or offer to
+fix the issue for the user.</p>
       </li>
       <li class="list-group-item">
         <h2><strong>H10</strong>: Help and documentation.</h2>
-        <p>It's better if the system can be used without documentation
-but it may be necessary. How: easy to search, focused on
-tasks, list concrete steps.</p>
+        <p>It is better if the system can be used without
+documentation, but help may still be necessary. Any such
+information should be easy to search, focused on the user's
+task, concrete about the steps to take, and not too large.</p>
       </li>
       <li class="list-group-item">
         <h2><strong>H11*</strong>: Accessible.</h2>
-        <p>Users can interact with the system using alternative input
-methods. Content is legible with distinguishable contrast
-and text size. Key information is upfront and not next for
-screen readers. Purely visual or auditory content has
+        <p>Users can interact with the system using alternative
+input methods and assistive technologies. Content should be
+legible with distinguishable contrast and text size. Key
+information should be upfront and not nested for screen
+readers. Purely visual or auditory content should have
 text-based alternatives for users with low vision and low
 hearing.</p>
       </li>
       <li class="list-group-item">
         <h2><strong>H12*</strong>: Fairness and inclusion.</h2>
-        <p>Users shouldn't feel like the design isn't made for them.
-The design should meet all users' needs equally and prevent
-the reproduction of pre-existing inequities. It should not
-create additional burdens for members of disadvantaged
+        <p>Users should not feel that the design was not made
+for them. The design should meet users' needs equitably,
+prevent the reproduction of pre-existing inequities, and avoid
+creating additional burdens for members of disadvantaged
 populations.</p>
       </li>
       <li class="list-group-item">
         <h2><strong>H13*</strong>: Value alignment.</h2>
-        <p>The design should encode values that users can understand
-and relate to. Conflicting collateral values should not
-emerge when the user interacts with the product. Encoded
-values should match users' values in a broad set of
+        <p>The design should encode values that users can
+understand and relate to. Conflicting collateral values should
+not emerge when the user interacts with the product. Encoded
+values should match users' values across a broad set of use
 contexts.</p>
       </li>
     </ul>
 </div>
 
-<em>\* Heuristics marked with an asterisks (\*) are custom
+<em>\* Heuristics marked with an asterisk (\*) are custom
 additions by the course staff to reflect new values that are
 important to making accessible and socially-conscious
 products.</em>

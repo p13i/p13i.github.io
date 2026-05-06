@@ -22,8 +22,57 @@ downloads:
     url: https://p13i.io/assets/2015-03-05-oneband-deca-business-plan/oneband-business-plan-handout.pdf
 ---
 
+## About This Post
+
 This page transcribes the full 2015 DECA Entrepreneurship
 Written Event business plan into Markdown.
+
+It is presented as an archived business-plan transcript with
+blog-native navigation, visible figure captions, accessible
+table labels, and PDF attachments.
+
+## Blog Guide
+
+- [About this post](#about-this-post)
+- [At a glance](#at-a-glance)
+- [Attachments](#attachments)
+- [Reading notes](#reading-notes)
+- [Original business plan transcript](#original-business-plan-transcript)
+- [Original document contents](#contents)
+- [Appendix](#viii-appendix)
+
+## At a Glance
+
+_Table: Post metadata and reading context._
+
+| Item              | Details                                                                                |
+| ----------------- | -------------------------------------------------------------------------------------- |
+| Original document | 2015 DECA Entrepreneurship Written Event business plan                                 |
+| Company concept   | oneBand LLC, a predictive health wearable and Health Monitoring Service                |
+| Format            | Markdown transcription with the original business-plan prose preserved in source order |
+| Attachments       | Full business plan PDF and presentation handout PDF                                    |
+
+## Attachments
+
+> **PDF downloads**
+>
+> - [Download the full oneBand business plan PDF](https://p13i.io/assets/2015-03-05-oneband-deca-business-plan/oneband-business-plan.pdf)
+> - [Download the oneBand presentation handout PDF](https://p13i.io/assets/2015-03-05-oneband-deca-business-plan/oneband-business-plan-handout.pdf)
+
+## Reading Notes
+
+- The original document’s own contents remain in the
+  transcript for precise navigation.
+- Figures are numbered with visible captions, and their alt
+  text describes the information shown in each image.
+- Wide financial tables are retained as tables so monthly
+  and annual values remain comparable.
+
+## Original Business Plan Transcript
+
+The original written event begins below. Headings, prose,
+tables, figures, and financial values are preserved in
+transcript order.
 
 ## Entrepreneurship Written Event
 
@@ -164,11 +213,11 @@ _Net income projection for 2016 through 2018._
 
 ## II. INTRODUCTION
 
-![Microsoft Band wearable with a phone showing a running summary](https://p13i.io/assets/2015-03-05-oneband-deca-business-plan/microsoft-band-running-summary.jpeg)
+![Microsoft Band wearable beside a phone showing a running summary with route, heart-rate, and pace data](https://p13i.io/assets/2015-03-05-oneband-deca-business-plan/microsoft-band-running-summary.jpeg)
 
-_The Microsoft Band tracks a user’s location and heart rate
-throughout exercise in an attrative package but it cannot
-predict preventable lifestyle diseases._
+_Figure 1. The Microsoft Band tracks a user’s location and
+heart rate throughout exercise in an attrative package but
+it cannot predict preventable lifestyle diseases._
 
 The past few years have been witness to a meteoric rise in
 wearable technology[^1]. Wearable technology is a category
@@ -350,10 +399,14 @@ system in order to provide a responsive and cost-effective
 solution that provide retailers and customers with our
 Health Band product.
 
-| Washington State                                                                                                                                          | Seattle-Bellevue-Redmond                                                                                                                                                             |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Washington State map highlighting King County](https://p13i.io/assets/2015-03-05-oneband-deca-business-plan/washington-state-king-county-highlight.png) | ![King County map highlighting the Seattle-Bellevue-Redmond trading area](https://p13i.io/assets/2015-03-05-oneband-deca-business-plan/king-county-seattle-bellevue-redmond-map.png) |
-| _King County within Washington State (Google Maps)._                                                                                                      | _The Seattle-Bellevue-Redmond trading area._                                                                                                                                         |
+![Washington State map with King County highlighted in red](https://p13i.io/assets/2015-03-05-oneband-deca-business-plan/washington-state-king-county-highlight.png)
+
+_Figure 2. King County within Washington State (Google
+Maps)._
+
+![King County map showing the Seattle, Bellevue, and Redmond trading area](https://p13i.io/assets/2015-03-05-oneband-deca-business-plan/king-county-seattle-bellevue-redmond-map.png)
+
+_Figure 3. The Seattle-Bellevue-Redmond trading area._
 
 Finally, the Seattle-Bellevue-Redmond area is also saturated
 with top-ranked medical facilities, centers, and schools
@@ -417,6 +470,8 @@ Present competitors (listed and briefly described),
 competitive advantages and disadvantages of the proposed
 business: The table below outlines and evaluates oneBand’s
 competitors
+
+_Table: Present competitors and listed costs._
 
 | Competitor                                  | Cost                  |
 | ------------------------------------------- | --------------------- |
@@ -537,10 +592,10 @@ residents of the Seattle-Bellevue-Redmond area between ages
 and high-speed internet. Below we further define our target
 market:
 
-![King County population pyramid for ages 18 to 55](https://p13i.io/assets/2015-03-05-oneband-deca-business-plan/king-county-age-sex-population-pyramid.png)
+![King County population pyramid showing residents ages 18 to 55 by age band and sex](https://p13i.io/assets/2015-03-05-oneband-deca-business-plan/king-county-age-sex-population-pyramid.png)
 
-_Population pyramid for people aged 18 to 55 in King County,
-WA[^8]_
+_Figure 4. Population pyramid for people aged 18 to 55 in
+King County, WA[^8]_
 
 There are 1.085 million people aged 18 to 55 in King County,
 WA thereby defining the maximum size of our target
@@ -550,6 +605,9 @@ smartphone.
 
 Below is table outlining internet access by home computer or
 smartphone in the U.S. as a whole:
+
+_Table: Internet access through smartphones or at home in
+the United States by age._
 
 | Internet access through smartphones or at home in the U.S., by age (in thousands)[^9] |         |                     |      |                  |      |         |      |
 | ------------------------------------------------------------------------------------- | ------- | ------------------- | ---- | ---------------- | ---- | ------- | ---- |
@@ -576,10 +634,13 @@ innovative medical goods provided by oneBand. In other
 words, our trading area can very much support the costs of
 oneBand’s services.
 
-| King County                                                                                                                                        | United States                                                                                                                                          |
-| :------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![King County household income histogram](https://p13i.io/assets/2015-03-05-oneband-deca-business-plan/king-county-household-income-histogram.png) | ![United States household income histogram](https://p13i.io/assets/2015-03-05-oneband-deca-business-plan/united-states-household-income-histogram.png) |
-| _King County household income distribution._                                                                                                       | _United States household income distribution._                                                                                                         |
+![King County household income histogram by income bracket](https://p13i.io/assets/2015-03-05-oneband-deca-business-plan/king-county-household-income-histogram.png)
+
+_Figure 5. King County household income distribution._
+
+![United States household income histogram by income bracket](https://p13i.io/assets/2015-03-05-oneband-deca-business-plan/united-states-household-income-histogram.png)
+
+_Figure 6. United States household income distribution._
 
 Positioning is very important for creating a place in the
 customer’s mind for oneBand’s product and service. Below are
@@ -636,6 +697,8 @@ offices in downtown Bellevue which both have significantly
 lower operation/lease costs than offices Seattle or Redmond,
 the two other major cities in our trading area of King
 County.
+
+_Table: Potential headquarters location comparison._
 
 | Element of potential location analysis          | Bellevue Technology Center (NE 24th Street Bellevue, WA)[^11]         | Bellevue Pacific Center (106th Ave NE, Bellevue, WA)[^12] |
 | ----------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------- |
@@ -880,6 +943,8 @@ required to fill out the appropriate paperwork (K-1
 statement) to ensure that these revenues are not taxed as
 income from their “limited partner” status[^15].
 
+_Table: Planned payroll expenses and equity incentives._
+
 | Position                  | Hourly Rate | Hours in Month | Payroll Expense[^16] |          | Equity incentives/ “Profit interests” | Equity (voting shares) |
 | ------------------------- | ----------- | -------------- | -------------------- | -------- | ------------------------------------- | ---------------------- |
 | Position                  | Hourly Rate | Hours in Month | Monthly              | Annual   | Equity incentives/ “Profit interests” | Equity (voting shares) |
@@ -910,6 +975,9 @@ create a healthier and actionable, technologically-informed
 fitness product and service, I believe it is apt to invest
 in the health and fitness endeavors of our staff.
 
+_Table: Federal payroll taxes, benefits, and total burden by
+position._
+
 | Position                  | Federal payroll taxes[^17] |                    | Cumulative benefits Rate | Total percent burden | Total Burden upon salary |
 | ------------------------- | -------------------------- | ------------------ | ------------------------ | -------------------- | ------------------------ |
 | Position                  | Social Security tax        | Total Medicare tax | Cumulative benefits Rate | Total percent burden | Total Burden upon salary |
@@ -931,6 +999,8 @@ in the health and fitness endeavors of our staff.
 
 oneBand LLC will offer one product and one service:
 
+_Table: oneBand product and service pricing overview._
+
 | Product/Service                   | Description                                                                                                                                                                                                                                                                                                        | Pricing                                                                                                                                                                                                                                                                                      |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | oneBand Health Band               | Although built upon a smartwatch form factor, this will offer customers more actionable health metrics by measuring blood glucose and lipid levels with electric and laser-based sensors in addition to the market standard GPS sensors, heart rate monitors, and pedometer.                                       | A complete breakdown of the production costs of this device is provided in the Appendix B, page 29. This product will cost the customer $199.99 through direct-to-customer or retail distribution channels.                                                                                  |
@@ -950,10 +1020,10 @@ capacitive touch screen display and in-built hardware
 buttons, our Version 1 product will feature the following
 health-related sensors:
 
-![Exploded view of Microsoft Band hardware components](https://p13i.io/assets/2015-03-05-oneband-deca-business-plan/microsoft-band-exploded-hardware-view.png)
+![Exploded view of Microsoft Band hardware showing display, battery, sensors, casing, and internal components](https://p13i.io/assets/2015-03-05-oneband-deca-business-plan/microsoft-band-exploded-hardware-view.png)
 
-_An exploded view of the Microsoft Band, a product similar
-to the oneBand Health Band._
+_Figure 7. An exploded view of the Microsoft Band, a product
+similar to the oneBand Health Band._
 
 GPS (location): When paired with a mobile device through
 Bluetooth, the Health Band will track a user’s location over
@@ -1096,6 +1166,9 @@ promotions, product releases, or important software updates.
 In addition to the four major points above, we have included
 a one-year outline of our promotional plan below:
 
+_Table: One-year promotional plan with costs, rationale,
+measurement, and implementation dates._
+
 | Element[^22]                                                                                                                                                                                                                                          | Total cost                      | Rationale                                                                                                                                                                                                          | Measurement                                                                                                                                                         | Implementation dates (2016)   |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
 | Social media promotion                                                                                                                                                                                                                                | $0                              | Over 75% of target market is on social media; most effective way to communicate with masses                                                                                                                        | Analytics on Facebook and Twitter including click-through rates and user engagement; effective ROI tracking. Goal to observe 20% month-on-month organic shares      | All of 2016                   |
@@ -1132,6 +1205,8 @@ Projected income statements by month for the first year’s
 operation (sales, expenses, profit/loss)
 
 ##### Forecasted statement of income
+
+_Table: Forecasted statement of income by month and year._
 
 | Line item                                           | Jan        | Feb       | Mar       | Apr       | May       | Jun      | Jul      | Aug      | Sep      | Oct      | Nov      | Dec      | 2016       | 2017       | 2018       |
 | --------------------------------------------------- | ---------- | --------- | --------- | --------- | --------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | ---------- | ---------- | ---------- |
@@ -1178,6 +1253,8 @@ operation (sales, expenses, profit/loss)
 #### 5. Projected three-year plan
 
 ##### Forecast statement of cash flows
+
+_Table: Forecast statement of cash flows by month and year._
 
 | Line item                       | Jan      | Feb      | Mar      | Apr      | May      | Jun      | Jul      | Aug        | Sep        | Oct        | Nov        | Dec        | 2016       | 2017       | 2018        |
 | ------------------------------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ----------- |
@@ -1283,9 +1360,13 @@ interests that will be paid over the next three years.
 
 ##### Loan amortization schedule for oneBand LLC
 
+_Table: Loan terms._
+
 | Loan amount | Interest rate | Term    | Start date   |
 | ----------- | ------------- | ------- | ------------ |
 | $500,000    | 4%            | 3 years | January 2016 |
+
+_Table: Summary of loan payments and interest._
 
 | Summary of payments and interest   | Amount  |
 | ---------------------------------- | ------- |
@@ -1294,6 +1375,8 @@ interests that will be paid over the next three years.
 | Interest paid in 2016              | $20,000 |
 | Interest paid in 2017              | $13,333 |
 | Interest paid in 2018              | $6,667  |
+
+_Table: Loan amortization schedule by year._
 
 | Year   | Principal paid | Interest paid | Loan balance |
 | ------ | -------------- | ------------- | ------------ |
@@ -1479,57 +1562,70 @@ situation.
 
 **Strengths (internal)**
 
-Only health/fitness band in industry to track blood sugar,
-blood cholesterol, blood pressure, and blood fat levels;
-Subscription service allows access and use across all major
-operating systems and mobile devices; Highly motivated and
-knowledgeable owner; Value proposition tied to element no
-one can refuse: improving the quality of life and decreasing
-long-term medical expenses; Targeting of specific market in
-King County will lead to market domination in area;
-grapevine/word-of-mouth will spread across region and
-country for expanded growth; Those interested in smart
-watches will see our product an equally viable option to
-purchase considering comparable price and extra features
+- Only health/fitness band in industry to track blood sugar,
+  blood cholesterol, blood pressure, and blood fat levels
+- Subscription service allows access and use across all
+  major operating systems and mobile devices
+- Highly motivated and knowledgeable owner
+- Value proposition tied to element no one can refuse:
+  improving the quality of life and decreasing long-term
+  medical expenses
+- Targeting of specific market in King County will lead to
+  market domination in area
+- grapevine/word-of-mouth will spread across region and
+  country for expanded growth
+- Those interested in smart watches will see our product an
+  equally viable option to purchase considering comparable
+  price and extra features
 
 **Weaknesses (internal)**
 
-Establishing a new business; Must educate some of public on
-the benefits of wearable technology and the oneBand Health
-Band; Customers must be willing to bear long-term
-subscription costs (up to $180/year); Must train staff on
-sourcing/manufacturing product as well as how to educate the
-public; Must grow customer base from zero
+- Establishing a new business
+- Must educate some of public on the benefits of wearable
+  technology and the oneBand Health Band
+- Customers must be willing to bear long-term subscription
+  costs (up to $180/year)
+- Must train staff on sourcing/manufacturing product as well
+  as how to educate the public
+- Must grow customer base from zero
 
 **Opportunities (external)**
 
-No competitor has a product comparable to ours in terms of
-set of features; Significant tax credits and deferrals for
-high-tech businesses in Washington State; People have a
-natural interest in products that can increase the quality
-of their lives; Almost 900,000 people define our target
-market; grapevine/word-of-mouth sharing on social media will
-allow our product, service, and business to naturally expand
-into other trading areas in the future; King County has a
-highly talented labor pool and many quality doctors we can
-consult with regarding our product and service; King
-County’s residents have a high discretionary income and high
-interest in tech products
+- No competitor has a product comparable to ours in terms of
+  set of features
+- Significant tax credits and deferrals for high-tech
+  businesses in Washington State
+- People have a natural interest in products that can
+  increase the quality of their lives
+- Almost 900,000 people define our target market
+- grapevine/word-of-mouth sharing on social media will allow
+  our product, service, and business to naturally expand
+  into other trading areas in the future
+- King County has a highly talented labor pool and many
+  quality doctors we can consult with regarding our product
+  and service
+- King County’s residents have a high discretionary income
+  and high interest in tech products
 
 **Threats (external)**
 
-When patents expire, there is nothing stopping larger
-companies from using our previously-proprietary technologies
-and software; Smart watches and health/fitness bands could
-be part of a fad; Changing political regulations regarding
-health/medical devices; Expiry of high-tech tax
-credits/deductions; Increasing scrutiny on manufacturing of
-technology products in Asia
+- When patents expire, there is nothing stopping larger
+  companies from using our previously-proprietary
+  technologies and software
+- Smart watches and health/fitness bands could be part of a
+  fad
+- Changing political regulations regarding health/medical
+  devices
+- Expiry of high-tech tax credits/deductions
+- Increasing scrutiny on manufacturing of technology
+  products in Asia
 
 ### Appendix B: Pricing of proposed product and service
 
 oneBand Health Band: Below is a table outlining the expected
 price per component per unit of the Health Band:
+
+_Table: Estimated oneBand Health Band component costs._
 
 | Product component                                               | Component type                    | Manufacturer                          | Price |
 | --------------------------------------------------------------- | --------------------------------- | ------------------------------------- | ----- |
@@ -1560,6 +1656,9 @@ oneBand Health Monitoring Service: Below is the a table
 outline the cost per subscriber per month of hosting and
 operating the online Health monitoring service.
 
+_Table: Estimated Health Monitoring Service monthly costs
+per subscriber._
+
 | Service element                                           | Provider     | Price (estimated cost per month per subscriber) |
 | --------------------------------------------------------- | ------------ | ----------------------------------------------- |
 | Amazon Web Services Health Monitoring application hosting | Amazon, Inc. | $3                                              |
@@ -1576,6 +1675,8 @@ subscription will be offered at $150 per year.
 
 #### oneBand LLC Revenue model
 
+_Table: oneBand revenue model._
+
 | Revenue stream            | Units sold   |        |            | Average sales price | Budgeted revenue |            |            |
 | ------------------------- | ------------ | ------ | ---------- | ------------------- | ---------------- | ---------- | ---------- |
 |                           | Conservative | Likely | Aggressive |                     | Conservative     | Likely     | Aggressive |
@@ -1585,6 +1686,8 @@ subscription will be offered at $150 per year.
 
 #### Cost model
 
+_Table: oneBand cost model._
+
 | Revenue stream            | Units sold   |        |            | Average cost per unit | Budgeted cost |            |            |
 | ------------------------- | ------------ | ------ | ---------- | --------------------- | ------------- | ---------- | ---------- |
 |                           | Conservative | Likely | Aggressive |                       | Conservative  | Likely     | Aggressive |
@@ -1593,6 +1696,8 @@ subscription will be offered at $150 per year.
 | Totals                    |              |        |            |                       | $778,125      | $2,075,208 | $1,556,250 |
 
 #### Gross profit model
+
+_Table: oneBand gross profit model._
 
 | Revenue Stream                                                                                                                                                                                                                                                                                                          | Units sold   |        |            | Average gross profit per unit | Budgeted gross profit |            |            |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------ | ---------- | ----------------------------- | --------------------- | ---------- | ---------- |
@@ -1605,6 +1710,8 @@ subscription will be offered at $150 per year.
 ### Appendix D: Fixed Asset and Deprecation Model
 
 #### oneBand LLC Fixed asset and deprecation schedule
+
+_Table: Fixed asset and deprecation schedule._
 
 | Count                  | Type                        | Description                              | Date    | Cost     |     |        | Value   | Expense    |
 | ---------------------- | --------------------------- | ---------------------------------------- | ------- | -------- | --- | ------ | ------- | ---------- |

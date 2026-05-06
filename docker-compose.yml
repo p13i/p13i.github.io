@@ -1,5 +1,3 @@
-version: "3"
-
 services:
   www:
     # Use the Dockerfile in this directory to build the www service image

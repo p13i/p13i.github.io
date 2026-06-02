@@ -83,7 +83,6 @@ title: "Sitemap"
     - [`/posts/2019/08/powder/` → Powder](/posts/2019/08/powder/)
     - [`/posts/2019/09/neon-noir/` → Neon Noir](/posts/2019/09/neon-noir/)
     - [`/posts/2019/09/copilot-ai/` → "Intelligent agents for industrial workers"](/posts/2019/09/copilot-ai/)
-    - [`/posts/2020/01/america/` → America](/posts/2020/01/america/)
     - [`/posts/2020/02/tesla-roadster/` → Tesla Roadster 2020](/posts/2020/02/tesla-roadster/)
     - [`/posts/2020/03/thanksgiving-chapel/` → Thanksgiving Chapel](/posts/2020/03/thanksgiving-chapel/)
     - [`/posts/2020/05/living-with-remembrance-agent/` → Living with a Remembrance Agent](/posts/2020/05/living-with-remembrance-agent/)

@@ -10,6 +10,7 @@ tags:
   - artificial-intelligence
   - notes
 layout: post
+redirect_from: "ml-notes"
 author: Pramod Kotipalli
 description:
   A high-fidelity transcription of handwritten CS 4641

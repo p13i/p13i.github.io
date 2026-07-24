@@ -3,6 +3,11 @@
   target: _self
   category: research
 
+- display: "Engineering ⚙️"
+  href: /engineering/
+  target: _self
+  category: engineering
+
 - display: "Writing 📝"
   href: /writing/
   target: _self

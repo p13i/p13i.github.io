@@ -193,10 +193,10 @@ wall-clock time is abundant, whether overnight, over the
 weekends, or during a full day of meetings.
 
 Thrash is not free. Roughly a quarter of my pull requests
-for my recent overnight builder runs were closed without
-ever merging, and the compute those attempts burned is real
-money whether or not anyone was awake to watch
-it[^thrash-cost].
+created by agents in my personal projects in the past few
+months were closed without ever merging, and the compute
+those attempts burned is real money whether or not anyone
+was awake to watch it[^thrash-cost].
 
 ## Collaboration
 

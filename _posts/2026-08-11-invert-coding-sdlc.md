@@ -29,12 +29,13 @@ a one-way monologue. Eric Mazur developed _peer instruction_
 at Harvard in the early 1990s by moving information transfer
 out of the classroom and information assimilation into the
 classroom, which let Mazur leverage valuable classroom time
-to coach students instead of lecturing them [1]. Jonathan
-Bergmann and Aaron Sams brought the same inversion to high
-school chemistry in 2007: while recording lectures for
-absent students, they found that the students who attended
-used the recordings to review [2]. Khan Academy popularized
-the model at scale via the internet [3].
+to coach students instead of lecturing them[^mazur-1997].
+Jonathan Bergmann and Aaron Sams brought the same inversion
+to high school chemistry in 2007: while recording lectures
+for absent students, they found that the students who
+attended used the recordings to review[^bergmann-sams-2012].
+Khan Academy popularized the model at scale via the
+internet[^khan-2011].
 
 A similar inversion is available for software engineers and
 their organizations. Programming may no longer need to
@@ -95,7 +96,7 @@ typical SWE workflow from before:
    - _With full test matrices, agents can pre-verify the
      design doc against prod deployments._
 
-A seven-stage model of SWE can be simplified to about three
+A seven-stage model of SWE can be simplified to four
 discrete review gates, requiring the most critical thinking
 from the operator:
 
@@ -118,10 +119,10 @@ what business hours entail.
 ## Specs & Agent Loops
 
 Recent AI systems provide `/goal` features that allow for
-"loop engineering" techniques [4]. The result is that SWEs
-_no longer have to monitor agents as they write code_; SWEs
-can work at the level of plans that specify detailed test
-cases.
+"loop engineering" techniques[^orosz-2026]. The result is
+that SWEs _no longer have to monitor agents as they write
+code_; SWEs can work at the level of plans that specify
+detailed test cases.
 
 Agents thrash, _a lot_: they "re-discover" how to use custom
 knobs within a system, they work down a train of thought
@@ -181,15 +182,14 @@ specs, and the people.
 
 ## References
 
-1. Eric Mazur,
-   [_Peer Instruction: A User's Manual_](https://mazur.harvard.edu/publications/peer-instruction-users-manual),
-   Prentice Hall, 1997.
-2. Jonathan Bergmann and Aaron Sams,
-   [_Flip Your Classroom: Reach Every Student in Every Class Every Day_](https://www.ascd.org/books/flip-your-classroom),
-   ISTE/ASCD, 2012.
-3. Sal Khan,
-   ["Let's use video to reinvent education"](https://www.ted.com/talks/sal_khan_let_s_use_video_to_reinvent_education),
-   TED2011, March 2011.
-4. Gergely Orosz,
-   ["What is 'loop engineering?'"](https://newsletter.pragmaticengineer.com/p/what-is-loop-engineering),
-   The Pragmatic Engineer, July 14, 2026.
+[^mazur-1997]:
+    [Eric Mazur, _Peer Instruction: A User's Manual_, Prentice Hall, 1997](https://mazur.harvard.edu/publications/peer-instruction-users-manual)
+
+[^bergmann-sams-2012]:
+    [Jonathan Bergmann and Aaron Sams, _Flip Your Classroom: Reach Every Student in Every Class Every Day_, ISTE/ASCD, 2012](https://www.ascd.org/books/flip-your-classroom)
+
+[^khan-2011]:
+    [Sal Khan, "Let's use video to reinvent education", TED2011, March 2011](https://www.ted.com/talks/sal_khan_let_s_use_video_to_reinvent_education)
+
+[^orosz-2026]:
+    [Gergely Orosz, "What is 'loop engineering?'", The Pragmatic Engineer, July 14, 2026](https://newsletter.pragmaticengineer.com/p/what-is-loop-engineering)

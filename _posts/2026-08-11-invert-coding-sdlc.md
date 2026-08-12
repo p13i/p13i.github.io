@@ -65,10 +65,10 @@ mind:
 7. Validate design doc against deployment.
 
 Here, steps 3 and 4 can take up the majority of an
-individual contributors time. As I will discuss later,
-leveraging loops and test-driven development with agents,
-can relocate the implementation and iterative code
-improvement work to outside of a human SWE's business hours.
+individual contributor's time. As I will discuss later,
+leveraging loops and test-driven development with agents can
+relocate the implementation and iterative code improvement
+work to outside of a human SWE's business hours.
 
 With agents maximally in the loop, we can annotate the
 typical SWE workflow from before:
@@ -88,8 +88,11 @@ typical SWE workflow from before:
    - _Agents "work backwards" against the comprehensive test
      matrices._
 5. Send code for review to team.
-   - _Agents pre-review much of the work and fix issues. SWE
-     only needs cursory review before sending to team._
+   - _Agents pre-review much of the work from various
+     adversarial angles and fix issues. The SWE shifts from
+     reading line by line to validating architecture,
+     security, and whether the implementation aligns with
+     their intent._
 6. Deploy code.
    - _Within careful bounds, agents can also debug and
      resolve deployment issues._
@@ -104,20 +107,45 @@ from the operator:
 1. SWEs and cross-functional (XFN) collaborators align on
    requirements in mostly-human written design docs, rich
    with artifacts.
-2. SWE developed mostly-prose plan files generated from
+2. SWE-developed mostly-prose plan files generated from
    human-authored design docs, ready to hand off to agents.
-3. SWEs code review of the agent's output against the plans.
-4. SWEs and XFN collaborators manual validate the design doc
-   against a deployed system.
+3. SWEs code review the agent's output against the plans.
+4. SWEs and XFN collaborators manually validate the design
+   doc against a deployed system.
 
 Effectively, we should restructure the SWE workday against
 these four types of gates, letting programming work become
 transparent for SWEs.
 
+This moves the bottleneck rather than removing it. My own
+overnight runs land between one and nine pull requests by
+morning against a few thousand agent tool
+calls[^review-load], and human review is now the scarcest
+thing in the system.
+
+The answer is to make each PR self-reviewable: the agent
+produces and documents everything a human needs to verify
+it, and orders the diff by risk rather than by filename. I
+render mine as HTML so the tests, the assumptions, and the
+unresolved questions sit beside the code instead of in
+another tab[^htmlify][^thariq-html].
+
 Goals and test matrices, in particular, enable this shift of
 what business hours entail.
 
 ## Specs & Agent Loops
+
+Spec-driven generation from OpenAPI and Protobuf[^openapi]
+has always stopped at the contract surface: models, clients,
+and server stubs with empty method bodies. The domain logic
+the contract does not encode stayed human work.
+
+What changed is not that generation exists. It is what can
+be attempted from a thin or informal spec. Agents draft
+those bodies, and they accept input far messier than a clean
+IDL, which is what lets a UI mock URL become an element of
+the test matrix. The draft is a hypothesis, not a compiled
+guarantee.
 
 Recent AI systems provide `/goal` features that allow for
 "loop engineering" techniques[^orosz-2026]. The result is
@@ -125,11 +153,24 @@ that SWEs _no longer have to monitor agents as they write
 code_; SWEs can work at the level of plans that specify
 detailed test cases.
 
+Over four consecutive nights, my personal projects drive
+agent loops that have run a median of about ten hours
+without me, the longest stretch just over
+fifteen[^unattended].
+
 Agents thrash, _a lot_: they "re-discover" how to use custom
 knobs within a system, they work down a train of thought
-that leads no where, and so on... the examples are endless,
+that leads nowhere, and so on... the examples are endless,
 before we even consider the effects of AI hallucination in
 elongating agent SWE timelines.
+
+In my own overnight builder runs across two days, 52
+operations produced 8 deliveries[^builder-census]. The
+interesting part is where they failed. None of the failures
+I root-caused was the model writing bad code. They were
+orchestration problems, like sessions killed too early by a
+watchdog or an agent waiting on a process that was already
+dead.
 
 The key migration for thrash is investing in the matrix of
 test cases beforehand so agents can write and work against
@@ -140,14 +181,22 @@ to find real and correct solutions in almost all domains of
 testing, including unit tests, load tests, UI tests, and
 service-level objective (SLO) verification. As in
 test-driven development, everything that can be encoded via
-tests or clear verbal acceptance criteria is a surface of
-engineering that SWEs most likely can trust agents to solve
-autonomously at human quality.
+tests or clear verbal acceptance criteria is a surface where
+agents can work unattended. Passing tests proves the code
+satisfies the tests, not that the tests captured what we
+meant, so the matrix itself becomes the artifact worth
+reviewing.
 
 This test matrix is what makes the async agent shift work.
 With agent goal loops, thrash costs wall-clock but async
 wall-clock time is abundant, whether overnight, over the
 weekends, or during a full day of meetings.
+
+Thrash is not free. Roughly a quarter of my pull requests
+for my recent overnight builder runs were closed without
+ever merging, and the compute those attempts burned is real
+money whether or not anyone was awake to watch
+it[^thrash-cost].
 
 ## Collaboration
 
@@ -194,3 +243,40 @@ specs, and the people.
 
 [^orosz-2026]:
     [Gergely Orosz, "What is 'loop engineering?'", The Pragmatic Engineer, July 14, 2026](https://newsletter.pragmaticengineer.com/p/what-is-loop-engineering)
+
+[^openapi]:
+    [The OpenAPI Specification](https://spec.openapis.org/oas/latest.html),
+    and the generators built on it such as
+    [OpenAPI Generator](https://openapi-generator.tech/)
+
+[^htmlify]:
+    [htmlify, a skill for rendering Markdown into reviewable HTML](https://github.com/trycopilotai/htmlify),
+    and the hosted version at
+    [htmlify.ai](https://htmlify.ai)
+
+[^thariq-html]:
+    [Thariq (@trq212) on HTML as a first-class format](https://x.com/trq212/status/2052809885763747935)
+
+[^builder-census]:
+    Census of my own unattended builder operations,
+    2026-08-08 to 2026-08-09, across my personal projects.
+    Counts are `total`, `provider_started`, `pre_provider`
+    and `delivered` from the operation state directory;
+    failure classes are from the run's own root-cause
+    ledger.
+
+[^unattended]:
+    Measured as the gap between genuine human inputs in a
+    single continuous orchestrator thread, 2026-08-08 to
+    2026-08-12. Automated continuations are excluded from
+    the human-turn count.
+
+[^review-load]:
+    Pull requests first appearing within each overnight
+    window over the same period, against tool-call counts
+    from the orchestrator transcript.
+
+[^thrash-cost]:
+    Share of my pull requests closed without merging across
+    my personal projects over the same period, measured from
+    the GitHub API.

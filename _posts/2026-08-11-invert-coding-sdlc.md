@@ -11,6 +11,7 @@ tags:
   - sdlc
   - programming
 author: Pramod Kotipalli
+image: "https://p13i.io/assets/2026-08-11-invert-coding-sdlc.png"
 description:
   AI agents are producing real outcomes for SWEs. It's
   important for software orgs to adjust their working

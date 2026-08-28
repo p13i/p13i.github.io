@@ -7,6 +7,7 @@ categories:
 tags:
   - industrial-design
 layout: post
+redirect_from: "id-talk"
 author: Pramod Kotipalli
 description:
   A talk given to high school students through CLOUD

@@ -4590,8 +4590,6 @@ var _emscripten_cancel_main_loop = () => {
   MainLoop.func = null;
 };
 
-var _emscripten_date_now = () => Date.now();
-
 var getHeapMax = () =>
   // Stay one Wasm page short of 4GB: while e.g. Chrome is able to allocate
   // full 4GB Wasm memories, the size will wrap back to 0 bytes in Wasm side
@@ -6087,10 +6085,6 @@ var wasmImports = {
   _abort_js: __abort_js,
   /** @export */
   emscripten_cancel_main_loop: _emscripten_cancel_main_loop,
-  /** @export */
-  emscripten_date_now: _emscripten_date_now,
-  /** @export */
-  emscripten_get_now: _emscripten_get_now,
   /** @export */
   emscripten_resize_heap: _emscripten_resize_heap,
   /** @export */

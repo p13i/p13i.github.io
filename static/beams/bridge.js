@@ -1,26 +1,10 @@
 (function () {
             "use strict";
 
-            var doc = document;
-            var docElement = doc.documentElement;
-            var body = doc.body;
             var canvas = document.getElementById(
               "raytracer-canvas"
             );
-            var gameShell = document.getElementById(
-              "raytracer-game-shell"
-            );
-            var fullscreenButton = document.getElementById(
-              "raytracer-fullscreen"
-            );
-            var resetButton = document.getElementById(
-              "raytracer-reset"
-            );
-            if (
-              !canvas ||
-              !gameShell ||
-              !fullscreenButton
-            ) {
+            if (!canvas) {
               return;
             }
 
@@ -237,78 +221,7 @@
                 return;
               }
               applyArrivals(parsed.arrivals);
-              drawEchogram(parsed.arrivals);
               syncUrlFromState();
-            }
-
-            var SOURCE_CSS_COLORS = [
-              "#ffd05d",
-              "#78f0ee",
-              "#ff71ab"
-            ];
-            var ECHOGRAM_WINDOW_MS = 100;
-
-            function drawEchogram(arrivals) {
-              var echogram = document.getElementById(
-                "raytracer-echogram"
-              );
-              if (!echogram || !echogram.getContext) {
-                return;
-              }
-              var ctx = echogram.getContext("2d");
-              if (!ctx) {
-                return;
-              }
-              var w = echogram.width;
-              var h = echogram.height;
-              var baseline = h - 18;
-              ctx.fillStyle = "#000000";
-              ctx.fillRect(0, 0, w, h);
-              ctx.strokeStyle = "#333333";
-              ctx.fillStyle = "#888888";
-              ctx.font = "11px monospace";
-              ctx.lineWidth = 1;
-              for (
-                var ms = 0;
-                ms <= ECHOGRAM_WINDOW_MS;
-                ms += 10
-              ) {
-                var x =
-                  (ms / ECHOGRAM_WINDOW_MS) * (w - 30) + 15;
-                ctx.beginPath();
-                ctx.moveTo(x, 8);
-                ctx.lineTo(x, baseline);
-                ctx.stroke();
-                ctx.fillText(String(ms), x - 8, h - 5);
-              }
-              ctx.fillText("ms", w - 14, h - 5);
-              ctx.strokeStyle = "#555555";
-              ctx.beginPath();
-              ctx.moveTo(15, baseline);
-              ctx.lineTo(w - 15, baseline);
-              ctx.stroke();
-              for (var i = 0; i < arrivals.length; i++) {
-                var arrival = arrivals[i];
-                var ax =
-                  ((arrival.d || 0) / ECHOGRAM_WINDOW_MS) *
-                    (w - 30) +
-                  15;
-                if (ax > w - 15) {
-                  continue;
-                }
-                var top =
-                  baseline - arrival.g * (baseline - 12);
-                ctx.strokeStyle =
-                  SOURCE_CSS_COLORS[arrival.s] || "#ffffff";
-                ctx.lineWidth = 2;
-                ctx.beginPath();
-                ctx.moveTo(ax, baseline);
-                ctx.lineTo(ax, top);
-                ctx.stroke();
-                ctx.fillStyle =
-                  SOURCE_CSS_COLORS[arrival.s] || "#ffffff";
-                ctx.fillRect(ax - 2, top - 2, 4, 4);
-              }
             }
 
             function startArrivalPolling() {
@@ -406,9 +319,6 @@
               } catch (err) {
                 return false;
               }
-              if (ly >= 0) {
-                applyLayerButtonClasses(ly);
-              }
               urlStateApplied = true;
               return true;
             }
@@ -458,47 +368,6 @@
                   "?" +
                   params.toString()
               );
-              applyLayerButtonClasses(state.ly);
-              reflectBeamformingOnLobeButton(state.bf);
-            }
-
-            var LAYER_BUTTON_BITS = [
-              ["raytracer-toggle-rays", 1],
-              ["raytracer-toggle-beams", 2],
-              ["raytracer-toggle-paths", 4],
-              ["raytracer-toggle-lobe", 8]
-            ];
-
-            function applyLayerButtonClasses(mask) {
-              if (typeof mask !== "number" || mask < 0) {
-                return;
-              }
-              for (
-                var i = 0;
-                i < LAYER_BUTTON_BITS.length;
-                i++
-              ) {
-                var toggle = document.getElementById(
-                  LAYER_BUTTON_BITS[i][0]
-                );
-                if (!toggle) {
-                  continue;
-                }
-                toggle.classList.toggle(
-                  "active",
-                  (mask & LAYER_BUTTON_BITS[i][1]) !== 0
-                );
-              }
-            }
-
-            function reflectBeamformingOnLobeButton(bf) {
-              var toggle = document.getElementById(
-                "raytracer-toggle-lobe"
-              );
-              if (!toggle) {
-                return;
-              }
-              toggle.classList.toggle("disabled", bf === 0);
             }
 
             var bridgeWaitTimer = window.setInterval(
@@ -508,43 +377,6 @@
                 }
               },
               200
-            );
-
-            function bindLayerButton(buttonId, layerName) {
-              var toggle =
-                document.getElementById(buttonId);
-              if (!toggle) {
-                return;
-              }
-              toggle.addEventListener("click", function () {
-                if (!runtimeReady()) {
-                  return;
-                }
-                window.Module.ccall(
-                  "RaytracerToggleLayer",
-                  null,
-                  ["string"],
-                  [layerName]
-                );
-                toggle.classList.toggle("active");
-                focusCanvas();
-              });
-            }
-            bindLayerButton(
-              "raytracer-toggle-rays",
-              "rays"
-            );
-            bindLayerButton(
-              "raytracer-toggle-beams",
-              "beams"
-            );
-            bindLayerButton(
-              "raytracer-toggle-paths",
-              "paths"
-            );
-            bindLayerButton(
-              "raytracer-toggle-lobe",
-              "lobe"
             );
 
             function ensureAudioStarted() {
@@ -736,253 +568,6 @@
               event.preventDefault();
             }
 
-            function dispatchReset() {
-              if (!hasBridge()) {
-                return;
-              }
-              ensureAudioStarted();
-              window.Module.ccall(
-                "RaytracerOnKeyDown",
-                null,
-                ["string"],
-                ["r"]
-              );
-              focusCanvas();
-            }
-
-            function currentFullscreenElement() {
-              if (document.fullscreenElement) {
-                return document.fullscreenElement;
-              }
-              if (document.webkitFullscreenElement) {
-                return document.webkitFullscreenElement;
-              }
-              if (document.mozFullScreenElement) {
-                return document.mozFullScreenElement;
-              }
-              if (document.msFullscreenElement) {
-                return document.msFullscreenElement;
-              }
-              return null;
-            }
-
-            function shellIsFullscreen() {
-              return (
-                currentFullscreenElement() === gameShell
-              );
-            }
-
-            function shellHasFallbackFullscreen() {
-              return gameShell.classList.contains(
-                "raytracer-game-immersive"
-              );
-            }
-
-            function setScrollLock(active) {
-              if (!docElement || !body) {
-                return;
-              }
-              if (active) {
-                docElement.classList.add(
-                  "raytracer-game-scroll-lock"
-                );
-                body.classList.add(
-                  "raytracer-game-scroll-lock"
-                );
-                return;
-              }
-              docElement.classList.remove(
-                "raytracer-game-scroll-lock"
-              );
-              body.classList.remove(
-                "raytracer-game-scroll-lock"
-              );
-            }
-
-            function syncFullscreenButton() {
-              var label = "Fullscreen";
-              if (
-                shellIsFullscreen() ||
-                shellHasFallbackFullscreen()
-              ) {
-                label = "Exit Fullscreen";
-              }
-              fullscreenButton.textContent = label;
-            }
-
-            function enterFallbackFullscreen() {
-              gameShell.classList.add(
-                "raytracer-game-immersive"
-              );
-              setScrollLock(true);
-              syncFullscreenButton();
-            }
-
-            function exitFallbackFullscreen() {
-              gameShell.classList.remove(
-                "raytracer-game-immersive"
-              );
-              if (!shellIsFullscreen()) {
-                setScrollLock(false);
-              }
-              syncFullscreenButton();
-            }
-
-            function requestShellFullscreen() {
-              if (gameShell.requestFullscreen) {
-                return gameShell.requestFullscreen.bind(
-                  gameShell
-                );
-              }
-              if (gameShell.webkitRequestFullscreen) {
-                return gameShell.webkitRequestFullscreen.bind(
-                  gameShell
-                );
-              }
-              if (gameShell.mozRequestFullScreen) {
-                return gameShell.mozRequestFullScreen.bind(
-                  gameShell
-                );
-              }
-              if (gameShell.msRequestFullscreen) {
-                return gameShell.msRequestFullscreen.bind(
-                  gameShell
-                );
-              }
-              return null;
-            }
-
-            function exitDocumentFullscreen() {
-              if (document.exitFullscreen) {
-                return document.exitFullscreen.bind(
-                  document
-                );
-              }
-              if (document.webkitExitFullscreen) {
-                return document.webkitExitFullscreen.bind(
-                  document
-                );
-              }
-              if (document.mozCancelFullScreen) {
-                return document.mozCancelFullScreen.bind(
-                  document
-                );
-              }
-              if (document.msExitFullscreen) {
-                return document.msExitFullscreen.bind(
-                  document
-                );
-              }
-              return null;
-            }
-
-            function enterFullscreenMode() {
-              var requestFullscreen =
-                requestShellFullscreen();
-              if (!requestFullscreen) {
-                enterFallbackFullscreen();
-                return;
-              }
-
-              var requestResult = null;
-              try {
-                requestResult = requestFullscreen();
-              } catch (err) {
-                enterFallbackFullscreen();
-                return;
-              }
-
-              if (
-                requestResult &&
-                typeof requestResult.then === "function"
-              ) {
-                requestResult
-                  .then(function () {
-                    syncFullscreenButton();
-                  })
-                  .catch(function () {
-                    enterFallbackFullscreen();
-                  });
-                return;
-              }
-
-              window.setTimeout(function () {
-                if (!shellIsFullscreen()) {
-                  enterFallbackFullscreen();
-                  return;
-                }
-                syncFullscreenButton();
-              }, 0);
-            }
-
-            function exitFullscreenMode() {
-              var exitFullscreen = exitDocumentFullscreen();
-              if (shellHasFallbackFullscreen()) {
-                exitFallbackFullscreen();
-                return;
-              }
-              if (!shellIsFullscreen() || !exitFullscreen) {
-                syncFullscreenButton();
-                return;
-              }
-
-              var exitResult = null;
-              try {
-                exitResult = exitFullscreen();
-              } catch (err) {
-                syncFullscreenButton();
-                return;
-              }
-
-              if (
-                exitResult &&
-                typeof exitResult.then === "function"
-              ) {
-                exitResult
-                  .then(function () {
-                    syncFullscreenButton();
-                  })
-                  .catch(function () {
-                    syncFullscreenButton();
-                  });
-                return;
-              }
-
-              window.setTimeout(function () {
-                syncFullscreenButton();
-              }, 0);
-            }
-
-            function toggleFullscreen() {
-              if (
-                shellIsFullscreen() ||
-                shellHasFallbackFullscreen()
-              ) {
-                exitFullscreenMode();
-                return;
-              }
-              enterFullscreenMode();
-            }
-
-            function handleFullscreenStateChange() {
-              if (
-                shellIsFullscreen() &&
-                shellHasFallbackFullscreen()
-              ) {
-                gameShell.classList.remove(
-                  "raytracer-game-immersive"
-                );
-                setScrollLock(false);
-              }
-              if (
-                !shellIsFullscreen() &&
-                !shellHasFallbackFullscreen()
-              ) {
-                setScrollLock(false);
-              }
-              syncFullscreenButton();
-            }
-
             if (window.PointerEvent) {
               canvas.addEventListener(
                 "pointerdown",
@@ -1038,33 +623,5 @@
               "keydown",
               dispatchKeyDown
             );
-            fullscreenButton.addEventListener(
-              "click",
-              toggleFullscreen
-            );
-            document.addEventListener(
-              "fullscreenchange",
-              handleFullscreenStateChange
-            );
-            document.addEventListener(
-              "webkitfullscreenchange",
-              handleFullscreenStateChange
-            );
-            document.addEventListener(
-              "mozfullscreenchange",
-              handleFullscreenStateChange
-            );
-            document.addEventListener(
-              "MSFullscreenChange",
-              handleFullscreenStateChange
-            );
-            if (resetButton) {
-              resetButton.addEventListener(
-                "click",
-                dispatchReset
-              );
-            }
-
-            syncFullscreenButton();
             window.Module = { canvas: canvas };
           })();

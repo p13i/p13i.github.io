@@ -12,7 +12,9 @@
 #	make push
 #		Adds all unstaged changes and commits and pushes
 #   make lint
-#		Appplies code formatting
+#		Checks formatting with pinned trycopilotai/lint
+#   make format
+#		Applies formatting with pinned trycopilotai/lint
 #   make sync
 # 		Pulls changes from git and pushes local commits
 #   make newpost
@@ -97,23 +99,25 @@ newpost:
 	print(f"Created {target_path}")
 	PY
 
-setup-lint:
+setup-scripts:
 	pip3 install pillow
 	pip3 install requests
-	pip3 install black
 	pip3 install pyyaml
-	npm install --global prettier
-
-lint-markups:
-	npx prettier --write --print-width 60 --trailing-comma=none --prose-wrap always '**/*.{md,html,yml,yaml}'
-
-lint-python: 
-	python3 -m black .
 
 write-tweet-titles:
 	python3 scripts/update_jekyll_titles.py _tweets
 
-lint: write-tweet-titles generate-sitemap lint-markups lint-python
+# Clones pinned trycopilotai/lint v0.1.8 into .cache once.
+lint-checkout:
+	test -f .cache/lint-v0.1.8/lint.py || { rm -rf .cache/lint-v0.1.8 && git -c advice.detachedHead=false clone --quiet --depth 1 --branch v0.1.8 https://github.com/trycopilotai/lint.git .cache/lint-v0.1.8; }
+
+# Checks Markdown, YAML, and Python formatting without writing.
+lint: lint-checkout
+	python3 .cache/lint-v0.1.8/lint.py --read-only --docker --print-width 60 --language markdown --language yaml --language python
+
+# Applies the formatting that make lint checks.
+format: lint-checkout
+	python3 .cache/lint-v0.1.8/lint.py --write --docker --print-width 60 --language markdown --language yaml --language python
 
 sync: pull
 	git push

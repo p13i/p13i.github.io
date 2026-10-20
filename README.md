@@ -14,3 +14,11 @@ Personal website
    `git clone https://github.com/p13i/p13i.github.io.git`
 3. Run `make up`
 4. Open `localhost:4000`
+
+## Check formatting
+
+`make lint` checks Markdown, YAML, and Python formatting
+with pinned
+[trycopilotai/lint](https://github.com/trycopilotai/lint)
+v0.1.8 and does not write. `make format` applies that
+formatting. Both need Docker and Python 3.11 or newer.

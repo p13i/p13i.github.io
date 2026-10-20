@@ -1,0 +1,20 @@
+name: Lint
+on:
+  pull_request:
+  push:
+    branches: [gh-pages]
+permissions:
+  contents: read
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
+        with:
+          persist-credentials: false
+      - uses: trycopilotai/lint@v0.1.8
+        with:
+          mode: read-only
+          docker: "true"
+          languages: markdown,yaml,python
+          print-width: "60"

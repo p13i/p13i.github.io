@@ -1,0 +1,26 @@
+name: Auto lint pull request
+on:
+  push:
+    branches: [gh-pages]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  auto-lint:
+    permissions:
+      contents: write
+      issues: write
+      packages: read
+      pull-requests: write
+    uses: trycopilotai/auto-lint-pr/.github/workflows/auto-lint-pr.yml@v0.1.2
+    with:
+      base: gh-pages
+      languages: markdown,yaml,python
+      print-width: "60"
+      labels: auto-generated
+      reviewers: p13i
+      title: Apply automated formatting
+      body: >-
+        This pull request contains only the delta produced
+        by pinned trycopilotai/lint v0.1.8 for markdown,
+        yaml, and python at print width 60.
